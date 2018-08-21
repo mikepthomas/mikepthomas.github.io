@@ -30,11 +30,11 @@ export default class Navigation extends React.Component {
 
     render() {
         return (
-            <Navbar color="dark" dark expand="md">
+            <Navbar color="dark" dark expand="md" fixed="top">
                 <NavbarBrand href="/">Mike Thomas</NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
-                    <Nav className="ml-auto" navbar>
+                    <Nav className="mr-auto" navbar>
                         <NavItem>
                             <NavLink href="https://github.com/mikepthomas">
                                 <FontAwesomeIcon icon={ faGithub } />&nbsp;

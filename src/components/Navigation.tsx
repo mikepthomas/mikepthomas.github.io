@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import {
     Collapse,
     Nav,
@@ -8,12 +8,16 @@ import {
     NavItem,
     NavLink
 } from 'reactstrap';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-export default class Navigation extends React.Component {
+interface IState {
+    isOpen: boolean;
+}
 
-    constructor(props) {
+export default class Navigation extends React.Component<any, IState> {
+
+    constructor(props: any) {
         super(props);
 
         this.toggle = this.toggle.bind(this);
@@ -22,28 +26,22 @@ export default class Navigation extends React.Component {
         };
     }
 
-    toggle() {
-        this.setState({
-            isOpen: !this.state.isOpen
-        });
-    }
-
-    render() {
+    public render() {
         return (
-            <Navbar color="dark" dark expand="md" fixed="top">
+            <Navbar color="dark" dark={ true } expand="md" fixed="top">
                 <NavbarBrand href="/">Mike Thomas</NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
-                <Collapse isOpen={this.state.isOpen} navbar>
-                    <Nav className="mr-auto" navbar>
+                <Collapse isOpen={this.state.isOpen} navbar={ true }>
+                    <Nav className="mr-auto" navbar={ true }>
                         <NavItem>
                             <NavLink href="https://github.com/mikepthomas">
-                                <FontAwesomeIcon icon={ faGithub } />&nbsp;
+                                <FontAwesomeIcon icon={['fab', 'github']} />&nbsp;
                                 GitHub profile
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="https://www.linkedin.com/in/mikepaulthomas">
-                                <FontAwesomeIcon icon={ faLinkedin } />&nbsp;
+                                <FontAwesomeIcon icon={['fab', 'linkedin']} />&nbsp;
                                 LinkedIn profile
                             </NavLink>
                         </NavItem>
@@ -51,5 +49,11 @@ export default class Navigation extends React.Component {
                 </Collapse>
             </Navbar>
         );
+    }
+
+    private toggle() {
+        this.setState({
+            isOpen: !this.state.isOpen
+        });
     }
 }

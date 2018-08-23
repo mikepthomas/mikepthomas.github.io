@@ -5,8 +5,7 @@ import App from './App';
 import registerServiceWorker from './js/registerServiceWorker';
 import setupFontAwesome from './js/setupFontAwesome';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
+import './css/bootstrap.css';
 
 setupFontAwesome();
 ReactDOM.render(

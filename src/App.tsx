@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import Navigation from './components/Navigation';
-import logo from './logo.svg';
+import logo from './img/logo.svg';
 
 import './App.css';
 

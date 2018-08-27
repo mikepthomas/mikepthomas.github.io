@@ -23,12 +23,44 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
- .github-banner {
-    img {
-        position: fixed;
-        top: 0;
-        right: 0;
-        border: 0;
-        z-index: 10000;
+@import 'bootstrap/scss/_functions';
+@import 'bootstrap/scss/_variables';
+@import 'bootstrap/scss/mixins/_breakpoints';
+
+.jumbotron {
+    background-image: url("../../img/banner-sm.jpg");
+    background-repeat: no-repeat;
+    background-position: 35% 100%;
+    background-size: cover;
+    color: whitesmoke;
+    text-shadow: 3px 3px 3px $dark, 0 0 1px black;
+    height: 100%;
+
+    .container {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10%;
+
+        h1 {
+            font-family: 'Press Start 2P';
+        }
+        p {
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        .container {
+            width: 100%;
+        }
+    }
+    @include media-breakpoint-up(md) {
+        background-image: url("../../img/banner-md.jpg");
+    }
+    @include media-breakpoint-up(xl) {
+        background-image: url("../../img/banner.jpg");
+        background-attachment: fixed;
+        background-position-x: 0;
     }
 }

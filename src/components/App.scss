@@ -26,9 +26,18 @@
 html, body, #root, .App {
     height: 100%;
 }
+ul {
+    padding-left: 15px;
+}
+.nav-padding {
+    padding-top: 51px;
+}
 
 // Override default variables (bootstrap/scss/_variables.scss)
 $font-size-base: 0.8rem !default;
+
+// Import Animate.css
+@import 'animate.css/animate';
 
 // Import Bootstrap
 @import 'bootstrap/scss/bootstrap';

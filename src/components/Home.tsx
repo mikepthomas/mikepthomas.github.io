@@ -23,25 +23,25 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import * as React from 'react';
 import {
-    faAnchor,
-    faBriefcase,
-    faCalendarAlt,
-    faGraduationCap,
-    faLock,
-    faWrench
-} from '@fortawesome/free-solid-svg-icons'
+  About,
+  Intro,
+  Projects,
+  Timeline
+} from '.';
 
-export default function register() {
-    library.add(
-        faAnchor,
-        faBriefcase,
-        faCalendarAlt,
-        faGraduationCap,
-        faLock,
-        faWrench,
-        fab
+import * as timelineProps from '../data/Experience.json';
+
+export default class Home extends React.Component {
+  public render() {
+    return (
+        <React.Fragment>
+          <Intro />
+          <About />
+          <Projects />
+          <Timeline {...timelineProps} />
+        </React.Fragment>
     );
+  }
 }

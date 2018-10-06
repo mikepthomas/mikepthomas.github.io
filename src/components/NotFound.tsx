@@ -23,25 +23,16 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import {
-    faAnchor,
-    faBriefcase,
-    faCalendarAlt,
-    faGraduationCap,
-    faLock,
-    faWrench
-} from '@fortawesome/free-solid-svg-icons'
+import * as React from 'react';
+import { Container } from 'reactstrap';
 
-export default function register() {
-    library.add(
-        faAnchor,
-        faBriefcase,
-        faCalendarAlt,
-        faGraduationCap,
-        faLock,
-        faWrench,
-        fab
+export default class NotFound extends React.Component {
+  public render() {
+    return (
+      <Container className="nav-padding">
+        <h1 className="mb-2">404 Not Found</h1>
+        <hr />
+      </Container>
     );
+  }
 }

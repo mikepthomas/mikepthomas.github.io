@@ -23,25 +23,31 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import {
-    faAnchor,
-    faBriefcase,
-    faCalendarAlt,
-    faGraduationCap,
-    faLock,
-    faWrench
-} from '@fortawesome/free-solid-svg-icons'
+import * as React from 'react';
+import { Container } from 'reactstrap';
 
-export default function register() {
-    library.add(
-        faAnchor,
-        faBriefcase,
-        faCalendarAlt,
-        faGraduationCap,
-        faLock,
-        faWrench,
-        fab
-    );
+import TimelinePanel, { IExperienceItem } from './TimelinePanel'
+
+import './Timeline.css';
+
+interface IProps {
+    experience: IExperienceItem[];
 }
+
+export default class Timeline extends React.Component<IProps, any>  {
+    constructor(props: IProps) {
+        super(props);
+    }
+
+    public render() {
+        return (
+            <Container>
+                <h1 className="mt-2" id="timeline">How I've got here!</h1>
+                <ul className="timeline">
+                    { this.props.experience.map((item, key) => <TimelinePanel key={key} {...item} />) }
+                </ul>
+                <hr />
+            </Container>
+        );
+    };
+};

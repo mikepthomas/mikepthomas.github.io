@@ -23,25 +23,28 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import * as React from 'react';
 import {
-    faAnchor,
-    faBriefcase,
-    faCalendarAlt,
-    faGraduationCap,
-    faLock,
-    faWrench
-} from '@fortawesome/free-solid-svg-icons'
+    Button,
+    Col
+} from 'reactstrap';
 
-export default function register() {
-    library.add(
-        faAnchor,
-        faBriefcase,
-        faCalendarAlt,
-        faGraduationCap,
-        faLock,
-        faWrench,
-        fab
-    );
+interface IProps {
+    children: string,
+    link: string,
+    name: string
 }
+
+export default class Project extends React.Component<IProps, any> {
+    public render() {
+        return (
+            <Col lg="3">
+                <h2 className="mt-2">{ this.props.name }</h2>
+                <p>{ this.props.children }</p>
+                <a href={ this.props.link }>
+                    <Button color="info">View details »</Button>
+                </a>
+            </Col>
+        );
+    };
+};

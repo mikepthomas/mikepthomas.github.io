@@ -24,32 +24,37 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import * as React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-
 import {
-  Footer,
-  Navigation
-} from '.';
-import Home from './Home';
-import NotFound from './NotFound';
+    Container,
+    Row
+} from 'reactstrap';
+import Project from './Project';
 
-import './App.css';
-
-import * as navigationProps from '../data/Navigation.json';
-
-export default class App extends React.Component {
-  public render() {
-    return (
-      <Router>
-        <div className="App">
-          <Navigation {...navigationProps} />
-          <Switch>
-            <Route exact={ true } path="/" component={ Home } />
-            <Route component={ NotFound } />
-          </Switch>
-          <Footer />
-        </div>
-      </Router>
-    );
-  }
-}
+export default class Projects extends React.Component {
+    public render() {
+        return (
+            <Container>
+                <h1 className="mb-2" id="projects">Current projects</h1>
+                <Row>
+                    <Project name="FAHView" link="/fahview">
+                        Final year University project. To create a viewer application in Java
+                        to display information from a Folding@Home client.
+                    </Project>
+                    <Project name="FAHWeb" link="/fahweb">
+                        Extension of work on FAHView. To create a web front end
+                        to control Folding@Home v7 clients.
+                    </Project>
+                    <Project name="FAHServices" link="/fahservices">
+                        Extension of work on FAHWeb.To create a REST API to be
+                        used by FAHWeb to control Folding@Home v7 clients.
+                    </Project>
+                    <Project name="jFold" link="/jfold">
+                        Java Library to connect to the Client Remote Interface
+                        in the new new Folding@Home v7 Client.
+                    </Project>
+                </Row>
+                <hr />
+            </Container>
+        );
+    };
+};

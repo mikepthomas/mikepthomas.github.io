@@ -29,22 +29,30 @@ import {
     Nav,
     Navbar,
     NavbarBrand,
-    NavbarToggler,
-    NavItem,
-    NavLink
+    NavbarToggler
 } from 'reactstrap';
+import SocialLink from './SocialLink';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { IconName } from '@fortawesome/free-brands-svg-icons';
 
 import './Navigation.css';
+
+interface ISocialItem {
+    project?: string
+    user: string
+}
+
+interface IProps {
+    [key: string]: ISocialItem;
+}
 
 interface IState {
     isOpen: boolean;
 }
 
-export default class Navigation extends React.Component<any, IState> {
+export default class Navigation extends React.Component<IProps, IState> {
 
-    constructor(props: any) {
+    constructor(props: IProps) {
         super(props);
 
         this.toggle = this.toggle.bind(this);
@@ -56,31 +64,32 @@ export default class Navigation extends React.Component<any, IState> {
     public render() {
         return (
             <div className="Navigation">
-                <a className="github-banner d-none d-md-block" href="https://github.com/mikepthomas/mikepthomas.github.io">
+                <a className="github-banner d-none d-md-block" href={ this.getGitHubProjectUrl() }>
                     <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub" />
                 </a>
-                <Navbar color="dark" dark={ true } expand="md" fixed="top">
+                <Navbar color="dark" dark={true} expand="md" fixed="top">
                     <NavbarBrand href="/">Mike Thomas</NavbarBrand>
-                    <NavbarToggler onClick={this.toggle} />
-                    <Collapse isOpen={this.state.isOpen} navbar={ true }>
+                    <NavbarToggler onClick={ this.toggle } />
+                    <Collapse isOpen={ this.state.isOpen } navbar={ true }>
                         <Nav className="mr-auto" navbar={ true }>
-                            <NavItem>
-                                <NavLink href="https://github.com/mikepthomas">
-                                    <FontAwesomeIcon icon={['fab', 'github']} />&nbsp;
-                                    GitHub profile
-                                </NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="https://www.linkedin.com/in/mikepaulthomas">
-                                    <FontAwesomeIcon icon={['fab', 'linkedin']} />&nbsp;
-                                    LinkedIn profile
-                                </NavLink>
-                            </NavItem>
+                            { 
+                                Object.keys(this.props).map((type:IconName, key) => 
+                                    <SocialLink key={ key } type={ type } { ...this.props[type] } />
+                                )
+                            }
                         </Nav>
                     </Collapse>
                 </Navbar>
             </div>
         );
+    }
+
+    private getGitHubUrl(): string {
+        return "https://github.com/" + this.props.github.user;
+    }
+
+    private getGitHubProjectUrl(): string {
+        return this.getGitHubUrl() + "/" + this.props.github.project;
     }
 
     private toggle() {

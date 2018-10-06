@@ -31,7 +31,6 @@ import {
   Navigation
 } from '.';
 import Home from './Home';
-import NotFound from './NotFound';
 
 import './App.css';
 
@@ -45,7 +44,6 @@ export default class App extends React.Component {
           <Navigation {...navigationProps} />
           <Switch>
             <Route exact={ true } path="/" component={ Home } />
-            <Route component={ NotFound } />
           </Switch>
           <Footer />
         </div>

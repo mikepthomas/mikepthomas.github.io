@@ -28,12 +28,12 @@ import * as ReactDOM from 'react-dom';
 
 import { App } from './components';
 
-import registerServiceWorker from './js/registerServiceWorker';
+import { unregister } from './js/registerServiceWorker';
 import setupFontAwesome from './js/setupFontAwesome';
 
 setupFontAwesome();
+unregister();
 ReactDOM.render(
   <App />,
   document.getElementById('root') as HTMLElement
 );
-registerServiceWorker();

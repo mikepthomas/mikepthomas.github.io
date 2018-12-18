@@ -44,6 +44,7 @@ Assembly of the car is split into the following parts:
 ![](https://cdn.thingiverse.com/renders/b0/b3/37/79/ad/Chassie_Assembly_preview_featured.jpg)
 *Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)*
 
-| Item | Quantity | Part Number | Material | Cost |
+| Item | Quantity | Description | Material | Cost |
 | --- |---|---|---|---|
 | 1 | 6 | [AHC Countersunk Allen Key Bolts M3 3mm x 8mm](https://www.amazon.co.uk/gp/product/B00GR404L8) | Stainless Steel | £4.39 (Pack of 500) |
+| 2 | 1 | [Servo Holder](https://www.thingiverse.com/thing:1193309) | [Dark Grey PrimaValue PLA](https://www.amazon.co.uk/dp/B01DWTS7KA) |  |

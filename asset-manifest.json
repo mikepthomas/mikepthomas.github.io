@@ -1,9 +1,10 @@
 {
-  "main.css": "static/css/main.b134fa31.css",
-  "main.css.map": "static/css/main.b134fa31.css.map",
-  "main.js": "static/js/main.c23a9ab4.js",
-  "main.js.map": "static/js/main.c23a9ab4.js.map",
+  "main.css": "static/css/main.3bacc391.css",
+  "main.css.map": "static/css/main.3bacc391.css.map",
+  "main.js": "static/js/main.8fd9c84b.js",
+  "main.js.map": "static/js/main.8fd9c84b.js.map",
   "static/media/banner-md.jpg": "static/media/banner-md.9f501b90.jpg",
   "static/media/banner-sm.jpg": "static/media/banner-sm.b46b6f32.jpg",
-  "static/media/banner.jpg": "static/media/banner.91c5b554.jpg"
+  "static/media/banner.jpg": "static/media/banner.91c5b554.jpg",
+  "static/media/openrc.md": "static/media/openrc.06874bac.md"
 }

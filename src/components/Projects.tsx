@@ -59,7 +59,9 @@ export default class Projects extends React.Component<IProps, IState> {
   }
 
   public componentDidMount() {
-    const file = "https://raw.githubusercontent.com/mikepthomas/mikepthomas.github.io/develop/src/data/markdown/openrc.md";
+    const file = "https://raw.githubusercontent.com/" +
+      "mikepthomas/mikepthomas.github.io/develop/src/data/markdown/" +
+      this.props.match.params.project + ".md";
     fetch(file)
     .then(response => {
       return response.text()

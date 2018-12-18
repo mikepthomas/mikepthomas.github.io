@@ -50,7 +50,7 @@ export default class TimelinePanel extends React.Component<IExperienceItem, any>
 
     public render() {
         return (
-            <ReactWOW animation={ this.props.inverted ? "fadeInRight" : "fadeInLeft" } duration='0.5s'>
+            <ReactWOW animation={ this.props.inverted ? "zoomInRight" : "zoomInLeft" } duration='0.5s'>
                 <li className={ this.props.inverted ? "timeline-inverted" : "" }>
                     <div className={ "timeline-badge " + this.props.color }>
                         <FontAwesomeIcon icon={ this.props.icon } />

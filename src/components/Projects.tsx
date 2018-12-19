@@ -24,16 +24,16 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import * as React from 'react';
+import { renderToString } from 'react-dom/server'
 import * as Markdown from 'react-markdown';
 import { match } from 'react-router';
 import { HashLink as Link } from 'react-router-hash-link';
+import ReactWOW from 'react-wow';
 import {
   Col,
   Container,
   Row
 } from 'reactstrap';
-
-import { renderToString } from 'react-dom/server'
 
 import './Projects.css';
 
@@ -78,7 +78,7 @@ export default class Projects extends React.Component<IProps, IState> {
       <Container className="nav-padding projects-page">
         <Row>
           <Col className="markdown" sm="8">
-                <Markdown source={ this.state.markdown } renderers={{heading: this.headingRenderer, link: this.linkRenderer}} />
+                <Markdown source={ this.state.markdown } renderers={{heading: this.headingRenderer, image: this.imageRenderer, link: this.linkRenderer}} />
           </Col>
           <Col className="sidebar" sm={{ size: 3, offset: 1 }}>
           <div className="sidebar-module sidebar-module-inset">
@@ -100,6 +100,16 @@ export default class Projects extends React.Component<IProps, IState> {
     );
   }
 
+  private headingRenderer(props: any): JSX.Element {
+    const text = renderToString(props.children[0]);
+    const formatted = text.toLowerCase().replace(/\W/g, '-');
+    return React.createElement('h' + props.level, { id: formatted }, props.children);
+  }
+
+  private imageRenderer(props: any): JSX.Element {
+      return <ReactWOW offset={-200} animation="fadeIn" ><img alt= { props.alt } src={ props.src }>{ props.children }</img></ReactWOW>
+  }
+
   private linkRenderer(props: HTMLAnchorElement): JSX.Element {
     if (props.href.match(/^(https?:)?\/\//)) {
       return <a href={props.href} target="_blank">{props.children}</a>
@@ -107,11 +117,5 @@ export default class Projects extends React.Component<IProps, IState> {
       // tslint:disable-next-line jsx-no-lambda
       return <Link scroll={ el => window.scroll({ behavior: "smooth", top: el.offsetTop + 10}) } to={ props.href }>{ props.children }</Link>
     }
-  }
-
-  private headingRenderer(props: any): JSX.Element {
-    const text = renderToString(props.children[0]);
-    const formatted = text.toLowerCase().replace(/\W/g, '-');
-    return React.createElement('h' + props.level, { id: formatted }, props.children);
   }
 }

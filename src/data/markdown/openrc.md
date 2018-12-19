@@ -48,3 +48,4 @@ Assembly of the car is split into the following parts:
 | --- |---|---|---|---|
 | 1 | 6 | [AHC Countersunk Allen Key Bolts M3 3mm x 8mm](https://www.amazon.co.uk/gp/product/B00GR404L8) | Stainless Steel | £4.39 (Pack of 500) |
 | 2 | 1 | [Servo Holder](https://www.thingiverse.com/thing:1193309) | [Dark Grey PrimaValue PLA](https://www.amazon.co.uk/dp/B01DWTS7KA) |  |
+| 3 | 1 | [Chassis](https://www.thingiverse.com/thing:1193309) | [Dark Grey PrimaValue PLA](https://www.amazon.co.uk/dp/B01DWTS7KA) |  |

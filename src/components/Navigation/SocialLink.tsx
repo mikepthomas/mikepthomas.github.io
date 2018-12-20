@@ -37,7 +37,7 @@ interface IProps {
     user: string
 }
 
-export default class SocialLink extends React.Component<IProps, any> {
+export default class SocialLink extends React.Component<IProps> {
 
     public render() {
         return (

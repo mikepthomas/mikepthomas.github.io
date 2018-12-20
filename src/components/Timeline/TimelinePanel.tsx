@@ -43,7 +43,7 @@ export interface IExperienceItem {
     inverted?: boolean
 }
 
-export default class TimelinePanel extends React.Component<IExperienceItem, any> {
+export default class TimelinePanel extends React.Component<IExperienceItem> {
     constructor(props: IExperienceItem) {
         super(props);
     }

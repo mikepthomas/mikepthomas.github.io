@@ -59,9 +59,13 @@ export default class Projects extends React.Component<IProps, IState> {
   }
 
   public componentDidMount() {
-    const file = "https://raw.githubusercontent.com/" +
-      "mikepthomas/mikepthomas.github.io/develop/src/data/markdown/" +
-      this.props.match.params.project + ".md";
+    let file = "data/markdown/" + this.props.match.params.project + ".md";
+    if (window.location.hostname === "localhost") {
+      file = require("../" + file)
+    } else {
+      file = "https://raw.githubusercontent.com/" +
+      "mikepthomas/mikepthomas.github.io/develop/src/" + file;
+    }
     fetch(file)
     .then(response => {
       return response.text()
@@ -106,8 +110,8 @@ export default class Projects extends React.Component<IProps, IState> {
     return React.createElement('h' + props.level, { id: formatted }, props.children);
   }
 
-  private imageRenderer(props: any): JSX.Element {
-      return <ReactWOW offset={-200} animation="fadeIn" ><img alt= { props.alt } src={ props.src }>{ props.children }</img></ReactWOW>
+  private imageRenderer(props: HTMLImageElement): JSX.Element {
+      return <ReactWOW offset={ -200 } animation="fadeIn" ><img alt= { props.alt } src={ props.src } /></ReactWOW>
   }
 
   private linkRenderer(props: HTMLAnchorElement): JSX.Element {

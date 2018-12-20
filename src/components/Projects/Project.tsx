@@ -35,7 +35,7 @@ interface IProps {
     name: string
 }
 
-export default class Project extends React.Component<IProps, any> {
+export default class Project extends React.Component<IProps> {
     public render() {
         return (
             <Col lg="3">

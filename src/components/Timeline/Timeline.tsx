@@ -34,7 +34,7 @@ interface IProps {
     experience: IExperienceItem[];
 }
 
-export default class Timeline extends React.Component<IProps, any>  {
+export default class Timeline extends React.Component<IProps>  {
     constructor(props: IProps) {
         super(props);
     }

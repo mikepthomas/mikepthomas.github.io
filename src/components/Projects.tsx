@@ -27,7 +27,8 @@ import * as React from 'react';
 import { renderToString } from 'react-dom/server'
 import * as Markdown from 'react-markdown';
 import { match } from 'react-router';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import ReactWOW from 'react-wow';
 import {
   Col,
@@ -46,6 +47,7 @@ interface IProps {
 }
 
 interface IState {
+  file: string;
   markdown: string;
 }
 
@@ -54,27 +56,35 @@ export default class Projects extends React.Component<IProps, IState> {
     super(props);
   
     this.state = {
+        file: "",
         markdown: ""
     }
   }
 
   public componentDidMount() {
-    let file = "data/markdown/" + this.props.match.params.project + ".md";
+    this.componentDidUpdate();
+  }
+
+  public componentDidUpdate() {
+    let url = "data/markdown/" + this.props.match.params.project + ".md";
     if (window.location.hostname === "localhost") {
-      file = require("../" + file)
+      url = require("../" + url)
     } else {
-      file = "https://raw.githubusercontent.com/" +
-      "mikepthomas/mikepthomas.github.io/develop/src/" + file;
+      url = "https://raw.githubusercontent.com/" +
+      "mikepthomas/mikepthomas.github.io/develop/src/" + url;
     }
-    fetch(file)
-    .then(response => {
-      return response.text()
-    })
-    .then(text => {
-      this.setState({
-        markdown: text
+    if (this.state.file !== url) {
+      fetch(url)
+      .then(response => {
+        return response.text()
       })
-    })
+      .then(text => {
+        this.setState({
+          file: url,
+          markdown: text
+        })
+      })
+    }
   }
 
   public render() {
@@ -87,13 +97,15 @@ export default class Projects extends React.Component<IProps, IState> {
           <Col className="sidebar" sm={{ size: 3, offset: 1 }}>
           <div className="sidebar-module sidebar-module-inset">
             <h4>About</h4>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>
+              Here you can find information about a select few projects I am currently working on.
+            </p>
           <div className="sidebar-module">
             <h4>Elsewhere</h4>
             <ol className="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
+              <li><Link to="/projects/printer">3D Printer</Link></li>
+              <li><Link to="/projects/guitar">Guitar</Link></li>
+              <li><Link to="/projects/openrc">OpenRC F1</Link></li>
             </ol>
           </div>
           </div>
@@ -119,7 +131,7 @@ export default class Projects extends React.Component<IProps, IState> {
       return <a href={props.href} target="_blank">{props.children}</a>
     } else {
       // tslint:disable-next-line jsx-no-lambda
-      return <Link scroll={ el => window.scroll({ behavior: "smooth", top: el.offsetTop + 10}) } to={ props.href }>{ props.children }</Link>
+      return <HashLink scroll={ el => window.scroll({ behavior: "smooth", top: el.offsetTop + 10}) } to={ props.href }>{ props.children }</HashLink>
     }
   }
 }

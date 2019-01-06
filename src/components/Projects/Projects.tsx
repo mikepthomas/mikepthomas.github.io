@@ -34,23 +34,23 @@ export default class Projects extends React.Component {
     public render() {
         return (
             <Container>
-                <h1 className="mb-2" id="projects">Current projects</h1>
+                <h1 className="mb-2" id="projects">Software projects</h1>
                 <Row>
-                    <Project name="FAHView" link="/fahview">
-                        Final year University project. To create a viewer application in Java
-                        to display information from a Folding@Home client.
-                    </Project>
-                    <Project name="FAHWeb" link="/fahweb">
-                        Extension of work on FAHView. To create a web front end
-                        to control Folding@Home v7 clients.
+                    <Project name="jFold" link="/jfold">
+                        Java 11 Library to connect and call functions of the
+                        Client Remote Interface in a Folding@Home v7 Client.
                     </Project>
                     <Project name="FAHServices" link="/fahservices">
-                        Extension of work on FAHWeb.To create a REST API to be
-                        used by FAHWeb to control Folding@Home v7 clients.
+                        Extension of work on FAHWeb. To create a REST API to be
+                        used by a web front end to control Folding@Home v7 clients.
                     </Project>
-                    <Project name="jFold" link="/jfold">
-                        Java Library to connect to the Client Remote Interface
-                        in the new new Folding@Home v7 Client.
+                    <Project name="FAHWeb" link="/fahweb">
+                        Achived: Extension of work on FAHView. To create a web front end
+                        to control Folding@Home v7 clients.
+                    </Project>
+                    <Project name="FAHView" link="/fahview">
+                        Archived: Final year University project. To create a viewer application
+                        to display information from a Folding@Home client.
                     </Project>
                 </Row>
                 <hr />

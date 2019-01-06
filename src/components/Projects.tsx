@@ -79,6 +79,7 @@ export default class Projects extends React.Component<IProps, IState> {
         return response.text()
       })
       .then(text => {
+        window.scrollTo(0, 0);
         this.setState({
           file: url,
           markdown: text

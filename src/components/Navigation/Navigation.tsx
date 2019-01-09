@@ -23,7 +23,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import * as React from 'react';
+import React, { Component } from 'react';
 import {
     Collapse,
     Nav,
@@ -31,28 +31,28 @@ import {
     NavbarBrand,
     NavbarToggler
 } from 'reactstrap';
-import SocialLink from './SocialLink';
 
+import SocialLink from './SocialLink';
 import { IconName } from '@fortawesome/free-brands-svg-icons';
 
 import './Navigation.scss';
 
-interface ISocialItem {
+interface SocialItem {
     project?: string
     user: string
 }
 
-interface IProps {
-    [key: string]: ISocialItem;
+interface Props {
+    [key: string]: SocialItem;
 }
 
-interface IState {
+interface State {
     isOpen: boolean;
 }
 
-export default class Navigation extends React.Component<IProps, IState> {
+export default class Navigation extends Component<Props, State> {
 
-    constructor(props: IProps) {
+    constructor(props: Props) {
         super(props);
 
         this.toggle = this.toggle.bind(this);
@@ -64,17 +64,17 @@ export default class Navigation extends React.Component<IProps, IState> {
     public render() {
         return (
             <div className="Navigation">
-                <a className="github-banner d-none d-md-block" href={ this.getGitHubProjectUrl() }>
+                <a className="github-banner d-none d-md-block" href={this.getGitHubProjectUrl()}>
                     <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub" />
                 </a>
                 <Navbar color="dark" dark={true} expand="md" fixed="top">
                     <NavbarBrand href="/">Mike Thomas</NavbarBrand>
-                    <NavbarToggler onClick={ this.toggle } />
-                    <Collapse isOpen={ this.state.isOpen } navbar={ true }>
-                        <Nav className="mr-auto" navbar={ true }>
-                            { 
-                                Object.keys(this.props).map((type, key) => 
-                                    <SocialLink key={ key } type={ type as IconName } { ...this.props[type] } />
+                    <NavbarToggler onClick={this.toggle} />
+                    <Collapse isOpen={this.state.isOpen} navbar={true}>
+                        <Nav className="mr-auto" navbar={true}>
+                            {
+                                Object.keys(this.props).map((type, key) =>
+                                    <SocialLink key={key} type={type as IconName} {...this.props[type]} />
                                 )
                             }
                         </Nav>

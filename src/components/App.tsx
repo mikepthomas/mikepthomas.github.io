@@ -23,7 +23,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import * as React from 'react';
+import React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
 import {
@@ -37,19 +37,17 @@ import './App.scss';
 
 import navigationProps from '../data/Navigation.json';
 
-export default class App extends React.Component {
-  public render() {
-    return (
-      <Router>
-        <div className="App">
-          <Navigation {...navigationProps} />
-          <Switch>
-            <Route exact={ true } path="/" component={ Home } />
-            <Route path="/projects/:project" component={ Projects } />
-          </Switch>
-          <Footer />
-        </div>
-      </Router>
-    );
-  }
+export default function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Navigation {...navigationProps} />
+        <Switch>
+          <Route exact={true} path="/" component={Home} />
+          <Route path="/projects/:project" component={Projects} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
+  );
 }

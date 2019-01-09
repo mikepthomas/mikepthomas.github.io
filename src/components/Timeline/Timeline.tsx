@@ -23,31 +23,25 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import * as React from 'react';
+import React from 'react';
 import { Container } from 'reactstrap';
 
-import TimelinePanel, { IExperienceItem } from './TimelinePanel'
+import TimelinePanel, { ExperienceItem } from './TimelinePanel'
 
 import './Timeline.scss';
 
-interface IProps {
-    experience: IExperienceItem[];
+interface Props {
+    experience: ExperienceItem[];
 }
 
-export default class Timeline extends React.Component<IProps>  {
-    constructor(props: IProps) {
-        super(props);
-    }
-
-    public render() {
-        return (
-            <Container>
-                <h1 className="mt-2" id="timeline">How I've got here!</h1>
-                <ul className="timeline">
-                    { this.props.experience.map((item, key) => <TimelinePanel key={key} {...item} />) }
-                </ul>
-                <hr />
-            </Container>
-        );
-    };
+export default function Timeline(props: Props) {
+    return (
+        <Container>
+            <h1 className="mt-2" id="timeline">How I've got here!</h1>
+            <ul className="timeline">
+                {props.experience.map((item, key) => <TimelinePanel key={key} {...item} />)}
+            </ul>
+            <hr />
+        </Container>
+    );
 };

@@ -23,7 +23,8 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import * as React from 'react';
+import React, { Fragment } from 'react';
+
 import {
   About,
   Intro,
@@ -33,15 +34,13 @@ import {
 
 import timelineProps from '../data/Experience.json';
 
-export default class Home extends React.Component {
-  public render() {
-    return (
-        <React.Fragment>
-          <Intro />
-          <About />
-          <Links />
-          <Timeline {...timelineProps} />
-        </React.Fragment>
-    );
-  }
+export default function Home() {
+  return (
+    <Fragment>
+      <Intro />
+      <About />
+      <Links />
+      <Timeline {...timelineProps} />
+    </Fragment>
+  );
 }

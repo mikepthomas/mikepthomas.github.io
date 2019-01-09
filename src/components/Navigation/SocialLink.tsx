@@ -23,7 +23,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import * as React from 'react';
+import React, { Component } from 'react';
 import {
     NavItem,
     NavLink
@@ -32,23 +32,23 @@ import {
 import { IconName } from '@fortawesome/fontawesome-common-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-interface IProps {
+interface Props {
     type: IconName
     user: string
 }
 
-export default class SocialLink extends React.Component<IProps> {
+export default class SocialLink extends Component<Props> {
 
     public render() {
         return (
             this.props.user ?
-            <NavItem>
-                <NavLink href={ this.getUrl() }>
-                    <FontAwesomeIcon icon={ ['fab', this.props.type] } />&nbsp;
-                    { this.getLinkText() }
-                </NavLink>
-            </NavItem>
-            : ""
+                <NavItem>
+                    <NavLink href={this.getUrl()}>
+                        <FontAwesomeIcon icon={['fab', this.props.type]} />&nbsp;
+                    {this.getLinkText()}
+                    </NavLink>
+                </NavItem>
+                : ""
         );
     }
 

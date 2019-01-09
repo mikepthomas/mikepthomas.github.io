@@ -23,28 +23,26 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import * as React from 'react';
+import React from 'react';
 import {
     Button,
     Col
 } from 'reactstrap';
 
-interface IProps {
+interface Props {
     children: string,
     link: string,
     name: string
 }
 
-export default class Link extends React.Component<IProps> {
-    public render() {
-        return (
-            <Col lg="3">
-                <h2 className="mt-2">{ this.props.name }</h2>
-                <p>{ this.props.children }</p>
-                <a href={ this.props.link }>
-                    <Button color="info">View details »</Button>
-                </a>
-            </Col>
-        );
-    };
+export default function Link(props: Props) {
+    return (
+        <Col lg="3">
+            <h2 className="mt-2">{props.name}</h2>
+            <p>{props.children}</p>
+            <a href={props.link}>
+                <Button color="info">View details »</Button>
+            </a>
+        </Col>
+    );
 };

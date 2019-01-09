@@ -23,7 +23,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import * as React from 'react';
+import React from 'react';
 import {
     Container,
     Jumbotron
@@ -31,30 +31,28 @@ import {
 
 import './Intro.scss';
 
-export default class Intro extends React.Component {
-    public render() {
-        return (
-            <Jumbotron>
-                <Container>
-                    <h1>Hello, world!</h1>
-                    <p>
-                        I'm a Software Engineer in Cardiff with broad knowledge of
-                        all aspects of the software development lifecycle, skilled
-                        in eliciting requirements, designing, coding and testing
-                        complex software systems using modern techniques and
-                        technologies.
-                    </p>
-                    <p className="d-none d-md-block">
-                        Experienced in a number of programming languages including
-                        C, Java, Ruby and Python and have a deep understanding of
-                        desktop operating systems, Windows and UNIX like, such as,
-                        Linux and Mac OS X and mobile, iOS and Android. Have worked
-                        within an agile team environment using the source control
-                        tools Subversion and Git and am familiar with continuous
-                        integration tools such as Jenkins and Hudson.
-                    </p>
-                </Container>
-            </Jumbotron>
-        );
-    };
+export default function Intro() {
+    return (
+        <Jumbotron>
+            <Container>
+                <h1>Hello, world!</h1>
+                <p>
+                    I'm a Software Engineer in Cardiff with broad knowledge of
+                    all aspects of the software development lifecycle, skilled
+                    in eliciting requirements, designing, coding and testing
+                    complex software systems using modern techniques and
+                    technologies.
+                </p>
+                <p className="d-none d-md-block">
+                    Experienced in a number of programming languages including
+                    C, Java, Ruby and Python and have a deep understanding of
+                    desktop operating systems, Windows and UNIX like, such as,
+                    Linux and Mac OS X and mobile, iOS and Android. Have worked
+                    within an agile team environment using the source control
+                    tools Subversion and Git and am familiar with continuous
+                    integration tools such as Jenkins and Hudson.
+                </p>
+            </Container>
+        </Jumbotron>
+    );
 };

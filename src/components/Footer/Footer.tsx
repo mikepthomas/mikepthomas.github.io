@@ -23,23 +23,19 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import * as React from 'react';
+import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import {
-    Container
-} from 'reactstrap';
+import { Container } from 'reactstrap';
 
-export default class Footer extends React.Component {
-    public render() {
-        return (
-            <footer className="text-muted">
-                <Container>
-                    <p className="float-right">
-                        <Link smooth={true} to="#root">Back to top</Link>
-                    </p>
-                    <p>&copy; 2016-2019 Mike Thomas, All rights reserved.</p>
-                </Container>
-            </footer>
-        );
-    };
+export default function Footer() {
+    return (
+        <footer className="text-muted">
+            <Container>
+                <p className="float-right">
+                    <Link smooth={true} to="#root">Back to top</Link>
+                </p>
+                <p>&copy; 2016-2019 Mike Thomas, All rights reserved.</p>
+            </Container>
+        </footer>
+    );
 };

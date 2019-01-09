@@ -23,38 +23,37 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import * as React from 'react';
+import React from 'react';
 import {
     Container,
     Row
 } from 'reactstrap';
+
 import Link from './Link';
 
-export default class Links extends React.Component {
-    public render() {
-        return (
-            <Container>
-                <h1 className="mb-2" id="projects">Software projects</h1>
-                <Row>
-                    <Link name="jFold" link="/jfold">
-                        Java 11 Library to connect and call functions of the
-                        Client Remote Interface in a Folding@Home v7 Client.
-                    </Link>
-                    <Link name="FAHServices" link="/fahservices">
-                        Extension of work on FAHWeb. To create a REST API to be
-                        used by a web front end to control Folding@Home v7 clients.
-                    </Link>
-                    <Link name="FAHWeb" link="/fahweb">
-                        Achived: Extension of work on FAHView. To create a web front end
-                        to control Folding@Home v7 clients.
-                    </Link>
-                    <Link name="FAHView" link="/fahview">
-                        Archived: Final year University project. To create a viewer application
-                        to display information from a Folding@Home client.
-                    </Link>
-                </Row>
-                <hr />
-            </Container>
-        );
-    };
+export default function Links() {
+    return (
+        <Container>
+            <h1 className="mb-2" id="projects">Software projects</h1>
+            <Row>
+                <Link name="jFold" link="/jfold">
+                    Java 11 Library to connect and call functions of the
+                    Client Remote Interface in a Folding@Home v7 Client.
+                </Link>
+                <Link name="FAHServices" link="/fahservices">
+                    Extension of work on FAHWeb. To create a REST API to be
+                    used by a web front end to control Folding@Home v7 clients.
+                </Link>
+                <Link name="FAHWeb" link="/fahweb">
+                    Achived: Extension of work on FAHView. To create a web front end
+                    to control Folding@Home v7 clients.
+                </Link>
+                <Link name="FAHView" link="/fahview">
+                    Archived: Final year University project. To create a viewer application
+                    to display information from a Folding@Home client.
+                </Link>
+            </Row>
+            <hr />
+        </Container>
+    );
 };

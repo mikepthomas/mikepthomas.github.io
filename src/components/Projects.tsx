@@ -23,7 +23,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import * as React from 'react';
+import React, { Component } from 'react';
 import { renderToString } from 'react-dom/server'
 import Markdown from 'react-markdown';
 import { match } from 'react-router';
@@ -38,26 +38,26 @@ import {
 
 import './Projects.scss';
 
-interface IProjectProps {
+interface ProjectProps {
   project: string;
 }
 
-interface IProps {
-  match: match<IProjectProps>;
+interface Props {
+  match: match<ProjectProps>;
 }
 
-interface IState {
+interface State {
   file: string;
   markdown: string;
 }
 
-export default class Projects extends React.Component<IProps, IState> {
-  constructor(props: IProps) {
+export default class Projects extends Component<Props, State> {
+  constructor(props: Props) {
     super(props);
-  
+
     this.state = {
-        file: "",
-        markdown: ""
+      file: "",
+      markdown: ""
     }
   }
 
@@ -71,20 +71,20 @@ export default class Projects extends React.Component<IProps, IState> {
       url = require("../" + url)
     } else {
       url = "https://raw.githubusercontent.com/" +
-      "mikepthomas/mikepthomas.github.io/develop/src/" + url;
+        "mikepthomas/mikepthomas.github.io/develop/src/" + url;
     }
     if (this.state.file !== url) {
       fetch(url)
-      .then(response => {
-        return response.text()
-      })
-      .then(text => {
-        window.scrollTo(0, 0);
-        this.setState({
-          file: url,
-          markdown: text
+        .then(response => {
+          return response.text()
         })
-      })
+        .then(text => {
+          window.scrollTo(0, 0);
+          this.setState({
+            file: url,
+            markdown: text
+          })
+        })
     }
   }
 
@@ -93,23 +93,23 @@ export default class Projects extends React.Component<IProps, IState> {
       <Container className="nav-padding projects-page">
         <Row>
           <Col className="markdown" sm="8">
-                <Markdown source={ this.state.markdown } renderers={{heading: this.headingRenderer, image: this.imageRenderer, link: this.linkRenderer}} />
+            <Markdown source={this.state.markdown} renderers={{ heading: this.headingRenderer, image: this.imageRenderer, link: this.linkRenderer }} />
           </Col>
           <Col className="sidebar" sm={{ size: 3, offset: 1 }}>
-          <div className="sidebar-module sidebar-module-inset">
-            <h4>About</h4>
-            <p>
-              Here you can find information about a select few projects I am currently working on.
+            <div className="sidebar-module sidebar-module-inset">
+              <h4>About</h4>
+              <p>
+                Here you can find information about a select few projects I am currently working on.
             </p>
-          <div className="sidebar-module">
-            <h4>Elsewhere</h4>
-            <ol className="list-unstyled">
-              <li><Link to="/projects/printer">3D Printer</Link></li>
-              <li><Link to="/projects/guitar">Guitar</Link></li>
-              <li><Link to="/projects/openrc">OpenRC F1</Link></li>
-            </ol>
-          </div>
-          </div>
+              <div className="sidebar-module">
+                <h4>Elsewhere</h4>
+                <ol className="list-unstyled">
+                  <li><Link to="/projects/printer">3D Printer</Link></li>
+                  <li><Link to="/projects/guitar">Guitar</Link></li>
+                  <li><Link to="/projects/openrc">OpenRC F1</Link></li>
+                </ol>
+              </div>
+            </div>
           </Col>
         </Row>
         <hr />
@@ -124,15 +124,14 @@ export default class Projects extends React.Component<IProps, IState> {
   }
 
   private imageRenderer(props: HTMLImageElement): JSX.Element {
-      return <ReactWOW offset={ -200 } animation="fadeIn" ><img alt= { props.alt } src={ props.src } /></ReactWOW>
+    return <ReactWOW offset={-200} animation="fadeIn" ><img alt={props.alt} src={props.src} /></ReactWOW>
   }
 
   private linkRenderer(props: HTMLAnchorElement): JSX.Element {
     if (props.href.match(/^(https?:)?\/\//)) {
       return <a href={props.href} target="_blank">{props.children}</a>
     } else {
-      // tslint:disable-next-line jsx-no-lambda
-      return <HashLink scroll={ el => window.scroll({ behavior: "smooth", top: el.offsetTop + 10}) } to={ props.href }>{ props.children }</HashLink>
+      return <HashLink scroll={el => window.scroll({ behavior: "smooth", top: el.offsetTop + 10 })} to={props.href}>{props.children}</HashLink>
     }
   }
 }

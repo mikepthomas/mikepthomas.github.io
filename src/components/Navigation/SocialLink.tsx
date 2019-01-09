@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (c) 2016-2019, Mike Thomas
  * All rights reserved.
  *
@@ -24,75 +24,72 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React, { Component } from 'react';
-import {
-    NavItem,
-    NavLink
-} from 'reactstrap';
+import { NavItem, NavLink } from 'reactstrap';
 
 import { IconName } from '@fortawesome/fontawesome-common-types';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 interface Props {
-    type: IconName
-    user: string
+  type: IconName;
+  user: string;
 }
 
 export default class SocialLink extends Component<Props> {
+  public render() {
+    return this.props.user ? (
+      <NavItem>
+        <NavLink href={this.getUrl()}>
+          <FontAwesomeIcon icon={['fab', this.props.type]} />
+          &nbsp;
+          {this.getLinkText()}
+        </NavLink>
+      </NavItem>
+    ) : (
+      ''
+    );
+  }
 
-    public render() {
-        return (
-            this.props.user ?
-                <NavItem>
-                    <NavLink href={this.getUrl()}>
-                        <FontAwesomeIcon icon={['fab', this.props.type]} />&nbsp;
-                    {this.getLinkText()}
-                    </NavLink>
-                </NavItem>
-                : ""
-        );
+  private getLinkText(): string {
+    let name = 'Unknown';
+    switch (this.props.type) {
+      case 'facebook':
+        name = 'Facebook';
+        break;
+      case 'github':
+        name = 'GitHub';
+        break;
+      case 'instagram':
+        name = 'Instagram';
+        break;
+      case 'linkedin':
+        name = 'LinkedIn';
+        break;
+      case 'twitter':
+        name = 'Twitter';
+        break;
     }
+    return name + ' Profile';
+  }
 
-    private getLinkText(): string {
-        let name = "Unknown";
-        switch (this.props.type) {
-            case "facebook":
-                name = "Facebook";
-                break;
-            case "github":
-                name = "GitHub";
-                break;
-            case "instagram":
-                name = "Instagram";
-                break;
-            case "linkedin":
-                name = "LinkedIn";
-                break;
-            case "twitter":
-                name = "Twitter";
-                break;
-        }
-        return name + " Profile"
+  private getUrl(): string {
+    let url = '';
+    switch (this.props.type) {
+      case 'facebook':
+        url = 'https://facebook.com/';
+        break;
+      case 'github':
+        url = 'https://github.com/';
+        break;
+      case 'instagram':
+        url = 'https://instagram.com/';
+        break;
+      case 'linkedin':
+        url = 'https://www.linkedin.com/in/';
+        break;
+      case 'twitter':
+        url = 'https://www.twitter.com/';
+        break;
     }
-
-    private getUrl(): string {
-        let url = "";
-        switch (this.props.type) {
-            case "facebook":
-                url = "https://facebook.com/"
-                break;
-            case "github":
-                url = "https://github.com/"
-                break;
-            case "instagram":
-                url = "https://instagram.com/"
-                break;
-            case "linkedin":
-                url = "https://www.linkedin.com/in/"
-                break;
-            case "twitter":
-                url = "https://www.twitter.com/"
-                break;
-        }
-        return url + this.props.user;
-    }
+    return url + this.props.user;
+  }
 }

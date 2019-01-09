@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (c) 2016-2019, Mike Thomas
  * All rights reserved.
  *
@@ -25,12 +25,7 @@
  */
 import React, { Fragment } from 'react';
 
-import {
-  About,
-  Intro,
-  Links,
-  Timeline
-} from '.';
+import { About, Intro, Links, Timeline } from '.';
 
 import timelineProps from '../data/Experience.json';
 

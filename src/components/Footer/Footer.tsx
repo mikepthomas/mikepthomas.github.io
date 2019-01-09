@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (c) 2016-2019, Mike Thomas
  * All rights reserved.
  *
@@ -28,14 +28,16 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { Container } from 'reactstrap';
 
 export default function Footer() {
-    return (
-        <footer className="text-muted">
-            <Container>
-                <p className="float-right">
-                    <Link smooth={true} to="#root">Back to top</Link>
-                </p>
-                <p>&copy; 2016-2019 Mike Thomas, All rights reserved.</p>
-            </Container>
-        </footer>
-    );
-};
+  return (
+    <footer className="text-muted">
+      <Container>
+        <p className="float-right">
+          <Link smooth={true} to="#root">
+            Back to top
+          </Link>
+        </p>
+        <p>&copy; 2016-2019 Mike Thomas, All rights reserved.</p>
+      </Container>
+    </footer>
+  );
+}

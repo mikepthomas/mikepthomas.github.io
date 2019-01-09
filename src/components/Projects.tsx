@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (c) 2016-2019, Mike Thomas
  * All rights reserved.
  *
@@ -24,17 +24,13 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React, { Component } from 'react';
-import { renderToString } from 'react-dom/server'
+import { renderToString } from 'react-dom/server';
 import Markdown from 'react-markdown';
 import { match } from 'react-router';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import ReactWOW from 'react-wow';
-import {
-  Col,
-  Container,
-  Row
-} from 'reactstrap';
+import { Col, Container, Row } from 'reactstrap';
 
 import './Projects.scss';
 
@@ -56,9 +52,9 @@ export default class Projects extends Component<Props, State> {
     super(props);
 
     this.state = {
-      file: "",
-      markdown: ""
-    }
+      file: '',
+      markdown: ''
+    };
   }
 
   public componentDidMount() {
@@ -66,25 +62,27 @@ export default class Projects extends Component<Props, State> {
   }
 
   public componentDidUpdate() {
-    let url = "data/markdown/" + this.props.match.params.project + ".md";
-    if (window.location.hostname === "localhost") {
-      url = require("../" + url)
+    let url = 'data/markdown/' + this.props.match.params.project + '.md';
+    if (window.location.hostname === 'localhost') {
+      url = require('../' + url);
     } else {
-      url = "https://raw.githubusercontent.com/" +
-        "mikepthomas/mikepthomas.github.io/develop/src/" + url;
+      url =
+        'https://raw.githubusercontent.com/' +
+        'mikepthomas/mikepthomas.github.io/develop/src/' +
+        url;
     }
     if (this.state.file !== url) {
       fetch(url)
         .then(response => {
-          return response.text()
+          return response.text();
         })
         .then(text => {
           window.scrollTo(0, 0);
           this.setState({
             file: url,
             markdown: text
-          })
-        })
+          });
+        });
     }
   }
 
@@ -93,20 +91,34 @@ export default class Projects extends Component<Props, State> {
       <Container className="nav-padding projects-page">
         <Row>
           <Col className="markdown" sm="8">
-            <Markdown source={this.state.markdown} renderers={{ heading: this.headingRenderer, image: this.imageRenderer, link: this.linkRenderer }} />
+            <Markdown
+              source={this.state.markdown}
+              renderers={{
+                heading: this.headingRenderer,
+                image: this.imageRenderer,
+                link: this.linkRenderer
+              }}
+            />
           </Col>
           <Col className="sidebar" sm={{ size: 3, offset: 1 }}>
             <div className="sidebar-module sidebar-module-inset">
               <h4>About</h4>
               <p>
-                Here you can find information about a select few projects I am currently working on.
-            </p>
+                Here you can find information about a select few projects I am
+                currently working on.
+              </p>
               <div className="sidebar-module">
                 <h4>Elsewhere</h4>
                 <ol className="list-unstyled">
-                  <li><Link to="/projects/printer">3D Printer</Link></li>
-                  <li><Link to="/projects/guitar">Guitar</Link></li>
-                  <li><Link to="/projects/openrc">OpenRC F1</Link></li>
+                  <li>
+                    <Link to="/projects/printer">3D Printer</Link>
+                  </li>
+                  <li>
+                    <Link to="/projects/guitar">Guitar</Link>
+                  </li>
+                  <li>
+                    <Link to="/projects/openrc">OpenRC F1</Link>
+                  </li>
                 </ol>
               </div>
             </div>
@@ -120,18 +132,39 @@ export default class Projects extends Component<Props, State> {
   private headingRenderer(props: any): JSX.Element {
     const text = renderToString(props.children[0]);
     const formatted = text.toLowerCase().replace(/\W/g, '-');
-    return React.createElement('h' + props.level, { id: formatted }, props.children);
+    return React.createElement(
+      'h' + props.level,
+      { id: formatted },
+      props.children
+    );
   }
 
   private imageRenderer(props: HTMLImageElement): JSX.Element {
-    return <ReactWOW offset={-200} animation="fadeIn" ><img alt={props.alt} src={props.src} /></ReactWOW>
+    return (
+      <ReactWOW offset={-200} animation="fadeIn">
+        <img alt={props.alt} src={props.src} />
+      </ReactWOW>
+    );
   }
 
   private linkRenderer(props: HTMLAnchorElement): JSX.Element {
     if (props.href.match(/^(https?:)?\/\//)) {
-      return <a href={props.href} target="_blank">{props.children}</a>
+      return (
+        <a href={props.href} target="_blank">
+          {props.children}
+        </a>
+      );
     } else {
-      return <HashLink scroll={el => window.scroll({ behavior: "smooth", top: el.offsetTop + 10 })} to={props.href}>{props.children}</HashLink>
+      return (
+        <HashLink
+          scroll={el =>
+            window.scroll({ behavior: 'smooth', top: el.offsetTop + 10 })
+          }
+          to={props.href}
+        >
+          {props.children}
+        </HashLink>
+      );
     }
   }
 }

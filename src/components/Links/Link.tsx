@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (c) 2016-2019, Mike Thomas
  * All rights reserved.
  *
@@ -24,25 +24,22 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React from 'react';
-import {
-    Button,
-    Col
-} from 'reactstrap';
+import { Button, Col } from 'reactstrap';
 
 interface Props {
-    children: string,
-    link: string,
-    name: string
+  children: string;
+  link: string;
+  name: string;
 }
 
 export default function Link(props: Props) {
-    return (
-        <Col lg="3">
-            <h2 className="mt-2">{props.name}</h2>
-            <p>{props.children}</p>
-            <a href={props.link}>
-                <Button color="info">View details »</Button>
-            </a>
-        </Col>
-    );
-};
+  return (
+    <Col lg="3">
+      <h2 className="mt-2">{props.name}</h2>
+      <p>{props.children}</p>
+      <a href={props.link}>
+        <Button color="info">View details »</Button>
+      </a>
+    </Col>
+  );
+}

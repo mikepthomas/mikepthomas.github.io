@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (c) 2016-2019, Mike Thomas
  * All rights reserved.
  *
@@ -24,57 +24,57 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React from 'react';
-import {
-    Col,
-    Container,
-    Row
-} from 'reactstrap';
+import { Col, Container, Row } from 'reactstrap';
 
 export default function About() {
-    return (
-        <Container>
-            <Row>
-                <Col md="3">
-                    <h2 className="mt-2">This is me!</h2>
-                    <img src="https://avatars3.githubusercontent.com/u/13928052?v=3&amp;s=150" width="150" height="150" className="img-responsive" alt="It's-a-Me!" />
-                </Col>
-                <Col md="5">
-                    <h2 className="mt-2">Interests and Achievements</h2>
-                    <p>
-                        A keen interest in the Royal Air Force and the military
-                        in general; I have flown a winch powered glider, have
-                        taken part in aerobatics in a fixed-wing aircraft and
-                        completed an Accelerated Free Fall Skydiving course in
-                        which I have skydived 13 times.
-                        In the past I have been a member of the Royal Naval
-                        Reserves to fill my spare time, and contributor to
-                        SkydiveUWE and the Technology society at University.
-                    </p>
-                    <p>
-                        My other hobbies include music, I am currently
-                        learning to play bass guitar, computer games
-                        modification, Virtual reality and motorbikes.
-                        Most recently I have recently been getting into 3D
-                        printing and 3D modelling.
-                    </p>
-                </Col>
-                <Col md="4">
-                    <h2 className="mt-2">Key Skills</h2>
-                    <ul>
-                        <li>Software design using UML</li>
-                        <li>Java, C, Python and Ruby Programming</li>
-                        <li>XML Technologies such as XQuery, XSLT &amp; XPath</li>
-                        <li>Knowledge of SOAP and RESTful web services</li>
-                        <li>Web Server Admin with Apache, MySQL &amp; PHP</li>
-                        <li>Web Development, XHTML, CSS &amp; JavaScript</li>
-                        <li>Source Control using Git and Subversion</li>
-                        <li>Unit testing with JUnit and PHPUnit</li>
-                        <li>Web page test automation using Selenium Grid</li>
-                        <li>Extensive knowledge of Windows, Linux and Mac</li>
-                    </ul>
-                </Col>
-            </Row>
-            <hr />
-        </Container>
-    );
-};
+  return (
+    <Container>
+      <Row>
+        <Col md="3">
+          <h2 className="mt-2">This is me!</h2>
+          <img
+            src="https://avatars3.githubusercontent.com/u/13928052?v=3&amp;s=150"
+            width="150"
+            height="150"
+            className="img-responsive"
+            alt="It's-a-Me!"
+          />
+        </Col>
+        <Col md="5">
+          <h2 className="mt-2">Interests and Achievements</h2>
+          <p>
+            A keen interest in the Royal Air Force and the military in general;
+            I have flown a winch powered glider, have taken part in aerobatics
+            in a fixed-wing aircraft and completed an Accelerated Free Fall
+            Skydiving course in which I have skydived 13 times. In the past I
+            have been a member of the Royal Naval Reserves to fill my spare
+            time, and contributor to SkydiveUWE and the Technology society at
+            University.
+          </p>
+          <p>
+            My other hobbies include music, I am currently learning to play bass
+            guitar, computer games modification, Virtual reality and motorbikes.
+            Most recently I have recently been getting into 3D printing and 3D
+            modelling.
+          </p>
+        </Col>
+        <Col md="4">
+          <h2 className="mt-2">Key Skills</h2>
+          <ul>
+            <li>Software design using UML</li>
+            <li>Java, C, Python and Ruby Programming</li>
+            <li>XML Technologies such as XQuery, XSLT &amp; XPath</li>
+            <li>Knowledge of SOAP and RESTful web services</li>
+            <li>Web Server Admin with Apache, MySQL &amp; PHP</li>
+            <li>Web Development, XHTML, CSS &amp; JavaScript</li>
+            <li>Source Control using Git and Subversion</li>
+            <li>Unit testing with JUnit and PHPUnit</li>
+            <li>Web page test automation using Selenium Grid</li>
+            <li>Extensive knowledge of Windows, Linux and Mac</li>
+          </ul>
+        </Col>
+      </Row>
+      <hr />
+    </Container>
+  );
+}

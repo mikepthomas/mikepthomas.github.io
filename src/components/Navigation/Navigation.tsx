@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (c) 2016-2019, Mike Thomas
  * All rights reserved.
  *
@@ -24,77 +24,78 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React, { Component } from 'react';
-import {
-    Collapse,
-    Nav,
-    Navbar,
-    NavbarBrand,
-    NavbarToggler
-} from 'reactstrap';
+import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler } from 'reactstrap';
 
 import SocialLink from './SocialLink';
 import { IconName } from '@fortawesome/free-brands-svg-icons';
 
-import './Navigation.scss';
+import styles from './Navigation.module.scss';
 
 interface SocialItem {
-    project?: string
-    user: string
+  project?: string;
+  user: string;
 }
 
 interface Props {
-    [key: string]: SocialItem;
+  [key: string]: SocialItem;
 }
 
 interface State {
-    isOpen: boolean;
+  isOpen: boolean;
 }
 
 export default class Navigation extends Component<Props, State> {
+  constructor(props: Props) {
+    super(props);
 
-    constructor(props: Props) {
-        super(props);
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
 
-        this.toggle = this.toggle.bind(this);
-        this.state = {
-            isOpen: false
-        };
-    }
+  public render() {
+    return (
+      <div className="Navigation">
+        <a
+          className={styles['github-banner'] + ' d-none d-md-block'}
+          href={this.getGitHubProjectUrl()}
+        >
+          <img
+            src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"
+            alt="Fork me on GitHub"
+          />
+        </a>
+        <Navbar color="dark" dark={true} expand="md" fixed="top">
+          <NavbarBrand href="/">Mike Thomas</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar={true}>
+            <Nav className="mr-auto" navbar={true}>
+              {Object.keys(this.props).map((type, key) => (
+                <SocialLink
+                  key={key}
+                  type={type as IconName}
+                  {...this.props[type]}
+                />
+              ))}
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
+    );
+  }
 
-    public render() {
-        return (
-            <div className="Navigation">
-                <a className="github-banner d-none d-md-block" href={this.getGitHubProjectUrl()}>
-                    <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub" />
-                </a>
-                <Navbar color="dark" dark={true} expand="md" fixed="top">
-                    <NavbarBrand href="/">Mike Thomas</NavbarBrand>
-                    <NavbarToggler onClick={this.toggle} />
-                    <Collapse isOpen={this.state.isOpen} navbar={true}>
-                        <Nav className="mr-auto" navbar={true}>
-                            {
-                                Object.keys(this.props).map((type, key) =>
-                                    <SocialLink key={key} type={type as IconName} {...this.props[type]} />
-                                )
-                            }
-                        </Nav>
-                    </Collapse>
-                </Navbar>
-            </div>
-        );
-    }
+  private getGitHubUrl(): string {
+    return 'https://github.com/' + this.props.github.user;
+  }
 
-    private getGitHubUrl(): string {
-        return "https://github.com/" + this.props.github.user;
-    }
+  private getGitHubProjectUrl(): string {
+    return this.getGitHubUrl() + '/' + this.props.github.project;
+  }
 
-    private getGitHubProjectUrl(): string {
-        return this.getGitHubUrl() + "/" + this.props.github.project;
-    }
-
-    private toggle() {
-        this.setState({
-            isOpen: !this.state.isOpen
-        });
-    }
+  private toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
 }

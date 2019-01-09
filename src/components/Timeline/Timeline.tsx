@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (c) 2016-2019, Mike Thomas
  * All rights reserved.
  *
@@ -26,22 +26,26 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 
-import TimelinePanel, { ExperienceItem } from './TimelinePanel'
+import TimelinePanel, { ExperienceItem } from './TimelinePanel';
 
 import './Timeline.scss';
 
 interface Props {
-    experience: ExperienceItem[];
+  experience: ExperienceItem[];
 }
 
 export default function Timeline(props: Props) {
-    return (
-        <Container>
-            <h1 className="mt-2" id="timeline">How I've got here!</h1>
-            <ul className="timeline">
-                {props.experience.map((item, key) => <TimelinePanel key={key} {...item} />)}
-            </ul>
-            <hr />
-        </Container>
-    );
-};
+  return (
+    <Container>
+      <h1 className="mt-2" id="timeline">
+        How I've got here!
+      </h1>
+      <ul className="timeline">
+        {props.experience.map((item, key) => (
+          <TimelinePanel key={key} {...item} />
+        ))}
+      </ul>
+      <hr />
+    </Container>
+  );
+}

@@ -23,7 +23,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
- 
+
 // Override default variables (bootstrap/scss/_variables.scss)
 $font-size-base: 0.8rem !default;
 
@@ -33,16 +33,19 @@ $font-size-base: 0.8rem !default;
 // Import Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-html, body, #root, .App {
-    height: 100%;
+html,
+body,
+#root,
+.App {
+  height: 100%;
 }
 table {
-    @extend .table;
-    @extend .table-striped;
+  @extend .table;
+  @extend .table-striped;
 }
 ul {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 .nav-padding {
-    padding-top: 75px;
+  padding-top: 75px;
 }

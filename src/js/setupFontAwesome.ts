@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (c) 2016-2019, Mike Thomas
  * All rights reserved.
  *
@@ -23,25 +23,25 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 import {
+  faAnchor,
+  faBriefcase,
+  faCalendarAlt,
+  faGraduationCap,
+  faLock,
+  faWrench
+} from '@fortawesome/free-solid-svg-icons';
+
+export default function register() {
+  library.add(
     faAnchor,
     faBriefcase,
     faCalendarAlt,
     faGraduationCap,
     faLock,
-    faWrench
-} from '@fortawesome/free-solid-svg-icons'
-
-export default function register() {
-    library.add(
-        faAnchor,
-        faBriefcase,
-        faCalendarAlt,
-        faGraduationCap,
-        faLock,
-        faWrench,
-        fab
-    );
+    faWrench,
+    fab
+  );
 }

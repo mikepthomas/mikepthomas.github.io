@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (c) 2016-2019, Mike Thomas
  * All rights reserved.
  *
@@ -25,81 +25,100 @@
  */
 import React, { Component } from 'react';
 import Moment from 'react-moment';
-import ReactWOW from 'react-wow'
+import ReactWOW from 'react-wow';
 
 import { IconName } from '@fortawesome/fontawesome-common-types';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export interface ExperienceItem {
-    title: string,
-    startDate: string,
-    endDate?: string,
-    city: string,
-    location: string,
-    url?: string,
-    description?: string,
-    color?: string,
-    icon: string | string[],
-    inverted?: boolean
+  title: string;
+  startDate: string;
+  endDate?: string;
+  city: string;
+  location: string;
+  url?: string;
+  description?: string;
+  color?: string;
+  icon: string | string[];
+  inverted?: boolean;
 }
 
 export default class TimelinePanel extends Component<ExperienceItem> {
-    constructor(props: ExperienceItem) {
-        super(props);
+  constructor(props: ExperienceItem) {
+    super(props);
+  }
+
+  public render() {
+    return (
+      <ReactWOW
+        animation={this.props.inverted ? 'zoomInRight' : 'zoomInLeft'}
+        duration="0.5s"
+      >
+        <li className={this.props.inverted ? 'timeline-inverted' : ''}>
+          <div className={'timeline-badge ' + this.props.color}>
+            <FontAwesomeIcon icon={this.props.icon as IconName} />
+          </div>
+          <div className="timeline-panel">
+            <div className="timeline-heading">
+              <h4 className="timeline-title">{this.props.title}</h4>
+              <small className="mb-1 text-muted">
+                <FontAwesomeIcon icon="calendar-alt" />
+                &nbsp;
+                <Moment date={this.props.startDate} format="MMMM YYYY" />
+                &nbsp;-&nbsp;
+                {this.props.endDate === undefined ? (
+                  'Present'
+                ) : (
+                  <Moment date={this.props.endDate} format="MMMM YYYY" />
+                )}
+                &nbsp;(
+                <Moment
+                  date={this.props.endDate}
+                  diff={this.props.startDate}
+                  filter={this.formatMonths}
+                  unit="months"
+                />
+                )
+              </small>
+            </div>
+            <div className="timeline-body">
+              <a href={this.props.url} target="_blank">
+                <h5 className="mt-2">
+                  {this.props.location} ({this.props.city})
+                </h5>
+              </a>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: this.props.description as string
+                }}
+              />
+            </div>
+          </div>
+        </li>
+      </ReactWOW>
+    );
+  }
+
+  private formatMonths(monthCount: string) {
+    const months = Number(monthCount) % 12;
+    const years = Math.floor(Number(monthCount) / 12);
+    let out = '';
+    if (years > 0) {
+      out += years + ' year';
+      if (years > 1) {
+        out += 's';
+      }
     }
 
-    public render() {
-        return (
-            <ReactWOW animation={this.props.inverted ? "zoomInRight" : "zoomInLeft"} duration='0.5s'>
-                <li className={this.props.inverted ? "timeline-inverted" : ""}>
-                    <div className={"timeline-badge " + this.props.color}>
-                        <FontAwesomeIcon icon={this.props.icon as IconName} />
-                    </div>
-                    <div className="timeline-panel">
-                        <div className="timeline-heading">
-                            <h4 className="timeline-title">{this.props.title}</h4>
-                            <small className="mb-1 text-muted">
-                                <FontAwesomeIcon icon="calendar-alt" />&nbsp;
-                                    <Moment date={this.props.startDate} format="MMMM YYYY" />
-                                &nbsp;-&nbsp;
-                                    {this.props.endDate === undefined ? "Present" : <Moment date={this.props.endDate} format="MMMM YYYY" />}
-                                &nbsp;(
-                                    <Moment date={this.props.endDate} diff={this.props.startDate} filter={this.formatMonths} unit="months" />
-                                )
-                                </small>
-                        </div>
-                        <div className="timeline-body">
-                            <a href={this.props.url} target="_blank">
-                                <h5 className="mt-2">{this.props.location} ({this.props.city})</h5>
-                            </a>
-                            <div dangerouslySetInnerHTML={{ __html: this.props.description as string }} />
-                        </div>
-                    </div>
-                </li>
-            </ReactWOW>
-        );
-    };
-
-    private formatMonths(monthCount: string) {
-        const months = Number(monthCount) % 12;
-        const years = Math.floor(Number(monthCount) / 12)
-        let out = "";
-        if (years > 0) {
-            out += years + " year";
-            if (years > 1) {
-                out += "s";
-            }
-        }
-
-        if (months > 0) {
-            if (years > 0) {
-                out += ", ";
-            }
-            out += months + " month";
-            if (months > 1) {
-                out += "s";
-            }
-        }
-        return out;
+    if (months > 0) {
+      if (years > 0) {
+        out += ', ';
+      }
+      out += months + ' month';
+      if (months > 1) {
+        out += 's';
+      }
     }
-};
+    return out;
+  }
+}

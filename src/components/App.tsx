@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (c) 2016-2019, Mike Thomas
  * All rights reserved.
  *
@@ -24,12 +24,9 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
-import {
-  Footer,
-  Navigation
-} from '.';
+import { Footer, Navigation } from '.';
 import Home from './Home';
 import Projects from './Projects';
 

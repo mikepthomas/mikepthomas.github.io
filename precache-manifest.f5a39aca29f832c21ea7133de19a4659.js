@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/guitar.d4d2977d.md"
   },
   {
-    "revision": "72cef173d9d3cf3fd007",
+    "revision": "93244df5f0d925ebb20b",
     "url": "/static/css/main.fc31f6bd.chunk.css"
   },
   {
-    "revision": "0982176a66fc93a9700c",
-    "url": "/static/js/1.0982176a.chunk.js"
+    "revision": "5fd10afc0c51c9fa06d0",
+    "url": "/static/js/1.5fd10afc.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/banner.91c5b554.jpg"
   },
   {
-    "revision": "72cef173d9d3cf3fd007",
-    "url": "/static/js/main.72cef173.chunk.js"
+    "revision": "93244df5f0d925ebb20b",
+    "url": "/static/js/main.93244df5.chunk.js"
   },
   {
     "revision": "6ef1295dfd66eb9e63f107ad46406f8d",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/printer-hero.2b63fd9d.jpg"
   },
   {
-    "revision": "6fbda499f832c1eb7b96ad6ca06cfa2f",
+    "revision": "8ff734e8465bca3712337f91561c9be6",
     "url": "/index.html"
   }
 ];

@@ -28,7 +28,7 @@ import { Container } from 'reactstrap';
 
 import TimelinePanel, { IExperienceItem } from './TimelinePanel'
 
-import './Timeline.css';
+import './Timeline.scss';
 
 interface IProps {
     experience: IExperienceItem[];

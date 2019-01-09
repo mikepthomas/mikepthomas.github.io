@@ -28,10 +28,10 @@
 $font-size-base: 0.8rem !default;
 
 // Import Animate.css
-@import 'animate.css/animate';
+@import '~animate.css/animate';
 
 // Import Bootstrap
-@import 'bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap';
 
 html, body, #root, .App {
     height: 100%;

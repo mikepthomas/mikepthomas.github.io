@@ -29,7 +29,7 @@ import {
     Jumbotron
 } from 'reactstrap';
 
-import './Intro.css';
+import './Intro.scss';
 
 export default class Intro extends React.Component {
     public render() {

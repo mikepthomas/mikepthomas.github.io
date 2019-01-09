@@ -25,7 +25,7 @@
  */
 import * as React from 'react';
 import { renderToString } from 'react-dom/server'
-import * as Markdown from 'react-markdown';
+import Markdown from 'react-markdown';
 import { match } from 'react-router';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
@@ -36,7 +36,7 @@ import {
   Row
 } from 'reactstrap';
 
-import './Projects.css';
+import './Projects.scss';
 
 interface IProjectProps {
   project: string;

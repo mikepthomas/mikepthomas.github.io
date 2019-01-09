@@ -32,14 +32,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export interface IExperienceItem {
     title: string,
-    startDate: Date,
-    endDate?: Date,
+    startDate: string,
+    endDate?: string,
     city: string,
     location: string,
-    url: string,
-    description: string,
-    color: string,
-    icon: IconName,
+    url?: string,
+    description?: string,
+    color?: string,
+    icon: string | string[],
     inverted?: boolean
 }
 
@@ -53,7 +53,7 @@ export default class TimelinePanel extends React.Component<IExperienceItem> {
             <ReactWOW animation={ this.props.inverted ? "zoomInRight" : "zoomInLeft" } duration='0.5s'>
                 <li className={ this.props.inverted ? "timeline-inverted" : "" }>
                     <div className={ "timeline-badge " + this.props.color }>
-                        <FontAwesomeIcon icon={ this.props.icon } />
+                        <FontAwesomeIcon icon={ this.props.icon as IconName } />
                         </div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
@@ -72,7 +72,7 @@ export default class TimelinePanel extends React.Component<IExperienceItem> {
                                 <a href={ this.props.url } target="_blank">
                                     <h5 className="mt-2">{ this.props.location } ({ this.props.city })</h5>
                                 </a>
-                                <div dangerouslySetInnerHTML={ { __html: this.props.description } } />
+                                <div dangerouslySetInnerHTML={ { __html: this.props.description as string } } />
                             </div>
                         </div>
                     </li>

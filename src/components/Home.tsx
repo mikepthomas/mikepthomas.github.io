@@ -27,11 +27,11 @@ import * as React from 'react';
 import {
   About,
   Intro,
-  Projects,
+  Links,
   Timeline
 } from '.';
 
-import * as timelineProps from '../data/Experience.json';
+import timelineProps from '../data/Experience.json';
 
 export default class Home extends React.Component {
   public render() {
@@ -39,7 +39,7 @@ export default class Home extends React.Component {
         <React.Fragment>
           <Intro />
           <About />
-          <Projects />
+          <Links />
           <Timeline {...timelineProps} />
         </React.Fragment>
     );

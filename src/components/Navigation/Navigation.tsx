@@ -35,7 +35,7 @@ import SocialLink from './SocialLink';
 
 import { IconName } from '@fortawesome/free-brands-svg-icons';
 
-import './Navigation.css';
+import './Navigation.scss';
 
 interface ISocialItem {
     project?: string
@@ -73,8 +73,8 @@ export default class Navigation extends React.Component<IProps, IState> {
                     <Collapse isOpen={ this.state.isOpen } navbar={ true }>
                         <Nav className="mr-auto" navbar={ true }>
                             { 
-                                Object.keys(this.props).map((type:IconName, key) => 
-                                    <SocialLink key={ key } type={ type } { ...this.props[type] } />
+                                Object.keys(this.props).map((type, key) => 
+                                    <SocialLink key={ key } type={ type as IconName } { ...this.props[type] } />
                                 )
                             }
                         </Nav>

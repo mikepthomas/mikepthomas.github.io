@@ -33,9 +33,9 @@ import {
 import Home from './Home';
 import Projects from './Projects';
 
-import './App.css';
+import './App.scss';
 
-import * as navigationProps from '../data/Navigation.json';
+import navigationProps from '../data/Navigation.json';
 
 export default class App extends React.Component {
   public render() {

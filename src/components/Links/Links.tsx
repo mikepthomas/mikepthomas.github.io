@@ -25,26 +25,36 @@
  */
 import * as React from 'react';
 import {
-    Button,
-    Col
+    Container,
+    Row
 } from 'reactstrap';
+import Link from './Link';
 
-interface IProps {
-    children: string,
-    link: string,
-    name: string
-}
-
-export default class Project extends React.Component<IProps> {
+export default class Links extends React.Component {
     public render() {
         return (
-            <Col lg="3">
-                <h2 className="mt-2">{ this.props.name }</h2>
-                <p>{ this.props.children }</p>
-                <a href={ this.props.link }>
-                    <Button color="info">View details »</Button>
-                </a>
-            </Col>
+            <Container>
+                <h1 className="mb-2" id="projects">Software projects</h1>
+                <Row>
+                    <Link name="jFold" link="/jfold">
+                        Java 11 Library to connect and call functions of the
+                        Client Remote Interface in a Folding@Home v7 Client.
+                    </Link>
+                    <Link name="FAHServices" link="/fahservices">
+                        Extension of work on FAHWeb. To create a REST API to be
+                        used by a web front end to control Folding@Home v7 clients.
+                    </Link>
+                    <Link name="FAHWeb" link="/fahweb">
+                        Achived: Extension of work on FAHView. To create a web front end
+                        to control Folding@Home v7 clients.
+                    </Link>
+                    <Link name="FAHView" link="/fahview">
+                        Archived: Final year University project. To create a viewer application
+                        to display information from a Folding@Home client.
+                    </Link>
+                </Row>
+                <hr />
+            </Container>
         );
     };
 };

@@ -24,28 +24,35 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React from 'react';
-import { Container } from 'reactstrap';
-
-import TimelinePanel, { ExperienceItem } from './TimelinePanel';
-
-import './Timeline.scss';
+import {
+  Card,
+  CardBody,
+  CardHeader,
+  CardLink,
+  CardSubtitle,
+  CardText
+} from 'reactstrap';
 
 interface Props {
-  experience: ExperienceItem[];
+  archived?: boolean;
+  children: string;
+  link: string;
+  name: string;
 }
 
-export default function Timeline(props: Props) {
+export default function Link(props: Props) {
   return (
-    <Container>
-      <h2 className="mt-2" id="timeline">
-        How I've got here!
-      </h2>
-      <ul className="timeline">
-        {props.experience.map((item, key) => (
-          <TimelinePanel key={key} {...item} />
-        ))}
-      </ul>
-      <hr />
-    </Container>
+    <Card color="light">
+      <CardHeader tag="h3">{props.name}</CardHeader>
+      <CardBody>
+        {props.archived ? (
+          <CardSubtitle className="text-muted" tag="h4">
+            Archived:
+          </CardSubtitle>
+        ) : null}
+        <CardText>{props.children}</CardText>
+        <CardLink href={props.link}>View details »</CardLink>
+      </CardBody>
+    </Card>
   );
 }

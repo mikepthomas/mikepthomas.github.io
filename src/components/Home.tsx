@@ -25,7 +25,7 @@
  */
 import React, { Fragment } from 'react';
 
-import { About, Intro, Links, Timeline } from '.';
+import { About, Cards, Intro, Timeline } from '.';
 
 import timelineProps from '../data/Experience.json';
 
@@ -34,7 +34,7 @@ export default function Home() {
     <Fragment>
       <Intro />
       <About />
-      <Links />
+      <Cards />
       <Timeline {...timelineProps} />
     </Fragment>
   );

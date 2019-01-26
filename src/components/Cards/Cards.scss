@@ -1,4 +1,4 @@
-/*
+/* 
  * Copyright (c) 2016-2019, Mike Thomas
  * All rights reserved.
  *
@@ -23,23 +23,21 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import React from 'react';
-import { Button, Col } from 'reactstrap';
+@import '~bootstrap/scss/_functions';
+@import '~bootstrap/scss/_variables';
+@import '~bootstrap/scss/mixins/_breakpoints';
 
-interface Props {
-  children: string;
-  link: string;
-  name: string;
-}
-
-export default function Link(props: Props) {
-  return (
-    <Col lg="3">
-      <h2 className="mt-2">{props.name}</h2>
-      <p>{props.children}</p>
-      <a href={props.link}>
-        <Button color="info">View details »</Button>
-      </a>
-    </Col>
-  );
+.card-columns {
+  @include media-breakpoint-only(sm) {
+    column-count: 2;
+  }
+  @include media-breakpoint-only(md) {
+    column-count: 2;
+  }
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 4;
+  }
 }

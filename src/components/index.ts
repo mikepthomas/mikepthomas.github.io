@@ -27,6 +27,6 @@ export { default as App } from './App';
 export { default as About } from './About/About';
 export { default as Footer } from './Footer/Footer';
 export { default as Intro } from './Intro/Intro';
-export { default as Links } from './Links/Links';
+export { default as Cards } from './Cards/Cards';
 export { default as Navigation } from './Navigation/Navigation';
 export { default as Timeline } from './Timeline/Timeline';

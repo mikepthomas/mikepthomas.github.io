@@ -36,7 +36,7 @@ export default function About() {
             src="https://avatars3.githubusercontent.com/u/13928052?v=3&amp;s=150"
             width="150"
             height="150"
-            className="img-responsive"
+            className="img-responsive rounded-circle"
             alt="It's-a-Me!"
           />
         </Col>

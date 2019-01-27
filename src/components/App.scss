@@ -80,7 +80,13 @@ body,
 }
 table {
   @extend .table;
+  @extend .table-bordered;
+  @extend .table-sm;
   @extend .table-striped;
+
+  thead {
+    @extend .thead-light;
+  }
 }
 ul {
   padding-left: 15px;

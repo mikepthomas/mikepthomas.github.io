@@ -23,7 +23,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import React, { Component } from 'react';
+import React from 'react';
 import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler } from 'reactstrap';
 
 import SocialLink from './SocialLink';
@@ -40,62 +40,30 @@ interface Props {
   [key: string]: SocialItem;
 }
 
-interface State {
-  isOpen: boolean;
-}
-
-export default class Navigation extends Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      isOpen: false
-    };
-  }
-
-  public render() {
-    return (
-      <div className="Navigation">
-        <a
-          className={styles['github-banner'] + ' d-none d-md-block'}
-          href={this.getGitHubProjectUrl()}
-        >
-          <img
-            src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"
-            alt="Fork me on GitHub"
-          />
-        </a>
-        <Navbar color="dark" dark={true} expand="md" fixed="top">
-          <NavbarBrand href="/">Mike Thomas</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar={true}>
-            <Nav className="mr-auto" navbar={true}>
-              {Object.keys(this.props).map((type, key) => (
-                <SocialLink
-                  key={key}
-                  type={type as IconName}
-                  {...this.props[type]}
-                />
-              ))}
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </div>
-    );
-  }
-
-  private getGitHubUrl(): string {
-    return 'https://github.com/' + this.props.github.user;
-  }
-
-  private getGitHubProjectUrl(): string {
-    return this.getGitHubUrl() + '/' + this.props.github.project;
-  }
-
-  private toggle() {
-    this.setState({
-      isOpen: !this.state.isOpen
-    });
-  }
+export default function Navigation(props: Props) {
+  const [isOpen, setIsOpen] = React.useState(false);
+  return (
+    <div className="Navigation">
+      <a
+        className={styles['github-banner'] + ' d-none d-md-block'}
+        href={`https://github.com/${props.github.user}/${props.github.project}`}
+      >
+        <img
+          src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"
+          alt="Fork me on GitHub"
+        />
+      </a>
+      <Navbar color="dark" dark={true} expand="md" fixed="top">
+        <NavbarBrand href="/">Mike Thomas</NavbarBrand>
+        <NavbarToggler onClick={() => setIsOpen(!isOpen)} />
+        <Collapse isOpen={isOpen} navbar={true}>
+          <Nav className="mr-auto" navbar={true}>
+            {Object.keys(props).map((type, key) => (
+              <SocialLink key={key} type={type as IconName} {...props[type]} />
+            ))}
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>
+  );
 }

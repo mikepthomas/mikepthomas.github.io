@@ -24,33 +24,47 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React from 'react';
-import { NavItem, NavLink } from 'reactstrap';
-import { IconName } from '@fortawesome/fontawesome-common-types';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { renderToString } from 'react-dom/server';
+import { HashLink } from 'react-router-hash-link';
+import ReactWOW from 'react-wow';
 
-import socialJson from '../../data/Social.json';
-
-export interface SocialData {
-  [key: string]: {
-    name: string;
-    url: string;
+export default function getRenderers() {
+  return {
+    heading: (props: any): JSX.Element => {
+      const text = renderToString(props.children[0]);
+      const formatted = text.toLowerCase().replace(/\W/g, '-');
+      return React.createElement(
+        'h' + props.level,
+        { id: formatted },
+        props.children
+      );
+    },
+    image: (props: HTMLImageElement): JSX.Element => {
+      return (
+        <ReactWOW offset={-200} animation="fadeIn">
+          <img alt={props.alt} src={props.src} />
+        </ReactWOW>
+      );
+    },
+    link: (props: HTMLAnchorElement): JSX.Element => {
+      if (props.href.match(/^(https?:)?\/\//)) {
+        return (
+          <a href={props.href} target="_blank">
+            {props.children}
+          </a>
+        );
+      } else {
+        return (
+          <HashLink
+            scroll={el =>
+              window.scroll({ behavior: 'smooth', top: el.offsetTop + 10 })
+            }
+            to={props.href}
+          >
+            {props.children}
+          </HashLink>
+        );
+      }
+    }
   };
-}
-
-interface Props {
-  type: IconName;
-  user: string;
-}
-
-export default function SocialLink(props: Props) {
-  const social = socialJson as SocialData;
-  return (
-    <NavItem>
-      <NavLink href={social[props.type].url + props.user} target="_blank">
-        <FontAwesomeIcon icon={['fab', props.type]} />
-        &nbsp;
-        {social[props.type].name} Profile
-      </NavLink>
-    </NavItem>
-  );
 }

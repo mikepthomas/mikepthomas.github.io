@@ -23,34 +23,25 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import React from 'react';
-import { NavItem, NavLink } from 'reactstrap';
-import { IconName } from '@fortawesome/fontawesome-common-types';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+export function formatMonths(monthCount: string) {
+  const months = Number(monthCount) % 12;
+  const years = Math.floor(Number(monthCount) / 12);
+  let out = '';
+  if (years > 0) {
+    out += years + ' year';
+    if (years > 1) {
+      out += 's';
+    }
+  }
 
-import socialJson from '../../data/Social.json';
-
-export interface SocialData {
-  [key: string]: {
-    name: string;
-    url: string;
-  };
-}
-
-interface Props {
-  type: IconName;
-  user: string;
-}
-
-export default function SocialLink(props: Props) {
-  const social = socialJson as SocialData;
-  return (
-    <NavItem>
-      <NavLink href={social[props.type].url + props.user} target="_blank">
-        <FontAwesomeIcon icon={['fab', props.type]} />
-        &nbsp;
-        {social[props.type].name} Profile
-      </NavLink>
-    </NavItem>
-  );
+  if (months > 0) {
+    if (years > 0) {
+      out += ', ';
+    }
+    out += months + ' month';
+    if (months > 1) {
+      out += 's';
+    }
+  }
+  return out;
 }

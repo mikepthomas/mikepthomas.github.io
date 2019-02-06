@@ -25,10 +25,11 @@
  */
 import React from 'react';
 import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler } from 'reactstrap';
-
-import SocialLink from './SocialLink';
 import { IconName } from '@fortawesome/free-brands-svg-icons';
 
+import SocialLink, { SocialData } from './SocialLink';
+
+import socialJson from '../../data/Social.json';
 import styles from './Navigation.module.scss';
 
 interface SocialItem {
@@ -42,11 +43,14 @@ interface Props {
 
 export default function Navigation(props: Props) {
   const [isOpen, setIsOpen] = React.useState(false);
+  const social = socialJson as SocialData;
   return (
     <div className="Navigation">
       <a
         className={styles['github-banner'] + ' d-none d-md-block'}
-        href={`https://github.com/${props.github.user}/${props.github.project}`}
+        href={`${social.github.url}${props.github.user}/${
+          props.github.project
+        }`}
       >
         <img
           src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"

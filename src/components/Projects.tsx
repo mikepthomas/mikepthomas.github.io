@@ -24,14 +24,12 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React, { Component } from 'react';
-import { renderToString } from 'react-dom/server';
 import Markdown from 'react-markdown';
 import { match } from 'react-router';
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
-import ReactWOW from 'react-wow';
 import { Col, Container, Row } from 'reactstrap';
 
+import markdownRenderers from '../js/markdownRenderers';
 import './Projects.scss';
 
 interface ProjectProps {
@@ -93,11 +91,7 @@ export default class Projects extends Component<Props, State> {
           <Col className="markdown" sm="8">
             <Markdown
               source={this.state.markdown}
-              renderers={{
-                heading: this.headingRenderer,
-                image: this.imageRenderer,
-                link: this.linkRenderer
-              }}
+              renderers={markdownRenderers()}
             />
           </Col>
           <Col className="sidebar" sm={{ size: 3, offset: 1 }}>
@@ -127,44 +121,5 @@ export default class Projects extends Component<Props, State> {
         <hr />
       </Container>
     );
-  }
-
-  private headingRenderer(props: any): JSX.Element {
-    const text = renderToString(props.children[0]);
-    const formatted = text.toLowerCase().replace(/\W/g, '-');
-    return React.createElement(
-      'h' + props.level,
-      { id: formatted },
-      props.children
-    );
-  }
-
-  private imageRenderer(props: HTMLImageElement): JSX.Element {
-    return (
-      <ReactWOW offset={-200} animation="fadeIn">
-        <img alt={props.alt} src={props.src} />
-      </ReactWOW>
-    );
-  }
-
-  private linkRenderer(props: HTMLAnchorElement): JSX.Element {
-    if (props.href.match(/^(https?:)?\/\//)) {
-      return (
-        <a href={props.href} target="_blank">
-          {props.children}
-        </a>
-      );
-    } else {
-      return (
-        <HashLink
-          scroll={el =>
-            window.scroll({ behavior: 'smooth', top: el.offsetTop + 10 })
-          }
-          to={props.href}
-        >
-          {props.children}
-        </HashLink>
-      );
-    }
   }
 }

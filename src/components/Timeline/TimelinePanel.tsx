@@ -78,7 +78,7 @@ export default function TimelinePanel(props: ExperienceItem) {
             </small>
           </div>
           <div className="timeline-body">
-            <a href={props.url} target="_blank">
+            <a href={props.url} rel="noopener noreferrer" target="_blank">
               <h5 className="mt-2">
                 {props.location} ({props.city})
               </h5>

@@ -49,7 +49,7 @@ export default function getRenderers() {
     link: (props: HTMLAnchorElement): JSX.Element => {
       if (props.href.match(/^(https?:)?\/\//)) {
         return (
-          <a href={props.href} target="_blank">
+          <a href={props.href} rel="noopener noreferrer" target="_blank">
             {props.children}
           </a>
         );

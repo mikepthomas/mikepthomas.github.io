@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.d03199a9.chunk.css",
-    "main.js": "/static/js/main.2dedb8cf.chunk.js",
-    "main.js.map": "/static/js/main.2dedb8cf.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.4a8d5d7c.chunk.js": "/static/js/2.4a8d5d7c.chunk.js",
-    "static/js/2.4a8d5d7c.chunk.js.map": "/static/js/2.4a8d5d7c.chunk.js.map",
+    "main.css": "/static/css/main.85644dac.chunk.css",
+    "main.js": "/static/js/main.47d0c5a1.chunk.js",
+    "main.js.map": "/static/js/main.47d0c5a1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f068a30e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f068a30e.js.map",
+    "static/js/2.bf1bc8df.chunk.js": "/static/js/2.bf1bc8df.chunk.js",
+    "static/js/2.bf1bc8df.chunk.js.map": "/static/js/2.bf1bc8df.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e101ccbd314483275293560158359935.js": "/precache-manifest.e101ccbd314483275293560158359935.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d03199a9.chunk.css.map": "/static/css/main.d03199a9.chunk.css.map",
-    "static/media/banner-md.jpg": "/static/media/banner-md.5387b122.jpg",
-    "static/media/banner-sm.jpg": "/static/media/banner-sm.0aea97a4.jpg",
-    "static/media/banner.jpg": "/static/media/banner.da576c48.jpg",
-    "static/media/guitar-hero.jpg": "/static/media/guitar-hero.7d24898e.jpg",
-    "static/media/guitar.md": "/static/media/guitar.0f4bf3f7.md",
-    "static/media/openrc-hero.jpg": "/static/media/openrc-hero.23ca3e50.jpg",
-    "static/media/openrc.md": "/static/media/openrc.da565e81.md",
-    "static/media/printed-items.jpg": "/static/media/printed-items.28988676.jpg",
-    "static/media/printer-hero.jpg": "/static/media/printer-hero.2b63fd9d.jpg",
-    "static/media/printer.md": "/static/media/printer.f7529199.md"
-  }
+    "static/css/main.85644dac.chunk.css.map": "/static/css/main.85644dac.chunk.css.map",
+    "static/js/2.bf1bc8df.chunk.js.LICENSE.txt": "/static/js/2.bf1bc8df.chunk.js.LICENSE.txt",
+    "static/media/banner-md.jpg": "/static/media/banner-md.eccdf1a2.jpg",
+    "static/media/banner-sm.jpg": "/static/media/banner-sm.0aa1907f.jpg",
+    "static/media/banner.jpg": "/static/media/banner.0914f974.jpg",
+    "static/media/guitar-hero.jpg": "/static/media/guitar-hero.abbb5c34.jpg",
+    "static/media/guitar.md": "/static/media/guitar.296c3362.md",
+    "static/media/openrc-hero.jpg": "/static/media/openrc-hero.d77adf6b.jpg",
+    "static/media/openrc.md": "/static/media/openrc.8fe65087.md",
+    "static/media/printed-items.jpg": "/static/media/printed-items.47f9c18b.jpg",
+    "static/media/printer-hero.jpg": "/static/media/printer-hero.da8964a9.jpg",
+    "static/media/printer.md": "/static/media/printer.f72408e5.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f068a30e.js",
+    "static/js/2.bf1bc8df.chunk.js",
+    "static/css/main.85644dac.chunk.css",
+    "static/js/main.47d0c5a1.chunk.js"
+  ]
 }

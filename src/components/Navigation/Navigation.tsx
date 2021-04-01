@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016-2019, Mike Thomas
+ * Copyright (c) 2016-2021, Mike Thomas
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -48,9 +48,7 @@ export default function Navigation(props: Props) {
     <div className="Navigation">
       <a
         className={styles['github-banner'] + ' d-none d-md-block'}
-        href={`${social.github.url}${props.github.user}/${
-          props.github.project
-        }`}
+        href={`${social.github.url}${props.github.user}/${props.github.project}`}
       >
         <img
           src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"

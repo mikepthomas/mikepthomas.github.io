@@ -60,15 +60,10 @@ export default class Projects extends Component<Props, State> {
   }
 
   public componentDidUpdate() {
-    let url = 'data/markdown/' + this.props.match.params.project + '.md';
-    if (window.location.hostname === 'localhost') {
-      url = require('../' + url);
-    } else {
-      url =
-        'https://raw.githubusercontent.com/' +
-        'mikepthomas/mikepthomas.github.io/develop/src/' +
-        url;
-    }
+    let url =
+      'https://raw.githubusercontent.com/' +
+      'mikepthomas/mikepthomas.github.io/develop/src/data/markdown/' + 
+      this.props.match.params.project + '.md';
     if (this.state.file !== url) {
       fetch(url)
         .then(response => {

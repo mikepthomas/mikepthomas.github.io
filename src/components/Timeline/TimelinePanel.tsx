@@ -26,7 +26,7 @@
 import React from 'react';
 import Moment from 'react-moment';
 import ReactWOW from 'react-wow';
-import { IconName } from '@fortawesome/fontawesome-common-types';
+import { IconName } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import * as DateUtils from '../../js/dateUtils';

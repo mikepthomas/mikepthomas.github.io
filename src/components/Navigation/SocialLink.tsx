@@ -25,7 +25,7 @@
  */
 import React from 'react';
 import { NavItem, NavLink } from 'reactstrap';
-import { IconName } from '@fortawesome/fontawesome-common-types';
+import { IconName } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import socialJson from '../../data/Social.json';

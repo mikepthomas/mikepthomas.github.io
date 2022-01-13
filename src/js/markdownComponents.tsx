@@ -55,7 +55,7 @@ export function getComponents() {
     ),
     img: ({...props}) => (
       <ReactWOW offset={-200} animation="fadeIn">
-        <img {...props} />
+        <img alt={props.alt} src={props.src} />
       </ReactWOW>
     )
   };

@@ -27,21 +27,23 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import {
   faAnchor,
-  faBriefcase,
   faCalendarAlt,
-  faGraduationCap,
-  faLock,
-  faWrench
+  faChalkboardTeacher,
+  faIdCardAlt,
+  faLaptopCode,
+  faUserGraduate,
+  faWarehouse
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function register() {
   library.add(
     faAnchor,
-    faBriefcase,
     faCalendarAlt,
-    faGraduationCap,
-    faLock,
-    faWrench,
+    faChalkboardTeacher,
+    faIdCardAlt,
+    faLaptopCode,
+    faUserGraduate,
+    faWarehouse,
     fab
   );
 }

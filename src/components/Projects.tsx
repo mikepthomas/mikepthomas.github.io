@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016-2021, Mike Thomas
+ * Copyright (c) 2016-2022, Mike Thomas
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -28,8 +28,9 @@ import Markdown from 'react-markdown';
 import { match } from 'react-router';
 import { Link } from 'react-router-dom';
 import { Col, Container, Row } from 'reactstrap';
+import remarkGfm from 'remark-gfm'
 
-import markdownRenderers from '../js/markdownRenderers';
+import { getComponents } from '../js/markdownComponents';
 import './Projects.scss';
 
 interface ProjectProps {
@@ -85,8 +86,9 @@ export default class Projects extends Component<Props, State> {
         <Row>
           <Col className="markdown" sm="8">
             <Markdown
-              source={this.state.markdown}
-              renderers={markdownRenderers()}
+              children={this.state.markdown}
+              components={getComponents()}
+              remarkPlugins={[remarkGfm]}
             />
           </Col>
           <Col className="sidebar" sm={{ size: 3, offset: 1 }}>

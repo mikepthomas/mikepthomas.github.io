@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016-2021, Mike Thomas
+ * Copyright (c) 2016-2022, Mike Thomas
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -24,30 +24,14 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React from 'react';
-import { renderToString } from 'react-dom/server';
 import { HashLink } from 'react-router-hash-link';
 import ReactWOW from 'react-wow';
 
-export default function getRenderers() {
+
+export function getComponents() {
   return {
-    heading: (props: any): JSX.Element => {
-      const text = renderToString(props.children[0]);
-      const formatted = text.toLowerCase().replace(/\W/g, '-');
-      return React.createElement(
-        'h' + props.level,
-        { id: formatted },
-        props.children
-      );
-    },
-    image: (props: HTMLImageElement): JSX.Element => {
-      return (
-        <ReactWOW offset={-200} animation="fadeIn">
-          <img alt={props.alt} src={props.src} />
-        </ReactWOW>
-      );
-    },
-    link: (props: HTMLAnchorElement): JSX.Element => {
-      if (props.href.match(/^(https?:)?\/\//)) {
+    a: ({...props}) => {
+      if (props.href?.match(/^(https?:)?\/\//)) {
         return (
           <a href={props.href} rel="noopener noreferrer" target="_blank">
             {props.children}
@@ -59,12 +43,20 @@ export default function getRenderers() {
             scroll={el =>
               window.scroll({ behavior: 'smooth', top: el.offsetTop + 10 })
             }
-            to={props.href}
+            to={props.href || ""}
           >
             {props.children}
           </HashLink>
         );
       }
-    }
+    },
+    h3: ({...props}) => (
+      <h3 id={props.children.toString().toLowerCase().replace(/\W/g, '-')}>{props.children}</h3>
+    ),
+    img: ({...props}) => (
+      <ReactWOW offset={-200} animation="fadeIn">
+        <img {...props} />
+      </ReactWOW>
+    )
   };
 }

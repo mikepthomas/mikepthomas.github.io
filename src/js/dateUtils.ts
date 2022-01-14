@@ -34,15 +34,15 @@ export function formatDate(date?: string): string {
 }
 
 export function formatYearsAndMonths(startDate: string, endDate?: string) {
-  if (endDate !== undefined) {
-    let monthCount = differenceInCalendarMonths(new Date(endDate), new Date(startDate))
-    let out = formatDuration(
-      {
-        years: Math.floor(Number(monthCount) / 12),
-        months: Number(monthCount) % 12
-      },
-      { delimiter: ', ' }
-    )
-    return `(${out})`;
-  }
+  let start = new Date(startDate);
+  let end = endDate ? new Date(endDate) : new Date()
+  let monthCount = differenceInCalendarMonths(end, start)
+  let out = formatDuration(
+    {
+      years: Math.floor(Number(monthCount) / 12),
+      months: Number(monthCount) % 12
+    },
+    { delimiter: ', ' }
+  )
+  return `(${out})`;
 }

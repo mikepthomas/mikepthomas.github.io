@@ -24,7 +24,6 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React from 'react';
-import Moment from 'react-moment';
 import ReactWOW from 'react-wow';
 import { IconName } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -60,21 +59,11 @@ export default function TimelinePanel(props: ExperienceItem) {
             <small className="mb-1 text-muted">
               <FontAwesomeIcon icon="calendar-alt" />
               &nbsp;
-              <Moment date={props.startDate} format="MMMM YYYY" />
+              {DateUtils.formatDate(props.startDate)}
               &nbsp;-&nbsp;
-              {props.endDate === undefined ? (
-                'Present'
-              ) : (
-                <Moment date={props.endDate} format="MMMM YYYY" />
-              )}
-              &nbsp;(
-              <Moment
-                date={props.endDate}
-                diff={props.startDate}
-                filter={DateUtils.formatMonths}
-                unit="months"
-              />
-              )
+              {DateUtils.formatDate(props.endDate)}
+              &nbsp;
+              {DateUtils.formatYearsAndMonths(props.startDate, props.endDate)}
             </small>
           </div>
           <div className="timeline-body">

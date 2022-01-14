@@ -23,25 +23,26 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-export function formatMonths(monthCount: string) {
-  const months = Number(monthCount) % 12;
-  const years = Math.floor(Number(monthCount) / 12);
-  let out = '';
-  if (years > 0) {
-    out += years + ' year';
-    if (years > 1) {
-      out += 's';
-    }
-  }
+import { differenceInCalendarMonths, format, formatDuration } from 'date-fns'
 
-  if (months > 0) {
-    if (years > 0) {
-      out += ', ';
-    }
-    out += months + ' month';
-    if (months > 1) {
-      out += 's';
-    }
+export function formatDate(date?: string): string {
+  if (date === undefined) {
+    return 'Present'
+  } else {
+    return format(new Date(date), 'MMMM yyyy')
   }
-  return out;
+}
+
+export function formatYearsAndMonths(startDate: string, endDate?: string) {
+  if (endDate !== undefined) {
+    let monthCount = differenceInCalendarMonths(new Date(endDate), new Date(startDate))
+    let out = formatDuration(
+      {
+        years: Math.floor(Number(monthCount) / 12),
+        months: Number(monthCount) % 12
+      },
+      { delimiter: ', ' }
+    )
+    return `(${out})`;
+  }
 }

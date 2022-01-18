@@ -1,16 +1,46 @@
 {
   "files": {
-    "main.css": "/static/css/main.250abadd.css",
-    "main.js": "/static/js/main.91a6e25a.js",
+    "main.css": "/static/css/main.168ab355.css",
+    "main.js": "/static/js/main.65f6f0f0.js",
     "static/media/banner.jpg": "/static/media/banner.0914f974bce29ed2bffd.jpg",
+    "static/media/11-sides-install.jpg": "/static/media/11-sides-install.7341d498e93c2b3401e2.jpg",
+    "static/media/07-third-part-back.jpg": "/static/media/07-third-part-back.03debadd13c2fa23392d.jpg",
+    "static/media/08-third-part-front.jpg": "/static/media/08-third-part-front.9119f2c761ff4529b820.jpg",
+    "static/media/05-second-part.jpg": "/static/media/05-second-part.445e49df16d524fdebc9.jpg",
+    "static/media/02-finished-sourcing.jpg": "/static/media/02-finished-sourcing.fb4643786db59e60e9ff.jpg",
+    "static/media/03-first-part-front.jpg": "/static/media/03-first-part-front.ffd22e9d3bcb841e6285.jpg",
+    "static/media/openrc-hero.jpg": "/static/media/openrc-hero.d77adf6b8fd691b843eb.jpg",
+    "static/media/12-almost-there.jpg": "/static/media/12-almost-there.9260150cf0fac4e33e4d.jpg",
+    "static/media/10-sides.jpg": "/static/media/10-sides.41a91d9fd166e5928f40.jpg",
+    "static/media/15-electronics.jpg": "/static/media/15-electronics.9cfa5ddefb62f1b57342.jpg",
+    "static/media/09-full-length.jpg": "/static/media/09-full-length.802d7f9f5b2e81e00c07.jpg",
+    "static/media/04-first-part-rear.jpg": "/static/media/04-first-part-rear.0fcc4f027318f15e030b.jpg",
+    "static/media/17-finished.jpg": "/static/media/17-finished.ea7dae2b545fd77166b5.jpg",
+    "static/media/13-sides-clamping.jpg": "/static/media/13-sides-clamping.a8d16c31e96e320a1731.jpg",
+    "static/media/guitar-hero.jpg": "/static/media/guitar-hero.abbb5c34bd2e79ea22cc.jpg",
+    "static/media/01-sourcing-parts.jpg": "/static/media/01-sourcing-parts.3ad15bcb15f35d4788be.jpg",
+    "static/media/06-tension-springs.jpg": "/static/media/06-tension-springs.3634dcb2539c3100228a.jpg",
+    "static/media/14-body-finished.jpg": "/static/media/14-body-finished.d5aa431e2d35d5c273f1.jpg",
+    "static/media/16-rear-cover.jpg": "/static/media/16-rear-cover.d4bb05cb63fde3510c56.jpg",
+    "static/media/printed-items.jpg": "/static/media/printed-items.f3f01ba02c967caa84e2.jpg",
+    "static/media/printer-hero.jpg": "/static/media/printer-hero.da8964a9994de2f96508.jpg",
     "static/media/banner-md.jpg": "/static/media/banner-md.eccdf1a20443ccb61dfe.jpg",
+    "static/media/mini-quad-hero.jpg": "/static/media/mini-quad-hero.8cda04d16c1381a4ac1b.jpg",
     "static/media/banner-sm.jpg": "/static/media/banner-sm.0aa1907f88c09d98e5ff.jpg",
+    "static/media/truggy-hero.jpg": "/static/media/truggy-hero.45c85caf350487c3a228.jpg",
+    "static/media/red-rocket-hero.jpg": "/static/media/red-rocket-hero.daac5c5ea4dfb55706d1.jpg",
+    "static/media/openrc-f1.md": "/static/media/openrc-f1.1d63f77570d7e2a46a5d.md",
+    "static/media/guitar.md": "/static/media/guitar.43745951810291488fc8.md",
     "index.html": "/index.html",
-    "main.250abadd.css.map": "/static/css/main.250abadd.css.map",
-    "main.91a6e25a.js.map": "/static/js/main.91a6e25a.js.map"
+    "static/media/openrc-truggy.md": "/static/media/openrc-truggy.6317f3c0bc19167dcb4e.md",
+    "static/media/printer.md": "/static/media/printer.976c7b1112d4f42d4752.md",
+    "static/media/openrc-mini-quad.md": "/static/media/openrc-mini-quad.50cde548121c2206880e.md",
+    "static/media/red-rocket.md": "/static/media/red-rocket.1c332b0f772e2895d071.md",
+    "main.168ab355.css.map": "/static/css/main.168ab355.css.map",
+    "main.65f6f0f0.js.map": "/static/js/main.65f6f0f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.250abadd.css",
-    "static/js/main.91a6e25a.js"
+    "static/css/main.168ab355.css",
+    "static/js/main.65f6f0f0.js"
   ]
 }

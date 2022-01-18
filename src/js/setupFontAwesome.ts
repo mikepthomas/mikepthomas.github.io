@@ -32,7 +32,7 @@ import {
   faIdCardAlt,
   faLaptopCode,
   faUserGraduate,
-  faWarehouse
+  faWarehouse,
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function register() {

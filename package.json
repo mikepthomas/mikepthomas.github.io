@@ -37,6 +37,7 @@
     "prettier": "^2.5.1"
   },
   "scripts": {
+    "lint": "prettier --single-quote --write .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

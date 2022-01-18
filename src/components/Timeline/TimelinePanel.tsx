@@ -74,7 +74,7 @@ export default function TimelinePanel(props: ExperienceItem) {
             </a>
             <div
               dangerouslySetInnerHTML={{
-                __html: props.description as string
+                __html: props.description as string,
               }}
             />
           </div>

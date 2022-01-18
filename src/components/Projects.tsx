@@ -23,12 +23,12 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import Markdown from 'react-markdown';
 import { match } from 'react-router';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Col, Container, Row } from 'reactstrap';
-import remarkGfm from 'remark-gfm'
+import remarkGfm from 'remark-gfm';
 
 import { getComponents } from '../js/markdownComponents';
 import './Projects.scss';
@@ -41,35 +41,13 @@ interface Props {
   match: match<ProjectProps>;
 }
 
-interface State {
-  file: string;
-  markdown: string;
-}
+const Projects = (props: Props) => {
+  const [markdown, setMarkdown] = useState('markdown');
 
-export default class Projects extends Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-
-    this.state = {
-      file: '',
-      markdown: ''
-    };
-  }
-
-  public componentDidMount() {
-    this.setState({
-      file: '',
-      markdown: ''
-    });
-    this.fetchMarkdown();
-  }
-
-  public componentDidUpdate() {
-    this.fetchMarkdown();
-  }
-
-  private fetchMarkdown() {
-    let url = 'data/markdown/' + this.props.match.params.project + '.md';
+  const location = useLocation();
+  React.useEffect(() => {
+    setMarkdown('# Loading project...');
+    let url = 'data/markdown/' + props.match.params.project + '.md';
     if (window.location.hostname === 'localhost') {
       url = require('../' + url);
     } else {
@@ -78,61 +56,62 @@ export default class Projects extends Component<Props, State> {
         'mikepthomas/mikepthomas.github.io/develop/src/' +
         url;
     }
-    if (this.state.file !== url) {
-      fetch(url)
-        .then(response => {
-          return response.text();
-        })
-        .then(text => {
-          window.scrollTo(0, 0);
-          this.setState({
-            file: url,
-            markdown: text
-          });
-        });
-    }
-  }
+    fetch(url)
+      .then((response) => {
+        return response.text();
+      })
+      .then((text) => {
+        window.scrollTo(0, 0);
+        setMarkdown(text);
+      });
+  }, [location, props]);
 
-  public render() {
-    return (
-      <Container className="nav-padding projects-page">
-        <Row>
-          <Col className="markdown" sm="8">
-            <Markdown
-              children={this.state.markdown}
-              components={getComponents()}
-              remarkPlugins={[remarkGfm]}
-            />
-          </Col>
-          <Col className="sidebar" sm={{ size: 3, offset: 1 }}>
-            <div className="sidebar-module sidebar-module-inset">
-              <h4>About</h4>
-              <p>
-                Here you can find information about a select few projects I am
-                currently working on.
-              </p>
-              <div className="sidebar-module">
-                <h4>Elsewhere</h4>
-                <ol className="list-unstyled">
-                  <li>
-                    <Link to="/projects/printer">3D Printer</Link>
-                  </li>
-                  <li>
-                    <Link to="/projects/openrc-f1">OpenRC F1</Link>
-                  </li>
-                  <li>
-                    <Link to="/projects/openrc-truggy">OpenRC Truggy</Link>
-                  </li>
-                  <li>
-                    <Link to="/projects/guitar">Guitar</Link>
-                  </li>
-                </ol>
-              </div>
+  return (
+    <Container className="nav-padding projects-page">
+      <Row>
+        <Col className="markdown" sm="8">
+          <Markdown
+            children={markdown}
+            components={getComponents()}
+            remarkPlugins={[remarkGfm]}
+          />
+        </Col>
+        <Col className="sidebar" sm={{ size: 3, offset: 1 }}>
+          <div className="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>
+              Here you can find information about a select few projects I am
+              currently working on.
+            </p>
+            <div className="sidebar-module">
+              <h4>Elsewhere</h4>
+              <ol className="list-unstyled">
+                <li>
+                  <Link to="/projects/printer">3D Printer</Link>
+                </li>
+                <li>
+                  <Link to="/projects/openrc-f1">OpenRC F1</Link>
+                </li>
+                <li>
+                  <Link to="/projects/openrc-truggy">OpenRC Truggy</Link>
+                </li>
+                <li>
+                  <Link to="/projects/openrc-mini-quad">OpenRC Mini Quad</Link>
+                </li>
+                <li>
+                  <Link to="/projects/guitar">Guitar</Link>
+                </li>
+                <li>
+                  <Link to="/projects/red-rocket">Red Rocket Truck Stop</Link>
+                </li>
+              </ol>
             </div>
-          </Col>
-        </Row>
-        <hr />
-      </Container>
-    );
-  }
-}
+          </div>
+        </Col>
+      </Row>
+      <hr />
+    </Container>
+  );
+};
+
+export default Projects;

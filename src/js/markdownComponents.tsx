@@ -27,10 +27,9 @@ import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import ReactWOW from 'react-wow';
 
-
 export function getComponents() {
   return {
-    a: ({...props}) => {
+    a: ({ ...props }) => {
       if (props.href?.match(/^(https?:)?\/\//)) {
         return (
           <a href={props.href} rel="noopener noreferrer" target="_blank">
@@ -40,23 +39,25 @@ export function getComponents() {
       } else {
         return (
           <HashLink
-            scroll={el =>
+            scroll={(el) =>
               window.scroll({ behavior: 'smooth', top: el.offsetTop + 10 })
             }
-            to={props.href || ""}
+            to={props.href || ''}
           >
             {props.children}
           </HashLink>
         );
       }
     },
-    h3: ({...props}) => (
-      <h3 id={props.children.toString().toLowerCase().replace(/\W/g, '-')}>{props.children}</h3>
+    h3: ({ ...props }) => (
+      <h3 id={props.children.toString().toLowerCase().replace(/\W/g, '-')}>
+        {props.children}
+      </h3>
     ),
-    img: ({...props}) => (
+    img: ({ ...props }) => (
       <ReactWOW offset={-200} animation="fadeIn">
         <img alt={props.alt} src={props.src} />
       </ReactWOW>
-    )
+    ),
   };
 }

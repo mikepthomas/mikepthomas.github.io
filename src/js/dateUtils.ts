@@ -23,26 +23,26 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import { differenceInCalendarMonths, format, formatDuration } from 'date-fns'
+import { differenceInCalendarMonths, format, formatDuration } from 'date-fns';
 
 export function formatDate(date?: string): string {
   if (date === undefined) {
-    return 'Present'
+    return 'Present';
   } else {
-    return format(new Date(date), 'MMMM yyyy')
+    return format(new Date(date), 'MMMM yyyy');
   }
 }
 
 export function formatYearsAndMonths(startDate: string, endDate?: string) {
   let start = new Date(startDate);
-  let end = endDate ? new Date(endDate) : new Date()
-  let monthCount = differenceInCalendarMonths(end, start)
+  let end = endDate ? new Date(endDate) : new Date();
+  let monthCount = differenceInCalendarMonths(end, start);
   let out = formatDuration(
     {
       years: Math.floor(Number(monthCount) / 12),
-      months: Number(monthCount) % 12
+      months: Number(monthCount) % 12,
     },
     { delimiter: ', ' }
-  )
+  );
   return `(${out})`;
 }

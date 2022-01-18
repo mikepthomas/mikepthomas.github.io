@@ -27,6 +27,10 @@ import React from 'react';
 import { CardColumns, Container } from 'reactstrap';
 
 import Card from './Card';
+import F1 from '../../img/openrc-f1/openrc-hero.jpg';
+import Guitar from '../../img/guitar/12-almost-there.jpg';
+import Truggy from '../../img/openrc-truggy/truggy-hero.jpg';
+import Printer from '../../img/printer/printed-items.jpg';
 
 import './Cards.scss';
 
@@ -43,8 +47,8 @@ export default function Links() {
             Interface in a Folding@Home v7 Client.
           </Card>
           <Card name="FAHServices" link="/fahservices">
-            Extension of work on FAHWeb. To create a REST API to be used by a web
-            front end to control Folding@Home v7 clients.
+            Extension of work on FAHWeb. To create a REST API to be used by a
+            web front end to control Folding@Home v7 clients.
           </Card>
           <Card name="FAHWeb" link="/fahweb" archived={true}>
             Extension of work on FAHView. To create a web front end to control
@@ -58,25 +62,29 @@ export default function Links() {
         <hr />
       </Container>
       <Container>
-      <h2 className="mb-2" id="projects">
-        3D printing projects
-      </h2>
-      <CardColumns>
-        <Card name="3D Printer" link="/#/projects/printer">
-          3D Printing upgrades for a 3D printer.
-        </Card>
-        <Card name="OpenRC F1" link="/#/projects/openrc-f1">
-          Printing a Formula 1 style remote control car.
-        </Card>
-        <Card name="OpenRC Truggy" link="/#/projects/openrc-truggy">
-          Logical advancement from the OpenRC F1.
-        </Card>
-        <Card name="Guitar" link="/#/projects/guitar">
-          Building a guitar with a 3D printed body.
-        </Card>
-      </CardColumns>
-      <hr />
-    </Container>
-  </>
+        <h2 className="mb-2" id="projects">
+          3D printing projects
+        </h2>
+        <CardColumns>
+          <Card name="3D Printer" link="/#/projects/printer" image={Printer}>
+            3D Printing upgrades for a 3D printer.
+          </Card>
+          <Card name="OpenRC F1" link="/#/projects/openrc-f1" image={F1}>
+            Printing a Formula 1 style remote control car.
+          </Card>
+          <Card
+            name="OpenRC Truggy"
+            link="/#/projects/openrc-truggy"
+            image={Truggy}
+          >
+            Logical advancement from the OpenRC F1.
+          </Card>
+          <Card name="Guitar" link="/#/projects/guitar" image={Guitar}>
+            Building a guitar with a 3D printed body.
+          </Card>
+        </CardColumns>
+        <hr />
+      </Container>
+    </>
   );
 }

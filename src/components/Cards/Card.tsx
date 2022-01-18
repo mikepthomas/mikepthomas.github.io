@@ -28,14 +28,16 @@ import {
   Card,
   CardBody,
   CardHeader,
+  CardImg,
   CardLink,
   CardSubtitle,
-  CardText
+  CardText,
 } from 'reactstrap';
 
 interface Props {
   archived?: boolean;
   children: string;
+  image?: string;
   link: string;
   name: string;
 }
@@ -44,6 +46,7 @@ export default function Link(props: Props) {
   return (
     <Card color="light">
       <CardHeader tag="h3">{props.name}</CardHeader>
+      {props.image ? <CardImg src={props.image} /> : null}
       <CardBody>
         {props.archived ? (
           <CardSubtitle className="text-muted" tag="h4">

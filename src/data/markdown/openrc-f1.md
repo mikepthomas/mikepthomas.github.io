@@ -9,7 +9,7 @@ August 5, 2018 by [Mike Thomas](https://github.com/mikepthomas)
 This project was one of the main reasons I got into 3D printing in the first place.
 Ever since getting my Anet A8 3D printer, I've wanted to build this.
 
-![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc/openrc-hero.jpg)
+![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/openrc-hero.jpg)
 
 ---
 

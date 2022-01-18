@@ -57,14 +57,27 @@ export default class Projects extends Component<Props, State> {
   }
 
   public componentDidMount() {
-    this.componentDidUpdate();
+    this.setState({
+      file: '',
+      markdown: ''
+    });
+    this.fetchMarkdown();
   }
 
   public componentDidUpdate() {
-    let url =
-      'https://raw.githubusercontent.com/' +
-      'mikepthomas/mikepthomas.github.io/develop/src/data/markdown/' + 
-      this.props.match.params.project + '.md';
+    this.fetchMarkdown();
+  }
+
+  private fetchMarkdown() {
+    let url = 'data/markdown/' + this.props.match.params.project + '.md';
+    if (window.location.hostname === 'localhost') {
+      url = require('../' + url);
+    } else {
+      url =
+        'https://raw.githubusercontent.com/' +
+        'mikepthomas/mikepthomas.github.io/develop/src/' +
+        url;
+    }
     if (this.state.file !== url) {
       fetch(url)
         .then(response => {
@@ -105,10 +118,13 @@ export default class Projects extends Component<Props, State> {
                     <Link to="/projects/printer">3D Printer</Link>
                   </li>
                   <li>
-                    <Link to="/projects/guitar">Guitar</Link>
+                    <Link to="/projects/openrc-f1">OpenRC F1</Link>
                   </li>
                   <li>
-                    <Link to="/projects/openrc">OpenRC F1</Link>
+                    <Link to="/projects/openrc-truggy">OpenRC Truggy</Link>
+                  </li>
+                  <li>
+                    <Link to="/projects/guitar">Guitar</Link>
                   </li>
                 </ol>
               </div>

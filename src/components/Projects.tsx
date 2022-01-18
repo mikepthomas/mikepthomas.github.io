@@ -78,13 +78,13 @@ const Projects = (props: Props) => {
         </Col>
         <Col className="sidebar" sm={{ size: 3, offset: 1 }}>
           <div className="sidebar-module sidebar-module-inset">
-            <h4>About</h4>
+            <h2>About</h2>
             <p>
               Here you can find information about a select few projects I am
               currently working on.
             </p>
             <div className="sidebar-module">
-              <h4>Elsewhere</h4>
+              <h3>Elsewhere</h3>
               <ol className="list-unstyled">
                 <li>
                   <Link to="/projects/printer">3D Printer</Link>

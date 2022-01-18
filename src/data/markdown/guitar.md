@@ -12,7 +12,7 @@ August 2, 2018 by [Mike Thomas](https://github.com/mikepthomas)
 
 # Assembly
 
-Assembly of the car is split into the following parts:
+Assembly of the guitar is split into the following parts:
 
 1. [Sourcing Parts](#sourcing-parts)
 1. [Attaching Neck](#attaching-neck)

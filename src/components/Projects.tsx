@@ -43,10 +43,10 @@ interface Props {
 
 const Projects = (props: Props) => {
   const [markdown, setMarkdown] = useState('markdown');
+  const [file, setFile] = useState('file');
 
   const location = useLocation();
   React.useEffect(() => {
-    setMarkdown('# Loading project...');
     let url = 'data/markdown/' + props.match.params.project + '.md';
     if (window.location.hostname === 'localhost') {
       url = require('../' + url);
@@ -56,15 +56,19 @@ const Projects = (props: Props) => {
         'mikepthomas/mikepthomas.github.io/develop/src/' +
         url;
     }
-    fetch(url)
-      .then((response) => {
-        return response.text();
-      })
-      .then((text) => {
-        window.scrollTo(0, 0);
-        setMarkdown(text);
-      });
-  }, [location, props]);
+    if (file !== url) {
+      setMarkdown('# Loading project...');
+      fetch(url)
+        .then((response) => {
+          return response.text();
+        })
+        .then((text) => {
+          window.scrollTo(0, 0);
+          setMarkdown(text);
+          setFile(url);
+        });
+    }
+  }, [file, location, props]);
 
   return (
     <Container className="nav-padding projects-page">

@@ -24,22 +24,22 @@ Assembly of the building is split into the following parts:
 
 > Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)
 
-| Item           | Quantity | Material                                                                                  |
-| -------------- | -------- | ----------------------------------------------------------------------------------------- |
-| Back Wall A    | 1        | [Tinmorry PLA Filament (Matte Brick Red)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) |
-| Back Wall B    | 1        | [Tinmorry PLA Filament (Matte Brick Red)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) |
-| Door Canopy    | 3        | [3D Prima PrimaValue PLA (Red)](https://www.amazon.co.uk/gp/product/B01AMLMTX2)           |
-| Front Window A | 1        | [3D Prima PrimaValue PLA (Dark Grey)](https://www.amazon.co.uk/gp/product/B01DWTS7KA)     |
-| Front Window B | 1        | [3D Prima PrimaValue PLA (Dark Grey)](https://www.amazon.co.uk/gp/product/B01DWTS7KA)     |
-| Inner Corner A | 1        | [Tinmorry PLA Filament (Matte Brick Red)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) |
-| Inner Corner B | 1        | [Tinmorry PLA Filament (Matte Brick Red)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) |
-| Inner Wall A   | 1        | [Tinmorry PLA Filament (Matte Brick Red)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) |
-| Inner Wall B   | 2        | [Tinmorry PLA Filament (Matte Brick Red)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) |
-| Left Wall A    | 1        | [Tinmorry PLA Filament (Matte Brick Red)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) |
-| Left Wall B    | 2        | [Tinmorry PLA Filament (Matte Brick Red)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) |
-| Outer Corner   | 4        | [Tinmorry PLA Filament (Matte Brick Red)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) |
-| Right Wall A   | 1        | [Tinmorry PLA Filament (Matte Brick Red)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) |
-| Right Wall B   | 2        | [Tinmorry PLA Filament (Matte Brick Red)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) |
+| Item           | Quantity | Material                                                                                                | Cost        |
+| -------------- | -------- | ------------------------------------------------------------------------------------------------------- | ----------- |
+| Back Wall A    | 1        | [Matte Brick Red Tinmorry PLA Filament (13.29m / ~40g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£1.03      |
+| Back Wall B    | 1        | [Matte Brick Red Tinmorry PLA Filament (23.05m / ~69g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£1.79      |
+| Door Canopy    | 3        | [Red PrimaValue PLA (1.42m / ~4g)](https://www.amazon.co.uk/gp/product/B01AMLMTX2)                      | ~£0.10 each |
+| Front Window A | 1        | [Dark Grey PrimaValue PLA (12.19m / ~36g)](https://www.amazon.co.uk/gp/product/B01DWTS7KA)              | ~£0.58      |
+| Front Window B | 1        | [Dark Grey PrimaValue PLA (13.79m / ~41g)](https://www.amazon.co.uk/gp/product/B01DWTS7KA)              | ~£0.65      |
+| Inner Corner A | 1        | [Matte Brick Red Tinmorry PLA Filament (11.25m / ~34g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£0.87      |
+| Inner Corner B | 1        | [Matte Brick Red Tinmorry PLA Filament (11.99m / ~36g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£0.93      |
+| Inner Wall A   | 1        | [Matte Brick Red Tinmorry PLA Filament (14.38m / ~43g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£1.11      |
+| Inner Wall B   | 2        | [Matte Brick Red Tinmorry PLA Filament (12.12m / ~36g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£0.94 each |
+| Left Wall A    | 1        | [Matte Brick Red Tinmorry PLA Filament (7.34m / ~22g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS)  | ~£0.57      |
+| Left Wall B    | 2        | [Matte Brick Red Tinmorry PLA Filament (20.93m / ~62g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£1.62 each |
+| Outer Corner   | 4        | [Matte Brick Red Tinmorry PLA Filament (9.58m / ~29g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS)  | ~£0.74 each |
+| Right Wall A   | 1        | [Matte Brick Red Tinmorry PLA Filament (10.60m / ~32g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£0.82      |
+| Right Wall B   | 2        | [Matte Brick Red Tinmorry PLA Filament (9.74m / ~29g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS)  | ~£0.76 each |
 
 ![Red Rocket Walls](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/red-rocket/walls.jpg)
 

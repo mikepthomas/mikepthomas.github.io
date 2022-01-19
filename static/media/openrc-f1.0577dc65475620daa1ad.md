@@ -13,20 +13,21 @@ Ever since getting my Anet A8 3D printer, I've wanted to build this.
 
 ---
 
-# Assembly
+## Assembly
 
 Assembly of the car is split into the following parts:
 
 1. [Front Wheel Assembly](#front-wheel-assembly)
-1. [Front BOM Assembly](#front-bom-assembly)
-1. [Rear Wheel Assembly](#rear-wheel-assembly)
-1. [Rear Axle Assembly](#rear-axle-assembly)
-1. [Chassis Assembly](#chassis-assembly)
+2. [Front BOM Assembly](#front-bom-assembly)
+3. [Rear Wheel Assembly](#rear-wheel-assembly)
+4. [Rear Axle Assembly](#rear-axle-assembly)
+5. [Chassis Assembly](#chassis-assembly)
 
 ### Front Wheel Assembly
 
 ![](https://cdn.thingiverse.com/renders/e2/53/2b/53/72/Front_Wheel_Assembly_preview_featured.jpg)
-_Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
 | Item | Quantity | Description                                                                                       | Material                                                                          | Cost                    |
 | ---- | -------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------- |
@@ -42,7 +43,8 @@ _Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
 ### Front BOM Assembly
 
 ![](https://cdn.thingiverse.com/renders/a6/8d/e8/c3/31/Front_BOM_Assembly_preview_featured.jpg)
-_Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
 | Item | Quantity | Description                                                                                    | Material                                                                         | Cost                  |
 | ---- | -------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --------------------- |
@@ -61,7 +63,8 @@ _Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
 ### Rear Wheel Assembly
 
 ![](https://cdn.thingiverse.com/renders/24/b9/79/f2/e5/Rear_Wheel_Assembly_preview_featured.jpg)
-_Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
 | Item | Quantity | Description                                                                          | Material                                                                       | Cost              |
 | ---- | -------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ----------------- |
@@ -71,7 +74,8 @@ _Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
 ### Rear Axle Assembly
 
 ![](https://cdn.thingiverse.com/renders/44/24/da/87/7b/Rear_Axle_Assembly_preview_featured.jpg)
-_Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
 | Item | Quantity | Description                                                                                                                                                     | Material                                                                          | Cost                    |
 | ---- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------- |
@@ -91,7 +95,8 @@ _Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
 ### Chassis Assembly
 
 ![](https://cdn.thingiverse.com/renders/b0/b3/37/79/ad/Chassie_Assembly_preview_featured.jpg)
-_Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
 | Item | Quantity | Description                                                                                                                     | Material                                                                           | Cost                    |
 | ---- | -------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------- |

@@ -13,16 +13,23 @@ improved parts.
 
 ---
 
-# Assembly
+## Table of contents
+
+1. [Assembly](#assembly)
+2. [Safety Upgrades](#safety-upgrades)
+3. [Auto Bed Levelling](#auto-bed-levelling)
+4. [3D Printed Upgrades](#3d-printed-upgrades)
+
+## Assembly
 
 Assembly of the printer is split into the following parts:
 
 1. [Frame](#frame)
-1. [Y Axis](#y-axis)
-1. [Z Axis](#z-axis)
-1. [X Axis](#x-axis)
-1. [Electronics](#electronics)
-1. [Testing](#testing)
+2. [Y Axis](#y-axis)
+3. [Z Axis](#z-axis)
+4. [X Axis](#x-axis)
+5. [Electronics](#electronics)
+6. [Testing](#testing)
 
 ### Frame
 
@@ -74,3 +81,55 @@ Assembly of the printer is split into the following parts:
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/28-she-lives.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/29-wire-management.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/30-first-print.jpg)
+
+## Safety Upgrades
+
+![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/safety-upgrades.jpg)
+
+The Anet A8 has a bit of a [reputation for catching on fire](https://www.fabbaloo.com/2018/12/3d-printer-safety-another-anet-a8-burns) these upgrades are a must to ensure safety of using the printer.
+
+- 30A power supply
+- Mosfets
+- Enable Thermal runaway in Marlin
+
+## Auto Bed Levelling
+
+To enable auto bed levelling on the printer I used a Tronxy XY-08N.
+
+![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/auto-level-sensor.jpg)
+
+The firmware to enable the sensor is available on [my Marlin Github repository](https://github.com/mikepthomas/Marlin/tree/2.0.x-Anet3D-V1-5)
+
+## 3D Printed Upgrades
+
+![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/printed-items.jpg)
+
+Some 3D printed upgrades that I have made to allow he printer to print and look better.
+
+1. [Semi-Circular Anet A8 Fan Duct](#semi-circular-anet-a8-fan-duct)
+2. [Anet A8 T corner](#anet-a8-t-corner)
+3. [Hulk Frame Brace for the Anet A8](#hulk-frame-brace-for-the-anet-a8)
+
+### Semi-Circular Anet A8 Fan Duct
+
+[Fan duct from Thingyverse](https://www.thingiverse.com/thing:1954001) by user [lokster](https://www.thingiverse.com/lokster)
+
+This was a required upgrade as the original Anet A8 fan duct started to melt.
+
+![Original Anet A8 Fan Duct](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/original-fan-duct.jpg)
+
+![Semi-Circular Anet A8 Fan Duct](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/semi-circular-fan-duct.jpg)
+
+### Anet A8 T corner
+
+[Frame brace from Thingyverse](https://www.thingiverse.com/thing:1672959) by user [Electrico](https://www.thingiverse.com/Electrico)
+
+![Anet A8 T corner](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/t-corner.jpg)
+
+![Anet A8 T corner installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/t-corner-installed.jpg)
+
+This didn't stiffen up the frame as much as I would like... to improve print quality, it was replaced by the [Hulk Frame Brace for the Anet A8](#hulk-frame-brace-for-the-anet-a8)
+
+### Hulk Frame Brace for the Anet A8
+
+[Frame brace from Thingyverse](https://www.thingiverse.com/thing:2189694) by user [Leo_N](https://www.thingiverse.com/Leo_N)

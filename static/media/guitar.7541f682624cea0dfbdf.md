@@ -10,15 +10,15 @@ August 2, 2018 by [Mike Thomas](https://github.com/mikepthomas)
 
 ---
 
-# Assembly
+## Assembly
 
 Assembly of the guitar is split into the following parts:
 
 1. [Sourcing Parts](#sourcing-parts)
-1. [Attaching Neck](#attaching-neck)
-1. [Main Body](#main-body)
-1. [Attaching Sides](#attaching-sides)
-1. [Finishing Up](#finishing-up)
+2. [Attaching Neck](#attaching-neck)
+3. [Main Body](#main-body)
+4. [Attaching Sides](#attaching-sides)
+5. [Finishing Up](#finishing-up)
 
 ### Sourcing Parts
 

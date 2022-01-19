@@ -2,7 +2,7 @@
 
 How I printed my OpenRC 220 FPV Mini Quad, Designed by Daniel Norée.
 
-## 3D Printing an FPV racing Drine
+## 3D Printing an FPV racing Drone
 
 August 30, 2019 by [Mike Thomas](https://github.com/mikepthomas)
 

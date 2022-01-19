@@ -14,29 +14,29 @@ Another jump into Radio Contolled vehicles, this time I want to fly!
 
 # Assembly
 
-Assembly of the car is split into the following parts:
+Assembly of the drone is split into the following parts:
 
 1. [Flight Stack](#flight-stack)
-1. [Motors](#motors)
-1. [Body](#body)
-1. [Top Deck](#top-deck)
+2. [Motors](#motors)
+3. [Body](#body)
+4. [Top Deck](#top-deck)
 
-### Flight Stack
+## Flight Stack
 
 ![](https://cdn.thingiverse.com/renders/26/51/4f/9f/11/fb69c74314b1c4dd86291f720344c80b_preview_featured.jpg)
 _Image &copy; 2017 [Daniel Norée](https://danielnoree.com/)_
 
-### Motors
+## Motors
 
 ![](https://cdn.thingiverse.com/renders/32/6d/40/f7/05/e722d113b2fb009ba3426204cb3afb86_preview_featured.jpg)
 _Image &copy; 2017 [Daniel Norée](https://danielnoree.com/)_
 
-### Body
+## Body
 
 ![](https://cdn.thingiverse.com/renders/9a/75/f9/fa/7d/cef882309c568e1bed7d872d4704287f_preview_featured.jpg)
 _Image &copy; 2017 [Daniel Norée](https://danielnoree.com/)_
 
-### Top Deck
+## Top Deck
 
 ![](https://cdn.thingiverse.com/renders/e9/2e/ea/14/b2/82582c0da2d639c3dfffda954992fd8e_preview_featured.jpg)
 _Image &copy; 2017 [Daniel Norée](https://danielnoree.com/)_

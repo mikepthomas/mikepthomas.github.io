@@ -15,22 +15,22 @@ August 2, 2018 by [Mike Thomas](https://github.com/mikepthomas)
 Assembly of the guitar is split into the following parts:
 
 1. [Sourcing Parts](#sourcing-parts)
-1. [Attaching Neck](#attaching-neck)
-1. [Main Body](#main-body)
-1. [Attaching Sides](#attaching-sides)
-1. [Finishing Up](#finishing-up)
+2. [Attaching Neck](#attaching-neck)
+3. [Main Body](#main-body)
+4. [Attaching Sides](#attaching-sides)
+5. [Finishing Up](#finishing-up)
 
-### Sourcing Parts
+## Sourcing Parts
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/01-sourcing-parts.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/02-finished-sourcing.jpg)
 
-### Attaching Neck
+## Attaching Neck
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/03-first-part-front.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/04-first-part-rear.jpg)
 
-### Main Body
+## Main Body
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/05-second-part.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/06-tension-springs.jpg)
@@ -38,14 +38,14 @@ Assembly of the guitar is split into the following parts:
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/08-third-part-front.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/09-full-length.jpg)
 
-### Attaching Sides
+## Attaching Sides
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/10-sides.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/11-sides-install.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/12-almost-there.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/13-sides-clamping.jpg)
 
-### Finishing Up
+## Finishing Up
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/14-body-finished.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/15-electronics.jpg)

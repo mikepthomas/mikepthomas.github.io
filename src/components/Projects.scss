@@ -32,6 +32,10 @@
     img {
       width: 100%;
     }
+    .blockquote {
+      border-left: $spacer * 0.25 solid $gray-500;
+      padding-left: $spacer * 0.5;
+    }
   }
 
   @include media-breakpoint-up(md) {

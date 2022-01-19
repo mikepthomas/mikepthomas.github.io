@@ -49,10 +49,17 @@ export function getComponents() {
         );
       }
     },
+    blockquote: ({ ...props }) => (
+      <blockquote className="blockquote">{props.children}</blockquote>
+    ),
+    h1: ({ ...props }) => (
+      <h1 id={createId(props.children.toString())}>{props.children}</h1>
+    ),
+    h2: ({ ...props }) => (
+      <h2 id={createId(props.children.toString())}>{props.children}</h2>
+    ),
     h3: ({ ...props }) => (
-      <h3 id={props.children.toString().toLowerCase().replace(/\W/g, '-')}>
-        {props.children}
-      </h3>
+      <h3 id={createId(props.children.toString())}>{props.children}</h3>
     ),
     img: ({ ...props }) => (
       <ReactWOW offset={-200} animation="fadeIn">
@@ -61,3 +68,5 @@ export function getComponents() {
     ),
   };
 }
+
+const createId = (text: string) => text.toLowerCase().replace(/\W/g, '-');

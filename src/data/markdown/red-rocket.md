@@ -23,7 +23,7 @@ Assembly of the building is split into the following parts:
 ![](https://cdn.shopify.com/s/files/1/0225/4035/products/FO_PreservedRedRocket_01InteriorPartsList_700x.jpg)
 _Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)_
 
-### Walls
+### Roof
 
 ![](https://cdn.shopify.com/s/files/1/0225/4035/products/FO_PreservedRedRocket_02RoofPartsList_700x.jpg)
 _Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)_

@@ -10,7 +10,7 @@ April 20, 2021 by [Mike Thomas](https://github.com/mikepthomas)
 
 ---
 
-# Assembly
+## Assembly
 
 Assembly of the building is split into the following parts:
 
@@ -18,19 +18,19 @@ Assembly of the building is split into the following parts:
 2. [Roof](#roof)
 3. [Floor](#floor)
 
-## Walls
+### Walls
 
 ![Preserved Red Rocket Interior - Parts List](https://cdn.shopify.com/s/files/1/0225/4035/products/FO_PreservedRedRocket_01InteriorPartsList_700x.jpg)
 
 > Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)
 
-## Roof
+### Roof
 
 ![Preserved Red Rocket Main Roof - Parts List](https://cdn.shopify.com/s/files/1/0225/4035/products/FO_PreservedRedRocket_02RoofPartsList_700x.jpg)
 
 > Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)
 
-## Floor
+### Floor
 
 ![Red Rocket Flooring Layout](https://cdn.shopify.com/s/files/1/0225/4035/products/FO_PAH_RedRocketFLOORING_Assembly1_700x.jpg)
 

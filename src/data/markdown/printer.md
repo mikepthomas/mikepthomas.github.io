@@ -13,14 +13,14 @@ improved parts.
 
 ---
 
-# Table of contents
+## Table of contents
 
 1. [Assembly](#assembly)
 2. [Safety Upgrades](#safety-upgrades)
 3. [Auto Bed Levelling](#auto-bed-levelling)
 4. [3D Printed Upgrades](#3d-printed-upgrades)
 
-# Assembly
+## Assembly
 
 Assembly of the printer is split into the following parts:
 
@@ -31,13 +31,13 @@ Assembly of the printer is split into the following parts:
 5. [Electronics](#electronics)
 6. [Testing](#testing)
 
-## Frame
+### Frame
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/01-before-assembly.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/02-mid-frame.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/03-top-frame.jpg)
 
-## Y Axis
+### Y Axis
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/04-y-axis-motor.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/05-rear-frame.jpg)
@@ -45,20 +45,20 @@ Assembly of the printer is split into the following parts:
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/07-y-axis-install.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/08-y-axis-rods.jpg)
 
-## Heated Bed
+### Heated Bed
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/09-bed-carriage.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/10-bed-carriage-install.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/11-y-belt.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/12-heated-bed.jpg)
 
-## Z Axis
+### Z Axis
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/13-z-axis-motors.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/14-z-axis-rods.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/15-lead-screws.jpg)
 
-## X Axis
+### X Axis
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/16-x-axis-rods.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/17-extruder.jpg)
@@ -68,21 +68,21 @@ Assembly of the printer is split into the following parts:
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/21-x-axis-motor.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/22-x-axis-complete.jpg)
 
-## Electronics
+### Electronics
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/23-display.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/24-power-supply.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/25-control-board.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/26-wiring.jpg)
 
-## Testing
+### Testing
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/27-initial-power-on.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/28-she-lives.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/29-wire-management.jpg)
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/30-first-print.jpg)
 
-# Safety Upgrades
+## Safety Upgrades
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/safety-upgrades.jpg)
 
@@ -92,7 +92,7 @@ The Anet A8 has a bit of a [reputation for catching on fire](https://www.fabbalo
 - Mosfets
 - Enable Thermal runaway in Marlin
 
-# Auto Bed Levelling
+## Auto Bed Levelling
 
 To enable auto bed levelling on the printer I used a Tronxy XY-08N.
 
@@ -100,7 +100,7 @@ To enable auto bed levelling on the printer I used a Tronxy XY-08N.
 
 The firmware to enable the sensor is available on [my Marlin Github repository](https://github.com/mikepthomas/Marlin/tree/2.0.x-Anet3D-V1-5)
 
-# 3D Printed Upgrades
+## 3D Printed Upgrades
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/printed-items.jpg)
 
@@ -110,7 +110,7 @@ Some 3D printed upgrades that I have made to allow he printer to print and look 
 2. [Anet A8 T corner](#anet-a8-t-corner)
 3. [Hulk Frame Brace for the Anet A8](#hulk-frame-brace-for-the-anet-a8)
 
-## Semi-Circular Anet A8 Fan Duct
+### Semi-Circular Anet A8 Fan Duct
 
 [Fan duct from Thingyverse](https://www.thingiverse.com/thing:1954001) by user [lokster](https://www.thingiverse.com/lokster)
 
@@ -120,7 +120,7 @@ This was a required upgrade as the original Anet A8 fan duct started to melt.
 
 ![Semi-Circular Anet A8 Fan Duct](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/semi-circular-fan-duct.jpg)
 
-## Anet A8 T corner
+### Anet A8 T corner
 
 [Frame brace from Thingyverse](https://www.thingiverse.com/thing:1672959) by user [Electrico](https://www.thingiverse.com/Electrico)
 
@@ -130,6 +130,6 @@ This was a required upgrade as the original Anet A8 fan duct started to melt.
 
 This didn't stiffen up the frame as much as I would like... to improve print quality, it was replaced by the [Hulk Frame Brace for the Anet A8](#hulk-frame-brace-for-the-anet-a8)
 
-## Hulk Frame Brace for the Anet A8
+### Hulk Frame Brace for the Anet A8
 
 [Frame brace from Thingyverse](https://www.thingiverse.com/thing:2189694) by user [Leo_N](https://www.thingiverse.com/Leo_N)

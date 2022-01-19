@@ -13,7 +13,7 @@ Ever since getting my Anet A8 3D printer, I've wanted to build this.
 
 ---
 
-# Assembly
+## Assembly
 
 Assembly of the car is split into the following parts:
 
@@ -23,7 +23,7 @@ Assembly of the car is split into the following parts:
 4. [Rear Axle Assembly](#rear-axle-assembly)
 5. [Chassis Assembly](#chassis-assembly)
 
-## Front Wheel Assembly
+### Front Wheel Assembly
 
 ![](https://cdn.thingiverse.com/renders/e2/53/2b/53/72/Front_Wheel_Assembly_preview_featured.jpg)
 
@@ -40,7 +40,7 @@ Assembly of the car is split into the following parts:
 | 7    | 1        | [AHC Countersunk Allen Key Bolts M3 3mm x 8mm](https://www.amazon.co.uk/gp/product/B00GR404L8)    | Stainless Steel                                                                   | £4.39 (Pack of 500)     |
 | 8    | 1        | [Tamiya F104 Hollow, Front Hard Tyre](https://www.amazon.co.uk/gp/product/B0035WV8AQ)             | Rubber                                                                            | £13.27 (Set of 2)       |
 
-## Front BOM Assembly
+### Front BOM Assembly
 
 ![](https://cdn.thingiverse.com/renders/a6/8d/e8/c3/31/Front_BOM_Assembly_preview_featured.jpg)
 
@@ -60,7 +60,7 @@ Assembly of the car is split into the following parts:
 | 8    | 2        | [Front Wheel Assembly](#front-wheel-assembly)                                                  |                                                                                  |                       |
 | 9    | 2        | [Steering Push Pin (4m)](https://www.thingiverse.com/thing:1193309)                            | [Dark Grey PrimaValue PLA (0.24m / ~1g)](https://www.amazon.co.uk/dp/B01DWTS7KA) | ~£0.01                |
 
-## Rear Wheel Assembly
+### Rear Wheel Assembly
 
 ![](https://cdn.thingiverse.com/renders/24/b9/79/f2/e5/Rear_Wheel_Assembly_preview_featured.jpg)
 
@@ -71,7 +71,7 @@ Assembly of the car is split into the following parts:
 | 1    | 1        | [Rear rim for F104 Tires (3h 30m)](https://www.thingiverse.com/thing:3017254)        | [Dark Grey PrimaValue PLA (9m / ~27g)](https://www.amazon.co.uk/dp/B01DWTS7KA) | ~£0.43            |
 | 2    | 1        | [Tamiya F104 Hollow, Back Soft Tyre](https://www.amazon.co.uk/gp/product/B0035WV8B0) | Rubber                                                                         | £15.49 (Set of 2) |
 
-## Rear Axle Assembly
+### Rear Axle Assembly
 
 ![](https://cdn.thingiverse.com/renders/44/24/da/87/7b/Rear_Axle_Assembly_preview_featured.jpg)
 
@@ -92,7 +92,7 @@ Assembly of the car is split into the following parts:
 | 10   | 1        | [Rear Axle Holder Left (36m)](https://www.thingiverse.com/thing:1193309)                                                                                        | [Dark Grey PrimaValue PLA (1.68m / ~5g)](https://www.amazon.co.uk/dp/B01DWTS7KA)  | ~£0.08                  |
 | 11   | 2        | [Front Lock Nut (3m)](https://www.thingiverse.com/thing:1193309)                                                                                                | [Dark Grey PrimaValue PLA (0.17m / ~1g)](https://www.amazon.co.uk/dp/B01DWTS7KA)  | ~£0.01                  |
 
-## Chassis Assembly
+### Chassis Assembly
 
 ![](https://cdn.thingiverse.com/renders/b0/b3/37/79/ad/Chassie_Assembly_preview_featured.jpg)
 

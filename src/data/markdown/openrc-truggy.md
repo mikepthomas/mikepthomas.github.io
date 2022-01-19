@@ -13,7 +13,7 @@ It uses common off the shelf metal parts in place of some of the original 3D pri
 
 ---
 
-# Assembly
+## Assembly
 
 Assembly of the car is split into the following parts:
 
@@ -24,37 +24,37 @@ Assembly of the car is split into the following parts:
 5. [Rear Assembly](#rear-assembly)
 6. [Chassis Assembly](#chassis-assembly)
 
-## Differential Housing Assembly
+### Differential Housing Assembly
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/differential-housing-assembly.png)
 
 > Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)
 
-## Front C-Hub Assembly
+### Front C-Hub Assembly
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/front-c-hub-assembly.png)
 
 > Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)
 
-## Front Assembly
+### Front Assembly
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/front-assembly.png)
 
 > Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)
 
-## Steering Assembly
+### Steering Assembly
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/steering-assembly.png)
 
 > Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)
 
-## Rear Assembly
+### Rear Assembly
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/rear-assembly.png)
 
 > Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)
 
-## Chassis Assembly
+### Chassis Assembly
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/chassis-assembly.png)
 

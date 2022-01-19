@@ -26,7 +26,8 @@ Assembly of the car is split into the following parts:
 ## Front Wheel Assembly
 
 ![](https://cdn.thingiverse.com/renders/e2/53/2b/53/72/Front_Wheel_Assembly_preview_featured.jpg)
-_Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
 | Item | Quantity | Description                                                                                       | Material                                                                          | Cost                    |
 | ---- | -------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------- |
@@ -42,7 +43,8 @@ _Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
 ## Front BOM Assembly
 
 ![](https://cdn.thingiverse.com/renders/a6/8d/e8/c3/31/Front_BOM_Assembly_preview_featured.jpg)
-_Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
 | Item | Quantity | Description                                                                                    | Material                                                                         | Cost                  |
 | ---- | -------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --------------------- |
@@ -61,7 +63,8 @@ _Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
 ## Rear Wheel Assembly
 
 ![](https://cdn.thingiverse.com/renders/24/b9/79/f2/e5/Rear_Wheel_Assembly_preview_featured.jpg)
-_Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
 | Item | Quantity | Description                                                                          | Material                                                                       | Cost              |
 | ---- | -------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ----------------- |
@@ -71,7 +74,8 @@ _Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
 ## Rear Axle Assembly
 
 ![](https://cdn.thingiverse.com/renders/44/24/da/87/7b/Rear_Axle_Assembly_preview_featured.jpg)
-_Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
 | Item | Quantity | Description                                                                                                                                                     | Material                                                                          | Cost                    |
 | ---- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------- |
@@ -91,7 +95,8 @@ _Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
 ## Chassis Assembly
 
 ![](https://cdn.thingiverse.com/renders/b0/b3/37/79/ad/Chassie_Assembly_preview_featured.jpg)
-_Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
 | Item | Quantity | Description                                                                                                                     | Material                                                                           | Cost                    |
 | ---- | -------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------- |

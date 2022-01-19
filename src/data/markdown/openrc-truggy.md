@@ -27,29 +27,35 @@ Assembly of the car is split into the following parts:
 ## Differential Housing Assembly
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/differential-housing-assembly.png)
-_Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)
 
 ## Front C-Hub Assembly
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/front-c-hub-assembly.png)
-_Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)
 
 ## Front Assembly
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/front-assembly.png)
-_Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)
 
 ## Steering Assembly
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/steering-assembly.png)
-_Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)
 
 ## Rear Assembly
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/rear-assembly.png)
-_Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)
 
 ## Chassis Assembly
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/chassis-assembly.png)
-_Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)_
+
+> Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)

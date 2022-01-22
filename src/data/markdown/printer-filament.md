@@ -46,66 +46,66 @@ This filament was originally brought to print Fallout Wasteland Warfare [Vault](
 
 ## PrimaValue PLA (Black)
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                             | Purchased From                                           | Cost   |
+| ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | ------ |
 | 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PrimaValue%20PLA%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B013IHX9EA) | £24.80 |
 
 ## PrimaValue PLA (Blue)
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Cost   |
+| ---------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PrimaValue%20PLA%20(Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01AMLMSGU) | £17.90 |
 
 ## PrimaValue PLA (Dark Grey)
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                   | Purchased From                                           | Cost   |
+| ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | ------ |
 | 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PrimaValue%20PLA%20(Dark%20Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01DWTS7KA) | £25.04 |
 
 ## PrimaValue PLA (Red)
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                           | Cost   |
+| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PrimaValue%20PLA%20(Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01AMLMTX2) | £24.86 |
 
 ## Tinmorry PETG (Black)
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Cost   |
+| ---------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 240 (1st Layer) 245 (Others) | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PETG%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B087TFZR9K) | £19.99 |
 
 ## Tinmorry PETG (White)
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Cost   |
+| ---------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 240 (1st Layer) 245 (Others) | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PETG%20(White).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B083Z69XKM) | £19.99 |
 
 ## Tinmorry PLA (Black)
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                           | Cost   |
+| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PLA%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B083Y5G2GJ) | £16.99 |
 
 ## Tinmorry PLA (Grey)
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                          | Purchased From                                           | Cost   |
+| ---------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PLA%20(Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B089YX78N5) | £22.99 |
 
 ## Tinmorry PLA (Matte Brick Red)
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                         | Purchased From                                           | Cost   |
+| ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | ------ |
 | 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PLA%20(Matte%20Brick%20Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | £25.99 |
 
 ## Ziro PLA (Black)
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                       | Purchased From                                           | Cost   |
+| ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | ------ |
 | 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Ziro%20PLA%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B073WX3T91) | £15.99 |
 
 ## Ziro TPU (Black)
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                       | Purchased From                                           | Cost   |
+| ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | ------ |
 | 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Ziro%20TPU%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01INRE4X0) | £21.99 |

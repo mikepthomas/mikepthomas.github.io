@@ -47,7 +47,11 @@ const Projects = (props: Props) => {
 
   const location = useLocation();
   React.useEffect(() => {
-    let url = 'data/markdown/' + props.match.params.project + '.md';
+    let filename = props.match.params.project;
+    if (!filename.endsWith('.md')) {
+      filename += '.md';
+    }
+    let url = 'data/markdown/' + filename;
     if (window.location.hostname === 'localhost') {
       url = require('../' + url);
     } else {

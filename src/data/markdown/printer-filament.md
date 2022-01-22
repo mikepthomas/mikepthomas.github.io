@@ -14,19 +14,19 @@ This page contains information about the filament I have and how I have printed 
 
 ## Table of contents
 
-1. [Amazon Basics PETG (Red)](#amazon-basics-petg--red-)
-2. [Amazon Basics PLA (Blue)](#amazon-basics-pla--blue-)
-3. [PrimaValue PLA (Black)](#primavalue-pla--black-)
-4. [PrimaValue PLA (Blue)](#primavalue-pla--Blue-)
-5. [PrimaValue PLA (Dark Grey)](#primavalue-pla--dark-grey-)
-6. [PrimaValue PLA (Red)](#primavalue-pla--red-)
-7. [Tinmorry PETG (Black)](#tinmorry-petg--black-)
-8. [Tinmorry PETG (White)](#tinmorry-petg--white-)
-9. [Tinmorry PLA (Black)](#tinmorry-pla--black-)
-10. [Tinmorry PLA (Grey)](#tinmorry-pla--grey-)
-11. [Tinmorry PLA (Matte Brick Red)](#tinmorry-pla--matte-brick-red-)
-12. [Ziro PLA (Black)](#ziro-pla--black-)
-13. [Ziro TPU (Black)](#ziro-tpu--black-)
+1. [Amazon Basics PETG (Red)](#amazon-basics-petg-red)
+2. [Amazon Basics PLA (Blue)](#amazon-basics-pla-blue)
+3. [PrimaValue PLA (Black)](#primavalue-pla-black)
+4. [PrimaValue PLA (Blue)](#primavalue-pla-Blue)
+5. [PrimaValue PLA (Dark Grey)](#primavalue-pla-dark-grey)
+6. [PrimaValue PLA (Red)](#primavalue-pla-red)
+7. [Tinmorry PETG (Black)](#tinmorry-petg-black)
+8. [Tinmorry PETG (White)](#tinmorry-petg-white)
+9. [Tinmorry PLA (Black)](#tinmorry-pla-black)
+10. [Tinmorry PLA (Grey)](#tinmorry-pla-grey)
+11. [Tinmorry PLA (Matte Brick Red)](#tinmorry-pla-matte-brick-red)
+12. [Ziro PLA (Black)](#ziro-pla-black)
+13. [Ziro TPU (Black)](#ziro-tpu-black)
 
 ## Amazon Basics PETG (Red)
 

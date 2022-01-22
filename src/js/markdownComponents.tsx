@@ -69,4 +69,8 @@ export function getComponents() {
   };
 }
 
-const createId = (text: string) => text.toLowerCase().replace(/\W/g, '-');
+const createId = (text: string) =>
+  text
+    .toLowerCase()
+    .replace(/[\(|\)]/g, '')
+    .replace(/\W/g, '-');

@@ -24,22 +24,22 @@ Assembly of the building is split into the following parts:
 
 > Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)
 
-| Item           | Quantity | Material                                                                                                | Cost        |
-| -------------- | -------- | ------------------------------------------------------------------------------------------------------- | ----------- |
-| Back Wall A    | 1        | [Matte Brick Red Tinmorry PLA Filament (13.29m / ~40g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£1.03      |
-| Back Wall B    | 1        | [Matte Brick Red Tinmorry PLA Filament (23.05m / ~69g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£1.79      |
-| Door Canopy    | 3        | [Red PrimaValue PLA (1.42m / ~4g)](https://www.amazon.co.uk/gp/product/B01AMLMTX2)                      | ~£0.10 each |
-| Front Window A | 1        | [Dark Grey PrimaValue PLA (12.19m / ~36g)](https://www.amazon.co.uk/gp/product/B01DWTS7KA)              | ~£0.58      |
-| Front Window B | 1        | [Dark Grey PrimaValue PLA (13.79m / ~41g)](https://www.amazon.co.uk/gp/product/B01DWTS7KA)              | ~£0.65      |
-| Inner Corner A | 1        | [Matte Brick Red Tinmorry PLA Filament (11.25m / ~34g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£0.87      |
-| Inner Corner B | 1        | [Matte Brick Red Tinmorry PLA Filament (11.99m / ~36g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£0.93      |
-| Inner Wall A   | 1        | [Matte Brick Red Tinmorry PLA Filament (14.38m / ~43g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£1.11      |
-| Inner Wall B   | 2        | [Matte Brick Red Tinmorry PLA Filament (12.12m / ~36g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£0.94 each |
-| Left Wall A    | 1        | [Matte Brick Red Tinmorry PLA Filament (7.34m / ~22g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS)  | ~£0.57      |
-| Left Wall B    | 2        | [Matte Brick Red Tinmorry PLA Filament (20.93m / ~62g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£1.62 each |
-| Outer Corner   | 4        | [Matte Brick Red Tinmorry PLA Filament (9.58m / ~29g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS)  | ~£0.74 each |
-| Right Wall A   | 1        | [Matte Brick Red Tinmorry PLA Filament (10.60m / ~32g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | ~£0.82      |
-| Right Wall B   | 2        | [Matte Brick Red Tinmorry PLA Filament (9.74m / ~29g)](https://www.amazon.co.uk/gp/product/B08PKMRVCS)  | ~£0.76 each |
+| Item           | Quantity | Material                                                                           | Size   | Weight | Cost   |
+| -------------- | -------- | ---------------------------------------------------------------------------------- | ------ | ------ | ------ |
+| Back Wall A    | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 13.29m | ~40g   | ~£1.03 |
+| Back Wall B    | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 23.05m | ~69g   | ~£1.79 |
+| Door Canopy    | 3        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)                     | 1.42m  | ~4g    | ~£0.10 |
+| Front Window A | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey)         | 12.19m | ~36g   | ~£0.58 |
+| Front Window B | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey)         | 13.79m | ~41g   | ~£0.65 |
+| Inner Corner A | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 11.25m | ~34g   | ~£0.87 |
+| Inner Corner B | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 11.99m | ~36g   | ~£0.93 |
+| Inner Wall A   | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 14.38m | ~43g   | ~£1.11 |
+| Inner Wall B   | 2        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 12.12m | ~36g   | ~£0.94 |
+| Left Wall A    | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 7.34m  | ~22g   | ~£0.57 |
+| Left Wall B    | 2        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 20.93m | ~62g   | ~£1.62 |
+| Outer Corner   | 4        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 9.58m  | ~29g   | ~£0.74 |
+| Right Wall A   | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 10.60m | ~32g   | ~£0.82 |
+| Right Wall B   | 2        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 9.74m  | ~29g   | ~£0.76 |
 
 ![Red Rocket Walls](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/red-rocket/walls.jpg)
 
@@ -49,13 +49,13 @@ Assembly of the building is split into the following parts:
 
 > Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)
 
-| Item                | Quantity | Material                                                                              |
-| ------------------- | -------- | ------------------------------------------------------------------------------------- |
-| Roof A              | 1        | [3D Prima PrimaValue PLA (Dark Grey)](https://www.amazon.co.uk/gp/product/B01DWTS7KA) |
-| Roof B              | 1        | [3D Prima PrimaValue PLA (Dark Grey)](https://www.amazon.co.uk/gp/product/B01DWTS7KA) |
-| Roof C              | 1        | [3D Prima PrimaValue PLA (Dark Grey)](https://www.amazon.co.uk/gp/product/B01DWTS7KA) |
-| Roof D              | 1        | [3D Prima PrimaValue PLA (Dark Grey)](https://www.amazon.co.uk/gp/product/B01DWTS7KA) |
-| Optional Shop Front | 1        | [3D Prima PrimaValue PLA (Dark Grey)](https://www.amazon.co.uk/gp/product/B01DWTS7KA) |
+| Item                | Quantity | Material                                                                   |
+| ------------------- | -------- | -------------------------------------------------------------------------- |
+| Roof A              | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |
+| Roof B              | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |
+| Roof C              | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |
+| Roof D              | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |
+| Optional Shop Front | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |
 
 ![Red Rocket Roof](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/red-rocket/roof.jpg)
 
@@ -65,24 +65,24 @@ Assembly of the building is split into the following parts:
 
 > Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)
 
-| Item                 | Quantity | Material                                                                       |
-| -------------------- | -------- | ------------------------------------------------------------------------------ |
-| Concrete Flooring #1 | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Concrete Flooring #2 | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Concrete Flooring #3 | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Outer Paving #1      | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Outer Paving #2      | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Outer Paving #3      | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Outer Paving #4      | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Outer Paving #5      | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Outer Paving #6      | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Outer Paving #7      | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Outer Paving #8      | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Scattered Tiles #1   | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Scattered Tiles #2   | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Scattered Tiles #3   | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Scattered Tiles #4   | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Scattered Tiles #5   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey)        |
+| Item                 | Quantity | Material                                                              |
+| -------------------- | -------- | --------------------------------------------------------------------- |
+| Concrete Flooring #1 | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Concrete Flooring #2 | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Concrete Flooring #3 | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Outer Paving #1      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Outer Paving #2      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Outer Paving #3      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Outer Paving #4      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Outer Paving #5      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Outer Paving #6      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Outer Paving #7      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Outer Paving #8      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Scattered Tiles #1   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Scattered Tiles #2   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Scattered Tiles #3   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Scattered Tiles #4   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
+| Scattered Tiles #5   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |
 
 ![Red Rocket Floor](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/red-rocket/floor.jpg)
 

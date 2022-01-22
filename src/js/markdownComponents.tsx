@@ -70,7 +70,4 @@ export function getComponents() {
 }
 
 const createId = (text: string) =>
-  text
-    .toLowerCase()
-    .replace(/[\(|\)]/g, '')
-    .replace(/\W/g, '-');
+  text.toLowerCase().replace(/[(|)]/g, '').replace(/\W/g, '-');

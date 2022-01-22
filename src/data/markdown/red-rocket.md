@@ -82,7 +82,7 @@ Assembly of the building is split into the following parts:
 | Scattered Tiles #2   | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
 | Scattered Tiles #3   | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
 | Scattered Tiles #4   | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
-| Scattered Tiles #5   | 1        | [Tinmorry PLA Filament (Grey)](https://www.amazon.co.uk/gp/product/B089YX78N5) |
+| Scattered Tiles #5   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament#tinmorry-pla--grey-) |
 
 ![Red Rocket Floor](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/red-rocket/floor.jpg)
 

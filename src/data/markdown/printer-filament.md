@@ -26,7 +26,9 @@ This page contains information about the filament I have and how I have printed 
 10. [Tinmorry PLA (Grey)](#tinmorry-pla-grey)
 11. [Tinmorry PLA (Matte Brick Red)](#tinmorry-pla-matte-brick-red)
 12. [Ziro PLA (Black)](#ziro-pla-black)
-13. [Ziro TPU (Black)](#ziro-tpu-black)
+13. [Ziro PLA (Yellow)](#ziro-pla-yellow)
+14. [Ziro TPU (Black)](#ziro-tpu-black)
+15. [eSun ABS+ (Black)](#esun-abs-black)
 
 ## Amazon Basics PETG (Red)
 

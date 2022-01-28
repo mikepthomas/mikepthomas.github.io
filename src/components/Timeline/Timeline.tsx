@@ -37,7 +37,7 @@ interface Props {
 export default function Timeline(props: Props) {
   return (
     <Container>
-      <h2 className="mt-2" id="timeline">
+      <h2 className="mb-3" id="timeline">
         How I've got here!
       </h2>
       <ul className="timeline">

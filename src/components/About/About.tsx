@@ -28,7 +28,7 @@ import { Col, Container, Row } from 'reactstrap';
 
 export default function About() {
   return (
-    <Container>
+    <Container className="mt-4">
       <Row>
         <Col md="3">
           <h2 className="mt-2">This is me!</h2>

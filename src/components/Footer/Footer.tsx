@@ -25,18 +25,20 @@
  */
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import { Container } from 'reactstrap';
+import { Col, Container, Row } from 'reactstrap';
 
 export default function Footer() {
   return (
     <footer className="text-muted">
-      <Container>
-        <p className="float-right">
-          <Link smooth={true} to="#root">
-            Back to top
-          </Link>
-        </p>
-        <p>&copy; 2016-2022 Mike Thomas, All rights reserved.</p>
+      <Container className="mb-4">
+        <Row>
+          <Col className="col-3 order-last text-end">
+            <Link smooth={true} to="#root">
+              Back to top
+            </Link>
+          </Col>
+          <Col>&copy; 2016-2022 Mike Thomas, All rights reserved.</Col>
+        </Row>
       </Container>
     </footer>
   );

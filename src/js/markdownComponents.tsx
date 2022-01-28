@@ -63,7 +63,11 @@ export function getComponents() {
     ),
     img: ({ ...props }) => (
       <ReactWOW offset={-200} animation="fadeIn">
-        <img alt={props.alt} src={props.src} />
+        <img
+          className="img-fluid img-thumbnail"
+          alt={props.alt}
+          src={props.src}
+        />
       </ReactWOW>
     ),
   };

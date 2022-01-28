@@ -24,13 +24,13 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React from 'react';
-import { Container, Jumbotron } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 import './Intro.scss';
 
 export default function Intro() {
   return (
-    <Jumbotron>
+    <div className='intro'>
       <Container>
         <h1>Hello, world!</h1>
         <p>
@@ -48,6 +48,6 @@ export default function Intro() {
           continuous integration tools such as Jenkins and Hudson.
         </p>
       </Container>
-    </Jumbotron>
+    </div>
   );
 }

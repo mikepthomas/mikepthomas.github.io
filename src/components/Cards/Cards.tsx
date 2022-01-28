@@ -24,7 +24,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React from 'react';
-import { CardColumns, Container } from 'reactstrap';
+import { Col, Container, Row } from 'reactstrap';
 
 import Card from './Card';
 import F1 from '../../img/openrc-f1/openrc-hero.jpg';
@@ -32,57 +32,71 @@ import Guitar from '../../img/guitar/12-almost-there.jpg';
 import Truggy from '../../img/openrc-truggy/truggy-hero.jpg';
 import Printer from '../../img/printer/printed-items.jpg';
 
-import './Cards.scss';
-
 export default function Links() {
   return (
     <>
       <Container>
-        <h2 className="mb-2" id="projects">
+        <h2 className="mb-3" id="projects">
           Software projects
         </h2>
-        <CardColumns>
-          <Card name="jFold" link="/jfold">
-            Java 11 Library to connect and call functions of the Client Remote
-            Interface in a Folding@Home v7 Client.
-          </Card>
-          <Card name="FAHServices" link="/fahservices">
-            Extension of work on FAHWeb. To create a REST API to be used by a
-            web front end to control Folding@Home v7 clients.
-          </Card>
-          <Card name="FAHWeb" link="/fahweb" archived={true}>
-            Extension of work on FAHView. To create a web front end to control
-            Folding@Home v7 clients.
-          </Card>
-          <Card name="FAHView" link="/fahview" archived={true}>
-            Final year University project. Viewer application to display
-            information from a Folding@Home client.
-          </Card>
-        </CardColumns>
+        <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+          <Col>
+            <Card name="jFold" link="/jfold">
+              Java 11 Library to connect and call functions of the Client Remote
+              Interface in a Folding@Home v7 Client.
+            </Card>
+          </Col>
+          <Col>
+            <Card name="FAHServices" link="/fahservices">
+              Extension of work on FAHWeb. To create a REST API to be used by a
+              web front end to control Folding@Home v7 clients.
+            </Card>
+          </Col>
+          <Col>
+            <Card name="FAHWeb" link="/fahweb" archived={true}>
+              Extension of work on FAHView. To create a web front end to control
+              Folding@Home v7 clients.
+            </Card>
+          </Col>
+          <Col>
+            <Card name="FAHView" link="/fahview" archived={true}>
+              Final year University project. Viewer application to display
+              information from a Folding@Home client.
+            </Card>
+          </Col>
+        </Row>
         <hr />
       </Container>
       <Container>
-        <h2 className="mb-2" id="projects">
+        <h2 className="mb-3" id="projects">
           3D printing projects
         </h2>
-        <CardColumns>
-          <Card name="3D Printer" link="/#/projects/printer" image={Printer}>
-            3D Printing upgrades for a 3D printer.
-          </Card>
-          <Card name="OpenRC F1" link="/#/projects/openrc-f1" image={F1}>
-            Printing a Formula 1 style remote control car.
-          </Card>
-          <Card
-            name="OpenRC Truggy"
-            link="/#/projects/openrc-truggy"
-            image={Truggy}
-          >
-            Logical advancement from the OpenRC F1.
-          </Card>
-          <Card name="Guitar" link="/#/projects/guitar" image={Guitar}>
-            Building a guitar with a 3D printed body.
-          </Card>
-        </CardColumns>
+        <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+          <Col>
+            <Card name="3D Printer" link="/#/projects/printer" image={Printer}>
+              3D Printing upgrades for a 3D printer.
+            </Card>
+          </Col>
+          <Col>
+            <Card name="OpenRC F1" link="/#/projects/openrc-f1" image={F1}>
+              Printing a Formula 1 style remote control car.
+            </Card>
+          </Col>
+          <Col>
+            <Card
+              name="OpenRC Truggy"
+              link="/#/projects/openrc-truggy"
+              image={Truggy}
+            >
+              Logical advancement from the OpenRC F1.
+            </Card>
+          </Col>
+          <Col>
+            <Card name="Guitar" link="/#/projects/guitar" image={Guitar}>
+              Building a guitar with a 3D printed body.
+            </Card>
+          </Col>
+        </Row>
         <hr />
       </Container>
     </>

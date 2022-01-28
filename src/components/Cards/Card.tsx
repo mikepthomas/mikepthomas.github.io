@@ -27,6 +27,7 @@ import React from 'react';
 import {
   Card,
   CardBody,
+  CardFooter,
   CardHeader,
   CardImg,
   CardLink,
@@ -44,9 +45,13 @@ interface Props {
 
 export default function Link(props: Props) {
   return (
-    <Card color="light">
+    <Card className="h-100" color="light">
       <CardHeader tag="h3">{props.name}</CardHeader>
-      {props.image ? <CardImg src={props.image} /> : null}
+      {props.image ? (
+        <CardLink href={props.link}>
+          <CardImg src={props.image} />
+        </CardLink>
+      ) : null}
       <CardBody>
         {props.archived ? (
           <CardSubtitle className="text-muted" tag="h4">
@@ -54,8 +59,10 @@ export default function Link(props: Props) {
           </CardSubtitle>
         ) : null}
         <CardText>{props.children}</CardText>
-        <CardLink href={props.link}>View details »</CardLink>
       </CardBody>
+      <CardFooter>
+        <CardLink href={props.link}>View details »</CardLink>
+      </CardFooter>
     </Card>
   );
 }

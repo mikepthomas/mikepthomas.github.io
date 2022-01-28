@@ -41,7 +41,7 @@ export function getComponents() {
         return (
           <HashLink
             scroll={(el) =>
-              window.scroll({ behavior: 'smooth', top: el.offsetTop + 10 })
+              window.scroll({ behavior: 'smooth', top: el.offsetTop - 52 })
             }
             to={props.href || ''}
           >

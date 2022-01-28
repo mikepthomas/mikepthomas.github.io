@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.02f2702d.css",
-    "main.js": "/static/js/main.9409157c.js",
+    "main.js": "/static/js/main.e071b094.js",
     "static/media/banner.jpg": "/static/media/banner.0914f974bce29ed2bffd.jpg",
     "static/media/mosfet.jpg": "/static/media/mosfet.9535ff57f01dca76f54b.jpg",
     "static/media/11-sides-install.jpg": "/static/media/11-sides-install.7341d498e93c2b3401e2.jpg",
@@ -90,10 +90,10 @@
     "static/media/openrc-mini-quad.md": "/static/media/openrc-mini-quad.3985f3675a580021e626.md",
     "index.html": "/index.html",
     "main.02f2702d.css.map": "/static/css/main.02f2702d.css.map",
-    "main.9409157c.js.map": "/static/js/main.9409157c.js.map"
+    "main.e071b094.js.map": "/static/js/main.e071b094.js.map"
   },
   "entrypoints": [
     "static/css/main.02f2702d.css",
-    "static/js/main.9409157c.js"
+    "static/js/main.e071b094.js"
   ]
 }

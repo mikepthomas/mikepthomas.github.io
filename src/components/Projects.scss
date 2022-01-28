@@ -34,11 +34,7 @@
       padding-left: $spacer;
     }
   }
-
-  @include media-breakpoint-up(md) {
-    .sidebar {
-      position: fixed;
-      right: 35px;
-    }
+  .position-sticky {
+    top: 75px;
   }
 }

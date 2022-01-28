@@ -84,14 +84,16 @@ const Projects = (props: Props) => {
             remarkPlugins={[remarkGfm]}
           />
         </Col>
-        <Col className="sidebar" md={{ size: 3, offset: 1 }}>
-          <div className="sidebar-module sidebar-module-inset">
-            <h2>About</h2>
-            <p>
-              Here you can find information about a select few projects I am
-              currently working on.
-            </p>
-            <div className="sidebar-module">
+        <Col md={{ size: 4 }}>
+          <div className="position-sticky">
+            <div className="p-4 mb-3 bg-light rounded">
+              <h2>About</h2>
+              <p>
+                Here you can find information about a select few projects I am
+                currently working on.
+              </p>
+            </div>
+            <div className="p-4">
               <h3>Elsewhere</h3>
               <ol className="list-unstyled">
                 <li>

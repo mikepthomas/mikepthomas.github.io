@@ -24,6 +24,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React from 'react';
+import { Table } from 'reactstrap'
 import { HashLink } from 'react-router-hash-link';
 import ReactWOW from 'react-wow';
 
@@ -69,6 +70,9 @@ export function getComponents() {
           src={props.src}
         />
       </ReactWOW>
+    ),
+    table: ({ ...props }) => (
+      <Table responsive>{props.children}</Table>
     ),
   };
 }

@@ -77,14 +77,14 @@ const Projects = (props: Props) => {
   return (
     <Container className="nav-padding projects-page">
       <Row>
-        <Col className="markdown" sm="8">
+        <Col className="markdown" md="8">
           <Markdown
             children={markdown}
             components={getComponents()}
             remarkPlugins={[remarkGfm]}
           />
         </Col>
-        <Col className="sidebar" sm={{ size: 3, offset: 1 }}>
+        <Col className="sidebar" md={{ size: 3, offset: 1 }}>
           <div className="sidebar-module sidebar-module-inset">
             <h2>About</h2>
             <p>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.28efd74b.css",
-    "main.js": "/static/js/main.eeb9e602.js",
+    "main.css": "/static/css/main.07ddae04.css",
+    "main.js": "/static/js/main.9f1c0f66.js",
     "static/media/banner.jpg": "/static/media/banner.0914f974bce29ed2bffd.jpg",
     "static/media/mosfet.jpg": "/static/media/mosfet.9535ff57f01dca76f54b.jpg",
     "static/media/11-sides-install.jpg": "/static/media/11-sides-install.7341d498e93c2b3401e2.jpg",
@@ -89,11 +89,11 @@
     "static/media/openrc-truggy.md": "/static/media/openrc-truggy.b097bd3429729a7d730b.md",
     "static/media/openrc-mini-quad.md": "/static/media/openrc-mini-quad.3985f3675a580021e626.md",
     "index.html": "/index.html",
-    "main.28efd74b.css.map": "/static/css/main.28efd74b.css.map",
-    "main.eeb9e602.js.map": "/static/js/main.eeb9e602.js.map"
+    "main.07ddae04.css.map": "/static/css/main.07ddae04.css.map",
+    "main.9f1c0f66.js.map": "/static/js/main.9f1c0f66.js.map"
   },
   "entrypoints": [
-    "static/css/main.28efd74b.css",
-    "static/js/main.eeb9e602.js"
+    "static/css/main.07ddae04.css",
+    "static/js/main.9f1c0f66.js"
   ]
 }

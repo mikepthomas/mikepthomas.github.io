@@ -30,7 +30,7 @@ import './Intro.scss';
 
 export default function Intro() {
   return (
-    <div className='intro'>
+    <div className="intro">
       <Container>
         <h1>Hello, world!</h1>
         <p>

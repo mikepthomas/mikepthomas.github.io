@@ -158,7 +158,7 @@ The wires are then tidied up with the included spiral wrap to keep them getting 
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/30-first-print.jpg)
 
-The hello world of the 3D printing world... the first print had to be a 3D Benchy.
+The hello world of the 3D printing world... the first print had to be a [3D Benchy](https://www.3dbenchy.com/).
 
 ## Safety Upgrades
 

@@ -1,11 +1,8 @@
-# OpenRC Truggy Project
-
-How I printed my OpenRC Truggy, Designed by Daniel Norée.
-
-## 3D Printing a radio controlled car
+# 3D Printing the OpenRC Truggy
 
 August 28, 2020 by [Mike Thomas](https://github.com/mikepthomas)
 
+How I printed my OpenRC Truggy, Designed by Daniel Norée.
 This project is the logical advancement of the radio controlled F1 car.
 It uses common off the shelf metal parts in place of some of the original 3D printed ones.
 

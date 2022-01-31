@@ -100,6 +100,23 @@ const Projects = (props: Props) => {
               <ol className="list-unstyled">
                 <li>
                   <Link to="/projects/printer">3D Printer</Link>
+                  <ul>
+                    <li>
+                      <Link to="/projects/printer-printed-upgrades">
+                        3D Printed Upgrades
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/projects/printer-skr-upgrade">
+                        SKR 1.4 Turbo Upgrade
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/projects/printer-filament">
+                        3D Printer Filament
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <Link to="/projects/openrc-f1">OpenRC F1</Link>

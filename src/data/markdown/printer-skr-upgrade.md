@@ -23,20 +23,19 @@ This page contains information about how I upgraded my stock Anet A8 control boa
 
 I made adapter cables by following the guide at [Caggius Interweb blog](https://caggius.wordpress.com/anet-a8-rewiring-for-skr1-3/) so that I did not need to repin the existing cables if i ever need to go back to using the original Anet A8 control board.
 
-
 ## Electronics Case Design
 
 Adapted from [Anet A8 Electronics Case](printer-printed-upgrades.md#anet-a8-electronics-case)
 
 ![Using Fusion 360 to design a mount for the control board](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-skr-upgrade/design.jpg)
 
-The STLs that I printed to install the new board and mosfets are available on [my 3D printing repository on Github](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Anet%20A8%20Electroncs%20Case/Anet%20A8%20Electronics%20Case%20(No%20Access%20Holes).stl) including [the top half](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Anet%20A8%20Electroncs%20Case/Anet%20A8%20Electronics%20Case%20Top.stl) that has an update to hold the [Mini UPS V2.0](https://github.com/bigtreetech/BIGTREETECH-MINI-UPS-V2.0/blob/master/miniUPS_V2.0%20(12V)/MINI%20UPS%20V2.0%20user%20manual-2019-11-29.pdf).
+The STLs that I printed to install the new board and mosfets are available on [my 3D printing repository on Github](<https://github.com/mikepthomas/3dprinting/blob/main/Designs/Anet%20A8%20Electroncs%20Case/Anet%20A8%20Electronics%20Case%20(No%20Access%20Holes).stl>) including [the top half](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Anet%20A8%20Electroncs%20Case/Anet%20A8%20Electronics%20Case%20Top.stl) that has an update to hold the [Mini UPS V2.0](<https://github.com/bigtreetech/BIGTREETECH-MINI-UPS-V2.0/blob/master/miniUPS_V2.0%20(12V)/MINI%20UPS%20V2.0%20user%20manual-2019-11-29.pdf>).
 
 ![Before mounting the new electronics case](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-skr-upgrade/electronics-case.jpg)
 
 I have made a few updates to the design to allow access to the USB port and to fit the [TF Cloud V1.0](https://github.com/bigtreetech/BTT-SD-TF-Cloud-V1.0/blob/master/BTT%20SD%26TF%20Cloud%20V1.0%20Instruction.pdf).
 The design also includes a pocket to house the [BTT EEPROM module](https://github.com/bigtreetech/BTT-Expansion-module/blob/master/BTT%20EEPROM/BTT%20EEPROM%20V1.0User%20Manual.pdf) however, I have not yet printed this so there may be some issues with sizes & support of the holes in the back, and the size of the pocket for the EEPROM module.
-You can download the experimental design from [my 3D printing repository on Github](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Anet%20A8%20Electroncs%20Case/Anet%20A8%20Electronics%20Case%20(With%20Access%20Holes).stl).
+You can download the experimental design from [my 3D printing repository on Github](<https://github.com/mikepthomas/3dprinting/blob/main/Designs/Anet%20A8%20Electroncs%20Case/Anet%20A8%20Electronics%20Case%20(With%20Access%20Holes).stl>).
 
 ## TFT24 Mount
 

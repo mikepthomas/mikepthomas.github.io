@@ -13,7 +13,6 @@ This project was to assemble a cheap 3D printer with the premise to eventually m
 1. [Assembly](#assembly)
 2. [Safety Upgrades](#safety-upgrades)
 3. [Auto Bed Levelling](#auto-bed-levelling)
-4. [Next Up](#next-up)
 
 ## Assembly
 
@@ -177,8 +176,3 @@ To enable auto bed levelling on the printer I used a Tronxy XY-08N.
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/auto-level-sensor.jpg)
 
 The firmware to enable the sensor is available on [my Marlin Github repository](https://github.com/mikepthomas/Marlin/tree/2.0.x-Anet3D-V1-5)
-
-## Next up
-
-1. [3D Printed Upgrades](printer-printed-upgrades.md)
-2. [3D Printer Filament](printer-filament.md)

@@ -1,12 +1,8 @@
-# 3D Printer Filamant
-
-This is a list of 3D printer filament I have purchased over the years.
-
-## 3D Printer Filament list
+# 3D Printer Filament list
 
 January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas)
 
-This page contains information about the filament I have and how I have printed with it.
+This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-filament/filament-hero.jpg)
 

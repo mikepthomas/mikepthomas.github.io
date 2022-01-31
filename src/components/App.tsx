@@ -24,7 +24,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 import { Footer, Navigation } from '.';
 import Home from './Home';
@@ -39,10 +39,10 @@ export default function App() {
     <Router>
       <div className="App">
         <Navigation {...navigationProps} />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="projects/:project" element={<Projects />} />
-        </Routes>
+        <Switch>
+          <Route exact={true} path="/" component={Home} />
+          <Route path="/projects/:project" component={Projects} />
+        </Switch>
         <Footer />
       </div>
     </Router>

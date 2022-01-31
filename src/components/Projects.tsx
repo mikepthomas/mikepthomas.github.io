@@ -25,7 +25,7 @@
  */
 import React, { useState } from 'react';
 import Markdown from 'react-markdown';
-import { useParams } from 'react-router-dom';
+import { match } from 'react-router';
 import { Link, useLocation } from 'react-router-dom';
 import { Col, Container, Row } from 'reactstrap';
 import remarkGfm from 'remark-gfm';
@@ -33,16 +33,23 @@ import remarkGfm from 'remark-gfm';
 import { getComponents } from '../js/markdownComponents';
 import './Projects.scss';
 
-const Projects = () => {
-  const params = useParams();
+interface ProjectProps {
+  project: string;
+}
+
+interface Props {
+  match: match<ProjectProps>;
+}
+
+const Projects = (props: Props) => {
   const [markdown, setMarkdown] = useState('markdown');
   const [file, setFile] = useState('file');
 
   const location = useLocation();
   React.useEffect(() => {
-    let filename = params.project;
+    let filename = props.match.params.project;
     // Do not allow markdown files outside the project
-    filename = filename?.replaceAll('../', '');
+    filename = filename.replaceAll('../', '');
     if (!filename?.endsWith('.md')) {
       filename += '.md';
     }
@@ -67,7 +74,7 @@ const Projects = () => {
           setFile(url);
         });
     }
-  }, [file, location, params]);
+  }, [file, location, props]);
 
   return (
     <Container className="nav-padding projects-page">

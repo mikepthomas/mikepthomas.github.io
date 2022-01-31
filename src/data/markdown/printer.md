@@ -181,4 +181,5 @@ The firmware to enable the sensor is available on [my Marlin Github repository](
 ## Next up
 
 1. [3D Printed Upgrades](printer-printed-upgrades.md)
+1. [BigTreeTech SKR 1.4 Turbo Upgrade](printer-skr-upgrade.md)
 2. [3D Printer Filament](printer-filament.md)

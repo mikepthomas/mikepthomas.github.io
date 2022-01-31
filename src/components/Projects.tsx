@@ -42,7 +42,7 @@ const Projects = () => {
   React.useEffect(() => {
     let filename = params.project;
     // Do not allow markdown files outside the project
-    filename = filename?.replaceAll('../', '')
+    filename = filename?.replaceAll('../', '');
     if (!filename?.endsWith('.md')) {
       filename += '.md';
     }

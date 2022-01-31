@@ -30,7 +30,7 @@ import Card from './Card';
 import F1 from '../../img/openrc-f1/openrc-hero.jpg';
 import Guitar from '../../img/guitar/12-almost-there.jpg';
 import Truggy from '../../img/openrc-truggy/truggy-hero.jpg';
-import Printer from '../../img/printer/printed-items.jpg';
+import Printer from '../../img/printer-printed-upgrades/printed-items.jpg';
 
 export default function Links() {
   return (

@@ -1,10 +1,8 @@
-# Red Rocket Truck Stop
-
-How I built the Red Rocket Truck Stop from Fallout 4.
-
-## 3D Printing the Red Rocket
+# 3D Printing the Red Rocket Truck Stop
 
 April 20, 2021 by [Mike Thomas](https://github.com/mikepthomas)
+
+How I built the Red Rocket Truck Stop from Fallout 4.
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/red-rocket/red-rocket-hero.jpg)
 

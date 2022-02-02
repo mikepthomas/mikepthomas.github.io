@@ -123,7 +123,7 @@ The bolt pattern to mount the stock 20A power supply is different to the upgrade
 
 [PSU Cover Remix from Thingyverse](https://www.thingiverse.com/thing:3344502) by user [MakerDan55](https://www.thingiverse.com/MakerDan55)
 
-The printer doesn't have an on/off switch, this PSU cover allows you to fit one and also covers the live mains terminals on the power supply.
+The printer doesn't have an on/off switch, this PSU cover allows you to fit a fused socket with a switch and also covers the live mains terminals on the power supply for safety.
 
 ### Rear Anet A8 mount for Raspberry Pi B with camera
 
@@ -143,11 +143,11 @@ It is for the original Raspberry Pi B, which eventually became too slow to run t
 
 ### Anet A8 Brackets to Reduce X-Axis Motion
 
-https://www.thingiverse.com/thing:1872162
+[X axis brackets from Thingyverse](https://www.thingiverse.com/thing:3382602) by user [Mr_Dan](https://www.thingiverse.com/Mr_Dan)
 
 ![X-Axis Brackets](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-printed-upgrades/x-axis-brackets.jpg)
 
-Stiffens up the top of the frame.
+Stiffens up the top of the frame. Leo_N's version did not fit my printer.
 
 ### Hulk Frame Brace for the Anet A8
 
@@ -165,7 +165,7 @@ Supports the weight of the X-axis and carriage through the bottom of the Z stepp
 
 [Frame Brace from Thingyverse](https://www.thingiverse.com/thing:1430727) by user [Simhopp](https://www.thingiverse.com/Simhopp)
 
-I only printed the Front frame brace from this, because I wanted the [rear frame brace with integrated motor mount](#frame-brace-with-y-axis-motor-mount-for-anet-a8). Stiffens up the front of the frame allowing the belt to be tightened without bending the acrylic frame.
+I only printed the front frame brace from this, because I wanted the [rear frame brace with integrated motor mount](#frame-brace-with-y-axis-motor-mount-for-anet-a8). Stiffens up the front of the frame allowing the belt to be tightened without bending the acrylic frame.
 
 ### Frame brace with Y axis motor mount for Anet A8
 

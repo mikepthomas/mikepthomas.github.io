@@ -102,6 +102,11 @@ const Projects = (props: Props) => {
                   <Link to="/projects/printer">3D Printer</Link>
                   <ul>
                     <li>
+                      <Link to="/projects/printer-failures">
+                        Failures
+                      </Link>
+                    </li>
+                    <li>
                       <Link to="/projects/printer-printed-upgrades">
                         3D Printed Upgrades
                       </Link>
@@ -114,6 +119,11 @@ const Projects = (props: Props) => {
                     <li>
                       <Link to="/projects/printer-filament">
                         3D Printer Filament
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/projects/printer-future-upgrades">
+                        Future Upgrades
                       </Link>
                     </li>
                   </ul>

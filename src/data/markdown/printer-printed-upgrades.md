@@ -253,7 +253,7 @@ I only used the long cable chain and links with holes to enclose the cables with
 
 [Extruder Fan Spacer from Thingyverse](https://www.thingiverse.com/thing:1798669) by user [AZDawg](https://www.thingiverse.com/AZDawg)
 
-Spacer for the extruderheat sink so that the fan does not splay out when the screws are tightened. This was replaced by the [3D Touch Mount](#anet-a8-bl-touch-mount).
+Spacer for the extruder heat sink so that the fan does not splay out when the screws are tightened. This was replaced by the [3D Touch Mount](#anet-a8-bl-touch-mount).
 
 ### Anet A8 BL Touch Mount
 

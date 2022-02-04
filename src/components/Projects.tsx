@@ -102,9 +102,7 @@ const Projects = (props: Props) => {
                   <Link to="/projects/printer">3D Printer</Link>
                   <ul>
                     <li>
-                      <Link to="/projects/printer-failures">
-                        Failures
-                      </Link>
+                      <Link to="/projects/printer-failures">Failures</Link>
                     </li>
                     <li>
                       <Link to="/projects/printer-printed-upgrades">

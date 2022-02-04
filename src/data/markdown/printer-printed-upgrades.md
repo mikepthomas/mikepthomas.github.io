@@ -227,7 +227,7 @@ This was replaced by [a different version](#anet-a8-x-axis-cable-chain-with-z-en
 
 A cable chain for the heated bed wires.
 
-### Anet a8 X-axis cable chain with z end-stop 
+### Anet a8 X-axis cable chain with z end-stop
 
 [Cable Chain from Thingyverse](https://www.thingiverse.com/thing:2115095) by user [The_Random_Engineer](https://www.thingiverse.com/The_Random_Engineer)
 

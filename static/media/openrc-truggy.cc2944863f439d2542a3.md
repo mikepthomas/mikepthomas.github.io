@@ -20,6 +20,7 @@ Assembly of the car is split into the following parts:
 4. [Steering Assembly](#steering-assembly)
 5. [Rear Assembly](#rear-assembly)
 6. [Chassis Assembly](#chassis-assembly)
+7. [Body](#body)
 
 ### Differential Housing Assembly
 
@@ -56,3 +57,7 @@ Assembly of the car is split into the following parts:
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/chassis-assembly.png)
 
 > Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)
+
+### Body
+
+![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/truggy-complete.jpg)

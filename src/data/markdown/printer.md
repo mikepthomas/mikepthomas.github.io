@@ -163,7 +163,7 @@ The hello world of the 3D printing world... the first print had to be a [3D Benc
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/safety-upgrades.jpg)
 
-The Anet A8 has a bit of a [reputation for catching on fire](https://www.fabbaloo.com/2018/12/3d-printer-safety-another-anet-a8-burns) these upgrades are a must to ensure safety of using the printer.
+The Anet A8 has [a bit of a reputation](https://www.fabbaloo.com/2018/12/3d-printer-safety-another-anet-a8-burns) for [catching on fire and burning your house down](https://www.thissmarthouse.net/dont-burn-your-house-down-3d-printing-a-cautionary-tale/) these upgrades are a must to ensure safety of using the printer.
 
 - 30A power supply
 - Mosfets

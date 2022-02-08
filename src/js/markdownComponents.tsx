@@ -25,10 +25,12 @@
  */
 import React from 'react';
 import { Table } from 'reactstrap';
+import { Helmet } from 'react-helmet';
 import { HashLink } from 'react-router-hash-link';
 import ReactWOW from 'react-wow';
 
 export function getComponents() {
+  var imageIndex = 0;
   return {
     a: ({ ...props }) => {
       if (props.href?.match(/^(https?:)?\/\//)) {
@@ -53,24 +55,46 @@ export function getComponents() {
     blockquote: ({ ...props }) => (
       <blockquote className="blockquote">{props.children}</blockquote>
     ),
-    h1: ({ ...props }) => (
-      <h1 id={createId(props.children.toString())}>{props.children}</h1>
-    ),
+    h1: ({ ...props }) => {
+      let title = props.children.toString();
+      return (
+        <>
+          <Helmet>
+            <title>{title}</title>
+            <meta property="og:title" content={title} />
+          </Helmet>
+          <h1 id={createId(title)}>{title}</h1>
+        </>
+      );
+    },
     h2: ({ ...props }) => (
       <h2 id={createId(props.children.toString())}>{props.children}</h2>
     ),
     h3: ({ ...props }) => (
       <h3 id={createId(props.children.toString())}>{props.children}</h3>
     ),
-    img: ({ ...props }) => (
-      <ReactWOW offset={-200} animation="fadeIn">
-        <img
-          className="img-fluid img-thumbnail"
-          alt={props.alt}
-          src={props.src}
-        />
-      </ReactWOW>
-    ),
+    img: ({ ...props }) => {
+      var helmet = null;
+      if (imageIndex++ === 0) {
+        helmet = (
+          <Helmet>
+            <meta property="og:image" content={props.src} />
+          </Helmet>
+        );
+      }
+      return (
+        <>
+          {helmet}
+          <ReactWOW offset={-200} animation="fadeIn">
+            <img
+              className="img-fluid img-thumbnail"
+              alt={props.alt}
+              src={props.src}
+            />
+          </ReactWOW>
+        </>
+      );
+    },
     table: ({ ...props }) => <Table responsive>{props.children}</Table>,
   };
 }

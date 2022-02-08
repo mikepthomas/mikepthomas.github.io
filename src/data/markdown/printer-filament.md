@@ -151,6 +151,6 @@ This filament was originally brought to print a [Stealthburner](https://vorondes
 
 This filament was originally brought to print a [Stealthburner](https://vorondesign.com/voron_stealthburner) to mount on my upgraded printer, [Anet Evolution](https://www.thingiverse.com/thing:2786292).
 
-| Hotend Temp | Bed Temp                    | Slicer Profile                                                                                                                          | Purchased From                                           | Cost   |
-| ----------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| Hotend Temp | Bed Temp                    | Slicer Profile                                                                                                                        | Purchased From                                           | Cost   |
+| ----------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 250         | 100 (1st Layer) 90 (Others) | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07RT35GSF) | £19.99 |

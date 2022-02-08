@@ -43,19 +43,21 @@ export default function About() {
         <Col md="5">
           <h2 className="mt-2">Interests and Achievements</h2>
           <p>
-            A keen interest in the Royal Air Force and the military in general;
-            I have flown a winch powered glider, have taken part in aerobatics
-            in a fixed-wing aircraft and completed an Accelerated Free Fall
-            Skydiving course in which I have skydived 13 times. In the past I
-            have been a member of the Royal Naval Reserves to fill my spare
-            time, and contributor to SkydiveUWE and the Technology society at
-            University.
+            I have a keen interest in the Royal Air Force and the military in
+            general; I have flown a winch powered glider, have taken part in
+            aerobatics in a fixed-wing aircraft and completed an Accelerated
+            Free Fall Skydiving course in which I have skydived 13 times.
           </p>
           <p>
-            My other hobbies include music, I am currently learning to play bass
-            guitar, computer games modification, Virtual reality and motorbikes.
-            Most recently I have recently been getting into 3D printing and 3D
-            modelling.
+            I was a member of the Royal Naval Reserves in my spare time, and
+            contributed to SkydiveUWE and the Technology society during my time
+            at University.
+          </p>
+          <p>
+            My other hobbies include music, learning to play bass guitar,
+            computer games modification, Virtual reality and motorbikes. I have
+            recently been learning all about 3D printing and 3D modelling in
+            Fusion 360.
           </p>
         </Col>
         <Col md="4">

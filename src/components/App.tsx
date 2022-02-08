@@ -25,10 +25,9 @@
  */
 import React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import loadable from '@loadable/component';
 
 import { Footer, Navigation } from '.';
-import Home from './Home';
-import Projects from './Projects';
 
 import './App.scss';
 
@@ -40,8 +39,15 @@ export default function App() {
       <div className="App">
         <Navigation {...navigationProps} />
         <Switch>
-          <Route exact={true} path="/" component={Home} />
-          <Route path="/projects/:project" component={Projects} />
+          <Route
+            exact={true}
+            path="/"
+            component={loadable(() => import(`./Home`))}
+          />
+          <Route
+            path="/projects/:project"
+            component={loadable(() => import(`./Projects`))}
+          />
         </Switch>
         <Footer />
       </div>

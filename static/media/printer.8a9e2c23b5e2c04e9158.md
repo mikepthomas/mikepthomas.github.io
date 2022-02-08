@@ -24,6 +24,7 @@ Assembly of the printer is split into the following parts:
 4. [X Axis](#x-axis)
 5. [Electronics](#electronics)
 6. [Testing](#testing)
+7. [Finished](#finished)
 
 ### Frame
 
@@ -154,6 +155,8 @@ Always good to see that something is displayed on the screen.
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/29-wire-management.jpg)
 
 The wires are then tidied up with the included spiral wrap to keep them getting snagged on any moving parts.
+
+### Finished
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/30-first-print.jpg)
 

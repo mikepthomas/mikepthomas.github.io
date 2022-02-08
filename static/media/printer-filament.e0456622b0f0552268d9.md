@@ -25,6 +25,7 @@ This is a list of 3D printer filament I have purchased over the years and how I 
 13. [Ziro PLA (Yellow)](#ziro-pla-yellow)
 14. [Ziro TPU (Black)](#ziro-tpu-black)
 15. [eSun ABS+ (Black)](#esun-abs-black)
+16. [eSun ABS+ (Red)](#esun-abs-red)
 
 ## Amazon Basics PETG (Red)
 
@@ -145,3 +146,11 @@ This filament was originally brought to print a [Stealthburner](https://vorondes
 | Hotend Temp | Bed Temp                    | Slicer Profile                                                                                                                          | Purchased From                                           | Cost   |
 | ----------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 250         | 100 (1st Layer) 90 (Others) | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ5MC78) | £18.99 |
+
+## eSun ABS+ (Red)
+
+This filament was originally brought to print a [Stealthburner](https://vorondesign.com/voron_stealthburner) to mount on my upgraded printer, [Anet Evolution](https://www.thingiverse.com/thing:2786292).
+
+| Hotend Temp | Bed Temp                    | Slicer Profile                                                                                                                        | Purchased From                                           | Cost   |
+| ----------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| 250         | 100 (1st Layer) 90 (Others) | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07RT35GSF) | £19.99 |

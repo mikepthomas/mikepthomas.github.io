@@ -28,11 +28,11 @@ For the price of this frame upgrade, it would probably be better just to buy the
 
 ### Hypercube
 
-The Hypercube is a printer that uses a different way of moving the extruder around, known as CoreXY kinamatics, whereas the Anet A8 uses Cartesian kinematics. There is a Remix specialising in upgrading the Anet A8 to a Hypercube called the [Anet Evolution](https://www.thingiverse.com/thing:2786292).
+The [Hypercube](https://www.thingiverse.com/thing:1752766) is a printer that uses a different way of moving the extruder around, known as CoreXY kinamatics, whereas the Anet A8 uses Cartesian kinematics. There is a Remix specialising in upgrading the Anet A8 to a Hypercube called the [Anet Evolution](https://www.thingiverse.com/thing:2786292).
 
 ### Hypercube Evolution
 
-The Hypercube Evolution is, as the name implies, a progression on the Hypercube. It also has a Remix devoted to upgrading an Anet A8 or AM8, [Anet A8/AM8 to Hypercube Evolution Upgrade Path](https://www.thingiverse.com/thing:3268908).
+The [Hypercube Evolution](https://www.thingiverse.com/thing:2254103) is, as the name implies, a progression on the Hypercube. It also has a Remix devoted to upgrading an Anet A8 or AM8, [Anet A8/AM8 to Hypercube Evolution Upgrade Path](https://www.thingiverse.com/thing:3268908).
 
 It is based on 3030 Extrusion... having looked around on the internet I have concluded that 3030 extrusion is very hard to source in the UK (especially looking for somewhere that provides custom cut lengths).
 
@@ -46,11 +46,11 @@ Voron is an open source project designed to create a 3D printer using only off t
 
 They have a number of Printers in their current line up:
 
-* [Voron0](https://www.vorondesign.com/voron0.1)
-* [Trident](https://www.vorondesign.com/voron_trident)
-* [Voron2](https://www.vorondesign.com/voron2.4)
-* [Switchwire](https://www.vorondesign.com/voron_switchwire)
-* [Legacy](https://www.vorondesign.com/voron_legacy)
+- [Voron0](https://www.vorondesign.com/voron0.1)
+- [Trident](https://www.vorondesign.com/voron_trident)
+- [Voron2](https://www.vorondesign.com/voron2.4)
+- [Switchwire](https://www.vorondesign.com/voron_switchwire)
+- [Legacy](https://www.vorondesign.com/voron_legacy)
 
 ### What I have chosen
 

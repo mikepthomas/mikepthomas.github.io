@@ -30,7 +30,6 @@ import { HashLink } from 'react-router-hash-link';
 import ReactWOW from 'react-wow';
 
 export function getComponents() {
-  var imageIndex = 0;
   return {
     a: ({ ...props }) => {
       if (props.href?.match(/^(https?:)?\/\//)) {

@@ -61,7 +61,6 @@ export function getComponents() {
         <>
           <Helmet>
             <title>{title}</title>
-            <meta property="og:title" content={title} />
           </Helmet>
           <h1 id={createId(title)}>{title}</h1>
         </>
@@ -73,28 +72,15 @@ export function getComponents() {
     h3: ({ ...props }) => (
       <h3 id={createId(props.children.toString())}>{props.children}</h3>
     ),
-    img: ({ ...props }) => {
-      var helmet = null;
-      if (imageIndex++ === 0) {
-        helmet = (
-          <Helmet>
-            <meta property="og:image" content={props.src} />
-          </Helmet>
-        );
-      }
-      return (
-        <>
-          {helmet}
-          <ReactWOW offset={-200} animation="fadeIn">
-            <img
-              className="img-fluid img-thumbnail"
-              alt={props.alt}
-              src={props.src}
-            />
-          </ReactWOW>
-        </>
-      );
-    },
+    img: ({ ...props }) => (
+      <ReactWOW offset={-200} animation="fadeIn">
+        <img
+          className="img-fluid img-thumbnail"
+          alt={props.alt}
+          src={props.src}
+        />
+      </ReactWOW>
+    ),
     table: ({ ...props }) => <Table responsive>{props.children}</Table>,
   };
 }

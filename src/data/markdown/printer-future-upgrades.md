@@ -87,6 +87,8 @@ It will be at this point that all the X, Y and Z motion parts for the printer wi
 
 The Anet A8 uses 12V for it's power supply, all current Voron printers use mains powered heater mats, on a thick slab of aluminium controlled by a Solid State Relay. This allows the heated bed to heat up to temperature quicker and holds a greater thermal mass for longer.
 
+This upgrade will also increase the XY build volume from the stock Anet A8 build plate size of 220x220mm to 300x300mm.
+
 ## Electronics Upgrade
 
 The only thing left once the heated bed has been upgraded, for it to be a fully fledged Voron printer will be to upgrade the 12V power supply to a Meanwell 24V power supply, this will also require me to upgrade the hotend heater and all fans to 24V versions.

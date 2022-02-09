@@ -11,6 +11,11 @@ This what I have planned for the printer over the next few ~~months~~ ~~years~~ 
 ## Table of contents
 
 1. [Frame](#frame)
+2. [Hotend Upgrade](#hotend-upgrade)
+3. [Linear Rails](#linear-rails)
+4. [Heated Bed Upgrade](#heated-bed-upgrade)
+5. [Electronics Upgrade](#electronics-upgrade)
+6. [Rebuild the Anet A8](#rebuild-the-anet-a8)
 
 ## Frame
 
@@ -57,3 +62,35 @@ They have a number of Printers in their current line up:
 I really like the idea of learning something new by upgrading the printer to CoreXY kinamatics, this rules out the AM8 and the Voron Switchwire. I also want to be able to incrementally upgrade the printer parts at a time rather than buying a kit and building a new printer (kinda like [Trigger's broom](https://www.youtube.com/watch?v=56yN2zHtofM) I like the idea that it is the same printer at the end). This also rules out buying a RatRig or a Voron kit. I have found it rather difficult to source 3030 extrusion in the UK so that rules out the Hypercube Evolution.
 
 This leaves one option left, the Hypercube, this is a rather old design so I am going to start with this as a base, using ideas and remixes from the Anet Evolution... but using a frame from an older revision of the Voron Trident, the [Voron1](https://www.vorondesign.com/voron1.8).
+
+### The Plan
+
+The four vertical corner extrusions, and the four front and rear extrusions on the 300mm Spec Voron 1.8 frame are exactly the same size as the ones required for the Anet Evolution. The 6 side extrusions, however, are 40mm longer.
+
+What I am planning on doing to remedy this is instead of using 2 380mm smooth guide rods for the Z axis and two for the Y axis from the Anet A8 that the Anet Evolution suggests. I am going to use all four 380mm guide rods for the Z axis, like in the double Z axis version of the Hypercube Evolution. I will then purchase 2 new 400mm smooth guide rods to use for the Y axis. These seem to come in standard sizes and therefore may be about 20mm short, if this is the case I will modify the motor mounts and belt idlers to fit the rods.
+
+The other reason for purchasing the frame for the Voron 1.8 instead of purchasing custom cut extrusion is that it is fairly difficult to find aluminium extrusion in the UK that is NOT V-slot. I want T-slot extrusion so that I have the ability to install [MGN9 linear rails](#linear-rails) in the future. The kit I purchased also comes with the extrusions to build the electronics case into the rear of the printer (the newer Trident and Voron2 moved their electronics to the bottom of the printer) which means that I will not need to find or design an electronics case to fit, the Anet Evolution only has a case for the stock Anet A8 electronics.
+
+## Hotend Upgrade
+
+I have purchased parts to install the [ANET A8 E3DV6 BMG Direct Drive X Carriage](https://www.thingiverse.com/thing:3807114), the adapter plate should be a direct bolt on to the X Carriage of the Anet Evolution. This was chosen as the parts that are required for this are the exact same parts that are required to build the [Voron Afterburner](https://github.com/VoronDesign/Voron-Afterburner) toolhead which in turn has an upgrade path to the not yet released [Voron Stealthburner](https://vorondesign.com/voron_stealthburner) toolhead.
+
+There is also an adapter plate, [Hypercube Afterburner adapter intergration remix](https://www.thingiverse.com/thing:5156654) that may work to mount the Afterburner on the Hypercube guide rails.
+
+## Linear Rails
+
+The long term goal is to eventually replace the smooth rods of the XY Gantry with linear rails to allow me to increase my printing speeds further. When it eventually comes to this I will also need to replace the z guide rods and lead screws with the slightly shorter ones required for the Voron 1.8.
+
+It will be at this point that all the X, Y and Z motion parts for the printer will be the same spec as the Voron1.
+
+## Heated Bed Upgrade
+
+The Anet A8 uses 12V for it's power supply, all current Voron printers use mains powered heater mats, on a thick slab of aluminium controlled by a Solid State Relay. This allows the heated bed to heat up to temperature quicker and holds a greater thermal mass for longer.
+
+## Electronics Upgrade
+
+The only thing left once the heated bed has been upgraded, for it to be a fully fledged Voron printer will be to upgrade the 12V power supply to a Meanwell 24V power supply, this will also require me to upgrade the hotend heater and all fans to 24V versions.
+
+## Rebuild the Anet A8
+
+Once I have upgraded everything to this point I should have all the original parts left over to rebuild it back into the original frame... or maybe reuse them to build a Voron Legacy? ;)

@@ -110,6 +110,11 @@ const Projects = (props: Props) => {
                       </Link>
                     </li>
                     <li>
+                      <Link to="/projects/printer-enclosure">
+                        3D Printer Enclosure
+                      </Link>
+                    </li>
+                    <li>
                       <Link to="/projects/printer-skr-upgrade">
                         SKR 1.4 Turbo Upgrade
                       </Link>

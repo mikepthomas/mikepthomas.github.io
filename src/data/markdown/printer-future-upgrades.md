@@ -63,16 +63,6 @@ I really like the idea of learning something new by upgrading the printer to Cor
 
 This leaves one option left, the Hypercube, this is a rather old design so I am going to start with this as a base, using ideas and remixes from the Anet Evolution... but using a frame from an older revision of the Voron Trident, the [Voron1](https://www.vorondesign.com/voron1.8).
 
-### The Plan
-
-The four vertical corner extrusions, and the four front and rear extrusions on the 300mm Spec Voron 1.8 frame are exactly the same size as the ones required for the Anet Evolution. The 6 side extrusions, however, are 40mm longer.
-
-What I am planning on doing to remedy this is instead of using 2 380mm smooth guide rods for the Z axis and two for the Y axis from the Anet A8 that the Anet Evolution suggests. I am going to use all four 380mm guide rods for the Z axis, like in the double Z axis version of the Hypercube Evolution. I will then purchase 2 new 400mm smooth guide rods to use for the Y axis. These seem to come in standard sizes and therefore may be about 20mm short, if this is the case I will modify the motor mounts and belt idlers to fit the rods.
-
-The other reason for purchasing the frame for the Voron 1.8 instead of purchasing custom cut extrusion is that it is fairly difficult to find aluminium extrusion in the UK that is NOT V-slot. I want T-slot extrusion so that I have the ability to install [MGN9 linear rails](#linear-rails) in the future. As the name suggests MGN9 rails are 9mm wide however the widest part of V-Slot extrusion is 11mm wide.
-
-The kit I purchased also comes with the extrusions to build the electronics case into the rear of the printer (the newer Trident and Voron2 moved their electronics to the bottom of the printer) which means that I will not need to find or design an electronics case to fit, the Anet Evolution only has a case for the stock Anet A8 electronics.
-
 ## Hotend Upgrade
 
 I have purchased parts to install the [ANET A8 E3DV6 BMG Direct Drive X Carriage](https://www.thingiverse.com/thing:3807114), the adapter plate should be a direct bolt on to the X Carriage of the Anet Evolution. This was chosen as the parts that are required for this are the exact same parts that are required to build the [Voron Afterburner](https://github.com/VoronDesign/Voron-Afterburner) toolhead which in turn has an upgrade path to the not yet released [Voron Stealthburner](https://vorondesign.com/voron_stealthburner) toolhead.

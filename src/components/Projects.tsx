@@ -129,6 +129,11 @@ const Projects = (props: Props) => {
                         Future Upgrades
                       </Link>
                     </li>
+                    <li>
+                      <Link to="/projects/printer-hypercube">
+                        Hypercube Upgrade
+                      </Link>
+                    </li>
                   </ul>
                 </li>
                 <li>

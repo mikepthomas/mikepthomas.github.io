@@ -14,6 +14,8 @@ The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
 ## Sourcing Parts
 
+I have specifically chosen parts for the Hypercube that will lead up to re-building it into a Voron 1.8. Many of the parts on the [BOM from the configurator](https://www.vorondesign.com/voron1.8) I have already sourced and some I will replace with alternatives that I already have (see the notes columns for details).
+
 ### Fasteners
 
 | Item                       | Quantity | Received | Notes                                                                      |
@@ -168,56 +170,169 @@ The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
 ## Printing Parts
 
+All printed parts will be printed in eSun ABS+ (except for the ones required for the enclosure which will initially printed in PETG and once the enclosure is finished will be reprinted in ABS). The Voron team recommends an infill type of 40% of either Grid, Gyroid, Honeycomb, Triangle or Cubic. A layer height of 0.2mm and extrusion width of 0.4mm, with a wall count of 4 and top/bottom layers of 5.
+
 ### Bed
 
-| Item                                                                                                                      | Quantity | Material | Printed                       | Notes                                  |
-| ------------------------------------------------------------------------------------------------------------------------- | -------- | -------- | ----------------------------- | -------------------------------------- |
-| [leadscrew_block](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/%5Ba%5D_leadscrew_block_x2.stl)   | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)         | :negative_squared_cross_mark: |                                        |
-| [z_shaft_retainer](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/%5Ba%5D_z_shaft_retainer_x8.stl) | 8        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)         | :negative_squared_cross_mark: |                                        |
-| [bed_mount_front](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/bed_mount_front.stl)                      | 1        |          | :negative_squared_cross_mark: | Using stock Anet A8 bed for the moment |
-| [z_bearing_block_a](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_bearing_block_a_x2.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)         | :negative_squared_cross_mark: |                                        |
-| [z_bearing_block_b](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_bearing_block_b_x2.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)         | :negative_squared_cross_mark: |                                        |
-| [z_motor_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_motor_mount_x2.stl)                    | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)         | :negative_squared_cross_mark: |                                        |
+| Item                                                                                                                        | Quantity | Material                                                | Printed                       | Notes                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----------------------------- | --------------------------------------------------------------------------------- |
+| [leadscrew_block](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/%5Ba%5D_leadscrew_block_x2.stl)             | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: |                                                                                   |
+| [z_shaft_retainer](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/%5Ba%5D_z_shaft_retainer_x8.stl)           | 8        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: |                                                                                   |
+| [bed_mount_front](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/bed_mount_front.stl)                        | 1        |                                                         | :negative_squared_cross_mark: | Using stock Anet A8 bed for the moment                                            |
+| [z_bearing_block_a](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_bearing_block_a_x2.stl)                 | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |                                                                                   |
+| [z_bearing_block_b](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_bearing_block_b_x2.stl)                 | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |                                                                                   |
+| [z_motor_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_motor_mount_x2.stl)                         | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: |                                                                                   |
+| [z_cable_chain_mount](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Z_Assembly/z_cable_chain_mount_3hole.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: | This is a Trident Part. Will need to [print ends for the chain](#printable-chain) |
 
 ### Bottom Skirts
 
-| Item                                                                                                                 | Quantity | Material | Printed                       | Notes |
-| -------------------------------------------------------------------------------------------------------------------- | -------- | -------- | ----------------------------- | ----- |
-| [skirt_300_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_left_x3.stl)   | 3        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)         | :negative_squared_cross_mark: |       |
-| [skirt_300_power](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_power.stl)       | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)         | :negative_squared_cross_mark: |       |
-| [skirt_300_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_right_x4.stl) | 4        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)         | :negative_squared_cross_mark: |       |
-| [skirt_middle](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_middle_x3.stl)       | 3        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)         | :negative_squared_cross_mark: |       |
+| Item                                                                                                                            | Quantity | Material                                                | Printed                       | Notes                  |
+| ------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----------------------------- | ---------------------- |
+| [keystone_blank_insert](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Skirt/%5Ba%5D_keystone_blank_insert_x2.stl) | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: | This is a Trident Part |
+| [skirt_300_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_left_x3.stl)                 | 3        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: |                        |
+| [skirt_300_power](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_power.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |                        |
+| [skirt_300_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_right_x4.stl)               | 4        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: |                        |
+| [skirt_middle](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_middle_x3.stl)                     | 3        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: |                        |
 
 ### Electronics Brackets
 
+| Item                                                                                                             | Quantity | Material | Printed                       | Notes                                                                     |
+| ---------------------------------------------------------------------------------------------------------------- | -------- | -------- | ----------------------------- | ------------------------------------------------------------------------- |
+| [wire_anchor](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/wire_anchor_x2.stl) | 2        |          | :negative_squared_cross_mark: | Planning on using [Cable Management Duct](#cable-management-duct) instead |
+
+#### Bottom Electronics Mounting
+
+| Item                                                                                                                                                          | Quantity | Material                                                | Printed                       | Notes                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----------------------------- | ----------------------------------------- |
+| [DIN_center_support](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/DIN_center_support_x2.stl)                                    | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part                    |
+| [DIN_frame_mount](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/DIN_frame_mount_x4.stl)                                          | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part                    |
+| [psu_brace](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Bottom_Electronics_Mounting/psu_brace.stl)                         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |                                           |
+| [psu_mount_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Bottom_Electronics_Mounting/psu_mount_clip_x2.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |                                           |
+| [rs25_psu_bracket_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Bottom_Electronics_Mounting/rs25_psu_bracket_clip.stl) | 1        |                                                         | :negative_squared_cross_mark: | Not required as not using 5V power supply |
+
+#### Display Module
+
+As I am not using the mini12864, I will be using the BBT TFT24 instead, I will need to create my own display enclosure, I may use the Trident parts to remix this as the Trident display is on a hinge and can be adjusted.
+
+| Item                                                                                                                                           | Quantity | Material                                                | Printed                       | Notes                               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----------------------------- | ----------------------------------- |
+| [mini12864_arm](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Display_Module/mini12864_arm_x2.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |                                     |
+| [mini12864_case_back](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Display_Module/mini12864_case_back.stl)   | 1        |                                                         | :negative_squared_cross_mark: | Will design my own to fit BBT TFT24 |
+| [mini12864_case_front](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Display_Module/mini12864_case_front.stl) | 1        |                                                         | :negative_squared_cross_mark: | Will design my own to fit BBT TFT24 |
+
+#### Rear Electronics Enclosure
+
+| Item                                                                                                                                                               | Quantity | Material                                                         | Printed                       | Notes                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ---------------------------------------------------------------- | ----------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| [controller_fan_guard](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_controller_fan_guard.stl) | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)              | :negative_squared_cross_mark: | Will replace with the versions with [Voron logos](#60mm-fan-cover) and print an extra one for the Exhaust Filter fan |
+| [latch_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_latch_left.stl)                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)              | :negative_squared_cross_mark: |                                                                                                                      |
+| [latch_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_latch_right.stl)                   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)              | :negative_squared_cross_mark: |                                                                                                                      |
+| [lever_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_lever_left.stl)                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)              | :negative_squared_cross_mark: |                                                                                                                      |
+| [lever_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_lever_right.stl)                   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)              | :negative_squared_cross_mark: |                                                                                                                      |
+| [base_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/base_left.stl)                               | 1        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | :negative_squared_cross_mark: | Will reprint in ABS when the enclosure is completed                                                                  |
+| [base_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/base_right.stl)                             | 1        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | :negative_squared_cross_mark: | Will reprint in ABS when the enclosure is completed                                                                  |
+| [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :negative_squared_cross_mark: |                                                                                                                      |
+| [corner_bracket_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/corner_bracket_left.stl)           | 1        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | :negative_squared_cross_mark: | Will reprint in ABS when the enclosure is completed                                                                  |
+| [corner_bracket_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/corner_bracket_right.stl)         | 1        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | :negative_squared_cross_mark: | Will reprint in ABS when the enclosure is completed                                                                  |
+| [din_bracket_base](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/din_bracket_base_x4.stl)              | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :negative_squared_cross_mark: |                                                                                                                      |
+| [din_bracket_clamp](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/din_bracket_clamp_x4.stl)            | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :negative_squared_cross_mark: |                                                                                                                      |
+| [lock_body](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/lock_body_x2.stl)                            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :negative_squared_cross_mark: |                                                                                                                      |
+| [panel_holder](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/panel_holder_x2.stl)                      | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :negative_squared_cross_mark: |                                                                                                                      |
+| [pcb_din_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/pcb_din_clip_x3.stl)                      | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :negative_squared_cross_mark: | 1 for SKR, 1 for Raspberry Pi and 2 for Mosfets (need to design mosfet holder brackets)                              |
+| [raspberrypi_bracket](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/raspberrypi_bracket.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :negative_squared_cross_mark: |                                                                                                                      |
+| [skr_1.4_bracket](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/skr_1.3_bracket_horizontal.stl)        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :negative_squared_cross_mark: |                                                                                                                      |
+| [wire_corner_left](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/wire_corner_left.stl)                                                        | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)              | :negative_squared_cross_mark: | This is a Trident Part                                                                                               |
+| [wire_corner_right](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/wire_corner_right.stl)                                                      | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)              | :negative_squared_cross_mark: | This is a Trident Part                                                                                               |
+
 ### Exhaust Filter
 
-| Item                                                                                                                                 | Quantity | Material                                                               | Printed            | Notes                                                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------------ | -------- | ---------------------------------------------------------------------- | ------------------ | -------------------------------------------------------------------------------------- |
-| [[a]\_filter_access_cover](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Exhaust_Filter/%5Ba%5D_filter_access_cover.stl) | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | :white_check_mark: | Will replace with [Exhaust Mount Side Entry](#exhaust-mount-side-entry) printed in ABS |
-| [exhaust_filter_grill](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Exhaust_Filter/exhaust_filter_grill.stl)            | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | :white_check_mark: | Will replace with [Exhaust Mount Side Entry](#exhaust-mount-side-entry) printed in ABS |
-| [exhaust_filter_housing](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Exhaust_Filter/exhaust_filter_housing.stl)        | 1        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black)       | :white_check_mark: | Will replace with [Exhaust Mount Side Entry](#exhaust-mount-side-entry) printed in ABS |
-| [exhaust_filter_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Exhaust_Filter/exhaust_filter_mount_x2.stl)      | 2        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black)       | :white_check_mark: | Will replace with [Exhaust Mount Side Entry](#exhaust-mount-side-entry) printed in ABS |
+| Item                                                                                                                            | Quantity | Material                                                               | Printed                       | Notes                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ----------------------------- | -------------------------------------------------------------------------------------- |
+| [filter_access_cover](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Exhaust_Filter/%5Ba%5D_filter_access_cover.stl) | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | :white_check_mark:            | Will replace with [Exhaust Mount Side Entry](#exhaust-mount-side-entry) printed in ABS |
+| [exhaust_filter_grill](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Exhaust_Filter/exhaust_filter_grill.stl)       | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | :white_check_mark:            | Will replace with [Exhaust Mount Side Entry](#exhaust-mount-side-entry) printed in ABS |
+| [exhaust_filter_housing](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Exhaust_Filter/exhaust_filter_housing.stl)   | 1        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black)       | :white_check_mark:            | Will replace with [Exhaust Mount Side Entry](#exhaust-mount-side-entry) printed in ABS |
+| [exhaust_filter_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Exhaust_Filter/exhaust_filter_mount_x2.stl)    | 2        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | :negative_squared_cross_mark: | Will replace with [Exhaust Mount Side Entry](#exhaust-mount-side-entry) printed in ABS |
 
 ### Gantry
 
+Some of the gantry parts (specifically the AB Drive Units and Front Idlers) will be replaced with the upgraded versions from the Trident as they should fit the 1.8.
+
+#### AB Drive Units
+
+| Item                                                                                                                             | Quantity | Material                                                | Printed                       | Notes                  |
+| -------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----------------------------- | ---------------------- |
+| [wire_cover](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/%5Ba%5D_wire_cover.stl)           | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: | This is a Trident Part |
+| [y_endstop_housing](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/AB_Drive_Units/y_endstop_housing.stl)       | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: |                        |
+| [a_drive_frame_lower](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/a_drive_frame_lower.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part |
+| [a_drive_frame_upper](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/a_drive_frame_upper.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part |
+| [b_drive_frame_lower](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/b_drive_frame_lower.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part |
+| [b_drive_frame_upper](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/b_drive_frame_upper.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part |
+
+#### Front Idlers
+
+| Item                                                                                                                           | Quantity | Material                                                | Printed                       | Notes                  |
+| ------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----------------------------- | ---------------------- |
+| [tensioner_left](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/Front_Idlers/%5Ba%5D_tensioner_left.stl)   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: | This is a Trident Part |
+| [tensioner_right](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/Front_Idlers/%5Ba%5D_tensioner_right.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: | This is a Trident Part |
+| [front_idler_a](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/Front_Idlers/front_idler_a_x2.stl)          | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part |
+| [front_idler_b](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/Front_Idlers/front_idler_b_x2.stl)          | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part |
+
+#### X Axis
+
+The X Axis was flipped on the Trident (linear rails are on the bottom of the extrusion like the V2, this will not work on the 1.8 as the guide rails are mounted to the bottom of the extrusion too). I had originally wanted to use the Trident toolhead carriage with a single MGN12 linear rail, however due to the changes on the X axis the endstops were moved to the XY Joints not the toolhead. Because of this I wouldnt have anywhere to mount my endstop so I am not using an MGN12 rail here and instead using the dual MGN9s of the original design.
+
+##### XY Joints
+
+| Item                                                                                                                                            | Quantity | Material                                                | Printed                       | Notes                                   |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----------------------------- | --------------------------------------- |
+| [cap](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/cap_x2.stl)                                              | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |                                         |
+| [xy_joint_left_lower](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_left_lower.stl)                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |                                         |
+| [xy_joint_left_upper](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_left_upper.stl)                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |                                         |
+| [xy_joint_right_lower](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_right_lower.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |                                         |
+| [xy_joint_right_upper](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_right_upper_generic_chain.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is the Generic Cable Chain Version |
+
+##### Afterburner / Stealthburner
+
+I will print either the parts in the [X Carriage directory of the Voron-1 Repository](https://github.com/VoronDesign/Voron-1/tree/Voron1.8/STLs/Gantry/X_Axis/X_Carriage) or go directly to the [Stealthburner](https://vorondesign.com/voron_stealthburner) if it is released before I get to printing the toolhead (It is currently in Beta at the time of writing)
+
 ### Panel Mounting
+
+| Item                                                                                                                          | Quantity | Material                                                               | Printed                       | Notes                                                                                                                   |
+| ----------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| [bottom_panel_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/bottom_panel_clip_x4.stl)              | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                | :negative_squared_cross_mark: | This is a Trident Part                                                                                                  |
+| [bottom_panel_hinge](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/bottom_panel_hinge_x2.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                | :negative_squared_cross_mark: | This is a Trident Part                                                                                                  |
+| [corner_panel_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/corner_panel_clip_3mm_x12.stl)   | 14       | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | :negative_squared_cross_mark: | These are 3mm versions, 4mm versions are available in Trident repo. Will reprint in ABS when the enclosure is completed |
+| [deck_support_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/deck_support_clip_x6.stl)        | 6        |                                                                        | :negative_squared_cross_mark: | Will replace with [Deck Panel Support Clips](#deck-panel-support-clips)                                                 |
+| [midspan_panel_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/midspan_panel_clip_3mm_x12.stl) | 14       | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | :negative_squared_cross_mark: | These are 3mm versions, 4mm versions are available in Trident repo. Will reprint in ABS when the enclosure is completed |
+| [handle](https://github.com/VoronDesign/Voron-2/blob/Voron2.1/STLs/VORON2.1/panel_mounting/handle_x2.stl)                     | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                | :negative_squared_cross_mark: | For Voron 2.1 but I'm going to add to mine                                                                              |
+
+#### Front Doors
+
+| Item                                                                                                                                | Quantity | Material                                                               | Printed                       | Notes                                                                                    |
+| ----------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------- |
+| [door_hinge](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/Front_Doors/door_hinge_x4.stl)                | 6        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | :negative_squared_cross_mark: | Using 2 extra here like the Trident. Will reprint in ABS when the enclosure is completed |
+| [handle_bottom_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/Front_Doors/handle_bottom_left.stl)   | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | :negative_squared_cross_mark: | Will reprint in ABS when the enclosure is completed                                      |
+| [handle_bottom_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/Front_Doors/handle_bottom_right.stl) | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | :negative_squared_cross_mark: | Will reprint in ABS when the enclosure is completed                                      |
+| [handle_top_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/Front_Doors/handle_top_left.stl)         | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | :negative_squared_cross_mark: | Will reprint in ABS when the enclosure is completed                                      |
+| [handle_top_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/Front_Doors/handle_top_right.stl)       | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | :negative_squared_cross_mark: | Will reprint in ABS when the enclosure is completed                                      |
+| [latch](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/Front_Doors/latch_x2.stl)                          | 1        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black)       | :negative_squared_cross_mark: | Will reprint in ABS when the enclosure is completed                                      |
 
 ### Spool Management
 
-| Item                                                                                                            | Quantity | Material | Printed                       | Notes |
-| --------------------------------------------------------------------------------------------------------------- | -------- | -------- | ----------------------------- | ----- |
-| [bowen_retainer](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Spool_Management/bowen_retainer.stl) | 1        |          | :negative_squared_cross_mark: |       |
-| [spool_holder](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Spool_Management/spool_holder.stl)     | 1        |          | :negative_squared_cross_mark: |       |
+| Item                                                                                                            | Quantity | Material | Printed                       | Notes                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------- | -------- | -------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [bowen_retainer](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Spool_Management/bowen_retainer.stl) | 1        |          | :negative_squared_cross_mark: | Not printing this as I will be using the [Smart Filament Sensor Mount](#smart-filament-sensor-mount)       |
+| [spool_holder](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Spool_Management/spool_holder.stl)     | 1        |          | :negative_squared_cross_mark: | May not print this as I currently use an [eSun Filament Dryer box](https://www.amazon.co.uk/dp/B094XWVQ1X) |
 
 ### Tools
 
 | Item                                                                                                                                              | Quantity | Material | Printed                       | Notes                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------- | ----------------------------- | ------------------------------------------- |
-| [rail_installation_guide_center](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Tools/rail_installation_guide_center_x2.stl)        | 2        |          | :negative_squared_cross_mark: |                                             |
+| [rail_installation_guide_center](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Tools/rail_installation_guide_center_x2.stl)           | 2        |          | :negative_squared_cross_mark: |                                             |
 | [v1.8_extrusion_drilling_jig](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Tools/v1.8_extrusion_drilling_jig.stl)                    | 1        |          | :negative_squared_cross_mark: | Not Required as I brought my frame as a kit |
-| [TensionMeter](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Kruppes/Tension_Meter/TensionMeter.stl)                         | 1        |          | :negative_squared_cross_mark: |                                             |
-| [lower_extrusion_alignment](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/natewalck/v1.8_Jigs/lower_extrusion_alignment.stl) | 1        |          | :negative_squared_cross_mark: |                                             |
+| [AB_pulley_jig](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Tools/AB_pulley_jig.stl)                                              | 1        |          | :negative_squared_cross_mark: | This is a Trident Part                      |
+| [TensionMeter](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Kruppes/Tension_Meter/TensionMeter.stl)                         | 1        |          | :negative_squared_cross_mark: | This is a Voron Users Mod                   |
+| [lower_extrusion_alignment](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/natewalck/v1.8_Jigs/lower_extrusion_alignment.stl) | 1        |          | :negative_squared_cross_mark: | This is a Voron Users Mod                   |
 
 ### Z Endstop
 
@@ -227,34 +342,58 @@ The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
 ## Mods
 
+List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
+
 ### Exhaust Mount Side Entry
+
+The stock Exhaust filter has the bowden coupler coming out of the back. As I will have my printer up against the wall I would like to have the bowden coupler coming out of the side to save some space.
 
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/120decibell/exhaust_housing_side_entry
 
 ### AB-BN
 
+Replaces the front of the Afterburner to allow fitting a larger part. cooling fan.
+
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Badnoob/AB-BN
 
 ### Connector Cover
+
+Modification of the Afterburner cable cover to mount to the LDO pancake stepper motor that I am using.
 
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/buzzdalf/connector_cover
 
 ### Smart Filament Sensor Mount
 
+Mount for the BigTreeTech Smart filment sensor that I already have.
+
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Empusas/BTT_Filament_Motion_Sensor_Mount
 
+### Printable Chain
+
+I may want to have the ends of the cable chains printed in accent colour so may print the ends from this. I will also need 2 more ends for the Z chain.
+
+https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hymness1/10x11mm_chain_VSW
+
 ### Klicky Probe
+
+Recommended upgrade to replace the PL-08N Inductive Probe which can be a bit unreliable with magnetic flexible build plates.
 
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/JosAr/Klicky-Probe
 
 ### 60mm Fan Cover
 
+A Fan cover that has an integrated Voron logo.
+
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Rhastlyn/60mmFanCover
 
 ### Cable Management Duct
 
+A cable management duct to tidy up the wiring in the electroics case.
+
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/ryandam/Cable_management_duct
 
 ### Deck Panel Support Clips
+
+The coroplast on the bottom of the printer is not that well supported so this just add a bit more support to the bottom deck panel.
 
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/wile-e1/Deck_Panel_Support_Clips

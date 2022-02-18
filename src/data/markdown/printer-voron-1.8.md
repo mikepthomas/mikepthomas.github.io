@@ -67,31 +67,31 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 
 ### Electronics
 
-| Item                               | Quantity | Received | Notes                                                                                                                   |
-| ---------------------------------- | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------- |
-| NEMA17 Motor 17HS19-2004S          | 2        | 2        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit) |
-| SPDT KW10 Limit Micro Switch       | 3        |          | 10 on order                                                                                                             |
-| PL-08N Inductive Probe             | 1        | 1        | Using Tronxy XY-08N                                                                                                     |
-| E3D V6 Bowden Hotend Kit (24V)     | 1        | 1        | Using 12V version as I am using 12V Power supply                                                                        |
-| 40x40x20 Centrifugal Fan (24V)     | 1        | 1        | Using 12V version as I am using 12V Power supply                                                                        |
-| 40x40x10 Axial Fan (24V)           | 1        | 2        | Using 12V version as I am using 12V Power supply                                                                        |
-| Mini 12864 Display                 | 1        |          | Using BigTreeTech TFT24 Instead                                                                                         |
-| Inlet Power Socket IEC320 C14      | 1        |          | 1 on order                                                                                                              |
-| Keystone CAT6 Insert (Optional)    | 1        |          | Ordered 1 Ethernet and 1 USB                                                                                            |
-| 60x60x20 Fan (24V)                 | 2        | 1        | Using 12V versions as I am using 12V Power supply                                                                       |
-| SKR 1.4                            | 1        | 1        | I have the Turbo version                                                                                                |
-| TMC2209 Stepper Motor Driver       | 5        | 5        |                                                                                                                         |
-| USB Cable A-male B-male            | 1        | 1        |                                                                                                                         |
-| Raspberry Pi 4                     | 1        |          | Using Raspberry Pi 3B+ Instead as I already have one                                                                    |
-| Mean Well LRS-200-24 PSU           | 1        |          | Using Upgraded 30A Power Supply from my Anet A8                                                                         |
-| Mean Well RS-25-5 PSU              | 1        |          | Using UBEC or separate mains Micro USB power supply                                                                     |
-| Omron G3A-210B-DC5 SSR             | 1        |          | Using stock Anet A8 bed, this is for a mains powered bed                                                                |
-| DIN Rail Mount Bracket for G3A SSR | 1        |          | Using stock Anet A8 bed, this is for a mains powered bed                                                                |
-| BAT85 Diode                        | 1        | 7        | My Tronxy XY-08N seems to work fine on SKR 1.4 Turbo using endstop pins                                                 |
-| C13 Power Cord                     | 1        | 3        |                                                                                                                         |
-| Thermal Fuse (120C)                | 1        |          | Using stock Anet A8 bed, this is for a mains powered bed                                                                |
-| NEMA17 Motor 17HS08-1004S          | 1        | 1        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit) |
-| NEMA17 TR8x8 300mm Linear Stepper  | 2        | 2        | In [LDO V1 Z Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-v1-z-motor-kit)                     |
+| Item                               | Quantity | Received | Notes                                                                                                                                                 |
+| ---------------------------------- | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| NEMA17 Motor 17HS19-2004S          | 2        | 2        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit)                               |
+| SPDT KW10 Limit Micro Switch       | 3        |          | 10 on order                                                                                                                                           |
+| PL-08N Inductive Probe             | 1        | 1        | Using Tronxy XY-08N                                                                                                                                   |
+| E3D V6 Bowden Hotend Kit (24V)     | 1        | 1        | Using 12V version as I am using 12V Power supply                                                                                                      |
+| 40x40x20 Centrifugal Fan (24V)     | 1        | 1        | Using 12V version as I am using 12V Power supply                                                                                                      |
+| 40x40x10 Axial Fan (24V)           | 1        | 2        | Using 12V version as I am using 12V Power supply                                                                                                      |
+| Mini 12864 Display                 | 1        |          | Using BigTreeTech TFT24 Instead                                                                                                                       |
+| Inlet Power Socket IEC320 C14      | 1        |          | 1 on order                                                                                                                                            |
+| Keystone CAT6 Insert (Optional)    | 1        |          | Ordered 1 Ethernet and 1 USB                                                                                                                          |
+| 60x60x20 Fan (24V)                 | 2        | 1        | Using 12V versions as I am using 12V Power supply                                                                                                     |
+| SKR 1.4                            | 1        | 1        | I have the Turbo version                                                                                                                              |
+| TMC2209 Stepper Motor Driver       | 5        | 5        |                                                                                                                                                       |
+| USB Cable A-male B-male            | 1        | 1        |                                                                                                                                                       |
+| Raspberry Pi 4                     | 1        |          | Using Raspberry Pi 3B+ Instead as I already have one                                                                                                  |
+| Mean Well LRS-200-24 PSU           | 1        |          | Using Upgraded 30A Power Supply from my Anet A8                                                                                                       |
+| Mean Well RS-25-5 PSU              | 1        |          | Using [UBEC](<https://www.banggood.com/Hobbywing-5V-or-6V-3A-Switch-Mode-Ultimate-BEC-(UBEC)-p-908018.html>) or separate mains Micro USB power supply |
+| Omron G3A-210B-DC5 SSR             | 1        |          | Using stock Anet A8 bed, this is for a mains powered bed                                                                                              |
+| DIN Rail Mount Bracket for G3A SSR | 1        |          | Using stock Anet A8 bed, this is for a mains powered bed                                                                                              |
+| BAT85 Diode                        | 1        | 7        | My Tronxy XY-08N seems to work fine on SKR 1.4 Turbo using endstop pins                                                                               |
+| C13 Power Cord                     | 1        | 3        |                                                                                                                                                       |
+| Thermal Fuse (120C)                | 1        |          | Using stock Anet A8 bed, this is for a mains powered bed                                                                                              |
+| NEMA17 Motor 17HS08-1004S          | 1        | 1        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit)                               |
+| NEMA17 TR8x8 300mm Linear Stepper  | 2        | 2        | In [LDO V1 Z Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-v1-z-motor-kit)                                                   |
 
 ### Misc
 
@@ -132,17 +132,17 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 
 ### Frame
 
-| Item                                     | Quantity | Received | Notes                                                                                                                                 |
-| ---------------------------------------- | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| DIN 3 Rails (35mm W) - 420mm             | 3        | 2        | 1 on order, BOM only specifies 2 but manual has 3                                                                                     |
-| Misumi HFSB5-2020-290                    | 1        | 1        | In [LDO Voron 1.8 Z Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-420-TPW                | 10       | 10       | In [LDO Voron 1.8 Z Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-420                    | 1        | 1        | In [LDO Voron 1.8 Z Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-230                    | 2        | 2        | In [LDO Voron 1.8 Z Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-380                    | 1        | 1        | In [LDO Voron 1.8 Z Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-500-LTP-RCP-AV380-AP40 | 4        | 4        | In [LDO Voron 1.8 Z Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-200-TPW                | 2        | 2        | In [LDO Voron 1.8 Z Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-420-AH45-BH375         | 2        | 2        | In [LDO Voron 1.8 Z Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
+| Item                                     | Quantity | Received | Notes                                                                                                                               |
+| ---------------------------------------- | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| DIN 3 Rails (35mm W) - 420mm             | 3        | 2        | 1 on order, BOM only specifies 2 but manual has 3                                                                                   |
+| Misumi HFSB5-2020-290                    | 1        | 1        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
+| Misumi HFSB5-2020-420-TPW                | 10       | 10       | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
+| Misumi HFSB5-2020-420                    | 1        | 1        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
+| Misumi HFSB5-2020-230                    | 2        | 2        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
+| Misumi HFSB5-2020-380                    | 1        | 1        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
+| Misumi HFSB5-2020-500-LTP-RCP-AV380-AP40 | 4        | 4        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
+| Misumi HFSB5-2020-200-TPW                | 2        | 2        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
+| Misumi HFSB5-2020-420-AH45-BH375         | 2        | 2        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
 
 ### Panels
 

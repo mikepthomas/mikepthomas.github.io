@@ -16,6 +16,7 @@ This what I have planned for the printer over the next few ~~months~~ ~~years~~ 
 4. [Heated Bed Upgrade](#heated-bed-upgrade)
 5. [Electronics Upgrade](#electronics-upgrade)
 6. [Rebuild the Anet A8](#rebuild-the-anet-a8)
+7. [Enraged Rabbit Carrot Feeder](#enraged-rabbit-carrot-feeder)
 
 ## Frame
 
@@ -88,3 +89,7 @@ The only thing left once the heated bed has been upgraded, for it to be a fully 
 ## Rebuild the Anet A8
 
 Once I have upgraded everything to this point I should have all the original parts left over to rebuild it back into the original frame... or maybe reuse them to build a Voron Legacy? ;)
+
+## Enraged Rabbit Carrot Feeder
+
+https://github.com/EtteGit/EnragedRabbitProject

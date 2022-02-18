@@ -352,7 +352,7 @@ https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/120decibell/e
 
 ### AB-BN
 
-Replaces the front of the Afterburner to allow fitting a larger part. cooling fan.
+Replaces the front of the Afterburner to allow fitting a larger part cooling fan.
 
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Badnoob/AB-BN
 

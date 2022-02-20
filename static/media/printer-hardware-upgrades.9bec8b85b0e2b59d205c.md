@@ -31,6 +31,8 @@ I made adapter cables by following the guide at [Caggius Interweb blog](https://
 
 ## SKR 1.4 Turbo Control Board
 
+![The obligatory Benchy](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/benchy.jpg)
+
 ### Electronics Case Design
 
 Adapted from [Anet A8 Electronics Case](printer-printed-upgrades.md#anet-a8-electronics-case)
@@ -77,14 +79,36 @@ You can download the changes to the original PSU Cover from [my 3D printing repo
 
 ![The Relay board installed in the power supply mount](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/relay-mount.jpg)
 
-![The obligatory Benchy](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/benchy.jpg)
-
 ## 3D Touch
+
+My inductive probe did not sense the bed underneath the borosilicate glass plate I purchased to make my prints have a smoother appearance on the first layer so I installed a 3D Touch sensor in place of it to physically touch the bed and get more accurate bed mesh.
 
 ## Hard Silicone Bed Mounts
 
+![Silicone Bed Mounts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/silicone-bed-mounts.jpg)
+
+The stock bed springs can vibrate at high accelerations and cause ripples in the prints. I have replaced them with hard silicone mounts to help stop these.
+
 ## Neopixel LED Strip
+
+![LED Strip](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/led-strip.jpg)
+
+I [followed this guide](https://www.makenprint.uk/3d-printing/3d-printing-guides/skr-v1-4-adding-neopixel-leds/) to add 20 Neopixel LED lights to the bottom of the X gantry. This also required the DCDC Power adapter to allow higher power draw from the main board. 
 
 ## Optical Endstops
 
+![Optical Endstop on X Axis](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/optical-endstop.jpg)
+
+The stock clicky switches are only rated to a certain number of presses before they fail. I wanted to try out optical endstops to replace the clicky switches to stop any extra stresses of the gantry constantly hitting the frame.
+
 ## 0.9 Degree Motors
+
+![LDO X Motor](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/ldo-motor-installed.jpg)
+
+Since tuning the printer to remove as many imperfections in my prints as possible, I started to notice Vertical Fine Artifacts in my prints: 
+
+![VFAs in print](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/vfas-in-print.jpg)
+
+[This page on the Prusa Printer Forums](https://forum.prusaprinters.org/forum/original-prusa-i3-mk3s-mk3-user-mods-octoprint-enclosures-nozzles/stepper-motor-upgrades-to-eliminate-vfa-s-vertical-fine-artifacts/) suggests replacing the stock 1.8 degree motors with higher resolution 0.9 degree stepper motors.
+
+I will update when I have been using them for a while to see the results.

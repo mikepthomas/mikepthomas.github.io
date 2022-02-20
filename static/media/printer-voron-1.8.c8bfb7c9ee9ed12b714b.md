@@ -4,6 +4,8 @@ Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas)
 
 The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
+![Voron Frame](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/voron-frame.jpg)
+
 ---
 
 ## Table of contents
@@ -75,7 +77,7 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | E3D V6 Bowden Hotend Kit (24V)     | 1        | 1        | Using 12V version as I am using 12V Power supply                                                                                                      |
 | 40x40x20 Centrifugal Fan (24V)     | 1        | 1        | Using 12V version as I am using 12V Power supply                                                                                                      |
 | 40x40x10 Axial Fan (24V)           | 1        | 2        | Using 12V version as I am using 12V Power supply                                                                                                      |
-| Mini 12864 Display                 | 1        |          | Using BigTreeTech TFT24 Instead                                                                                                                       |
+| Mini 12864 Display                 | 1        |          | 1 on order                                                                                                                                            |
 | Inlet Power Socket IEC320 C14      | 1        |          | 1 on order                                                                                                                                            |
 | Keystone CAT6 Insert (Optional)    | 1        |          | Ordered 1 Ethernet and 1 USB                                                                                                                          |
 | 60x60x20 Fan (24V)                 | 2        | 1        | Using 12V versions as I am using 12V Power supply                                                                                                     |
@@ -104,6 +106,7 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | Loctite Blue Threadlocker Stick      | 1        | 1        |             |
 | Mobil EP2 Grease                     | 1        | 1        |             |
 | Tesa Wire Loom Harness Tape          | 1        | 1        |             |
+| 1mm Foam Tape                        | 1        | 1        |             |
 | 6x3mm Neodimium Magnet               | 8        |          | 50 on order |
 | PTFE Tube (4mm OD 3mm ID) - 1m       | 1        | 1        |             |
 
@@ -114,7 +117,7 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | Nylon Cable Ties 4"                       | 40       |          | I have a random assortment but will probably need to order more |
 | 1/2" Braided Cable Sheathing (ft)         | 5        |          | Using the stock Anet A8 spiral plastic wrap                     |
 | 20AWG Silicone Cable (ft)                 | 10       |          |                                                                 |
-| 24AWG Silicone Cable (ft)                 | 100      |          | 177ft in various colours on order                               |
+| 24AWG Silicone Cable (ft)                 | 100      | 177      | in various colours                                              |
 | Spade Crimp Terminal 4.8mm Female         | 10       | 20       |                                                                 |
 | JST XH Connector Plug 4 Position          | 5        | 20       |                                                                 |
 | JST XH Connector Plug 3 Position          | 4        | 20       |                                                                 |
@@ -212,13 +215,11 @@ All printed parts will be printed in eSun ABS+ (except for the ones required for
 
 #### Display Module
 
-As I am not using the mini12864, I will be using the BBT TFT24 instead, I will need to create my own display enclosure, I may use the Trident parts to remix this as the Trident display is on a hinge and can be adjusted.
-
-| Item                                                                                                                                           | Quantity | Material                                                | Printed                       | Notes                               |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----------------------------- | ----------------------------------- |
-| [mini12864_arm](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Display_Module/mini12864_arm_x2.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |                                     |
-| [mini12864_case_back](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Display_Module/mini12864_case_back.stl)   | 1        |                                                         | :negative_squared_cross_mark: | Will design my own to fit BBT TFT24 |
-| [mini12864_case_front](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Display_Module/mini12864_case_front.stl) | 1        |                                                         | :negative_squared_cross_mark: | Will design my own to fit BBT TFT24 |
+| Item                                                                                                                                           | Quantity | Material                                                | Printed                       | Notes |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----------------------------- | ----- |
+| [mini12864_arm](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Display_Module/mini12864_arm_x2.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |       |
+| [mini12864_case_back](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Display_Module/mini12864_case_back.stl)   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |       |
+| [mini12864_case_front](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Display_Module/mini12864_case_front.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |       |
 
 #### Rear Electronics Enclosure
 

@@ -137,6 +137,10 @@ It is for the original Raspberry Pi B, which eventually became too slow to run t
 
 [Raspberry Pi Mount from Thingyverse](https://www.thingiverse.com/thing:2185490) by user [Bksba](https://www.thingiverse.com/Bksba)
 
+### Anet A8 LED strip mount under X axis
+
+[LED Strip Mount from Thingyverse](https://www.thingiverse.com/thing:2206024) by user [chzdanish](https://www.thingiverse.com/chzdanish)
+
 ## Frame Bracing
 
 ![Frame Bracing](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-printed-upgrades/frame-brace.jpg)
@@ -219,7 +223,7 @@ Belt tensioner to allow fine adjustment of the Y-Axis belt. This has been replac
 
 ![X-Axis Chain](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-printed-upgrades/x-axis-chain.jpg)
 
-This was replaced by [a different version](#anet-a8-x-axis-cable-chain-with-z-end-stop) after I upgraded to a [touch screen TFT screen](printer-skr-upgrade.md#tft24-mount) to increase the available Z-Axis travel.
+This was replaced by [a different version](#anet-a8-x-axis-cable-chain-with-z-end-stop) after I upgraded to a [touch screen TFT screen](printer-hardware-upgrades.md#tft24-mount) to increase the available Z-Axis travel.
 
 ### Anet A8 Y-Axis Cable Chain v2
 

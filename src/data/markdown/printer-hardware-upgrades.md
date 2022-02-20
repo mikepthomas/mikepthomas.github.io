@@ -93,7 +93,7 @@ The stock bed springs can vibrate at high accelerations and cause ripples in the
 
 ![LED Strip](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/led-strip.jpg)
 
-I [followed this guide](https://www.makenprint.uk/3d-printing/3d-printing-guides/skr-v1-4-adding-neopixel-leds/) to add 20 Neopixel LED lights to the bottom of the X gantry. This also required the DCDC Power adapter to allow higher power draw from the main board. 
+I [followed this guide](https://www.makenprint.uk/3d-printing/3d-printing-guides/skr-v1-4-adding-neopixel-leds/) to add 20 Neopixel LED lights to the bottom of the X gantry. This also required the DCDC Power adapter to allow higher power draw from the main board.
 
 ## Optical Endstops
 
@@ -105,7 +105,7 @@ The stock clicky switches are only rated to a certain number of presses before t
 
 ![LDO X Motor](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/ldo-motor-installed.jpg)
 
-Since tuning the printer to remove as many imperfections in my prints as possible, I started to notice Vertical Fine Artifacts in my prints: 
+Since tuning the printer to remove as many imperfections in my prints as possible, I started to notice Vertical Fine Artifacts in my prints:
 
 ![VFAs in print](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/vfas-in-print.jpg)
 

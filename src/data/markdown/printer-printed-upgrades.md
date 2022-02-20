@@ -141,6 +141,10 @@ It is for the original Raspberry Pi B, which eventually became too slow to run t
 
 [LED Strip Mount from Thingyverse](https://www.thingiverse.com/thing:2206024) by user [chzdanish](https://www.thingiverse.com/chzdanish)
 
+### Anet A8 Optical Endstop Mounts and Targets
+
+[Optical Endstop Mounts from Thingyverse](https://www.thingiverse.com/thing:2873216) by user [dhench](https://www.thingiverse.com/dhench)
+
 ## Frame Bracing
 
 ![Frame Bracing](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-printed-upgrades/frame-brace.jpg)

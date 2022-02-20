@@ -4,6 +4,8 @@ Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas)
 
 The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
+![Voron Frame](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/voron-frame.jpg)
+
 ---
 
 ## Table of contents

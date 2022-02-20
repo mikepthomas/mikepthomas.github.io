@@ -172,6 +172,8 @@ The Anet A8 has [a bit of a reputation](https://www.fabbaloo.com/2018/12/3d-prin
 - Mosfets
 - Enable Thermal runaway in Marlin
 
+I also ran 2 more cables to the heated bed to spread the current load between the extra pins on the heated bed as if the existing pins become loose they will melt the connector.
+
 ## Auto Bed Levelling
 
 To enable auto bed levelling on the printer I used a Tronxy XY-08N.

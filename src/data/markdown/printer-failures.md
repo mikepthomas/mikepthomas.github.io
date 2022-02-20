@@ -64,7 +64,7 @@ The original hotend heater cartridge lasted about two and a half years, all the 
 ![Cable chain melted by new heater](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-failures/cable-chain-melted.jpg)
 
 The new Aibecy hotend lasted about 6 months. It arrived with the wires all folded up and cable tied together rather than being coiled up. I believe this weakened the cable which eventually caused the heater cartridge wire to get really hot and melted the cable chain (you can see a spot of grey filament melted to the red wire in the top of the image). I replaced the heater cartridge with an [Afunta one which showed the cables coiled up in the images](https://www.amazon.co.uk/gp/product/B07J43HFLK) so that I wouldn't get this issue again, looking back I probably didn't need to order 6 as I am still using the first one from this kit to the present day.
-I replaced the melted [cable chain with a different design](printer-printed-upgrades.md#anet-a8-x-axis-cable-chain-with-z-end-stop) as the cable chain reduced my print volume when [upgrading display](printer-skr-upgrade.md#tft24-mount) for the new control board.
+I replaced the melted [cable chain with a different design](printer-printed-upgrades.md#anet-a8-x-axis-cable-chain-with-z-end-stop) as the cable chain reduced my print volume when [upgrading display](printer-hardware-upgrades.md#tft24-mount) for the new control board.
 
 ## Worn Belt
 

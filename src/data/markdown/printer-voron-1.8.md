@@ -104,6 +104,7 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | Loctite Blue Threadlocker Stick      | 1        | 1        |             |
 | Mobil EP2 Grease                     | 1        | 1        |             |
 | Tesa Wire Loom Harness Tape          | 1        | 1        |             |
+| 1mm Foam Tape                        | 1        | 1        |             |
 | 6x3mm Neodimium Magnet               | 8        |          | 50 on order |
 | PTFE Tube (4mm OD 3mm ID) - 1m       | 1        | 1        |             |
 
@@ -114,7 +115,7 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | Nylon Cable Ties 4"                       | 40       |          | I have a random assortment but will probably need to order more |
 | 1/2" Braided Cable Sheathing (ft)         | 5        |          | Using the stock Anet A8 spiral plastic wrap                     |
 | 20AWG Silicone Cable (ft)                 | 10       |          |                                                                 |
-| 24AWG Silicone Cable (ft)                 | 100      |          | 177ft in various colours on order                               |
+| 24AWG Silicone Cable (ft)                 | 100      | 177      | in various colours                                              |
 | Spade Crimp Terminal 4.8mm Female         | 10       | 20       |                                                                 |
 | JST XH Connector Plug 4 Position          | 5        | 20       |                                                                 |
 | JST XH Connector Plug 3 Position          | 4        | 20       |                                                                 |

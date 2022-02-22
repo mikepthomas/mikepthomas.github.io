@@ -135,6 +135,11 @@ const Projects = (props: Props) => {
                             Voron 1.8 Upgrade
                           </Link>
                         </li>
+                        <li>
+                          <Link to="/projects/printer-enraged-rabbit-carrot-feeder">
+                            Enraged Rabbit Carrot Feeder
+                          </Link>
+                        </li>
                       </ul>
                     </li>
                   </ul>

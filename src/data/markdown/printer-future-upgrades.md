@@ -89,7 +89,3 @@ The only thing left once the heated bed has been upgraded, for it to be a fully 
 ## Rebuild the Anet A8
 
 Once I have upgraded everything to this point I should have all the original parts left over to rebuild it back into the original frame... or maybe reuse them to build a Voron Legacy? ;)
-
-## Enraged Rabbit Carrot Feeder
-
-https://github.com/EtteGit/EnragedRabbitProject

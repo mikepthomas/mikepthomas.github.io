@@ -121,15 +121,13 @@ const Projects = (props: Props) => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/projects/printer-future-upgrades">
-                        Future Upgrades
+                      <Link to="/projects/printer-hypercube">
+                        Hypercube CoreXY Upgrade
                       </Link>
+                    </li>
+                    <li>
+                      Future Upgrades
                       <ul>
-                        <li>
-                          <Link to="/projects/printer-hypercube">
-                            Hypercube Upgrade
-                          </Link>
-                        </li>
                         <li>
                           <Link to="/projects/printer-voron-1.8">
                             Voron 1.8 Upgrade

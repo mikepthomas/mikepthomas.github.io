@@ -90,14 +90,12 @@ const Projects = (props: Props) => {
         <Col md={{ size: 4 }}>
           <div className="position-sticky">
             <div className="p-4 mb-3 bg-light rounded">
-              <h2>About</h2>
+              <h2>Elsewhere</h2>
               <p>
-                Here you can find information about a select few projects I am
-                currently working on.
+                Here you can find information about a few projects I am
+                currently working on and others that I have planned over
+                the next few <del>months</del> <del>years</del> decades...
               </p>
-            </div>
-            <div className="p-4">
-              <h3>Elsewhere</h3>
               <ol className="list-unstyled">
                 <li>
                   <Link to="/projects/printer">3D Printer</Link>

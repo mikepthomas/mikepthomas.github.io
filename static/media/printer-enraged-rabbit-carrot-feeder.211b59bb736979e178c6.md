@@ -199,6 +199,14 @@ I will print the relevent [Filament Sensor](https://github.com/EtteGit/EnragedRa
 
 ## Mods
 
+### JST SM Connectors
+
+I have purchased JST SM connectors instead of Microfit 3 (this doesnt matter for the Voron build) however, they need to be inserted into printed parts for the ERCF. This Mod allows the use of these connectors.
+
 https://github.com/EtteGit/EnragedRabbitProject/tree/main/usermods/JST-SM-Connectors
+
+### Printable Chain
+
+The chain is smaller on the ERCF than the chain for the Voron build. I am not expecting to have any chain left over (especially as I am going to print Z chain) and rather than buying some more chain I will try printing it instead.
 
 https://github.com/EtteGit/EnragedRabbitProject/tree/main/usermods/Printable_drag_chain

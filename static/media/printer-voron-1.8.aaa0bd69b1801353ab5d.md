@@ -4,7 +4,7 @@ Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas)
 
 The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
-![Voron Frame](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/voron-frame.jpg)
+![LDO Motor Kit](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/ldo-motors.jpg)
 
 ---
 
@@ -255,6 +255,8 @@ All printed parts will be printed in eSun ABS+ (except for the ones required for
 | [exhaust_filter_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Exhaust_Filter/exhaust_filter_mount_x2.stl)    | 2        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | :negative_squared_cross_mark: | Will replace with [Exhaust Mount Side Entry](#exhaust-mount-side-entry) printed in ABS |
 
 ### Gantry
+
+The long term goal is to eventually replace the smooth rods of the XY Gantry with linear rails to allow me to increase my printing speeds further.
 
 Some of the gantry parts (specifically the AB Drive Units and Front Idlers) will be replaced with the upgraded versions from the Trident as they should fit the 1.8.
 

@@ -93,8 +93,8 @@ const Projects = (props: Props) => {
               <h2>Elsewhere</h2>
               <p>
                 Here you can find information about a few projects I am
-                currently working on and others that I have planned over
-                the next few <del>months</del> <del>years</del> decades...
+                currently working on and others that I have planned over the
+                next few <del>months</del> <del>years</del> decades...
               </p>
               <ol className="list-unstyled">
                 <li>

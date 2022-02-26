@@ -35,15 +35,15 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | M3x20 SHCS                 | 10       | 30       |                                                                            |
 | M3x16 SHCS                 | 17       | 30       |                                                                            |
 | M3x12 SHCS                 | 30       | 30       |                                                                            |
-| M3x8 SHCS                  | 171      | 30       | 150 on order                                                               |
+| M3x8 SHCS                  | 171      | 182      |                                                                            |
 | M3x6 BHCS                  | 20       | 30       |                                                                            |
 | M3 Hexnut                  | 7        | 50       |                                                                            |
 | M3 Washer                  | 10       | 50       |                                                                            |
 | M3 T-nut                   | 120      | 10       | 150 on order                                                               |
 | M3 Hammer Head T-nuts      | 54       | 10       | 100 on order                                                               |
 | M3 Threaded Insert         | 50       | 100      |                                                                            |
-| M3 Knurled Nut (DIN 466-B) | 3        |          | 5 on order                                                                 |
-| M2x10 Self-Tapping Screw   | 7        |          | 50 on order                                                                |
+| M3 Knurled Nut (DIN 466-B) | 3        | 5        |                                                                            |
+| M2x10 Self-Tapping Screw   | 7        | 53       |                                                                            |
 | Yellow Die Spring - M3     | 1        | 6        | Have some bed springs left over from Anet A8 Build                         |
 
 ### Frame
@@ -79,12 +79,12 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | Item                                       | Quantity | Received | Notes                                                    |
 | ------------------------------------------ | -------- | -------- | -------------------------------------------------------- |
 | GT2 20T Pulley (5mm ID 6mm W)              | 3        | 2        | Ordered Complete Z endstop in place of this              |
-| GT2 20T Toothed Idler (5mm ID 6mm W)       | 2        |          | 2 on order                                               |
-| F695 Bearing                               | 20       |          | 30 on order                                              |
+| GT2 20T Toothed Idler (5mm ID 6mm W)       | 2        | 2        |                                                          |
+| F695 Bearing                               | 20       | 30       |                                                          |
 | LM8LUU Linear Bearing                      | 4        | 16       | Using 2 Igus bearings in place of 1 LM8LUU               |
 | TR8x8 Leadscrew Nut                        | 2        | 6        |                                                          |
 | 5x30mm Shaft                               | 1        |          | Ordered Complete Z endstop in place of this              |
-| BMG Extruder Componnets Kit                | 1        | 2        |                                                          |
+| BMG Extruder Components Kit                | 1        | 2        |                                                          |
 | Linear Rail MGN9H 350mm                    | 4        |          | 4 on order                                               |
 | Linear Shaft 8x320mm                       | 4        | 4        | Ordered 500mm Carbon Fiber ones that I can cut to length |
 | GT2 Open Belt LL-2GT-6 (6mm wide) - 1890mm | 2        | 4        | I have about 10 meters left                              |
@@ -178,18 +178,18 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 
 ### Misc
 
-| Item                                 | Quantity | Received | Notes       |
-| ------------------------------------ | -------- | -------- | ----------- |
-| Fume Extractor Carbon Filter Element | 1        | 1        |             |
-| 4mm Bowden Coupler                   | 1        | 4        |             |
-| Bowden Tube (m)                      | 1        | 1        |             |
-| 3M VHB Tape 5952                     | 1        | 1        |             |
-| Loctite Blue Threadlocker Stick      | 1        | 1        |             |
-| Mobil EP2 Grease                     | 1        | 1        |             |
-| Tesa Wire Loom Harness Tape          | 1        | 1        |             |
-| 1mm Foam Tape                        | 1        | 1        |             |
-| 6x3mm Neodimium Magnet               | 8        |          | 50 on order |
-| PTFE Tube (4mm OD 3mm ID) - 1m       | 1        | 1        |             |
+| Item                                 | Quantity | Received | Notes |
+| ------------------------------------ | -------- | -------- | ----- |
+| Fume Extractor Carbon Filter Element | 1        | 1        |       |
+| 4mm Bowden Coupler                   | 1        | 4        |       |
+| Bowden Tube (m)                      | 1        | 1        |       |
+| 3M VHB Tape 5952                     | 1        | 1        |       |
+| Loctite Blue Threadlocker Stick      | 1        | 1        |       |
+| Mobil EP2 Grease                     | 1        | 1        |       |
+| Tesa Wire Loom Harness Tape          | 1        | 1        |       |
+| 1mm Foam Tape                        | 1        | 1        |       |
+| 6x3mm Neodimium Magnet               | 8        | 50       |       |
+| PTFE Tube (4mm OD 3mm ID) - 1m       | 1        | 1        |       |
 
 ## Printing Parts
 

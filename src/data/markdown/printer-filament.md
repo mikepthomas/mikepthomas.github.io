@@ -31,9 +31,9 @@ This is a list of 3D printer filament I have purchased over the years and how I 
 
 This filament was originally brought to upgrade my printer to a Core XY style Hypercube the [Anet Evolution](https://www.thingiverse.com/thing:2786292).
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
-| 240 (1st Layer) 245 (Others) | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Amazon%20Basics%20PETG%20(Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07T2QZYS5) | £19.19 |
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
+| ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| 240         | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Amazon%20Basics%20PETG%20(Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07T2QZYS5) | £19.19 |
 
 ## Amazon Basics PLA (Blue)
 
@@ -79,17 +79,17 @@ This filament was originally brought to print the body of the [Guitar project](g
 
 This filament was originally brought to upgrade my printer to a Core XY style Hypercube the [Anet Evolution](https://www.thingiverse.com/thing:2786292).
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
-| 240 (1st Layer) 245 (Others) | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PETG%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B087TFZR9K) | £19.99 |
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Cost   |
+| ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| 240         | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PETG%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B087TFZR9K) | £19.99 |
 
 ## Tinmorry PETG (White)
 
 This filament was originally brought to upgrade the parts near the hotend and bed of [my printer](printer.md) to make them more heat resistant.
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Cost   |
-| ---------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
-| 240 (1st Layer) 245 (Others) | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PETG%20(White).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B083Z69XKM) | £19.99 |
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Cost   |
+| ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| 240         | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PETG%20(White).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B083Z69XKM) | £19.99 |
 
 ## Tinmorry PLA (Black)
 

@@ -64,15 +64,15 @@ export default function About() {
           <h2 className="mt-2">Key Skills</h2>
           <ul>
             <li>Software design using UML</li>
-            <li>Java, C, Python and Ruby Programming</li>
-            <li>XML Technologies such as XQuery, XSLT &amp; XPath</li>
-            <li>Knowledge of SOAP and RESTful web services</li>
-            <li>Web Server Admin with Apache, MySQL &amp; PHP</li>
-            <li>Web Development, XHTML, CSS &amp; JavaScript</li>
             <li>Source Control using Git and Subversion</li>
-            <li>Unit testing with JUnit and PHPUnit</li>
-            <li>Web page test automation using Selenium Grid</li>
-            <li>Extensive knowledge of Windows, Linux and Mac</li>
+            <li>Scala, Java, JavaScript and Typescript Programming</li>
+            <li>Web Development using HTML5 and CSS3</li>
+            <li>Web Server Admin with Apache &amp; IIS</li>
+            <li>Knowledge of SOAP and RESTful web services</li>
+            <li>XML Technologies such as XQuery, XSLT &amp; XPath</li>
+            <li>Experience with MySQL, SQL Server and Postgres</li>
+            <li>Testing with JUnit, Expect and Selenium Server</li>
+            <li>Extensive knowledge of Windows, Linux and macOS</li>
           </ul>
         </Col>
       </Row>

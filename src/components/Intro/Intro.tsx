@@ -40,11 +40,11 @@ export default function Intro() {
           systems using modern techniques and technologies.
         </p>
         <p className="d-none d-md-block">
-          I am experienced in a number of programming languages including C,
-          Java, Ruby and Python and have a deep understanding of desktop and
-          mobile operating systems such as Windows, Linux, Mac OS X, iOS and
-          Android. I Have worked within an agile team environment using the
-          source control tools Subversion and Git and I am familiar with
+          I am experienced in a number of programming languages including Scala,
+          Java, JavaScript and Typescript and have a deep understanding of
+          desktop and mobile operating systems such as Windows, Linux, macOS,
+          iOS and Android. I Have worked within an agile team environment using
+          the source control tools Subversion and Git and I am familiar with
           continuous integration tools such as Jenkins and Hudson.
         </p>
       </Container>

@@ -43,9 +43,12 @@ export default function Intro() {
           I am experienced in a number of programming languages including Scala,
           Java, JavaScript and Typescript and have a deep understanding of
           desktop and mobile operating systems such as Windows, Linux, macOS,
-          iOS and Android. I Have worked within an agile team environment using
-          the source control tools Subversion and Git and I am familiar with
-          continuous integration tools such as Jenkins and Hudson.
+          iOS and Android.
+        </p>
+        <p className="d-none d-md-block">
+          I have worked within an agile team environment (Scrum
+          and Kanban) using the source control tools Subversion and Git and I am
+          familiar with continuous integration tools such as Jenkins and Hudson.
         </p>
       </Container>
     </div>

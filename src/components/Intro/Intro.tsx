@@ -41,7 +41,7 @@ export default function Intro() {
         </p>
         <p className="d-none d-md-block">
           I am experienced in a number of programming languages including Scala,
-          Java, JavaScript and Typescript and have a deep understanding of
+          Java, JavaScript and TypeScript and have a deep understanding of
           desktop and mobile operating systems such as Windows, Linux, macOS,
           iOS and Android.
         </p>

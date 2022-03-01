@@ -65,7 +65,7 @@ export default function About() {
           <ul>
             <li>Software design using UML</li>
             <li>Source Control using Git and Subversion</li>
-            <li>Scala, Java, JavaScript and Typescript Programming</li>
+            <li>Scala, Java, JavaScript and TypeScript Programming</li>
             <li>Web Development using HTML5 and CSS3</li>
             <li>Web Server Admin with Apache &amp; IIS</li>
             <li>Knowledge of SOAP and RESTful web services</li>

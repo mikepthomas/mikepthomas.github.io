@@ -72,6 +72,8 @@ The four vertical corner extrusions, and the four front and rear extrusions on t
 
 What I am planning on doing to remedy this is instead of using 2 380mm smooth guide rods for the Z axis and two for the Y axis from the Anet A8 that the Anet Evolution suggests. I am going to use all four 380mm guide rods for the Z axis, like in the double Z axis version of the Hypercube Evolution. I will then purchase 2 new 400mm smooth guide rods to use for the Y axis. These seem to come in standard sizes and therefore may be about 20mm short, if this is the case I will modify the motor mounts and belt idlers to fit the rods.
 
+![LDO Frame Kit Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hypercube/voron-frame-assembled.jpg)
+
 The other reason for purchasing the frame for the Voron 1.8 instead of purchasing custom cut extrusion is that it is fairly difficult to find aluminium extrusion in the UK that is NOT V-slot. I want T-slot extrusion so that I have the ability to install [MGN9 linear rails](printer-future-upgrades.md#linear-rails) in the future. As the name suggests MGN9 rails are 9mm wide however the widest part of V-Slot extrusion is 11mm wide.
 
 The kit I purchased also comes with the extrusions to build the electronics case into the rear of the printer (the newer Trident and Voron2 moved their electronics to the bottom of the printer) which means that I will not need to find or design an electronics case to fit, the Anet Evolution only has a case for the stock Anet A8 electronics.
@@ -137,19 +139,23 @@ I have designed a holder for the bearing to sit on top of the couplers inspired 
 
 I have printed [Z Axis anti wobble](https://www.thingiverse.com/thing:2907460) by [osvalijr](https://www.thingiverse.com/osvalijr) to support the top of the lead screw.
 
-| Item                                                                      | Quantity | Material                                                               | Size  | Weight | Cost  | Printed            |
-| ------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ----- | ------ | ----- | ------------------ |
-| [1x_Right_Z_Wooble_608z](https://www.thingiverse.com/thing:2907460/files) | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | 6.27m | 21.87g | £0.42 | :white_check_mark: |
-| [1x_left_Z_Wooble_608z](https://www.thingiverse.com/thing:2907460/files)  | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | 6.27m | 21.87g | £0.42 | :white_check_mark: |
+| Item                                                                        | Quantity | Material                                                               | Size  | Weight | Cost  | Printed            |
+| --------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ----- | ------ | ----- | ------------------ |
+| ~[1x_Right_Z_Wooble_608z](https://www.thingiverse.com/thing:2907460/files)~ | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | 6.27m | 21.87g | £0.42 | :white_check_mark: |
+| ~[1x_left_Z_Wooble_608z](https://www.thingiverse.com/thing:2907460/files)~  | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | 6.27m | 21.87g | £0.42 | :white_check_mark: |
+
+**_NOTE:_** I am not fitting these as they are based on the top Z guide rod clamps that are too tall to fit on the Voron frame. I may remix them into the shorter bottom clamps at a later stage so that they will fit.
 
 I have remixed the Z Rail Arms to recess the screw head so that I can use socket head screws instead of button head screws.
 
 | Item                                                                                                                                                  | Quantity | Material                                                         | Size  | Weight | Cost  | Printed            |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------- | ----- | ------ | ----- | ------------------ |
-| [Z Rail Arm Bottom Left](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Hypercube%20Z%20Rail%20Arm/Z%20Rail%20Arm%20Bottom%20Left.stl)   | 2        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | 3.09m | 10.78g | £0.22 | :white_check_mark: |
-| [Z Rail Arm Bottom Right](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Hypercube%20Z%20Rail%20Arm/Z%20Rail%20Arm%20Bottom%20Right.stl) | 2        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | 3.09m | 10.78g | £0.22 | :white_check_mark: |
-| [Z Rail Arm Top Left](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Hypercube%20Z%20Rail%20Arm/Z%20Rail%20Arm%20Top%20Left.stl)         | 2        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | 5.75m | 20.06g | £0.40 | :white_check_mark: |
-| [Z Rail Arm Top Right](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Hypercube%20Z%20Rail%20Arm/Z%20Rail%20Arm%20Top%20Right.stl)       | 2        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | 5.75m | 20.06g | £0.40 | :white_check_mark: |
+| [Z Rail Arm Bottom Left](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Hypercube%20Z%20Rail%20Arm/Z%20Rail%20Arm%20Bottom%20Left.stl)   | ~2~ 4    | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | 3.09m | 10.78g | £0.22 | :white_check_mark: |
+| [Z Rail Arm Bottom Right](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Hypercube%20Z%20Rail%20Arm/Z%20Rail%20Arm%20Bottom%20Right.stl) | ~2~ 4    | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | 3.09m | 10.78g | £0.22 | :white_check_mark: |
+| ~[Z Rail Arm Top Left](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Hypercube%20Z%20Rail%20Arm/Z%20Rail%20Arm%20Top%20Left.stl)~       | 2        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | 5.75m | 20.06g | £0.40 | :white_check_mark: |
+| ~[Z Rail Arm Top Right](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Hypercube%20Z%20Rail%20Arm/Z%20Rail%20Arm%20Top%20Right.stl)~     | 2        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | 5.75m | 20.06g | £0.40 | :white_check_mark: |
+
+**_NOTE:_** I am using another set of bottom mounts for the top as the top Z guide rod clamps are too tall to fit on the Voron frame.
 
 ## Bed Mounting
 

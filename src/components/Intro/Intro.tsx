@@ -46,9 +46,9 @@ export default function Intro() {
           iOS and Android.
         </p>
         <p className="d-none d-md-block">
-          I have worked within an agile team environment (Scrum
-          and Kanban) using the source control tools Subversion and Git and I am
-          familiar with continuous integration tools such as Jenkins and Hudson.
+          I have worked within an agile team environment (Scrum and Kanban)
+          using the source control tools Subversion and Git and I am familiar
+          with continuous integration tools such as Jenkins and Hudson.
         </p>
       </Container>
     </div>

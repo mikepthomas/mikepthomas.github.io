@@ -1,6 +1,7 @@
 # Upgrading the Hypercube to a Voron 1.8
 
-Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas)
+Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
+Updated March 3, 2022
 
 The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
@@ -197,13 +198,13 @@ All printed parts will be printed in eSun ABS+ (except for the ones required for
 
 ### Tools
 
-| Item                                                                                                                                              | Quantity | Material | Printed                       | Notes                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------- | ----------------------------- | ------------------------------------------- |
-| [rail_installation_guide_center](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Tools/rail_installation_guide_center_x2.stl)           | 2        |          | :negative_squared_cross_mark: |                                             |
-| [v1.8_extrusion_drilling_jig](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Tools/v1.8_extrusion_drilling_jig.stl)                    | 1        |          | :negative_squared_cross_mark: | Not Required as I brought my frame as a kit |
-| [AB_pulley_jig](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Tools/AB_pulley_jig.stl)                                              | 1        |          | :negative_squared_cross_mark: | This is a Trident Part                      |
-| [TensionMeter](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Kruppes/Tension_Meter/TensionMeter.stl)                         | 1        |          | :negative_squared_cross_mark: | This is a Voron Users Mod                   |
-| [lower_extrusion_alignment](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/natewalck/v1.8_Jigs/lower_extrusion_alignment.stl) | 1        |          | :negative_squared_cross_mark: | This is a Voron Users Mod                   |
+| Item                                                                                                                                              | Quantity | Material                                                         | Printed                       | Notes                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------- | ----------------------------- | ------------------------------------------- |
+| [rail_installation_guide_center](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Tools/rail_installation_guide_center_x2.stl)           | 2        |                                                                  | :negative_squared_cross_mark: |                                             |
+| [v1.8_extrusion_drilling_jig](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Tools/v1.8_extrusion_drilling_jig.stl)                    | 1        |                                                                  | :negative_squared_cross_mark: | Not Required as I brought my frame as a kit |
+| [AB_pulley_jig](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Tools/AB_pulley_jig.stl)                                              | 1        |                                                                  | :negative_squared_cross_mark: | This is a Trident Part                      |
+| [TensionMeter](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Kruppes/Tension_Meter/TensionMeter.stl)                         | 1        |                                                                  | :negative_squared_cross_mark: | This is a Voron Users Mod                   |
+| [lower_extrusion_alignment](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/natewalck/v1.8_Jigs/lower_extrusion_alignment.stl) | 1        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | :white_check_mark:            | This is a Voron Users Mod                   |
 
 ### Gantry
 
@@ -225,10 +226,14 @@ Some of the gantry parts (specifically the AB Drive Units and Front Idlers) will
 | -------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----------------------------- | ---------------------- |
 | [wire_cover](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/%5Ba%5D_wire_cover.stl)           | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: | This is a Trident Part |
 | [y_endstop_housing](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/AB_Drive_Units/y_endstop_housing.stl)       | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: |                        |
-| [a_drive_frame_lower](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/a_drive_frame_lower.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part |
-| [a_drive_frame_upper](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/a_drive_frame_upper.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part |
+| [a_drive_frame_lower](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/a_drive_frame_lower.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :white_check_mark:            | This is a Trident Part |
+| [a_drive_frame_upper](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/a_drive_frame_upper.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :white_check_mark:            | This is a Trident Part |
 | [b_drive_frame_lower](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/b_drive_frame_lower.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part |
 | [b_drive_frame_upper](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/b_drive_frame_upper.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part |
+
+![ABS A Drive Unit](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/a-drive-abs-tuning.jpg)
+
+The lower A drive was the first time I have tried to print with ABS. The upper was printed after a few tweaks to my slicer settings and updates to my Marlin firmware configuration. I am now quite happy with the results and will carry on printing the rest of the parts.
 
 #### Front Idlers
 

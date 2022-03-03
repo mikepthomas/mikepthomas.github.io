@@ -1,6 +1,7 @@
 # 3D Printer Enclosure
 
-July 5, 2018 by [Mike Thomas](https://github.com/mikepthomas)
+Created July 5, 2018 by [Mike Thomas](https://github.com/mikepthomas),
+Updated March 3, 2022
 
 Creating a 3D printer enclosure using 2 Ikea Lack tables.
 
@@ -39,6 +40,10 @@ I used some cardboard from the box the printer came in to get an idea of what si
 I have recently been needing to print some ABS parts that will be close to the hotend of the printer as ABS deals with higher temperatures better than PETG that I normally print with. Therefore, I have been looking at enclosing the printer again to prevent warping of parts as ABS is very prone to shrinkage and warping, when not printed in an enclosure.
 
 I have purchased some [Corroplast sheets](https://www.amazon.co.uk/gp/product/B016EMNWS4) to replace the cardboard box sides, and plan to purchase some clear acrylic sheets to use as doors on the front using some [3D printed hinges](#handle-and-hinges).
+
+![Temporary ABS Printing Enclosure](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-enclosure/temporary-abs-enclosure.jpg)
+
+This is not how I was originally intending on using the Corroplast sheets to enclose the printer, However I will need most of the new sheets to build the new printer so have decided not to cut them down yet.
 
 ### Handle and Hinges
 

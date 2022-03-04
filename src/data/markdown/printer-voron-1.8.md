@@ -30,12 +30,12 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | M5 Hexnut                  | 8        | 19       |                                                                            |
 | M5 1mm Spacer              | 20       |          | 50 on order                                                                |
 | M5 T-nut                   | 83       | 30       | 100 on order                                                               |
-| M4x6 BHCS                  | 4        |          | Using stock Anet A8 bed for the moment (These are for SSR DIN Mount)       |
+| M4x6 BHCS                  | 4        |          | 20 on order                                                                |
 | M3x40 SHCS                 | 5        | 20       |                                                                            |
 | M3x30 SHCS                 | 25       | 30       |                                                                            |
 | M3x20 SHCS                 | 10       | 30       |                                                                            |
 | M3x16 SHCS                 | 17       | 30       |                                                                            |
-| M3x12 SHCS                 | 30       | 30       |                                                                            |
+| M3x12 SHCS                 | 30       | 30       | 50 on order                                                                |
 | M3x8 SHCS                  | 171      | 182      |                                                                            |
 | M3x6 BHCS                  | 20       | 30       |                                                                            |
 | M3 Hexnut                  | 7        | 50       |                                                                            |
@@ -82,7 +82,7 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | GT2 20T Pulley (5mm ID 6mm W)              | 3        | 2        | Ordered Complete Z endstop in place of this              |
 | GT2 20T Toothed Idler (5mm ID 6mm W)       | 2        | 2        |                                                          |
 | F695 Bearing                               | 20       | 30       |                                                          |
-| LM8LUU Linear Bearing                      | 4        | 16       | Using 2 Igus bearings in place of 1 LM8LUU               |
+| LM8LUU Linear Bearing                      | 4        |          | 4 on order                                               |
 | TR8x8 Leadscrew Nut                        | 2        | 6        |                                                          |
 | 5x30mm Shaft                               | 1        |          | Ordered Complete Z endstop in place of this              |
 | BMG Extruder Components Kit                | 1        | 2        |                                                          |
@@ -150,11 +150,11 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | Raspberry Pi 4                     | 1        |          | Using Raspberry Pi 3B+ Instead as I already have one                                                                                                  |
 | Mean Well LRS-200-24 PSU           | 1        |          | Using Upgraded 30A Power Supply from my Anet A8                                                                                                       |
 | Mean Well RS-25-5 PSU              | 1        |          | Using [UBEC](<https://www.banggood.com/Hobbywing-5V-or-6V-3A-Switch-Mode-Ultimate-BEC-(UBEC)-p-908018.html>) or separate mains Micro USB power supply |
-| Omron G3A-210B-DC5 SSR             | 1        |          | Using stock Anet A8 bed, this is for a mains powered bed                                                                                              |
-| DIN Rail Mount Bracket for G3A SSR | 1        |          | Using stock Anet A8 bed, this is for a mains powered bed                                                                                              |
+| Omron G3A-210B-DC5 SSR             | 1        |          | 1 on order                                                                                                                                            |
+| DIN Rail Mount Bracket for G3A SSR | 1        |          | 1 on order                                                                                                                                            |
 | BAT85 Diode                        | 1        | 7        | My Tronxy XY-08N seems to work fine on SKR 1.4 Turbo using endstop pins                                                                               |
 | C13 Power Cord                     | 1        | 3        |                                                                                                                                                       |
-| Thermal Fuse (120C)                | 1        |          | Using stock Anet A8 bed, this is for a mains powered bed                                                                                              |
+| Thermal Fuse (120C)                | 1        |          | 5 on order                                                                                                                                            |
 | NEMA17 Motor 17HS08-1004S          | 1        | 1        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit)                               |
 | NEMA17 TR8x8 300mm Linear Stepper  | 2        | 2        | In [LDO V1 Z Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-v1-z-motor-kit)                                                   |
 

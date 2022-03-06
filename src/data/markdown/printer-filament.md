@@ -1,6 +1,7 @@
 # 3D Printer Filament list
 
-January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas)
+January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
+Updated March 6, 2022
 
 This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
@@ -12,20 +13,21 @@ This is a list of 3D printer filament I have purchased over the years and how I 
 
 1. [Amazon Basics PETG (Red)](#amazon-basics-petg-red)
 2. [Amazon Basics PLA (Blue)](#amazon-basics-pla-blue)
-3. [PrimaValue PLA (Black)](#primavalue-pla-black)
-4. [PrimaValue PLA (Blue)](#primavalue-pla-Blue)
-5. [PrimaValue PLA (Dark Grey)](#primavalue-pla-dark-grey)
-6. [PrimaValue PLA (Red)](#primavalue-pla-red)
-7. [Tinmorry PETG (Black)](#tinmorry-petg-black)
-8. [Tinmorry PETG (White)](#tinmorry-petg-white)
-9. [Tinmorry PLA (Black)](#tinmorry-pla-black)
-10. [Tinmorry PLA (Grey)](#tinmorry-pla-grey)
-11. [Tinmorry PLA (Matte Brick Red)](#tinmorry-pla-matte-brick-red)
-12. [Ziro PLA (Black)](#ziro-pla-black)
-13. [Ziro PLA (Yellow)](#ziro-pla-yellow)
-14. [Ziro TPU (Black)](#ziro-tpu-black)
-15. [eSun ABS+ (Black)](#esun-abs-black)
-16. [eSun ABS+ (Red)](#esun-abs-red)
+3. [BasicFil PETG (Clear)](#basicfil-petg-clear)
+4. [PrimaValue PLA (Black)](#primavalue-pla-black)
+5. [PrimaValue PLA (Blue)](#primavalue-pla-Blue)
+6. [PrimaValue PLA (Dark Grey)](#primavalue-pla-dark-grey)
+7. [PrimaValue PLA (Red)](#primavalue-pla-red)
+8. [Tinmorry PETG (Black)](#tinmorry-petg-black)
+9. [Tinmorry PETG (White)](#tinmorry-petg-white)
+10. [Tinmorry PLA (Black)](#tinmorry-pla-black)
+11. [Tinmorry PLA (Grey)](#tinmorry-pla-grey)
+12. [Tinmorry PLA (Matte Brick Red)](#tinmorry-pla-matte-brick-red)
+13. [Ziro PLA (Black)](#ziro-pla-black)
+14. [Ziro PLA (Yellow)](#ziro-pla-yellow)
+15. [Ziro TPU (Black)](#ziro-tpu-black)
+16. [eSun ABS+ (Black)](#esun-abs-black)
+17. [eSun ABS+ (Red)](#esun-abs-red)
 
 ## Amazon Basics PETG (Red)
 
@@ -42,6 +44,14 @@ This filament was originally brought to print Fallout: Wasteland Warfare [Vault]
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
 | ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Amazon%20Basics%20PLA%20(Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07T2R1BQJ) | £14.88 |
+
+## BasicFil PETG (Clear)
+
+This filament was originally brought to print the [StealthBurner](https://vorondesign.com/voron_stealthburner) LED Diffuser.
+
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Cost   |
+| ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| 240         | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/BasicFil%20PETG%20(Clear).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07CTLV4W5) | £19.90 |
 
 ## PrimaValue PLA (Black)
 

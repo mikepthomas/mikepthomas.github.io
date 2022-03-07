@@ -19,7 +19,8 @@ Updated March 7, 2022
 6. [Heater Wire Wear](#heater-wire-wear)
 7. [Return of the Cable Chain](#return-of-the-cable-chain)
 8. [Worn Belt](#worn-belt)
-9. [Bearing Failure](#bearing-failure)
+9. [Broken Probe Wire](#broken-probe-wire)
+10. [Bearing Failure](#bearing-failure)
 
 ## First Print
 
@@ -73,6 +74,12 @@ I replaced the melted [cable chain with a different design](printer-printed-upgr
 ![X Axis belt worn through](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-failures/worn-belt.jpg)
 
 When adding [belt tentioners to both the X and Y axes](printer-printed-upgrades.md#motion-upgrades) I realised that I cut the stock belts a little too short, so I had to [buy some new belt](https://www.amazon.co.uk/gp/product/B0719S15FN) It was rather cheap (£5.99 for 2 meters including two 20 tooth GT2 pulleys). I'm surprised it lasted about 2 and a half years and the Y axis belt is still going strong. I have replaced the X axis belt with a slightly higher quality cloth and rubber fiberglass reinforced one and have enough new belt to replace the Y axis belt, if/when it breaks.
+
+## Broken Probe Wire
+
+![Broken Probe Wire](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-failures/broken-probe-wire.jpg)
+
+Due to the repetitive sideways movement of the X axis one of the wires of the 3D Touch probe has broken loose (the orange wire in the center of the picture). Luckily there are two ground wires in the probe and the cable that has come loose is one of them, therefore the probe is stll functional. I have ordered a couple of replacements as the wire is very thin and I have found it very dificult to strip with my wire strippers and do not want to damage it further, putting the machine out of action until the replacements arrive.
 
 ## Bearing Failure
 

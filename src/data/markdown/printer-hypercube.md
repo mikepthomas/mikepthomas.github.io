@@ -1,6 +1,7 @@
 # Upgrading my Anet A8 to a Hypercube
 
-Febuary 15, 2022 by [Mike Thomas](https://github.com/mikepthomas)
+Febuary 15, 2022 by [Mike Thomas](https://github.com/mikepthomas),
+Updated March 7, 2022
 
 The steps I have taken to migrate from the Anet A8's acrylic frame to a CoreXY Hypercube style printer.
 
@@ -74,13 +75,13 @@ What I am planning on doing to remedy this is instead of using 2 380mm smooth gu
 
 ![LDO Frame Kit Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hypercube/voron-frame-assembled.jpg)
 
-The other reason for purchasing the frame for the Voron 1.8 instead of purchasing custom cut extrusion is that it is fairly difficult to find aluminium extrusion in the UK that is NOT V-slot. I want T-slot extrusion so that I have the ability to install [MGN9 linear rails](printer-future-upgrades.md#linear-rails) in the future. As the name suggests MGN9 rails are 9mm wide however the widest part of V-Slot extrusion is 11mm wide.
+The other reason for purchasing the frame for the Voron 1.8 instead of purchasing custom cut extrusion is that it is fairly difficult to find aluminium extrusion in the UK that is NOT V-slot. I want T-slot extrusion so that I have the ability to install [MGN9 linear rails](printer-voron-1.8.md#motion) in the future. As the name suggests MGN9 rails are 9mm wide however the widest part of V-Slot extrusion is 11mm wide, therfore the rail would not fit flat on the V-slot.
 
 The kit I purchased also comes with the extrusions to build the electronics case into the rear of the printer (the newer Trident and Voron2 moved their electronics to the bottom of the printer) which means that I will not need to find or design an electronics case to fit, the Anet Evolution only has a case for the stock Anet A8 electronics.
 
 ## X Axis
 
-To start off with I will not be deviating too far from the Anet Evolution. I will be printing the Belt clamp with belt tensioners from that and [eventually plan to upgrade the toolhead in the future](printer-future-upgrades.md#hotend-upgrade)
+To start off with I will not be deviating too far from the Anet Evolution. I will be printing the Belt clamp with belt tensioners from that and [eventually plan to upgrade the toolhead in the future](#hotend)
 
 | Item                                                                       | Quantity | Material                                                               | Size  | Weight | Cost  | Printed            |
 | -------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ----- | ------ | ----- | ------------------ |
@@ -92,11 +93,11 @@ To start off with I will not be deviating too far from the Anet Evolution. I wil
 
 I have chosen to [replace the stock Y carriages with a remixed version](https://www.thingiverse.com/thing:2907433) by [osvalijr](https://www.thingiverse.com/osvalijr) as I prefer the modularity of them and it will allow me to print the bearing blocks in a different accent colour.
 
-| Item                                                             | Quantity | Material                                                               | Size   | Weight | Cost  | Printed            |
-| ---------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ------ | ------ | ----- | ------------------ |
-| [1x_Conjunto_Y_Corpo](https://www.thingiverse.com/thing:2907433) | 2        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | 12.99m | 45.30g | £0.87 | :white_check_mark: |
-| [1x_Conjunto_Y_Trava](https://www.thingiverse.com/thing:2907433) | 2        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black)       | 1.64m  | 5.71g  | £0.11 | :white_check_mark: |
-| [2x_Conjunto_Y_Bucha](https://www.thingiverse.com/thing:2907433) | 4        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black)       | 1.57m  | 5.30g  | £0.11 | :white_check_mark: |
+| Item                                                                   | Quantity | Material                                                               | Size   | Weight | Cost  | Printed            |
+| ---------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ------ | ------ | ----- | ------------------ |
+| [1x_Conjunto_Y_Corpo](https://www.thingiverse.com/thing:2907433/files) | 2        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | 12.99m | 45.30g | £0.87 | :white_check_mark: |
+| [1x_Conjunto_Y_Trava](https://www.thingiverse.com/thing:2907433/files) | 2        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black)       | 1.64m  | 5.71g  | £0.11 | :white_check_mark: |
+| [2x_Conjunto_Y_Bucha](https://www.thingiverse.com/thing:2907433/files) | 4        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black)       | 1.57m  | 5.30g  | £0.11 | :white_check_mark: |
 
 As I have a slightly longer Y axis compared to the Anet Evolution, I have redesigned some parts to allow me to use Y Guide rods that are 20mm too short for the frame.
 
@@ -132,10 +133,10 @@ I have designed a holder for the bearing to sit on top of the couplers inspired 
 
 ![Z Motor Bearing Support](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hypercube/z-motor-bearing-support.png)
 
-| Item                                                                                                                                               | Quantity | Material                                                               | Size  | Weight | Cost  | Printed            |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ----- | ------ | ----- | ------------------ |
-| [2_Z_Motor_Mount](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Hypercube%20Z%20Bearing%20Fixer/Hypercube%20Z%20Bearing%20Fixer.stl) | 2        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | 6.64m | 23.14g | £0.44 | :white_check_mark: |
-| [Z Motor Bearing](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Hypercube%20Z%20Motor%20Bearing/Z%20Motor%20Bearing.stl)             | 2        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black)       | 6.76m | 23.57g | £0.47 | :white_check_mark: |
+| Item                                                                                                                                   | Quantity | Material                                                               | Size  | Weight | Cost  | Printed            |
+| -------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ----- | ------ | ----- | ------------------ |
+| [2_Z_Motor_Mount](https://www.thingiverse.com/thing:2786292/files)                                                                     | 2        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | 6.64m | 23.14g | £0.44 | :white_check_mark: |
+| [Z Motor Bearing](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Hypercube%20Z%20Motor%20Bearing/Z%20Motor%20Bearing.stl) | 2        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black)       | 6.76m | 23.57g | £0.47 | :white_check_mark: |
 
 I have printed [Z Axis anti wobble](https://www.thingiverse.com/thing:2907460) by [osvalijr](https://www.thingiverse.com/osvalijr) to support the top of the lead screw.
 

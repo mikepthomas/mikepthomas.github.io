@@ -1,7 +1,7 @@
 # Upgrading the Hypercube to a Voron 1.8
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 6, 2022
+Updated March 7, 2022
 
 The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
@@ -28,7 +28,7 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | M5x16 BHCS                 | 67       | 60       | Received 45 SHCS instead (Will use 10 of these for the feet and DIN Rails) |
 | M5x10 BHCS                 | 71       | 104      |                                                                            |
 | M5 Hexnut                  | 8        | 19       |                                                                            |
-| M5 1mm Spacer              | 20       |          | 50 on order                                                                |
+| M5 1mm Spacer              | 20       | 50       |                                                                            |
 | M5 T-nut                   | 83       | 30       | 100 on order                                                               |
 | M4x6 BHCS                  | 4        |          | 20 on order                                                                |
 | M3x40 SHCS                 | 5        | 20       |                                                                            |
@@ -150,7 +150,7 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | Raspberry Pi 4                     | 1        |          | Using Raspberry Pi 3B+ Instead as I already have one                                                                                                  |
 | Mean Well LRS-200-24 PSU           | 1        |          | Using Upgraded 30A Power Supply from my Anet A8                                                                                                       |
 | Mean Well RS-25-5 PSU              | 1        |          | Using [UBEC](<https://www.banggood.com/Hobbywing-5V-or-6V-3A-Switch-Mode-Ultimate-BEC-(UBEC)-p-908018.html>) or separate mains Micro USB power supply |
-| Omron G3A-210B-DC5 SSR             | 1        |          | 1 on order                                                                                                                                            |
+| Omron G3A-210B-DC5 SSR             | 1        | 1        |                                                                                                                                                       |
 | DIN Rail Mount Bracket for G3A SSR | 1        |          | 1 on order                                                                                                                                            |
 | BAT85 Diode                        | 1        | 7        | My Tronxy XY-08N seems to work fine on SKR 1.4 Turbo using endstop pins                                                                               |
 | C13 Power Cord                     | 1        | 3        |                                                                                                                                                       |
@@ -434,58 +434,58 @@ List of upgrades that I plan on adding from the printer mods directory of the Vo
 
 The stock Exhaust filter has the bowden coupler coming out of the back. As I will have my printer up against the wall I would like to have the bowden coupler coming out of the side to save some space.
 
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/120decibell/exhaust_housing_side_entry
+[Exhaust Housing Side Entry By 120decibell](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/120decibell/exhaust_housing_side_entry)
 
 ### AB-BN
 
 Replaces the front of the Afterburner to allow fitting a larger part cooling fan.
 
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Badnoob/AB-BN
+[AB-BN By Badnoob](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Badnoob/AB-BN)
 
 ### Connector Cover
 
 Modification of the Afterburner cable cover to mount to the LDO pancake stepper motor that I am using.
 
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/buzzdalf/connector_cover
+[Connector Cover By buzzdalf](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/buzzdalf/connector_cover)
 
 ### Smart Filament Sensor Mount
 
 Mount for the BigTreeTech Smart filment sensor that I already have.
 
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Empusas/BTT_Filament_Motion_Sensor_Mount
+[Smart Filament Sensor Mount By Empusas](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Empusas/BTT_Filament_Motion_Sensor_Mount)
 
 ### Printable Chain
 
 I may want to have the ends of the cable chains printed in accent colour so may print the ends from this. I will also need 2 more ends for the Z chain.
 
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hymness1/10x11mm_chain_VSW
+[Printable Chain By hymness1](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hymness1/10x11mm_chain_VSW)
 
 ### Sturdy Handles
 
 Will make moving the printer around a little easier when assembled.
 
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/jeoje/Sturdy_Handles
+[Sturdy Handles By jeoje](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/jeoje/Sturdy_Handles)
 
 ### Klicky Probe
 
 Recommended upgrade to replace the PL-08N Inductive Probe which can be a bit unreliable with magnetic flexible build plates.
 
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/JosAr/Klicky-Probe
+[Klicky Probe By JosAr](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/JosAr/Klicky-Probe)
 
 ### 60mm Fan Cover
 
 A Fan cover that has an integrated Voron logo.
 
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Rhastlyn/60mmFanCover
+[60mm Fan Cover By Rhastlyn](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Rhastlyn/60mmFanCover)
 
 ### Cable Management Duct
 
 A cable management duct to tidy up the wiring in the electroics case.
 
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/ryandam/Cable_management_duct
+[Cable Management Duct By ryandam](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/ryandam/Cable_management_duct)
 
 ### Deck Panel Support Clips
 
 The coroplast on the bottom of the printer is not that well supported so this just add a bit more support to the bottom deck panel.
 
-https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/wile-e1/Deck_Panel_Support_Clips
+[Deck Panel Support Clips By wile-e1](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/wile-e1/Deck_Panel_Support_Clips)

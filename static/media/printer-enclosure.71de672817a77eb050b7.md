@@ -1,6 +1,7 @@
 # 3D Printer Enclosure
 
-July 5, 2018 by [Mike Thomas](https://github.com/mikepthomas)
+Created July 5, 2018 by [Mike Thomas](https://github.com/mikepthomas),
+Updated March 7, 2022
 
 Creating a 3D printer enclosure using 2 Ikea Lack tables.
 
@@ -40,6 +41,10 @@ I have recently been needing to print some ABS parts that will be close to the h
 
 I have purchased some [Corroplast sheets](https://www.amazon.co.uk/gp/product/B016EMNWS4) to replace the cardboard box sides, and plan to purchase some clear acrylic sheets to use as doors on the front using some [3D printed hinges](#handle-and-hinges).
 
+![Temporary ABS Printing Enclosure](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-enclosure/temporary-abs-enclosure.jpg)
+
+This is not how I was originally intending on using the Corroplast sheets to enclose the printer, However I will need most of the new sheets to build the new printer so have decided not to cut them down yet.
+
 ### Handle and Hinges
 
 ![Hinges](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-enclosure/hinges.jpg)
@@ -54,6 +59,6 @@ As I am planning on printing with ABS, I want to run any gasses produced through
 
 ## Future Modifications
 
-Once I have assembled [my new frame](printer-future-upgrades.md#frame) the printer will be too tall to fit inside the enclosure. The printer itself will eventually have enclosed side panels, so I will dismantle the enclosure and turn it into a filament storage cabinet that the new frame can stand on top of.
+Once I have assembled [my new frame](printer-hypercube.md#frame) the printer will be too tall to fit inside the enclosure. The printer itself will eventually have enclosed side panels, so I will dismantle the enclosure and turn it into a filament storage cabinet that the new frame can stand on top of.
 
 I will do this by removing the lower table's legs and attaching the casters underneath the lower tables tabletop [using these adapters](https://www.thingiverse.com/thing:2598673) which should also stiffen the attachment of the casters.

@@ -1,8 +1,9 @@
 # Building an Enraged Rabbit Carrot Feeder
 
-Febuary 22, 2022 by [Mike Thomas](https://github.com/mikepthomas)
+Febuary 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
+Updated March 7, 2022
 
-Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRabbitProject) to print multiple Colours on the Voron.
+Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRabbitProject) to print using multiple colours of filament on the Voron.
 
 ---
 
@@ -41,39 +42,39 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Fasteners
 
-| Item                                        | Quantity | Received | Notes |
-| ------------------------------------------- | -------- | -------- | ----- |
-| M3 threaded inserts                         | 26       | 50       |       |
-| M5x30 BHCS                                  | 2        | 15       |       |
-| M5x16 BHCS                                  | 1        |          |       |
-| M5 nuts                                     | 4        | 11       |       |
-| M5 nylock nuts                              | 5        |          |       |
-| M5 washers                                  | 2        | 30       |       |
-| M3x8 SHCS                                   | 20       | 9        |       |
-| M3x8 BHCS                                   | 5        |          |       |
-| M3x12 SHCS                                  | 3        |          |       |
-| M3x16 SHCS                                  | 10       | 13       |       |
-| M3x20 SHCS                                  | 7        | 20       |       |
-| M3x40 SHCS                                  | 2        | 15       |       |
-| M3 washers (could also be the DIN125 below) | 2        | 40       |       |
-| M3 DIN125 Steel Washer                      | 6        |          |       |
-| M2x8 SHCS or M2x10 SHCS                     | 2        | 43       |       |
+| Item                                        | Quantity | Received | Notes       |
+| ------------------------------------------- | -------- | -------- | ----------- |
+| M3 threaded inserts                         | 26       | 50       |             |
+| M5x30 BHCS                                  | 2        | 15       |             |
+| M5x16 BHCS                                  | 1        |          |             |
+| M5 nuts                                     | 4        | 11       |             |
+| M5 nylock nuts                              | 5        |          |             |
+| M5 washers                                  | 2        | 30       |             |
+| M3x8 SHCS                                   | 20       | 11       |             |
+| M3x8 BHCS                                   | 5        |          |             |
+| M3x12 SHCS                                  | 3        |          | 50 on order |
+| M3x16 SHCS                                  | 10       | 13       |             |
+| M3x20 SHCS                                  | 7        | 20       |             |
+| M3x40 SHCS                                  | 2        | 15       |             |
+| M3 washers (could also be the DIN125 below) | 2        | 40       |             |
+| M3 DIN125 Steel Washer                      | 6        |          |             |
+| M2x8 SHCS or M2x10 SHCS                     | 2        | 46       |             |
 
 ### Motion
 
-| Item                                 | Quantity | Received | Notes |
-| ------------------------------------ | -------- | -------- | ----- |
-| GT2 belt 6mm (open)                  | 1        | 1        |       |
-| GT2 20T Pulley 6 mm, 5mm bore        | 3        | 2        |       |
-| GT2 20T Toothed Idler 6 mm, 5mm bore | 1        |          |       |
-| GT2 188m Belt loop 6mm               | 1        |          |       |
+| Item                                 | Quantity | Received | Notes      |
+| ------------------------------------ | -------- | -------- | ---------- |
+| GT2 belt 6mm (open)                  | 1        | 1        |            |
+| GT2 20T Pulley 6 mm, 5mm bore        | 3        | 2        |            |
+| GT2 20T Toothed Idler 6 mm, 5mm bore | 1        |          | 2 on order |
+| GT2 188m Belt loop 6mm               | 1        | 1        |            |
 
 ### Misc
 
 | Item                              | Quantity | Received | Notes |
 | --------------------------------- | -------- | -------- | ----- |
 | 6mm x 3mm Round Neodymium Magnets | 22       | 42       |       |
-| Bowden Clip                       | 7        |          |       |
+| Bowden Clip                       | 7        | 3        |       |
 | Bowden Fitting                    | 7        | 3        |       |
 | 7X7 Drag chain                    | 1        |          |       |
 
@@ -203,10 +204,10 @@ I will print the relevent [Filament Sensor](https://github.com/EtteGit/EnragedRa
 
 I have purchased JST SM connectors instead of Microfit 3 (this doesnt matter for the Voron build) however, they need to be inserted into printed parts for the ERCF. This Mod allows the use of these connectors.
 
-https://github.com/EtteGit/EnragedRabbitProject/tree/main/usermods/JST-SM-Connectors
+[JST SM Connectors Mod](https://github.com/EtteGit/EnragedRabbitProject/tree/main/usermods/JST-SM-Connectors)
 
 ### Printable Chain
 
 The chain is smaller on the ERCF than the chain for the Voron build. I am not expecting to have any chain left over (especially as I am going to print Z chain) and rather than buying some more chain I will try printing it instead.
 
-https://github.com/EtteGit/EnragedRabbitProject/tree/main/usermods/Printable_drag_chain
+[Printable Chain](https://github.com/EtteGit/EnragedRabbitProject/tree/main/usermods/Printable_drag_chain)

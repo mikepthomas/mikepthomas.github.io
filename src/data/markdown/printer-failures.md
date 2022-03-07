@@ -1,6 +1,7 @@
 # 3D Printer Failures
 
-May 21, 2018 by [Mike Thomas](https://github.com/mikepthomas)
+May 21, 2018 by [Mike Thomas](https://github.com/mikepthomas),
+Updated March 7, 2022
 
 3D printing is not all plain sailing... sometimes things go wrong, the good thing about building your printer from scratch, is that you also know how to repair it.
 
@@ -11,13 +12,14 @@ May 21, 2018 by [Mike Thomas](https://github.com/mikepthomas)
 ## Table of contents
 
 1. [First Print](#first-print)
-1. [Cable Chain](#cable-chain)
-1. [Melted Part Fan Duct](#melted-part-fan-duct)
-1. [Broken Extruder Cooling Fan](#broken-extruder-cooling-fan)
-1. [Cable Chain Strikes Back](#cable-chain-strikes-back)
-1. [Heater Wire Wear](#heater-wire-wear)
-1. [Return of the Cable Chain](#return-of-the-cable-chain)
-1. [Worn Belt](#worn-belt)
+2. [Cable Chain](#cable-chain)
+3. [Melted Part Fan Duct](#melted-part-fan-duct)
+4. [Broken Extruder Cooling Fan](#broken-extruder-cooling-fan)
+5. [Cable Chain Strikes Back](#cable-chain-strikes-back)
+6. [Heater Wire Wear](#heater-wire-wear)
+7. [Return of the Cable Chain](#return-of-the-cable-chain)
+8. [Worn Belt](#worn-belt)
+9. [Bearing Failure](#bearing-failure)
 
 ## First Print
 
@@ -71,3 +73,9 @@ I replaced the melted [cable chain with a different design](printer-printed-upgr
 ![X Axis belt worn through](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-failures/worn-belt.jpg)
 
 When adding [belt tentioners to both the X and Y axes](printer-printed-upgrades.md#motion-upgrades) I realised that I cut the stock belts a little too short, so I had to [buy some new belt](https://www.amazon.co.uk/gp/product/B0719S15FN) It was rather cheap (£5.99 for 2 meters including two 20 tooth GT2 pulleys). I'm surprised it lasted about 2 and a half years and the Y axis belt is still going strong. I have replaced the X axis belt with a slightly higher quality cloth and rubber fiberglass reinforced one and have enough new belt to replace the Y axis belt, if/when it breaks.
+
+## Bearing Failure
+
+![Bearings Failed in cheap idlers](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-failures/bearing-failure.jpg)
+
+The X axis movements started to make a grinding noise, the cheap toothed idlers I purchased have ground their bearings to dust (I also checked the Y axis bearing, it however wasn't making any noise but has also ground the bearings away) I have put back the stock Anet A8 smooth bearings for now and ordered some higher quality toothed ones.

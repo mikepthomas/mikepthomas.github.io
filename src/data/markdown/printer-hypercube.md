@@ -81,7 +81,7 @@ The kit I purchased also comes with the extrusions to build the electronics case
 
 ## X Axis
 
-To start off with I will not be deviating too far from the Anet Evolution. I will be printing the Belt clamp with belt tensioners from that and [eventually plan to upgrade the toolhead in the future](#hotend)
+To start off with I will not be deviating too far from the Anet Evolution. I will be printing the Belt clamp with belt tensioners from that and [eventually plan to upgrade the toolhead in the future](printer-extruders-and-toolheads.md#anet-a8-bmg-direct-drive).
 
 | Item                                                                       | Quantity | Material                                                               | Size  | Weight | Cost  | Printed            |
 | -------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ----- | ------ | ----- | ------------------ |
@@ -184,15 +184,9 @@ The Anet Evolution comes with STLs to print a case to attach to the 2020 alumini
 
 I am not sure whether to use the clicky switches that the Anet Evolution provides mounts for or search for optical endstop mounts that will fit 8mm guide rods. I will work this out after the frame is assembled and the guide rods are mounted.
 
-### Hotend
-
-I have purchased parts to install the [ANET A8 E3DV6 BMG Direct Drive X Carriage](https://www.thingiverse.com/thing:3807114), the adapter plate should be a direct bolt on to the X Carriage of the Anet Evolution. This was chosen as the parts that are required for this are the exact same parts that are required to build the [Voron Afterburner](https://github.com/VoronDesign/Voron-Afterburner) toolhead which in turn has an upgrade path to the not yet released [Voron Stealthburner](https://vorondesign.com/voron_stealthburner) toolhead.
-
-There is also an adapter plate, [Hypercube Afterburner adapter intergration remix](https://www.thingiverse.com/thing:5156654) that may work to mount the Afterburner on the Hypercube guide rails.
-
 ### Heated Bed
 
-The Anet A8 uses 12V for it's power supply, all current Voron printers use mains powered heater mats, on a thick slab of aluminium controlled by a Solid State Relay. This allows the heated bed to heat up to temperature quicker and holds a greater thermal mass for longer.
+I am currently using a 12V power supply and the stock 12V Anet A8 heated bed. All current Voron printers use [mains powered silicone heater mat, attached to a Cast Aluminium Tooling Plate](printer-voron-1.8.md#print-bed) and controlled by a Solid State Relay. This allows the heated bed to heat up to temperature quicker and holds a greater thermal mass for longer.
 
 This upgrade will also increase the XY build volume from the stock Anet A8 build plate size of 220x220mm to 300x300mm.
 

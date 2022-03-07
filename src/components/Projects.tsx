@@ -119,6 +119,11 @@ const Projects = (props: Props) => {
                       </Link>
                     </li>
                     <li>
+                      <Link to="/projects/printer-extruders-and-toolheads">
+                        Extruders &amp; Toolheads
+                      </Link>
+                    </li>
+                    <li>
                       <Link to="/projects/printer-hypercube">
                         Hypercube CoreXY Upgrade
                       </Link>

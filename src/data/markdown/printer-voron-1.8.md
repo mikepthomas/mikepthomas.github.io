@@ -245,8 +245,8 @@ The lower A drive was the first time I have tried to print with ABS. The upper w
 | ------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----------------------------- | ---------------------- |
 | [tensioner_left](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/Front_Idlers/%5Ba%5D_tensioner_left.stl)   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: | This is a Trident Part |
 | [tensioner_right](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/Front_Idlers/%5Ba%5D_tensioner_right.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: | This is a Trident Part |
-| [front_idler_a](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/Front_Idlers/front_idler_a_x2.stl)          | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part |
-| [front_idler_b](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/Front_Idlers/front_idler_b_x2.stl)          | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Trident Part |
+| [front_idler_a](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/Front_Idlers/front_idler_a_x2.stl)          | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :white_check_mark:            | This is a Trident Part |
+| [front_idler_b](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/Front_Idlers/front_idler_b_x2.stl)          | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :white_check_mark:            | This is a Trident Part |
 
 ### Bed Frame
 
@@ -291,7 +291,7 @@ The X Axis was flipped on the Trident (linear rails are on the bottom of the ext
 | [xy_joint_right_lower](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_right_lower.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |                                         |
 | [xy_joint_right_upper](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_right_upper_generic_chain.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is the Generic Cable Chain Version |
 
-### Afterburner / Stealthburner
+### Afterburner/Stealthburner
 
 ![Afterburner](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/afterburner.jpg)
 
@@ -305,7 +305,7 @@ The X Axis was flipped on the Trident (linear rails are on the bottom of the ext
 | [x_carriage_frame_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/X_Carriage/x_carriage_frame_right_V1.8.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |       |
 | [x_carriage_pivot_block](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/X_Carriage/x_carriage_pivot_block.stl)      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: |       |
 
-In addition to the required Voron 1.8 parts above I will print either the parts in the [Voron Afterburner Repository](https://github.com/VoronDesign/Voron-Afterburner) or go directly to the [Stealthburner](https://vorondesign.com/voron_stealthburner) if it is released before I get to printing the toolhead (It is currently in Beta at the time of writing)
+In addition to the required Voron 1.8 parts above I will also need to [print the parts for the Afterburner/Stealthburner itself](printer-extruders-and-toolheads.md#voron-afterburner-stealthburner).
 
 ### Z Endstop
 

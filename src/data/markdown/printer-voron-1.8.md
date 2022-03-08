@@ -1,7 +1,7 @@
 # Upgrading the Hypercube to a Voron 1.8
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 7, 2022
+Updated March 8, 2022
 
 The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
@@ -29,7 +29,7 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | M5x10 BHCS                 | 71       | 104      |                                                                            |
 | M5 Hexnut                  | 8        | 19       |                                                                            |
 | M5 1mm Spacer              | 20       | 50       |                                                                            |
-| M5 T-nut                   | 83       | 30       | 100 on order                                                               |
+| M5 T-nut                   | 83       | 130      |                                                                            |
 | M4x6 BHCS                  | 4        |          | 20 on order                                                                |
 | M3x40 SHCS                 | 5        | 20       |                                                                            |
 | M3x30 SHCS                 | 25       | 30       |                                                                            |
@@ -40,8 +40,8 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | M3x6 BHCS                  | 20       | 30       |                                                                            |
 | M3 Hexnut                  | 7        | 50       |                                                                            |
 | M3 Washer                  | 10       | 50       |                                                                            |
-| M3 T-nut                   | 120      | 10       | 150 on order                                                               |
-| M3 Hammer Head T-nuts      | 54       | 10       | 100 on order                                                               |
+| M3 T-nut                   | 120      | 160      |                                                                            |
+| M3 Hammer Head T-nuts      | 54       | 99       |                                                                            |
 | M3 Threaded Insert         | 50       | 100      |                                                                            |
 | M3 Knurled Nut (DIN 466-B) | 3        | 5        |                                                                            |
 | M2x10 Self-Tapping Screw   | 7        | 53       |                                                                            |
@@ -80,7 +80,7 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | Item                                       | Quantity | Received | Notes                                                    |
 | ------------------------------------------ | -------- | -------- | -------------------------------------------------------- |
 | GT2 20T Pulley (5mm ID 6mm W)              | 3        | 2        | Ordered Complete Z endstop in place of 1 of these        |
-| GT2 20T Toothed Idler (5mm ID 6mm W)       | 2        | 2        |                                                          |
+| GT2 20T Toothed Idler (5mm ID 6mm W)       | 2        | 2        | 2 on order                                               |
 | F695 Bearing                               | 20       | 30       |                                                          |
 | LM8LUU Linear Bearing                      | 4        |          | 4 on order                                               |
 | TR8x8 Leadscrew Nut                        | 2        | 6        |                                                          |
@@ -100,7 +100,7 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | ----------------------------------------------------------- | -------- | -------- | ---------- |
 | 3M 468MP Adhesive Sheet - 12"x12"                           | 1        |          | 1 on order |
 | PEI 0.04" Sheet - 12"x12"                                   | 1        |          | 1 on order |
-| MIC6 5/16" Plate - 12"x12"                                  | 1        |          | 1 on order |
+| MIC6 5/16" Plate - 12"x12"                                  | 1        | 1        |            |
 | Keenovo Silicone AC Heater w/ thermistor - 250x250mm (450W) | 1        |          | 1 on order |
 
 ### Wires
@@ -124,7 +124,7 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 | MicroFit3 Connector Receptacle 2 Position | 5        | 20       |                                                                 |
 | MicroFit3 Female Pin                      | 40       | 200      |                                                                 |
 | MicroFit3 Male Pin                        | 40       | 200      |                                                                 |
-| 10x11 Cable Chain - 1m                    | 2        |          | 2 on order                                                      |
+| 10x11 Cable Chain - 1m                    | 2        | 2        |                                                                 |
 
 ### Electronics
 

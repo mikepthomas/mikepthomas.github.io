@@ -17,7 +17,7 @@ The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
 ## Sourcing Parts
 
-I have specifically chosen parts for the Hypercube that will lead up to re-building it into a Voron 1.8. Many of the parts on the [BOM from the configurator](https://www.vorondesign.com/voron1.8) I have already sourced and some I will replace with alternatives that I already have (see the notes columns for details).
+I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that will lead up to re-building it into a Voron 1.8. Many of the parts on the [BOM from the configurator](https://www.vorondesign.com/voron1.8) I have already sourced and some I will replace with alternatives that I already have (see the notes columns for details).
 
 ### Fasteners
 
@@ -194,7 +194,7 @@ I have specifically chosen parts for the Hypercube that will lead up to re-build
 
 ## Printing Parts
 
-All printed parts will be printed in eSun ABS+ (except for the ones required for the enclosure which will initially printed in PETG and once the enclosure is finished will be reprinted in ABS). The Voron team recommends an infill type of 40% of either Grid, Gyroid, Honeycomb, Triangle or Cubic. A layer height of 0.2mm and extrusion width of 0.4mm, with a wall count of 4 and top/bottom layers of 5.
+All printed parts will be printed in eSun ABS+. The Voron team recommends an infill type of 40% of either Grid, Gyroid, Honeycomb, Triangle or Cubic. A layer height of 0.2mm and extrusion width of 0.4mm, with a wall count of 4 and top/bottom layers of 5.
 
 ### Tools
 
@@ -436,18 +436,6 @@ The stock Exhaust filter has the bowden coupler coming out of the back. As I wil
 
 [Exhaust Housing Side Entry By 120decibell](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/120decibell/exhaust_housing_side_entry)
 
-### AB-BN
-
-Replaces the front of the Afterburner to allow fitting a larger part cooling fan.
-
-[AB-BN By Badnoob](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Badnoob/AB-BN)
-
-### Connector Cover
-
-Modification of the Afterburner cable cover to mount to the LDO pancake stepper motor that I am using.
-
-[Connector Cover By buzzdalf](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/buzzdalf/connector_cover)
-
 ### Smart Filament Sensor Mount
 
 Mount for the BigTreeTech Smart filment sensor that I already have.
@@ -480,7 +468,7 @@ A Fan cover that has an integrated Voron logo.
 
 ### Cable Management Duct
 
-A cable management duct to tidy up the wiring in the electroics case.
+A cable management duct to tidy up the wiring in the electronics case.
 
 [Cable Management Duct By ryandam](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/ryandam/Cable_management_duct)
 

@@ -1,6 +1,7 @@
 # Extruders and Toolheads
 
-Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas)
+Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
+Updated March 8, 2022
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -77,6 +78,51 @@ When I have upgraded to the Afterburner, I will reuse the parts for the M4 for t
 
 ## Voron Afterburner/Stealthburner
 
-I will print either the parts in the [Voron Afterburner Repository](https://github.com/VoronDesign/Voron-Afterburner) or go directly to the [Stealthburner](https://vorondesign.com/voron_stealthburner) if it is released before I get to printing the toolhead (It is currently in Beta at the time of writing).
+I have opted to build the Beta version of the [Stealthburner](https://vorondesign.com/voron_stealthburner) toolhead, but using the original Afterburner extruder, the Clockwork 1. There are a number of reasons for deciding this:
+
+1. I was planning on adding the [AB-BN By Badnoob](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Badnoob/AB-BN) for a larger cooling fan, this was integrated into the design of the Stealthburner.
+2. I want to add the filament sensor for the [Enraged Rabbit Carrot Feeder](printer-enraged-rabbit-carrot-feeder.md) which is not currently compatible with Clockwork 2.
+3. I want to add the [ERCF Afterburner Toolhead PCB](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB) which is also not currently compatible with Clockwork 2.
+4. The Stealthburner has an integrated mount for an [ADXL345 for Klipper Input Shaper](https://www.klipper3d.org/Measuring_Resonances.html).
+5. The Stealthburner also integrates some cool RGB LEDs (and who doesn't like a bit of RGB?).
+
+As the Stealthburner is still in beta, some of the links below may not work. I will print the parts for the Clockwork Extruder first as they are less likely to be updated and will print the Stealthburner parts last to ensure I get the latest updates.
 
 There is also an adapter plate, [Hypercube Afterburner adapter intergration remix](https://www.thingiverse.com/thing:5156654) that may work to mount the Afterburner on the Anet A8 guide rails.
+
+### Clockwork
+
+| Item                                                                                                                                                               | Quantity | Material                                                | Printed                       | Notes                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----------------------------- | --------------------------------------------------------------------------------- |
+| [connector_cover](https://github.com/craxoor/VoronMods/blob/master/PCB%20Cover/STL/Afterburner-PCBCover-AirVents.stl)                                              | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: | This a User Mod for the ERCF Toolhead PCB (It may not fit with the Stealthburner) |
+| [guidler](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/%5Ba%5D_guidler.stl)                                                       | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: |                                                                                   |
+| [ERCF_Sensor_Latch](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/%5Ba%5D_AB_ERCF_Sensor_Latch.stl)                            | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: | ERCF Filament Sensor Part                                                         |
+| [latch_shuttle](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/%5Ba%5D_latch_shuttle.stl)                                           | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: |                                                                                   |
+| [chain_anchor](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/chain_anchor_3hole.stl)                                               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is the Generic Cable Chain Version                                           |
+| [ERCF_Sensor_Extruder_Body](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/AB_ERCF_Sensor_Extruder_Body.stl)                    | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | ERCF Filament Sensor Part                                                         |
+| [ERCF_Sensor_Cable_Cover](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/%5Ba%5D_AB_ERCF_Sensor_Cable_Cover.stl)                | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: | ERCF Filament Sensor Part                                                         |
+| [extruder_motor_plate_for_pcb](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/extruder_motor_plate_for_pcb.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | Afterburner Toolhead PCB Part                                                     |
+| [pcb_spacer](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/pcb_spacer.stl)                                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :negative_squared_cross_mark: | Afterburner Toolhead PCB Part                                                     |
+
+### Stealthburner
+
+| Item                                                                                                                                                          | Quantity | Material                                                         | Printed                       | Notes               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------- | ----------------------------- | ------------------- |
+| [main_body_beta5](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Ba%5D_stealthburner_main_body_beta5.stl)                 | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)              | :negative_squared_cross_mark: | This is a Beta Part |
+| [LED_diffuser-beta3](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Bc%5D_stealthburner_LED_diffuser-beta3.stl)           | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) | :negative_squared_cross_mark: | This is a Beta Part |
+| [LED_carrier-beta2](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_carrier-beta2.stl)             | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :negative_squared_cross_mark: | This is a Beta Part |
+| [LED_diffuser-mask-beta1](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_diffuser-mask-beta1.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :negative_squared_cross_mark: | This is a Beta Part |
+
+### ADXL345 Mount
+
+| Item                                                                                                                                                                  | Quantity | Material                                                | Printed                       | Notes                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----------------------------- | ------------------------------------------------- |
+| [adxl_mount_ldo_15mm_c-c-beta2](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/ADXL345_Mounts/sb_adxl_mount_ldo_15mm_c-c-beta2.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Beta Part. Spacing on my sensor is 15mm |
+| [adxl_washer_x2-beta0](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/ADXL345_Mounts/sb_adxl_washer_x2-beta0.stl)                   | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Beta Part                               |
+
+### V6 Toolhead
+
+| Item                                                                                                                                                                                               | Quantity | Material                                                | Printed                       | Notes                                   |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----------------------------- | --------------------------------------- |
+| [toolhead\_(v6_r6)-front-beta3](<https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/Toolheads/revo_six_%26_v6/stealthburner_toolhead_(v6_r6)-front-beta3.stl>)       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Beta Part                     |
+| [toolhead\_(v6_r6)-rear-cw1-beta4](<https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/Toolheads/revo_six_%26_v6/stealthburner_toolhead_(v6_r6)-rear-cw1-beta4.stl>) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :negative_squared_cross_mark: | This is a Beta Part for the Clockwork 1 |

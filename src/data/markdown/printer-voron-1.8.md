@@ -1,7 +1,7 @@
 # Upgrading the Hypercube to a Voron 1.8
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 9, 2022
+Updated March 10, 2022
 
 The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
@@ -55,7 +55,7 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 
 | Item                                     | Quantity | Received | Notes                                                                                                                               |
 | ---------------------------------------- | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| DIN 3 Rails (35mm W) - 420mm             | 3        | 2        | 1 on order, BOM only specifies 2 but manual has 3                                                                                   |
+| DIN 3 Rails (35mm W) - 420mm             | 3        | 3        | BOM only specifies 2 but manual has 3                                                                                               |
 | Misumi HFSB5-2020-290                    | 1        | 1        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
 | Misumi HFSB5-2020-420-TPW                | 10       | 10       | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
 | Misumi HFSB5-2020-420                    | 1        | 1        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
@@ -79,14 +79,14 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 
 | Item                                       | Quantity | Received | Notes                                                    |
 | ------------------------------------------ | -------- | -------- | -------------------------------------------------------- |
-| GT2 20T Pulley (5mm ID 6mm W)              | 3        | 2        | Ordered Complete Z endstop in place of 1 of these        |
+| GT2 20T Pulley (5mm ID 6mm W)              | 3        | 3        |                                                          |
 | GT2 20T Toothed Idler (5mm ID 6mm W)       | 2        | 2        | 2 on order                                               |
 | F695 Bearing                               | 20       | 30       |                                                          |
 | LM8LUU Linear Bearing                      | 4        |          | 4 on order                                               |
 | TR8x8 Leadscrew Nut                        | 2        | 6        |                                                          |
-| 5x30mm Shaft                               | 1        |          | Ordered Complete Z endstop in place of this              |
+| 5x30mm Shaft                               | 1        | 1        |                                                          |
 | BMG Extruder Components Kit                | 1        | 2        |                                                          |
-| Linear Rail MGN9H 350mm                    | 4        |          | 4 on order                                               |
+| Linear Rail MGN9H 350mm                    | 4        | 4        |                                                          |
 | Linear Shaft 8x320mm                       | 4        | 4        | Ordered 500mm Carbon Fiber ones that I can cut to length |
 | GT2 Open Belt LL-2GT-6 (6mm wide) - 1890mm | 2        | 4        | I have about 10 meters left                              |
 
@@ -142,13 +142,13 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 | 40x40x10 Axial Fan (24V)           | 1        | 2        | Using 12V version as I am using 12V Power supply                                                                                                      |
 | Mini 12864 Display                 | 1        | 1        |                                                                                                                                                       |
 | Inlet Power Socket IEC320 C14      | 1        |          | 1 on order                                                                                                                                            |
-| Keystone CAT6 Insert (Optional)    | 1        |          | Ordered 1 Ethernet and 1 USB                                                                                                                          |
+| Keystone CAT6 Insert (Optional)    | 1        | 2        | 1 Ethernet and 1 USB                                                                                                                                  |
 | 60x60x20 Fan (24V)                 | 2        | 1        | Using 12V versions as I am using 12V Power supply                                                                                                     |
 | SKR 1.4                            | 1        | 1        | I have the Turbo version                                                                                                                              |
 | TMC2209 Stepper Motor Driver       | 5        | 5        |                                                                                                                                                       |
 | USB Cable A-male B-male            | 1        | 1        |                                                                                                                                                       |
 | Raspberry Pi 4                     | 1        |          | Using Raspberry Pi 3B+ Instead as I already have one                                                                                                  |
-| Mean Well LRS-200-24 PSU           | 1        |          | Using Upgraded 30A Power Supply from my Anet A8                                                                                                       |
+| Mean Well LRS-200-24 PSU           | 1        |          | Using Original 12V 20A Power Supply from my Anet A8                                                                                                   |
 | Mean Well RS-25-5 PSU              | 1        |          | Using [UBEC](<https://www.banggood.com/Hobbywing-5V-or-6V-3A-Switch-Mode-Ultimate-BEC-(UBEC)-p-908018.html>) or separate mains Micro USB power supply |
 | Omron G3A-210B-DC5 SSR             | 1        | 1        |                                                                                                                                                       |
 | DIN Rail Mount Bracket for G3A SSR | 1        |          | 1 on order                                                                                                                                            |
@@ -309,10 +309,10 @@ In addition to the required Voron 1.8 parts above I will also need to [print the
 
 ### Z Endstop
 
-| Item                                                                                                                                          | Quantity | Material                                                | Printed | Notes                                   |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | --------------------------------------- |
-| [z_endstop_pcb_bottom](https://github.com/VoronDesign/Voron-Hardware/blob/master/Microswitch_Z_Endstop/STLs/%5Ba%5D_z_endstop_pcb_bottom.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Ordered complete Z Endstop kit with PCB |
-| [z_endstop_pcb_top](https://github.com/VoronDesign/Voron-Hardware/blob/master/Microswitch_Z_Endstop/STLs/z_endstop_pcb_top.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Ordered complete Z Endstop kit with PCB |
+| Item                                                                                                                                          | Quantity | Material                                                |      Printed       | Notes                           |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ------------------------------- |
+| [z_endstop_pcb_bottom](https://github.com/VoronDesign/Voron-Hardware/blob/master/Microswitch_Z_Endstop/STLs/%5Ba%5D_z_endstop_pcb_bottom.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | Version for Hartk Z Endstop PCB |
+| [z_endstop_pcb_top](https://github.com/VoronDesign/Voron-Hardware/blob/master/Microswitch_Z_Endstop/STLs/z_endstop_pcb_top.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | Version for Hartk Z Endstop PCB |
 
 ### Bottom Skirts
 
@@ -320,13 +320,13 @@ In addition to the required Voron 1.8 parts above I will also need to [print the
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-| Item                                                                                                                            | Quantity | Material                                                | Printed | Notes                  |
-| ------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ---------------------- |
-| [keystone_blank_insert](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Skirt/%5Ba%5D_keystone_blank_insert_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part |
-| [skirt_300_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_left_x3.stl)                 | 3        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                        |
-| [skirt_300_power](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_power.stl)                  | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                        |
-| [skirt_300_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_right_x4.stl)               | 4        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                        |
-| [skirt_middle](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_middle_x3.stl)                     | 3        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                        |
+| Item                                                                                                                            | Quantity | Material                                                | Printed | Notes                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----------------------------------------------------------------------- |
+| [keystone_blank_insert](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Skirt/%5Ba%5D_keystone_blank_insert_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part. Not required as I am using both keystone spaces |
+| [skirt_300_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_left_x3.stl)                 | 3        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                                                                         |
+| [skirt_300_power](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_power.stl)                  | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                                                                         |
+| [skirt_300_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_right_x4.stl)               | 4        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                                                                         |
+| [skirt_middle](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_middle_x3.stl)                     | 3        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                                                                         |
 
 #### Display Module
 

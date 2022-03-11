@@ -1,7 +1,7 @@
 # Upgrading the Hypercube to a Voron 1.8
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 10, 2022
+Updated March 11, 2022
 
 The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
@@ -135,13 +135,13 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 | Item                               | Quantity | Received | Notes                                                                                                                                                 |
 | ---------------------------------- | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | NEMA17 Motor 17HS19-2004S          | 2        | 2        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit)                               |
-| SPDT KW10 Limit Micro Switch       | 3        |          | 10 on order                                                                                                                                           |
+| SPDT KW10 Limit Micro Switch       | 3        | 30       |                                                                                                                                                       |
 | PL-08N Inductive Probe             | 1        | 1        | Using Tronxy XY-08N                                                                                                                                   |
 | E3D V6 Bowden Hotend Kit (24V)     | 1        | 1        | Using 12V version as I am using 12V Power supply                                                                                                      |
 | 40x40x20 Centrifugal Fan (24V)     | 1        | 1        | Using 12V version as I am using 12V Power supply                                                                                                      |
 | 40x40x10 Axial Fan (24V)           | 1        | 2        | Using 12V version as I am using 12V Power supply                                                                                                      |
 | Mini 12864 Display                 | 1        | 1        |                                                                                                                                                       |
-| Inlet Power Socket IEC320 C14      | 1        |          | 1 on order                                                                                                                                            |
+| Inlet Power Socket IEC320 C14      | 1        | 1        |                                                                                                                                                       |
 | Keystone CAT6 Insert (Optional)    | 1        | 2        | 1 Ethernet and 1 USB                                                                                                                                  |
 | 60x60x20 Fan (24V)                 | 2        | 1        | Using 12V versions as I am using 12V Power supply                                                                                                     |
 | SKR 1.4                            | 1        | 1        | I have the Turbo version                                                                                                                              |

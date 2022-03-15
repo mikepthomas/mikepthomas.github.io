@@ -1,7 +1,7 @@
 # Upgrading the Hypercube to a Voron 1.8
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 11, 2022
+Updated March 15, 2022
 
 The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
@@ -45,7 +45,7 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 | M3 Threaded Insert         | 50       | 100      |                                                                            |
 | M3 Knurled Nut (DIN 466-B) | 3        | 5        |                                                                            |
 | M2x10 Self-Tapping Screw   | 7        | 53       |                                                                            |
-| Yellow Die Spring - M3     | 1        | 6        | Have some bed springs left over from Anet A8 Build                         |
+| Yellow Die Spring - M3     | 1        |          | 5 on order                                                                 |
 
 ### Frame
 
@@ -132,31 +132,31 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-| Item                               | Quantity | Received | Notes                                                                                                                                                 |
-| ---------------------------------- | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| NEMA17 Motor 17HS19-2004S          | 2        | 2        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit)                               |
-| SPDT KW10 Limit Micro Switch       | 3        | 30       |                                                                                                                                                       |
-| PL-08N Inductive Probe             | 1        | 1        | Using Tronxy XY-08N                                                                                                                                   |
-| E3D V6 Bowden Hotend Kit (24V)     | 1        | 1        | Using 12V version as I am using 12V Power supply                                                                                                      |
-| 40x40x20 Centrifugal Fan (24V)     | 1        | 1        | Using 12V version as I am using 12V Power supply                                                                                                      |
-| 40x40x10 Axial Fan (24V)           | 1        | 2        | Using 12V version as I am using 12V Power supply                                                                                                      |
-| Mini 12864 Display                 | 1        | 1        |                                                                                                                                                       |
-| Inlet Power Socket IEC320 C14      | 1        | 1        |                                                                                                                                                       |
-| Keystone CAT6 Insert (Optional)    | 1        | 2        | 1 Ethernet and 1 USB                                                                                                                                  |
-| 60x60x20 Fan (24V)                 | 2        | 1        | Using 12V versions as I am using 12V Power supply                                                                                                     |
-| SKR 1.4                            | 1        | 1        | I have the Turbo version                                                                                                                              |
-| TMC2209 Stepper Motor Driver       | 5        | 5        |                                                                                                                                                       |
-| USB Cable A-male B-male            | 1        | 1        |                                                                                                                                                       |
-| Raspberry Pi 4                     | 1        |          | Using Raspberry Pi 3B+ Instead as I already have one                                                                                                  |
-| Mean Well LRS-200-24 PSU           | 1        |          | Using Original 12V 20A Power Supply from my Anet A8                                                                                                   |
-| Mean Well RS-25-5 PSU              | 1        |          | Using [UBEC](<https://www.banggood.com/Hobbywing-5V-or-6V-3A-Switch-Mode-Ultimate-BEC-(UBEC)-p-908018.html>) or separate mains Micro USB power supply |
-| Omron G3A-210B-DC5 SSR             | 1        | 1        |                                                                                                                                                       |
-| DIN Rail Mount Bracket for G3A SSR | 1        |          | 1 on order                                                                                                                                            |
-| BAT85 Diode                        | 1        | 7        | My Tronxy XY-08N seems to work fine on SKR 1.4 Turbo using endstop pins                                                                               |
-| C13 Power Cord                     | 1        | 3        |                                                                                                                                                       |
-| Thermal Fuse (120C)                | 1        |          | 5 on order                                                                                                                                            |
-| NEMA17 Motor 17HS08-1004S          | 1        | 1        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit)                               |
-| NEMA17 TR8x8 300mm Linear Stepper  | 2        | 2        | In [LDO V1 Z Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-v1-z-motor-kit)                                                   |
+| Item                               | Quantity | Received | Notes                                                                                                                   |
+| ---------------------------------- | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------- |
+| NEMA17 Motor 17HS19-2004S          | 2        | 2        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit) |
+| SPDT KW10 Limit Micro Switch       | 3        | 30       |                                                                                                                         |
+| PL-08N Inductive Probe             | 1        | 1        | Using Tronxy XY-08N. Going to replace with [Klicky Probe](#klicky-probe)                                                |
+| E3D V6 Bowden Hotend Kit (24V)     | 1        |          | 1 on order                                                                                                              |
+| 40x40x20 Centrifugal Fan (24V)     | 1        |          | 1 on order                                                                                                              |
+| 40x40x10 Axial Fan (24V)           | 1        |          | 1 on order                                                                                                              |
+| Mini 12864 Display                 | 1        | 1        |                                                                                                                         |
+| Inlet Power Socket IEC320 C14      | 1        | 1        |                                                                                                                         |
+| Keystone CAT6 Insert (Optional)    | 1        | 2        | 1 Ethernet and 1 USB                                                                                                    |
+| 60x60x20 Fan (24V)                 | 2        |          | 2 on order                                                                                                              |
+| SKR 1.4                            | 1        | 1        | I have the Turbo version                                                                                                |
+| TMC2209 Stepper Motor Driver       | 5        | 5        |                                                                                                                         |
+| USB Cable A-male B-male            | 1        | 1        |                                                                                                                         |
+| Raspberry Pi 4                     | 1        |          | Using Raspberry Pi 3B+ Instead as I already have one                                                                    |
+| Mean Well LRS-200-24 PSU           | 1        |          | 1 on order                                                                                                              |
+| Mean Well RS-25-5 PSU              | 1        |          | 1 on order                                                                                                              |
+| Omron G3A-210B-DC5 SSR             | 1        | 1        |                                                                                                                         |
+| DIN Rail Mount Bracket for G3A SSR | 1        |          | 1 on order                                                                                                              |
+| BAT85 Diode                        | 1        | 7        | My Tronxy XY-08N seems to work fine on SKR 1.4 Turbo using endstop pins                                                 |
+| C13 Power Cord                     | 1        | 3        |                                                                                                                         |
+| Thermal Fuse (120C)                | 1        |          | 5 on order                                                                                                              |
+| NEMA17 Motor 17HS08-1004S          | 1        | 1        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit) |
+| NEMA17 TR8x8 300mm Linear Stepper  | 2        | 2        | In [LDO V1 Z Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-v1-z-motor-kit)                     |
 
 ### Panels
 
@@ -266,12 +266,12 @@ The lower A drive was the first time I have tried to print with ABS. The upper w
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-| Item                                                                                                                        | Quantity | Material                                                | Printed | Notes                                                                             |
-| --------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | --------------------------------------------------------------------------------- |
-| [leadscrew_block](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/%5Ba%5D_leadscrew_block_x2.stl)             | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                                                                                   |
-| [z_shaft_retainer](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/%5Ba%5D_z_shaft_retainer_x8.stl)           | 8        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                                                   |
-| [z_motor_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_motor_mount_x2.stl)                         | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                                                                                   |
-| [z_cable_chain_mount](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Z_Assembly/z_cable_chain_mount_3hole.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   | This is a Trident Part. Will need to [print ends for the chain](#printable-chain) |
+| Item                                                                                                                        | Quantity | Material                                                |      Printed       | Notes                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | --------------------------------------------------------------------------------- |
+| [leadscrew_block](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/%5Ba%5D_leadscrew_block_x2.stl)             | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         |                                                                                   |
+| [z_shaft_retainer](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/%5Ba%5D_z_shaft_retainer_x8.stl)           | 8        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                                                                   |
+| [z_motor_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_motor_mount_x2.stl)                         | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         |                                                                                   |
+| [z_cable_chain_mount](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Z_Assembly/z_cable_chain_mount_3hole.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Trident Part. Will need to [print ends for the chain](#printable-chain) |
 
 ### X Axis
 
@@ -344,13 +344,13 @@ In addition to the required Voron 1.8 parts above I will also need to [print the
 
 #### Bottom Electronics Mounting
 
-| Item                                                                                                                                               | Quantity | Material                                                | Printed | Notes                                                             |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----------------------------------------------------------------- |
-| [DIN_center_support](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/DIN_center_support_x2.stl)                         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part                                            |
-| [DIN_frame_mount](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/DIN_frame_mount_x4.stl)                               | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part                                            |
-| [psu_brace](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Bottom_Electronics_Mounting/psu_brace.stl)              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                                   |
-| [psu_mount_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Bottom_Electronics_Mounting/psu_mount_clip_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                                   |
-| [rs25_psu_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/rs25_psu_bracket.stl)                                | 1        |                                                         |   :x:   | This is a Trident Part. Not required as not using 5V power supply |
+| Item                                                                                                                                               | Quantity | Material                                                | Printed | Notes                  |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ---------------------- |
+| [DIN_center_support](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/DIN_center_support_x2.stl)                         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part |
+| [DIN_frame_mount](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/DIN_frame_mount_x4.stl)                               | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part |
+| [psu_brace](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Bottom_Electronics_Mounting/psu_brace.stl)              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                        |
+| [psu_mount_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Bottom_Electronics_Mounting/psu_mount_clip_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                        |
+| [rs25_psu_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/rs25_psu_bracket.stl)                                | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part |
 
 #### Rear Electronics Compartment
 
@@ -373,8 +373,8 @@ In addition to the required Voron 1.8 parts above I will also need to [print the
 | [din_bracket_base](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/din_bracket_base_x4.stl)              | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         |                                                                                                                      |
 | [din_bracket_clamp](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/din_bracket_clamp_x4.stl)            | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         |                                                                                                                      |
 | [lock_body](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/lock_body_x2.stl)                            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         |                                                                                                                      |
-| [panel_holder](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/panel_holder_x2.stl)                      | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         |                                                                                                                      |
-| [pcb_din_clip_v2](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_v2_x5.stl)                                               | 5        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         | 2 for SKR, 1 for Raspberry Pi and 2 for Mosfets (need to design mosfet holder brackets)                              |
+| [panel_holder](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/panel_holder_x2.stl)                      | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         | Will replace these with front_panel_rest                                                                             |
+| [pcb_din_clip_v2](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_v2_x5.stl)                                               | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         | 2 for SKR, 1 for Raspberry Pi and 1 for Hotend Mosfet (need to design mosfet holder bracket)                         |
 | [raspberrypi_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/raspberrypi_bracket.stl)                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         | This is a Trident Part                                                                                               |
 | [SKR_bracket_inline_2pc](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/SKR_bracket_inline_2pc.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         | This is a Trident Part                                                                                               |
 | [wire_corner_left](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/wire_corner_left.stl)                                                        | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Trident Part                                                                                               |
@@ -406,7 +406,7 @@ In addition to the required Voron 1.8 parts above I will also need to [print the
 | [corner_panel_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/corner_panel_clip_3mm_x12.stl)                                         | 14       | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   | These are 3mm versions, 4mm versions are available in Trident repo      |
 | [deck_support_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/deck_support_clip_x6.stl)                                              | 6        |                                                         |   :x:   | Will replace with [Deck Panel Support Clips](#deck-panel-support-clips) |
 | [midspan_panel_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/midspan_panel_clip_3mm_x12.stl)                                       | 14       | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   | These are 3mm versions, 4mm versions are available in Trident repo      |
-| [front_panel_rest](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Panel_Mounting/Handles_Panel_Rests_Misc/front_panel_rest_3%2B6mm_x2_Rev1.STL) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | For Voron 2.2 but I'm going to add to mine                              |
+| [front_panel_rest](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Panel_Mounting/Handles_Panel_Rests_Misc/front_panel_rest_3%2B6mm_x2_Rev1.STL) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | For Voron 2.2. Will swap out panel_holder for these at rear of printer  |
 | [handle](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Panel_Mounting/Handles_Panel_Rests_Misc/handle_3mm_x2_Rev1.stl)                         | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | For Voron 2.2 Will replace with [Sturdy Handles](#sturdy-handles)       |
 
 #### Front Doors

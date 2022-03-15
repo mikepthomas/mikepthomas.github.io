@@ -1,7 +1,7 @@
 # Building an Enraged Rabbit Carrot Feeder
 
 Febuary 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 7, 2022
+Updated March 15, 2022
 
 Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRabbitProject) to print using multiple colours of filament on the Voron.
 
@@ -19,26 +19,26 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Electronics
 
-| Item                                        | Quantity | Received | Notes |
-| ------------------------------------------- | -------- | -------- | ----- |
-| NEMA14 Motor 14HS11-1004S                   | 1        |          |       |
-| NEMA17 Motor 17HS08-1004S                   | 1        |          |       |
-| towerpro MG90S servo                        | 1        | 1        |       |
-| Stepper drivers (any, but TMC2209 are nice) | 2        |          |       |
-| TCRT5000 sensor pcb                         | 1        |          |       |
-| Omron Mouse Button - Micro Switch           | 1        | 7        |       |
+| Item                                        | Quantity | Received | Notes      |
+| ------------------------------------------- | -------- | -------- | ---------- |
+| NEMA14 Motor 14HS11-1004S                   | 1        |          | 1 on order |
+| NEMA17 Motor 17HS08-1004S                   | 1        |          | 1 on order |
+| towerpro MG90S servo                        | 1        | 1        |            |
+| Stepper drivers (any, but TMC2209 are nice) | 2        |          | 2 on order |
+| TCRT5000 sensor pcb                         | 1        |          | 1 on order |
+| Omron Mouse Button - Micro Switch           | 1        | 7        |            |
 
 ### Hardware
 
 | Item                          | Quantity | Received | Notes                                   |
 | ----------------------------- | -------- | -------- | --------------------------------------- |
-| 6 sets of bondtechs gears     | 7        | 2        |                                         |
+| 7 sets of bondtechs gears     | 7        | 2        | 7 on order                              |
 | LM8UU bearings or RJ4JP-01-08 | 2        | 8        |                                         |
-| M5 threaded rods              | 2        |          |                                         |
+| M5 threaded rods              | 2        |          | 2 on order                              |
 | 8mm smooth rods               | 2        | 2        | Will use offcuts from Carbon Fiber Rods |
-| D-cut 5mm shaft               | 1        |          |                                         |
-| MR623ZZ bearing               | 1        |          |                                         |
-| MR85ZZ bearings               | 5        |          |                                         |
+| D-cut 5mm shaft               | 1        |          | 1 on order                              |
+| MR623ZZ bearing               | 1        |          | 1 on order                              |
+| MR85ZZ bearings               | 5        |          | 5 on order                              |
 
 ### Fasteners
 
@@ -46,18 +46,18 @@ I have some of the parts required left over from the build of the [Voron](printe
 | ------------------------------------------- | -------- | -------- | ----------- |
 | M3 threaded inserts                         | 26       | 50       |             |
 | M5x30 BHCS                                  | 2        | 15       |             |
-| M5x16 BHCS                                  | 1        |          |             |
+| M5x16 BHCS                                  | 1        | 3        |             |
 | M5 nuts                                     | 4        | 11       |             |
-| M5 nylock nuts                              | 5        |          |             |
+| M5 nylock nuts                              | 5        |          | 5 on order  |
 | M5 washers                                  | 2        | 30       |             |
 | M3x8 SHCS                                   | 20       | 11       |             |
-| M3x8 BHCS                                   | 5        |          |             |
+| M3x8 BHCS                                   | 5        | 20       |             |
 | M3x12 SHCS                                  | 3        |          | 50 on order |
 | M3x16 SHCS                                  | 10       | 13       |             |
 | M3x20 SHCS                                  | 7        | 20       |             |
 | M3x40 SHCS                                  | 2        | 15       |             |
 | M3 washers (could also be the DIN125 below) | 2        | 40       |             |
-| M3 DIN125 Steel Washer                      | 6        |          |             |
+| M3 DIN125 Steel Washer                      | 6        |          | 6 on order  |
 | M2x8 SHCS or M2x10 SHCS                     | 2        | 46       |             |
 
 ### Motion
@@ -71,12 +71,12 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Misc
 
-| Item                              | Quantity | Received | Notes |
-| --------------------------------- | -------- | -------- | ----- |
-| 6mm x 3mm Round Neodymium Magnets | 22       | 42       |       |
-| Bowden Clip                       | 7        | 3        |       |
-| Bowden Fitting                    | 7        | 3        |       |
-| 7X7 Drag chain                    | 1        |          |       |
+| Item                              | Quantity | Received | Notes      |
+| --------------------------------- | -------- | -------- | ---------- |
+| 6mm x 3mm Round Neodymium Magnets | 22       | 42       |            |
+| Bowden Clip                       | 7        | 3        | 7 on order |
+| Bowden Fitting                    | 7        | 3        | 7 on order |
+| 7X7 Drag chain                    | 1        |          | 1 on order |
 
 ### Cables
 
@@ -91,14 +91,14 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Toolhead Sensor
 
-| Item                                 | Quantity | Received | Notes |
-| ------------------------------------ | -------- | -------- | ----- |
-| AH3364Q-P-B Hall Effect sensor (SIP) | 1        |          |       |
-| M3 DIN125 Steel Washer               | 1        |          |       |
-| 6mm x 3mm Round Neodymium Magnets    | 1        | 20       |       |
-| M3x8 SHCS                            | 1        |          |       |
-| M3x12 SHCS                           | 1        |          |       |
-| JST XH 3 pins male connector         | 1        | 16       |       |
+| Item                                 | Quantity | Received | Notes       |
+| ------------------------------------ | -------- | -------- | ----------- |
+| AH3364Q-P-B Hall Effect sensor (SIP) | 1        |          | 1 on order  |
+| M3 DIN125 Steel Washer               | 1        |          | 1 on order  |
+| 6mm x 3mm Round Neodymium Magnets    | 1        | 20       |             |
+| M3x8 SHCS                            | 1        | 1        |             |
+| M3x12 SHCS                           | 1        |          | 50 on order |
+| JST XH 3 pins male connector         | 1        | 16       |             |
 
 ## Printing Parts
 

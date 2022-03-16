@@ -137,6 +137,11 @@ const Projects = (props: Props) => {
                           </Link>
                         </li>
                         <li>
+                          <Link to="/projects/printer-nevermore-filter">
+                            Nevermore Micro V5 Duo
+                          </Link>
+                        </li>
+                        <li>
                           <Link to="/projects/printer-enraged-rabbit-carrot-feeder">
                             Enraged Rabbit Carrot Feeder
                           </Link>

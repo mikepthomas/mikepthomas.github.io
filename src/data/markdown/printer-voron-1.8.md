@@ -105,26 +105,26 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 
 ### Wires
 
-| Item                                      | Quantity | Received | Notes                                                           |
-| ----------------------------------------- | -------- | -------- | --------------------------------------------------------------- |
-| Nylon Cable Ties 4"                       | 40       |          | I have a random assortment but will probably need to order more |
-| 1/2" Braided Cable Sheathing (ft)         | 5        |          | Using the stock Anet A8 spiral plastic wrap                     |
-| 20AWG Silicone Cable (ft)                 | 10       |          | I have some 18AWG wire left for low voltage power cables        |
-| 24AWG Silicone Cable (ft)                 | 100      | 177      | in various colours                                              |
-| Spade Crimp Terminal 4.8mm Female         | 10       | 20       |                                                                 |
-| JST XH Connector Plug 4 Position          | 5        | 20       |                                                                 |
-| JST XH Connector Plug 3 Position          | 4        | 20       |                                                                 |
-| JST XH Connector Plug 2 Position          | 2        | 20       |                                                                 |
-| JST XH Female Pin                         | 40       | 200      |                                                                 |
-| MicroFit3 Connector Plug 4 Position       | 2        | 20       |                                                                 |
-| MicroFit3 Connector Plug 3 Position       | 1        | 20       |                                                                 |
-| MicroFit3 Connector Plug 2 Position       | 5        | 20       |                                                                 |
-| MicroFit3 Connector Receptacle 4 Position | 2        | 20       |                                                                 |
-| MicroFit3 Connector Receptacle 3 Position | 1        | 20       |                                                                 |
-| MicroFit3 Connector Receptacle 2 Position | 5        | 20       |                                                                 |
-| MicroFit3 Female Pin                      | 40       | 200      |                                                                 |
-| MicroFit3 Male Pin                        | 40       | 200      |                                                                 |
-| 10x11 Cable Chain - 1m                    | 2        | 2        |                                                                 |
+| Item                                      | Quantity | Received | Notes                                       |
+| ----------------------------------------- | -------- | -------- | ------------------------------------------- |
+| Nylon Cable Ties 4"                       | 40       |          | 100 on order                                |
+| 1/2" Braided Cable Sheathing (ft)         | 5        |          | Using the stock Anet A8 spiral plastic wrap |
+| 20AWG Silicone Cable (ft)                 | 10       |          | 138 on order in various colours             |
+| 24AWG Silicone Cable (ft)                 | 100      | 177      | in various colours                          |
+| Spade Crimp Terminal 4.8mm Female         | 10       | 20       |                                             |
+| JST XH Connector Plug 4 Position          | 5        | 20       |                                             |
+| JST XH Connector Plug 3 Position          | 4        | 20       |                                             |
+| JST XH Connector Plug 2 Position          | 2        | 20       |                                             |
+| JST XH Female Pin                         | 40       | 200      |                                             |
+| MicroFit3 Connector Plug 4 Position       | 2        | 20       |                                             |
+| MicroFit3 Connector Plug 3 Position       | 1        | 20       |                                             |
+| MicroFit3 Connector Plug 2 Position       | 5        | 20       |                                             |
+| MicroFit3 Connector Receptacle 4 Position | 2        | 20       |                                             |
+| MicroFit3 Connector Receptacle 3 Position | 1        | 20       |                                             |
+| MicroFit3 Connector Receptacle 2 Position | 5        | 20       |                                             |
+| MicroFit3 Female Pin                      | 40       | 200      |                                             |
+| MicroFit3 Male Pin                        | 40       | 200      |                                             |
+| 10x11 Cable Chain - 1m                    | 2        | 2        |                                             |
 
 ### Electronics
 
@@ -179,18 +179,18 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 
 ### Misc
 
-| Item                                 | Quantity | Received | Notes |
-| ------------------------------------ | -------- | -------- | ----- |
-| Fume Extractor Carbon Filter Element | 1        | 1        |       |
-| 4mm Bowden Coupler                   | 1        | 4        |       |
-| Bowden Tube (m)                      | 1        | 1        |       |
-| 3M VHB Tape 5952                     | 1        | 1        |       |
-| Loctite Blue Threadlocker Stick      | 1        | 1        |       |
-| Mobil EP2 Grease                     | 1        | 1        |       |
-| Tesa Wire Loom Harness Tape          | 1        | 1        |       |
-| 1mm Foam Tape                        | 1        | 1        |       |
-| 6x3mm Neodimium Magnet               | 8        | 50       |       |
-| PTFE Tube (4mm OD 3mm ID) - 1m       | 1        | 1        |       |
+| Item                                 | Quantity | Received | Notes      |
+| ------------------------------------ | -------- | -------- | ---------- |
+| Fume Extractor Carbon Filter Element | 1        | 1        |            |
+| 4mm Bowden Coupler                   | 1        | 4        |            |
+| Bowden Tube (m)                      | 1        | 1        |            |
+| 3M VHB Tape 5952                     | 1        |          | 1 on order |
+| Loctite Blue Threadlocker Stick      | 1        | 1        |            |
+| Mobil EP2 Grease                     | 1        |          | 1 on order |
+| Tesa Wire Loom Harness Tape          | 1        | 1        |            |
+| 1mm Foam Tape                        | 1        | 1        |            |
+| 6x3mm Neodimium Magnet               | 8        | 50       |            |
+| PTFE Tube (4mm OD 3mm ID) - 1m       | 1        | 1        |            |
 
 ## Printing Parts
 

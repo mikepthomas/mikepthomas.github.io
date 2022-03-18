@@ -1,7 +1,7 @@
 # Upgrading the Hypercube to a Voron 1.8
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 17, 2022
+Updated March 18, 2022
 
 The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
@@ -30,12 +30,12 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 | M5 Hexnut                  | 8        | 19       |                                                                            |
 | M5 1mm Spacer              | 20       | 50       |                                                                            |
 | M5 T-nut                   | 83       | 130      |                                                                            |
-| M4x6 BHCS                  | 4        |          | 20 on order                                                                |
+| M4x6 BHCS                  | 4        | 20       |                                                                            |
 | M3x40 SHCS                 | 5        | 20       |                                                                            |
 | M3x30 SHCS                 | 25       | 30       |                                                                            |
 | M3x20 SHCS                 | 10       | 30       |                                                                            |
 | M3x16 SHCS                 | 17       | 30       |                                                                            |
-| M3x12 SHCS                 | 30       | 30       | 50 on order                                                                |
+| M3x12 SHCS                 | 30       | 80       |                                                                            |
 | M3x8 SHCS                  | 171      | 182      |                                                                            |
 | M3x6 BHCS                  | 20       | 30       |                                                                            |
 | M3 Hexnut                  | 7        | 50       |                                                                            |
@@ -151,10 +151,10 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 | Mean Well LRS-200-24 PSU           | 1        |          | 1 on order                                                                                                              |
 | Mean Well RS-25-5 PSU              | 1        |          | 1 on order                                                                                                              |
 | Omron G3A-210B-DC5 SSR             | 1        | 1        |                                                                                                                         |
-| DIN Rail Mount Bracket for G3A SSR | 1        |          | 1 on order                                                                                                              |
+| DIN Rail Mount Bracket for G3A SSR | 1        | 1        |                                                                                                                         |
 | BAT85 Diode                        | 1        | 7        | My Tronxy XY-08N seems to work fine on SKR 1.4 Turbo using endstop pins                                                 |
 | C13 Power Cord                     | 1        | 3        |                                                                                                                         |
-| Thermal Fuse (120C)                | 1        |          | 5 on order                                                                                                              |
+| Thermal Fuse (120C)                | 1        | 5        |                                                                                                                         |
 | NEMA17 Motor 17HS08-1004S          | 1        | 1        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit) |
 | NEMA17 TR8x8 300mm Linear Stepper  | 2        | 2        | In [LDO V1 Z Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-v1-z-motor-kit)                     |
 

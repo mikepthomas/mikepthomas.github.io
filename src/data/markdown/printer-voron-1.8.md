@@ -21,31 +21,31 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 
 ### Fasteners
 
-| Item                       | Quantity | Received | Notes                                                                      |
-| -------------------------- | -------- | -------- | -------------------------------------------------------------------------- |
-| M5x40 SHCS                 | 8        | 29       |                                                                            |
-| M5x30 BHCS                 | 6        | 21       |                                                                            |
-| M5x16 BHCS                 | 67       | 60       | Received 45 SHCS instead (Will use 10 of these for the feet and DIN Rails) |
-| M5x10 BHCS                 | 71       | 104      |                                                                            |
-| M5 Hexnut                  | 8        | 19       |                                                                            |
-| M5 1mm Spacer              | 20       | 50       |                                                                            |
-| M5 T-nut                   | 83       | 130      |                                                                            |
-| M4x6 BHCS                  | 4        | 20       |                                                                            |
-| M3x40 SHCS                 | 5        | 20       |                                                                            |
-| M3x30 SHCS                 | 25       | 30       |                                                                            |
-| M3x20 SHCS                 | 10       | 30       |                                                                            |
-| M3x16 SHCS                 | 17       | 30       |                                                                            |
-| M3x12 SHCS                 | 30       | 80       |                                                                            |
-| M3x8 SHCS                  | 171      | 182      |                                                                            |
-| M3x6 BHCS                  | 20       | 30       |                                                                            |
-| M3 Hexnut                  | 7        | 50       |                                                                            |
-| M3 Washer                  | 10       | 50       |                                                                            |
-| M3 T-nut                   | 120      | 160      |                                                                            |
-| M3 Hammer Head T-nuts      | 54       | 99       |                                                                            |
-| M3 Threaded Insert         | 50       | 100      |                                                                            |
-| M3 Knurled Nut (DIN 466-B) | 3        | 5        |                                                                            |
-| M2x10 Self-Tapping Screw   | 7        | 53       |                                                                            |
-| Yellow Die Spring - M3     | 1        |          | 5 on order                                                                 |
+| Item                       | Quantity | Received | Notes       |
+| -------------------------- | -------- | -------- | ----------- |
+| M5x40 SHCS                 | 8        | 29       |             |
+| M5x30 BHCS                 | 6        | 21       |             |
+| M5x16 BHCS                 | 67       | 60       | 10 on order |
+| M5x10 BHCS                 | 71       | 104      |             |
+| M5 Hexnut                  | 8        | 19       |             |
+| M5 1mm Spacer              | 20       | 50       |             |
+| M5 T-nut                   | 83       | 130      |             |
+| M4x6 BHCS                  | 4        | 20       |             |
+| M3x40 SHCS                 | 5        | 20       |             |
+| M3x30 SHCS                 | 25       | 30       |             |
+| M3x20 SHCS                 | 10       | 30       |             |
+| M3x16 SHCS                 | 17       | 30       |             |
+| M3x12 SHCS                 | 30       | 80       |             |
+| M3x8 SHCS                  | 171      | 182      | 50 on order |
+| M3x6 BHCS                  | 20       | 30       | 50 on order |
+| M3 Hexnut                  | 7        | 50       |             |
+| M3 Washer                  | 10       | 50       |             |
+| M3 T-nut                   | 120      | 160      |             |
+| M3 Hammer Head T-nuts      | 54       | 99       |             |
+| M3 Threaded Insert         | 50       | 100      |             |
+| M3 Knurled Nut (DIN 466-B) | 3        | 5        |             |
+| M2x10 Self-Tapping Screw   | 7        | 53       |             |
+| Yellow Die Spring - M3     | 1        |          | 5 on order  |
 
 ### Frame
 
@@ -285,7 +285,7 @@ The X Axis was flipped on the Trident (linear rails are on the bottom of the ext
 
 | Item                                                                                                                                            | Quantity | Material                                                |      Printed       | Notes                                   |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | --------------------------------------- |
-| [cap](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/cap_x2.stl)                                              | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         |                                         |
+| [cap](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/cap_x2.stl)                                              | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                         |
 | [xy_joint_left_lower](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_left_lower.stl)                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                         |
 | [xy_joint_left_upper](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_left_upper.stl)                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                         |
 | [xy_joint_right_lower](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_right_lower.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                         |
@@ -333,8 +333,8 @@ In addition to the required Voron 1.8 parts above I will also need to [print the
 | Item                                                                                                                                                              | Quantity | Material                                                |      Printed       | Notes                                                                                                                                                 |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [mini12864_arm](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Display_Module/mini12864_arm_x2.stl)                               | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | May swap for [Display Mount](#display-mount)                                                                                                          |
-| [mini12864_case_back](<https://github.com/mikepthomas/3dprinting/blob/main/Designs/Voron%201.8%20Mini12864%20Case%20Back/Mini12864%20Case%20Back%20(Swivel).stl>) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         | I have modified the mounting holes for this to make them closer together so that the [Display Mount Arms](#display-mount) will fit between the skirts |
-| [mini12864_case_front](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Display_Module/mini12864_case_front.stl)                    | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         | Will use this instead of [Display Mount Front](#display-mount) as it has been modified to allow the doors to open correctly                           |
+| [mini12864_case_back](<https://github.com/mikepthomas/3dprinting/blob/main/Designs/Voron%201.8%20Mini12864%20Case%20Back/Mini12864%20Case%20Back%20(Swivel).stl>) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | I have modified the mounting holes for this to make them closer together so that the [Display Mount Arms](#display-mount) will fit between the skirts |
+| [mini12864_case_front](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Display_Module/mini12864_case_front.stl)                    | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | Will use this instead of [Display Mount Front](#display-mount) as it has been modified to allow the doors to open correctly                           |
 
 ### Electronics Brackets
 
@@ -368,7 +368,7 @@ In addition to the required Voron 1.8 parts above I will also need to [print the
 | [lever_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_lever_right.stl)                   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         |                                                                                                                      |
 | [base_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/base_left.stl)                               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                                                                                                      |
 | [base_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/base_right.stl)                             | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                                                                                                      |
-| [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         |                                                                                                                      |
+| [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                                                                                                      |
 | [corner_bracket_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/corner_bracket_left.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                                                                                                      |
 | [corner_bracket_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/corner_bracket_right.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                                                                                                      |
 | [din_bracket_base](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/din_bracket_base_x4.stl)              | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         |                                                                                                                      |

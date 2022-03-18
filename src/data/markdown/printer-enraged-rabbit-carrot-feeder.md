@@ -42,23 +42,23 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Fasteners
 
-| Item                                        | Quantity | Received | Notes      |
-| ------------------------------------------- | -------- | -------- | ---------- |
-| M3 threaded inserts                         | 26       | 50       |            |
-| M5x30 BHCS                                  | 2        | 15       |            |
-| M5x16 BHCS                                  | 1        | 3        |            |
-| M5 nuts                                     | 4        | 11       |            |
-| M5 nylock nuts                              | 5        |          | 5 on order |
-| M5 washers                                  | 2        | 30       |            |
-| M3x8 SHCS                                   | 20       | 11       |            |
-| M3x8 BHCS                                   | 5        | 20       |            |
-| M3x12 SHCS                                  | 3        | 66       |            |
-| M3x16 SHCS                                  | 10       | 13       |            |
-| M3x20 SHCS                                  | 7        | 20       |            |
-| M3x40 SHCS                                  | 2        | 15       |            |
-| M3 washers (could also be the DIN125 below) | 2        | 40       |            |
-| M3 DIN125 Steel Washer                      | 6        |          | 6 on order |
-| M2x8 SHCS or M2x10 SHCS                     | 2        | 46       |            |
+| Item                                        | Quantity | Received | Notes       |
+| ------------------------------------------- | -------- | -------- | ----------- |
+| M3 threaded inserts                         | 26       | 50       |             |
+| M5x30 BHCS                                  | 2        | 15       |             |
+| M5x16 BHCS                                  | 1        | 3        | 10 on order |
+| M5 nuts                                     | 4        | 11       |             |
+| M5 nylock nuts                              | 5        |          | 50 on order |
+| M5 washers                                  | 2        | 30       |             |
+| M3x8 SHCS                                   | 20       | 11       | 50 on order |
+| M3x8 BHCS                                   | 5        | 20       | 50 on order |
+| M3x12 SHCS                                  | 3        | 66       |             |
+| M3x16 SHCS                                  | 10       | 13       |             |
+| M3x20 SHCS                                  | 7        | 20       |             |
+| M3x40 SHCS                                  | 2        | 15       |             |
+| M3 washers (could also be the DIN125 below) | 2        | 40       |             |
+| M3 DIN125 Steel Washer                      | 6        |          | 6 on order  |
+| M2x8 SHCS or M2x10 SHCS                     | 2        | 46       |             |
 
 ### Motion
 

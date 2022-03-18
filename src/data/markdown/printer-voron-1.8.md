@@ -105,26 +105,26 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 
 ### Wires
 
-| Item                                      | Quantity | Received | Notes                                       |
-| ----------------------------------------- | -------- | -------- | ------------------------------------------- |
-| Nylon Cable Ties 4"                       | 40       |          | 100 on order                                |
-| 1/2" Braided Cable Sheathing (ft)         | 5        |          | Using the stock Anet A8 spiral plastic wrap |
-| 20AWG Silicone Cable (ft)                 | 10       |          | 138 on order in various colours             |
-| 24AWG Silicone Cable (ft)                 | 100      | 177      | in various colours                          |
-| Spade Crimp Terminal 4.8mm Female         | 10       | 20       |                                             |
-| JST XH Connector Plug 4 Position          | 5        | 20       |                                             |
-| JST XH Connector Plug 3 Position          | 4        | 20       |                                             |
-| JST XH Connector Plug 2 Position          | 2        | 20       |                                             |
-| JST XH Female Pin                         | 40       | 200      |                                             |
-| MicroFit3 Connector Plug 4 Position       | 2        | 20       |                                             |
-| MicroFit3 Connector Plug 3 Position       | 1        | 20       |                                             |
-| MicroFit3 Connector Plug 2 Position       | 5        | 20       |                                             |
-| MicroFit3 Connector Receptacle 4 Position | 2        | 20       |                                             |
-| MicroFit3 Connector Receptacle 3 Position | 1        | 20       |                                             |
-| MicroFit3 Connector Receptacle 2 Position | 5        | 20       |                                             |
-| MicroFit3 Female Pin                      | 40       | 200      |                                             |
-| MicroFit3 Male Pin                        | 40       | 200      |                                             |
-| 10x11 Cable Chain - 1m                    | 2        | 2        |                                             |
+| Item                                      | Quantity | Received | Notes                           |
+| ----------------------------------------- | -------- | -------- | ------------------------------- |
+| Nylon Cable Ties 4"                       | 40       |          | 100 on order                    |
+| 1/2" Braided Cable Sheathing (ft)         | 5        |          | 16 on order                     |
+| 20AWG Silicone Cable (ft)                 | 10       |          | 138 on order in various colours |
+| 24AWG Silicone Cable (ft)                 | 100      | 177      | in various colours              |
+| Spade Crimp Terminal 4.8mm Female         | 10       | 20       |                                 |
+| JST XH Connector Plug 4 Position          | 5        | 20       |                                 |
+| JST XH Connector Plug 3 Position          | 4        | 20       |                                 |
+| JST XH Connector Plug 2 Position          | 2        | 20       |                                 |
+| JST XH Female Pin                         | 40       | 200      |                                 |
+| MicroFit3 Connector Plug 4 Position       | 2        | 20       |                                 |
+| MicroFit3 Connector Plug 3 Position       | 1        | 20       |                                 |
+| MicroFit3 Connector Plug 2 Position       | 5        | 20       |                                 |
+| MicroFit3 Connector Receptacle 4 Position | 2        | 20       |                                 |
+| MicroFit3 Connector Receptacle 3 Position | 1        | 20       |                                 |
+| MicroFit3 Connector Receptacle 2 Position | 5        | 20       |                                 |
+| MicroFit3 Female Pin                      | 40       | 200      |                                 |
+| MicroFit3 Male Pin                        | 40       | 200      |                                 |
+| 10x11 Cable Chain - 1m                    | 2        | 2        |                                 |
 
 ### Electronics
 

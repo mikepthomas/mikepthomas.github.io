@@ -1,7 +1,7 @@
 # Building an Enraged Rabbit Carrot Feeder
 
 Febuary 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 18, 2022
+Updated March 22, 2022
 
 Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRabbitProject) to print using multiple colours of filament on the Voron.
 
@@ -91,14 +91,14 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Toolhead Sensor
 
-| Item                                 | Quantity | Received | Notes      |
-| ------------------------------------ | -------- | -------- | ---------- |
-| AH3364Q-P-B Hall Effect sensor (SIP) | 1        |          | 1 on order |
-| M3 DIN125 Steel Washer               | 1        |          | 1 on order |
-| 6mm x 3mm Round Neodymium Magnets    | 1        | 20       |            |
-| M3x8 SHCS                            | 1        | 1        |            |
-| M3x12 SHCS                           | 1        | 63       |            |
-| JST XH 3 pins male connector         | 1        | 16       |            |
+| Item                                 | Quantity | Received | Notes |
+| ------------------------------------ | -------- | -------- | ----- |
+| AH3364Q-P-B Hall Effect sensor (SIP) | 1        | 1        |       |
+| M3 DIN125 Steel Washer               | 1        | 2        |       |
+| 6mm x 3mm Round Neodymium Magnets    | 1        | 20       |       |
+| M3x8 SHCS                            | 1        | 1        |       |
+| M3x12 SHCS                           | 1        | 63       |       |
+| JST XH 3 pins male connector         | 1        | 16       |       |
 
 ## Printing Parts
 

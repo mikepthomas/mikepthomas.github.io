@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 9, 2022
+Updated March 22, 2022
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -101,7 +101,65 @@ As the Stealthburner is still in beta, some of the links below may not work. I w
 
 There is also an adapter plate, [Hypercube Afterburner adapter intergration remix](https://www.thingiverse.com/thing:5156654) that may work to mount the Afterburner on the Anet A8 guide rails.
 
-### Clockwork
+### Sourcing Parts
+
+#### Fasteners
+
+| Item                                      | Quantity | Received | Notes                                                           |
+| ----------------------------------------- | -------- | -------- | --------------------------------------------------------------- |
+| M3x8 SHCS                                 | 2        | 182      | 50 on order. in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners) |
+| M3x6 FHCS                                 | 2        | 30       | 50 on order. in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners) |
+| M3x6 BHCS                                 | 1        | 30       | 50 on order                                                     |
+| M3x50 SHCS                                | 2        | 50       |                                                                 |
+| M3x30 SHCS                                | 3        | 30       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
+| M3x25 SHCS                                | 7        | 30       |                                                                 |
+| M3x20 SHCS                                | 2        | 30       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
+| M3x16 SHCS                                | 4        | 30       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
+| M3x12 SHCS                                | 4        | 80       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
+| M3 Hexnut                                 | 2        | 50       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
+| M3 Brass heatstake inserts - short M3x5x4 | 22       | 100      | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
+| Bondtech BMG Extruder Kit                 | 1        | 1        | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
+
+#### Misc
+
+| Item         | Quantity | Received | Notes                                         |
+| ------------ | -------- | -------- | --------------------------------------------- |
+| 3x6mm Magnet | 1        | 50       | in [Voron 1.8 BOM](printer-voron-1.8.md#misc) |
+
+#### Electronics
+
+| Item                                         | Quantity | Received | Notes                         |
+| -------------------------------------------- | -------- | -------- | ----------------------------- |
+| NeoPixel RGBW Mini Button PCB                | 3        | 3        |                               |
+| NEMA14 36mm pancake Motor with 10 tooth gear | 1        |          | Only required for Clockwork 2 |
+| 50x50x15 Centrifugal Fan                     | 1        |          | 1 on order                    |
+| 40x40x10 Axial Fan                           | 1        |          | 2 on order                    |
+
+#### Cables
+
+| Item                                      | Quantity | Received | Notes                                          |
+| ----------------------------------------- | -------- | -------- | ---------------------------------------------- |
+| MicroFit3 Male Pin                        | 3        | 200      | in [Voron 1.8 BOM](printer-voron-1.8.md#wires) |
+| MicroFit3 Female Pin                      | 3        | 200      | in [Voron 1.8 BOM](printer-voron-1.8.md#wires) |
+| MicroFit3 Connector Receptacle 3 Position | 1        | 20       | in [Voron 1.8 BOM](printer-voron-1.8.md#wires) |
+| MicroFit3 Connector Plug 3 Position       | 1        | 20       | in [Voron 1.8 BOM](printer-voron-1.8.md#wires) |
+| 30AWG PTFE Cable (3ft total)              | 1        | 1        |                                                |
+| 24AWG PTFE Cable (30ft total)             | 1        | 1        |                                                |
+
+#### Toolhead Sensor
+
+| Item                                 | Quantity | Received | Notes |
+| ------------------------------------ | -------- | -------- | ----- |
+| AH3364Q-P-B Hall Effect sensor (SIP) | 1        | 1        |       |
+| M3 DIN125 Steel Washer               | 1        | 2        |       |
+| 6mm x 3mm Round Neodymium Magnets    | 1        | 20       |       |
+| M3x8 SHCS                            | 1        | 1        |       |
+| M3x12 SHCS                           | 1        | 63       |       |
+| JST XH 3 pins male connector         | 1        | 16       |       |
+
+### Printing Parts
+
+#### Clockwork
 
 | Item                                                                                                                                                               | Quantity | Material                                                | Printed | Notes                                                                             |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | :-----: | --------------------------------------------------------------------------------- |
@@ -115,7 +173,7 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 | [extruder_motor_plate_for_pcb](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/extruder_motor_plate_for_pcb.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Afterburner Toolhead PCB Part                                                     |
 | [pcb_spacer](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/pcb_spacer.stl)                                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   | Afterburner Toolhead PCB Part                                                     |
 
-### Stealthburner
+#### Stealthburner
 
 | Item                                                                                                                                                          | Quantity | Material                                                         | Printed | Notes               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------- | :-----: | ------------------- |
@@ -124,14 +182,14 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 | [LED_carrier-beta2](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_carrier-beta2.stl)             | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          |   :x:   | This is a Beta Part |
 | [LED_diffuser-mask-beta1](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_diffuser-mask-beta1.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          |   :x:   | This is a Beta Part |
 
-### ADXL345 Mount
+#### ADXL345 Mount
 
 | Item                                                                                                                                                                  | Quantity | Material                                                | Printed | Notes                                             |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ------------------------------------------------- |
 | [adxl_mount_ldo_15mm_c-c-beta2](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/ADXL345_Mounts/sb_adxl_mount_ldo_15mm_c-c-beta2.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Beta Part. Spacing on my sensor is 15mm |
 | [adxl_washer_x2-beta0](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/ADXL345_Mounts/sb_adxl_washer_x2-beta0.stl)                   | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Beta Part                               |
 
-### V6 Toolhead
+#### V6 Toolhead
 
 | Item                                                                                                                                                                                               | Quantity | Material                                                | Printed | Notes                                   |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | --------------------------------------- |

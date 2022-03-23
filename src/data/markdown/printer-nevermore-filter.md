@@ -1,7 +1,7 @@
 # Nevermore Micro V5 Duo
 
 March 16, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 18, 2022
+Updated March 23, 2022
 
 Building an [Nevermore Micro V5 Duo](https://github.com/nevermore3d/Nevermore_Micro) to reduce the smell of printing ABS.
 
@@ -37,9 +37,9 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Electronics
 
-| Item                       | Quantity | Received | Notes |
-| -------------------------- | -------- | -------- | ----- |
-| 5015 Centrifugal Fan (24V) | 2        |          |       |
+| Item                       | Quantity | Received | Notes      |
+| -------------------------- | -------- | -------- | ---------- |
+| 5015 Centrifugal Fan (24V) | 2        |          | 2 on order |
 
 ### Cables
 

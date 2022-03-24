@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 23, 2022
+Updated March 24, 2022
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -64,9 +64,9 @@ When I have upgraded to the Afterburner, I will reuse the parts for the M4 for t
 
 ### Electronics
 
-| Item                       | Quantity | Received | Notes                                      |
-| -------------------------- | -------- | -------- | ------------------------------------------ |
-| NEMA17 Motor 17HS15-1504S1 | 2        |          | Will use 2 Anet Motors at first to try out |
+| Item                       | Quantity | Received | Notes      |
+| -------------------------- | -------- | -------- | ---------- |
+| NEMA17 Motor 17HS15-1504S1 | 2        |          | 2 on order |
 
 ### Bowden
 
@@ -154,6 +154,7 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 
 | Item                                         | Quantity | Received | Notes                         |
 | -------------------------------------------- | -------- | -------- | ----------------------------- |
+| ERCF Afterburner Tool-Head PCB               | 1        | 1        |                               |
 | NeoPixel RGBW Mini Button PCB                | 3        | 3        |                               |
 | NEMA14 36mm pancake Motor with 10 tooth gear | 1        |          | Only required for Clockwork 2 |
 | 50x50x15 Centrifugal Fan                     | 1        |          | 1 on order                    |
@@ -185,18 +186,18 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 
 #### Clockwork
 
-| Item                                                                                                                                                                          | Quantity | Material                                                | Printed | Notes                                                                            |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | -------------------------------------------------------------------------------- |
-| [pcb_cover](https://github.com/wile-e1/VoronUsers/blob/sb_cw1_pcb_cover/printer_mods/wile-e1/Stealthburner_CW1_PCB_Cover/sb_cw1_pcb_cover-r1.stl)                             | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   | This a User Mod for the ERCF Toolhead PCB by wile-e1 that fits the Stealthburner |
-| [pcb_cover_clip-on_mount](https://github.com/wile-e1/VoronUsers/blob/sb_cw1_pcb_cover/printer_mods/wile-e1/Stealthburner_CW1_PCB_Cover/sb_cw1_pcb_cover_clip-on_mount-r1.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   | This a User Mod for the ERCF Toolhead PCB by wile-e1 that fits the Stealthburner |
-| [guidler](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/%5Ba%5D_guidler.stl)                                                                  | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                                                                                  |
-| [ERCF_Sensor_Latch](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/%5Ba%5D_AB_ERCF_Sensor_Latch.stl)                                       | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   | ERCF Filament Sensor Part                                                        |
-| [latch_shuttle](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/%5Ba%5D_latch_shuttle.stl)                                                      | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                                                                                  |
-| [chain_anchor](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/chain_anchor_3hole.stl)                                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is the Generic Cable Chain Version                                          |
-| [ERCF_Sensor_Extruder_Body](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/AB_ERCF_Sensor_Extruder_Body.stl)                               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | ERCF Filament Sensor Part                                                        |
-| [ERCF_Sensor_Cable_Cover](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/%5Ba%5D_AB_ERCF_Sensor_Cable_Cover.stl)                           | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   | ERCF Filament Sensor Part                                                        |
-| [extruder_motor_plate_for_pcb](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/extruder_motor_plate_for_pcb.stl)            | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Afterburner Toolhead PCB Part                                                    |
-| [pcb_spacer](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/pcb_spacer.stl)                                                | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   | Afterburner Toolhead PCB Part                                                    |
+| Item                                                                                                                                                                          | Quantity | Material                                                |      Printed       | Notes                                                                            |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | -------------------------------------------------------------------------------- |
+| [pcb_cover](https://github.com/wile-e1/VoronUsers/blob/sb_cw1_pcb_cover/printer_mods/wile-e1/Stealthburner_CW1_PCB_Cover/sb_cw1_pcb_cover-r1.stl)                             | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This a User Mod for the ERCF Toolhead PCB by wile-e1 that fits the Stealthburner |
+| [pcb_cover_clip-on_mount](https://github.com/wile-e1/VoronUsers/blob/sb_cw1_pcb_cover/printer_mods/wile-e1/Stealthburner_CW1_PCB_Cover/sb_cw1_pcb_cover_clip-on_mount-r1.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This a User Mod for the ERCF Toolhead PCB by wile-e1 that fits the Stealthburner |
+| [guidler](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/%5Ba%5D_guidler.stl)                                                                  | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         |                                                                                  |
+| [ERCF_Sensor_Latch](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/%5Ba%5D_AB_ERCF_Sensor_Latch.stl)                                       | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | ERCF Filament Sensor Part                                                        |
+| [latch_shuttle](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/%5Ba%5D_latch_shuttle.stl)                                                      | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         |                                                                                  |
+| [chain_anchor](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/chain_anchor_3hole.stl)                                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         | This is the Generic Cable Chain Version                                          |
+| [ERCF_Sensor_Extruder_Body](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/AB_ERCF_Sensor_Extruder_Body.stl)                               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | ERCF Filament Sensor Part                                                        |
+| [ERCF_Sensor_Cable_Cover](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/%5Ba%5D_AB_ERCF_Sensor_Cable_Cover.stl)                           | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | ERCF Filament Sensor Part                                                        |
+| [extruder_motor_plate_for_pcb](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/extruder_motor_plate_for_pcb.stl)            | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | Afterburner Toolhead PCB Part                                                    |
+| [pcb_spacer](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/pcb_spacer.stl)                                                | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | Afterburner Toolhead PCB Part                                                    |
 
 #### Stealthburner
 

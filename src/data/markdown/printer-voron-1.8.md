@@ -1,7 +1,7 @@
 # Upgrading the Hypercube to a Voron 1.8
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 26, 2022
+Updated March 27, 2022
 
 The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
@@ -403,14 +403,16 @@ In addition to the required Voron 1.8 parts above I will also need to [print the
 
 | Item                                                                                                                                                                | Quantity | Material                                                |      Printed       | Notes                                                                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [bottom_panel_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/bottom_panel_clip_x4.stl)                                                    | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Trident Part                                                                                                                               |
-| [bottom_panel_hinge](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/bottom_panel_hinge_x2.stl)                                                  | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Trident Part                                                                                                                               |
+| [bottom_panel_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/bottom_panel_clip_x4.stl)                                                    | ~6~ 8    | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Trident Part                                                                                                                               |
+| ~[bottom_panel_hinge](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/bottom_panel_hinge_x2.stl)~                                                | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Trident Part                                                                                                                               |
 | [corner_panel_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/corner_panel_clip_3mm_x12.stl)                                         | 14       | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | These are 3mm versions, 4mm versions are available in Trident repo                                                                                   |
 | [deck_support_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/deck_support_clip_x6.stl)                                              | 6        |                                                         |        :x:         | Will replace with [Deck Panel Support Clips](#deck-panel-support-clips)                                                                              |
 | [midspan_panel_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/midspan_panel_clip_3mm_x12.stl)                                       | 14       | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | These are 3mm versions, 4mm versions are available in Trident repo                                                                                   |
 | [front_panel_rest](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Panel_Mounting/Handles_Panel_Rests_Misc/front_panel_rest_3%2B6mm_x2_Rev1.STL) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | For Voron 2.2. Will swap out panel_holder for these at rear of printer                                                                               |
 | [handle](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Panel_Mounting/Handles_Panel_Rests_Misc/handle_3mm_x2_Rev1.stl)                         | 2        |                                                         |        :x:         | For Voron 2.2 Will replace with [Sturdy Handles](#sturdy-handles)                                                                                    |
 | [light_bar](https://github.com/VoronDesign/Voron-Switchwire/blob/master/STL/Panel_Mounting/light_bar_x2.stl)                                                        | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         | This is a Switchwire Part. Will replace with [one with mounting holes](https://www.prusaprinters.org/prints/109140-voron-light-bar-with-screw-holes) |
+
+**_NOTE:_** I have not been able to succesfully print the bottom panel hinges, they always seem to fuse up and the small pin just snaps when trying to free the hinge. I will print extra panel clips instead.
 
 #### Front Doors
 

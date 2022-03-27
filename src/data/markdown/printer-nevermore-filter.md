@@ -1,7 +1,7 @@
 # Nevermore Micro V5 Duo
 
 March 16, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 24, 2022
+Updated March 26, 2022
 
 Building an [Nevermore Micro V5 Duo](https://github.com/nevermore3d/Nevermore_Micro) to reduce the smell of printing ABS.
 
@@ -30,10 +30,10 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Misc
 
-| Item                              | Quantity | Received | Notes                                                                                                      |
-| --------------------------------- | -------- | -------- | ---------------------------------------------------------------------------------------------------------- |
-| 6mm x 3mm Round Neodymium Magnets | 8        | 8        |                                                                                                            |
-| Acid-free Activated Carbon Pack   | 1        |          | 1 on order. [Carbon refill is available from here](https://www.onetwo3d.co.uk/product/nevermore3d-carbon/) |
+| Item                              | Quantity | Received | Notes                                                                                          |
+| --------------------------------- | -------- | -------- | ---------------------------------------------------------------------------------------------- |
+| 6mm x 3mm Round Neodymium Magnets | 8        | 8        |                                                                                                |
+| Acid-free Activated Carbon Pack   | 1        | 1        | [Carbon refill is available from here](https://www.onetwo3d.co.uk/product/nevermore3d-carbon/) |
 
 ### Electronics
 

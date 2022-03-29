@@ -1,7 +1,7 @@
 # Upgrading the Hypercube to a Voron 1.8
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 28, 2022
+Updated March 29, 2022
 
 The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
@@ -216,7 +216,7 @@ The long term goal is to eventually replace the smooth rods of the XY Gantry wit
 
 Some of the gantry parts (specifically the AB Drive Units and Front Idlers) will be replaced with the upgraded versions from the Trident as they should fit the 1.8.
 
-#### AB Drive Units
+#### :white_check_mark: AB Drive Units
 
 ![Voron 1.8 AB Drive Units](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/ab-drive.jpg)
 
@@ -235,7 +235,24 @@ Some of the gantry parts (specifically the AB Drive Units and Front Idlers) will
 
 The lower A drive was the first time I have tried to print with ABS. The upper was printed after a few tweaks to my slicer settings and updates to my Marlin firmware configuration. I am now quite happy with the results and will carry on printing the rest of the parts.
 
-#### Front Idlers
+##### Assembly
+
+![Voron Trident AB Drive Units](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/ab-drive-complete.jpg)
+
+###### Parts Used
+
+| Item                          | Quantity |
+| ----------------------------- | -------- |
+| F695 Bearing                  | 12       |
+| GT2 20T Pulley (5mm ID 6mm W) | 2        |
+| M3 Threaded Insert            | 1        |
+| M3x10 SHCS                    | 1        |
+| M3x30 SHCS                    | 6        |
+| M5 1mm Spacer                 | 12       |
+| M5x30 BHCS                    | 4        |
+| NEMA17 Motor 17HS19-2004S     | 2        |
+
+#### :white_check_mark: Front Idlers
 
 ![Voron 1.8 Front Idlers](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/front-idlers.jpg)
 
@@ -248,17 +265,21 @@ The lower A drive was the first time I have tried to print with ABS. The upper w
 | [front_idler_a](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/Front_Idlers/front_idler_a_x2.stl)          | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Trident Part |
 | [front_idler_b](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/Front_Idlers/front_idler_b_x2.stl)          | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Trident Part |
 
-### Bed Frame
+##### Assembly
 
-![Voron 1.8 Bed Frame](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/bed-frame.jpg)
+![Voron Trident Front Idlers](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/front-idlers-complete.jpg)
 
-> Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
+###### Parts Used
 
-| Item                                                                                                        | Quantity | Material                                                |      Printed       | Notes |
-| ----------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ----- |
-| [bed_mount_front](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/bed_mount_front.stl)        | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         |       |
-| [z_bearing_block_a](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_bearing_block_a_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |       |
-| [z_bearing_block_b](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_bearing_block_b_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |       |
+| Item               | Quantity |
+| ------------------ | -------- |
+| F695 Bearing       | 4        |
+| M3 Threaded Insert | 2        |
+| M3 Washer          | 2        |
+| M3x40 SHCS         | 2        |
+| M5 1mm Spacer      | 4        |
+| M5 Hexnut          | 2        |
+| M5x40 SHCS         | 2        |
 
 ### Z Axis
 
@@ -266,11 +287,25 @@ The lower A drive was the first time I have tried to print with ABS. The upper w
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
+#### :wrench: Bed Frame
+
+![Voron 1.8 Bed Frame](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/bed-frame.jpg)
+
+> Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
+
+| Item                                                                                                        | Quantity | Material                                                |      Printed       | Notes |
+| ----------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ----- |
+| [bed_mount_front](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/bed_mount_front.stl)        | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: |       |
+| [z_bearing_block_a](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_bearing_block_a_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |       |
+| [z_bearing_block_b](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_bearing_block_b_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |       |
+
+#### :negative_squared_cross_mark: Z Axis Rods
+
 | Item                                                                                                                        | Quantity | Material                                                |      Printed       | Notes                                                                             |
 | --------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | --------------------------------------------------------------------------------- |
-| [leadscrew_block](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/%5Ba%5D_leadscrew_block_x2.stl)             | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         |                                                                                   |
+| [leadscrew_block](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/%5Ba%5D_leadscrew_block_x2.stl)             | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: |                                                                                   |
 | [z_shaft_retainer](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/%5Ba%5D_z_shaft_retainer_x8.stl)           | 8        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                                                                   |
-| [z_motor_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_motor_mount_x2.stl)                         | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         |                                                                                   |
+| [z_motor_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_motor_mount_x2.stl)                         | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: |                                                                                   |
 | [z_cable_chain_mount](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Z_Assembly/z_cable_chain_mount_3hole.stl) | 1        |                                                         |        :x:         | This is a Trident Part. Will need to [print ends for the chain](#printable-chain) |
 
 ### X Axis

@@ -125,7 +125,7 @@ const Projects = (props: Props) => {
                     </li>
                     <li>
                       <Link to="/projects/printer-voron-1.8">
-                        Voron 1.8 Upgrade
+                        Voron 1.8 Assembly
                       </Link>
                     </li>
                     <li>

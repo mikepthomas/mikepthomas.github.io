@@ -27,9 +27,9 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import {
   faAnchor,
+  faBuildingShield,
   faCalendarAlt,
   faChalkboardTeacher,
-  faIdCardAlt,
   faLaptopCode,
   faUserGraduate,
   faWarehouse,
@@ -38,9 +38,9 @@ import {
 export default function register() {
   library.add(
     faAnchor,
+    faBuildingShield,
     faCalendarAlt,
     faChalkboardTeacher,
-    faIdCardAlt,
     faLaptopCode,
     faUserGraduate,
     faWarehouse,

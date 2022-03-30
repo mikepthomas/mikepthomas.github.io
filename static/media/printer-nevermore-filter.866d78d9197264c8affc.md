@@ -1,6 +1,7 @@
 # Nevermore Micro V5 Duo
 
-March 16, 2022 by [Mike Thomas](https://github.com/mikepthomas)
+March 16, 2022 by [Mike Thomas](https://github.com/mikepthomas),
+Updated March 26, 2022
 
 Building an [Nevermore Micro V5 Duo](https://github.com/nevermore3d/Nevermore_Micro) to reduce the smell of printing ABS.
 
@@ -17,28 +18,28 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Fasteners
 
-| Item                  | Quantity | Received | Notes                                                 |
-| --------------------- | -------- | -------- | ----------------------------------------------------- |
-| M3 threaded inserts   | 6        | 6        |                                                       |
-| M3x18 BHCS            | 1        |          |                                                       |
-| M3x16 BHCS            | 4        | 4        |                                                       |
-| M3x12 BHCS            | 2        | 2        |                                                       |
-| M3x6 BHCS             | 2        | 2        |                                                       |
-| M3x4 BHCS             | 1        |          | it doesn’t attach to anything and is totally optional |
-| M3 Hammer Head T-nuts | 2        | 2        |                                                       |
+| Item                  | Quantity | Received | Notes       |
+| --------------------- | -------- | -------- | ----------- |
+| M3 threaded inserts   | 6        | 6        |             |
+| M3x18 BHCS            | 1        |          | 50 on order |
+| M3x16 BHCS            | 4        |          | 50 on order |
+| M3x12 BHCS            | 2        |          | 50 on order |
+| M3x6 BHCS             | 2        |          | 50 on order |
+| M3x4 BHCS             | 1        |          | 50 on order |
+| M3 Hammer Head T-nuts | 2        | 2        |             |
 
 ### Misc
 
-| Item                              | Quantity | Received | Notes                                                                                         |
-| --------------------------------- | -------- | -------- | --------------------------------------------------------------------------------------------- |
-| 6mm x 3mm Round Neodymium Magnets | 8        | 8        |                                                                                               |
-| Acid-free Activated Carbon Pack   | 1        |          | [Carbon refil is available from here](https://www.onetwo3d.co.uk/product/nevermore3d-carbon/) |
+| Item                              | Quantity | Received | Notes                                                                                          |
+| --------------------------------- | -------- | -------- | ---------------------------------------------------------------------------------------------- |
+| 6mm x 3mm Round Neodymium Magnets | 8        | 8        |                                                                                                |
+| Acid-free Activated Carbon Pack   | 1        | 1        | [Carbon refill is available from here](https://www.onetwo3d.co.uk/product/nevermore3d-carbon/) |
 
 ### Electronics
 
-| Item                       | Quantity | Received | Notes |
-| -------------------------- | -------- | -------- | ----- |
-| 5015 Centrifugal Fan (24V) | 2        |          |       |
+| Item                       | Quantity | Received | Notes      |
+| -------------------------- | -------- | -------- | ---------- |
+| 5015 Centrifugal Fan (24V) | 2        |          | 2 on order |
 
 ### Cables
 

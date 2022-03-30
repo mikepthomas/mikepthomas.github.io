@@ -1,9 +1,10 @@
 # Upgrading my Anet A8 to a Hypercube
 
 Febuary 15, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 7, 2022
+Updated March 30, 2022
 
-The steps I have taken to migrate from the Anet A8's acrylic frame to a CoreXY Hypercube style printer.
+I had originally intended to migrate from the Anet A8's acrylic frame to a CoreXY Hypercube style printer.
+I thought that it may be a bad idea to modify my only printer in case I need to print other parts so have decided to [build a new printer instead](printer-voron-1.8.md).
 
 ![Printed parts for Hypercube](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hypercube/hypercube-hero.jpg)
 
@@ -16,8 +17,11 @@ The steps I have taken to migrate from the Anet A8's acrylic frame to a CoreXY H
 3. [Y Axis](#y-axis)
 4. [Z Axis](#z-axis)
 5. [Bed Mounting](#bed-mounting)
-6. [Electronics](#electronics)
-7. [Rebuild the Anet A8](#rebuild-the-anet-a8)
+6. [Case](#case)
+7. [Endstops](#endstops)
+8. [Heated Bed](#heated-bed)
+9. [Electronics](#electronics)
+10. [Rebuild the Anet A8](#rebuild-the-anet-a8)
 
 ## Frame
 
@@ -63,17 +67,9 @@ They have a number of Printers in their current line up:
 
 I really like the idea of learning something new by upgrading the printer to CoreXY kinamatics, this rules out the AM8 and the Voron Switchwire. I also want to be able to incrementally upgrade the printer parts at a time rather than buying a kit and building a new printer (kinda like [Trigger's broom](https://www.youtube.com/watch?v=56yN2zHtofM) I like the idea that it is the same printer at the end). This also rules out buying a RatRig or a Voron kit. I have found it rather difficult to source 3030 extrusion in the UK so that rules out the Hypercube Evolution.
 
-This leaves one option left, the Hypercube, this is a rather old design so I am going to start with this as a base, using ideas and remixes from the Anet Evolution... but using a frame from an older revision of the Voron Trident, the [Voron1](https://www.vorondesign.com/voron1.8).
-
-![LDO Frame Kit](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hypercube/voron-frame.jpg)
-
-I have looked into a few different options for a new frame for my 3D Printer and eventually settled on an LDO kit for a Voron 1.8.
-
-The four vertical corner extrusions, and the four front and rear extrusions on the 300mm Spec Voron 1.8 frame are exactly the same size as the ones required for the Anet Evolution. The 6 side extrusions, however, are 40mm longer.
+This leaves one option left, the Hypercube, this is a rather old design so I am going to start with this as a base, using ideas and remixes from the Anet Evolution... but using a frame from an older revision of the Voron Trident, the [Voron1](https://www.vorondesign.com/voron1.8). The four vertical corner extrusions, and the four front and rear extrusions on the 300mm Spec Voron 1.8 frame are exactly the same size as the ones required for the Anet Evolution. The 6 side extrusions, however, are 40mm longer.
 
 What I am planning on doing to remedy this is instead of using 2 380mm smooth guide rods for the Z axis and two for the Y axis from the Anet A8 that the Anet Evolution suggests. I am going to use all four 380mm guide rods for the Z axis, like in the double Z axis version of the Hypercube Evolution. I will then purchase 2 new 400mm smooth guide rods to use for the Y axis. These seem to come in standard sizes and therefore may be about 20mm short, if this is the case I will modify the motor mounts and belt idlers to fit the rods.
-
-![LDO Frame Kit Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hypercube/voron-frame-assembled.jpg)
 
 The other reason for purchasing the frame for the Voron 1.8 instead of purchasing custom cut extrusion is that it is fairly difficult to find aluminium extrusion in the UK that is NOT V-slot. I want T-slot extrusion so that I have the ability to install [MGN9 linear rails](printer-voron-1.8.md#motion) in the future. As the name suggests MGN9 rails are 9mm wide however the widest part of V-Slot extrusion is 11mm wide, therfore the rail would not fit flat on the V-slot.
 
@@ -172,23 +168,23 @@ The bearing clamps to mount the bed carriage to the Z axis are from the Anet Evo
 
 When the bed frame is assembled I will measure the difference between the bed and the frame and create some Bed Mounts remixed from something like the [Anet Evolution Printerbed Holder](https://www.thingiverse.com/thing:3351036).
 
-## Electronics
-
-The Anet A8 uses a 12V power supply however modern 3D printers opt to use 24V as the heated bed then requires thinner wires due to the lower required current. I will eventually upgrade the 12V power supply by the one recommended on the Voron BOM, a Meanwell 24V one, this will also require me to upgrade the hotend heater and all fans to 24V versions.
-
-### Case
+## Case
 
 The Anet Evolution comes with STLs to print a case to attach to the 2020 aluminium extrusion, however it is for the stock Anet A8 board, I have [upgraded mine to an SKR 1.4 Turbo](printer-hardware-upgrades.md). There are [cases on Thingyverse that may work](https://www.thingiverse.com/search?q=SKR+1.4+case+for+2020) but as I am using a Voron Frame I might as well print the parts required for the [Rear Electronics Enclosure](https://github.com/VoronDesign/Voron-1/tree/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure) and mount the electronics on DIN rails. This will require me to design some mounts similar to the [Raspberry Pi bracket](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/raspberrypi_bracket.stl) that I can mount the [BIQU Mosfets](https://www.biqu.equipment/products/3d-printer-parts-heating-controller-mks-mosfet-for-heat-bed-extruder-mos-module-exceed-30a-support-big-current) for the heated bed and hotend.
 
-### Endstops
+## Endstops
 
 I am not sure whether to use the clicky switches that the Anet Evolution provides mounts for or search for optical endstop mounts that will fit 8mm guide rods. I will work this out after the frame is assembled and the guide rods are mounted.
 
-### Heated Bed
+## Heated Bed
 
 I am currently using a 12V power supply and the stock 12V Anet A8 heated bed. All current Voron printers use [mains powered silicone heater mat, attached to a Cast Aluminium Tooling Plate](printer-voron-1.8.md#print-bed) and controlled by a Solid State Relay. This allows the heated bed to heat up to temperature quicker and holds a greater thermal mass for longer.
 
 This upgrade will also increase the XY build volume from the stock Anet A8 build plate size of 220x220mm to 300x300mm.
+
+## Electronics
+
+The Anet A8 uses a 12V power supply however modern 3D printers opt to use 24V as the heated bed can heat up quicker. I will eventually upgrade the 12V power supply to the one recommended on the Voron BOM, a Meanwell 24V one, this will also require me to upgrade the hotend heater and all fans to 24V versions.
 
 ## Rebuild the Anet A8
 

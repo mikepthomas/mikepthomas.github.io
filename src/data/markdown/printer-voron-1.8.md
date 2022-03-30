@@ -1,11 +1,11 @@
-# Upgrading the Hypercube to a Voron 1.8
+# Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 29, 2022
+Updated March 30, 2022
 
-The steps I have taken to migrate from the Hypercube to a Voron 1.8.
+The steps I have taken to print and source parts to assemble a Voron 1.8.
 
-![LDO Motor Kit](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/ldo-motors.jpg)
+![LDO Frame Kit](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/voron-frame.jpg)
 
 ---
 
@@ -17,7 +17,7 @@ The steps I have taken to migrate from the Hypercube to a Voron 1.8.
 
 ## Sourcing Parts
 
-I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that will lead up to re-building it into a Voron 1.8. Many of the parts on the [BOM from the configurator](https://www.vorondesign.com/voron1.8) I have already sourced and some I will replace with alternatives that I already have (see the notes columns for details).
+I had originally chosen parts for the [Hypercube](printer-hypercube.md) that will lead up to re-building it into a Voron 1.8. However, I have chosen to build a new printer rather than upgrade my existing one in case I need to reprint more parts. I have already sourced many of the parts on the [BOM from the configurator](https://www.vorondesign.com/voron1.8) and I will replace some with alternatives that I already have (see the notes columns for details).
 
 ### Fasteners
 
@@ -49,21 +49,21 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 
 ### Frame
 
-![Voron 1.8 Frame](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/frame.jpg)
+![LDO Frame Kit Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/voron-frame-assembled.jpg)
 
-> Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
+I have looked into a few different options for a new frame for my 3D Printer and eventually settled on an [LDO frame kit for a Voron 1.8](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199). All these parts (Except for the DIN rails) come from this kit.
 
-| Item                                     | Quantity | Received | Notes                                                                                                                               |
-| ---------------------------------------- | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| DIN 3 Rails (35mm W) - 420mm             | 3        | 3        | BOM only specifies 2 but manual has 3                                                                                               |
-| Misumi HFSB5-2020-290                    | 1        | 1        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-420-TPW                | 10       | 10       | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-420                    | 1        | 1        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-230                    | 2        | 2        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-380                    | 1        | 1        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-500-LTP-RCP-AV380-AP40 | 4        | 4        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-200-TPW                | 2        | 2        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
-| Misumi HFSB5-2020-420-AH45-BH375         | 2        | 2        | In [LDO Voron 1.8 Frame Kit](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199) |
+| Item                                     | Quantity | Received | Notes                                 |
+| ---------------------------------------- | -------- | -------- | ------------------------------------- |
+| DIN 3 Rails (35mm W) - 420mm             | 3        | 3        | BOM only specifies 2 but manual has 3 |
+| Misumi HFSB5-2020-290                    | 1        | 1        |                                       |
+| Misumi HFSB5-2020-420-TPW                | 10       | 10       |                                       |
+| Misumi HFSB5-2020-420                    | 1        | 1        |                                       |
+| Misumi HFSB5-2020-230                    | 2        | 2        |                                       |
+| Misumi HFSB5-2020-380                    | 1        | 1        |                                       |
+| Misumi HFSB5-2020-500-LTP-RCP-AV380-AP40 | 4        | 4        |                                       |
+| Misumi HFSB5-2020-200-TPW                | 2        | 2        |                                       |
+| Misumi HFSB5-2020-420-AH45-BH375         | 2        | 2        |                                       |
 
 ### Vibration Management
 
@@ -128,35 +128,33 @@ I have specifically chosen parts for the [Hypercube](printer-hypercube.md) that 
 
 ### Electronics
 
-![Voron 1.8 Electronics](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/electronics.jpg)
+![LDO Motor Kit](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/ldo-motors.jpg)
 
-> Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
-
-| Item                               | Quantity | Received | Notes                                                                                                                   |
-| ---------------------------------- | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------- |
-| NEMA17 Motor 17HS19-2004S          | 2        | 2        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit) |
-| SPDT KW10 Limit Micro Switch       | 3        | 30       |                                                                                                                         |
-| PL-08N Inductive Probe             | 1        | 1        | Using Tronxy XY-08N. Going to replace with [Klicky Probe](#klicky-probe)                                                |
-| E3D V6 Bowden Hotend Kit (24V)     | 1        |          | 1 on order                                                                                                              |
-| 40x40x20 Centrifugal Fan (24V)     | 1        |          | 1 on order                                                                                                              |
-| 40x40x10 Axial Fan (24V)           | 1        |          | 1 on order                                                                                                              |
-| Mini 12864 Display                 | 1        | 1        |                                                                                                                         |
-| Inlet Power Socket IEC320 C14      | 1        | 1        |                                                                                                                         |
-| Keystone CAT6 Insert (Optional)    | 1        | 2        | 1 Ethernet and 1 USB                                                                                                    |
-| 60x60x20 Fan (24V)                 | 2        |          | 2 on order                                                                                                              |
-| SKR 1.4                            | 1        | 1        | I have the Turbo version                                                                                                |
-| TMC2209 Stepper Motor Driver       | 5        | 5        |                                                                                                                         |
-| USB Cable A-male B-male            | 1        | 1        |                                                                                                                         |
-| Raspberry Pi 4                     | 1        |          | Using Raspberry Pi 3B+ Instead as I already have one                                                                    |
-| Mean Well LRS-200-24 PSU           | 1        | 1        |                                                                                                                         |
-| Mean Well RS-25-5 PSU              | 1        | 1        |                                                                                                                         |
-| Omron G3A-210B-DC5 SSR             | 1        | 1        |                                                                                                                         |
-| DIN Rail Mount Bracket for G3A SSR | 1        | 1        |                                                                                                                         |
-| BAT85 Diode                        | 1        | 7        | My Tronxy XY-08N seems to work fine on SKR 1.4 Turbo using endstop pins                                                 |
-| C13 Power Cord                     | 1        | 3        |                                                                                                                         |
-| Thermal Fuse (120C)                | 1        | 5        |                                                                                                                         |
-| NEMA17 Motor 17HS08-1004S          | 1        | 1        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit) |
-| NEMA17 TR8x8 300mm Linear Stepper  | 2        | 2        | In [LDO V1 Z Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-v1-z-motor-kit)                     |
+| Item                               | Quantity | Received | Notes                                                                                                                                    |
+| ---------------------------------- | -------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| NEMA17 Motor 17HS19-2004S          | 2        | 2        | Ordered some [larger ones than that are in the LDO Voron V1/V2 HT Motor Kit](https://www.onetwo3d.co.uk/product/ldo-42sth48-2004mahvrn/) |
+| SPDT KW10 Limit Micro Switch       | 3        | 30       |                                                                                                                                          |
+| PL-08N Inductive Probe             | 1        | 1        | Using Tronxy XY-08N. Going to replace with [Klicky Probe](#klicky-probe)                                                                 |
+| E3D V6 Bowden Hotend Kit (24V)     | 1        |          | 1 on order                                                                                                                               |
+| 40x40x20 Centrifugal Fan (24V)     | 1        |          | 1 on order                                                                                                                               |
+| 40x40x10 Axial Fan (24V)           | 1        |          | 1 on order                                                                                                                               |
+| Mini 12864 Display                 | 1        | 1        |                                                                                                                                          |
+| Inlet Power Socket IEC320 C14      | 1        | 1        |                                                                                                                                          |
+| Keystone CAT6 Insert (Optional)    | 1        | 2        | 1 Ethernet and 1 USB                                                                                                                     |
+| 60x60x20 Fan (24V)                 | 2        |          | 2 on order                                                                                                                               |
+| SKR 1.4                            | 1        | 1        | I have the Turbo version                                                                                                                 |
+| TMC2209 Stepper Motor Driver       | 5        | 5        |                                                                                                                                          |
+| USB Cable A-male B-male            | 1        | 1        |                                                                                                                                          |
+| Raspberry Pi 4                     | 1        |          | Using Raspberry Pi 3B+ Instead as I already have one                                                                                     |
+| Mean Well LRS-200-24 PSU           | 1        | 1        |                                                                                                                                          |
+| Mean Well RS-25-5 PSU              | 1        | 1        |                                                                                                                                          |
+| Omron G3A-210B-DC5 SSR             | 1        | 1        |                                                                                                                                          |
+| DIN Rail Mount Bracket for G3A SSR | 1        | 1        |                                                                                                                                          |
+| BAT85 Diode                        | 1        | 7        | My Tronxy XY-08N seems to work fine on SKR 1.4 Turbo using endstop pins                                                                  |
+| C13 Power Cord                     | 1        | 3        |                                                                                                                                          |
+| Thermal Fuse (120C)                | 1        | 5        |                                                                                                                                          |
+| NEMA17 Motor 17HS08-1004S          | 1        | 1        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit)                  |
+| NEMA17 TR8x8 300mm Linear Stepper  | 2        | 2        | In [LDO V1 Z Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-v1-z-motor-kit)                                      |
 
 ### Panels
 
@@ -208,8 +206,6 @@ All printed parts will be printed in eSun ABS+. The Voron team recommends an inf
 
 ### Gantry
 
-The long term goal is to eventually replace the smooth rods of the XY Gantry with linear rails to allow me to increase my printing speeds further.
-
 ![Voron 1.8 Gantry](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/gantry.jpg)
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
@@ -225,7 +221,6 @@ Some of the gantry parts (specifically the AB Drive Units and Front Idlers) will
 | Item                                                                                                                             | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                  |
 | -------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ---------------------- |
 | [wire_cover](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/%5Ba%5D_wire_cover.stl)           | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.30m | 3.31g  | £0.06 | :heavy_check_mark: | This is a Trident Part |
-| [y_endstop_housing](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/AB_Drive_Units/y_endstop_housing.stl)       | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.47m | 3.74g  | £0.07 | :heavy_check_mark: |                        |
 | [a_drive_frame_lower](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/a_drive_frame_lower.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 8.58m | 21.86g | £0.42 | :heavy_check_mark: | This is a Trident Part |
 | [a_drive_frame_upper](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/a_drive_frame_upper.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 8.21m | 20.93g | £0.40 | :heavy_check_mark: | This is a Trident Part |
 | [b_drive_frame_lower](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Gantry/AB_Drive_Units/b_drive_frame_lower.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 7.93m | 20.21g | £0.38 | :heavy_check_mark: | This is a Trident Part |
@@ -281,6 +276,37 @@ The lower A drive was the first time I have tried to print with ABS. The upper w
 | M5 Hexnut          | 2        |
 | M5x40 SHCS         | 2        |
 
+#### :negative_squared_cross_mark: Rear Crossbar
+
+Both fully assembled AB Drive Units are required to install the rear crossbar.
+
+##### Assembly
+
+###### Parts Used
+
+| Item                  | Quantity |
+| --------------------- | -------- |
+| M5 T-nut              | 8        |
+| M5x10 BHCS            | 8        |
+| Misumi HFSB5-2020-290 | 1        |
+
+#### :negative_squared_cross_mark: Linear Rails
+
+Both Front Idlers are installed at this stage.
+
+##### Assembly
+
+###### Parts Used
+
+| Item                    | Quantity |
+| ----------------------- | -------- |
+| Linear Rail MGN9H 350mm | 2        |
+| M3 T-nut                | 10       |
+| M3x8 SHCS               | 8        |
+| M3x10 BHCS              | 1        |
+| M5 T-nut                | 14       |
+| M5x10 BHCS              | 13       |
+
 ### Z Axis
 
 ![Voron 1.8 Z Axis](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/z-axis.jpg)
@@ -303,12 +329,14 @@ The lower A drive was the first time I have tried to print with ABS. The upper w
 
 ###### Parts Used
 
-| Item                  | Quantity |
-| --------------------- | -------- |
-| LM8LUU Linear Bearing | 4        |
-| M5 T-nut              | 10       |
-| M5x10 BHCS            | 8        |
-| M5x16 BHCS            | 6        |
+| Item                             | Quantity |
+| -------------------------------- | -------- |
+| LM8LUU Linear Bearing            | 4        |
+| M5 T-nut                         | 10       |
+| M5x10 BHCS                       | 8        |
+| M5x16 BHCS                       | 6        |
+| Misumi HFSB5-2020-200-TPW        | 2        |
+| Misumi HFSB5-2020-420-AH45-BH375 | 2        |
 
 #### :negative_squared_cross_mark: Z Axis Rods
 
@@ -342,38 +370,122 @@ The X Axis was flipped on the Trident (linear rails are on the bottom of the ext
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-#### XY Joints
+#### :negative_squared_cross_mark: XY Joints
 
-| Item                                                                                                                                            | Quantity | Material                                                |      Printed       | Notes                                   |
-| ----------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | --------------------------------------- |
-| [cap](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/cap_x2.stl)                                              | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                         |
-| [xy_joint_left_lower](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_left_lower.stl)                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                         |
-| [xy_joint_left_upper](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_left_upper.stl)                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                         |
-| [xy_joint_right_lower](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_right_lower.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                         |
-| [xy_joint_right_upper](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_right_upper_generic_chain.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is the Generic Cable Chain Version |
+| Item                                                                                                                                            | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                   |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :----------------: | --------------------------------------- |
+| [cap](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/cap_x2.stl)                                              | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.12m  | 0.30g  | £0.01 | :heavy_check_mark: |                                         |
+| [xy_joint_left_lower](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_left_lower.stl)                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 5.34m  | 13.61g | £0.26 | :heavy_check_mark: |                                         |
+| [xy_joint_left_upper](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_left_upper.stl)                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 10.15m | 25.89g | £0.49 | :heavy_check_mark: |                                         |
+| [xy_joint_right_lower](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_right_lower.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 5.71m  | 14.55g | £0.28 | :heavy_check_mark: |                                         |
+| [xy_joint_right_upper](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/XY_Joint/xy_joint_right_upper_generic_chain.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 9.83m  | 25.07g | £0.48 | :heavy_check_mark: | This is the Generic Cable Chain Version |
 
-### Afterburner/Stealthburner
+##### Assembly
+
+###### Parts Used
+
+| Item                                 | Quantity |
+| ------------------------------------ | -------- |
+| F695 Bearing                         | 4        |
+| GT2 20T Toothed Idler (5mm ID 6mm W) | 2        |
+| Linear Rail MGN9H 350mm              | 2        |
+| M3 T-nut                             | 8        |
+| M3 Threaded Insert                   | 3        |
+| M3x8 SHCS                            | 16       |
+| M5 1mm Spacer                        | 4        |
+| M5 Hexnut                            | 6        |
+| M5 T-nut                             | 4        |
+| M5x16 BHCS                           | 4        |
+| M5x30 BHCS                           | 2        |
+| M5x40 SHCS                           | 6        |
+| Misumi HFSB5-2020-380                | 1        |
+
+#### :negative_squared_cross_mark: X Carriage
+
+| Item                                                                                                                                         | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----- |
+| [belt_clamp](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/X_Carriage/%5Ba%5D_belt_clamp_x2.stl)                   | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.21m | 0.54g  | £0.01 | :heavy_check_mark: |       |
+| [probe_retainer_bracket](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/X_Carriage/probe_retainer_bracket.stl)      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.18m | 0.46g  | £0.01 | :heavy_check_mark: |       |
+| [x_carriage_frame_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/X_Carriage/x_carriage_frame_left.stl)        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 6.86m | 17.48g | £0.33 | :heavy_check_mark: |       |
+| [x_carriage_frame_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/X_Carriage/x_carriage_frame_right_V1.8.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 6.75m | 17.20g | £0.33 | :heavy_check_mark: |       |
+| [x_carriage_pivot_block](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/X_Carriage/x_carriage_pivot_block.stl)      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.25m | 3.19g  | £0.06 | :heavy_check_mark: |       |
+
+##### Assembly
+
+###### Parts Used
+
+| Item                         | Quantity |
+| ---------------------------- | -------- |
+| M2x10 Self-Tapping Screw     | 1        |
+| M3 Hexnut                    | 3        |
+| M3 Threaded Insert           | 6        |
+| M3x8 SHCS                    | 8        |
+| M3x12 SHCS                   | 2        |
+| M3x16 SHCS                   | 2        |
+| M3x20 SHCS                   | 2        |
+| M3x30 SHCS                   | 3        |
+| PL-08N Inductive Probe       | 1        |
+| SPDT KW10 Limit Micro Switch | 1        |
+
+#### :negative_squared_cross_mark: Belts
+
+##### Assembly
+
+###### Parts Used
+
+| Item                                       | Quantity |
+| ------------------------------------------ | -------- |
+| GT2 Open Belt LL-2GT-6 (6mm wide) - 1890mm | 2        |
+
+### Afterburner
 
 ![Afterburner](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/afterburner.jpg)
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-| Item                                                                                                                                         | Quantity | Material                                                |      Printed       | Notes |
-| -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ----- |
-| [belt_clamp](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/X_Carriage/%5Ba%5D_belt_clamp_x2.stl)                   | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: |       |
-| [probe_retainer_bracket](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/X_Carriage/probe_retainer_bracket.stl)      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |       |
-| [x_carriage_frame_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/X_Carriage/x_carriage_frame_left.stl)        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |       |
-| [x_carriage_frame_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/X_Carriage/x_carriage_frame_right_V1.8.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |       |
-| [x_carriage_pivot_block](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/X_Axis/X_Carriage/x_carriage_pivot_block.stl)      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |       |
+I will not be printing the parts for the Afterburner specified in the Voron 1.8 repository yet as there is an upcoming update to the Afterburner, called the Stealthburner that is not yet released.
 
-In addition to the required Voron 1.8 parts above I will also need to [print the parts for the Afterburner/Stealthburner itself](printer-extruders-and-toolheads.md#voron-afterburner-stealthburner).
+I have documented the parts required for the toolhead on the [extruders and toolheads page](printer-extruders-and-toolheads.md#voron-afterburner-stealthburner) as it is still in a bit of flux due to the Stealthburner still being in Beta.
 
-### Z Endstop
+### Endstops
 
-| Item                                                                                                                                          | Quantity | Material                                                |      Printed       | Notes                           |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ------------------------------- |
-| [z_endstop_pcb_bottom](https://github.com/VoronDesign/Voron-Hardware/blob/master/Microswitch_Z_Endstop/STLs/%5Ba%5D_z_endstop_pcb_bottom.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | Version for Hartk Z Endstop PCB |
-| [z_endstop_pcb_top](https://github.com/VoronDesign/Voron-Hardware/blob/master/Microswitch_Z_Endstop/STLs/z_endstop_pcb_top.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | Version for Hartk Z Endstop PCB |
+#### :negative_squared_cross_mark: Y Endstop
+
+| Item                                                                                                                       | Quantity | Material                                            | Size  | Weight | Cost  |      Printed       | Notes |
+| -------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----- |
+| [y_endstop_housing](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Gantry/AB_Drive_Units/y_endstop_housing.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 1.47m | 3.74g  | £0.07 | :heavy_check_mark: |       |
+
+##### Assembly
+
+###### Parts Used
+
+| Item                         | Quantity |
+| ---------------------------- | -------- |
+| M3x16 SHCS                   | 1        |
+| M5x16 BHCS                   | 1        |
+| SPDT KW10 Limit Micro Switch | 1        |
+
+#### :negative_squared_cross_mark: Z Endstop
+
+| Item                                                                                                                                          | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                           |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ------------------------------- |
+| [z_endstop_pcb_bottom](https://github.com/VoronDesign/Voron-Hardware/blob/master/Microswitch_Z_Endstop/STLs/%5Ba%5D_z_endstop_pcb_bottom.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.30m | 0.77g  | £0.01 | :heavy_check_mark: | Version for Hartk Z Endstop PCB |
+| [z_endstop_pcb_top](https://github.com/VoronDesign/Voron-Hardware/blob/master/Microswitch_Z_Endstop/STLs/z_endstop_pcb_top.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.46m | 6.27g  | £0.12 | :heavy_check_mark: | Version for Hartk Z Endstop PCB |
+
+##### Assembly
+
+###### Parts Used
+
+| Item                             | Quantity |
+| -------------------------------- | -------- |
+| 5x30mm Shaft                     | 1        |
+| GT2 20T Pulley (5mm ID 6mm W)    | 1        |
+| JST XH Connector Plug 2 Position | 1        |
+| M2x10 Self-Tapping Screw         | 4        |
+| M3 T-nut                         | 2        |
+| M3x20 SHCS                       | 2        |
+| Microswitch Z Endstop PCB        | 1        |
+| SPDT KW10 Limit Micro Switch     | 1        |
 
 ### Bottom Skirts
 
@@ -529,6 +641,14 @@ Wago Mount for connecting bed wires.
 
 **_NOTE:_** The side parts split at the layer lines when inserting the Wago connectors to this part (I printed it in ABS so there may have been some shrinkage). I replaced it with [this version from Thingyverse instead](https://www.thingiverse.com/thing:4579456).
 
+### Cable Chain Anchors
+
+Clips to route zip ties through 3 hole cable chain to attach to 2020 extrusion.
+
+| Item                                                                                                                                                                                                      | Quantity | Material                                                | Printed | Notes                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ------------------------------------- |
+| [Triangle_Hole_Pattern_End_Mount_to_2020](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/bryansj/Befenybay_Chain_Anchors/Triangle_Hole_Pattern_End_Mount_to_2020.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Voron Users Mod by bryansj. |
+
 ### Bed Fans
 
 Mounts for 5015 fans to circulate air around the enclosure to get hotter chamber temps.
@@ -658,6 +778,15 @@ Mount for the display allowing it to be tilted and angled.
 | [Swingarm_long](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_long.stl)                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Voron Users Mod by Iakabos                                                                                     |
 | [Swingarm_short(Mirror)](<https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_short(Mirror).stl>) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Voron Users Mod by Iakabos                                                                                     |
 | [Swingarm_short](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_short.stl)                   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Voron Users Mod by Iakabos                                                                                     |
+
+### Corner Cable Cover
+
+Cover to hide the cables for the LED strip around the top corners of the printer
+
+| Item                                                                                                                                                                          | Quantity | Material                                            | Printed | Notes                                   |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- | :-----: | --------------------------------------- |
+| [top_corner_cable_hide_left](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/samwiseg0/corner_cable_hide/STLs/%5Ba%5D_top_corner_cable_hide_left_x2.stl)   | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) |   :x:   | This is a Voron Users Mod by samwiseg0. |
+| [top_corner_cable_hide_right](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/samwiseg0/corner_cable_hide/STLs/%5Ba%5D_top_corner_cable_hide_right_x2.stl) | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) |   :x:   | This is a Voron Users Mod by samwiseg0. |
 
 ### Power Supply Cover
 

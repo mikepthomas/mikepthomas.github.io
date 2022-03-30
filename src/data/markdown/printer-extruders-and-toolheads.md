@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 28, 2022
+Updated March 30, 2022
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -64,9 +64,9 @@ When I have upgraded to the Afterburner, I will reuse the parts for the M4 for t
 
 ### Electronics
 
-| Item                       | Quantity | Received | Notes |
-| -------------------------- | -------- | -------- | ----- |
-| NEMA17 Motor 17HS15-1504S1 | 2        | 2        |       |
+| Item                       | Quantity | Received | Notes                                                                                                                   |
+| -------------------------- | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------- |
+| NEMA17 Motor 17HS15-1504S1 | 2        | 2        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit) |
 
 ### Bowden
 

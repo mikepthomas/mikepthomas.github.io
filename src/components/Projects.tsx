@@ -124,18 +124,13 @@ const Projects = (props: Props) => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/projects/printer-hypercube">
-                        Hypercube CoreXY Upgrade
+                      <Link to="/projects/printer-voron-1.8">
+                        Voron 1.8 Upgrade
                       </Link>
                     </li>
                     <li>
                       Future Upgrades
                       <ul>
-                        <li>
-                          <Link to="/projects/printer-voron-1.8">
-                            Voron 1.8 Upgrade
-                          </Link>
-                        </li>
                         <li>
                           <Link to="/projects/printer-nevermore-filter">
                             Nevermore Micro V5 Duo
@@ -144,6 +139,16 @@ const Projects = (props: Props) => {
                         <li>
                           <Link to="/projects/printer-enraged-rabbit-carrot-feeder">
                             Enraged Rabbit Carrot Feeder
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      Abandoned Projects
+                      <ul>
+                        <li>
+                          <Link to="/projects/printer-hypercube">
+                            Hypercube CoreXY Upgrade
                           </Link>
                         </li>
                       </ul>

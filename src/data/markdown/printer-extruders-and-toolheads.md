@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 30, 2022
+Updated March 31, 2022
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -133,7 +133,7 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 | ----------------------------------------- | -------- | -------- | --------------------------------------------------------------- |
 | M3x8 SHCS                                 | 2        | 182      | 50 on order. in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners) |
 | M3x6 FHCS                                 | 2        | 30       | 50 on order. in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners) |
-| M3x6 BHCS                                 | 1        | 30       | 50 on order                                                     |
+| M3x6 BHCS                                 | 1        | 50       |                                                                 |
 | M3x50 SHCS                                | 2        | 50       |                                                                 |
 | M3x30 SHCS                                | 3        | 30       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
 | M3x25 SHCS                                | 7        | 30       |                                                                 |

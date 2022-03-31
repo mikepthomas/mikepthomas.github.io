@@ -1,7 +1,7 @@
 # Building an Enraged Rabbit Carrot Feeder
 
 Febuary 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 22, 2022
+Updated March 31, 2022
 
 Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRabbitProject) to print using multiple colours of filament on the Voron.
 
@@ -42,32 +42,32 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Fasteners
 
-| Item                                        | Quantity | Received | Notes       |
-| ------------------------------------------- | -------- | -------- | ----------- |
-| M3 threaded inserts                         | 26       | 50       |             |
-| M5x30 BHCS                                  | 2        | 15       |             |
-| M5x16 BHCS                                  | 1        | 3        | 10 on order |
-| M5 nuts                                     | 4        | 11       |             |
-| M5 nylock nuts                              | 5        |          | 50 on order |
-| M5 washers                                  | 2        | 30       |             |
-| M3x8 SHCS                                   | 20       | 11       | 50 on order |
-| M3x8 BHCS                                   | 5        | 20       | 50 on order |
-| M3x12 SHCS                                  | 3        | 66       |             |
-| M3x16 SHCS                                  | 10       | 13       |             |
-| M3x20 SHCS                                  | 7        | 20       |             |
-| M3x40 SHCS                                  | 2        | 15       |             |
-| M3 washers (could also be the DIN125 below) | 2        | 40       |             |
-| M3 DIN125 Steel Washer                      | 6        |          | 6 on order  |
-| M2x8 SHCS or M2x10 SHCS                     | 2        | 46       |             |
+| Item                                        | Quantity | Received | Notes        |
+| ------------------------------------------- | -------- | -------- | ------------ |
+| M3 threaded inserts                         | 26       | 50       |              |
+| M5x30 BHCS                                  | 2        | 15       |              |
+| M5x16 BHCS                                  | 1        | 3        |              |
+| M5 nuts                                     | 4        | 11       |              |
+| M5 nylock nuts                              | 5        | 50       |              |
+| M5 washers                                  | 2        | 30       |              |
+| M3x8 SHCS                                   | 20       | 11       | 50 on order  |
+| M3x8 BHCS                                   | 5        | 20       | 100 on order |
+| M3x12 SHCS                                  | 3        | 66       |              |
+| M3x16 SHCS                                  | 10       | 13       |              |
+| M3x20 SHCS                                  | 7        | 20       |              |
+| M3x40 SHCS                                  | 2        | 15       |              |
+| M3 washers (could also be the DIN125 below) | 2        | 40       |              |
+| M3 DIN125 Steel Washer                      | 6        |          | 6 on order   |
+| M2x8 SHCS or M2x10 SHCS                     | 2        | 46       |              |
 
 ### Motion
 
-| Item                                 | Quantity | Received | Notes      |
-| ------------------------------------ | -------- | -------- | ---------- |
-| GT2 belt 6mm (open)                  | 1        | 1        |            |
-| GT2 20T Pulley 6 mm, 5mm bore        | 3        | 2        |            |
-| GT2 20T Toothed Idler 6 mm, 5mm bore | 1        |          | 2 on order |
-| GT2 188m Belt loop 6mm               | 1        | 1        |            |
+| Item                                 | Quantity | Received | Notes |
+| ------------------------------------ | -------- | -------- | ----- |
+| GT2 belt 6mm (open)                  | 1        | 1        |       |
+| GT2 20T Pulley 6 mm, 5mm bore        | 3        | 2        |       |
+| GT2 20T Toothed Idler 6 mm, 5mm bore | 1        | 2        |       |
+| GT2 188m Belt loop 6mm               | 1        | 1        |       |
 
 ### Misc
 

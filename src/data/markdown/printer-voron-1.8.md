@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 30, 2022
+Updated March 31, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -25,7 +25,7 @@ I had originally chosen parts for the [Hypercube](printer-hypercube.md) that wil
 | -------------------------- | -------- | -------- | ----------- |
 | M5x40 SHCS                 | 8        | 29       |             |
 | M5x30 BHCS                 | 6        | 21       |             |
-| M5x16 BHCS                 | 67       | 60       | 10 on order |
+| M5x16 BHCS                 | 67       | 70       |             |
 | M5x10 BHCS                 | 71       | 104      |             |
 | M5 Hexnut                  | 8        | 19       |             |
 | M5 1mm Spacer              | 20       | 50       |             |
@@ -37,7 +37,7 @@ I had originally chosen parts for the [Hypercube](printer-hypercube.md) that wil
 | M3x16 SHCS                 | 17       | 30       |             |
 | M3x12 SHCS                 | 30       | 80       |             |
 | M3x8 SHCS                  | 171      | 182      | 50 on order |
-| M3x6 BHCS                  | 20       | 30       | 50 on order |
+| M3x6 BHCS                  | 20       | 50       |             |
 | M3 Hexnut                  | 7        | 50       |             |
 | M3 Washer                  | 10       | 50       |             |
 | M3 T-nut                   | 120      | 160      |             |
@@ -45,7 +45,7 @@ I had originally chosen parts for the [Hypercube](printer-hypercube.md) that wil
 | M3 Threaded Insert         | 50       | 100      |             |
 | M3 Knurled Nut (DIN 466-B) | 3        | 5        |             |
 | M2x10 Self-Tapping Screw   | 7        | 53       |             |
-| Yellow Die Spring - M3     | 1        |          | 5 on order  |
+| Yellow Die Spring - M3     | 1        |          | 10 on order |
 
 ### Frame
 
@@ -663,9 +663,9 @@ Cleans the nozzle before printing and has endstops to locate the magnetic bed.
 
 | Item                                                                                                                                                                                                | Quantity | Material                                                |      Printed       | Notes                                    |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ---------------------------------------- |
-| [brush_holder_sheet_stop](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/brush_holder_sheet_stop_rev4.stl)     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Voron Users Mod by edwardyeeks |
+| [brush_holder_sheet_stop](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/brush_holder_sheet_stop_rev4.stl)     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
 | [extension_bracket](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/extension_bracket_v1.8_rev4.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
-| [individual_sheetstop](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/individual_sheetstop_v1.8_v2.4_rev4.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Voron Users Mod by edwardyeeks |
+| [individual_sheetstop](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/individual_sheetstop_v1.8_v2.4_rev4.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
 | [purge_bucket](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/purge_bucket_300mm_rev4.stl)                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         | This is a Voron Users Mod by edwardyeeks |
 
 ### Smart Filament Sensor Mount
@@ -774,10 +774,10 @@ Mount for the display allowing it to be tilted and angled.
 | [Front](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Front.stl)                                     | 1        |                                                         |        :x:         | This is a Voron Users Mod by Iakabos. I will print the Voron 1.8 version that has been shaped to allow the doors to open |
 | [Mount_block(Mirror)](<https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Mount_block(Mirror).stl>)       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by Iakabos                                                                                     |
 | [Mount_block](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Mount_block.stl)                         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by Iakabos                                                                                     |
-| [Swingarm_long(Mirror)](<https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_long(Mirror).stl>)   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Voron Users Mod by Iakabos                                                                                     |
-| [Swingarm_long](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_long.stl)                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Voron Users Mod by Iakabos                                                                                     |
-| [Swingarm_short(Mirror)](<https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_short(Mirror).stl>) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Voron Users Mod by Iakabos                                                                                     |
-| [Swingarm_short](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_short.stl)                   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Voron Users Mod by Iakabos                                                                                     |
+| [Swingarm_long(Mirror)](<https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_long(Mirror).stl>)   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by Iakabos                                                                                     |
+| [Swingarm_long](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_long.stl)                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by Iakabos                                                                                     |
+| [Swingarm_short(Mirror)](<https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_short(Mirror).stl>) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by Iakabos                                                                                     |
+| [Swingarm_short](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_short.stl)                   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by Iakabos                                                                                     |
 
 ### Corner Cable Cover
 

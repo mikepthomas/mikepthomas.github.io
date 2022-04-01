@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 31, 2022
+Updated April 1, 2022
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -97,10 +97,10 @@ When I have upgraded to the Afterburner, I will reuse the parts for the M4 for t
 
 ### Bowden
 
-| Item          | Quantity | Received | Notes       |
-| ------------- | -------- | -------- | ----------- |
-| Bowden Clip   | 2        |          |             |
-| Bowden Collet | 2        |          | 10 on order |
+| Item          | Quantity | Received | Notes |
+| ------------- | -------- | -------- | ----- |
+| Bowden Clip   | 2        |          |       |
+| Bowden Collet | 2        | 10       |       |
 
 ### Printed Parts
 

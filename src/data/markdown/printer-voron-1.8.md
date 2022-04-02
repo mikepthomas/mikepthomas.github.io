@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 1, 2022
+Updated April 2, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -758,7 +758,7 @@ A mount for a [BIQU116-A2 MKS Mosfet](https://www.biqu.equipment/products/3d-pri
 
 | Item                                                                                                                                         | Quantity | Material                                                |      Printed       | Notes                                                  |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ------------------------------------------------------ |
-| [MKS Mosfet Mount](https://github.com/mikepthomas/VoronUsers/blob/master/printer_mods/mikepthomas/MKS_Mosfet_Mount/STL/MKS_Mosfet_Mount.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by mikepthomas (me :blush:). |
+| [MKS Mosfet Mount](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/mikepthomas/MKS_Mosfet_Mount/STL/MKS_Mosfet_Mount.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by mikepthomas (me :blush:). |
 | [pcb_din_clip_v2](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_v2_x5.stl)                         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Trident Part                                 |
 
 ### 60mm Fan Cover

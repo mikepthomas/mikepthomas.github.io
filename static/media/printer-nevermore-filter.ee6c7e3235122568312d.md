@@ -1,7 +1,7 @@
 # Nevermore Micro V5 Duo
 
 March 16, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 26, 2022
+Updated March 31, 2022
 
 Building an [Nevermore Micro V5 Duo](https://github.com/nevermore3d/Nevermore_Micro) to reduce the smell of printing ABS.
 
@@ -18,15 +18,15 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Fasteners
 
-| Item                  | Quantity | Received | Notes       |
-| --------------------- | -------- | -------- | ----------- |
-| M3 threaded inserts   | 6        | 6        |             |
-| M3x18 BHCS            | 1        |          | 50 on order |
-| M3x16 BHCS            | 4        |          | 50 on order |
-| M3x12 BHCS            | 2        |          | 50 on order |
-| M3x6 BHCS             | 2        |          | 50 on order |
-| M3x4 BHCS             | 1        |          | 50 on order |
-| M3 Hammer Head T-nuts | 2        | 2        |             |
+| Item                  | Quantity | Received | Notes |
+| --------------------- | -------- | -------- | ----- |
+| M3 threaded inserts   | 6        | 6        |       |
+| M3x18 BHCS            | 1        | 50       |       |
+| M3x16 BHCS            | 4        | 50       |       |
+| M3x12 BHCS            | 2        | 50       |       |
+| M3x6 BHCS             | 2        | 30       |       |
+| M3x4 BHCS             | 1        | 50       |       |
+| M3 Hammer Head T-nuts | 2        | 2        |       |
 
 ### Misc
 

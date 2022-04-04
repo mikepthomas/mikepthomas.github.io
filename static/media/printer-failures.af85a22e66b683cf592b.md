@@ -1,7 +1,7 @@
 # 3D Printer Failures
 
 May 21, 2018 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 7, 2022
+Updated April 1, 2022
 
 3D printing is not all plain sailing... sometimes things go wrong, the good thing about building your printer from scratch, is that you also know how to repair it.
 
@@ -86,3 +86,9 @@ Due to the repetitive sideways movement of the X axis one of the wires of the 3D
 ![Bearings Failed in cheap idlers](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-failures/bearing-failure.jpg)
 
 The X axis movements started to make a grinding noise, the cheap toothed idlers I purchased have ground their bearings to dust (I also checked the Y axis bearing, it however wasn't making any noise but has also ground the bearings away) I have put back the stock Anet A8 smooth bearings for now and ordered some higher quality toothed ones.
+
+## Fan Duct Deformed
+
+![Fan Duct Deformed printing ABS](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-failures/fan-duct-deformed.jpg)
+
+Due to the close proximity to the hot end and the higher temperatures required to print ABS my replacement PETG part cooling fan has stated to deform. I have reprinted it in ABS to withstand the higher temperatures and will also reprint some other parts in ABS that are close to the hot end before they start to fail too.

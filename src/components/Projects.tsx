@@ -141,6 +141,11 @@ const Projects = (props: Props) => {
                             Enraged Rabbit Carrot Feeder
                           </Link>
                         </li>
+                        <li>
+                          <Link to="/projects/printer-enraged-rabbit-carrot-patch">
+                            Enraged Rabbit Carrot Patch
+                          </Link>
+                        </li>
                       </ul>
                     </li>
                     <li>

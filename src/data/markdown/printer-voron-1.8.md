@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 2, 2022
+Updated April 5, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -77,18 +77,18 @@ I have looked into a few different options for a new frame for my 3D Printer and
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-| Item                                       | Quantity | Received | Notes                                                    |
-| ------------------------------------------ | -------- | -------- | -------------------------------------------------------- |
-| GT2 20T Pulley (5mm ID 6mm W)              | 3        | 3        |                                                          |
-| GT2 20T Toothed Idler (5mm ID 6mm W)       | 2        | 4        |                                                          |
-| F695 Bearing                               | 20       | 30       |                                                          |
-| LM8LUU Linear Bearing                      | 4        | 4        |                                                          |
-| TR8x8 Leadscrew Nut                        | 2        | 6        |                                                          |
-| 5x30mm Shaft                               | 1        | 1        |                                                          |
-| BMG Extruder Components Kit                | 1        | 2        |                                                          |
-| Linear Rail MGN9H 350mm                    | 4        | 4        |                                                          |
-| Linear Shaft 8x320mm                       | 4        | 4        | Ordered 500mm Carbon Fiber ones that I can cut to length |
-| GT2 Open Belt LL-2GT-6 (6mm wide) - 1890mm | 2        | 4        | I have about 10 meters left                              |
+| Item                                       | Quantity | Received | Notes      |
+| ------------------------------------------ | -------- | -------- | ---------- |
+| GT2 20T Pulley (5mm ID 6mm W)              | 3        | 3        |            |
+| GT2 20T Toothed Idler (5mm ID 6mm W)       | 2        | 4        |            |
+| F695 Bearing                               | 20       | 30       |            |
+| LM8LUU Linear Bearing                      | 4        | 4        |            |
+| TR8x8 Leadscrew Nut                        | 2        | 6        |            |
+| 5x30mm Shaft                               | 1        | 1        |            |
+| BMG Extruder Components Kit                | 1        | 2        |            |
+| Linear Rail MGN9H 350mm                    | 4        | 4        |            |
+| Linear Shaft 8x320mm                       | 4        |          | 4 on order |
+| GT2 Open Belt LL-2GT-6 (6mm wide) - 1890mm | 2        | 4        |            |
 
 ### Print Bed
 
@@ -108,7 +108,7 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | Item                                      | Quantity | Received | Notes              |
 | ----------------------------------------- | -------- | -------- | ------------------ |
 | Nylon Cable Ties 4"                       | 40       | 100      |                    |
-| 1/2" Braided Cable Sheathing (ft)         | 5        |          | 16 on order        |
+| 1/2" Braided Cable Sheathing (ft)         | 5        | 16       |                    |
 | 20AWG Silicone Cable (ft)                 | 10       | 137      | in various colours |
 | 24AWG Silicone Cable (ft)                 | 100      | 177      | in various colours |
 | Spade Crimp Terminal 4.8mm Female         | 10       | 20       |                    |

@@ -210,3 +210,9 @@ I have purchased JST SM connectors instead of Microfit 3 (this doesnt matter for
 The chain is smaller on the ERCF than the chain for the Voron build. I am not expecting to have any chain left over (especially as I am going to print Z chain) and rather than buying some more chain I will try printing it instead.
 
 [Printable Chain](https://github.com/EtteGit/EnragedRabbitProject/tree/main/usermods/Printable_drag_chain)
+
+### Easy BRD
+
+My SKR 1.4 Turbo does not have enough Stepper Motor Drivers to run the ERCF, this is a board specifically designed to run the Carrot Feeder.
+
+[Easy BRD](https://github.com/Tircown/ERCF-easy-brd)

@@ -21,11 +21,11 @@ I have some of the parts required left over from the build of the [Voron](printe
 | Item                  | Quantity | Received | Notes |
 | --------------------- | -------- | -------- | ----- |
 | M3 threaded inserts   | 6        | 6        |       |
-| M3x18 BHCS            | 1        | 50       |       |
-| M3x16 BHCS            | 4        | 50       |       |
-| M3x12 BHCS            | 2        | 50       |       |
-| M3x6 BHCS             | 2        | 30       |       |
-| M3x4 BHCS             | 1        | 50       |       |
+| M3x18 BHCS            | 1        | 1        |       |
+| M3x16 BHCS            | 4        | 4        |       |
+| M3x12 BHCS            | 2        | 2        |       |
+| M3x6 BHCS             | 2        | 2        |       |
+| M3x4 BHCS             | 1        | 1        |       |
 | M3 Hammer Head T-nuts | 2        | 2        |       |
 
 ### Misc

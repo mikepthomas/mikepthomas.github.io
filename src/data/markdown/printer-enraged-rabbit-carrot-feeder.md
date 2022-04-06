@@ -1,7 +1,7 @@
 # Building an Enraged Rabbit Carrot Feeder
 
 Febuary 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 31, 2022
+Updated April 6, 2022
 
 Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRabbitProject) to print using multiple colours of filament on the Voron.
 
@@ -19,86 +19,85 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Electronics
 
-| Item                                        | Quantity | Received | Notes      |
-| ------------------------------------------- | -------- | -------- | ---------- |
-| NEMA14 Motor 14HS11-1004S                   | 1        |          | 1 on order |
-| NEMA17 Motor 17HS08-1004S                   | 1        |          | 1 on order |
-| towerpro MG90S servo                        | 1        | 1        |            |
-| Stepper drivers (any, but TMC2209 are nice) | 2        |          | 2 on order |
-| TCRT5000 sensor pcb                         | 1        |          | 1 on order |
-| Omron Mouse Button - Micro Switch           | 1        | 7        |            |
+| Item                              | Quantity | Received | Notes |
+| --------------------------------- | -------- | -------- | ----- |
+| NEMA14 Motor 14HS11-1004S         | 1        | 1        |       |
+| NEMA17 Motor 17HS08-1004S         | 1        | 1        |       |
+| TowerPro MG90S servo              | 1        | 1        |       |
+| TMC2209 Stepper drivers           | 2        | 2        |       |
+| TCRT5000 sensor pcb               | 1        | 1        |       |
+| Omron Mouse Button - Micro Switch | 1        | 1        |       |
 
 ### Hardware
 
-| Item                          | Quantity | Received | Notes                                   |
-| ----------------------------- | -------- | -------- | --------------------------------------- |
-| 7 sets of bondtechs gears     | 7        | 2        | 7 on order                              |
-| LM8UU bearings or RJ4JP-01-08 | 2        | 8        |                                         |
-| M5 threaded rods              | 2        |          | 2 on order                              |
-| 8mm smooth rods               | 2        | 2        | Will use offcuts from Carbon Fiber Rods |
-| D-cut 5mm shaft               | 1        |          | 1 on order                              |
-| MR623ZZ bearing               | 1        |          | 1 on order                              |
-| MR85ZZ bearings               | 5        |          | 5 on order                              |
+| Item                      | Quantity | Received | Notes |
+| ------------------------- | -------- | -------- | ----- |
+| 7 sets of bondtechs gears | 7        | 7        |       |
+| RJ4JP-01-08               | 2        | 2        |       |
+| M5 threaded rods          | 2        | 2        |       |
+| 8mm smooth rods           | 2        | 2        |       |
+| D-cut 5mm shaft           | 1        | 1        |       |
+| MR623ZZ bearing           | 1        | 1        |       |
+| MR85ZZ bearings           | 5        | 5        |       |
 
 ### Fasteners
 
-| Item                                        | Quantity | Received | Notes        |
-| ------------------------------------------- | -------- | -------- | ------------ |
-| M3 threaded inserts                         | 26       | 50       |              |
-| M5x30 BHCS                                  | 2        | 15       |              |
-| M5x16 BHCS                                  | 1        | 3        |              |
-| M5 nuts                                     | 4        | 11       |              |
-| M5 nylock nuts                              | 5        | 50       |              |
-| M5 washers                                  | 2        | 30       |              |
-| M3x8 SHCS                                   | 20       | 11       | 50 on order  |
-| M3x8 BHCS                                   | 5        | 20       | 100 on order |
-| M3x12 SHCS                                  | 3        | 66       |              |
-| M3x16 SHCS                                  | 10       | 13       |              |
-| M3x20 SHCS                                  | 7        | 20       |              |
-| M3x40 SHCS                                  | 2        | 15       |              |
-| M3 washers (could also be the DIN125 below) | 2        | 40       |              |
-| M3 DIN125 Steel Washer                      | 6        |          | 6 on order   |
-| M2x8 SHCS or M2x10 SHCS                     | 2        | 46       |              |
+| Item                   | Quantity | Received | Notes        |
+| ---------------------- | -------- | -------- | ------------ |
+| M3 threaded inserts    | 26       | 32       |              |
+| M5x30 BHCS             | 2        | 2        |              |
+| M5x16 BHCS             | 1        | 1        |              |
+| M5 nuts                | 4        | 5        |              |
+| M5 nylock nuts         | 5        | 6        |              |
+| M5 washers             | 2        | 3        |              |
+| M3x8 SHCS              | 20       | 20       |              |
+| M3x8 BHCS              | 5        |          | 100 on order |
+| M3x12 SHCS             | 3        | 3        |              |
+| M3x16 SHCS             | 10       | 10       |              |
+| M3x20 SHCS             | 7        | 7        |              |
+| M3x40 SHCS             | 2        | 2        |              |
+| M3 DIN125 Steel Washer | 8        | 13       |              |
+| M2x10 SHCS             | 2        | 2        |              |
 
 ### Motion
 
 | Item                                 | Quantity | Received | Notes |
 | ------------------------------------ | -------- | -------- | ----- |
 | GT2 belt 6mm (open)                  | 1        | 1        |       |
-| GT2 20T Pulley 6 mm, 5mm bore        | 3        | 2        |       |
-| GT2 20T Toothed Idler 6 mm, 5mm bore | 1        | 2        |       |
+| GT2 20T Pulley 6 mm, 5mm bore        | 3        | 3        |       |
+| GT2 20T Toothed Idler 6 mm, 5mm bore | 1        | 1        |       |
 | GT2 188m Belt loop 6mm               | 1        | 1        |       |
 
 ### Misc
 
-| Item                              | Quantity | Received | Notes      |
-| --------------------------------- | -------- | -------- | ---------- |
-| 6mm x 3mm Round Neodymium Magnets | 22       | 42       |            |
-| Bowden Clip                       | 7        | 3        | 7 on order |
-| Bowden Fitting                    | 7        | 3        | 7 on order |
-| 7X7 Drag chain                    | 1        |          | 1 on order |
+| Item                              | Quantity | Received | Notes |
+| --------------------------------- | -------- | -------- | ----- |
+| 6mm x 3mm Round Neodymium Magnets | 22       | 23       |       |
+| Bowden Clip                       | 7        | 8        |       |
+| Bowden Fitting                    | 7        | 8        |       |
+| 7X7 Drag chain                    | 1        | 1        |       |
 
 ### Cables
 
-| Item                                                  | Quantity | Received | Notes |
-| ----------------------------------------------------- | -------- | -------- | ----- |
-| MicroFit3 Male Pin (43031-0007)                       | 26       | 160      |       |
-| MicroFit3 Female Pin (43030-0007)                     | 26       | 160      |       |
-| MicroFit Connector Receptacle 4 Position (43645-0400) | 4        | 18       |       |
-| MicroFit Connector Plug 4 Position (43640-0401)       | 4        | 18       |       |
-| MicroFit Connector Receptacle 5 Position (43645-0500) | 2        | 20       |       |
-| MicroFit Connector Plug 5 Position (43640-0501)       | 2        | 20       |       |
+| Item                                                  | Quantity | Received | Notes        |
+| ----------------------------------------------------- | -------- | -------- | ------------ |
+| MicroFit3 Male Pin (43031-0007)                       | 26       |          | 140 on order |
+| MicroFit3 Female Pin (43030-0007)                     | 26       |          | 140 on order |
+| MicroFit Connector Receptacle 4 Position (43645-0400) | 4        |          | 10 on order  |
+| MicroFit Connector Plug 4 Position (43640-0401)       | 4        |          | 10 on order  |
+| MicroFit Connector Receptacle 5 Position (43645-0500) | 2        |          | 10 on order  |
+| MicroFit Connector Plug 5 Position (43640-0501)       | 2        |          | 10 on order  |
 
 ### Toolhead Sensor
 
 | Item                                 | Quantity | Received | Notes |
 | ------------------------------------ | -------- | -------- | ----- |
 | AH3364Q-P-B Hall Effect sensor (SIP) | 1        | 1        |       |
-| M3 DIN125 Steel Washer               | 1        | 2        |       |
-| 6mm x 3mm Round Neodymium Magnets    | 1        | 20       |       |
+| M3 DIN125 Steel Washer               | 1        | 1        |       |
+| 6mm x 3mm Round Neodymium Magnets    | 1        | 1        |       |
 | M3x8 SHCS                            | 1        | 1        |       |
-| M3x12 SHCS                           | 1        | 63       |       |
-| JST XH 3 pins male connector         | 1        | 16       |       |
+| M3x12 SHCS                           | 1        | 1        |       |
+| JST XH 3 pins male connector         | 1        | 1        |       |
 
 ## Printing Parts
 

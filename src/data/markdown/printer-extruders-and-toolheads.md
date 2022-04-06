@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 5, 2022
+Updated April 6, 2022
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -162,14 +162,14 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 
 #### Cables
 
-| Item                                      | Quantity | Received | Notes                                          |
-| ----------------------------------------- | -------- | -------- | ---------------------------------------------- |
-| MicroFit3 Male Pin                        | 3        | 200      | in [Voron 1.8 BOM](printer-voron-1.8.md#wires) |
-| MicroFit3 Female Pin                      | 3        | 200      | in [Voron 1.8 BOM](printer-voron-1.8.md#wires) |
-| MicroFit3 Connector Receptacle 3 Position | 1        | 20       | in [Voron 1.8 BOM](printer-voron-1.8.md#wires) |
-| MicroFit3 Connector Plug 3 Position       | 1        | 20       | in [Voron 1.8 BOM](printer-voron-1.8.md#wires) |
-| 30AWG PTFE Cable (3ft total)              | 1        | 1        |                                                |
-| 24AWG PTFE Cable (30ft total)             | 1        | 1        |                                                |
+| Item                                      | Quantity | Received | Notes        |
+| ----------------------------------------- | -------- | -------- | ------------ |
+| MicroFit3 Male Pin                        | 3        |          | 140 on order |
+| MicroFit3 Female Pin                      | 3        |          | 140 on order |
+| MicroFit3 Connector Receptacle 3 Position | 1        |          | 10 on order  |
+| MicroFit3 Connector Plug 3 Position       | 1        |          | 10 on order  |
+| 30AWG PTFE Cable (3ft total)              | 1        | 1        |              |
+| 24AWG PTFE Cable (30ft total)             | 1        | 1        |              |
 
 #### Toolhead Sensor
 

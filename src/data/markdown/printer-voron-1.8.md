@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 5, 2022
+Updated April 6, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -24,8 +24,8 @@ I had originally chosen parts for the [Hypercube](printer-hypercube.md) that wil
 | Item                       | Quantity | Received | Notes       |
 | -------------------------- | -------- | -------- | ----------- |
 | M5x40 SHCS                 | 8        | 29       |             |
-| M5x30 BHCS                 | 6        | 21       |             |
-| M5x16 BHCS                 | 67       | 70       |             |
+| M5x30 BHCS                 | 6        | 19       |             |
+| M5x16 BHCS                 | 67       | 69       |             |
 | M5x10 BHCS                 | 71       | 104      |             |
 | M5 Hexnut                  | 8        | 19       |             |
 | M5 1mm Spacer              | 20       | 50       |             |
@@ -34,18 +34,18 @@ I had originally chosen parts for the [Hypercube](printer-hypercube.md) that wil
 | M3x40 SHCS                 | 5        | 20       |             |
 | M3x30 SHCS                 | 25       | 30       |             |
 | M3x20 SHCS                 | 10       | 30       |             |
-| M3x16 SHCS                 | 17       | 30       |             |
-| M3x12 SHCS                 | 30       | 80       |             |
-| M3x8 SHCS                  | 171      | 182      | 50 on order |
-| M3x6 BHCS                  | 20       | 50       |             |
+| M3x16 SHCS                 | 17       | 20       |             |
+| M3x12 SHCS                 | 30       | 77       |             |
+| M3x8 SHCS                  | 171      | 162      | 50 on order |
+| M3x6 BHCS                  | 20       | 47       |             |
 | M3 Hexnut                  | 7        | 50       |             |
 | M3 Washer                  | 10       | 50       |             |
 | M3 T-nut                   | 120      | 160      |             |
-| M3 Hammer Head T-nuts      | 54       | 99       |             |
-| M3 Threaded Insert         | 50       | 100      |             |
+| M3 Hammer Head T-nuts      | 54       | 97       |             |
+| M3 Threaded Insert         | 50       | 94       |             |
 | M3 Knurled Nut (DIN 466-B) | 3        | 5        |             |
-| M2x10 Self-Tapping Screw   | 7        | 53       |             |
-| Yellow Die Spring - M3     | 1        |          | 10 on order |
+| M2x10 Self-Tapping Screw   | 7        | 51       |             |
+| Yellow Die Spring - M3     | 1        | 5        | 5 on order  |
 
 ### Frame
 
@@ -116,14 +116,14 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | JST XH Connector Plug 3 Position          | 4        | 20       |                    |
 | JST XH Connector Plug 2 Position          | 2        | 20       |                    |
 | JST XH Female Pin                         | 40       | 200      |                    |
-| MicroFit3 Connector Plug 4 Position       | 2        | 20       |                    |
-| MicroFit3 Connector Plug 3 Position       | 1        | 20       |                    |
-| MicroFit3 Connector Plug 2 Position       | 5        | 20       |                    |
-| MicroFit3 Connector Receptacle 4 Position | 2        | 20       |                    |
-| MicroFit3 Connector Receptacle 3 Position | 1        | 20       |                    |
-| MicroFit3 Connector Receptacle 2 Position | 5        | 20       |                    |
-| MicroFit3 Female Pin                      | 40       | 200      |                    |
-| MicroFit3 Male Pin                        | 40       | 200      |                    |
+| MicroFit3 Connector Plug 4 Position       | 2        |          | 10 on order        |
+| MicroFit3 Connector Plug 3 Position       | 1        |          | 10 on order        |
+| MicroFit3 Connector Plug 2 Position       | 5        |          | 10 on order        |
+| MicroFit3 Connector Receptacle 4 Position | 2        |          | 10 on order        |
+| MicroFit3 Connector Receptacle 3 Position | 1        |          | 10 on order        |
+| MicroFit3 Connector Receptacle 2 Position | 5        |          | 10 on order        |
+| MicroFit3 Female Pin                      | 40       |          | 140 on order       |
+| MicroFit3 Male Pin                        | 40       |          | 140 on order       |
 | 10x11 Cable Chain - 1m                    | 2        | 2        |                    |
 
 ### Electronics
@@ -135,7 +135,7 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | NEMA17 Motor 17HS19-2004S          | 2        | 2        | Ordered some [larger ones than that are in the LDO Voron V1/V2 HT Motor Kit](https://www.onetwo3d.co.uk/product/ldo-42sth48-2004mahvrn/) |
 | SPDT KW10 Limit Micro Switch       | 3        | 30       |                                                                                                                                          |
 | PL-08N Inductive Probe             | 1        | 1        | Using Tronxy XY-08N. Going to replace with [Klicky Probe](#klicky-probe)                                                                 |
-| E3D V6 Bowden Hotend Kit (24V)     | 1        |          | 1 on order                                                                                                                               |
+| E3D V6 Bowden Hotend Kit (24V)     | 1        | 1        |                                                                                                                                          |
 | 40x40x20 Centrifugal Fan (24V)     | 1        |          | 1 on order                                                                                                                               |
 | 40x40x10 Axial Fan (24V)           | 1        |          | 1 on order                                                                                                                               |
 | Mini 12864 Display                 | 1        | 1        |                                                                                                                                          |
@@ -177,18 +177,18 @@ I have looked into a few different options for a new frame for my 3D Printer and
 
 ### Misc
 
-| Item                                 | Quantity | Received | Notes |
-| ------------------------------------ | -------- | -------- | ----- |
-| Fume Extractor Carbon Filter Element | 1        | 1        |       |
-| 4mm Bowden Coupler                   | 1        | 4        |       |
-| Bowden Tube (m)                      | 1        | 1        |       |
-| 3M VHB Tape 5952                     | 1        | 1        |       |
-| Loctite Blue Threadlocker Stick      | 1        | 1        |       |
-| Mobil EP2 Grease                     | 1        | 1        |       |
-| Tesa Wire Loom Harness Tape          | 1        | 1        |       |
-| 1mm Foam Tape                        | 1        | 1        |       |
-| 6x3mm Neodimium Magnet               | 8        | 50       |       |
-| PTFE Tube (4mm OD 3mm ID) - 1m       | 1        | 1        |       |
+| Item                                 | Quantity | Received | Notes      |
+| ------------------------------------ | -------- | -------- | ---------- |
+| Fume Extractor Carbon Filter Element | 1        | 1        |            |
+| 4mm Bowden Coupler                   | 1        | 4        |            |
+| Bowden Tube (m)                      | 1        | 1        |            |
+| 3M VHB Tape 5952                     | 1        | 1        |            |
+| Loctite Blue Threadlocker Stick      | 1        | 1        |            |
+| Mobil EP2 Grease                     | 1        | 1        |            |
+| Tesa Wire Loom Harness Tape          | 1        | 1        |            |
+| 1mm Foam Tape                        | 1        | 1        |            |
+| 6x3mm Neodimium Magnet               | 8        | 50       |            |
+| PTFE Tube (4mm OD 3mm ID) - 1m       | 1        | 1        | 2 on order |
 
 ## Printing Parts
 

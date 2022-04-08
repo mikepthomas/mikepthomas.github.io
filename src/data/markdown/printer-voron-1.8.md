@@ -662,9 +662,9 @@ Clips to route zip ties through 3 hole cable chain to attach to 2020 extrusion.
 
 Mounts for 5015 fans to circulate air around the enclosure to get hotter chamber temps.
 
-| Item                                                                                                                                          | Quantity | Material                                                | Printed | Notes                                    |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ---------------------------------------- |
-| [Mounting_Plate](https://github.com/neggert/VoronUsers/blob/trident_bed_fans/printer_mods/CannedBass/Trident_Bed_Fans/STL/Mounting_Plate.stl) | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Voron Users Mod by CannedBass. |
+| Item                                                                                                                                    | Quantity | Material                                                | Printed | Notes                                    |
+| --------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ---------------------------------------- |
+| [Mounting_Plate](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/CannedBass/Trident_Bed_Fans/STL/Mounting_Plate.stl) | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Voron Users Mod by CannedBass. |
 
 ### Nozzle Scrubber
 

@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 6, 2022
+Updated April 8, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -187,7 +187,7 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | Mobil EP2 Grease                     | 1        | 1        |            |
 | Tesa Wire Loom Harness Tape          | 1        | 1        |            |
 | 1mm Foam Tape                        | 1        | 1        |            |
-| 6x3mm Neodimium Magnet               | 8        | 50       |            |
+| 6x3mm Neodimium Magnet               | 8        | 42       |            |
 | PTFE Tube (4mm OD 3mm ID) - 1m       | 1        | 1        | 2 on order |
 
 ## Printing Parts
@@ -290,11 +290,19 @@ Both fully assembled AB Drive Units are required to install the rear crossbar.
 | M5x10 BHCS            | 8        |
 | Misumi HFSB5-2020-290 | 1        |
 
-#### :negative_squared_cross_mark: Linear Rails
+#### :wrench: Linear Rails
 
-Both Front Idlers are installed at this stage.
+![Cleaning the bearings with IPA](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/bearings-cleaning.jpg)
+
+The linear rails come delivered with a coating of oil to prevent rust during storage and shipping. This coating is not a lubricant and needs to be removed before applying a coating of grease to the bearing surfaces.
+
+I carefully removed the carriages from the rails and soaked them in Isopropyl alcohol for a few hours, then let them air dry before applying Mobil EP2 grease with a syringe directly to the ball bearings. I then reassembled the rails and applied more grease through one of the mounting holes behind the carriage.
+
+![Bearings assembled and ready for assembly](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/bearings-assembled.jpg)
 
 ##### Assembly
+
+Both Front Idlers are also installed at this stage.
 
 ###### Parts Used
 
@@ -599,10 +607,10 @@ I have documented the parts required for the toolhead on the [extruders and tool
 
 ### Spool Management
 
-| Item                                                                                                              | Quantity | Material                                                | Printed | Notes                                                                                                                              |
-| ----------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ---------------------------------------------------------------------------------------------------------------------------------- |
-| [bowen_retainer](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Spool_Management/bowen_retainer.stl) | 1        |                                                         |   :x:   | This is a Trident Part. Not printing this as I will be using the [Smart Filament Sensor Mount](#smart-filament-sensor-mount)       |
-| [spool_holder](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Spool_Management/spool_holder.stl)     | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part. May not print this as I currently use an [eSun Filament Dryer box](https://www.amazon.co.uk/dp/B094XWVQ1X) |
+| Item                                                                                                              | Quantity | Material                                                |      Printed       | Notes                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------- |
+| [bowen_retainer](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Spool_Management/bowen_retainer.stl) | 1        |                                                         |        :x:         | This is a Trident Part. Not printing this as I will be using the [Smart Filament Sensor Mount](#smart-filament-sensor-mount)       |
+| [spool_holder](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Spool_Management/spool_holder.stl)     | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Trident Part. May not print this as I currently use an [eSun Filament Dryer box](https://www.amazon.co.uk/dp/B094XWVQ1X) |
 
 ## Mods
 
@@ -644,9 +652,9 @@ Wago Mount for connecting bed wires.
 
 Clips to route zip ties through 3 hole cable chain to attach to 2020 extrusion.
 
-| Item                                                                                                                                                                                                      | Quantity | Material                                                | Printed | Notes                                 |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ------------------------------------- |
-| [Triangle_Hole_Pattern_End_Mount_to_2020](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/bryansj/Befenybay_Chain_Anchors/Triangle_Hole_Pattern_End_Mount_to_2020.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Voron Users Mod by bryansj. |
+| Item                                                                                                                                                                                                      | Quantity | Material                                                |      Printed       | Notes                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ------------------------------------- |
+| [Triangle_Hole_Pattern_End_Mount_to_2020](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/bryansj/Befenybay_Chain_Anchors/Triangle_Hole_Pattern_End_Mount_to_2020.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by bryansj. |
 
 ### Bed Fans
 
@@ -665,7 +673,7 @@ Cleans the nozzle before printing and has endstops to locate the magnetic bed.
 | [brush_holder_sheet_stop](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/brush_holder_sheet_stop_rev4.stl)     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
 | [extension_bracket](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/extension_bracket_v1.8_rev4.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
 | [individual_sheetstop](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/individual_sheetstop_v1.8_v2.4_rev4.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
-| [purge_bucket](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/purge_bucket_300mm_rev4.stl)                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |        :x:         | This is a Voron Users Mod by edwardyeeks |
+| [purge_bucket](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/purge_bucket_300mm_rev4.stl)                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
 
 ### Smart Filament Sensor Mount
 
@@ -801,10 +809,10 @@ Cover for the live connections of the power supply making them harder to acciden
 
 The coroplast on the bottom of the printer is not that well supported so this just add a bit more support to the bottom deck panel.
 
-| Item                                                                                                                                                                                    | Quantity | Material                                                |    Printed    | Notes                                                                |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----------: | -------------------------------------------------------------------- |
-| [deck_panel_support_lower](<https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/wile-e1/Deck_Panel_Support_Clips/wile.e-deck_panel_support_lower_adjustable(3-6mm).stl>) | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :interrobang: | Two printed, Two left to print. This is a Voron Users Mod by wile-e1 |
-| [deck_panel_support_upper](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/wile-e1/Deck_Panel_Support_Clips/wile.e-deck_panel_support_upper.stl)                     | 4        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |      :x:      | This is a Voron Users Mod by wile-e1                                 |
+| Item                                                                                                                                                                                    | Quantity | Material                                                |      Printed       | Notes                                |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ------------------------------------ |
+| [deck_panel_support_lower](<https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/wile-e1/Deck_Panel_Support_Clips/wile.e-deck_panel_support_lower_adjustable(3-6mm).stl>) | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by wile-e1 |
+| [deck_panel_support_upper](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/wile-e1/Deck_Panel_Support_Clips/wile.e-deck_panel_support_upper.stl)                     | 4        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Voron Users Mod by wile-e1 |
 
 ### Klipper Expander
 

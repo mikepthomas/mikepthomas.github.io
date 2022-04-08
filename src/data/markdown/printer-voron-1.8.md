@@ -321,7 +321,7 @@ Both Front Idlers are also installed at this stage.
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-#### :wrench: Bed Frame
+#### :white_check_mark: Bed Frame
 
 ![Voron 1.8 Bed Frame](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/bed-frame.jpg)
 
@@ -334,6 +334,8 @@ Both Front Idlers are also installed at this stage.
 | [z_bearing_block_b](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_bearing_block_b_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 7.09m  | 18.07g | £0.34 | :heavy_check_mark: |       |
 
 ##### Assembly
+
+![Assembled Bed Frame](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/bed-frame-assembled.jpg)
 
 ###### Parts Used
 

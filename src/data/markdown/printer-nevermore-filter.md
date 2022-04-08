@@ -5,6 +5,8 @@ Updated April 8, 2022
 
 Building an [Nevermore Micro V5 Duo](https://github.com/nevermore3d/Nevermore_Micro) to reduce the smell of printing ABS.
 
+![Enraged Rabbit Carrot Feeder Parts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-nevermore-filter/nevermore-filter-hero.jpg)
+
 ---
 
 ## Table of contents

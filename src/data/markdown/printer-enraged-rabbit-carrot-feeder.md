@@ -5,6 +5,8 @@ Updated April 8, 2022
 
 Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRabbitProject) to print using multiple colours of filament on the Voron.
 
+![Enraged Rabbit Carrot Feeder Parts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-enraged-rabbit-carrot-feeder/enraged-rabbit-carrot-feeder-hero.jpg)
+
 ---
 
 ## Table of contents

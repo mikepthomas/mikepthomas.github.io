@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 8, 2022
+Updated April 10, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -276,11 +276,13 @@ The lower A drive was the first time I have tried to print with ABS. The upper w
 | M5 Hexnut          | 2        |
 | M5x40 SHCS         | 2        |
 
-#### :negative_squared_cross_mark: Rear Crossbar
+#### :white_check_mark: Rear Crossbar
 
 Both fully assembled AB Drive Units are required to install the rear crossbar.
 
 ##### Assembly
+
+![Installed the rear crossbar](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/rear-crossbar-installed.jpg)
 
 ###### Parts Used
 
@@ -290,7 +292,7 @@ Both fully assembled AB Drive Units are required to install the rear crossbar.
 | M5x10 BHCS            | 8        |
 | Misumi HFSB5-2020-290 | 1        |
 
-#### :wrench: Linear Rails
+#### :white_check_mark: Linear Rails
 
 ![Cleaning the bearings with IPA](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/bearings-cleaning.jpg)
 
@@ -302,16 +304,17 @@ I carefully removed the carriages from the rails and soaked them in Isopropyl al
 
 ##### Assembly
 
-Both Front Idlers are also installed at this stage.
+![Installed the front idlers and linear rails](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/linear-rails-installed.jpg)
 
 ###### Parts Used
 
 | Item                    | Quantity |
 | ----------------------- | -------- |
 | Linear Rail MGN9H 350mm | 2        |
-| M3 T-nut                | 10       |
-| M3x8 SHCS               | 8        |
-| M3x10 BHCS              | 1        |
+| M3 T-nut                | 20       |
+| M3 Washer               | 1        |
+| M3x8 SHCS               | 18       |
+| M3x12 BHCS              | 1        |
 | M5 T-nut                | 14       |
 | M5x10 BHCS              | 13       |
 
@@ -380,7 +383,7 @@ The X Axis was flipped on the Trident (linear rails are on the bottom of the ext
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-#### :negative_squared_cross_mark: XY Joints
+#### :wrench: XY Joints
 
 | Item                                                                                                                                            | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                   |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :----------------: | --------------------------------------- |
@@ -662,9 +665,9 @@ Clips to route zip ties through 3 hole cable chain to attach to 2020 extrusion.
 
 Mounts for 5015 fans to circulate air around the enclosure to get hotter chamber temps.
 
-| Item                                                                                                                                    | Quantity | Material                                                | Printed | Notes                                    |
-| --------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ---------------------------------------- |
-| [Mounting_Plate](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/CannedBass/Trident_Bed_Fans/STL/Mounting_Plate.stl) | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Voron Users Mod by CannedBass. |
+| Item                                                                                                                                    | Quantity | Material                                                |      Printed       | Notes                                    |
+| --------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ---------------------------------------- |
+| [Mounting_Plate](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/CannedBass/Trident_Bed_Fans/STL/Mounting_Plate.stl) | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by CannedBass. |
 
 ### Nozzle Scrubber
 
@@ -681,10 +684,10 @@ Cleans the nozzle before printing and has endstops to locate the magnetic bed.
 
 Mount for the BigTreeTech Smart filment sensor that I already have. There are two different mounts, one vertical and one horizontal.
 
-| Item                                                                                                                                                     | Quantity | Material                                                | Printed | Notes                                |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ------------------------------------ |
-| [BTT_Sensor_Mount_A](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Empusas/BTT_Filament_Motion_Sensor_Mount/BTT_Sensor_Mount_A.stl) | 1        |                                                         |   :x:   | This is a Voron Users Mod by Empusas |
-| [BTT_Sensor_Mount_B](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Empusas/BTT_Filament_Motion_Sensor_Mount/BTT_Sensor_Mount_B.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Voron Users Mod by Empusas |
+| Item                                                                                                                                                     | Quantity | Material                                                |      Printed       | Notes                                |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ------------------------------------ |
+| [BTT_Sensor_Mount_A](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Empusas/BTT_Filament_Motion_Sensor_Mount/BTT_Sensor_Mount_A.stl) | 1        |                                                         |        :x:         | This is a Voron Users Mod by Empusas |
+| [BTT_Sensor_Mount_B](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Empusas/BTT_Filament_Motion_Sensor_Mount/BTT_Sensor_Mount_B.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by Empusas |
 
 ### Printable Chain
 

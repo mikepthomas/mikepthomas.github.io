@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 6, 2022
+Updated April 12, 2022
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -24,6 +24,22 @@ This is the [Stock hotend and extruder that came with the Anet A8](printer.md#x-
 
 I have purchased parts to install the [ANET A8 E3DV6 BMG Direct Drive X Carriage](https://www.thingiverse.com/thing:3807114), the adapter plate should be a direct bolt on to the X Carriage of the Anet A8. This was chosen as the parts that are required for this are the exact same parts that are required to build the [Voron Afterburner](#voron-afterburner-stealthburner).
 
+### Motion
+
+| Item             | Quantity | Received | Notes |
+| ---------------- | -------- | -------- | ----- |
+| BMG Extruder Kit | 1        | 1        |       |
+
+#### Electronics
+
+| Item                           | Quantity | Received | Notes                              |
+| ------------------------------ | -------- | -------- | ---------------------------------- |
+| 3D Touch                       | 1        | 1        |                                    |
+| 50x50x15 Centrifugal Fan (12V) | 1        | 1        |                                    |
+| 40x40x10 Axial Fan (12V)       | 1        | 1        |                                    |
+| E3D V6 Bowden Hotend Kit (12V) | 1        | 1        |                                    |
+| NEMA17 Motor                   | 1        | 1        | Using stock Anet A8 Extruder Motor |
+
 ### Printed Parts
 
 | Item                                                                   | Quantity | Material                                                | Printed | Notes                          |
@@ -42,25 +58,25 @@ When I have upgraded to the Afterburner, I will reuse the parts for the M4 for t
 
 ### Fasteners
 
-| Item                 | Quantity | Received | Notes      |
-| -------------------- | -------- | -------- | ---------- |
-| M3x30 SHCS           | 8        | 4        | 4 on order |
-| M3x16 SHCS           | 4        | 2        | 2 on order |
-| M3x12 SHCS           | 2        | 1        | 1 on order |
-| M3x6 BHCS            | 10       | 5        | 5 on order |
-| M3 Threaded Insert   | 10       | 5        | 5 on order |
-| M3 Washer            | 4        | 2        | 2 on order |
-| Thumb Screw Assembly | 2        | 1        | 1 on order |
+| Item                 | Quantity | Received | Notes |
+| -------------------- | -------- | -------- | ----- |
+| M3x30 SHCS           | 8        | 8        |       |
+| M3x16 SHCS           | 4        | 4        |       |
+| M3x12 SHCS           | 2        | 2        |       |
+| M3x6 BHCS            | 10       | 10       |       |
+| M3 Threaded Insert   | 10       | 10       |       |
+| M3 Washer            | 4        | 4        |       |
+| Thumb Screw Assembly | 2        | 2        |       |
 
 ### Motion
 
-| Item                                 | Quantity | Received | Notes      |
-| ------------------------------------ | -------- | -------- | ---------- |
-| GT2 Belt Loop (6mm wide) - 188mm     | 2        | 1        | 1 on order |
-| GT2 20T (6mm wide) Pulley (5mm bore) | 4        | 2        | 2 on order |
-| F695 2RS                             | 4        | 2        | 2 on order |
-| Bondtech Drive Gear Set              | 2        | 1        | 1 on order |
-| 5mm x 50mm Shaft                     | 2        | 1        | 1 on order |
+| Item                                 | Quantity | Received | Notes |
+| ------------------------------------ | -------- | -------- | ----- |
+| GT2 Belt Loop (6mm wide) - 188mm     | 2        | 2        |       |
+| GT2 20T (6mm wide) Pulley (5mm bore) | 4        | 4        |       |
+| F695 2RS                             | 4        | 4        |       |
+| Bondtech Drive Gear Set              | 2        | 2        |       |
+| 5mm x 50mm Shaft                     | 2        | 2        |       |
 
 ### Electronics
 
@@ -70,11 +86,11 @@ When I have upgraded to the Afterburner, I will reuse the parts for the M4 for t
 
 ### Bowden
 
-| Item            | Quantity | Received | Notes      |
-| --------------- | -------- | -------- | ---------- |
-| Bowden Clip     | 2        | 1        | 1 on order |
-| Bowden Fitting  | 2        | 1        | 1 on order |
-| Bowden Tube (m) | 2        | 1        | 2 on order |
+| Item            | Quantity | Received | Notes |
+| --------------- | -------- | -------- | ----- |
+| Bowden Clip     | 2        | 2        |       |
+| Bowden Fitting  | 2        | 2        |       |
+| Bowden Tube (m) | 2        | 2        |       |
 
 ### Printed Parts
 
@@ -99,7 +115,7 @@ When I have upgraded to the Afterburner, I will reuse the parts for the M4 for t
 
 | Item          | Quantity | Received | Notes |
 | ------------- | -------- | -------- | ----- |
-| Bowden Clip   | 2        |          |       |
+| Bowden Clip   | 2        | 2        |       |
 | Bowden Collet | 2        | 10       |       |
 
 ### Printed Parts
@@ -144,21 +160,16 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 | M3 Brass heatstake inserts - short M3x5x4 | 22       | 100      | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
 | Bondtech BMG Extruder Kit                 | 1        | 1        | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
 
-#### Misc
-
-| Item         | Quantity | Received | Notes                                         |
-| ------------ | -------- | -------- | --------------------------------------------- |
-| 3x6mm Magnet | 1        | 50       | in [Voron 1.8 BOM](printer-voron-1.8.md#misc) |
-
 #### Electronics
 
 | Item                                         | Quantity | Received | Notes                         |
 | -------------------------------------------- | -------- | -------- | ----------------------------- |
+| E3D V6 Bowden Hotend Kit (24V)               | 1        | 1        |                               |
 | ERCF Afterburner Tool-Head PCB               | 1        | 1        |                               |
 | NeoPixel RGBW Mini Button PCB                | 3        | 3        |                               |
 | NEMA14 36mm pancake Motor with 10 tooth gear | 1        |          | Only required for Clockwork 2 |
-| 50x50x15 Centrifugal Fan                     | 1        |          | 1 on order                    |
-| 40x40x10 Axial Fan                           | 1        |          | 2 on order                    |
+| 50x50x15 Centrifugal Fan (24V)               | 1        |          | 1 on order                    |
+| 40x40x10 Axial Fan (24V)                     | 1        |          | 2 on order                    |
 
 #### Cables
 
@@ -177,10 +188,9 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 | ------------------------------------ | -------- | -------- | ----- |
 | AH3364Q-P-B Hall Effect sensor (SIP) | 1        | 1        |       |
 | M3 DIN125 Steel Washer               | 1        | 2        |       |
-| 6mm x 3mm Round Neodymium Magnets    | 1        | 20       |       |
+| 6mm x 3mm Round Neodymium Magnets    | 1        | 1        |       |
 | M3x8 SHCS                            | 1        | 1        |       |
-| M3x12 SHCS                           | 1        | 63       |       |
-| JST XH 3 pins male connector         | 1        | 16       |       |
+| M3x12 SHCS                           | 1        | 1        |       |
 
 ### Printing Parts
 
@@ -203,7 +213,7 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 
 | Item                                                                                                                                                          | Quantity | Material                                                         |      Printed       | Notes               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------- | :----------------: | ------------------- |
-| [main_body_beta6](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Ba%5D_stealthburner_main_body_beta6.stl)                 | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)              |        :x:         | This is a Beta Part |
+| [main_body_beta7](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Ba%5D_stealthburner_main_body_beta7.stl)                 | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)              |        :x:         | This is a Beta Part |
 | [LED_diffuser-beta3](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Bc%5D_stealthburner_LED_diffuser-beta3.stl)           | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) |        :x:         | This is a Beta Part |
 | [LED_carrier-beta2](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_carrier-beta2.stl)             | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :heavy_check_mark: | This is a Beta Part |
 | [LED_diffuser-mask-beta1](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_diffuser-mask-beta1.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :heavy_check_mark: | This is a Beta Part |
@@ -220,4 +230,4 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 | Item                                                                                                                                                                                               | Quantity | Material                                                | Printed | Notes                                   |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | --------------------------------------- |
 | [toolhead\_(v6_r6)-front-beta4](<https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/Toolheads/revo_six_%26_v6/stealthburner_toolhead_(v6_r6)-front-beta4.stl>)       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Beta Part                     |
-| [toolhead\_(v6_r6)-rear-cw1-beta5](<https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/Toolheads/revo_six_%26_v6/stealthburner_toolhead_(v6_r6)-rear-cw1-beta5.stl>) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Beta Part for the Clockwork 1 |
+| [toolhead\_(v6_r6)-rear-cw1-beta6](<https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/Toolheads/revo_six_%26_v6/stealthburner_toolhead_(v6_r6)-rear-cw1-beta6.stl>) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Beta Part for the Clockwork 1 |

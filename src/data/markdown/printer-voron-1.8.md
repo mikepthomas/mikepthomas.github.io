@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 12, 2022
+Updated April 13, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -45,7 +45,7 @@ I had originally chosen parts for the [Hypercube](printer-hypercube.md) that wil
 | M3 Threaded Insert         | 50       | 94       |             |
 | M3 Knurled Nut (DIN 466-B) | 3        | 5        |             |
 | M2x10 Self-Tapping Screw   | 7        | 51       |             |
-| Yellow Die Spring - M3     | 1        | 5        | 5 on order  |
+| Yellow Die Spring - M3     | 1        | 10       |             |
 
 ### Frame
 
@@ -77,18 +77,18 @@ I have looked into a few different options for a new frame for my 3D Printer and
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-| Item                                       | Quantity | Received | Notes      |
-| ------------------------------------------ | -------- | -------- | ---------- |
-| GT2 20T Pulley (5mm ID 6mm W)              | 3        | 3        |            |
-| GT2 20T Toothed Idler (5mm ID 6mm W)       | 2        | 4        |            |
-| F695 Bearing                               | 20       | 30       |            |
-| LM8LUU Linear Bearing                      | 4        | 4        |            |
-| TR8x8 Leadscrew Nut                        | 2        | 6        |            |
-| 5x30mm Shaft                               | 1        | 1        |            |
-| BMG Extruder Components Kit                | 1        | 2        |            |
-| Linear Rail MGN9H 350mm                    | 4        | 4        |            |
-| Linear Shaft 8x320mm                       | 4        |          | 4 on order |
-| GT2 Open Belt LL-2GT-6 (6mm wide) - 1890mm | 2        | 4        |            |
+| Item                                       | Quantity | Received | Notes |
+| ------------------------------------------ | -------- | -------- | ----- |
+| GT2 20T Pulley (5mm ID 6mm W)              | 3        | 3        |       |
+| GT2 20T Toothed Idler (5mm ID 6mm W)       | 2        | 4        |       |
+| F695 Bearing                               | 20       | 30       |       |
+| LM8LUU Linear Bearing                      | 4        | 4        |       |
+| TR8x8 Leadscrew Nut                        | 2        | 6        |       |
+| 5x30mm Shaft                               | 1        | 1        |       |
+| BMG Extruder Components Kit                | 1        | 2        |       |
+| Linear Rail MGN9H 350mm                    | 4        | 4        |       |
+| Linear Shaft 8x320mm                       | 4        | 4        |       |
+| GT2 Open Belt LL-2GT-6 (6mm wide) - 1890mm | 2        | 4        |       |
 
 ### Print Bed
 
@@ -641,7 +641,7 @@ The Stock door hinges are attached using VHB, these clamp around the acrylic pan
 | [face_plate_bottom](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges/STLs/face_plate_bottom.stl)             | 6        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by AlexanderT-Moss |
 | [face_plate_no_logo](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges/STLs/face_plate_no_logo.stl)           | 4        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by AlexanderT-Moss |
 | [face_plate_through_logo](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges/STLs/face_plate_through_logo.stl) | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by AlexanderT-Moss |
-| [side_mount](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges/STLs/side_mount.stl)                           | 6        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Voron Users Mod by AlexanderT-Moss |
+| [side_mount](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges/STLs/side_mount.stl)                           | 6        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by AlexanderT-Moss |
 
 ### Bed Wago Mount
 
@@ -688,6 +688,15 @@ Mount for the BigTreeTech Smart filment sensor that I already have. There are tw
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ------------------------------------ |
 | [BTT_Sensor_Mount_A](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Empusas/BTT_Filament_Motion_Sensor_Mount/BTT_Sensor_Mount_A.stl) | 1        |                                                         |        :x:         | This is a Voron Users Mod by Empusas |
 | [BTT_Sensor_Mount_B](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Empusas/BTT_Filament_Motion_Sensor_Mount/BTT_Sensor_Mount_B.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by Empusas |
+
+### Magnetic Grill Cover
+
+Cover for the Exhaust filter grill to allow the chamber to hold it's temperature better.
+
+| Item                                                                                                                                                                | Quantity | Material                                                | Printed | Notes                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | --------------------------------- |
+| [exhaust_filter_cover](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/falo/magnetic_grill_cover/STL/exhaust_filter_cover.stl)                   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Voron Users Mod by falo |
+| [exhaust_filter_grill_modified](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/falo/magnetic_grill_cover/STL/exhaust_filter_grill_modified.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   | This is a Voron Users Mod by falo |
 
 ### Printable Chain
 

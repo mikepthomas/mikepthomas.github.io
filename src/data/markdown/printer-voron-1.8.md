@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 13, 2022
+Updated April 14, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -617,6 +617,16 @@ I have documented the parts required for the toolhead on the [extruders and tool
 | [bowen_retainer](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Spool_Management/bowen_retainer.stl) | 1        |                                                         |        :x:         | This is a Trident Part. Not printing this as I will be using the [Smart Filament Sensor Mount](#smart-filament-sensor-mount)       |
 | [spool_holder](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Spool_Management/spool_holder.stl)     | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Trident Part. May not print this as I currently use an [eSun Filament Dryer box](https://www.amazon.co.uk/dp/B094XWVQ1X) |
 
+#### Assembly
+
+##### Parts Used
+
+| Item                  | Quantity |
+| --------------------- | -------- |
+| Red Bowden Tube (m)   | 1        |
+| M5 Hammer Head T-nuts | 2        |
+| M5x16 BHCS            | 2        |
+
 ## Mods
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
@@ -632,6 +642,18 @@ The stock exhaust filter has the bowden coupler coming out of the back. As I wil
 | [exhaust_housing_insert_thread](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/120decibell/exhaust_housing_side_entry/STL/%5Ba%5D_exhaust_housing_insert_thread.stl) | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by 120decibell |
 | [filter_access_cover](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/120decibell/exhaust_housing_side_entry/STL/%5Ba%5D_filter_access_cover.stl)                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Voron Users Mod by 120decibell |
 
+#### Assembly
+
+##### Parts Used
+
+| Item                                 | Quantity |
+| ------------------------------------ | -------- |
+| 4mm Bowden Coupler                   | 2        |
+| Fume Extractor Carbon Filter Element | 1        |
+| M3 Threaded Insert                   | 8        |
+| M3x8 SHCS                            | 2        |
+| M3x30 SHCS                           | 4        |
+
 ### Clamping Door Hinges
 
 The Stock door hinges are attached using VHB, these clamp around the acrylic panel and also allow the doors to open all the way.
@@ -643,6 +665,16 @@ The Stock door hinges are attached using VHB, these clamp around the acrylic pan
 | [face_plate_through_logo](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges/STLs/face_plate_through_logo.stl) | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by AlexanderT-Moss |
 | [side_mount](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges/STLs/side_mount.stl)                           | 6        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by AlexanderT-Moss |
 
+#### Assembly
+
+##### Parts Used
+
+| Item                  | Quantity |
+| --------------------- | -------- |
+| M3 Hammer Head T-nuts | 6        |
+| M3 Hex Nuts           | 12       |
+| M3x8 SHCS             | 30       |
+
 ### Bed Wago Mount
 
 Wago Mount for connecting bed wires.
@@ -652,6 +684,16 @@ Wago Mount for connecting bed wires.
 | ~[2020-Wago_221-412_tray-5x2](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Boingomw/Wago_mount/stl/2020-Wago_221-412_tray-5x2.stl)~ | 3        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by Boingomw. |
 
 **_NOTE:_** The side parts split at the layer lines when inserting the Wago connectors to this part (I printed it in ABS so there may have been some shrinkage). I replaced it with [this version from Thingyverse instead](https://www.thingiverse.com/thing:4579456).
+
+#### Assembly
+
+##### Parts Used
+
+| Item                  | Quantity |
+| --------------------- | -------- |
+| M3 Hammer Head T-nuts | 6        |
+| M3x8 SHCS             | 6        |
+| Wago 221-412          | ~15~ 12  |
 
 ### Cable Chain Anchors
 
@@ -669,6 +711,18 @@ Mounts for 5015 fans to circulate air around the enclosure to get hotter chamber
 | --------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ---------------------------------------- |
 | [Mounting_Plate](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/CannedBass/Trident_Bed_Fans/STL/Mounting_Plate.stl) | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by CannedBass. |
 
+#### Assembly
+
+##### Parts Used
+
+| Item                       | Quantity |
+| -------------------------- | -------- |
+| 5015 Centrifugal Fan (24V) | 4        |
+| M3 Hammer Head T-nuts      | 4        |
+| M3 Threaded Insert         | 8        |
+| M3x8 SHCS                  | 4        |
+| M3x20 SHCS                 | 8        |
+
 ### Nozzle Scrubber
 
 Cleans the nozzle before printing and has endstops to locate the magnetic bed.
@@ -679,6 +733,19 @@ Cleans the nozzle before printing and has endstops to locate the magnetic bed.
 | [extension_bracket](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/extension_bracket_v1.8_rev4.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
 | [individual_sheetstop](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/individual_sheetstop_v1.8_v2.4_rev4.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
 | [purge_bucket](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/purge_bucket_300mm_rev4.stl)                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
+
+#### Assembly
+
+##### Parts Used
+
+| Item                     | Quantity |
+| ------------------------ | -------- |
+| 6x3mm Neodimium Magnet   | 2        |
+| M2x10 Self-Tapping Screw | 3        |
+| M3 Hexnut                | 3        |
+| M3 T-nut                 | 2        |
+| M3x8 SHCS                | 5        |
+| TriangleLabs Brass Brush | 1        |
 
 ### Smart Filament Sensor Mount
 
@@ -697,6 +764,22 @@ Cover for the Exhaust filter grill to allow the chamber to hold it's temperature
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | --------------------------------- |
 | [exhaust_filter_cover](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/falo/magnetic_grill_cover/STL/exhaust_filter_cover.stl)                   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Voron Users Mod by falo |
 | [exhaust_filter_grill_modified](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/falo/magnetic_grill_cover/STL/exhaust_filter_grill_modified.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   | This is a Voron Users Mod by falo |
+
+#### Assembly
+
+##### Parts Used
+
+| Item                   | Quantity |
+| ---------------------- | -------- |
+| 6x3mm Neodimium Magnet | 8        |
+
+### Sexbolt Z Endstop
+
+An enclosed bolt with sleeved bearings for the Z endstop.
+
+| Item                                                                                                                                                | Quantity | Material                                                | Printed | Notes                                  |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | -------------------------------------- |
+| [EndstopHousing](https://github.com/hartk1213/MISC/blob/main/Voron%20Mods/Voron%202/2.4/Voron2.4_SexBolt_ZEndstop/STLs/EndstopHousingVoronLogo.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Voron Users Mod by hartk1213 |
 
 ### Printable Chain
 
@@ -727,6 +810,17 @@ Mount for the display allowing it to be tilted and angled.
 | [Swingarm_short(Mirror)](<https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_short(Mirror).stl>) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by Iakabos                                                                                     |
 | [Swingarm_short](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_short.stl)                   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by Iakabos                                                                                     |
 
+#### Assembly
+
+##### Parts Used
+
+| Item       | Quantity |
+| ---------- | -------- |
+| M3x8 SHCS  | 12       |
+| M3x8 BHCS  | 4        |
+| M5 T-nut   | 2        |
+| M5x10 BHCS | 2        |
+
 ### Mosfet Mounts
 
 The SKR 1.4 Turbo only has 1 controllable fan header, I have purchased a couple of mosfets to control more fans and need something to mount them.
@@ -735,6 +829,16 @@ The SKR 1.4 Turbo only has 1 controllable fan header, I have purchased a couple 
 | -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ------------------------------------- |
 | [Mosfet_Mount](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/JaredC01/Mosfet_Mounts/Mosfet_Mount_4.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by JaredC01 |
 
+#### Assembly
+
+##### Parts Used
+
+| Item                     | Quantity |
+| ------------------------ | -------- |
+| M2x10 Self-Tapping Screw | 8        |
+| M3 Hammer Head T-nuts    | 2        |
+| M3x8 SHCS                | 2        |
+
 ### Sturdy Handles
 
 Will make moving the printer around a little easier when assembled.
@@ -742,6 +846,15 @@ Will make moving the printer around a little easier when assembled.
 | Item                                                                                                                             | Quantity | Material                                                | Printed | Notes                              |
 | -------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ---------------------------------- |
 | [sturdy_handles](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/jeoje/Sturdy_Handles/STL/sturdy_handles.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Voron Users Mod by jeoje |
+
+#### Assembly
+
+##### Parts Used
+
+| Item       | Quantity |
+| ---------- | -------- |
+| M5 T-nut   | 4        |
+| M5x10 BHCS | 4        |
 
 ### Klicky Probe
 
@@ -783,6 +896,14 @@ A mount for a [BIQU116-A2 MKS Mosfet](https://www.biqu.equipment/products/3d-pri
 | [MKS Mosfet Mount](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/mikepthomas/MKS_Mosfet_Mount/STL/MKS_Mosfet_Mount.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by mikepthomas (me :blush:). |
 | [pcb_din_clip_v2](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_v2_x5.stl)                         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Trident Part                                 |
 
+#### Assembly
+
+##### Parts Used
+
+| Item                     | Quantity |
+| ------------------------ | -------- |
+| M2x10 Self-Tapping Screw | 6        |
+
 ### 60mm Fan Cover
 
 A Fan cover that has an integrated Voron logo.
@@ -800,6 +921,14 @@ A cable management duct to tidy up the wiring in the electronics case.
 | [CableDuctBody](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/ryandam/Cable_management_duct/STLs/CableDuctBody.stl)   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) |   :x:   | This is a Voron Users Mod by ryandam |
 | [CableDuctCover](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/ryandam/Cable_management_duct/STLs/CableDuctCover.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) |   :x:   | This is a Voron Users Mod by ryandam |
 
+#### Assembly
+
+##### Parts Used
+
+| Item             | Quantity |
+| ---------------- | -------- |
+| 3M VHB Tape 5952 | 1        |
+
 ### Corner Cable Cover
 
 Cover to hide the cables for the LED strip around the top corners of the printer
@@ -808,6 +937,15 @@ Cover to hide the cables for the LED strip around the top corners of the printer
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- | :-----: | --------------------------------------- |
 | [top_corner_cable_hide_left](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/samwiseg0/corner_cable_hide/STLs/%5Ba%5D_top_corner_cable_hide_left_x2.stl)   | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) |   :x:   | This is a Voron Users Mod by samwiseg0. |
 | [top_corner_cable_hide_right](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/samwiseg0/corner_cable_hide/STLs/%5Ba%5D_top_corner_cable_hide_right_x2.stl) | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) |   :x:   | This is a Voron Users Mod by samwiseg0. |
+
+#### Assembly
+
+##### Parts Used
+
+| Item                  | Quantity |
+| --------------------- | -------- |
+| M3 Hammer Head T-nuts | 8        |
+| M3x8 SHCS             | 8        |
 
 ### Power Supply Cover
 
@@ -828,6 +966,15 @@ The coroplast on the bottom of the printer is not that well supported so this ju
 | [deck_panel_support_lower](<https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/wile-e1/Deck_Panel_Support_Clips/wile.e-deck_panel_support_lower_adjustable(3-6mm).stl>) | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by wile-e1 |
 | [deck_panel_support_upper](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/wile-e1/Deck_Panel_Support_Clips/wile.e-deck_panel_support_upper.stl)                     | 4        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by wile-e1 |
 
+#### Assembly
+
+##### Parts Used
+
+| Item                  | Quantity |
+| --------------------- | -------- |
+| M3 Hammer Head T-nuts | 8        |
+| M3x8 SHCS             | 8        |
+
 ### Klipper Expander
 
 PCB to expand the ports that can be used for fans and neopixels. I already have RGB neopixel strips and will need another neopixel header to run the Stealthburner RGBW LEDs.
@@ -838,3 +985,12 @@ There are three different mounts, one vertical, one horizontal and one for DIN r
 | [KlipperExpander_HorizontalMount](https://github.com/VoronDesign/Voron-Hardware/blob/master/Klipper_Expander/CAD/KlipperExpander_HorizontalMount.STL) | 1        |                                                         |   :x:   |       |
 | [KlipperExpander_RailMount](https://github.com/VoronDesign/Voron-Hardware/blob/master/Klipper_Expander/CAD/KlipperExpander_RailMount.stl)             | 1        |                                                         |   :x:   |       |
 | [KlipperExpander_VerticalMount](https://github.com/VoronDesign/Voron-Hardware/blob/master/Klipper_Expander/CAD/KlipperExpander_VerticalMount.STL)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+
+#### Assembly
+
+##### Parts Used
+
+| Item                  | Quantity |
+| --------------------- | -------- |
+| M3 Hammer Head T-nuts | 2        |
+| M3x8 SHCS             | 4        |

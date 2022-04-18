@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 15, 2022
+Updated April 18, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -385,7 +385,7 @@ The X Axis was flipped on the Trident (linear rails are on the bottom of the ext
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-#### :wrench: XY Joints
+#### :white_check_mark: XY Joints
 
 | Item                                                                                                                                            | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                   |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :----------------: | --------------------------------------- |
@@ -397,6 +397,8 @@ The X Axis was flipped on the Trident (linear rails are on the bottom of the ext
 
 ##### Assembly
 
+![XY Joints Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/xy-joints-assembled.jpg)
+
 ###### Parts Used
 
 | Item                                 | Quantity |
@@ -404,9 +406,9 @@ The X Axis was flipped on the Trident (linear rails are on the bottom of the ext
 | F695 Bearing                         | 4        |
 | GT2 20T Toothed Idler (5mm ID 6mm W) | 2        |
 | Linear Rail MGN9H 350mm              | 2        |
-| M3 T-nut                             | 8        |
+| M3 T-nut                             | 12       |
 | M3 Threaded Insert                   | 3        |
-| M3x8 SHCS                            | 16       |
+| M3x8 SHCS                            | 20       |
 | M5 1mm Spacer                        | 4        |
 | M5 Hexnut                            | 6        |
 | M5 T-nut                             | 4        |
@@ -415,7 +417,7 @@ The X Axis was flipped on the Trident (linear rails are on the bottom of the ext
 | M5x40 SHCS                           | 6        |
 | Misumi HFSB5-2020-380                | 1        |
 
-#### :negative_squared_cross_mark: X Carriage
+#### :white_check_mark: X Carriage
 
 | Item                                                                                                                                         | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----- |
@@ -427,22 +429,24 @@ The X Axis was flipped on the Trident (linear rails are on the bottom of the ext
 
 ##### Assembly
 
+![X Carriage Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/x-carriage-assembled.jpg)
+
 ###### Parts Used
 
-| Item                         | Quantity |
-| ---------------------------- | -------- |
-| M2x10 Self-Tapping Screw     | 1        |
-| M3 Hexnut                    | 3        |
-| M3 Threaded Insert           | 6        |
-| M3x8 SHCS                    | 8        |
-| M3x12 SHCS                   | 2        |
-| M3x16 SHCS                   | 2        |
-| M3x20 SHCS                   | 2        |
-| M3x30 SHCS                   | 3        |
-| PL-08N Inductive Probe       | 1        |
-| SPDT KW10 Limit Micro Switch | 1        |
+| Item                            | Quantity |
+| ------------------------------- | -------- |
+| Black 20AWG Silicone Cable (mm) | 300      |
+| M2x10 Self-Tapping Screw        | 1        |
+| M3 Hexnut                       | 3        |
+| M3 Threaded Insert              | 6        |
+| M3x8 SHCS                       | 8        |
+| M3x10 SHCS                      | 2        |
+| M3x12 SHCS                      | 2        |
+| M3x16 SHCS                      | 2        |
+| M3x30 SHCS                      | 3        |
+| SPDT KW10 Limit Micro Switch    | 1        |
 
-#### :negative_squared_cross_mark: Belts
+#### :wrench: Belts
 
 ##### Assembly
 
@@ -462,9 +466,11 @@ I will not be printing the parts for the Afterburner specified in the Voron 1.8 
 
 I have documented the parts required for the toolhead on the [extruders and toolheads page](printer-extruders-and-toolheads.md#voron-afterburner-stealthburner) as it is still in a bit of flux due to the Stealthburner still being in Beta.
 
+![Clockwork 1 installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/clockwork-installed.jpg)
+
 ### Endstops
 
-#### :negative_squared_cross_mark: Y Endstop
+#### :wrench: Y Endstop
 
 | Item                                                                                                                       | Quantity | Material                                            | Size  | Weight | Cost  |      Printed       | Notes |
 | -------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----- |
@@ -472,10 +478,13 @@ I have documented the parts required for the toolhead on the [extruders and tool
 
 ##### Assembly
 
+![Y Endstop](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/y-endstop.jpg)
+
 ###### Parts Used
 
 | Item                         | Quantity |
 | ---------------------------- | -------- |
+| 24AWG PTFE Cable (Black)     | 500mm    |
 | M3x16 SHCS                   | 1        |
 | M5x16 BHCS                   | 1        |
 | SPDT KW10 Limit Micro Switch | 1        |
@@ -619,7 +628,9 @@ I have documented the parts required for the toolhead on the [extruders and tool
 | [bowen_retainer](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Spool_Management/bowen_retainer.stl) | 1        |                                                         |        :x:         | This is a Trident Part. Not printing this as I will be using the [Smart Filament Sensor Mount](#smart-filament-sensor-mount)       |
 | [spool_holder](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Spool_Management/spool_holder.stl)     | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Trident Part. May not print this as I currently use an [eSun Filament Dryer box](https://www.amazon.co.uk/dp/B094XWVQ1X) |
 
-#### Assembly
+#### :wrench: Assembly
+
+![Spool Holders](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/spool-holders.jpg)
 
 ##### Parts Used
 
@@ -667,7 +678,9 @@ The Stock door hinges are attached using VHB, these clamp around the acrylic pan
 | [face_plate_through_logo](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges/STLs/face_plate_through_logo.stl) | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by AlexanderT-Moss |
 | [side_mount](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/AlexanderT-Moss/270-Clamping-Hinges/STLs/side_mount.stl)                           | 6        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by AlexanderT-Moss |
 
-#### Assembly
+#### :wrench: Assembly
+
+![Clamping Door Hinges](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/clamping-door-hinges.jpg)
 
 ##### Parts Used
 
@@ -687,7 +700,9 @@ Wago Mount for connecting bed wires.
 
 **_NOTE:_** The side parts split at the layer lines when inserting the Wago connectors to this part (I printed it in ABS so there may have been some shrinkage). I replaced it with [this version from Thingyverse instead](https://www.thingiverse.com/thing:4579456).
 
-#### Assembly
+#### :wrench: Assembly
+
+![Wago Mounts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/wago-mounts.jpg)
 
 ##### Parts Used
 
@@ -831,7 +846,7 @@ The SKR 1.4 Turbo only has 1 controllable fan header, I have purchased a couple 
 | -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ------------------------------------- |
 | [Mosfet_Mount](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/JaredC01/Mosfet_Mounts/Mosfet_Mount_4.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by JaredC01 |
 
-#### Assembly
+#### :wrench: Assembly
 
 ##### Parts Used
 
@@ -870,6 +885,15 @@ Recommended upgrade to replace the PL-08N Inductive Probe which can be a bit unr
 | [Dock_sidemount_right_v2](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Printers/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Dock_sidemount_right_v2.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by JosAr |
 | [Probe_Dock_v2.1](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Base_STL/Probe_Dock_v2.1.stl)                                                                       | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by JosAr |
 
+##### :wrench: Assembly
+
+###### Parts Used
+
+| Item                   | Quantity |
+| ---------------------- | -------- |
+| 6x3mm Neodimium Magnet | 1        |
+| Super Glue             | 1        |
+
 #### Probe
 
 | Item                                                                                                                                                                                                        | Quantity | Material                                                |      Printed       | Notes                              |
@@ -877,6 +901,21 @@ Recommended upgrade to replace the PL-08N Inductive Probe which can be a bit unr
 | [KlickyProbe_v2](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Base_STL/KlickyProbe_v2.stl)                                                                         | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | This is a Voron Users Mod by JosAr |
 | [Switch_extender](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Base_STL/Switch_extender.stl)                                                                       | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This is a Voron Users Mod by JosAr |
 | [KlickyProbe_AB_mount_v2](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Printers/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/KlickyProbe_AB_mount_v2.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by JosAr |
+
+##### :white_check_mark: Assembly
+
+![Klicky Probe](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/klicky-probe.jpg)
+
+###### Parts Used
+
+| Item                            | Quantity |
+| ------------------------------- | -------- |
+| Black 20AWG Silicone Cable (mm) | 300      |
+| 6x3mm Neodimium Magnet          | 7        |
+| M2x10 Self-Tapping Screw        | 2        |
+| Nylon Cable Ties 4"             | 1        |
+| SPDT KW10 Limit Micro Switch    | 1        |
+| Super Glue                      | 1        |
 
 #### Tools
 

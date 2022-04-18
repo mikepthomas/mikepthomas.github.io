@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 15, 2022
+Updated April 18, 2022
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -189,8 +189,7 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 | AH3364Q-P-B Hall Effect sensor (SIP) | 1        | 1        |       |
 | M3 DIN125 Steel Washer               | 1        | 2        |       |
 | 6mm x 3mm Round Neodymium Magnets    | 1        | 1        |       |
-| M3x8 SHCS                            | 1        | 1        |       |
-| M3x12 SHCS                           | 1        | 1        |       |
+| M3x8 SHCS                            | 2        | 2        |       |
 
 ### Printing Parts
 
@@ -208,6 +207,30 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 | [ERCF_Sensor_Cable_Cover](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/%5Ba%5D_AB_ERCF_Sensor_Cable_Cover.stl)                           | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | ERCF Filament Sensor Part                                                        |
 | [extruder_motor_plate_for_pcb](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/extruder_motor_plate_for_pcb.stl)            | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | Afterburner Toolhead PCB Part                                                    |
 | [pcb_spacer](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/pcb_spacer.stl)                                                | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | Afterburner Toolhead PCB Part                                                    |
+
+##### :white_check_mark: Assembly
+
+![ERCF Clockwork Extruder with Toolhead PCB](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-extruders-and-toolheads/clockwork.jpg)
+
+###### Parts Used
+
+| Item                                 | Quantity |
+| ------------------------------------ | -------- |
+| 24AWG PTFE Cable (Black)             | 150mm    |
+| 24AWG PTFE Cable (Yellow)            | 150mm    |
+| 24AWG PTFE Cable (Red)               | 150mm    |
+| 6mm x 3mm Round Neodymium Magnets    | 1        |
+| AH3364Q-P-B Hall Effect sensor (SIP) | 1        |
+| BMG Extruder Components Kit          | 1        |
+| ERCF Afterburner Tool-Head PCB       | 1        |
+| Heatshrink tubing                    | 1        |
+| JST XH Connector Plug 3 Position     | 1        |
+| M3 DIN125 Steel Washer               | 1        |
+| M3 Threaded Insert                   | 11       |
+| M3x8 SHCS                            | 5        |
+| M3x20 SHCS                           | 4        |
+| M3x30 SHCS                           | 4        |
+| NEMA17 Motor 17HS08-1004S            | 1        |
 
 #### Stealthburner
 

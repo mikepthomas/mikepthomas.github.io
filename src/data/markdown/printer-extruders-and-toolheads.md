@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 18, 2022
+Updated April 19, 2022
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -145,20 +145,20 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 
 #### Fasteners
 
-| Item                                      | Quantity | Received | Notes                                                           |
-| ----------------------------------------- | -------- | -------- | --------------------------------------------------------------- |
-| M3x8 SHCS                                 | 2        | 182      | 50 on order. in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners) |
-| M3x6 FHCS                                 | 2        | 50       |                                                                 |
-| M3x6 BHCS                                 | 1        | 50       |                                                                 |
-| M3x50 SHCS                                | 2        | 50       |                                                                 |
-| M3x30 SHCS                                | 3        | 30       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
-| M3x25 SHCS                                | 7        | 30       |                                                                 |
-| M3x20 SHCS                                | 2        | 30       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
-| M3x16 SHCS                                | 4        | 30       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
-| M3x12 SHCS                                | 4        | 80       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
-| M3 Hexnut                                 | 2        | 50       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
-| M3 Brass heatstake inserts - short M3x5x4 | 22       | 100      | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
-| Bondtech BMG Extruder Kit                 | 1        | 1        | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners)              |
+| Item                                      | Quantity | Received | Notes                                              |
+| ----------------------------------------- | -------- | -------- | -------------------------------------------------- |
+| M3x8 SHCS                                 | 2        | 214      | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners) |
+| M3x6 FHCS                                 | 2        | 50       |                                                    |
+| M3x6 BHCS                                 | 1        | 50       |                                                    |
+| M3x50 SHCS                                | 2        | 50       |                                                    |
+| M3x30 SHCS                                | 3        | 30       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners) |
+| M3x25 SHCS                                | 7        | 30       |                                                    |
+| M3x20 SHCS                                | 2        | 30       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners) |
+| M3x16 SHCS                                | 4        | 30       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners) |
+| M3x12 SHCS                                | 4        | 80       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners) |
+| M3 Hexnut                                 | 2        | 50       | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners) |
+| M3 Brass heatstake inserts - short M3x5x4 | 22       | 100      | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners) |
+| Bondtech BMG Extruder Kit                 | 1        | 1        | in [Voron 1.8 BOM](printer-voron-1.8.md#fasteners) |
 
 #### Electronics
 
@@ -168,19 +168,8 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 | ERCF Afterburner Tool-Head PCB               | 1        | 1        |                               |
 | NeoPixel RGBW Mini Button PCB                | 3        | 3        |                               |
 | NEMA14 36mm pancake Motor with 10 tooth gear | 1        |          | Only required for Clockwork 2 |
-| 50x50x15 Centrifugal Fan (24V)               | 1        |          | 1 on order                    |
-| 40x40x10 Axial Fan (24V)                     | 1        |          | 2 on order                    |
-
-#### Cables
-
-| Item                                      | Quantity | Received | Notes        |
-| ----------------------------------------- | -------- | -------- | ------------ |
-| MicroFit3 Male Pin                        | 3        |          | 140 on order |
-| MicroFit3 Female Pin                      | 3        |          | 140 on order |
-| MicroFit3 Connector Receptacle 3 Position | 1        |          | 10 on order  |
-| MicroFit3 Connector Plug 3 Position       | 1        |          | 10 on order  |
-| 30AWG PTFE Cable (3ft total)              | 1        | 1        |              |
-| 24AWG PTFE Cable (30ft total)             | 1        | 1        |              |
+| 50x50x15 Centrifugal Fan (24V)               | 1        | 1        |                               |
+| 40x40x10 Axial Fan (24V)                     | 1        | 1        |                               |
 
 #### Toolhead Sensor
 

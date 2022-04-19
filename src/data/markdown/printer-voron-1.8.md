@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 18, 2022
+Updated April 19, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -21,31 +21,31 @@ I had originally chosen parts for the [Hypercube](printer-hypercube.md) that wil
 
 ### Fasteners
 
-| Item                       | Quantity | Received | Notes       |
-| -------------------------- | -------- | -------- | ----------- |
-| M5x40 SHCS                 | 8        | 29       |             |
-| M5x30 BHCS                 | 6        | 19       |             |
-| M5x16 BHCS                 | 67       | 69       |             |
-| M5x10 BHCS                 | 71       | 104      |             |
-| M5 Hexnut                  | 8        | 19       |             |
-| M5 1mm Spacer              | 20       | 50       |             |
-| M5 T-nut                   | 83       | 130      |             |
-| M4x6 BHCS                  | 4        | 20       |             |
-| M3x40 SHCS                 | 5        | 20       |             |
-| M3x30 SHCS                 | 25       | 30       |             |
-| M3x20 SHCS                 | 10       | 30       |             |
-| M3x16 SHCS                 | 17       | 20       |             |
-| M3x12 SHCS                 | 30       | 77       |             |
-| M3x8 SHCS                  | 171      | 162      | 50 on order |
-| M3x6 BHCS                  | 20       | 47       |             |
-| M3 Hexnut                  | 7        | 50       |             |
-| M3 Washer                  | 10       | 50       |             |
-| M3 T-nut                   | 120      | 160      |             |
-| M3 Hammer Head T-nuts      | 54       | 97       |             |
-| M3 Threaded Insert         | 50       | 94       |             |
-| M3 Knurled Nut (DIN 466-B) | 3        | 5        |             |
-| M2x10 Self-Tapping Screw   | 7        | 51       |             |
-| Yellow Die Spring - M3     | 1        | 10       |             |
+| Item                       | Quantity | Received | Notes |
+| -------------------------- | -------- | -------- | ----- |
+| M5x40 SHCS                 | 8        | 29       |       |
+| M5x30 BHCS                 | 6        | 19       |       |
+| M5x16 BHCS                 | 67       | 69       |       |
+| M5x10 BHCS                 | 71       | 104      |       |
+| M5 Hexnut                  | 8        | 19       |       |
+| M5 1mm Spacer              | 20       | 50       |       |
+| M5 T-nut                   | 83       | 130      |       |
+| M4x6 BHCS                  | 4        | 20       |       |
+| M3x40 SHCS                 | 5        | 20       |       |
+| M3x30 SHCS                 | 25       | 30       |       |
+| M3x20 SHCS                 | 10       | 30       |       |
+| M3x16 SHCS                 | 17       | 20       |       |
+| M3x12 SHCS                 | 30       | 77       |       |
+| M3x8 SHCS                  | 171      | 214      |       |
+| M3x6 BHCS                  | 20       | 47       |       |
+| M3 Hexnut                  | 7        | 50       |       |
+| M3 Washer                  | 10       | 50       |       |
+| M3 T-nut                   | 120      | 160      |       |
+| M3 Hammer Head T-nuts      | 54       | 97       |       |
+| M3 Threaded Insert         | 50       | 94       |       |
+| M3 Knurled Nut (DIN 466-B) | 3        | 5        |       |
+| M2x10 Self-Tapping Screw   | 7        | 51       |       |
+| Yellow Die Spring - M3     | 1        | 10       |       |
 
 ### Frame
 
@@ -116,14 +116,14 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | JST XH Connector Plug 3 Position          | 4        | 20       |                    |
 | JST XH Connector Plug 2 Position          | 2        | 20       |                    |
 | JST XH Female Pin                         | 40       | 200      |                    |
-| MicroFit3 Connector Plug 4 Position       | 2        |          | 10 on order        |
-| MicroFit3 Connector Plug 3 Position       | 1        |          | 10 on order        |
-| MicroFit3 Connector Plug 2 Position       | 5        |          | 10 on order        |
-| MicroFit3 Connector Receptacle 4 Position | 2        |          | 10 on order        |
-| MicroFit3 Connector Receptacle 3 Position | 1        |          | 10 on order        |
-| MicroFit3 Connector Receptacle 2 Position | 5        |          | 10 on order        |
-| MicroFit3 Female Pin                      | 40       |          | 140 on order       |
-| MicroFit3 Male Pin                        | 40       |          | 140 on order       |
+| MicroFit3 Connector Plug 4 Position       | 2        | 10       |                    |
+| MicroFit3 Connector Plug 3 Position       | 1        | 10       |                    |
+| MicroFit3 Connector Plug 2 Position       | 5        | 10       |                    |
+| MicroFit3 Connector Receptacle 4 Position | 2        | 10       |                    |
+| MicroFit3 Connector Receptacle 3 Position | 1        | 10       |                    |
+| MicroFit3 Connector Receptacle 2 Position | 5        | 10       |                    |
+| MicroFit3 Female Pin                      | 40       | 140      |                    |
+| MicroFit3 Male Pin                        | 40       | 140      |                    |
 | 10x11 Cable Chain - 1m                    | 2        | 2        |                    |
 
 ### Electronics
@@ -136,12 +136,12 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | SPDT KW10 Limit Micro Switch       | 3        | 30       |                                                                                                                                          |
 | PL-08N Inductive Probe             | 1        | 1        | Using Tronxy XY-08N. Going to replace with [Klicky Probe](#klicky-probe)                                                                 |
 | E3D V6 Bowden Hotend Kit (24V)     | 1        | 1        |                                                                                                                                          |
-| 40x40x20 Centrifugal Fan (24V)     | 1        |          | 1 on order                                                                                                                               |
-| 40x40x10 Axial Fan (24V)           | 1        |          | 1 on order                                                                                                                               |
+| 40x40x20 Centrifugal Fan (24V)     | 1        |          | Using a 5015 Centrifugal Fan in Stealthburner instead                                                                                    |
+| 40x40x10 Axial Fan (24V)           | 1        | 1        |                                                                                                                                          |
 | Mini 12864 Display                 | 1        | 1        |                                                                                                                                          |
 | Inlet Power Socket IEC320 C14      | 1        | 1        |                                                                                                                                          |
 | Keystone CAT6 Insert (Optional)    | 1        | 2        | 1 Ethernet and 1 USB                                                                                                                     |
-| 60x60x20 Fan (24V)                 | 2        |          | 2 on order                                                                                                                               |
+| 60x60x20 Fan (24V)                 | 2        | 2        |                                                                                                                                          |
 | SKR 1.4                            | 1        | 1        | I have the Turbo version                                                                                                                 |
 | TMC2209 Stepper Motor Driver       | 5        | 5        |                                                                                                                                          |
 | USB Cable A-male B-male            | 1        | 1        |                                                                                                                                          |

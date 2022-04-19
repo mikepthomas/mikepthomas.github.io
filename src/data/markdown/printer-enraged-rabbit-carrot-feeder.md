@@ -1,7 +1,7 @@
 # Building an Enraged Rabbit Carrot Feeder
 
 Febuary 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 8, 2022
+Updated April 19, 2022
 
 Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRabbitProject) to print using multiple colours of filament on the Voron.
 
@@ -44,22 +44,22 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Fasteners
 
-| Item                   | Quantity | Received | Notes        |
-| ---------------------- | -------- | -------- | ------------ |
-| M3 threaded inserts    | 26       | 32       |              |
-| M5x30 BHCS             | 2        | 2        |              |
-| M5x16 BHCS             | 1        | 1        |              |
-| M5 nuts                | 4        | 5        |              |
-| M5 nylock nuts         | 5        | 6        |              |
-| M5 washers             | 2        | 3        |              |
-| M3x8 SHCS              | 20       | 20       |              |
-| M3x8 BHCS              | 5        |          | 100 on order |
-| M3x12 SHCS             | 3        | 3        |              |
-| M3x16 SHCS             | 10       | 10       |              |
-| M3x20 SHCS             | 7        | 7        |              |
-| M3x40 SHCS             | 2        | 2        |              |
-| M3 DIN125 Steel Washer | 8        | 13       |              |
-| M2x10 SHCS             | 2        | 2        |              |
+| Item                   | Quantity | Received | Notes |
+| ---------------------- | -------- | -------- | ----- |
+| M3 threaded inserts    | 26       | 32       |       |
+| M5x30 BHCS             | 2        | 2        |       |
+| M5x16 BHCS             | 1        | 1        |       |
+| M5 nuts                | 4        | 5        |       |
+| M5 nylock nuts         | 5        | 6        |       |
+| M5 washers             | 2        | 3        |       |
+| M3x8 SHCS              | 20       | 20       |       |
+| M3x8 BHCS              | 5        | 102      |       |
+| M3x12 SHCS             | 3        | 3        |       |
+| M3x16 SHCS             | 10       | 10       |       |
+| M3x20 SHCS             | 7        | 7        |       |
+| M3x40 SHCS             | 2        | 2        |       |
+| M3 DIN125 Steel Washer | 8        | 13       |       |
+| M2x10 SHCS             | 2        | 2        |       |
 
 ### Motion
 
@@ -81,14 +81,14 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Cables
 
-| Item                                                  | Quantity | Received | Notes        |
-| ----------------------------------------------------- | -------- | -------- | ------------ |
-| MicroFit3 Male Pin (43031-0007)                       | 26       |          | 140 on order |
-| MicroFit3 Female Pin (43030-0007)                     | 26       |          | 140 on order |
-| MicroFit Connector Receptacle 4 Position (43645-0400) | 4        |          | 10 on order  |
-| MicroFit Connector Plug 4 Position (43640-0401)       | 4        |          | 10 on order  |
-| MicroFit Connector Receptacle 5 Position (43645-0500) | 2        |          | 10 on order  |
-| MicroFit Connector Plug 5 Position (43640-0501)       | 2        |          | 10 on order  |
+| Item                                                  | Quantity | Received | Notes |
+| ----------------------------------------------------- | -------- | -------- | ----- |
+| MicroFit3 Male Pin (43031-0007)                       | 26       | 140      |       |
+| MicroFit3 Female Pin (43030-0007)                     | 26       | 140      |       |
+| MicroFit Connector Receptacle 4 Position (43645-0400) | 4        | 10       |       |
+| MicroFit Connector Plug 4 Position (43640-0401)       | 4        | 10       |       |
+| MicroFit Connector Receptacle 5 Position (43645-0500) | 2        | 10       |       |
+| MicroFit Connector Plug 5 Position (43640-0501)       | 2        | 10       |       |
 
 ### Toolhead Sensor
 

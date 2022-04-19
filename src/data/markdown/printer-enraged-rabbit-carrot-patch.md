@@ -1,7 +1,7 @@
 # Building an Enraged Rabbit Carrot Patch
 
 April 4, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 6, 2022
+Updated April 19, 2022
 
 Building the [Enraged Rabbit Carrot Patch](https://github.com/EtteGit/EnragedRabbitProject) manage filament reels being used by the Enraged Rabbit Carrot Feeder.
 
@@ -18,14 +18,14 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Fasteners
 
-| Item                | Quantity | Received | Notes       |
-| ------------------- | -------- | -------- | ----------- |
-| M3 threaded inserts | 4        | 44       |             |
-| M3x8 SHCS           | 2        |          | 50 on order |
-| M3x16 SHCS          | 1        | 3        |             |
-| M3x20 SHCS          | 1        | 20       |             |
-| M5 nylock nuts      | 1        | 50       |             |
-| M5x30 BHCS          | 1        | 13       |             |
+| Item                | Quantity | Received | Notes |
+| ------------------- | -------- | -------- | ----- |
+| M3 threaded inserts | 4        | 44       |       |
+| M3x8 SHCS           | 2        | 43       |       |
+| M3x16 SHCS          | 1        | 3        |       |
+| M3x20 SHCS          | 1        | 20       |       |
+| M5 nylock nuts      | 1        | 50       |       |
+| M5x30 BHCS          | 1        | 13       |       |
 
 ### Misc
 

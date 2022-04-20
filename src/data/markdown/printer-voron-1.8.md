@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 19, 2022
+Updated April 20, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -21,31 +21,31 @@ I had originally chosen parts for the [Hypercube](printer-hypercube.md) that wil
 
 ### Fasteners
 
-| Item                       | Quantity | Received | Notes |
-| -------------------------- | -------- | -------- | ----- |
-| M5x40 SHCS                 | 8        | 29       |       |
-| M5x30 BHCS                 | 6        | 19       |       |
-| M5x16 BHCS                 | 67       | 69       |       |
-| M5x10 BHCS                 | 71       | 104      |       |
-| M5 Hexnut                  | 8        | 19       |       |
-| M5 1mm Spacer              | 20       | 50       |       |
-| M5 T-nut                   | 83       | 130      |       |
-| M4x6 BHCS                  | 4        | 20       |       |
-| M3x40 SHCS                 | 5        | 20       |       |
-| M3x30 SHCS                 | 25       | 30       |       |
-| M3x20 SHCS                 | 10       | 30       |       |
-| M3x16 SHCS                 | 17       | 20       |       |
-| M3x12 SHCS                 | 30       | 77       |       |
-| M3x8 SHCS                  | 171      | 214      |       |
-| M3x6 BHCS                  | 20       | 47       |       |
-| M3 Hexnut                  | 7        | 50       |       |
-| M3 Washer                  | 10       | 50       |       |
-| M3 T-nut                   | 120      | 160      |       |
-| M3 Hammer Head T-nuts      | 54       | 97       |       |
-| M3 Threaded Insert         | 50       | 94       |       |
-| M3 Knurled Nut (DIN 466-B) | 3        | 5        |       |
-| M2x10 Self-Tapping Screw   | 7        | 51       |       |
-| Yellow Die Spring - M3     | 1        | 10       |       |
+| Item                       | Quantity | Received | Notes       |
+| -------------------------- | -------- | -------- | ----------- |
+| M5x40 SHCS                 | 8        | 29       |             |
+| M5x30 BHCS                 | 6        | 15       |             |
+| M5x16 BHCS                 | 67       | 69       |             |
+| M5x10 BHCS                 | 71       | 104      |             |
+| M5 Hexnut                  | 8        | 19       |             |
+| M5 1mm Spacer              | 20       | 50       |             |
+| M5 T-nut                   | 83       | 130      |             |
+| M4x6 BHCS                  | 4        | 20       |             |
+| M3x40 SHCS                 | 5        | 20       |             |
+| M3x30 SHCS                 | 25       | 30       |             |
+| M3x20 SHCS                 | 10       | 26       |             |
+| M3x16 SHCS                 | 17       | 16       | 50 on order |
+| M3x12 SHCS                 | 30       | 77       |             |
+| M3x8 SHCS                  | 171      | 204      |             |
+| M3x6 BHCS                  | 20       | 47       |             |
+| M3 Hexnut                  | 7        | 50       |             |
+| M3 Washer                  | 10       | 50       |             |
+| M3 T-nut                   | 120      | 160      |             |
+| M3 Hammer Head T-nuts      | 54       | 97       |             |
+| M3 Threaded Insert         | 50       | 78       |             |
+| M3 Knurled Nut (DIN 466-B) | 3        | 5        |             |
+| M2x10 Self-Tapping Screw   | 7        | 51       |             |
+| Yellow Die Spring - M3     | 1        | 10       |             |
 
 ### Frame
 
@@ -187,7 +187,7 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | Mobil EP2 Grease                     | 1        | 1        |            |
 | Tesa Wire Loom Harness Tape          | 1        | 1        |            |
 | 1mm Foam Tape                        | 1        | 1        |            |
-| 6x3mm Neodimium Magnet               | 8        | 42       |            |
+| 6x3mm Neodimium Magnet               | 8        | 41       |            |
 | PTFE Tube (4mm OD 3mm ID) - 1m       | 1        |          | 2 on order |
 
 ## Printing Parts

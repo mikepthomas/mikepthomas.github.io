@@ -1,7 +1,7 @@
 # Building an Enraged Rabbit Carrot Feeder
 
 Febuary 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 19, 2022
+Updated April 20, 2022
 
 Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRabbitProject) to print using multiple colours of filament on the Voron.
 
@@ -23,6 +23,7 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 | Item                              | Quantity | Received | Notes |
 | --------------------------------- | -------- | -------- | ----- |
+| ERCF EASY BRD                     | 1        | 1        |       |
 | NEMA14 Motor 14HS11-1004S         | 1        | 1        |       |
 | NEMA17 Motor 17HS08-1004S         | 1        | 1        |       |
 | TowerPro MG90S servo              | 1        | 1        |       |
@@ -35,7 +36,7 @@ I have some of the parts required left over from the build of the [Voron](printe
 | Item                      | Quantity | Received | Notes |
 | ------------------------- | -------- | -------- | ----- |
 | 7 sets of bondtechs gears | 7        | 7        |       |
-| RJ4JP-01-08               | 2        | 2        |       |
+| Drylin RJ4JP-01-08        | 2        | 2        |       |
 | M5 threaded rods          | 2        | 2        |       |
 | 8mm smooth rods           | 2        | 2        |       |
 | D-cut 5mm shaft           | 1        | 1        |       |
@@ -53,7 +54,7 @@ I have some of the parts required left over from the build of the [Voron](printe
 | M5 nylock nuts         | 5        | 6        |       |
 | M5 washers             | 2        | 3        |       |
 | M3x8 SHCS              | 20       | 20       |       |
-| M3x8 BHCS              | 5        | 102      |       |
+| M3x8 BHCS              | 5        | 5        |       |
 | M3x12 SHCS             | 3        | 3        |       |
 | M3x16 SHCS             | 10       | 10       |       |
 | M3x20 SHCS             | 7        | 7        |       |
@@ -75,31 +76,20 @@ I have some of the parts required left over from the build of the [Voron](printe
 | Item                              | Quantity | Received | Notes |
 | --------------------------------- | -------- | -------- | ----- |
 | 6mm x 3mm Round Neodymium Magnets | 22       | 23       |       |
-| Bowden Clip                       | 7        | 8        |       |
-| Bowden Fitting                    | 7        | 8        |       |
+| Bowden Clip                       | 7        | 7        |       |
+| Bowden Fitting                    | 7        | 7        |       |
 | 7X7 Drag chain                    | 1        | 1        |       |
-
-### Cables
-
-| Item                                                  | Quantity | Received | Notes |
-| ----------------------------------------------------- | -------- | -------- | ----- |
-| MicroFit3 Male Pin (43031-0007)                       | 26       | 140      |       |
-| MicroFit3 Female Pin (43030-0007)                     | 26       | 140      |       |
-| MicroFit Connector Receptacle 4 Position (43645-0400) | 4        | 10       |       |
-| MicroFit Connector Plug 4 Position (43640-0401)       | 4        | 10       |       |
-| MicroFit Connector Receptacle 5 Position (43645-0500) | 2        | 10       |       |
-| MicroFit Connector Plug 5 Position (43640-0501)       | 2        | 10       |       |
 
 ### Toolhead Sensor
 
 | Item                                 | Quantity | Received | Notes |
 | ------------------------------------ | -------- | -------- | ----- |
 | AH3364Q-P-B Hall Effect sensor (SIP) | 1        | 1        |       |
-| M3 DIN125 Steel Washer               | 1        | 1        |       |
-| 6mm x 3mm Round Neodymium Magnets    | 1        | 1        |       |
-| M3x8 SHCS                            | 1        | 1        |       |
-| M3x12 SHCS                           | 1        | 1        |       |
-| JST XH 3 pins male connector         | 1        | 1        |       |
+| M3 DIN125 Steel Washer               | 1        | 2        |       |
+| 6mm x 3mm Round Neodymium Magnets    | 1        | 2        |       |
+| M3x8 SHCS                            | 1        | 2        |       |
+| M3x12 SHCS                           | 1        | 2        |       |
+| JST XH 3 pins male connector         | 1        | 2        |       |
 
 ## Printing Parts
 

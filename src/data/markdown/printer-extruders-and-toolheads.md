@@ -162,13 +162,13 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 
 #### Electronics
 
-| Item                                         | Quantity | Received | Notes                         |
-| -------------------------------------------- | -------- | -------- | ----------------------------- |
-| E3D V6 Bowden Hotend Kit (24V)               | 1        | 1        |                               |
-| ERCF Afterburner Tool-Head PCB               | 1        | 1        |                               |
-| NeoPixel RGBW Mini Button PCB                | 3        | 3        |                               |
-| 50x50x15 Centrifugal Fan (24V)               | 1        | 1        |                               |
-| 40x40x10 Axial Fan (24V)                     | 1        | 1        |                               |
+| Item                           | Quantity | Received | Notes |
+| ------------------------------ | -------- | -------- | ----- |
+| E3D V6 Bowden Hotend Kit (24V) | 1        | 1        |       |
+| ERCF Afterburner Tool-Head PCB | 1        | 1        |       |
+| NeoPixel RGBW Mini Button PCB  | 3        | 3        |       |
+| 50x50x15 Centrifugal Fan (24V) | 1        | 1        |       |
+| 40x40x10 Axial Fan (24V)       | 1        | 1        |       |
 
 #### Toolhead Sensor
 

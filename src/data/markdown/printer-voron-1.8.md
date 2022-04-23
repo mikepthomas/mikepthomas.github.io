@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 22, 2022
+Updated April 23, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -19,18 +19,23 @@ The steps I have taken to print and source parts to assemble a Voron 1.8.
    4. [X Axis](#x-axis)
    5. [Afterburner](#afterburner)
    6. [Endstops](#endstops)
-   7. [Bottom Electronics Compartment](#bottom-electronics-compartment)
-   8. [Rear Electronics Compartment](#rear-electronics-compartment)
-   9. [Exhaust Filter](#exhaust-filter)
+   7. [Bottom Compartment](#bottom-compartment)
+   8. [Electronics Compartment](#electronics-compartment)
+   9. [Rear Panel and Exhaust](#rear-panel-and-exhaust)
    10. [Panel Mounting](#panel-mounting)
-   11. [Spool Management](#spool-management)
 3. [Mods](#mods)
 
 ## Sourcing Parts
 
 I had originally chosen parts for the [Hypercube](printer-hypercube.md) that will lead up to re-building it into a Voron 1.8. However, I have chosen to build a new printer rather than upgrade my existing one in case I need to reprint more parts. I have already sourced many of the parts on the [BOM from the configurator](https://www.vorondesign.com/voron1.8) and I will replace some with alternatives that I already have (see the notes columns for details).
 
+The quantities here are from the 1.8 BOM, however I am planning on swapping out a few parts for the updated versions from the Trident. Therefore these quantities may not be accurate and I will also need to source more items for some [Mods](#mods) and future upgrades that I would like to implement.
+
 ### Fasteners
+
+![LDO Hardware Kit](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/ldo-hardware-kit.jpg)
+
+I am aware that [the LDO Hardware Kit I purchased is for the 2.4](https://www.printyplease.uk/VoronPrinters/Voron2.4/LDO2.4Fasteners) and not the 1.8, however, all of the parts are the same except for the Knurled Nuts and it doesn't contain the Yellow Die Spring. I got a good discount on it (original price £83, I got it for £50) and I have sourced the missing quantities of parts from elsewhere. I should also have many spares left over for Mods and future projects.
 
 | Item                       | Quantity | Received | Notes       |
 | -------------------------- | -------- | -------- | ----------- |
@@ -58,6 +63,12 @@ I had originally chosen parts for the [Hypercube](printer-hypercube.md) that wil
 | M2x10 Self-Tapping Screw   | 7        | 51       |             |
 | Yellow Die Spring - M3     | 1        | 10       |             |
 
+### Vibration Management
+
+| Item                   | Quantity | Received | Notes                                                                                     |
+| ---------------------- | -------- | -------- | ----------------------------------------------------------------------------------------- |
+| Rubber Compressor Foot | 4        | 4        | In [LDO Hardware Kit](https://www.printyplease.uk/VoronPrinters/Voron2.4/LDO2.4Fasteners) |
+
 ### Frame
 
 ![LDO Frame Kit Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/voron-frame-assembled.jpg)
@@ -75,12 +86,6 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | Misumi HFSB5-2020-500-LTP-RCP-AV380-AP40 | 4        | 4        |                                       |
 | Misumi HFSB5-2020-200-TPW                | 2        | 2        |                                       |
 | Misumi HFSB5-2020-420-AH45-BH375         | 2        | 2        |                                       |
-
-### Vibration Management
-
-| Item                   | Quantity | Received | Notes |
-| ---------------------- | -------- | -------- | ----- |
-| Rubber Compressor Foot | 4        | 4        |       |
 
 ### Motion
 
@@ -390,7 +395,7 @@ I carefully removed the carriages from the rails and soaked them in Isopropyl al
 
 ### X Axis
 
-The X Axis was flipped on the Trident (linear rails are on the bottom of the extrusion like the V2, this will not work on the 1.8 as the guide rails are mounted to the bottom of the extrusion too). I had originally wanted to use the Trident toolhead carriage with a single MGN12 linear rail, however due to the changes on the X axis the endstops were moved to the XY Joints not the toolhead. Because of this I wouldnt have anywhere to mount my endstop so I am not using an MGN12 rail here and instead using the dual MGN9s of the original design.
+The X Axis was flipped on the Trident (linear rails are on the bottom of the extrusion like the V2, this will not work on the 1.8 as the guide rails are mounted to the bottom of the extrusion too). I had originally wanted to use the Trident toolhead carriage with a single MGN12 linear rail, however due to the changes on the X axis the endstops were moved to the XY Joints not the toolhead. Because of this I wouldn't have anywhere to mount my endstop so I am not using an MGN12 rail here and instead using the dual MGN9s of the original design.
 
 ![Voron 1.8 X Axis](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/x-axis.jpg)
 
@@ -457,9 +462,11 @@ The X Axis was flipped on the Trident (linear rails are on the bottom of the ext
 | M3x30 SHCS                      | 3        |
 | SPDT KW10 Limit Micro Switch    | 1        |
 
-#### :wrench: Belts
+#### :white_check_mark: Belts
 
 ##### Assembly
+
+![Belts Installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/belts-installed.jpg)
 
 ###### Parts Used
 
@@ -479,6 +486,8 @@ I have documented the parts required for the toolhead on the [extruders and tool
 
 ![Clockwork 1 installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/clockwork-installed.jpg)
 
+I have built the toolhead up to this stage as the rest of the toolhead parts are still in Beta at the time of writing. :crossed_fingers: It will be released by the time I finish the rest of the build or at least I will I get the most up to date parts when I finally get to printing it.
+
 ### Endstops
 
 #### :wrench: Y Endstop
@@ -490,6 +499,8 @@ I have documented the parts required for the toolhead on the [extruders and tool
 ##### Assembly
 
 ![Y Endstop](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/y-endstop.jpg)
+
+As I am using the Trident A/B Drive Units, I have had to move the Y Endstop to the opposite side of the machine to allow space for the toolhead wires to pass through the wire cover. The side panels will have 1mm foam tape on them and therefore, should allow enough clearance for the endstop wires to tuck between the panel and the outside of the extrusion. The wire will then be bundled with the B Motor wires down into the electronics compartment.
 
 ###### Parts Used
 
@@ -522,13 +533,13 @@ I have documented the parts required for the toolhead on the [extruders and tool
 | Microswitch Z Endstop PCB        | 1        |
 | SPDT KW10 Limit Micro Switch     | 1        |
 
-### Bottom Electronics Compartment
+### Bottom Compartment
 
 ![Voron 1.8 Skirts and Bottom Compartment](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/skirts-and-bottom-compartment.jpg)
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-#### :wrench: Bottom Skirts
+#### :wrench: Skirts
 
 | Item                                                                                                                            | Quantity | Material                                            | Size   | Weight | Cost  |      Printed       | Notes                                                                   |
 | ------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- | ------ | ------ | ----- | :----------------: | ----------------------------------------------------------------------- |
@@ -538,6 +549,21 @@ I have documented the parts required for the toolhead on the [extruders and tool
 | [skirt_300_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_right_x4.stl)               | 4        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 12.92m | 32.95g | £0.63 |        :x:         |                                                                         |
 | [skirt_middle](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_middle_x3.stl)                     | 3        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 7.49m  | 19.11g | £0.36 |        :x:         |                                                                         |
 
+##### Assembly
+
+![Power Skirt](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/power-skirt.jpg)
+
+###### Parts Used
+
+| Item                          | Quantity |
+| ----------------------------- | -------- |
+| Inlet Power Socket IEC320 C14 | 1        |
+| M3 T-nut                      | 22       |
+| M3x8 SHCS                     | 22       |
+| Keystone CAT6 Insert          | 1        |
+| Keystone USB Insert           | 1        |
+| M3 Threaded Insert            | 8        |
+
 #### :negative_squared_cross_mark: Display Module
 
 | Item                                                                                                                                                              | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                                                                                                                                                 |
@@ -546,23 +572,66 @@ I have documented the parts required for the toolhead on the [extruders and tool
 | [mini12864_case_back](<https://github.com/mikepthomas/3dprinting/blob/main/Designs/Voron%201.8%20Mini12864%20Case%20Back/Mini12864%20Case%20Back%20(Swivel).stl>) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 5.40m | 13.76g | £0.26 | :heavy_check_mark: | I have modified the mounting holes for this to make them closer together so that the [Display Mount Arms](#display-mount) will fit between the skirts |
 | [mini12864_case_front](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Display_Module/mini12864_case_front.stl)                    | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 4.92m | 12.54g | £0.24 | :heavy_check_mark: | Will use this instead of [Display Mount Front](#display-mount) as it has been modified to allow the doors to open correctly                           |
 
+##### Assembly
+
+###### Parts Used
+
+| Item               | Quantity |
+| ------------------ | -------- |
+| M3x8 SHCS          | 8        |
+| M5 T-nut           | 2        |
+| M5x10 BHCS         | 2        |
+| Mini 12864 Display | 1        |
+
 #### :negative_squared_cross_mark: Bottom Electronics Mounting
+
+| Item                                                                                                                       | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                  |
+| -------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ---------------------- |
+| [DIN_center_support](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/DIN_center_support_x2.stl) | 3        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.30m | 0.77g  | £0.01 | :heavy_check_mark: | This is a Trident Part |
+| [DIN_frame_mount](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/DIN_frame_mount_x4.stl)       | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.57m | 6.54g  | £0.12 | :heavy_check_mark: | This is a Trident Part |
+
+##### Assembly
+
+###### Parts Used
+
+| Item                           | Quantity |
+| ------------------------------ | -------- |
+| Coroplast Sheet - 420x420x4 mm | 1        |
+| DIN 3 Rails (35mm W) - 420mm   | 1        |
+| M3x8 SHCS                      | 2        |
+| M5 T-nut                       | 4        |
+| M5x16 BHCS                     | 4        |
+
+#### :negative_squared_cross_mark: Bottom Electronics Brackets
 
 | Item                                                                                                                                               | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                  |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ---------------------- |
-| [DIN_center_support](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/DIN_center_support_x2.stl)                         | 3        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.30m | 0.77g  | £0.01 | :heavy_check_mark: | This is a Trident Part |
-| [DIN_frame_mount](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/DIN_frame_mount_x4.stl)                               | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.57m | 6.54g  | £0.12 | :heavy_check_mark: | This is a Trident Part |
 | [psu_brace](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Bottom_Electronics_Mounting/psu_brace.stl)              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.97m | 2.46g  | £0.05 | :heavy_check_mark: |                        |
 | [psu_mount_clip](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Bottom_Electronics_Mounting/psu_mount_clip_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.87m | 2.21g  | £0.04 | :heavy_check_mark: |                        |
 | [rs25_psu_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/rs25_psu_bracket.stl)                                | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.29m | 5.84g  | £0.11 | :heavy_check_mark: | This is a Trident Part |
 
-### Rear Electronics Compartment
+##### Assembly
 
-![Voron 1.8 Rear Electronics Compartment](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/electronics-compartment.jpg)
+###### Parts Used
+
+| Item                               | Quantity |
+| ---------------------------------- | -------- |
+| DIN Rail Mount Bracket for G3A SSR | 1        |
+| M3x6 BHCS                          | 2        |
+| M4x6 BHCS                          | 5        |
+| M5 T-nut                           | 1        |
+| M5x10 BHCS                         | 1        |
+| Mean Well LRS-200-24 PSU           | 1        |
+| Mean Well RS-25-5 PSU              | 1        |
+| Omron G3A-210B-DC5 SSR             | 1        |
+
+### Electronics Compartment
+
+![Voron 1.8 Electronics Compartment](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/electronics-compartment.jpg)
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-#### :negative_squared_cross_mark: Electronics Brackets
+#### :negative_squared_cross_mark: Wire Management
 
 It appears that these parts are not specified in the manual, I will use them for the A/B Motor wires and to bring the toolhead wires down to the rear electronics compartment.
 
@@ -570,35 +639,96 @@ It appears that these parts are not specified in the manual, I will use them for
 | ---------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :-----: | ----- |
 | [wire_anchor](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/wire_anchor_x2.stl) | 3        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.65m | 1.65g  | £0.03 |   :x:   |       |
 
-#### :negative_squared_cross_mark: Rear Electronics Mounting
+##### Assembly
 
-| Item                                                                                                                                                               | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :----------------: | ------------------------------------------------------------------------------------- |
-| [controller_fan_guard](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_controller_fan_guard.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.80m  | 4.59g  | £0.09 |        :x:         |                                                                                       |
-| [latch_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_latch_left.stl)                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.19m  | 0.48g  | £0.01 | :heavy_check_mark: |                                                                                       |
-| [latch_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_latch_right.stl)                   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.19m  | 0.48g  | £0.01 | :heavy_check_mark: |                                                                                       |
-| [lever_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_lever_left.stl)                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.41m  | 1.05g  | £0.02 | :heavy_check_mark: |                                                                                       |
-| [lever_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_lever_right.stl)                   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.41m  | 1.05g  | £0.02 | :heavy_check_mark: |                                                                                       |
-| [base_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/base_left.stl)                               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 3.48m  | 8.88g  | £0.17 | :heavy_check_mark: |                                                                                       |
-| [base_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/base_right.stl)                             | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 3.48m  | 8.88g  | £0.17 | :heavy_check_mark: |                                                                                       |
-| [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 5.44m  | 13.88g | £0.26 | :heavy_check_mark: |                                                                                       |
-| [corner_bracket_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/corner_bracket_left.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 11.06m | 28.21g | £0.54 | :heavy_check_mark: |                                                                                       |
-| [corner_bracket_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/corner_bracket_right.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 11.06m | 28.21g | £0.54 | :heavy_check_mark: |                                                                                       |
-| [din_bracket_base](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/din_bracket_base_x4.stl)              | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.60m  | 4.08g  | £0.08 | :heavy_check_mark: |                                                                                       |
-| [din_bracket_clamp](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/din_bracket_clamp_x4.stl)            | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.31m  | 3.33g  | £0.06 | :heavy_check_mark: |                                                                                       |
-| [lock_body](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/lock_body_x2.stl)                            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.70m  | 4.33g  | £0.08 | :heavy_check_mark: |                                                                                       |
-| [panel_holder](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/panel_holder_x2.stl)                      | 2        |                                                         |        |        |       |        :x:         | Will replace these with front_panel_rest                                              |
-| [pcb_din_clip_v2](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_v2_x5.stl)                                               | 3        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.51m  | 3.84g  | £0.07 | :heavy_check_mark: | 2 for SKR and 1 for Raspberry Pi                                                      |
-| [raspberrypi_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/raspberrypi_bracket.stl)                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.77m  | 4.51g  | £0.09 | :heavy_check_mark: | This is a Trident Part                                                                |
-| [SKR_bracket_inline_2pc](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/SKR_bracket_inline_2pc.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.55m  | 6.49g  | £0.12 | :heavy_check_mark: | This is a Trident Part                                                                |
-| [wire_corner_left](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/wire_corner_left.stl)                                                        | 1        |                                                         |        |        |       |     :question:     | This is a Trident Part. I may need to make some modifications to this to make it fit. |
-| [wire_corner_right](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/wire_corner_right.stl)                                                      | 1        |                                                         |        |        |       |     :question:     | This is a Trident Part. I may need to make some modifications to this to make it fit. |
+###### Parts Used
 
-### Exhaust Filter
+| Item                  | Quantity |
+| --------------------- | -------- |
+| M3 Hammer Head T-nuts | 6        |
+| M3x8 BHCS             | 6        |
+
+#### :negative_squared_cross_mark: Rear Electronics Enclosure
+
+| Item                                                                                                                                                       | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :----------------: | ------------------------------------------------------------------------------------- |
+| [base_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/base_left.stl)                       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 3.48m  | 8.88g  | £0.17 | :heavy_check_mark: |                                                                                       |
+| [base_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/base_right.stl)                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 3.48m  | 8.88g  | £0.17 | :heavy_check_mark: |                                                                                       |
+| [corner_bracket_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/corner_bracket_left.stl)   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 11.06m | 28.21g | £0.54 | :heavy_check_mark: |                                                                                       |
+| [corner_bracket_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/corner_bracket_right.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 11.06m | 28.21g | £0.54 | :heavy_check_mark: |                                                                                       |
+| [din_bracket_base](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/din_bracket_base_x4.stl)      | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.60m  | 4.08g  | £0.08 | :heavy_check_mark: |                                                                                       |
+| [din_bracket_clamp](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/din_bracket_clamp_x4.stl)    | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.31m  | 3.33g  | £0.06 | :heavy_check_mark: |                                                                                       |
+| [panel_holder](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/panel_holder_x2.stl)              | 2        |                                                         |        |        |       |        :x:         | Will replace these with front_panel_rest                                              |
+| [wire_corner_left](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/wire_corner_left.stl)                                                | 1        |                                                         |        |        |       |     :question:     | This is a Trident Part. I may need to make some modifications to this to make it fit. |
+| [wire_corner_right](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/wire_corner_right.stl)                                              | 1        |                                                         |        |        |       |     :question:     | This is a Trident Part. I may need to make some modifications to this to make it fit. |
+
+##### Assembly
+
+###### Parts Used
+
+| Item                           | Quantity |
+| ------------------------------ | -------- |
+| Coroplast Sheet - 236x415x4 mm | 1        |
+| Coroplast Sheet - 242x46x4 mm  | 2        |
+| Coroplast Sheet - 419x66x4 mm  | 1        |
+| M3 T-nut                       | 12       |
+| M3x8 SHCS                      | 4        |
+| M3x16 BHCS                     | 8        |
+| M5 T-nut                       | 12       |
+| M5x10 SHCS                     | 12       |
+| Misumi HFSB5-2020-230          | 2        |
+| Misumi HFSB5-2020-420          | 1        |
+
+#### :negative_squared_cross_mark: Rear Electronics Brackets
+
+| Item                                                                                                                                                               | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | -------------------------------- |
+| [controller_fan_guard](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_controller_fan_guard.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.80m | 4.59g  | £0.09 |        :x:         |                                  |
+| [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 5.44m | 13.88g | £0.26 | :heavy_check_mark: |                                  |
+| [pcb_din_clip_v2](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_v2_x5.stl)                                               | 3        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.51m | 3.84g  | £0.07 | :heavy_check_mark: | 2 for SKR and 1 for Raspberry Pi |
+| [raspberrypi_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/raspberrypi_bracket.stl)                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.77m | 4.51g  | £0.09 | :heavy_check_mark: | This is a Trident Part           |
+| [SKR_bracket_inline_2pc](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/SKR_bracket_inline_2pc.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.55m | 6.49g  | £0.12 | :heavy_check_mark: | This is a Trident Part           |
+
+##### Assembly
+
+###### Parts Used
+
+| Item                     | Quantity |
+| ------------------------ | -------- |
+| 3M VHB Tape 5952         | 1        |
+| M2x10 Self-Tapping Screw | 10       |
+| M3x6 BHCS                | 4        |
+| M5 Hammer Head T-nuts    | 2        |
+| M5x10 BHCS               | 2        |
+
+#### :wrench: Electronics Panel
+
+| Item                                                                                                                                             | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----- |
+| [latch_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_latch_left.stl)   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.19m | 0.48g  | £0.01 | :heavy_check_mark: |       |
+| [latch_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_latch_right.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.19m | 0.48g  | £0.01 | :heavy_check_mark: |       |
+| [lever_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_lever_left.stl)   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.41m | 1.05g  | £0.02 | :heavy_check_mark: |       |
+| [lever_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_lever_right.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.41m | 1.05g  | £0.02 | :heavy_check_mark: |       |
+| [lock_body](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/lock_body_x2.stl)          | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.70m | 4.33g  | £0.08 | :heavy_check_mark: |       |
+
+##### Assembly
+
+![Electronics Panel Latches](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/electronics-panel-latches.jpg)
+
+###### Parts Used
+
+| Item                           | Quantity |
+| ------------------------------ | -------- |
+| Coroplast Sheet - 246x434x4 mm | 1        |
+| M3x8 SHCS                      | 2        |
+
+### Rear Panel and Exhaust
 
 ![Voron 1.8 Rear Panel and Exhaust](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/rear-panel-and-exhaust.jpg)
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
+
+#### :wrench: Exhaust Filter
 
 | Item                                                                                                                            | Quantity | Material                                                               |      Printed       | Notes                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | :----------------: | -------------------------------------------------------------------------------------- |
@@ -614,6 +744,8 @@ It appears that these parts are not specified in the manual, I will use them for
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
+#### :negative_squared_cross_mark: Panel Mounts
+
 | Item                                                                                                                                                                | Quantity | Material                                                |      Printed       | Notes                                                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [bottom_panel_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/bottom_panel_clip_x4.stl)                                                    | ~6~ 8    | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Trident Part                                                                                                                                              |
@@ -627,7 +759,7 @@ It appears that these parts are not specified in the manual, I will use them for
 
 **_NOTE:_** I have not been able to succesfully print the bottom panel hinges, they always seem to fuse up and the small pin just snaps when trying to free the hinge. I will print extra panel clips instead.
 
-#### Front Doors
+#### :negative_squared_cross_mark: Front Doors
 
 | Item                                                                                                                                | Quantity | Material                                                |      Printed       | Notes                                                                                            |
 | ----------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ------------------------------------------------------------------------------------------------ |
@@ -638,18 +770,18 @@ It appears that these parts are not specified in the manual, I will use them for
 | [handle_top_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/Front_Doors/handle_top_right.stl)       | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         |                                                                                                  |
 | [latch](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/Front_Doors/latch.stl)                             | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |                                                                                                  |
 
-### Spool Management
+#### :wrench: Spool Management
 
 | Item                                                                                                              | Quantity | Material                                                |      Printed       | Notes                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------- |
 | [bowen_retainer](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Spool_Management/bowen_retainer.stl) | 1        |                                                         |        :x:         | This is a Trident Part. Not printing this as I will be using the [Smart Filament Sensor Mount](#smart-filament-sensor-mount)       |
 | [spool_holder](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Spool_Management/spool_holder.stl)     | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Trident Part. May not print this as I currently use an [eSun Filament Dryer box](https://www.amazon.co.uk/dp/B094XWVQ1X) |
 
-#### :wrench: Assembly
+##### Assembly
 
 ![Spool Holders](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/spool-holders.jpg)
 
-##### Parts Used
+###### Parts Used
 
 | Item                  | Quantity |
 | --------------------- | -------- |
@@ -843,13 +975,17 @@ The SKR 1.4 Turbo only has 1 controllable fan header, I have purchased a couple 
 
 #### :wrench: Assembly
 
+![Mosfet Mounts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/mosfet-mounts.jpg)
+
 ##### Parts Used
 
 | Item                     | Quantity |
 | ------------------------ | -------- |
+| IRF520 MOS Driver Module | 4        |
 | M2x10 Self-Tapping Screw | 8        |
 | M3 Hammer Head T-nuts    | 2        |
 | M3x8 SHCS                | 2        |
+| TO-220 Aluminum Heatsink | 4        |
 
 ### Sturdy Handles
 

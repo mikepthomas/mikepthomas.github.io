@@ -903,7 +903,7 @@ Cover for the Exhaust filter grill to allow the chamber to hold it's temperature
 | ---------------------- | -------- |
 | 6x3mm Neodimium Magnet | 8        |
 
-### :wrench: Sexbolt Z Endstop
+### Sexbolt Z Endstop
 
 An enclosed bolt with sleeved bearings for the Z endstop.
 
@@ -911,7 +911,7 @@ An enclosed bolt with sleeved bearings for the Z endstop.
 | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | -------------------------------------- |
 | [EndstopHousing](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/hartk1213/Voron2.4_SexBolt_ZEndstop/STLs/EndstopHousingVoronLogo.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is a Voron Users Mod by hartk1213 |
 
-##### Assembly
+##### :wrench: Assembly
 
 ![Sexbolt Z Endstop](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/sexbolt-z-endstop.jpg)
 

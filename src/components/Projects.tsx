@@ -90,7 +90,6 @@ const Projects = (props: Props) => {
         <Col md={{ size: 4 }}>
           <div className="position-sticky">
             <div className="p-4 mb-3 bg-light rounded">
-              <h2>Elsewhere</h2>
               <p>
                 Here you can find information about a few projects I am
                 currently working on and others that I have planned over the
@@ -126,6 +125,11 @@ const Projects = (props: Props) => {
                     <li>
                       <Link to="/projects/printer-voron-1.8">
                         Voron 1.8 Assembly
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/projects/printer-voron-1.8-mods">
+                        Voron 1.8 Mods
                       </Link>
                     </li>
                     <li>

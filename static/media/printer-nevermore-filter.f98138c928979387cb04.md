@@ -1,9 +1,11 @@
 # Nevermore Micro V5 Duo
 
 March 16, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 31, 2022
+Updated April 8, 2022
 
 Building an [Nevermore Micro V5 Duo](https://github.com/nevermore3d/Nevermore_Micro) to reduce the smell of printing ABS.
+
+![Enraged Rabbit Carrot Feeder Parts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-nevermore-filter/nevermore-filter-hero.jpg)
 
 ---
 
@@ -21,11 +23,11 @@ I have some of the parts required left over from the build of the [Voron](printe
 | Item                  | Quantity | Received | Notes |
 | --------------------- | -------- | -------- | ----- |
 | M3 threaded inserts   | 6        | 6        |       |
-| M3x18 BHCS            | 1        | 50       |       |
-| M3x16 BHCS            | 4        | 50       |       |
-| M3x12 BHCS            | 2        | 50       |       |
-| M3x6 BHCS             | 2        | 30       |       |
-| M3x4 BHCS             | 1        | 50       |       |
+| M3x18 BHCS            | 1        | 1        |       |
+| M3x16 BHCS            | 4        | 4        |       |
+| M3x12 BHCS            | 2        | 2        |       |
+| M3x6 BHCS             | 2        | 2        |       |
+| M3x4 BHCS             | 1        | 1        |       |
 | M3 Hammer Head T-nuts | 2        | 2        |       |
 
 ### Misc
@@ -37,9 +39,9 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Electronics
 
-| Item                       | Quantity | Received | Notes      |
-| -------------------------- | -------- | -------- | ---------- |
-| 5015 Centrifugal Fan (24V) | 2        |          | 2 on order |
+| Item                       | Quantity | Received | Notes |
+| -------------------------- | -------- | -------- | ----- |
+| 5015 Centrifugal Fan (24V) | 2        | 2        |       |
 
 ### Cables
 

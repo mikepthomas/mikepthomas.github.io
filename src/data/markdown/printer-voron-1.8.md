@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 27, 2022
+Updated April 28, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -279,6 +279,8 @@ The lower A drive was the first time I have tried to print with ABS. The upper w
 
 ![Voron Trident Front Idlers](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/front-idlers-complete.jpg)
 
+The screws on the front of the idlers move the tensioners forwards and backwards, this allows for easy adjustment of the belt tension.
+
 ###### Parts Used
 
 | Item               | Quantity |
@@ -355,6 +357,8 @@ I carefully removed the carriages from the rails and soaked them in Isopropyl al
 
 ![Assembled Bed Frame](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/bed-frame-assembled.jpg)
 
+The bed frame will not only hold the bed, but will also be a base for the [Z endstop](#endstops), some [Wago mounts](printer-voron-1.8-mods.md#wago-mounts) to connect the low voltage connections to the endstop and thermistor and the mains connections to the bed, and also [Bed Fans](printer-voron-1.8-mods.md#bed-fans) to circulate hot air around to heat up the enclosure.
+
 ###### Parts Used
 
 | Item                             | Quantity |
@@ -414,6 +418,8 @@ The X Axis was flipped on the Trident (linear rails are on the bottom of the ext
 
 ![XY Joints Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/xy-joints-assembled.jpg)
 
+The bolts on the linear rails and the X axis extrusion are left loose at this stage as they will need to be aligned when the X carriage is installed. I have left the little white plastic clips on the rails here so that the blocks do not fall off the ends of the linear rails.
+
 ###### Parts Used
 
 | Item                                 | Quantity |
@@ -468,6 +474,8 @@ The stock design uses an inductive probe in the toolhead, either a PL-08N or an 
 ##### Assembly
 
 ![Belts Installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/belts-installed.jpg)
+
+The belts are routed in a layout that is known as [CoreXY](https://corexy.com/theory.html). When one motor rotates the toolhead will move diagonally, when both motors rotate in the same direction the toolhead will move in the X axis and when both motors rotate in opposite directions the toolhead will move in the Y axis.
 
 ###### Parts Used
 

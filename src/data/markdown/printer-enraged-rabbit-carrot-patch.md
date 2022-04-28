@@ -29,11 +29,11 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 ### Misc
 
-| Item                           | Quantity | Received | Notes       |
-| ------------------------------ | -------- | -------- | ----------- |
-| Bowden Clip                    | 2        |          | 10 on order |
-| Bowden Fitting                 | 2        | 8        |             |
-| PTFE Tube (4mm OD 3mm ID) - 1m | 1        |          | 2 on order  |
+| Item                             | Quantity | Received | Notes       |
+| -------------------------------- | -------- | -------- | ----------- |
+| Bowden Clip                      | 2        |          | 10 on order |
+| Bowden Fitting                   | 2        | 8        |             |
+| PTFE Tube (4mm OD 3mm ID) - 30cm | 1        |          | 2m on order |
 
 ### Motion
 

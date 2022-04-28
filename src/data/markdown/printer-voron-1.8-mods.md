@@ -157,10 +157,10 @@ I have printed the 'B' mounts as I am planning on mounting them on the top rear 
 
 ##### Parts Used
 
-| Item                                 | Quantity |
-| ------------------------------------ | -------- |
-| M3 Hammer Head T-nuts                | 2        |
-| M3x8 SHCS                            | 2        |
+| Item                  | Quantity |
+| --------------------- | -------- |
+| M3 Hammer Head T-nuts | 2        |
+| M3x8 SHCS             | 2        |
 
 ### Magnetic Grill Cover
 

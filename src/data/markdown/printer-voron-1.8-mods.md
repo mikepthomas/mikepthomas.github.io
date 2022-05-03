@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 28, 2022
+Updated May 3, 2022
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -77,7 +77,8 @@ The Stock door hinges are attached using VHB, these clamp around the acrylic pan
 | --------------------- | -------- |
 | M3 Hammer Head T-nuts | 6        |
 | M3 Hex Nuts           | 12       |
-| M3x8 SHCS             | 30       |
+| M3x8 SHCS             | 18       |
+| M3x10 SHCS            | 12       |
 
 ### Cable Chain Anchors
 
@@ -293,6 +294,7 @@ Recommended upgrade to replace the PL-08N Inductive Probe which can be a bit unr
 | Item                                                                                                                                                                                                        | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                              |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ---------------------------------- |
 | [Dock_sidemount_fixed_v2](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Printers/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Dock_sidemount_fixed_v2.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 6.10m | 15.56g | £0.30 | :heavy_check_mark: | This is a Voron Users Mod by JosAr |
+| [Dock_sidemount_left_v2](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Printers/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Dock_sidemount_left_v2.stl)   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 3.96m | 10.09g | £0.19 | :heavy_check_mark: | This is a Voron Users Mod by JosAr |
 | [Dock_sidemount_right_v2](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Printers/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Dock_sidemount_right_v2.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 3.96m | 10.09g | £0.19 | :heavy_check_mark: | This is a Voron Users Mod by JosAr |
 | [Probe_Dock_v2.1](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Base_STL/Probe_Dock_v2.1.stl)                                                                       | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.14m | 2.89g  | £0.05 | :heavy_check_mark: | This is a Voron Users Mod by JosAr |
 

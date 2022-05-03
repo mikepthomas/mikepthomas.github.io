@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 28, 2022
+Updated May 3, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -216,7 +216,7 @@ All printed parts will be printed in eSun ABS+. The Voron team recommends an inf
 | [rail_installation_guide_center](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Tools/rail_installation_guide_center_x2.stl)           | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :heavy_check_mark: |                                                  |
 | [v1.8_extrusion_drilling_jig](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Tools/v1.8_extrusion_drilling_jig.stl)                    | 1        |                                                                  |        :x:         | Not Required as I brought my frame as a kit      |
 | [pulley_jig](https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Tools/pulley_jig.stl)                                                      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :heavy_check_mark: | This is a 2.4 Part, has spacer for extruder gear |
-| [TensionMeter](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Kruppes/Tension_Meter/TensionMeter.stl)                         | 1        |                                                                  |        :x:         | This is a Voron Users Mod by Kruppes             |
+| [TensionMeter](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Kruppes/Tension_Meter/TensionMeter.stl)                         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :heavy_check_mark: | This is a Voron Users Mod by Kruppes             |
 | [lower_extrusion_alignment](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/natewalck/v1.8_Jigs/lower_extrusion_alignment.stl) | 1        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black) | :heavy_check_mark: | This is a Voron Users Mod by natewalck           |
 
 ### Gantry
@@ -528,6 +528,88 @@ As I am using the Trident A/B Drive Units, I have had to move the Y Endstop to t
 
 **_NOTE:_** I am not going to print the stock Z endstop, I will replace it with [Sexbolt Z Endstop](printer-voron-1.8-mods.md#sexbolt-z-endstop).
 
+### Wire Path
+
+#### :white_check_mark: Cable Chains
+
+##### Assembly
+
+![Cable Chains](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/cable-chains.jpg)
+
+###### X Axis Chain
+
+| Item                         | Quantity |
+| ---------------------------- | -------- |
+| 1/2" Braided Cable Sheathing | 150mm    |
+| 10x11 Cable Chain            | 350mm    |
+| M3 T-nut                     | 1        |
+| M3x8 FHCS                    | 4        |
+| Nylon Cable Ties 4"          | 1        |
+
+###### Y Axis Chain
+
+| Item                         | Quantity |
+| ---------------------------- | -------- |
+| 1/2" Braided Cable Sheathing | 250mm    |
+| 10x11 Cable Chain            | 500mm    |
+| M3 T-nut                     | 1        |
+| M3x8 FHCS                    | 4        |
+| Nylon Cable Ties 4"          | 1        |
+
+###### Main Toolhead connector
+
+| Item                                 | Quantity |
+| ------------------------------------ | -------- |
+| 20AWG PTFE Cable (Black)             | 2200mm   |
+| 20AWG PTFE Cable (Red)               | 2200mm   |
+| 20AWG PTFE Cable (White)             | 2200mm   |
+| 24AWG PTFE Cable (Black)             | 4400mm   |
+| 24AWG PTFE Cable (Blue)              | 6600mm   |
+| 24AWG PTFE Cable (Green)             | 6600mm   |
+| 24AWG PTFE Cable (Red)               | 2200mm   |
+| 24AWG PTFE Cable (White)             | 4400mm   |
+| JST XH Connector Plug 2 Position     | 5        |
+| JST XH Connector Plug 3 Position     | 1        |
+| JST XH Connector Plug 4 Position     | 1        |
+| MicroFit3 Connector Plug 14 Position | 1        |
+
+###### ERCF Connector
+
+| Item                                | Quantity |
+| ----------------------------------- | -------- |
+| 24AWG PTFE Cable (Red)              | 2200mm   |
+| 24AWG PTFE Cable (Yellow)           | 2200mm   |
+| JST XH Connector Plug 3 Position    | 1        |
+| MicroFit3 Connector Plug 2 Position | 1        |
+
+###### Neopixel Cable
+
+| Item                                | Quantity |
+| ----------------------------------- | -------- |
+| 24AWG PTFE Cable (Black)            | 2200mm   |
+| 24AWG PTFE Cable (Red)              | 2200mm   |
+| 24AWG PTFE Cable (Yellow)           | 2200mm   |
+| JST XH Connector Plug 3 Position    | 1        |
+| MicroFit3 Connector Plug 3 Position | 1        |
+
+#### :white_check_mark: Wire Management
+
+It appears that these parts are not specified in the manual, I will use them for the A/B Motor wires and to bring the toolhead wires down to the rear electronics compartment.
+
+| Item                                                                                                             | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes |
+| ---------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----- |
+| [wire_anchor](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/wire_anchor_x2.stl) | 3        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.65m | 1.65g  | £0.03 | :heavy_check_mark: |       |
+
+##### Assembly
+
+###### Parts Used
+
+| Item                  | Quantity |
+| --------------------- | -------- |
+| M3 Hammer Head T-nuts | 6        |
+| M3x8 BHCS             | 6        |
+| Nylon Cable Ties 4"   | 6        |
+
 ### Bottom Compartment
 
 ![Voron 1.8 Skirts and Bottom Compartment](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/skirts-and-bottom-compartment.jpg)
@@ -618,23 +700,6 @@ As I am using the Trident A/B Drive Units, I have had to move the Y Endstop to t
 ![Voron 1.8 Electronics Compartment](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/electronics-compartment.jpg)
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
-
-#### :negative_squared_cross_mark: Wire Management
-
-It appears that these parts are not specified in the manual, I will use them for the A/B Motor wires and to bring the toolhead wires down to the rear electronics compartment.
-
-| Item                                                                                                             | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes |
-| ---------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----- |
-| [wire_anchor](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/wire_anchor_x2.stl) | 3        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.65m | 1.65g  | £0.03 | :heavy_check_mark: |       |
-
-##### Assembly
-
-###### Parts Used
-
-| Item                  | Quantity |
-| --------------------- | -------- |
-| M3 Hammer Head T-nuts | 6        |
-| M3x8 BHCS             | 6        |
 
 #### :negative_squared_cross_mark: Rear Electronics Enclosure
 

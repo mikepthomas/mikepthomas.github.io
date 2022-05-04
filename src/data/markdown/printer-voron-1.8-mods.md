@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 3, 2022
+Updated May 4, 2022
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -41,7 +41,7 @@ The stock exhaust filter has the bowden coupler coming out of the back. As I wil
 | [exhaust_filter_housing](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/120decibell/exhaust_housing_side_entry/STL/exhaust_filter_housing.stl)                       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 23.54m | 60.02g | £1.14 | :heavy_check_mark: | This is a Voron Users Mod by 120decibell |
 | [exhaust_housing_insert_plug](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/120decibell/exhaust_housing_side_entry/STL/%5Ba%5D_exhaust_housing_insert_plug.stl)     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.42m  | 1.07g  | £0.02 | :heavy_check_mark: | This is a Voron Users Mod by 120decibell |
 | [exhaust_housing_insert_thread](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/120decibell/exhaust_housing_side_entry/STL/%5Ba%5D_exhaust_housing_insert_thread.stl) | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.32m  | 0.83g  | £0.02 | :heavy_check_mark: | This is a Voron Users Mod by 120decibell |
-| [filter_access_cover](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/120decibell/exhaust_housing_side_entry/STL/%5Ba%5D_filter_access_cover.stl)                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 9.27m  | 23.63g | £0.45 |        :x:         | This is a Voron Users Mod by 120decibell |
+| [filter_access_cover](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/120decibell/exhaust_housing_side_entry/STL/%5Ba%5D_filter_access_cover.stl)                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 9.27m  | 23.63g | £0.45 | :heavy_check_mark: | This is a Voron Users Mod by 120decibell |
 
 #### Assembly
 
@@ -77,8 +77,7 @@ The Stock door hinges are attached using VHB, these clamp around the acrylic pan
 | --------------------- | -------- |
 | M3 Hammer Head T-nuts | 6        |
 | M3 Hex Nuts           | 12       |
-| M3x8 SHCS             | 18       |
-| M3x10 SHCS            | 12       |
+| M3x8 SHCS             | 30       |
 
 ### Cable Chain Anchors
 
@@ -90,14 +89,7 @@ Clips to route zip ties through 3 hole cable chain to attach to 2020 extrusion.
 
 #### Assembly
 
-##### Parts Used
-
-| Item                   | Quantity |
-| ---------------------- | -------- |
-| 10x11 Cable Chain - 1m | 2        |
-| M3 T-nut               | 2        |
-| M3x8 FHCS              | 2        |
-| Nylon Cable Ties 4"    | 2        |
+These will be installed at the same time as the [Cable Chains](printer-voron-1.8.md#wire-path).
 
 ### Bed Fans
 
@@ -140,7 +132,7 @@ Cleans the nozzle before printing and has endstops to locate the magnetic bed.
 | M2x10 Self-Tapping Screw | 3        |
 | M3 Hexnut                | 3        |
 | M3 T-nut                 | 2        |
-| M3x8 SHCS                | 5        |
+| M3x8 SHCS (Carbon Steel) | 5        |
 | TriangleLabs Brass Brush | 1        |
 
 ### Smart Filament Sensor Mount
@@ -170,7 +162,7 @@ Cover for the Exhaust filter grill to allow the chamber to hold it's temperature
 | Item                                                                                                                                                                | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                             |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | --------------------------------- |
 | [exhaust_filter_cover](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/falo/magnetic_grill_cover/STL/exhaust_filter_cover.stl)                   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 7.08m | 18.06g | £0.34 | :heavy_check_mark: | This is a Voron Users Mod by falo |
-| [exhaust_filter_grill_modified](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/falo/magnetic_grill_cover/STL/exhaust_filter_grill_modified.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 4.52m | 11.53g | £0.22 |        :x:         | This is a Voron Users Mod by falo |
+| [exhaust_filter_grill_modified](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/falo/magnetic_grill_cover/STL/exhaust_filter_grill_modified.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 4.52m | 11.53g | £0.22 | :heavy_check_mark: | This is a Voron Users Mod by falo |
 
 #### Assembly
 
@@ -305,6 +297,8 @@ Recommended upgrade to replace the PL-08N Inductive Probe which can be a bit unr
 | Item                   | Quantity |
 | ---------------------- | -------- |
 | 6x3mm Neodimium Magnet | 1        |
+| M3 Threaded Insert     | 4        |
+| M3x8 SHCS              | 4        |
 | Super Glue             | 1        |
 
 #### Probe

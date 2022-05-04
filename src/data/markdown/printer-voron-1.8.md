@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 3, 2022
+Updated May 4, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -19,10 +19,11 @@ The steps I have taken to print and source parts to assemble a Voron 1.8.
    4. [X Axis](#x-axis)
    5. [Afterburner](#afterburner)
    6. [Endstops](#endstops)
-   7. [Bottom Compartment](#bottom-compartment)
-   8. [Electronics Compartment](#electronics-compartment)
-   9. [Rear Panel and Exhaust](#rear-panel-and-exhaust)
-   10. [Panel Mounting](#panel-mounting)
+   7. [Wire Path](#wire-path)
+   8. [Bottom Compartment](#bottom-compartment)
+   9. [Electronics Compartment](#electronics-compartment)
+   10. [Rear Panel and Exhaust](#rear-panel-and-exhaust)
+   11. [Panel Mounting](#panel-mounting)
 
 ## Sourcing Parts
 
@@ -736,7 +737,7 @@ It appears that these parts are not specified in the manual, I will use them for
 
 | Item                                                                                                                                                               | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | -------------------------------- |
-| [controller_fan_guard](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_controller_fan_guard.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.80m | 4.59g  | £0.09 |        :x:         |                                  |
+| [controller_fan_guard](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_controller_fan_guard.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.80m | 4.59g  | £0.09 | :heavy_check_mark: |                                  |
 | [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 5.44m | 13.88g | £0.26 | :heavy_check_mark: |                                  |
 | [pcb_din_clip_v2](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_v2_x5.stl)                                               | 3        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.51m | 3.84g  | £0.07 | :heavy_check_mark: | 2 for SKR and 1 for Raspberry Pi |
 | [raspberrypi_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/raspberrypi_bracket.stl)                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.77m | 4.51g  | £0.09 | :heavy_check_mark: | This is a Trident Part           |
@@ -785,7 +786,7 @@ It appears that these parts are not specified in the manual, I will use them for
 
 | Item                                                                                                                            | Quantity | Material                                                               | Size  | Weight | Cost  |      Printed       | Notes                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ----- | ------ | ----- | :----------------: | --------------------------------------------------------------------------------------------------------------- |
-| [exhaust_fan_grill](https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Exhaust_Filter/%5Ba%5D_exhaust_fan_grill.stl)     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)                    | 2.08m | 5.30g  | £0.10 |        :x:         | This is a 2.4 Part                                                                                              |
+| [exhaust_fan_grill](https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Exhaust_Filter/%5Ba%5D_exhaust_fan_grill.stl)     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)                    | 2.08m | 5.30g  | £0.10 | :heavy_check_mark: | This is a 2.4 Part                                                                                              |
 | [filter_access_cover](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Exhaust_Filter/%5Ba%5D_filter_access_cover.stl) | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) |       |        |       | :heavy_check_mark: | Will replace with [Exhaust Mount Side Entry](printer-voron-1.8-mods.md#exhaust-mount-side-entry) printed in ABS |
 | [exhaust_filter_grill](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Exhaust_Filter/exhaust_filter_grill.stl)       | 1        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) |       |        |       | :heavy_check_mark: | Will replace with [Magnetic Grill Cover](printer-voron-1.8-mods.md#magnetic-grill-cover) printed in ABS         |
 | [exhaust_filter_housing](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Exhaust_Filter/exhaust_filter_housing.stl)   | 1        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black)       |       |        |       | :heavy_check_mark: | Will replace with [Exhaust Mount Side Entry](printer-voron-1.8-mods.md#exhaust-mount-side-entry) printed in ABS |

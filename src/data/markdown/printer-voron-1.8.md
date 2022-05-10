@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 9, 2022
+Updated May 10, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -37,31 +37,31 @@ The quantities here are from the 1.8 BOM, however I am planning on swapping out 
 
 I am aware that [the LDO Hardware Kit I purchased is for the 2.4](https://www.printyplease.uk/VoronPrinters/Voron2.4/LDO2.4Fasteners) and not the 1.8, however, all of the parts are the same except for the Knurled Nuts and it doesn't contain the Yellow Die Spring. I got a good discount on it (original price £83, I got it for £50) and I have sourced the missing quantities of parts from elsewhere. I should also have many spares left over for Mods and future projects.
 
-| Item                       | Quantity | Received | Notes       |
-| -------------------------- | -------- | -------- | ----------- |
-| M5x40 SHCS                 | 8        | 29       |             |
-| M5x30 BHCS                 | 6        | 15       |             |
-| M5x16 BHCS                 | 67       | 69       |             |
-| M5x10 BHCS                 | 71       | 104      |             |
-| M5 Hexnut                  | 8        | 19       |             |
-| M5 1mm Spacer              | 20       | 50       |             |
-| M5 T-nut                   | 83       | 130      |             |
-| M4x6 BHCS                  | 4        | 20       |             |
-| M3x40 SHCS                 | 5        | 20       |             |
-| M3x30 SHCS                 | 25       | 30       |             |
-| M3x20 SHCS                 | 10       | 26       |             |
-| M3x16 SHCS                 | 17       | 16       | 50 on order |
-| M3x12 SHCS                 | 30       | 77       |             |
-| M3x8 SHCS                  | 171      | 204      | 50 on order |
-| M3x6 BHCS                  | 20       | 47       |             |
-| M3 Hexnut                  | 7        | 50       |             |
-| M3 Washer                  | 10       | 50       |             |
-| M3 T-nut                   | 120      | 160      |             |
-| M3 Hammer Head T-nuts      | 54       | 97       |             |
-| M3 Threaded Insert         | 50       | 78       |             |
-| M3 Knurled Nut (DIN 466-B) | 3        | 5        |             |
-| M2x10 Self-Tapping Screw   | 7        | 51       |             |
-| Yellow Die Spring - M3     | 1        | 10       |             |
+| Item                       | Quantity | Received | Notes |
+| -------------------------- | -------- | -------- | ----- |
+| M5x40 SHCS                 | 8        | 29       |       |
+| M5x30 BHCS                 | 6        | 15       |       |
+| M5x16 BHCS                 | 67       | 69       |       |
+| M5x10 BHCS                 | 71       | 104      |       |
+| M5 Hexnut                  | 8        | 19       |       |
+| M5 1mm Spacer              | 20       | 50       |       |
+| M5 T-nut                   | 83       | 130      |       |
+| M4x6 BHCS                  | 4        | 20       |       |
+| M3x40 SHCS                 | 5        | 20       |       |
+| M3x30 SHCS                 | 25       | 30       |       |
+| M3x20 SHCS                 | 10       | 26       |       |
+| M3x16 SHCS                 | 17       | 66       |       |
+| M3x12 SHCS                 | 30       | 77       |       |
+| M3x8 SHCS                  | 171      | 254      |       |
+| M3x6 BHCS                  | 20       | 47       |       |
+| M3 Hexnut                  | 7        | 50       |       |
+| M3 Washer                  | 10       | 50       |       |
+| M3 T-nut                   | 120      | 160      |       |
+| M3 Hammer Head T-nuts      | 54       | 97       |       |
+| M3 Threaded Insert         | 50       | 78       |       |
+| M3 Knurled Nut (DIN 466-B) | 3        | 5        |       |
+| M2x10 Self-Tapping Screw   | 7        | 51       |       |
+| Yellow Die Spring - M3     | 1        | 10       |       |
 
 ### Vibration Management
 
@@ -625,7 +625,7 @@ It appears that these parts are not specified in the manual, I will use them for
 | [skirt_300_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_left_x3.stl)                 | 3        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 12.90m | 32.89g | £0.62 | :heavy_check_mark: |                                                                                                                                    |
 | [skirt_300_power](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_power.stl)                  | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 12.23m | 31.19g | £0.59 | :heavy_check_mark: |                                                                                                                                    |
 | [skirt_300_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_right_x4.stl)               | 4        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 12.92m | 32.95g | £0.63 | :heavy_check_mark: |                                                                                                                                    |
-| [skirt_middle](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_middle_x3.stl)                     | 3        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 7.49m  | 19.11g | £0.36 |        :x:         |                                                                                                                                    |
+| [skirt_middle](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_middle_x3.stl)                     | 3        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 7.49m  | 19.11g | £0.36 | :heavy_check_mark: |                                                                                                                                    |
 | [foot_spacer](https://github.com/VoronDesign/Voron-1/blob/Voron1.6/STLs/Bottom_Skirts/foot_spacer_x4.stl)                       | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.28m  | 5.82g  | £0.11 | :heavy_check_mark: | This is a 1.6 Part. Required to raise the printer up and allow [Display Mount](printer-voron-1.8-mods.md#display-mount) to swivel. |
 
 ##### Assembly

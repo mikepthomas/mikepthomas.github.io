@@ -733,11 +733,10 @@ Before attaching the power skirt to the printer the power socket and Keystone in
 | Coroplast Sheet - 236x415x4 mm | 1        |
 | Coroplast Sheet - 242x46x4 mm  | 2        |
 | Coroplast Sheet - 419x66x4 mm  | 1        |
-| M3 T-nut                       | 12       |
-| M3x8 SHCS                      | 4        |
+| M3 T-nut                       | 8        |
 | M3x16 BHCS                     | 8        |
-| M5 T-nut                       | 12       |
-| M5x10 SHCS                     | 12       |
+| M5 T-nut                       | 16       |
+| M5x10 SHCS                     | 16       |
 | Misumi HFSB5-2020-230          | 2        |
 | Misumi HFSB5-2020-420          | 1        |
 

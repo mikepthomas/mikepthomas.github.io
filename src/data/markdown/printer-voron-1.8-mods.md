@@ -53,7 +53,7 @@ The stock exhaust filter has the bowden coupler coming out of the back. As I wil
 | 60x60x20 Fan (24V)                   | 1        |
 | Fume Extractor Carbon Filter Element | 1        |
 | M3 Threaded Insert                   | 8        |
-| M3x8 SHCS                            | 2        |
+| M3x8 BHCS                            | 2        |
 | M3x30 SHCS                           | 4        |
 
 ### Clamping Door Hinges

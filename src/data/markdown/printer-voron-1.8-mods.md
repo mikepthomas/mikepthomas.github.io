@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 4, 2022
+Updated May 14, 2022
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -87,7 +87,7 @@ Clips to route zip ties through 3 hole cable chain to attach to 2020 extrusion.
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ------------------------------------ |
 | [Triangle_Hole_Pattern_End_Mount_to_2020](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/bryansj/Befenybay_Chain_Anchors/Triangle_Hole_Pattern_End_Mount_to_2020.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.11m | 0.27g  | £0.01 | :heavy_check_mark: | This is a Voron Users Mod by bryansj |
 
-#### Assembly
+#### :white_check_mark: Assembly
 
 These will be installed at the same time as the [Cable Chains](printer-voron-1.8.md#wire-path).
 
@@ -225,7 +225,7 @@ Mount for the display allowing it to be tilted and angled.
 | [Swingarm_short(Mirror)](<https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_short(Mirror).stl>) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.44m | 1.11g  | £0.02 | :heavy_check_mark: | This is a Voron Users Mod by Iakabos                                                                                     |
 | [Swingarm_short](https://github.com/VoronDesign/VoronUsers/blob/master/legacy_printers/printer_mods/Iakabos/Mini12864_display_mount/Swingarm_short.stl)                   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.44m | 1.11g  | £0.02 | :heavy_check_mark: | This is a Voron Users Mod by Iakabos                                                                                     |
 
-#### :wrench: Assembly
+#### :white_check_mark: Assembly
 
 ![Display Mount](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-mods/display-mount.jpg)
 
@@ -234,9 +234,16 @@ Mount for the display allowing it to be tilted and angled.
 | Item               | Quantity |
 | ------------------ | -------- |
 | M3x8 SHCS          | 16       |
+| M5 1mm Spacer      | 2        |
 | M5 T-nut           | 2        |
-| M5x10 BHCS         | 2        |
+| M5x16 BHCS         | 2        |
 | Mini 12864 Display | 1        |
+
+![Display Mount installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-mods/display-mount-installed.jpg)
+
+The reason to add this mod is that it allows me to fold the display flat with the frame out of the way or angled up to view the display at different angles.
+
+![Display Mount Folded Flat](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-mods/display-mount-flat.jpg)
 
 ### Mosfet Mounts
 
@@ -437,14 +444,17 @@ The coroplast on the bottom of the printer is not that well supported so this ju
 | [deck_panel_support_lower](<https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/wile-e1/Deck_Panel_Support_Clips/wile.e-deck_panel_support_lower_adjustable(3-6mm).stl>) | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.72m | 1.83g  | £0.03 | :heavy_check_mark: | This is a Voron Users Mod by wile-e1 |
 | [deck_panel_support_upper](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/wile-e1/Deck_Panel_Support_Clips/wile.e-deck_panel_support_upper.stl)                     | 4        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.93m | 2.36g  | £0.04 | :heavy_check_mark: | This is a Voron Users Mod by wile-e1 |
 
-#### Assembly
+#### :white_check_mark: Assembly
+
+![Deck Panel Support Clips](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-mods/deck-panel-support-clips.jpg)
 
 ##### Parts Used
 
 | Item                  | Quantity |
 | --------------------- | -------- |
 | M3 Hammer Head T-nuts | 8        |
-| M3x8 SHCS             | 8        |
+| M3x6 BHCS             | 4        |
+| M3x6 SHCS             | 4        |
 
 ### Klipper Expander
 

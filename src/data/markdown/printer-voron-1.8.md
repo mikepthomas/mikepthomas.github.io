@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 10, 2022
+Updated May 14, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -617,7 +617,7 @@ It appears that these parts are not specified in the manual, I will use them for
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-#### :wrench: Skirts
+#### :white_check_mark: Skirts
 
 | Item                                                                                                                            | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -631,6 +631,10 @@ It appears that these parts are not specified in the manual, I will use them for
 ##### Assembly
 
 ![Power Skirt](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/power-skirt.jpg)
+
+Before attaching the power skirt to the printer the power socket and Keystone inserts are installed into the part.
+
+![Skirts Installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/skirts-installed.jpg)
 
 ###### Parts Used
 
@@ -653,7 +657,7 @@ It appears that these parts are not specified in the manual, I will use them for
 
 **_NOTE:_** I will replace the stock display arms with [Display Mount](printer-voron-1.8-mods.md#display-mount).
 
-#### :negative_squared_cross_mark: Bottom Electronics Mounting
+#### :wrench: Bottom Electronics Mounting
 
 | Item                                                                                                                       | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                  |
 | -------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ---------------------- |

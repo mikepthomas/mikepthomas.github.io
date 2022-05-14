@@ -657,7 +657,7 @@ Before attaching the power skirt to the printer the power socket and Keystone in
 
 **_NOTE:_** I will replace the stock display arms with [Display Mount](printer-voron-1.8-mods.md#display-mount).
 
-#### :wrench: Bottom Electronics Mounting
+#### :white_check_mark: Bottom Electronics Mounting
 
 | Item                                                                                                                       | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                  |
 | -------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ---------------------- |
@@ -666,6 +666,8 @@ Before attaching the power skirt to the printer the power socket and Keystone in
 | [DIN_frame_mount](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/DIN_frame_mount_x4.stl)       | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.57m | 6.54g  | £0.12 | :heavy_check_mark: | This is a Trident Part |
 
 ##### Assembly
+
+![DIN Rail Installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/din-rail-installed.jpg)
 
 ###### Parts Used
 
@@ -677,7 +679,7 @@ Before attaching the power skirt to the printer the power socket and Keystone in
 | M5 T-nut                       | 4        |
 | M5x16 BHCS                     | 4        |
 
-#### :negative_squared_cross_mark: Bottom Electronics Brackets
+#### :white_check_mark: Bottom Electronics Brackets
 
 | Item                                                                                                                                               | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                  |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ---------------------- |
@@ -686,6 +688,8 @@ Before attaching the power skirt to the printer the power socket and Keystone in
 | [rs25_psu_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/rs25_psu_bracket.stl)                                | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.29m | 5.84g  | £0.11 | :heavy_check_mark: | This is a Trident Part |
 
 ##### Assembly
+
+![Bottom Compartment Electronics](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/bottom-compartment-electronics.jpg)
 
 ###### Parts Used
 
@@ -706,7 +710,7 @@ Before attaching the power skirt to the printer the power socket and Keystone in
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-#### :negative_squared_cross_mark: Rear Electronics Enclosure
+#### :wrench: Rear Electronics Enclosure
 
 | Item                                                                                                                                                       | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                                                                 |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :----------------: | ------------------------------------------------------------------------------------- |

@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 15, 2022
+Updated May 16, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -845,13 +845,23 @@ The [Electronics Compartment](#electronics-compartment) has a couple of parts to
 | [bottom_panel_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/bottom_panel_clip_x4.stl)                            | ~6~ 8    | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.10m | 2.80g  | £0.05 | :heavy_check_mark: | This is a Trident Part                                                                                                                               |
 | ~[bottom_panel_hinge](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/bottom_panel_hinge_x2.stl)~                        | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.58m | 4.04g  | £0.08 | :heavy_check_mark: | This is a Trident Part                                                                                                                               |
 | [corner_panel_clip_4mm](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/corner_panel_clip_4mm_x8.stl)                    | 6        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.12m | 2.87g  | £0.05 | :heavy_check_mark: | This is a Trident Part                                                                                                                               |
-| [corner_panel_clip_6mm](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/corner_panel_clip_6mm_x8.stl)                    | 8        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.60m | 4.07g  | £0.08 |        :x:         | This is a Trident Part                                                                                                                               |
+| [corner_panel_clip_6mm](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/corner_panel_clip_6mm_x8.stl)                    | 8        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.60m | 4.07g  | £0.08 | :heavy_check_mark: | This is a Trident Part                                                                                                                               |
 | [midspan_panel_clip_4mm](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/midspan_panel_clip_4mm_x7.stl)                  | 6        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.74m | 1.89g  | £0.04 | :heavy_check_mark: | This is a Trident Part                                                                                                                               |
-| [midspan*panel_clip_6mm*](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/midspan_panel_clip_6mm_x8.stl)                 | 8        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.04m | 2.66g  | £0.05 |        :x:         | This is a Trident Part                                                                                                                               |
+| [midspan_panel_clip_6mm](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Panels/midspan_panel_clip_6mm_x8.stl)                  | 8        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.04m | 2.66g  | £0.05 | :heavy_check_mark: | This is a Trident Part                                                                                                                               |
 | [handle](https://github.com/VoronDesign/Voron-2/blob/Voron2.2/STLs/VORON2.2/Panel_Mounting/Handles_Panel_Rests_Misc/handle_3mm_x2_Rev1.stl) | 2        |                                                         |       |        |       |        :x:         | For Voron 2.2 Will replace with [Sturdy Handles](printer-voron-1.8-mods.md#sturdy-handles)                                                           |
 | [light_bar](https://github.com/VoronDesign/Voron-Switchwire/blob/master/STL/Panel_Mounting/light_bar_x2.stl)                                | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |       |        |       |        :x:         | This is a Switchwire Part. Will replace with [one with mounting holes](https://www.prusaprinters.org/prints/109140-voron-light-bar-with-screw-holes) |
 
 **_NOTE:_** I have not been able to succesfully print the bottom panel hinges, they always seem to fuse up and the small pin just snaps when trying to free the hinge. I will print extra panel clips instead.
+
+##### Assembly
+
+###### Parts Used
+
+| Item                  | Quantity |
+| --------------------- | -------- |
+| M3x8 SHCS             | 26       |
+| M3x12 SHCS            | 24       |
+| M3 Hammer Head T-nuts | 42       |
 
 #### :negative_squared_cross_mark: Front Doors
 
@@ -863,6 +873,17 @@ The [Electronics Compartment](#electronics-compartment) has a couple of parts to
 | [handle_top_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/Front_Doors/handle_top_left.stl)         | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.42m | 3.61g  | £0.07 | :heavy_check_mark: |                                                                                                                           |
 | [handle_top_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/Front_Doors/handle_top_right.stl)       | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.42m | 3.61g  | £0.07 | :heavy_check_mark: |                                                                                                                           |
 | [latch](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Panel_Mounting/Front_Doors/latch.stl)                             | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.28m | 3.26g  | £0.06 | :heavy_check_mark: |                                                                                                                           |
+
+##### Assembly
+
+###### Parts Used
+
+| Item                   | Quantity |
+| ---------------------- | -------- |
+| 3M VHB Tape 5952       | 1        |
+| 6x3mm Neodimium Magnet | 10       |
+| M3 Hammer Head T-nuts  | 1        |
+| M3x8 SHCS              | 1        |
 
 #### :wrench: Spool Management
 

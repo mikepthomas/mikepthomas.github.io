@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 14, 2022
+Updated May 18, 2022
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -43,7 +43,7 @@ The stock exhaust filter has the bowden coupler coming out of the back. As I wil
 | [exhaust_housing_insert_thread](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/120decibell/exhaust_housing_side_entry/STL/%5Ba%5D_exhaust_housing_insert_thread.stl) | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.32m  | 0.83g  | £0.02 | :heavy_check_mark: | This is a Voron Users Mod by 120decibell |
 | [filter_access_cover](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/120decibell/exhaust_housing_side_entry/STL/%5Ba%5D_filter_access_cover.stl)                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 9.27m  | 23.63g | £0.45 | :heavy_check_mark: | This is a Voron Users Mod by 120decibell |
 
-#### Assembly
+#### :wrench: Assembly
 
 ##### Parts Used
 
@@ -99,7 +99,7 @@ Mounts for 5015 fans to circulate air around the enclosure to get hotter chamber
 | --------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | --------------------------------------- |
 | [Mounting_Plate](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/CannedBass/Trident_Bed_Fans/STL/Mounting_Plate.stl) | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 4.00m | 10.21g | £0.19 | :heavy_check_mark: | This is a Voron Users Mod by CannedBass |
 
-#### Assembly
+#### :wrench: Assembly
 
 ##### Parts Used
 
@@ -109,20 +109,20 @@ Mounts for 5015 fans to circulate air around the enclosure to get hotter chamber
 | M3 Hammer Head T-nuts      | 4        |
 | M3 Threaded Insert         | 8        |
 | M3x8 SHCS                  | 4        |
-| M3x20 SHCS                 | 8        |
+| M3x18 BHCS                 | 8        |
 
 ### Nozzle Scrubber
 
 Cleans the nozzle before printing and has endstops to locate the magnetic bed.
 
-| Item                                                                                                                                                                                                | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                    |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :----------------: | ---------------------------------------- |
-| [brush_holder_sheet_stop](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/brush_holder_sheet_stop_rev4.stl)     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.78m  | 4.55g  | £0.09 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
-| [extension_bracket](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/extension_bracket_v1.8_rev4.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 3.20m  | 8.16g  | £0.15 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
-| [individual_sheetstop](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/individual_sheetstop_v1.8_v2.4_rev4.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.70m  | 1.73g  | £0.03 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
-| [purge_bucket](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/purge_bucket_300mm_rev4.stl)                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 12.51m | 31.90g | £0.61 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
+| Item                                                                                                                                                                                                               | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :----------------: | ---------------------------------------- |
+| [brush_holder_sheet_stop](https://github.com/VoronDesign/VoronUsers/blob/master/abandoned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/brush_holder_sheet_stop_rev4.stl)     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.78m  | 4.55g  | £0.09 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
+| [extension_bracket](https://github.com/VoronDesign/VoronUsers/blob/master/abandoned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/extension_bracket_v1.8_rev4.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 3.20m  | 8.16g  | £0.15 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
+| [individual_sheetstop](https://github.com/VoronDesign/VoronUsers/blob/master/abandoned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/individual_sheetstop_v1.8_v2.4_rev4.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.70m  | 1.73g  | £0.03 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
+| [purge_bucket](https://github.com/VoronDesign/VoronUsers/blob/master/abandoned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/purge_bucket_300mm_rev4.stl)                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 12.51m | 31.90g | £0.61 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
 
-#### Assembly
+#### :wrench: Assembly
 
 ##### Parts Used
 
@@ -164,13 +164,14 @@ Cover for the Exhaust filter grill to allow the chamber to hold it's temperature
 | [exhaust_filter_cover](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/falo/magnetic_grill_cover/STL/exhaust_filter_cover.stl)                   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 7.08m | 18.06g | £0.34 | :heavy_check_mark: | This is a Voron Users Mod by falo |
 | [exhaust_filter_grill_modified](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/falo/magnetic_grill_cover/STL/exhaust_filter_grill_modified.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 4.52m | 11.53g | £0.22 | :heavy_check_mark: | This is a Voron Users Mod by falo |
 
-#### Assembly
+#### :wrench: Assembly
 
 ##### Parts Used
 
 | Item                   | Quantity |
 | ---------------------- | -------- |
 | 6x3mm Neodimium Magnet | 8        |
+| M3x12 BHCS             | 4        |
 
 ### Sexbolt Z Endstop
 
@@ -305,7 +306,8 @@ Recommended upgrade to replace the PL-08N Inductive Probe which can be a bit unr
 | ---------------------- | -------- |
 | 6x3mm Neodimium Magnet | 1        |
 | M3 Threaded Insert     | 4        |
-| M3x8 SHCS              | 4        |
+| M3x10 SHCS             | 2        |
+| M3x18 SHCS             | 2        |
 | Super Glue             | 1        |
 
 #### Probe
@@ -411,10 +413,10 @@ A cable management duct to tidy up the wiring in the electronics case.
 
 Cover to hide the cables for the LED strip around the top corners of the printer
 
-| Item                                                                                                                                                                          | Quantity | Material                                            | Size  | Weight | Cost  | Printed | Notes                                  |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- | ----- | ------ | ----- | :-----: | -------------------------------------- |
-| [top_corner_cable_hide_left](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/samwiseg0/corner_cable_hide/STLs/%5Ba%5D_top_corner_cable_hide_left_x2.stl)   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 3.96m | 10.09g | £0.19 |   :x:   | This is a Voron Users Mod by samwiseg0 |
-| [top_corner_cable_hide_right](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/samwiseg0/corner_cable_hide/STLs/%5Ba%5D_top_corner_cable_hide_right_x2.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 3.96m | 10.09g | £0.19 |   :x:   | This is a Voron Users Mod by samwiseg0 |
+| Item                                                                                                                                                                          | Quantity | Material                                            | Size  | Weight | Cost  |      Printed       | Notes                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- | ----- | ------ | ----- | :----------------: | -------------------------------------- |
+| [top_corner_cable_hide_left](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/samwiseg0/corner_cable_hide/STLs/%5Ba%5D_top_corner_cable_hide_left_x2.stl)   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 3.96m | 10.09g | £0.19 | :heavy_check_mark: | This is a Voron Users Mod by samwiseg0 |
+| [top_corner_cable_hide_right](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/samwiseg0/corner_cable_hide/STLs/%5Ba%5D_top_corner_cable_hide_right_x2.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 3.96m | 10.09g | £0.19 | :heavy_check_mark: | This is a Voron Users Mod by samwiseg0 |
 
 #### Assembly
 

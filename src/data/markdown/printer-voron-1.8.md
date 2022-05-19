@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 16, 2022
+Updated May 19, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -194,18 +194,18 @@ I have looked into a few different options for a new frame for my 3D Printer and
 
 ### Misc
 
-| Item                                 | Quantity | Received | Notes      |
-| ------------------------------------ | -------- | -------- | ---------- |
-| Fume Extractor Carbon Filter Element | 1        | 1        |            |
-| 4mm Bowden Coupler                   | 1        | 4        |            |
-| Bowden Tube (m)                      | 1        | 3        |            |
-| 3M VHB Tape 5952                     | 1        | 1        |            |
-| Loctite Blue Threadlocker Stick      | 1        | 1        |            |
-| Mobil EP2 Grease                     | 1        | 1        |            |
-| Tesa Wire Loom Harness Tape          | 1        | 1        |            |
-| 1mm Foam Tape                        | 1        | 1        |            |
-| 6x3mm Neodimium Magnet               | 8        | 41       |            |
-| PTFE Tube (4mm OD 3mm ID) - 1m       | 1        |          | 2 on order |
+| Item                                 | Quantity | Received | Notes |
+| ------------------------------------ | -------- | -------- | ----- |
+| Fume Extractor Carbon Filter Element | 1        | 1        |       |
+| 4mm Bowden Coupler                   | 1        | 4        |       |
+| Bowden Tube (m)                      | 1        | 3        |       |
+| 3M VHB Tape 5952                     | 1        | 1        |       |
+| Loctite Blue Threadlocker Stick      | 1        | 1        |       |
+| Mobil EP2 Grease                     | 1        | 1        |       |
+| Tesa Wire Loom Harness Tape          | 1        | 1        |       |
+| 1mm Foam Tape                        | 1        | 1        |       |
+| 6x3mm Neodimium Magnet               | 8        | 41       |       |
+| PTFE Tube (4mm OD 3mm ID) - 1m       | 1        | 1        |       |
 
 ## Assembling The Frame
 

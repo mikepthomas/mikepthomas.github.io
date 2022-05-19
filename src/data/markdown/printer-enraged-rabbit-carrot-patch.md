@@ -1,7 +1,7 @@
 # Building an Enraged Rabbit Carrot Patch
 
 April 4, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 20, 2022
+Updated May 19, 2022
 
 Building the [Enraged Rabbit Carrot Patch](https://github.com/EtteGit/EnragedRabbitProject) manage filament reels being used by the Enraged Rabbit Carrot Feeder.
 
@@ -31,7 +31,7 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 | Item                             | Quantity | Received | Notes       |
 | -------------------------------- | -------- | -------- | ----------- |
-| Bowden Clip                      | 2        |          | 10 on order |
+| Bowden Clip                      | 2        | 8        |             |
 | Bowden Fitting                   | 2        | 8        |             |
 | PTFE Tube (4mm OD 3mm ID) - 30cm | 1        |          | 2m on order |
 

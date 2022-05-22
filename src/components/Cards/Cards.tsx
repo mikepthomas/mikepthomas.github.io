@@ -30,7 +30,7 @@ import Card from './Card';
 import F1 from '../../img/openrc-f1/openrc-hero.jpg';
 import Guitar from '../../img/guitar/12-almost-there.jpg';
 import Truggy from '../../img/openrc-truggy/truggy-hero.jpg';
-import Printer from '../../img/printer-printed-upgrades/printed-items.jpg';
+import Printer from '../../img/printer-voron/voron-hero.jpg';
 
 export default function Links() {
   return (
@@ -73,8 +73,8 @@ export default function Links() {
         </h2>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
           <Col>
-            <Card name="3D Printer" link="/#/projects/printer" image={Printer}>
-              3D Printing upgrades for a 3D printer.
+            <Card name="3D Printer" link="/#/projects/printer-voron-1.8" image={Printer}>
+              Printing parts to assemble a Voron 1.8 3D printer.
             </Card>
           </Col>
           <Col>

@@ -1,7 +1,7 @@
 # 3D Printer Filament list
 
 January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 6, 2022
+Updated May 16, 2022
 
 This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
@@ -14,20 +14,25 @@ This is a list of 3D printer filament I have purchased over the years and how I 
 1. [Amazon Basics PETG (Red)](#amazon-basics-petg-red)
 2. [Amazon Basics PLA (Blue)](#amazon-basics-pla-blue)
 3. [BasicFil PETG (Clear)](#basicfil-petg-clear)
-4. [PrimaValue PLA (Black)](#primavalue-pla-black)
-5. [PrimaValue PLA (Blue)](#primavalue-pla-Blue)
-6. [PrimaValue PLA (Dark Grey)](#primavalue-pla-dark-grey)
-7. [PrimaValue PLA (Red)](#primavalue-pla-red)
-8. [Tinmorry PETG (Black)](#tinmorry-petg-black)
-9. [Tinmorry PETG (White)](#tinmorry-petg-white)
-10. [Tinmorry PLA (Black)](#tinmorry-pla-black)
-11. [Tinmorry PLA (Grey)](#tinmorry-pla-grey)
-12. [Tinmorry PLA (Matte Brick Red)](#tinmorry-pla-matte-brick-red)
-13. [Ziro PLA (Black)](#ziro-pla-black)
-14. [Ziro PLA (Yellow)](#ziro-pla-yellow)
-15. [Ziro TPU (Black)](#ziro-tpu-black)
-16. [eSun ABS+ (Black)](#esun-abs-black)
-17. [eSun ABS+ (Red)](#esun-abs-red)
+4. [PrimaValue ABS (Dark Grey)](#primavalue-abs-dark-grey)
+5. [PrimaValue PLA (Black)](#primavalue-pla-black)
+6. [PrimaValue PLA (Blue)](#primavalue-pla-Blue)
+7. [PrimaValue PLA (Dark Grey)](#primavalue-pla-dark-grey)
+8. [PrimaValue PLA (Red)](#primavalue-pla-red)
+9. [Tinmorry PETG (Black)](#tinmorry-petg-black)
+10. [Tinmorry PETG (White)](#tinmorry-petg-white)
+11. [Tinmorry PLA (Black)](#tinmorry-pla-black)
+12. [Tinmorry PLA (Grey)](#tinmorry-pla-grey)
+13. [Tinmorry PLA (Matte Brick Red)](#tinmorry-pla-matte-brick-red)
+14. [Ziro PLA (Black)](#ziro-pla-black)
+15. [Ziro PLA (Yellow)](#ziro-pla-yellow)
+16. [Ziro TPU (Black)](#ziro-tpu-black)
+17. [eSun ABS+ (Black)](#esun-abs-black)
+18. [eSun ABS+ (Cold White)](#esun-abs-cold-white)
+19. [eSun ABS+ (Fire Engine Red)](#esun-abs-fire-engine-red)
+20. [eSun ABS+ (Light Blue)](#esun-abs-light-blue)
+21. [eSun ABS+ (Peak Green)](#esun-abs-peak-green)
+22. [eSun ABS+ (Purple)](#esun-abs-purple)
 
 ## Amazon Basics PETG (Red)
 
@@ -52,6 +57,14 @@ This filament was originally brought to print the [StealthBurner](https://vorond
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Cost   |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 240         | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/BasicFil%20PETG%20(Clear).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07CTLV4W5) | £19.90 |
+
+## PrimaValue ABS (Dark Grey)
+
+This filament was brought to print the parts close to the hotend of [my printer](printer.md).
+
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                   | Purchased From                                           | Cost   |
+| ----------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | ------ |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PrimaValue%20ABS%20(Dark%20Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01DWTSEIK) | £15.90 |
 
 ## PrimaValue PLA (Black)
 
@@ -151,16 +164,42 @@ This filament was originally brought to print the tyres and front and rear wings
 
 ## eSun ABS+ (Black)
 
-This filament was originally brought to print a [Stealthburner](https://vorondesign.com/voron_stealthburner) to mount on my upgraded printer, [Anet Evolution](https://www.thingiverse.com/thing:2786292).
+This filament was originally brought to print the main parts for my [Voron 1.8](printer-voron-1.8.md).
 
-| Hotend Temp | Bed Temp                    | Slicer Profile                                                                                                                          | Purchased From                                           | Cost   |
-| ----------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
-| 250         | 100 (1st Layer) 90 (Others) | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ5MC78) | £18.99 |
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                          | Purchased From                                           | Cost   |
+| ----------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ5MC78) | £18.99 |
 
-## eSun ABS+ (Red)
+## eSun ABS+ (Cold White)
 
-This filament was originally brought to print a [Stealthburner](https://vorondesign.com/voron_stealthburner) to mount on my upgraded printer, [Anet Evolution](https://www.thingiverse.com/thing:2786292).
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
+| ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Cold%20White).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ93Y6N) | £16.99 |
 
-| Hotend Temp | Bed Temp                    | Slicer Profile                                                                                                                        | Purchased From                                           | Cost   |
-| ----------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
-| 250         | 100 (1st Layer) 90 (Others) | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07RT35GSF) | £19.99 |
+## eSun ABS+ (Fire Engine Red)
+
+This filament was originally brought to print the accent parts for my [Voron 1.8](printer-voron-1.8.md).
+
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                        | Purchased From                                           | Cost   |
+| ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Fire%20Engine%20Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07RT35GSF) | £19.99 |
+
+## eSun ABS+ (Light Blue)
+
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
+| ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Light%20Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ1VKXX) | £18.99 |
+
+## eSun ABS+ (Peak Green)
+
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
+| ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Peak%20Green).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQCQ17Y) | £16.99 |
+
+## eSun ABS+ (Purple)
+
+This filament was originally brought to print the accent parts to upgrade my [Voron 1.8](printer-voron-1.8.md) to a 2.4.
+
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                           | Cost   |
+| ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Purple).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ2JLJG) | £19.99 |

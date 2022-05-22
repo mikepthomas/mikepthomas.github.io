@@ -1,6 +1,7 @@
 # 3D Printing upgrades for a 3D printer
 
-May 26, 2018 by [Mike Thomas](https://github.com/mikepthomas)
+May 26, 2018 by [Mike Thomas](https://github.com/mikepthomas),
+Updated April 19, 2022
 
 This project was to take a cheap 3D printer and make it better by upgrading components and 3D printing
 improved parts.
@@ -302,3 +303,7 @@ Bushings to encase the bed levelling springs, to stop them buckling under tensio
 [Glass Bed Holder from Thingyverse](https://www.thingiverse.com/thing:2842585) by user [aeozyalcin](https://www.thingiverse.com/aeozyalcin)
 
 My glass bed was just a bit smaller than the heated bed so I printed these to replace the small bulldog clips to hold on the glass bed.
+
+These got a bit melty whilst printing with the hotter bed temperatures ABS requires. This made the screws a little loose, I held them in a while with a bit of nail polish but the repeated heat expansion always made them become loose over time.
+
+I have [remixed them to make them slightly thicker around the screw holes and modelled threads into the part](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Glass%20Bed%20Holder%20Strengthened/Glass%20Bed%20Holder%20Strengthened.stl), allowing the threads to hold on a little tighter.

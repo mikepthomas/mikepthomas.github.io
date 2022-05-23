@@ -73,7 +73,11 @@ export default function Links() {
         </h2>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
           <Col>
-            <Card name="3D Printer" link="/#/projects/printer-voron-1.8" image={Printer}>
+            <Card
+              name="3D Printer"
+              link="/#/projects/printer-voron-1.8"
+              image={Printer}
+            >
               Printing parts to assemble a Voron 1.8 3D printer.
             </Card>
           </Col>

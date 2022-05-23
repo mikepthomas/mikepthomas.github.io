@@ -824,7 +824,7 @@ The [Electronics Compartment](#electronics-compartment) has a couple of parts to
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-#### :wrench: Exhaust Filter
+#### :negative_squared_cross_mark: Exhaust Filter
 
 | Item                                                                                                                            | Quantity | Material                                                               | Size  | Weight | Cost  |      Printed       | Notes                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ----- | ------ | ----- | :----------------: | --------------------------------------------------------------------------------------------------------------- |
@@ -838,13 +838,15 @@ The [Electronics Compartment](#electronics-compartment) has a couple of parts to
 
 ![Exhaust Filter](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/exhaust-filter.jpg)
 
+I originally printed this in PETG that would be fitted to [my HyperCube upgrade](printer-hypercube.md). I will replace with the [Exhaust Mount Side Entry](printer-voron-1.8-mods.md#exhaust-mount-side-entry) mod to allow me to pass 2 bowden tubes through to experiment with a [dual bowden setup using 2 M4 extruders](printer-extruders-and-toolheads.md#voron-m4).
+
 ### Panel Mounting
 
 ![Voron 1.8 Panels](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/panels.jpg)
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-#### :negative_squared_cross_mark: Panel Mounts
+#### :wrench: Panel Mounts
 
 | Item                                                                                                                                        | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                                                                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 18, 2022
+Updated May 23, 2022
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -43,7 +43,9 @@ The stock exhaust filter has the bowden coupler coming out of the back. As I wil
 | [exhaust_housing_insert_thread](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/120decibell/exhaust_housing_side_entry/STL/%5Ba%5D_exhaust_housing_insert_thread.stl) | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.32m  | 0.83g  | £0.02 | :heavy_check_mark: | This is a Voron Users Mod by 120decibell |
 | [filter_access_cover](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/120decibell/exhaust_housing_side_entry/STL/%5Ba%5D_filter_access_cover.stl)                     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 9.27m  | 23.63g | £0.45 | :heavy_check_mark: | This is a Voron Users Mod by 120decibell |
 
-#### :wrench: Assembly
+#### :white_check_mark: Assembly
+
+![Exhaust Mount Side Entry](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-mods/exhaust-mount-side-entry.jpg)
 
 ##### Parts Used
 
@@ -164,7 +166,9 @@ Cover for the Exhaust filter grill to allow the chamber to hold it's temperature
 | [exhaust_filter_cover](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/falo/magnetic_grill_cover/STL/exhaust_filter_cover.stl)                   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 7.08m | 18.06g | £0.34 | :heavy_check_mark: | This is a Voron Users Mod by falo |
 | [exhaust_filter_grill_modified](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/falo/magnetic_grill_cover/STL/exhaust_filter_grill_modified.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 4.52m | 11.53g | £0.22 | :heavy_check_mark: | This is a Voron Users Mod by falo |
 
-#### :wrench: Assembly
+#### :white_check_mark: Assembly
+
+![Magnetic Grill Cover](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-mods/magnetic-grill-cover.jpg)
 
 ##### Parts Used
 
@@ -172,6 +176,10 @@ Cover for the Exhaust filter grill to allow the chamber to hold it's temperature
 | ---------------------- | -------- |
 | 6x3mm Neodimium Magnet | 8        |
 | M3x12 BHCS             | 4        |
+
+The cover can be easily removed to allow air to be exracted from the exhaust filter.
+
+![Magnetic Grill Cover Removed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-mods/magnetic-grill-cover-removed.jpg)
 
 ### Sexbolt Z Endstop
 
@@ -418,7 +426,9 @@ Cover to hide the cables for the LED strip around the top corners of the printer
 | [top_corner_cable_hide_left](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/samwiseg0/corner_cable_hide/STLs/%5Ba%5D_top_corner_cable_hide_left_x2.stl)   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 3.96m | 10.09g | £0.19 | :heavy_check_mark: | This is a Voron Users Mod by samwiseg0 |
 | [top_corner_cable_hide_right](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/samwiseg0/corner_cable_hide/STLs/%5Ba%5D_top_corner_cable_hide_right_x2.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 3.96m | 10.09g | £0.19 | :heavy_check_mark: | This is a Voron Users Mod by samwiseg0 |
 
-#### Assembly
+#### :wrench: Assembly
+
+![Corner Cable Cover](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-mods/corner-cable-cover.jpg)
 
 ##### Parts Used
 
@@ -426,6 +436,10 @@ Cover to hide the cables for the LED strip around the top corners of the printer
 | --------------------- | -------- |
 | M3 Hammer Head T-nuts | 8        |
 | M3x8 SHCS             | 8        |
+
+I will also use some extrusion slot covers to hold the LED strip cables inside the rear of the front top extrusion like so:
+
+![Corner Cable Cover Rear](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-mods/corner-cable-cover-rear.jpg)
 
 ### Power Supply Cover
 

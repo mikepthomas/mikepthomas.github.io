@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 20, 2022
+Updated May 23, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -766,7 +766,7 @@ The manual says to install the DIN Rails after fitting the enclosure. I found it
 | Misumi HFSB5-2020-230          | 2        |
 | Misumi HFSB5-2020-420          | 1        |
 
-#### :negative_squared_cross_mark: Rear Electronics Brackets
+#### :wrench: Rear Electronics Brackets
 
 | Item                                                                                                                                                               | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----------------------------------------------------------- |
@@ -778,6 +778,8 @@ The manual says to install the DIN Rails after fitting the enclosure. I found it
 
 ##### Assembly
 
+![Controller Fan Mount](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/controller-fan-mount.jpg)
+
 ###### Parts Used
 
 | Item                     | Quantity |
@@ -788,7 +790,7 @@ The manual says to install the DIN Rails after fitting the enclosure. I found it
 | M5 Hammer Head T-nuts    | 2        |
 | M5x10 BHCS               | 2        |
 
-#### :wrench: Electronics Panel
+#### :white_check_mark: Electronics Panel
 
 | Item                                                                                                                                                                | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ------------------------------------------------------------------------ |
@@ -805,7 +807,7 @@ The manual says to install the DIN Rails after fitting the enclosure. I found it
 
 The [Electronics Compartment](#electronics-compartment) has a couple of parts to rest the elecronics panel on called `panel_holder`s I have replaced these with the front handles from the 2.2
 
-![Electronics Panel Latches](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/electronics-panel-latches.jpg)
+![Electronics Panel](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/electronics-panel-installed.jpg)
 
 ###### Parts Used
 

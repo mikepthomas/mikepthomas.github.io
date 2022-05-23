@@ -13,22 +13,23 @@ List of upgrades that I plan on adding from the printer mods directory of the Vo
 2. [Clamping Door Hinges](#clamping-door-hinges)
 3. [Cable Chain Anchors](#cable-chain-anchors)
 4. [Bed Fans](#bed-fans)
-5. [Nozzle Scrubber](#nozzle-scrubber)
-6. [Smart Filament Sensor Mount](#smart-filament-sensor-mount)
-7. [Magnetic Grill Cover](#magnetic-grill-cover)
-8. [Sexbolt Z Endstop](#sexbolt-z-endstop)
-9. [Printable Chain](#printable-chain)
-10. [Display Mount](#display-mount)
-11. [Mosfet Mounts](#mosfet-mounts)
-12. [Sturdy Handles](#sturdy-handles)
-13. [Klicky Probe](#klicky-probe)
-14. [Wago Mounts](#wago-mounts)
-15. [MKS Mosfet Mount](#mks-mosfet-mount)
-16. [Cable Management Duct](#cable-management-duct)
-17. [Corner Cable Cover](#corner-cable-cover)
-18. [Power Supply Cover](#power-supply-cover)
-19. [Deck Panel Support Clips](#deck-panel-support-clips)
-20. [Klipper Expander](#klipper-expander)
+5. [LED Bar Clip](#led-bar-clip)
+6. [Nozzle Scrubber](#nozzle-scrubber)
+7. [Smart Filament Sensor Mount](#smart-filament-sensor-mount)
+8. [Magnetic Grill Cover](#magnetic-grill-cover)
+9. [Sexbolt Z Endstop](#sexbolt-z-endstop)
+10. [Printable Chain](#printable-chain)
+11. [Display Mount](#display-mount)
+12. [Mosfet Mounts](#mosfet-mounts)
+13. [Sturdy Handles](#sturdy-handles)
+14. [Klicky Probe](#klicky-probe)
+15. [Wago Mounts](#wago-mounts)
+16. [MKS Mosfet Mount](#mks-mosfet-mount)
+17. [Cable Management Duct](#cable-management-duct)
+18. [Corner Cable Cover](#corner-cable-cover)
+19. [Power Supply Cover](#power-supply-cover)
+20. [Deck Panel Support Clips](#deck-panel-support-clips)
+21. [Klipper Expander](#klipper-expander)
 
 ## Mods
 
@@ -112,6 +113,22 @@ Mounts for 5015 fans to circulate air around the enclosure to get hotter chamber
 | M3 Threaded Insert         | 8        |
 | M3x8 SHCS                  | 4        |
 | M3x18 BHCS                 | 8        |
+
+### LED Bar Clip
+
+Modular clips to add LED strips of any length to the inside of the top extrusions.
+
+| Item                                                                                                                                   | Quantity | Material                                                | Size  | Weight | Cost  | Printed | Notes                              |
+| -------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :-----: | ---------------------------------- |
+| [LED_Bar_Clip](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/eddie/LED_Bar_Clip/LED_Bar_Clip_Misumi_version2.stl) | ?        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.95m | 2.43g  | £0.05 |   :x:   | This is a Voron Users Mod by eddie |
+
+#### :negative_squared_cross_mark: Assembly
+
+##### Parts Used
+
+| Item                       | Quantity |
+| -------------------------- | -------- |
+| LED Neopixel Strip (300mm) | 2        |
 
 ### Nozzle Scrubber
 

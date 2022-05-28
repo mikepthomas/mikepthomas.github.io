@@ -32,10 +32,11 @@ It will be flashed with my [Marlin configuration](https://github.com/mikepthomas
 
 ### Bottom Frame
 
-| Item                                                                   | Quantity | Material                                                                   | Printed | Notes |
-| ---------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ----- |
-| [Bottom_Corner_Plate](https://www.thingiverse.com/thing:2263216/files) | 4        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |       |
-| [Bottom_Tee_Plate](https://www.thingiverse.com/thing:2263216/files)    | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |       |
+| Item                                                                              | Quantity | Material                                                                   | Printed | Notes                                                             |
+| --------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ----------------------------------------------------------------- |
+| [Bottom_Corner_Plate](https://www.thingiverse.com/thing:2263216/files)            | 4        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                   |
+| [Bottom_Tee_Plate](https://www.thingiverse.com/thing:2263216/files)               | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                   |
+| [Bottom_Tee_Plate_Chain_Adapter](https://www.thingiverse.com/thing:2472832/files) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [Celphor](https://www.thingiverse.com/Celphor) |
 
 ### Y Axis
 
@@ -49,14 +50,14 @@ It will be flashed with my [Marlin configuration](https://github.com/mikepthomas
 
 ### Z Axis
 
-| Item                                                                   | Quantity | Material                                                                   | Printed | Notes                                                                 |
-| ---------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | --------------------------------------------------------------------- |
-| [PSU_Mount](https://www.thingiverse.com/thing:2579256/files)           | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [oakdesign](https://www.thingiverse.com/oakdesign) |
-| [2_Top_Corner_Plate](https://www.thingiverse.com/thing:2263216/files)  | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                       |
-| [Z_Motor_Mount_Left](https://www.thingiverse.com/thing:2263216/files)  | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                       |
-| [Z_Motor_Mount_Right](https://www.thingiverse.com/thing:2263216/files) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                       |
-| [Z_Rod_Holder_Left](https://www.thingiverse.com/thing:2263216/files)   | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                       |
-| [Z_Rod_Holder_Right](https://www.thingiverse.com/thing:2263216/files)  | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                       |
+| Item                                                                               | Quantity | Material                                                                   | Printed | Notes                                                                   |
+| ---------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ----------------------------------------------------------------------- |
+| [PSU_Mount](https://www.thingiverse.com/thing:2579256/files)                       | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [oakdesign](https://www.thingiverse.com/oakdesign)   |
+| [2_Top_Corner_Plate](https://www.thingiverse.com/thing:2263216/files)              | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                         |
+| [Z_Motor_Mount_Left](https://www.thingiverse.com/thing:2263216/files)              | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                         |
+| [Z_Motor_Mount_Right](https://www.thingiverse.com/thing:2263216/files)             | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                         |
+| [Z_Rod_Holder_with_Bearing_Left](https://www.thingiverse.com/thing:4051591/files)  | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [mindless74](https://www.thingiverse.com/mindless74) |
+| [Z_Rod_Holder_with_Bearing_Right](https://www.thingiverse.com/thing:4051591/files) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [mindless74](https://www.thingiverse.com/mindless74) |
 
 ### Electronics Housing
 

@@ -24,7 +24,7 @@ The steps I have taken to print and source parts to assemble a Voron 1.8.
    8. [Bottom Compartment](#bottom-compartment)
    9. [Electronics Compartment](#electronics-compartment)
    10. [Rear Panel and Exhaust](#rear-panel-and-exhaust)
-   11. [Print Bed](#print-bed)
+   11. [Heated Bed](#heated-bed)
    12. [Panel Mounting](#panel-mounting)
 
 ## Sourcing Parts
@@ -844,7 +844,7 @@ The [Electronics Compartment](#electronics-compartment) has a couple of parts to
 
 I originally printed this in PETG that would be fitted to [my HyperCube upgrade](printer-hypercube.md). I will replace with the [Exhaust Mount Side Entry](printer-voron-1.8-mods.md#exhaust-mount-side-entry) mod to allow me to pass 2 bowden tubes through to experiment with a [dual bowden setup using 2 M4 extruders](printer-extruders-and-toolheads.md#voron-m4).
 
-### Print Bed
+### Heated Bed
 
 ![Print Bed Parts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/print-bed-parts.jpg)
 

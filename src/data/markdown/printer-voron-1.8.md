@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 23, 2022
+Updated May 28, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -24,7 +24,8 @@ The steps I have taken to print and source parts to assemble a Voron 1.8.
    8. [Bottom Compartment](#bottom-compartment)
    9. [Electronics Compartment](#electronics-compartment)
    10. [Rear Panel and Exhaust](#rear-panel-and-exhaust)
-   11. [Panel Mounting](#panel-mounting)
+   11. [Print Bed](#print-bed)
+   12. [Panel Mounting](#panel-mounting)
 
 ## Sourcing Parts
 
@@ -842,6 +843,36 @@ The [Electronics Compartment](#electronics-compartment) has a couple of parts to
 ![Exhaust Filter](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/exhaust-filter.jpg)
 
 I originally printed this in PETG that would be fitted to [my HyperCube upgrade](printer-hypercube.md). I will replace with the [Exhaust Mount Side Entry](printer-voron-1.8-mods.md#exhaust-mount-side-entry) mod to allow me to pass 2 bowden tubes through to experiment with a [dual bowden setup using 2 M4 extruders](printer-extruders-and-toolheads.md#voron-m4).
+
+### Print Bed
+
+![Print Bed Parts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/print-bed-parts.jpg)
+
+#### :white_check_mark: Heater Mat
+
+##### Assembly
+
+![Heater Installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/heater-installed.jpg)
+
+###### Parts Used
+
+| Item                                                        | Quantity |
+| ----------------------------------------------------------- | -------- |
+| Frogtape Masking Tape                                       | 1        |
+| JB Weld Red Hi-Temp RTV Silicone Gasket Maker & Sealant     | 1        |
+| Keenovo Silicone AC Heater w/ thermistor - 250x250mm (600W) | 1        |
+| MIC6 5/16" Plate - 12"x12"                                  | 1        |
+
+#### :negative_squared_cross_mark: Print Surface
+
+##### Assembly
+
+###### Parts Used
+
+| Item                              | Quantity |
+| --------------------------------- | -------- |
+| 3M 468MP Adhesive Sheet - 12"x12" | 1        |
+| PEI 0.04" Sheet - 12"x12"         | 1        |
 
 ### Panel Mounting
 

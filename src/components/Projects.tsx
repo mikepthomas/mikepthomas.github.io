@@ -150,6 +150,11 @@ const Projects = (props: Props) => {
                             Enraged Rabbit Carrot Patch
                           </Link>
                         </li>
+                        <li>
+                          <Link to="/projects/printer-am8">
+                            Metal Frame upgrade for Anet A8
+                          </Link>
+                        </li>
                       </ul>
                     </li>
                     <li>

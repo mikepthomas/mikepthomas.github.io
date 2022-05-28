@@ -848,11 +848,34 @@ I originally printed this in PETG that would be fitted to [my HyperCube upgrade]
 
 ![Print Bed Parts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/print-bed-parts.jpg)
 
+#### :white_check_mark: Print Surface
+
+##### Assembly
+
+I cleaned the Aluminium Tooling plate on both sides, thouroughly with Isopropyl alcohol and ensured it was completely dry before peeling a small portion of the adhesive backing from the magnet for the spring steel sheet.
+
+I then carefully lined up the magnet to the center of the top of the tooling plate, and pressed it down making sure to press from the center outwards to remove any air bubbles, pulled back some more of the backing and repeated until the magnet has been applied.
+
+Once the magnet was applied I used a 3mm drill bit from the undersde of the tool plate to make holes for the mounting screws and then used a craft knife to make space for the screw heads and tidied up using a de-burring tool to remove any sharp edges.
+
+###### Parts Used
+
+| Item                              | Quantity |
+| --------------------------------- | -------- |
+| 3M 468MP Adhesive Sheet - 12"x12" | 1        |
+| PEI 0.04" Sheet - 12"x12"         | 1        |
+
 #### :white_check_mark: Heater Mat
 
 ##### Assembly
 
 ![Heater Installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/heater-installed.jpg)
+
+I flipped over the tooling plate and applied the Kenovo heater mat to the center of the bottom of the tooling plate in the same way as the magnet above, ensuring the wires come out of the rear of the bed.
+
+I then added some thick cardboard around the thermistor and wires of the mat and added some weights (I used 6 rolls of filament) on top of the plate to ensure the adhesive cures and sticks well.
+
+After 24 hours I removed the weights and applied some masking tape 1cm from the heater mat, and appled a bead of red RTV silicone sealant around the plate and the mat. I then removed the masking tape while the RTV was still wet and then waited for it to dry.
 
 ###### Parts Used
 
@@ -863,16 +886,18 @@ I originally printed this in PETG that would be fitted to [my HyperCube upgrade]
 | Keenovo Silicone AC Heater w/ thermistor - 250x250mm (600W) | 1        |
 | MIC6 5/16" Plate - 12"x12"                                  | 1        |
 
-#### :negative_squared_cross_mark: Print Surface
+#### :negative_squared_cross_mark: Wiring
 
 ##### Assembly
 
 ###### Parts Used
 
-| Item                              | Quantity |
-| --------------------------------- | -------- |
-| 3M 468MP Adhesive Sheet - 12"x12" | 1        |
-| PEI 0.04" Sheet - 12"x12"         | 1        |
+| Item                                                    | Quantity |
+| ------------------------------------------------------- | -------- |
+| High Temp Yellow/Green Fibreglass coated wire 2.5mm (m) | 1        |
+| M3x8 SHCS                                               | 2        |
+| Red Ring Crimp Terminal                                 | 1        |
+| Thermal Fuse (125C)                                     | 1        |
 
 ### Panel Mounting
 

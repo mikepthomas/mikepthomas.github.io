@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 20, 2022
+Updated May 28, 2022
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -42,14 +42,14 @@ I have purchased parts to install the [ANET A8 E3DV6 BMG Direct Drive X Carriage
 
 ### Printed Parts
 
-| Item                                                                   | Quantity | Material                                                | Printed | Notes                          |
-| ---------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ------------------------------ |
-| [StepperBMG_holder](https://www.thingiverse.com/thing:4271258/files)   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Version with Cable Chain Mount |
-| [BLtouch_support](https://www.thingiverse.com/thing:3807114/files)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                |
-| [Fan_holder](https://www.thingiverse.com/thing:3807114/files)          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                |
-| [Baseplate_BMG](https://www.thingiverse.com/thing:3807114/files)       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                |
-| [Mistral_V2.1a_Leo_N](https://www.thingiverse.com/thing:2121279/files) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                |
-| [E3D_Fan_Duct](https://www.thingiverse.com/thing:929326/files)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                |
+| Item                                                                   | Quantity | Material                                                                   | Printed | Notes                          |
+| ---------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ------------------------------ |
+| [StepperBMG_holder](https://www.thingiverse.com/thing:4271258/files)   | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | Version with Cable Chain Mount |
+| [BLtouch_support](https://www.thingiverse.com/thing:3807114/files)     | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                |
+| [Fan_holder](https://www.thingiverse.com/thing:3807114/files)          | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                |
+| [Baseplate_BMG](https://www.thingiverse.com/thing:3807114/files)       | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                |
+| [Mistral_V2.1a_Leo_N](https://www.thingiverse.com/thing:2121279/files) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                |
+| [E3D_Fan_Duct](https://www.thingiverse.com/thing:929326/files)         | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                |
 
 ## Voron M4
 

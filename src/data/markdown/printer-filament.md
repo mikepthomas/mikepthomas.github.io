@@ -30,9 +30,10 @@ This is a list of 3D printer filament I have purchased over the years and how I 
 17. [eSun ABS+ (Black)](#esun-abs-black)
 18. [eSun ABS+ (Cold White)](#esun-abs-cold-white)
 19. [eSun ABS+ (Fire Engine Red)](#esun-abs-fire-engine-red)
-20. [eSun ABS+ (Light Blue)](#esun-abs-light-blue)
-21. [eSun ABS+ (Peak Green)](#esun-abs-peak-green)
-22. [eSun ABS+ (Purple)](#esun-abs-purple)
+20. [eSun ABS+ (Grey)](#esun-abs-grey)
+21. [eSun ABS+ (Light Blue)](#esun-abs-light-blue)
+22. [eSun ABS+ (Peak Green)](#esun-abs-peak-green)
+23. [eSun ABS+ (Purple)](#esun-abs-purple)
 
 ## Amazon Basics PETG (Red)
 
@@ -183,6 +184,12 @@ This filament was originally brought to print the accent parts for my [Voron 1.8
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                        | Purchased From                                           | Cost   |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Fire%20Engine%20Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07RT35GSF) | £19.99 |
+
+## eSun ABS+ (Grey)
+
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                         | Purchased From                                           | Cost   |
+| ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQHW1NW) | £16.99 |
 
 ## eSun ABS+ (Light Blue)
 

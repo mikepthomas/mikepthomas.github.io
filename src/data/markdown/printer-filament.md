@@ -1,7 +1,7 @@
 # 3D Printer Filament list
 
 January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 16, 2022
+Updated June 8, 2022
 
 This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
@@ -14,26 +14,27 @@ This is a list of 3D printer filament I have purchased over the years and how I 
 1. [Amazon Basics PETG (Red)](#amazon-basics-petg-red)
 2. [Amazon Basics PLA (Blue)](#amazon-basics-pla-blue)
 3. [BasicFil PETG (Clear)](#basicfil-petg-clear)
-4. [PrimaValue ABS (Dark Grey)](#primavalue-abs-dark-grey)
-5. [PrimaValue PLA (Black)](#primavalue-pla-black)
-6. [PrimaValue PLA (Blue)](#primavalue-pla-Blue)
-7. [PrimaValue PLA (Dark Grey)](#primavalue-pla-dark-grey)
-8. [PrimaValue PLA (Red)](#primavalue-pla-red)
-9. [Tinmorry PETG (Black)](#tinmorry-petg-black)
-10. [Tinmorry PETG (White)](#tinmorry-petg-white)
-11. [Tinmorry PLA (Black)](#tinmorry-pla-black)
-12. [Tinmorry PLA (Grey)](#tinmorry-pla-grey)
-13. [Tinmorry PLA (Matte Brick Red)](#tinmorry-pla-matte-brick-red)
-14. [Ziro PLA (Black)](#ziro-pla-black)
-15. [Ziro PLA (Yellow)](#ziro-pla-yellow)
-16. [Ziro TPU (Black)](#ziro-tpu-black)
-17. [eSun ABS+ (Black)](#esun-abs-black)
-18. [eSun ABS+ (Cold White)](#esun-abs-cold-white)
-19. [eSun ABS+ (Fire Engine Red)](#esun-abs-fire-engine-red)
-20. [eSun ABS+ (Grey)](#esun-abs-grey)
-21. [eSun ABS+ (Light Blue)](#esun-abs-light-blue)
-22. [eSun ABS+ (Peak Green)](#esun-abs-peak-green)
-23. [eSun ABS+ (Purple)](#esun-abs-purple)
+4. [PolyLite PLA Pro (Black)](#polylite-pla-pro-black)
+5. [PrimaValue ABS (Dark Grey)](#primavalue-abs-dark-grey)
+6. [PrimaValue PLA (Black)](#primavalue-pla-black)
+7. [PrimaValue PLA (Blue)](#primavalue-pla-Blue)
+8. [PrimaValue PLA (Dark Grey)](#primavalue-pla-dark-grey)
+9. [PrimaValue PLA (Red)](#primavalue-pla-red)
+10. [Tinmorry PETG (Black)](#tinmorry-petg-black)
+11. [Tinmorry PETG (White)](#tinmorry-petg-white)
+12. [Tinmorry PLA (Black)](#tinmorry-pla-black)
+13. [Tinmorry PLA (Grey)](#tinmorry-pla-grey)
+14. [Tinmorry PLA (Matte Brick Red)](#tinmorry-pla-matte-brick-red)
+15. [Ziro PLA (Black)](#ziro-pla-black)
+16. [Ziro PLA (Yellow)](#ziro-pla-yellow)
+17. [Ziro TPU (Black)](#ziro-tpu-black)
+18. [eSun ABS+ (Black)](#esun-abs-black)
+19. [eSun ABS+ (Cold White)](#esun-abs-cold-white)
+20. [eSun ABS+ (Fire Engine Red)](#esun-abs-fire-engine-red)
+21. [eSun ABS+ (Grey)](#esun-abs-grey)
+22. [eSun ABS+ (Light Blue)](#esun-abs-light-blue)
+23. [eSun ABS+ (Peak Green)](#esun-abs-peak-green)
+24. [eSun ABS+ (Purple)](#esun-abs-purple)
 
 ## Amazon Basics PETG (Red)
 
@@ -58,6 +59,14 @@ This filament was originally brought to print the [StealthBurner](https://vorond
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Cost   |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 240         | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/BasicFil%20PETG%20(Clear).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07CTLV4W5) | £19.90 |
+
+## PolyLite PLA Pro (Black)
+
+I received this filament from a giveaway on [one of Nero 3D's live streams](https://www.youtube.com/watch?v=5hN7Y-ngjQY&t=11190s).
+
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                   | Purchased From                                                                         | Cost  |
+| ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | ----- |
+| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PolyLite%20PLA%20Pro%20(Black).ini>)   | [Polymaker](https://us.polymaker.com/products/polylite-pla-pro?variant=39574346334265) | £0.00 |
 
 ## PrimaValue ABS (Dark Grey)
 

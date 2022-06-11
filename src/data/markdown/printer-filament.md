@@ -64,9 +64,9 @@ This filament was originally brought to print the [StealthBurner](https://vorond
 
 I received this filament from a giveaway on [one of Nero 3D's live streams](https://www.youtube.com/watch?v=5hN7Y-ngjQY&t=11190s).
 
-| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                   | Purchased From                                                                         | Cost  |
-| ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | ----- |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PolyLite%20PLA%20Pro%20(Black).ini>)   | [Polymaker](https://us.polymaker.com/products/polylite-pla-pro?variant=39574346334265) | £0.00 |
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                                                         | Cost  |
+| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ----- |
+| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PolyLite%20PLA%20Pro%20(Black).ini>) | [Polymaker](https://us.polymaker.com/products/polylite-pla-pro?variant=39574346334265) | £0.00 |
 
 ## PrimaValue ABS (Dark Grey)
 

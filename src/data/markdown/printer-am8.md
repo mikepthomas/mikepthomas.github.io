@@ -1,7 +1,7 @@
 # Upgrading the frame of my Anet A8
 
 May 28, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated June 7, 2022
+Updated June 11, 2022
 
 The [AM8](https://www.thingiverse.com/thing:2263216) is a direct drop in replacement for the acrylic frame on the Anet A8.
 
@@ -33,12 +33,12 @@ It will be flashed with my [Marlin configuration](https://github.com/mikepthomas
 
 ### Bottom Frame
 
-| Item                                                                              | Quantity | Material                                                                   | Printed | Notes                                                             |
-| --------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ----------------------------------------------------------------- |
-| [Bottom_Corner_Plate](https://www.thingiverse.com/thing:2263216/files)            | 4        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                   |
-| [Bottom_Tee_Plate](https://www.thingiverse.com/thing:2263216/files)               | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                   |
-| [Bottom_Tee_Plate_Chain_Adapter](https://www.thingiverse.com/thing:2472832/files) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [Celphor](https://www.thingiverse.com/Celphor) |
-| [Z_Brace](https://www.thingiverse.com/thing:3115521/files)                        | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [swdave](https://www.thingiverse.com/swdave)   |
+| Item                                                                              | Quantity | Material                                                                   | Printed | Notes                                                               |
+| --------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ------------------------------------------------------------------- |
+| [Bottom_Corner_Plate](https://www.thingiverse.com/thing:2263216/files)            | 4        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                     |
+| [Bottom_Tee_Plate](https://www.thingiverse.com/thing:2263216/files)               | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                     |
+| [Bottom_Tee_Plate_Chain_Adapter](https://www.thingiverse.com/thing:2472832/files) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [Celphor](https://www.thingiverse.com/Celphor)   |
+| [Z_Corner_Bracket](https://www.thingiverse.com/thing:2577774/files)               | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [mariob92](https://www.thingiverse.com/mariob92) |
 
 ### Y Axis
 
@@ -56,6 +56,7 @@ It will be flashed with my [Marlin configuration](https://github.com/mikepthomas
 
 | Item                                                                               | Quantity | Material                                                                   | Printed | Notes                                                                   |
 | ---------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ----------------------------------------------------------------------- |
+| [2040_Corner_Bracket](https://www.thingiverse.com/thing:2577774/files)             | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [mariob92](https://www.thingiverse.com/mariob92)     |
 | [PSU_Mount](https://www.thingiverse.com/thing:2430529/files)                       | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [dziliak](https://www.thingiverse.com/dziliak)       |
 | [Top_Corner_Plate_Left](https://www.thingiverse.com/thing:2855523/files)           | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [penkerton](https://www.thingiverse.com/penkerton)   |
 | [Top_Corner_Plate_Right](https://www.thingiverse.com/thing:2855523/files)          | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [penkerton](https://www.thingiverse.com/penkerton)   |
@@ -77,23 +78,28 @@ It will be flashed with my [Marlin configuration](https://github.com/mikepthomas
 
 ### LCD Mount
 
-| Item                                                              | Quantity | Material                                                                   | Printed | Notes                                                             |
-| ----------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ----------------------------------------------------------------- |
-| [LCD_Base_Left](https://www.thingiverse.com/thing:3116968/files)  | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [bcreigh](https://www.thingiverse.com/bcreigh) |
-| [LCD_Base_Right](https://www.thingiverse.com/thing:3116968/files) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [bcreigh](https://www.thingiverse.com/bcreigh) |
-| [LCD_Cover](https://www.thingiverse.com/thing:3116968/files)      | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [bcreigh](https://www.thingiverse.com/bcreigh) |
+| Item                                                               | Quantity | Material                                                                   | Printed | Notes                                                                                         |
+| ------------------------------------------------------------------ | -------- | -------------------------------------------------------------------------- | :-----: | --------------------------------------------------------------------------------------------- |
+| [LCD_Base_Left](https://www.thingiverse.com/thing:3116968/files)   | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [bcreigh](https://www.thingiverse.com/bcreigh)                             |
+| [LCD_Base_Right](https://www.thingiverse.com/thing:3116968/files)  | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [bcreigh](https://www.thingiverse.com/bcreigh)                             |
+| [LCD_Cover_Back](https://www.thingiverse.com/thing:4943812/files)  | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [eat_sleep_make_repeat](https://www.thingiverse.com/eat_sleep_make_repeat) |
+| [LCD_Cover_Front](https://www.thingiverse.com/thing:4943812/files) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [eat_sleep_make_repeat](https://www.thingiverse.com/eat_sleep_make_repeat) |
+| [LCD_Cover_SD](https://www.thingiverse.com/thing:4943812/files)    | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [eat_sleep_make_repeat](https://www.thingiverse.com/eat_sleep_make_repeat) |
+| [LCD_Cover_USB](https://www.thingiverse.com/thing:4943812/files)   | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [eat_sleep_make_repeat](https://www.thingiverse.com/eat_sleep_make_repeat) |
 
 ### Extras
 
-| Item                                                                  | Quantity | Material                                                                   | Printed | Notes                                                                         |
-| --------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ----------------------------------------------------------------------------- |
-| [2040_End_Cap](https://www.thingiverse.com/thing:2396127/files)       | 3        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [Reediculous](https://www.thingiverse.com/Reediculous)     |
-| [LED_Strip_Clip](https://www.thingiverse.com/thing:2797157/files)     | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [AUREL_14](https://www.thingiverse.com/AUREL_14)           |
-| [LED_Strip_Holder](https://www.thingiverse.com/thing:2797157/files)   | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [AUREL_14](https://www.thingiverse.com/AUREL_14)           |
-| [Power_Supply_Cover](https://www.thingiverse.com/thing:2744900/files) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [thorinair](https://www.thingiverse.com/thorinair)         |
-| [TL_Smoother_mount](https://www.thingiverse.com/thing:3194074/files)  | 5        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [Doublehelix88](https://www.thingiverse.com/Doublehelix88) |
-| [Tool_Caddy](https://www.thingiverse.com/thing:2441957/files)         | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [kayOs](https://www.thingiverse.com/kayOs)                 |
-| [Tool_Holder](https://www.thingiverse.com/thing:2764362/files)        | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [zimonkaizoku](https://www.thingiverse.com/zimonkaizoku)   |
+| Item                                                                            | Quantity | Material                                                                   | Printed | Notes                                                                         |
+| ------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ----------------------------------------------------------------------------- |
+| [2040_End_Cap](https://www.thingiverse.com/thing:2396127/files)                 | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [Reediculous](https://www.thingiverse.com/Reediculous)     |
+| [front_right_corner_with_logo](https://www.thingiverse.com/thing:2449095/files) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [jaseatwey](https://www.thingiverse.com/jaseatwey)         |
+| [LED_Strip_Clip](https://www.thingiverse.com/thing:2797157/files)               | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [AUREL_14](https://www.thingiverse.com/AUREL_14)           |
+| [LED_Strip_Holder](https://www.thingiverse.com/thing:2797157/files)             | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [AUREL_14](https://www.thingiverse.com/AUREL_14)           |
+| [Power_Supply_Cover](https://www.thingiverse.com/thing:2744900/files)           | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [thorinair](https://www.thingiverse.com/thorinair)         |
+| [t_slot_cover](https://www.thingiverse.com/thing:2449095/files)                 | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [jaseatwey](https://www.thingiverse.com/jaseatwey)         |
+| [TL_Smoother_mount](https://www.thingiverse.com/thing:3194074/files)            | 5        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [Doublehelix88](https://www.thingiverse.com/Doublehelix88) |
+| [Tool_Caddy](https://www.thingiverse.com/thing:2441957/files)                   | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [kayOs](https://www.thingiverse.com/kayOs)                 |
+| [Tool_Holder](https://www.thingiverse.com/thing:2764362/files)                  | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [zimonkaizoku](https://www.thingiverse.com/zimonkaizoku)   |
 
 ## Assembly
 

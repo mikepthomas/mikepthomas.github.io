@@ -1,7 +1,7 @@
 # 3D Printer Filament list
 
 January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 16, 2022
+Updated June 20, 2022
 
 This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
@@ -14,25 +14,31 @@ This is a list of 3D printer filament I have purchased over the years and how I 
 1. [Amazon Basics PETG (Red)](#amazon-basics-petg-red)
 2. [Amazon Basics PLA (Blue)](#amazon-basics-pla-blue)
 3. [BasicFil PETG (Clear)](#basicfil-petg-clear)
-4. [PrimaValue ABS (Dark Grey)](#primavalue-abs-dark-grey)
-5. [PrimaValue PLA (Black)](#primavalue-pla-black)
-6. [PrimaValue PLA (Blue)](#primavalue-pla-Blue)
-7. [PrimaValue PLA (Dark Grey)](#primavalue-pla-dark-grey)
-8. [PrimaValue PLA (Red)](#primavalue-pla-red)
-9. [Tinmorry PETG (Black)](#tinmorry-petg-black)
-10. [Tinmorry PETG (White)](#tinmorry-petg-white)
-11. [Tinmorry PLA (Black)](#tinmorry-pla-black)
-12. [Tinmorry PLA (Grey)](#tinmorry-pla-grey)
-13. [Tinmorry PLA (Matte Brick Red)](#tinmorry-pla-matte-brick-red)
-14. [Ziro PLA (Black)](#ziro-pla-black)
-15. [Ziro PLA (Yellow)](#ziro-pla-yellow)
-16. [Ziro TPU (Black)](#ziro-tpu-black)
-17. [eSun ABS+ (Black)](#esun-abs-black)
-18. [eSun ABS+ (Cold White)](#esun-abs-cold-white)
-19. [eSun ABS+ (Fire Engine Red)](#esun-abs-fire-engine-red)
-20. [eSun ABS+ (Light Blue)](#esun-abs-light-blue)
-21. [eSun ABS+ (Peak Green)](#esun-abs-peak-green)
-22. [eSun ABS+ (Purple)](#esun-abs-purple)
+4. [PolyLite PLA Pro (Black)](#polylite-pla-pro-black)
+5. [PrimaValue ABS (Dark Grey)](#primavalue-abs-dark-grey)
+6. [PrimaValue PLA (Black)](#primavalue-pla-black)
+7. [PrimaValue PLA (Blue)](#primavalue-pla-Blue)
+8. [PrimaValue PLA (Dark Grey)](#primavalue-pla-dark-grey)
+9. [PrimaValue PLA (Red)](#primavalue-pla-red)
+10. [Tinmorry PETG (Black)](#tinmorry-petg-black)
+11. [Tinmorry PETG (White)](#tinmorry-petg-white)
+12. [Tinmorry PLA (Black)](#tinmorry-pla-black)
+13. [Tinmorry PLA (Grey)](#tinmorry-pla-grey)
+14. [Tinmorry PLA (Matte Brick Red)](#tinmorry-pla-matte-brick-red)
+15. [Ziro PLA (Black)](#ziro-pla-black)
+16. [Ziro PLA (Yellow)](#ziro-pla-yellow)
+17. [Ziro TPU (Black)](#ziro-tpu-black)
+18. [eSun ABS+ (Black)](#esun-abs-black)
+19. [eSun ABS+ (Brown)](#esun-abs-brown)
+20. [eSun ABS+ (Cold White)](#esun-abs-cold-white)
+21. [eSun ABS+ (Fire Engine Red)](#esun-abs-fire-engine-red)
+22. [eSun ABS+ (Grey)](#esun-abs-grey)
+23. [eSun ABS+ (Light Blue)](#esun-abs-light-blue)
+24. [eSun ABS+ (Magenta)](#esun-abs-magenta)
+25. [eSun ABS+ (Peak Green)](#esun-abs-peak-green)
+26. [eSun ABS+ (Pine Green)](#esun-abs-pine-green)
+27. [eSun ABS+ (Pink)](#esun-abs-pink)
+28. [eSun ABS+ (Purple)](#esun-abs-purple)
 
 ## Amazon Basics PETG (Red)
 
@@ -57,6 +63,14 @@ This filament was originally brought to print the [StealthBurner](https://vorond
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Cost   |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 240         | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/BasicFil%20PETG%20(Clear).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07CTLV4W5) | £19.90 |
+
+## PolyLite PLA Pro (Black)
+
+I received this filament from a giveaway on [one of Nero 3D's live streams](https://www.youtube.com/watch?v=5hN7Y-ngjQY&t=11190s).
+
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                                                         | Cost  |
+| ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ----- |
+| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PolyLite%20PLA%20Pro%20(Black).ini>) | [Polymaker](https://us.polymaker.com/products/polylite-pla-pro?variant=39574346334265) | £0.00 |
 
 ## PrimaValue ABS (Dark Grey)
 
@@ -170,7 +184,17 @@ This filament was originally brought to print the main parts for my [Voron 1.8](
 | ----------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ5MC78) | £18.99 |
 
+## eSun ABS+ (Brown)
+
+This filament was originally brought to print the interior parts for a [3D Sets Landy](3d-sets-landy.md).
+
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                          | Purchased From                                                                                   | Cost   |
+| ----------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------ |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Brown).ini>) | [Wedge3D](https://wedge3d.co.uk/productarchivepage/esun-abs-high-strength-low-odour-1kg-1-75mm/) | £16.20 |
+
 ## eSun ABS+ (Cold White)
+
+This filament was originally brought to print the roof for a [3D Sets Landy](3d-sets-landy.md).
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
@@ -184,17 +208,45 @@ This filament was originally brought to print the accent parts for my [Voron 1.8
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Fire%20Engine%20Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07RT35GSF) | £19.99 |
 
+## eSun ABS+ (Grey)
+
+This filament was originally brought to print the wheels for a [3D Sets Landy](3d-sets-landy.md).
+
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                         | Purchased From                                           | Cost   |
+| ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQHW1NW) | £16.99 |
+
 ## eSun ABS+ (Light Blue)
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Light%20Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ1VKXX) | £18.99 |
 
+## eSun ABS+ (Magenta)
+
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                                                                   | Cost   |
+| ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------ |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Magenta).ini>) | [Wedge3D](https://wedge3d.co.uk/productarchivepage/esun-abs-high-strength-low-odour-1kg-1-75mm/) | £16.20 |
+
 ## eSun ABS+ (Peak Green)
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
 | 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Peak%20Green).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQCQ17Y) | £16.99 |
+
+## eSun ABS+ (Pine Green)
+
+This filament was originally brought to print the body panels for a [3D Sets Landy](3d-sets-landy.md).
+
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                               | Purchased From                                                                                   | Cost   |
+| ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------ |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Pine Green).ini>) | [Wedge3D](https://wedge3d.co.uk/productarchivepage/esun-abs-high-strength-low-odour-1kg-1-75mm/) | £16.20 |
+
+## eSun ABS+ (Pink)
+
+| Hotend Temp | Bed Temp | Slicer Profile                                                                                                                         | Purchased From                                                                                   | Cost   |
+| ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------ |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Pink).ini>) | [Wedge3D](https://wedge3d.co.uk/productarchivepage/esun-abs-high-strength-low-odour-1kg-1-75mm/) | £16.20 |
 
 ## eSun ABS+ (Purple)
 

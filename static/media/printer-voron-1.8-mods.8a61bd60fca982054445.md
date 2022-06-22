@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 23, 2022
+Updated June 22, 2022
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -57,7 +57,7 @@ The stock exhaust filter has the bowden coupler coming out of the back. As I wil
 | Fume Extractor Carbon Filter Element | 1        |
 | M3 Threaded Insert                   | 8        |
 | M3x8 BHCS                            | 2        |
-| M3x30 SHCS                           | 4        |
+| M3x25 SHCS                           | 4        |
 
 ### Clamping Door Hinges
 
@@ -368,6 +368,22 @@ Recommended upgrade to replace the PL-08N Inductive Probe which can be a bit unr
 | [Mount_magnet_holder](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Printers/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_magnet_holder.stl)                   | 1        |          |      |        |      |   :x:   | This is a Voron Users Mod by JosAr |
 | [Mount_magnet_pressfit_helper](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Printers/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_magnet_pressfit_helper.stl) | 1        |          |      |        |      |   :x:   | This is a Voron Users Mod by JosAr |
 | [Mount_pressfit_holder](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Printers/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_pressfit_holder.stl)               | 1        |          |      |        |      |   :x:   | This is a Voron Users Mod by JosAr |
+
+### VEFACH
+
+Voron Exhaust Filter Activated Coal + Hepa that fits into stock exhaust filter. I will only be printing the Hepa filter to start off with.
+
+| Item                                                                                                                                | Quantity | Material                                                | Size | Weight | Cost | Printed | Notes                                    |
+| ----------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ---- | ------ | ---- | :-----: | ---------------------------------------- |
+| [hepa](<https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/KevinAkaSam/VEFACH/STL_CAD/V2.4(R2)_Trident/1_hepa.stl>) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   | This is a Voron Users Mod by KevinAkaSam |
+
+#### :negative_squared_cross_mark: Assembly
+
+##### Parts Used
+
+| Item                  | Quantity |
+| --------------------- | -------- |
+| 40mmx80mm Hepa filter | 1        |
 
 ### Wago Mounts
 

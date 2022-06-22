@@ -186,13 +186,15 @@ This filament was originally brought to print the main parts for my [Voron 1.8](
 
 ## eSun ABS+ (Brown)
 
-This filament was originally brought to print the interior parts for a [3D Sets Landy](https://3dsets.com/product/model-3-landy-4x4-pickup/).
+This filament was originally brought to print the interior parts for a [3D Sets Landy](3d-sets-landy.md).
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                          | Purchased From                                                                                   | Cost   |
 | ----------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------ |
 | 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Brown).ini>) | [Wedge3D](https://wedge3d.co.uk/productarchivepage/esun-abs-high-strength-low-odour-1kg-1-75mm/) | £16.20 |
 
 ## eSun ABS+ (Cold White)
+
+This filament was originally brought to print the roof for a [3D Sets Landy](3d-sets-landy.md).
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Cost   |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
@@ -207,6 +209,8 @@ This filament was originally brought to print the accent parts for my [Voron 1.8
 | 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Fire%20Engine%20Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07RT35GSF) | £19.99 |
 
 ## eSun ABS+ (Grey)
+
+This filament was originally brought to print the wheels for a [3D Sets Landy](3d-sets-landy.md).
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                         | Purchased From                                           | Cost   |
 | ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------ |
@@ -232,7 +236,7 @@ This filament was originally brought to print the accent parts for my [Voron 1.8
 
 ## eSun ABS+ (Pine Green)
 
-This filament was originally brought to print the body panels for a [3D Sets Landy](https://3dsets.com/product/model-3-landy-4x4-pickup/).
+This filament was originally brought to print the body panels for a [3D Sets Landy](3d-sets-landy.md).
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                               | Purchased From                                                                                   | Cost   |
 | ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------ |

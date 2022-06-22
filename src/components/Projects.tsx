@@ -118,6 +118,11 @@ const Projects = (props: Props) => {
                       </Link>
                     </li>
                     <li>
+                      <Link to="/projects/printer-am8">
+                        Metal Frame Upgrade for Anet A8
+                      </Link>
+                    </li>
+                    <li>
                       <Link to="/projects/printer-extruders-and-toolheads">
                         Extruders &amp; Toolheads
                       </Link>
@@ -133,29 +138,14 @@ const Projects = (props: Props) => {
                       </Link>
                     </li>
                     <li>
-                      Future Upgrades
-                      <ul>
-                        <li>
-                          <Link to="/projects/printer-nevermore-filter">
-                            Nevermore Micro V5 Duo
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/projects/printer-enraged-rabbit-carrot-feeder">
-                            Enraged Rabbit Carrot Feeder
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/projects/printer-enraged-rabbit-carrot-patch">
-                            Enraged Rabbit Carrot Patch
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/projects/printer-am8">
-                            Metal Frame upgrade for Anet A8
-                          </Link>
-                        </li>
-                      </ul>
+                      <Link to="/projects/printer-enraged-rabbit-carrot-feeder">
+                        Enraged Rabbit Carrot Feeder
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/projects/printer-enraged-rabbit-carrot-patch">
+                        Enraged Rabbit Carrot Patch
+                      </Link>
                     </li>
                     <li>
                       Abandoned Projects
@@ -165,9 +155,17 @@ const Projects = (props: Props) => {
                             Hypercube CoreXY Upgrade
                           </Link>
                         </li>
+                        <li>
+                          <Link to="/projects/printer-nevermore-filter">
+                            Nevermore Micro V5 Duo
+                          </Link>
+                        </li>
                       </ul>
                     </li>
                   </ul>
+                </li>
+                <li>
+                  <Link to="/projects/3d-sets-landy">3D Sets Landy</Link>
                 </li>
                 <li>
                   <Link to="/projects/openrc-f1">OpenRC F1</Link>

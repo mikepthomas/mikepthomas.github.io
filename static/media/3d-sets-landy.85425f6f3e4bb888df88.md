@@ -1,6 +1,7 @@
 # 3D Sets Landy 4x4 Pickup
 
-June 22, 2022 by [Mike Thomas](https://github.com/mikepthomas)
+June 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
+Updated June 30, 2022
 
 Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy](https://3dsets.com/product/model-3-landy-4x4-pickup/)!
 
@@ -37,25 +38,28 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | 2S LiPo Battery        | 1        | 1        |                                |
 | 3530 Brushless Motor   | 1        |          | Only for BeltDrive 4x4 gearbox |
 | 540 DC motor (27 T)    | 1        | 1        | Only for Geared gearbox        |
-| Steering servo         | 1        | 1        |                                |
+| Steering servo         | 1        |          | 1 on order                     |
 | Speed Controller (ESC) | 1        | 1        |                                |
 
 ### Motion
 
-| Item                                     | Quantity | Received | Notes                          |
-| ---------------------------------------- | -------- | -------- | ------------------------------ |
-| Ball Bearing 10x15x4 mm - 6700RS         | 38       |          |                                |
-| HTD 144-3M-06 Timing belts               | 4        |          | Only for BeltDrive 4x4 gearbox |
-| Rubber tires - OD: 90-100mm, ID: 46-48mm | 5        |          | 1 extra for spare tyre         |
-| Shock/Coil springs - 75-90mm             | 4        | 4        |                                |
+| Item                                     | Quantity | Received | Notes                              |
+| ---------------------------------------- | -------- | -------- | ---------------------------------- |
+| Ball Bearing 10x15x4 mm - 6700RS         | 38       |          | 100 on order                       |
+| HTD 144-3M-06 Timing belts               | 4        |          | Only for BeltDrive 4x4 gearbox     |
+| Rubber tires - OD: 90-100mm, ID: 46-48mm | 5        |          | 5 on order. 1 extra for spare tyre |
+| Shock/Coil springs - 75-90mm             | 4        |          | 4 on order                         |
 
 ### Misc
 
-| Item                 | Quantity | Received | Notes |
-| -------------------- | -------- | -------- | ----- |
-| Clear Binding Covers | 1        | 1        |       |
-| Grease               | 1        | 1        |       |
-| Thread Locker        | 1        | 1        |       |
+| Item                  | Quantity | Received | Notes      |
+| --------------------- | -------- | -------- | ---------- |
+| 3mm Hardboard 600x320 | 2        |          | 2 on order |
+| 3mm Hardboard 600x270 | 2        |          | 2 on order |
+| 3mm Hardboard 284x320 | 2        |          | 2 on order |
+| Clear Binding Covers  | 1        | 1        |            |
+| Grease                | 1        | 1        |            |
+| Thread Locker         | 1        | 1        |            |
 
 ### Fasteners
 
@@ -68,9 +72,9 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | M2x14 SHCS     | 2        |          | 50 on order  |
 | M2x16 SHCS     | 3        |          | 50 on order  |
 | M3x6 BHCS      | 3        | 39       |              |
-| M3x8 BHCS      | 15       | 91       |              |
+| M3x8 BHCS      | 19       | 91       |              |
 | M3x10 BHCS     | 58       |          | 100 on order |
-| M3x12 BHCS     | 30       | 45       |              |
+| M3x12 BHCS     | 88       | 45       | 100 on order |
 | M3x16 BHCS     | 43       | 34       | 100 on order |
 | M3x6 SHCS      | 2        | 22       |              |
 | M3x8 SHCS      | 20       | 104      |              |
@@ -138,7 +142,7 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 
 ### Gearbox
 
-I am not sure which gearbox I am going to use. I may start with the geared gearbox first as I already have the electronics for this and then order the parts and build the belted gearbox at a later stage.
+I am not sure which gearbox I am going to use. I may start with the geared gearbox first as I can reuse the electronics from my [OpenRC F1 car](openrc-f1.md) and then order the parts and build the belted gearbox at a later stage.
 
 ### Arms
 

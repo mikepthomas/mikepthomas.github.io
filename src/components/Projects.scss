@@ -33,6 +33,12 @@
       color: $danger;
     }
 
+    table td {
+      .img-thumbnail {
+        padding: 0;
+      }
+    }
+
     .blockquote {
       border-left: $spacer * 0.25 solid $gray-200;
       padding-left: $spacer;

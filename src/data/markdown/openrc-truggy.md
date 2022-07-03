@@ -108,7 +108,7 @@ Assembly of the car is split into the following parts:
 | Item                                                                   | Quantity | Material                                                                   |
 | ---------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- |
 | 100mm Dog Bone                                                         | 2        | HSP Dog Bone 12007                                                         |
-| Bearing 10x5x4                                                                | 4        | HSP Bearing 02139                                         |
+| Bearing 10x5x4                                                         | 4        | HSP Bearing 02139                                                          |
 | M3x10 BHCS                                                             | 2        | Stainless Steel                                                            |
 | M3x14 BHCS                                                             | 2        | Stainless Steel                                                            |
 | M3x14 FHCS                                                             | 2        | Stainless Steel                                                            |

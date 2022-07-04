@@ -75,6 +75,8 @@ Assembly of the car is split into the following parts:
 | Pin 3x32mm                                                             | 2        | Cut from a 3mm x 300mm rod                                                 |
 | Pin 3x56mm                                                             | 2        | Cut from a 3mm x 300mm rod                                                 |
 | Shock Absorber                                                         | 2        | HSP Aluminium Shock Absorber 06002                                         |
+| [Shock Spacer](https://www.thingiverse.com/thing:3939239/files)        | 2        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
+| [Shock Tower](https://www.thingiverse.com/thing:3939239/files)         | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
 | [Turnbuckle](https://www.thingiverse.com/thing:3939239/files)          | 2        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |
 | [Wishbone Front](https://www.thingiverse.com/thing:3939239/files)      | 2        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |
 | [Wishbone Pin Holder](https://www.thingiverse.com/thing:3939239/files) | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
@@ -119,6 +121,8 @@ Assembly of the car is split into the following parts:
 | Pin 3x56mm                                                             | 2        | Cut from a 3mm x 300mm rod                                                 |
 | [Rear C-Hub](https://www.thingiverse.com/thing:3939239/files)          | 2        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |
 | Shock Absorber                                                         | 2        | HSP Aluminium Shock Absorber 06002                                         |
+| [Shock Spacer](https://www.thingiverse.com/thing:3939239/files)        | 2        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
+| [Shock Tower](https://www.thingiverse.com/thing:3939239/files)         | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
 | [Turnbuckle](https://www.thingiverse.com/thing:3939239/files)          | 2        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |
 | [Wishbone Front](https://www.thingiverse.com/thing:3939239/files)      | 2        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |
 | [Wishbone Pin Holder](https://www.thingiverse.com/thing:3939239/files) | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
@@ -129,6 +133,32 @@ Assembly of the car is split into the following parts:
 
 > Image &copy; 2013 [Daniel Norée](https://danielnoree.com/)
 
+| Item                                                                   | Quantity | Material                                                                   |
+| ---------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- |
+| [Body Holder](https://www.thingiverse.com/thing:3939239/files)         | 2        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
+| [Center Support](https://www.thingiverse.com/thing:3939239/files)      | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
+| [Chassis Plate Front](https://www.thingiverse.com/thing:3939239/files) | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |
+| [Chassis Plate Rear](https://www.thingiverse.com/thing:3939239/files)  | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |
+| [Deck Connector](https://www.thingiverse.com/thing:3939239/files)      | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
+| [Gear Guard Left](https://www.thingiverse.com/thing:3939239/files)     | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
+| [Gear Guard Right](https://www.thingiverse.com/thing:3939239/files)    | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
+| [Left Shield](https://www.thingiverse.com/thing:3939239/files)         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |
+| [Motor Plate Spacer](https://www.thingiverse.com/thing:3939239/files)  | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
+| [Right Shield](https://www.thingiverse.com/thing:3939239/files)        | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |
+| [Servo Arm](https://www.thingiverse.com/thing:728246/files)            | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
+| [Servo Arm](https://www.thingiverse.com/thing:4158041/files)           | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
+| [Servo Holder](https://www.thingiverse.com/thing:3939239/files)        | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black)                     |
+| [Upper Deck Front](https://www.thingiverse.com/thing:3939239/files)    | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |
+| [Upper Deck Rear](https://www.thingiverse.com/thing:3939239/files)     | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |
+
 ### Body
+
+| Item                                                                  | Quantity | Material                                               |
+| --------------------------------------------------------------------- | -------- | ------------------------------------------------------ |
+| [Battery Holder](https://www.thingiverse.com/thing:319090/files)      | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black) |
+| [Front Bumper Damper](https://www.thingiverse.com/thing:377994/files) | 1        | [Ziro TPU (Black)](printer-filament.md#ziro-tpu-black) |
+| [Front Bumper Plate](https://www.thingiverse.com/thing:377994/files)  | 1        | [Ziro TPU (Black)](printer-filament.md#ziro-tpu-black) |
+| [Wing](https://www.thingiverse.com/thing:1254930/files)               | 1        | [Ziro TPU (Black)](printer-filament.md#ziro-tpu-black) |
+| [Wing Holder](https://www.thingiverse.com/thing:1364643/files)        | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black) |
 
 ![OpenRC Truggy Complete](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-truggy/truggy-complete.jpg)

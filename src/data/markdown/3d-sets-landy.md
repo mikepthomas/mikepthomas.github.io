@@ -31,7 +31,9 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 
 ## Sourcing Parts
 
-### Electronics
+### Model 3: Landy 4×4 Pickup
+
+#### Electronics
 
 | Item                   | Quantity | Received | Notes                          |
 | ---------------------- | -------- | -------- | ------------------------------ |
@@ -41,7 +43,7 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | Steering servo         | 1        |          | 1 on order                     |
 | Speed Controller (ESC) | 1        | 1        |                                |
 
-### Motion
+#### Motion
 
 | Item                                     | Quantity | Received | Notes                              |
 | ---------------------------------------- | -------- | -------- | ---------------------------------- |
@@ -50,18 +52,15 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | Rubber tires - OD: 90-100mm, ID: 46-48mm | 5        |          | 5 on order. 1 extra for spare tyre |
 | Shock/Coil springs - 75-90mm             | 4        |          | 4 on order                         |
 
-### Misc
+#### Misc
 
-| Item                  | Quantity | Received | Notes      |
-| --------------------- | -------- | -------- | ---------- |
-| 3mm Hardboard 600x320 | 2        |          | 2 on order |
-| 3mm Hardboard 600x270 | 2        |          | 2 on order |
-| 3mm Hardboard 284x320 | 2        |          | 2 on order |
-| Clear Binding Covers  | 1        | 1        |            |
-| Grease                | 1        | 1        |            |
-| Thread Locker         | 1        | 1        |            |
+| Item                 | Quantity | Received | Notes |
+| -------------------- | -------- | -------- | ----- |
+| Clear Binding Covers | 1        | 1        |       |
+| Grease               | 1        | 1        |       |
+| Thread Locker        | 1        | 1        |       |
 
-### Fasteners
+#### Fasteners
 
 | Item           | Quantity | Received | Notes        |
 | -------------- | -------- | -------- | ------------ |
@@ -74,7 +73,7 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | M3x6 BHCS      | 3        | 39       |              |
 | M3x8 BHCS      | 19       | 91       |              |
 | M3x10 BHCS     | 58       |          | 100 on order |
-| M3x12 BHCS     | 88       | 45       | 100 on order |
+| M3x12 BHCS     | 30       | 45       | 100 on order |
 | M3x16 BHCS     | 43       | 34       | 100 on order |
 | M3x6 SHCS      | 2        | 22       |              |
 | M3x8 SHCS      | 20       | 104      |              |
@@ -83,6 +82,52 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | M3x6 Set Screw | 2        |          | 50 on order  |
 | M3 nuts        | 42       | 42       |              |
 | M3 locknuts    | 22       | 22       |              |
+
+### Car Hauler
+
+#### Motion
+
+| Item                                     | Quantity | Received | Notes                              |
+| ---------------------------------------- | -------- | -------- | ---------------------------------- |
+| Ball Bearing 10x15x4 mm - 6700RS         | 8        |          | 100 on order                       |
+| Rubber tires - OD: 90-100mm, ID: 46-48mm | 5        |          | 5 on order. 1 extra for spare tyre |
+| Shock/Coil springs - 55-75mm             | 4        |          |                                    |
+
+#### Fasteners
+
+| Item       | Quantity | Received | Notes                       |
+| ---------- | -------- | -------- | --------------------------- |
+| M2x6 SHCS  | 80       |          | 150 on order                |
+| M2x8 SHCS  | 4        | 50       |                             |
+| M2x10 SHCS | 5        |          | 100 on order                |
+| M2x12 SHCS | 24       |          | 50 on order                 |
+| M3x6 BHCS  | 4        | 39       |                             |
+| M3x8 BHCS  | 16       | 91       |                             |
+| M3x10 BHCS | 40       |          | 100 on order                |
+| M3x12 BHCS | 18       | 45       | 100 on order                |
+| M3x16 BHCS | 26       | 34       | 100 on order                |
+| M3x20 BHCS | 1        |          | Can replace with SHCS       |
+| M3x6 SHCS  | 4        | 10       |                             |
+| M3 nuts    | 13       | 42       |                             |
+| M5x12 SHCS | 1        |          | May replace with M5x16 SHCS |
+
+### Storage System
+
+#### Misc
+
+| Item                                         | Quantity | Received | Notes                                        |
+| -------------------------------------------- | -------- | -------- | -------------------------------------------- |
+| 3mm Hardboard 600x320                        | 2        |          | 2 on order                                   |
+| 3mm Hardboard 600x270                        | 2        |          | 2 on order                                   |
+| 3mm Hardboard 284x320                        | 2        |          | 2 on order                                   |
+| Textile strap 40-45 mm wide, 125-130 cm long | 1        | 2        | Have 50mm wide, will modify the mount to fit |
+
+#### Fasteners
+
+| Item       | Quantity | Received | Notes        |
+| ---------- | -------- | -------- | ------------ |
+| M3x8 BHCS  | 4        | 91       |              |
+| M3x12 BHCS | 58       | 45       | 100 on order |
 
 ## Printing Parts
 

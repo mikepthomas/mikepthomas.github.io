@@ -1,7 +1,7 @@
 # 3D Sets Landy 4x4 Pickup
 
 June 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated June 30, 2022
+Updated July 5, 2022
 
 Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy](https://3dsets.com/product/model-3-landy-4x4-pickup/)!
 

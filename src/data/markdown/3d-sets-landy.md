@@ -1,7 +1,7 @@
 # 3D Sets Landy 4x4 Pickup
 
 June 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 7, 2022
+Updated July 13, 2022
 
 Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy](https://3dsets.com/product/model-3-landy-4x4-pickup/)!
 
@@ -41,17 +41,17 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | 2S LiPo Battery        | 1        | 1        |                                |
 | 3530 Brushless Motor   | 1        |          | Only for BeltDrive 4x4 gearbox |
 | 540 DC motor (27 T)    | 1        | 1        | Only for Geared gearbox        |
-| Steering servo         | 1        |          | 1 on order                     |
+| Steering servo         | 1        | 1        |                                |
 | Speed Controller (ESC) | 1        | 1        |                                |
 
 #### Motion
 
-| Item                                     | Quantity | Received | Notes                              |
-| ---------------------------------------- | -------- | -------- | ---------------------------------- |
-| Ball Bearing 10x15x4 mm - 6700RS         | 38       |          | 100 on order                       |
-| HTD 144-3M-06 Timing belts               | 4        |          | Only for BeltDrive 4x4 gearbox     |
-| Rubber tires - OD: 90-100mm, ID: 46-48mm | 5        |          | 5 on order. 1 extra for spare tyre |
-| Shock/Coil springs - 75-90mm             | 4        |          | 4 on order                         |
+| Item                                     | Quantity | Received | Notes                          |
+| ---------------------------------------- | -------- | -------- | ------------------------------ |
+| Ball Bearing 10x15x4 mm - 6700RS         | 38       |          | 100 on order                   |
+| HTD 144-3M-06 Timing belts               | 4        |          | Only for BeltDrive 4x4 gearbox |
+| Rubber tires - OD: 90-100mm, ID: 46-48mm | 5        | 5        | 1 extra for spare tyre         |
+| Shock/Coil springs - 75-90mm             | 4        |          | 4 on order                     |
 
 #### Misc
 
@@ -63,26 +63,26 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 
 #### Fasteners
 
-| Item           | Quantity | Received | Notes        |
-| -------------- | -------- | -------- | ------------ |
-| M2x6 SHCS      | 113      | 150      | 50 on order  |
-| M2x8 SHCS      | 2        | 50       |              |
-| M2x10 SHCS     | 45       | 100      |              |
-| M2x12 SHCS     | 6        | 50       |              |
-| M2x14 SHCS     | 2        | 50       |              |
-| M2x16 SHCS     | 3        | 50       |              |
-| M3x6 BHCS      | 3        | 39       |              |
-| M3x8 BHCS      | 19       | 91       |              |
-| M3x10 BHCS     | 58       | 100      |              |
-| M3x12 BHCS     | 30       | 45       | 100 on order |
-| M3x16 BHCS     | 43       | 135      |              |
-| M3x6 SHCS      | 2        | 22       |              |
-| M3x8 SHCS      | 20       | 104      |              |
-| M3x20 SHCS     | 11       | 20       |              |
-| M3x25 SHCS     | 10       | 18       |              |
-| M3x6 Set Screw | 2        | 52       |              |
-| M3 nuts        | 42       | 42       |              |
-| M3 locknuts    | 22       | 22       |              |
+| Item           | Quantity | Received | Notes       |
+| -------------- | -------- | -------- | ----------- |
+| M2x6 SHCS      | 113      | 150      | 50 on order |
+| M2x8 SHCS      | 2        | 50       |             |
+| M2x10 SHCS     | 45       | 100      |             |
+| M2x12 SHCS     | 6        | 50       |             |
+| M2x14 SHCS     | 2        | 50       |             |
+| M2x16 SHCS     | 3        | 50       |             |
+| M3x6 BHCS      | 3        | 39       |             |
+| M3x8 BHCS      | 19       | 91       |             |
+| M3x10 BHCS     | 58       | 100      |             |
+| M3x12 BHCS     | 30       | 147      |             |
+| M3x16 BHCS     | 43       | 135      |             |
+| M3x6 SHCS      | 2        | 22       |             |
+| M3x8 SHCS      | 20       | 104      |             |
+| M3x20 SHCS     | 11       | 20       |             |
+| M3x25 SHCS     | 10       | 18       |             |
+| M3x6 Set Screw | 2        | 52       |             |
+| M3 nuts        | 42       | 42       |             |
+| M3 locknuts    | 22       | 22       |             |
 
 ### Car Hauler
 
@@ -96,21 +96,21 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 
 #### Fasteners
 
-| Item       | Quantity | Received | Notes        |
-| ---------- | -------- | -------- | ------------ |
-| M2x6 SHCS  | 80       | 150      | 50 on order  |
-| M2x8 SHCS  | 4        | 50       |              |
-| M2x10 SHCS | 5        | 100      |              |
-| M2x12 SHCS | 24       | 50       |              |
-| M3x6 BHCS  | 4        | 39       |              |
-| M3x8 BHCS  | 16       | 91       |              |
-| M3x10 BHCS | 40       | 100      |              |
-| M3x12 BHCS | 18       | 45       | 100 on order |
-| M3x16 BHCS | 26       | 135      |              |
-| M3x20 BHCS | 1        |          | 25 on order  |
-| M3x6 SHCS  | 4        | 10       |              |
-| M3 nuts    | 13       | 42       |              |
-| M5x12 SHCS | 1        |          | 10 on order  |
+| Item       | Quantity | Received | Notes       |
+| ---------- | -------- | -------- | ----------- |
+| M2x6 SHCS  | 80       | 150      | 50 on order |
+| M2x8 SHCS  | 4        | 50       |             |
+| M2x10 SHCS | 5        | 100      |             |
+| M2x12 SHCS | 24       | 50       |             |
+| M3x6 BHCS  | 4        | 39       |             |
+| M3x8 BHCS  | 16       | 91       |             |
+| M3x10 BHCS | 40       | 100      |             |
+| M3x12 BHCS | 18       | 147      |             |
+| M3x16 BHCS | 26       | 135      |             |
+| M3x20 BHCS | 1        |          | 25 on order |
+| M3x6 SHCS  | 4        | 10       |             |
+| M3 nuts    | 13       | 42       |             |
+| M5x12 SHCS | 1        |          | 10 on order |
 
 ### Storage System
 
@@ -125,10 +125,10 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 
 #### Fasteners
 
-| Item       | Quantity | Received | Notes        |
-| ---------- | -------- | -------- | ------------ |
-| M3x8 BHCS  | 4        | 91       |              |
-| M3x12 BHCS | 58       | 45       | 100 on order |
+| Item       | Quantity | Received | Notes |
+| ---------- | -------- | -------- | ----- |
+| M3x8 BHCS  | 4        | 91       |       |
+| M3x12 BHCS | 58       | 147      |       |
 
 ## Printing Parts
 
@@ -344,6 +344,5 @@ There is a choice of 2 different wheel styles.
 | Corner top right 3            | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
 | Side Handle                   | 2        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
 | Tyre Support                  | 4        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-
 
 **_NOTE:_** I have [modified the 3D Sets Side Handle](https://github.com/mikepthomas/3dprinting/blob/main/Designs/3D%20Sets%20Storage%20System%20Handle/3mm%20Side%20Handle%202pcs.stl) to accept a wider strap as I already have a 50mm strap that is wider than the one in the BOM. Shared with permission.

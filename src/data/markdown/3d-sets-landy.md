@@ -1,7 +1,7 @@
 # 3D Sets Landy 4x4 Pickup
 
 June 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 13, 2022
+Updated July 21, 2022
 
 Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy](https://3dsets.com/product/model-3-landy-4x4-pickup/)!
 
@@ -48,7 +48,7 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 
 | Item                                     | Quantity | Received | Notes                          |
 | ---------------------------------------- | -------- | -------- | ------------------------------ |
-| Ball Bearing 10x15x4 mm - 6700RS         | 38       |          | 100 on order                   |
+| Ball Bearing 10x15x4 mm - 6700RS         | 38       | 100      |                                |
 | HTD 144-3M-06 Timing belts               | 4        |          | Only for BeltDrive 4x4 gearbox |
 | Rubber tires - OD: 90-100mm, ID: 46-48mm | 5        | 5        | 1 extra for spare tyre         |
 | Shock/Coil springs - 75-90mm             | 4        |          | 4 on order                     |
@@ -88,11 +88,11 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 
 #### Motion
 
-| Item                                     | Quantity | Received | Notes        |
-| ---------------------------------------- | -------- | -------- | ------------ |
-| Ball Bearing 10x15x4 mm - 6700RS         | 8        |          | 100 on order |
-| Rubber tires - OD: 90-100mm, ID: 46-48mm | 4        |          | 4 on order   |
-| Shock/Coil springs - 55-75mm             | 4        |          | 4 on order   |
+| Item                                     | Quantity | Received | Notes      |
+| ---------------------------------------- | -------- | -------- | ---------- |
+| Ball Bearing 10x15x4 mm - 6700RS         | 8        | 100      |            |
+| Rubber tires - OD: 90-100mm, ID: 46-48mm | 4        |          | 4 on order |
+| Shock/Coil springs - 55-75mm             | 4        |          | 4 on order |
 
 #### Fasteners
 

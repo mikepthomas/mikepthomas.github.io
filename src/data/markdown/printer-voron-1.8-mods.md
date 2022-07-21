@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated June 22, 2022
+Updated July 21, 2022
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -30,6 +30,7 @@ List of upgrades that I plan on adding from the printer mods directory of the Vo
 19. [Power Supply Cover](#power-supply-cover)
 20. [Deck Panel Support Clips](#deck-panel-support-clips)
 21. [Klipper Expander](#klipper-expander)
+22. [BTT 5" Screen case](#btt-5--screen-case)
 
 ## Mods
 
@@ -526,3 +527,14 @@ I have printed the horizontal mount as I am planning on mounting the Klipper Exp
 | --------------------- | -------- |
 | M3 Hammer Head T-nuts | 2        |
 | M3x8 SHCS             | 4        |
+
+### BTT 5" Screen case
+
+This replaces the [Display Mount](#display-mount) to fit a BigTreeTech PITFT50 touch screen display to run [KlipperScreen](https://klipperscreen.readthedocs.io/).
+
+| Item                                                     | Quantity | Material                                                | Printed | Notes                                                     |
+| -------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | --------------------------------------------------------- |
+| [back](https://www.thingiverse.com/thing:4837419/files)  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                           |
+| [feets](https://www.thingiverse.com/thing:4837419/files) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                           |
+| [plate](https://www.thingiverse.com/thing:4837419/files) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                           |
+| [main](https://www.thingiverse.com/thing:4837419/files)  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This will need to be modified to fit the BTT PITFT50 V2.0 |

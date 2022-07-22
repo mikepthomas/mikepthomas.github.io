@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 21, 2022
+Updated July 22, 2022
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -31,6 +31,7 @@ List of upgrades that I plan on adding from the printer mods directory of the Vo
 20. [Deck Panel Support Clips](#deck-panel-support-clips)
 21. [Klipper Expander](#klipper-expander)
 22. [BTT 5" Screen case](#btt-5--screen-case)
+23. [Nevermore Micro V5 Duo](#nevermore-micro-v5-duo)
 
 ## Mods
 
@@ -538,3 +539,35 @@ This replaces the [Display Mount](#display-mount) to fit a BigTreeTech PITFT50 t
 | [feets](https://www.thingiverse.com/thing:4837419/files) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                           |
 | [plate](https://www.thingiverse.com/thing:4837419/files) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                           |
 | [main](https://www.thingiverse.com/thing:4837419/files)  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This will need to be modified to fit the BTT PITFT50 V2.0 |
+
+### Nevermore Micro V5 Duo
+
+The [Nevermore Micro V5 Duo](https://github.com/nevermore3d/Nevermore_Micro) filters the encosure to reduce the smell of printing ABS. [Carbon refill is available from here](https://www.onetwo3d.co.uk/product/nevermore3d-carbon/).
+
+| Item                                                                                                                   | Quantity | Material                                                | Printed | Notes |
+| ---------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----- |
+| [1,8_Frame_Connector](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/1.8/1%2C8_Frame_Connector.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| [Duo_Cartridge_LID](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/1.8/Duo_Cartridge_LID.stl)       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| [Plenum_LID](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/1.8/Plenum_LID.stl)                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| [V18_cartridge_RC2](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/1.8/V18_cartridge_RC2.stl)       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| [V1_Duo_Plenum](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/1.8/V1_Duo_Plenum.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+
+#### Assembly
+
+![Nevermore Filter Parts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-mods/nevermore-filter.jpg)
+
+##### Parts Used
+
+| Item                               | Quantity |
+| ---------------------------------- | -------- |
+| 5015 Centrifugal Fan (24V)         | 2        |
+| 6mm x 3mm Round Neodymium Magnets  | 8        |
+| Acid-free Activated Carbon Pack    | 1        |
+| JST XH Connector Header 2 Position | 1        |
+| M3 threaded inserts                | 6        |
+| M3x18 BHCS                         | 1        |
+| M3x16 BHCS                         | 4        |
+| M3x12 BHCS                         | 2        |
+| M3x6 BHCS                          | 2        |
+| M3x4 BHCS                          | 1        |
+| M3 Hammer Head T-nuts              | 2        |

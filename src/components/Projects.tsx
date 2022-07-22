@@ -155,14 +155,14 @@ const Projects = (props: Props) => {
                             Hypercube CoreXY Upgrade
                           </Link>
                         </li>
-                        <li>
-                          <Link to="/projects/printer-nevermore-filter">
-                            Nevermore Micro V5 Duo
-                          </Link>
-                        </li>
                       </ul>
                     </li>
                   </ul>
+                </li>
+                <li>
+                  <Link to="/projects/3d-lab-print-piper-cub">
+                    3D LabPrint Piper Cub
+                  </Link>
                 </li>
                 <li>
                   <Link to="/projects/3d-sets-landy">3D Sets Landy</Link>

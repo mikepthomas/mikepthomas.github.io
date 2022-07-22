@@ -4,7 +4,7 @@ June 28, 2018 by [Mike Thomas](https://github.com/mikepthomas)
 
 How I printed my OpenRC F1 car, Designed by Daniel Norée. This project was one of the main reasons I got into 3D printing in the first place.
 
-![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/openrc-hero.jpg)
+![OpenRC F1 Complete](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/openrc-hero.jpg)
 
 ---
 
@@ -21,7 +21,7 @@ Assembly of the car is split into the following parts:
 
 ### Front Wheel Assembly
 
-![](https://cdn.thingiverse.com/renders/e2/53/2b/53/72/Front_Wheel_Assembly_preview_featured.jpg)
+![Front Wheel Assembly Diagram](https://cdn.thingiverse.com/renders/e2/53/2b/53/72/Front_Wheel_Assembly_preview_featured.jpg)
 
 > Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
@@ -38,7 +38,7 @@ Assembly of the car is split into the following parts:
 
 ### Front BOM Assembly
 
-![](https://cdn.thingiverse.com/renders/a6/8d/e8/c3/31/Front_BOM_Assembly_preview_featured.jpg)
+![Front BOM Assembly Diagram](https://cdn.thingiverse.com/renders/a6/8d/e8/c3/31/Front_BOM_Assembly_preview_featured.jpg)
 
 > Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
@@ -54,9 +54,11 @@ Assembly of the car is split into the following parts:
 | 8    | 2        | [Front Wheel Assembly](#front-wheel-assembly)                                                              |                                                        |      |
 | 9    | 2        | [OpenRC F1 Stackable Steering Pin](https://www.thingiverse.com/thing:3107676)                              | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black) |      |        |        |                       |
 
+![Front BOM Assembly](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/front-bom-assembly.jpg)
+
 ### Rear Wheel Assembly
 
-![](https://cdn.thingiverse.com/renders/24/b9/79/f2/e5/Rear_Wheel_Assembly_preview_featured.jpg)
+![Rear Wheel Assembly Diagram](https://cdn.thingiverse.com/renders/24/b9/79/f2/e5/Rear_Wheel_Assembly_preview_featured.jpg)
 
 > Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
@@ -65,9 +67,11 @@ Assembly of the car is split into the following parts:
 | 1    | 1        | [Rear rim for F104 Tires](https://www.thingiverse.com/thing:3017254)                 | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 3h 30m | 9m   | ~27g   | ~£0.43            |
 | 2    | 1        | [Tamiya F104 Hollow, Back Soft Tyre](https://www.amazon.co.uk/gp/product/B0035WV8B0) | Rubber                                                                     |        |      |        | £15.49 (Set of 2) |
 
+![Rear Wheel Assembly](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/rear-wheel-assembly.jpg)
+
 ### Rear Axle Assembly
 
-![](https://cdn.thingiverse.com/renders/44/24/da/87/7b/Rear_Axle_Assembly_preview_featured.jpg)
+![Rear Axle Assembly Diagram](https://cdn.thingiverse.com/renders/44/24/da/87/7b/Rear_Axle_Assembly_preview_featured.jpg)
 
 > Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
@@ -86,9 +90,11 @@ Assembly of the car is split into the following parts:
 | 10   | 1        | [Rear Axle Holder Left](https://www.thingiverse.com/thing:1193309)                                                                                      | [PrimaValue PLA (Blue)](printer-filament.md#primavalue-pla-blue)           | 36m    | 1.68m     | ~5g    | ~£0.08                  |
 | 11   | 2        | [Front Lock Nut](https://www.thingiverse.com/thing:1193309)                                                                                             | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 3m     | 0.17m     | ~1g    | ~£0.01                  |
 
+![Rear Axel Assembly](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/rear-axle-assembly.jpg)
+
 ### Chassis Assembly
 
-![](https://cdn.thingiverse.com/renders/b0/b3/37/79/ad/Chassie_Assembly_preview_featured.jpg)
+![Chassis Assembly Diagram](https://cdn.thingiverse.com/renders/b0/b3/37/79/ad/Chassie_Assembly_preview_featured.jpg)
 
 > Image &copy; 2015 [Daniel Norée](https://danielnoree.com/)
 
@@ -104,9 +110,11 @@ Assembly of the car is split into the following parts:
 | 7    | 1        | [Rear Axle Assembly](#rear-axle-assembly)                                                                                 |                                                                            |        |
 | 8    | 2        | [AHC Countersunk Allen Key Bolts](https://www.amazon.co.uk/gp/product/B00WMNMOLG)                                         | Stainless Steel                                                            |        | M3x12mm |        | £16.86 (1020 Piece set) |
 
+![Chassis Assembly](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/chassis-assembly.jpg)
+
 ### Body
 
-![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/complete.jpg)
+![OpenRC F1 Body](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/complete.jpg)
 
 | Item                                                                            | Quantity | Material                                                                   | Time | Size | Weight | Cost |
 | ------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | ---- | ---- | ------ | ---- |

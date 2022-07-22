@@ -149,17 +149,16 @@ Sourcing parts for a [Piper Cub](https://3dlabprint.com/shop/piperj3cub/) remote
 
 > Image &copy; 2022 [3D LabPrint](https://3dlabprint.com/)
 
-| Item              | Quantity | Material                                                | Printed | Notes |
-| ----------------- | -------- | ------------------------------------------------------- | :-----: | ----- |
-| back float holder | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-
-| float L1 | 1 | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) | :x: | |
-| float L2 | 1 | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) | :x: | |
-| float L3 | 1 | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) | :x: | |
-| float L4 | 1 | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) | :x: | |
-| float R1 | 1 | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) | :x: | |
-| float R2 | 1 | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) | :x: | |
-| float R3 | 1 | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) | :x: | |
-| float R4 | 1 | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) | :x: | |
-| front float holder | 1 | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :x: | |
-| tail rudder fin | 1 | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) | :x: | |
+| Item               | Quantity | Material                                                  | Printed | Notes |
+| ------------------ | -------- | --------------------------------------------------------- | :-----: | ----- |
+| back float holder  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
+| float L1           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
+| float L2           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
+| float L3           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
+| float L4           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
+| float R1           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
+| float R2           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
+| float R3           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
+| float R4           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
+| front float holder | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
+| tail rudder fin    | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |

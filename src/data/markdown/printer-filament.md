@@ -1,7 +1,7 @@
 # 3D Printer Filament list
 
 January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 5, 2022
+Updated July 22, 2022
 
 This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
@@ -289,6 +289,8 @@ This filament was originally brought to print the frame on a [3D Sets Car Hauler
 | 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Silver).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-silver-2) | £16.74   | 1             | ![#9D9DAB](https://via.placeholder.com/13/9D9DAB/9D9DAB.png) |
 
 ### eSun ABS+ (Yellow)
+
+This filament was originally brought to print the [3D LabPrint Piper Cub](3d-lab-print-piper-cub.md).
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                  | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |

@@ -97,7 +97,7 @@ const Projects = (props: Props) => {
               </p>
               <ol className="list-unstyled">
                 <li>
-                  <Link to="/projects/printer">3D Printer</Link>
+                  <Link to="/projects/printer">Anet A8</Link>
                   <ul>
                     <li>
                       <Link to="/projects/printer-failures">Failures</Link>
@@ -118,20 +118,20 @@ const Projects = (props: Props) => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/projects/printer-am8">
-                        Metal Frame Upgrade for Anet A8
+                      <Link to="/projects/printer-am8-switchwire">
+                        AM8 Switchwire
                       </Link>
                     </li>
-                    <li>
-                      <Link to="/projects/printer-extruders-and-toolheads">
-                        Extruders &amp; Toolheads
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/projects/printer-voron-1.8">
-                        Voron 1.8 Assembly
-                      </Link>
-                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <Link to="/projects/printer-extruders-and-toolheads">
+                    Extruders &amp; Toolheads
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/projects/printer-voron-1.8">Voron 1.8</Link>
+                  <ul>
                     <li>
                       <Link to="/projects/printer-voron-1.8-mods">
                         Voron 1.8 Mods
@@ -141,21 +141,6 @@ const Projects = (props: Props) => {
                       <Link to="/projects/printer-enraged-rabbit-carrot-feeder">
                         Enraged Rabbit Carrot Feeder
                       </Link>
-                    </li>
-                    <li>
-                      <Link to="/projects/printer-enraged-rabbit-carrot-patch">
-                        Enraged Rabbit Carrot Patch
-                      </Link>
-                    </li>
-                    <li>
-                      Abandoned Projects
-                      <ul>
-                        <li>
-                          <Link to="/projects/printer-hypercube">
-                            Hypercube CoreXY Upgrade
-                          </Link>
-                        </li>
-                      </ul>
                     </li>
                   </ul>
                 </li>
@@ -186,6 +171,21 @@ const Projects = (props: Props) => {
                   <Link to="/projects/printer-filament">
                     3D Printer Filament
                   </Link>
+                </li>
+                <li>
+                  Abandoned Projects
+                  <ul>
+                    <li>
+                      <Link to="/projects/printer-hypercube">
+                        Hypercube CoreXY Upgrade
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/projects/printer-am8">
+                        AM8 Frame Upgrade for Anet A8
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
               </ol>
             </div>

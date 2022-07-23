@@ -1,7 +1,7 @@
 # Building an Enraged Rabbit Carrot Feeder
 
 Febuary 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 20, 2022
+Updated July 23, 2022
 
 Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRabbitProject) to print using multiple colours of filament on the Voron.
 
@@ -19,7 +19,9 @@ Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRab
 
 I have some of the parts required left over from the build of the [Voron](printer-voron-1.8.md). I will use these here.
 
-### Electronics
+### Enraged Rabbit Carrot Feeder
+
+#### Electronics
 
 | Item                              | Quantity | Received | Notes |
 | --------------------------------- | -------- | -------- | ----- |
@@ -31,7 +33,7 @@ I have some of the parts required left over from the build of the [Voron](printe
 | TCRT5000 sensor pcb               | 1        | 1        |       |
 | Omron Mouse Button - Micro Switch | 1        | 1        |       |
 
-### Hardware
+#### Hardware
 
 | Item                      | Quantity | Received | Notes |
 | ------------------------- | -------- | -------- | ----- |
@@ -43,7 +45,7 @@ I have some of the parts required left over from the build of the [Voron](printe
 | MR623ZZ bearing           | 1        | 1        |       |
 | MR85ZZ bearings           | 5        | 5        |       |
 
-### Fasteners
+#### Fasteners
 
 | Item                   | Quantity | Received | Notes |
 | ---------------------- | -------- | -------- | ----- |
@@ -62,7 +64,7 @@ I have some of the parts required left over from the build of the [Voron](printe
 | M3 DIN125 Steel Washer | 8        | 13       |       |
 | M2x10 SHCS             | 2        | 2        |       |
 
-### Motion
+#### Motion
 
 | Item                                 | Quantity | Received | Notes |
 | ------------------------------------ | -------- | -------- | ----- |
@@ -71,7 +73,7 @@ I have some of the parts required left over from the build of the [Voron](printe
 | GT2 20T Toothed Idler 6 mm, 5mm bore | 1        | 1        |       |
 | GT2 188m Belt loop 6mm               | 1        | 1        |       |
 
-### Misc
+#### Misc
 
 | Item                              | Quantity | Received | Notes |
 | --------------------------------- | -------- | -------- | ----- |
@@ -80,7 +82,7 @@ I have some of the parts required left over from the build of the [Voron](printe
 | Bowden Fitting                    | 7        | 7        |       |
 | 7X7 Drag chain                    | 1        | 1        |       |
 
-### Toolhead Sensor
+#### Toolhead Sensor
 
 | Item                                 | Quantity | Received | Notes |
 | ------------------------------------ | -------- | -------- | ----- |
@@ -91,9 +93,41 @@ I have some of the parts required left over from the build of the [Voron](printe
 | M3x12 SHCS                           | 1        | 2        |       |
 | JST XH 3 pins male connector         | 1        | 2        |       |
 
+### Enraged Rabbit Carrot Patch
+
+The [Enraged Rabbit Carrot Patch](https://github.com/EtteGit/EnragedRabbitProject) manages filament reels being used by the Enraged Rabbit Carrot Feeder.
+Quantities are for 1 Patch. I should have enough parts for 4 patches.
+
+#### Fasteners
+
+| Item                | Quantity | Received | Notes |
+| ------------------- | -------- | -------- | ----- |
+| M3 threaded inserts | 4        | 16       |       |
+| M3x8 SHCS           | 2        | 8        |       |
+| M3x16 SHCS          | 1        | 4        |       |
+| M3x20 SHCS          | 1        | 4        |       |
+| M5 nylock nuts      | 1        | 4        |       |
+| M5x30 BHCS          | 1        | 4        |       |
+
+#### Misc
+
+| Item                             | Quantity | Received | Notes |
+| -------------------------------- | -------- | -------- | ----- |
+| Bowden Clip                      | 2        | 8        |       |
+| Bowden Fitting                   | 2        | 8        |       |
+| PTFE Tube (4mm OD 3mm ID) - 25cm | 1        | 4        |       |
+
+#### Motion
+
+| Item          | Quantity | Received | Notes |
+| ------------- | -------- | -------- | ----- |
+| 608ZZ Bearing | 1        | 4        |       |
+
 ## Printing Parts
 
-### Filament Blocks
+### Enraged Rabbit Carrot Feeder
+
+#### Filament Blocks
 
 | Item                                                                                                                                                     | Quantity | Material                                                | Printed | Notes |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----- |
@@ -105,7 +139,7 @@ I have some of the parts required left over from the build of the [Voron](printe
 | [Latch](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/%5Ba%5D_Latch_xN.stl)                             | 6        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |       |
 | [Top_Hat](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/%5Ba%5D_Top_Hat_xN.stl)                         | 6        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |       |
 
-#### Magnetic Gates
+##### Magnetic Gates
 
 | Item                                                                                                                                                           | Quantity | Material                                            | Printed | Notes |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- | :-----: | ----- |
@@ -116,7 +150,7 @@ I have some of the parts required left over from the build of the [Voron](printe
 | [Magnetic_Gate_4](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Magnetic%20Gates/%5Ba%5D_Magnetic_Gate_4.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) |   :x:   |       |
 | [Magnetic_Gate_5](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Magnetic%20Gates/%5Ba%5D_Magnetic_Gate_5.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) |   :x:   |       |
 
-#### Tag Plates
+##### Tag Plates
 
 | Item                                                                                                                                               | Quantity | Material                                            | Printed | Notes                                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- | :-----: | ---------------------------------------------------------------- |
@@ -127,13 +161,13 @@ I have some of the parts required left over from the build of the [Voron](printe
 | [Tag_Plate_4](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Tag%20Plates/%5Ba%5D_Tag_Plate_4.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) |   :x:   | Will reprint the Multi colour version when the ERCF is completed |
 | [Tag_Plate_5](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Tag%20Plates/%5Ba%5D_Tag_Plate_5.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) |   :x:   | Will reprint the Multi colour version when the ERCF is completed |
 
-#### Tag Plates
+##### Tag Plates
 
 | Item                                                                                                                                                           | Quantity | Material                                                | Printed | Notes                                    |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ---------------------------------------- |
 | [Top_Hat_Locker_1](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Top%20Hat%20Lockers/Top_Hat_Locker_1_xN.stl) | 6        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Manual says to start with all tools at 1 |
 
-### Gearbox
+#### Gearbox
 
 | Item                                                                                                                                                         | Quantity | Material                                                | Printed | Notes                                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | :-----: | --------------------------------------------------------------------------------------------------------------------------- |
@@ -149,7 +183,7 @@ I have some of the parts required left over from the build of the [Voron](printe
 | [Side_Latch](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Gear%20box/%5Ba%5D_Side_Latch_x2.stl)                              | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                                                                                                                             |
 | [Top_Panel](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Gear%20box/%5Ba%5D_Top_Panel.stl)                                   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                                                                                                                             |
 
-### Linear Axis
+#### Linear Axis
 
 | Item                                                                                                                                                        | Quantity | Material                                                | Printed | Notes |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----- |
@@ -158,7 +192,7 @@ I have some of the parts required left over from the build of the [Voron](printe
 | [Drag_Chain_Anchor_Bottom](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Linear%20axis/%5Ba%5D_Drag_Chain_Anchor_Bottom.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |       |
 | [Motor_Lock](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Linear%20axis/%5Ba%5D_Motor_Lock.stl)                             | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |       |
 
-### Selector
+#### Selector
 
 | Item                                                                                                                               | Quantity | Material                                                | Printed | Notes                                                            |
 | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ---------------------------------------------------------------- |
@@ -171,13 +205,13 @@ I have some of the parts required left over from the build of the [Voron](printe
 | [Selector_Cart](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Selector/%5Ba%5D_Selector_Cart.stl)   | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                                                                  |
 | [Servo_Arm](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Selector/%5Ba%5D_Servo_Arm.stl)           | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                                                                  |
 
-### Supports
+#### Supports
 
 | Item                                                                                                                                                   | Quantity | Material                                            | Printed | Notes |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------- | :-----: | ----- |
 | [Support_Feet_5mm](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Supports/V1%20or%20V2/%5Ba%5D_Support_Feet_5mm_x4.stl) | 4        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) |   :x:   |       |
 
-### Tools
+#### Tools
 
 | Item                                                                                                                            | Quantity | Material | Printed | Notes |
 | ------------------------------------------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | ----- |
@@ -185,9 +219,37 @@ I have some of the parts required left over from the build of the [Voron](printe
 | [Pulley_Tool_NEMA14](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Tools/Pulley_Tool_NEMA14.stl) | 1        |          |   :x:   |       |
 | [Pulley_Tool_NEMA17](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Tools/Pulley_Tool_NEMA17.stl) | 1        |          |   :x:   |       |
 
-### Filament Sensor
+#### Filament Sensor
 
 I will print the relevent [Filament Sensor](https://github.com/EtteGit/EnragedRabbitProject/tree/main/Filament_Sensor) when I have printed the [Afterburner toolhead](printer-voron-1.8.md#gantry) to ensure I print the correct parts.
+
+### Enraged Rabbit Carrot Patch
+
+#### Frame
+
+| Item                                                                                                                 | Quantity | Material                                                | Printed | Notes |
+| -------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----- |
+| [Main_Body](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Patch/STLs/Main_Body.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| [Spool_Arm](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Patch/STLs/Spool_Arm.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| [Handle_0](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Patch/STLs/Handles/%5Ba%5D_Handle_0.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |       |
+| [Feet](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Patch/STLs/%5Ba%5D_Feet_x2.stl)              | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |       |
+| [608_Adapter](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Patch/STLs/608_Adapter.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+
+#### Buffer Assembly
+
+| Item                                                                                                                 | Quantity | Material                                                | Printed | Notes |
+| -------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----- |
+| [Buffer_Wheel](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Patch/STLs/%5Ba%5D_Buffer_Wheel.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |       |
+| [Buffer_Cross](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Patch/STLs/Buffer_Cross.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| [Buffer_Cross](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Patch/STLs/Buffer_Cross.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| [Latch](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Patch/STLs/%5Ba%5D_Latch_x3.stl)            | 3        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |       |
+
+#### Sliding Arm
+
+| Item                                                                                                               | Quantity | Material                                                | Printed | Notes                    |
+| ------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | :-----: | ------------------------ |
+| [Sliding_Arm](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Patch/STLs/%5Ba%5D_Sliding_Arm.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |                          |
+| [Ptfe_Entry](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Patch/STLs/Ptfe_Entry_ECAS.stl)      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is the ECAS version |
 
 ## Mods
 

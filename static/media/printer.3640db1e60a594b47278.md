@@ -1,4 +1,4 @@
-# Assembly of an Anet A8 3D printer.
+# Assembly of an Anet A8 3D printer
 
 May 19, 2018 by [Mike Thomas](https://github.com/mikepthomas)
 

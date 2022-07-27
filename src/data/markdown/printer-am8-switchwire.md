@@ -1,6 +1,7 @@
 # Upgrading the Anet A8 to an AM8 Switchwire
 
-July 23, 2022 by [Mike Thomas](https://github.com/mikepthomas)
+July 23, 2022 by [Mike Thomas](https://github.com/mikepthomas),
+Updated July 28, 2022
 
 Upgrading the Anet A8 to a metal frame with CoreXZ kinematics with the [AM8 Switchwire Mod](https://github.com/maximilian-foerg/AM8-Switchwire-Mod).
 
@@ -53,12 +54,12 @@ I will install Klipper on the Anet A8 mainboard, and use it in conjunction with 
 
 ### Motion
 
-| Item                              | Quantity | Received | Notes       |
-| --------------------------------- | -------- | -------- | ----------- |
-| F695 Bearing                      | 18       |          | 20 on order |
-| GT2 16T Pulley (5mm ID 6mm W)     | 3        |          | 3 on order  |
-| GT2 Open Belt LL-2GT-6 (6mm wide) | 5m       | 5m       |             |
-| LM8LUU Linear Bearing             | 2        |          | 2 on order  |
+| Item                              | Quantity | Received | Notes      |
+| --------------------------------- | -------- | -------- | ---------- |
+| F695 Bearing                      | 18       | 20       |            |
+| GT2 16T Pulley (5mm ID 6mm W)     | 3        |          | 3 on order |
+| GT2 Open Belt LL-2GT-6 (6mm wide) | 5m       | 5m       |            |
+| LM8LUU Linear Bearing             | 2        |          | 2 on order |
 
 ## Printing Parts
 

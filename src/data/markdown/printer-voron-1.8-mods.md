@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 22, 2022
+Updated August 1, 2022
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -539,6 +539,15 @@ This replaces the [Display Mount](#display-mount) to fit a BigTreeTech PITFT50 t
 | [feets](https://www.thingiverse.com/thing:4837419/files) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                           |
 | [plate](https://www.thingiverse.com/thing:4837419/files) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                           |
 | [main](https://www.thingiverse.com/thing:4837419/files)  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This will need to be modified to fit the BTT PITFT50 V2.0 |
+
+#### Assembly
+
+##### Parts Used
+
+| Item                                     | Quantity |
+| ---------------------------------------- | -------- |
+| BigTreeTech PITFT50 V2.0                 | 1        |
+| 15 pin Raspberry Pi Display Ribbon Cable | 1m       |
 
 ### Nevermore Micro V5 Duo
 

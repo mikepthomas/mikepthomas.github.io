@@ -1,7 +1,7 @@
 # Upgrading the Anet A8 to an AM8 Switchwire
 
 July 23, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 28, 2022
+Updated August 1, 2022
 
 Upgrading the Anet A8 to a metal frame with CoreXZ kinematics with the [AM8 Switchwire Mod](https://github.com/maximilian-foerg/AM8-Switchwire-Mod).
 
@@ -36,30 +36,30 @@ I will install Klipper on the Anet A8 mainboard, and use it in conjunction with 
 
 ### Fasteners
 
-| Item               | Quantity | Received | Notes       |
-| ------------------ | -------- | -------- | ----------- |
-| M2 nuts            | 6        |          | 50 on order |
-| M2x10 SHCS         | 4        | 100      |             |
-| M2x14 SHCS         | 2        | 50       |             |
-| M3x12 SHCS         | 2        | 2        |             |
-| M3x16 SHCS         | 1        | 1        |             |
-| M3x25 BHCS         | 4        |          | 25 on order |
-| M3x30 BHCS         | 23       |          | 25 on order |
-| M3 0.5mm Spacer    | 18       |          | 50 on order |
-| M3 nuts            | 3        | 3        |             |
-| M3 Threaded Insert | 15       | 28       |             |
-| M5x10 BHCS         | 31       | 50       |             |
-| M5x30 BHCS         | 6        | 7        |             |
-| M5 T-Nut           | 25       | 47       |             |
+| Item               | Quantity | Received | Notes |
+| ------------------ | -------- | -------- | ----- |
+| M2 nuts            | 6        | 50       |       |
+| M2x10 SHCS         | 4        | 100      |       |
+| M2x14 SHCS         | 2        | 50       |       |
+| M3x12 SHCS         | 2        | 2        |       |
+| M3x16 SHCS         | 1        | 1        |       |
+| M3x25 BHCS         | 4        | 25       |       |
+| M3x30 BHCS         | 23       | 25       |       |
+| M3 0.5mm Spacer    | 18       | 50       |       |
+| M3 nuts            | 3        | 3        |       |
+| M3 Threaded Insert | 15       | 28       |       |
+| M5x10 BHCS         | 31       | 50       |       |
+| M5x30 BHCS         | 6        | 7        |       |
+| M5 T-Nut           | 25       | 47       |       |
 
 ### Motion
 
-| Item                              | Quantity | Received | Notes      |
-| --------------------------------- | -------- | -------- | ---------- |
-| F695 Bearing                      | 18       | 20       |            |
-| GT2 16T Pulley (5mm ID 6mm W)     | 3        |          | 3 on order |
-| GT2 Open Belt LL-2GT-6 (6mm wide) | 5m       | 5m       |            |
-| LM8LUU Linear Bearing             | 2        |          | 2 on order |
+| Item                              | Quantity | Received | Notes |
+| --------------------------------- | -------- | -------- | ----- |
+| F695 Bearing                      | 18       | 20       |       |
+| GT2 16T Pulley (5mm ID 6mm W)     | 3        | 3        |       |
+| GT2 Open Belt LL-2GT-6 (6mm wide) | 5m       | 5m       |       |
+| LM8LUU Linear Bearing             | 2        | 2        |       |
 
 ## Printing Parts
 

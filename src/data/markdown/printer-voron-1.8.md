@@ -406,13 +406,13 @@ The bed frame will not only hold the bed, but will also be a base for the [Z end
 | Item                              | Quantity |
 | --------------------------------- | -------- |
 | Linear Shaft 8x320mm              | 4        |
-| M3 Hexnut                         | 4        |
+| M3 Nyloc Hexnut                   | 4        |
 | M3x12 SHCS                        | 12       |
 | M5 T-nut                          | 24       |
 | M5x10 BHCS                        | 20       |
 | M5x16 BHCS                        | 4        |
-| NEMA17 TR8x8 300mm Linear Stepper | 2        |
-| TR8x8 Leadscrew Nut               | 2        |
+| NEMA17 TR8x4 300mm Linear Stepper | 2        |
+| TR8x4 Leadscrew Nut               | 2        |
 
 ### X Axis
 

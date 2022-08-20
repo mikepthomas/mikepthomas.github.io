@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated August 1, 2022
+Updated August 20, 2022
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -208,21 +208,22 @@ An enclosed bolt with sleeved bearings for the Z endstop.
 | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | -------------------------------------- |
 | [EndstopHousing](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/hartk1213/Voron2.4_SexBolt_ZEndstop/STLs/EndstopHousingVoronLogo.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 3.06m | 7.80g  | £0.15 | :heavy_check_mark: | This is a Voron Users Mod by hartk1213 |
 
-#### :wrench: Assembly
+#### :white_check_mark: Assembly
 
 ![Sexbolt Z Endstop](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-mods/sexbolt-z-endstop.jpg)
 
 ##### Parts Used
 
-| Item                      | Quantity |
-| ------------------------- | -------- |
-| 5x7x8 Sleeve Bearings     | 2        |
-| 5mmx20mm Binding Screw    | 1        |
-| M2x10 Self-Tapping Screw  | 4        |
-| M4x8 SHCS                 | 1        |
-| M3 T-nut                  | 2        |
-| M3x20 SHCS                | 2        |
-| Microswitch Z Endstop PCB | 1        |
+| Item                           | Quantity |
+| ------------------------------ | -------- |
+| 5x7x8 Sleeve Bearings          | 2        |
+| 5mmx20mm Binding Screw         | 1        |
+| 6mmx5mm Stainless Steel Spring | 1        |
+| M2x10 Self-Tapping Screw       | 4        |
+| M4x8 SHCS                      | 1        |
+| M3 T-nut                       | 2        |
+| M3x20 SHCS                     | 2        |
+| Microswitch Z Endstop PCB      | 1        |
 
 ### Printable Chain
 

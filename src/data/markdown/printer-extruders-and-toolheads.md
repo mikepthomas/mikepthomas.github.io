@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 24, 2022
+Updated August 20, 2022
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -129,7 +129,9 @@ When I have upgraded to the Afterburner, I will reuse the parts for the M4 for t
 
 ## Voron Afterburner/Stealthburner
 
-I have opted to build the [Stealthburner](https://vorondesign.com/voron_stealthburner) toolhead, but using the original Afterburner extruder, the Clockwork 1. There are a number of reasons for deciding this:
+![Afterburner](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-extruders-and-toolheads/afterburner.jpg)
+
+I built the Afterburner toolhead but will upgtrade to the [Stealthburner](https://vorondesign.com/voron_stealthburner) toolhead now that it has been released. However, I will keep the original Afterburner extruder, the Clockwork 1 rather than upgrade to Clockwork 2, There are a number of reasons for deciding this:
 
 1. I was planning on adding the [AB-BN By Badnoob](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Badnoob/AB-BN) for a larger cooling fan, this was integrated into the design of the Stealthburner.
 2. I want to add the filament sensor for the [Enraged Rabbit Carrot Feeder](printer-enraged-rabbit-carrot-feeder.md) which is not currently compatible with Clockwork 2.

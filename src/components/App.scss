@@ -30,7 +30,7 @@ $font-size-base: 0.8rem !default;
 // Import Animate.css
 @import '~animate.css/animate';
 
-// Import Bootstrap
+// Import parts of Bootstrap
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import '~bootstrap/scss/functions';
 
@@ -38,16 +38,23 @@ $font-size-base: 0.8rem !default;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import '~bootstrap/scss/variables';
-@import '~bootstrap/scss/mixins';
-@import '~bootstrap/scss/utilities';
 
-// 4. Include any optional Bootstrap components as you like
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import '~bootstrap/scss/maps';
+@import '~bootstrap/scss/mixins';
 @import '~bootstrap/scss/root';
+
+// 6. Optionally include any other parts as needed
+@import '~bootstrap/scss/utilities';
 @import '~bootstrap/scss/reboot';
 @import '~bootstrap/scss/type';
 @import '~bootstrap/scss/images';
 @import '~bootstrap/scss/containers';
 @import '~bootstrap/scss/grid';
+@import '~bootstrap/scss/helpers';
+
 @import '~bootstrap/scss/tables';
 //@import '~bootstrap/scss/forms';
 //@import '~bootstrap/scss/buttons';
@@ -74,10 +81,10 @@ $font-size-base: 0.8rem !default;
 //@import '~bootstrap/scss/offcanvas';
 //@import '~bootstrap/scss/placeholders';
 
-@import '~bootstrap/scss/helpers';
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import '~bootstrap/scss/utilities/api';
 
-// 5. Add additional custom code here
+// 8. Add additional custom code here
 html,
 body,
 #root,

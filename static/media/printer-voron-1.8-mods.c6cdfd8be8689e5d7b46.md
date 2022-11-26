@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 22, 2022
+Updated November 26, 2022
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -136,12 +136,12 @@ Modular clips to add LED strips of any length to the inside of the top extrusion
 
 Cleans the nozzle before printing and has endstops to locate the magnetic bed.
 
-| Item                                                                                                                                                                                                               | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :----------------: | ---------------------------------------- |
-| [brush_holder_sheet_stop](https://github.com/VoronDesign/VoronUsers/blob/master/abandoned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/brush_holder_sheet_stop_rev4.stl)     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.78m  | 4.55g  | £0.09 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
-| [extension_bracket](https://github.com/VoronDesign/VoronUsers/blob/master/abandoned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/extension_bracket_v1.8_rev4.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 3.20m  | 8.16g  | £0.15 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
-| [individual_sheetstop](https://github.com/VoronDesign/VoronUsers/blob/master/abandoned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/individual_sheetstop_v1.8_v2.4_rev4.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.70m  | 1.73g  | £0.03 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
-| [purge_bucket](https://github.com/VoronDesign/VoronUsers/blob/master/abandoned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/purge_bucket_300mm_rev4.stl)                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 12.51m | 31.90g | £0.61 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
+| Item                                                                                                                                                                                                              | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                    |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :----------------: | ---------------------------------------- |
+| [brush_holder_sheet_stop](https://github.com/VoronDesign/VoronUsers/blob/master/orphaned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/brush_holder_sheet_stop_rev4.stl)     | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.78m  | 4.55g  | £0.09 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
+| [extension_bracket](https://github.com/VoronDesign/VoronUsers/blob/master/orphaned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/extension_bracket_v1.8_rev4.stl)            | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 3.20m  | 8.16g  | £0.15 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
+| [individual_sheetstop](https://github.com/VoronDesign/VoronUsers/blob/master/orphaned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/individual_sheetstop_v1.8_v2.4_rev4.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 0.70m  | 1.73g  | £0.03 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
+| [purge_bucket](https://github.com/VoronDesign/VoronUsers/blob/master/orphaned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs/purge_bucket_300mm_rev4.stl)                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 12.51m | 31.90g | £0.61 | :heavy_check_mark: | This is a Voron Users Mod by edwardyeeks |
 
 #### :wrench: Assembly
 
@@ -208,21 +208,22 @@ An enclosed bolt with sleeved bearings for the Z endstop.
 | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | -------------------------------------- |
 | [EndstopHousing](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/hartk1213/Voron2.4_SexBolt_ZEndstop/STLs/EndstopHousingVoronLogo.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 3.06m | 7.80g  | £0.15 | :heavy_check_mark: | This is a Voron Users Mod by hartk1213 |
 
-#### :wrench: Assembly
+#### :white_check_mark: Assembly
 
 ![Sexbolt Z Endstop](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-mods/sexbolt-z-endstop.jpg)
 
 ##### Parts Used
 
-| Item                      | Quantity |
-| ------------------------- | -------- |
-| 5x7x8 Sleeve Bearings     | 2        |
-| 5mmx20mm Binding Screw    | 1        |
-| M2x10 Self-Tapping Screw  | 4        |
-| M4x8 SHCS                 | 1        |
-| M3 T-nut                  | 2        |
-| M3x20 SHCS                | 2        |
-| Microswitch Z Endstop PCB | 1        |
+| Item                           | Quantity |
+| ------------------------------ | -------- |
+| 5x7x8 Sleeve Bearings          | 2        |
+| 5mmx20mm Binding Screw         | 1        |
+| 6mmx5mm Stainless Steel Spring | 1        |
+| M2x10 Self-Tapping Screw       | 4        |
+| M4x8 SHCS                      | 1        |
+| M3 T-nut                       | 2        |
+| M3x20 SHCS                     | 2        |
+| Microswitch Z Endstop PCB      | 1        |
 
 ### Printable Chain
 
@@ -539,6 +540,15 @@ This replaces the [Display Mount](#display-mount) to fit a BigTreeTech PITFT50 t
 | [feets](https://www.thingiverse.com/thing:4837419/files) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                           |
 | [plate](https://www.thingiverse.com/thing:4837419/files) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                           |
 | [main](https://www.thingiverse.com/thing:4837419/files)  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This will need to be modified to fit the BTT PITFT50 V2.0 |
+
+#### Assembly
+
+##### Parts Used
+
+| Item                                     | Quantity |
+| ---------------------------------------- | -------- |
+| BigTreeTech PITFT50 V2.0                 | 1        |
+| 15 pin Raspberry Pi Display Ribbon Cable | 1m       |
 
 ### Nevermore Micro V5 Duo
 

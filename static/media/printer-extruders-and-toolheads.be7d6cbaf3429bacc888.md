@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 28, 2022
+Updated August 20, 2022
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -129,15 +129,15 @@ When I have upgraded to the Afterburner, I will reuse the parts for the M4 for t
 
 ## Voron Afterburner/Stealthburner
 
-I have opted to build the Beta version of the [Stealthburner](https://vorondesign.com/voron_stealthburner) toolhead, but using the original Afterburner extruder, the Clockwork 1. There are a number of reasons for deciding this:
+![Afterburner](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-extruders-and-toolheads/afterburner.jpg)
+
+I built the Afterburner toolhead but will upgtrade to the [Stealthburner](https://vorondesign.com/voron_stealthburner) toolhead now that it has been released. However, I will keep the original Afterburner extruder, the Clockwork 1 rather than upgrade to Clockwork 2, There are a number of reasons for deciding this:
 
 1. I was planning on adding the [AB-BN By Badnoob](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Badnoob/AB-BN) for a larger cooling fan, this was integrated into the design of the Stealthburner.
 2. I want to add the filament sensor for the [Enraged Rabbit Carrot Feeder](printer-enraged-rabbit-carrot-feeder.md) which is not currently compatible with Clockwork 2.
 3. I want to add the [ERCF Afterburner Toolhead PCB](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB) which is also not currently compatible with Clockwork 2.
 4. The Stealthburner has an integrated mount for an [ADXL345 for Klipper Input Shaper](https://www.klipper3d.org/Measuring_Resonances.html).
 5. The Stealthburner also integrates some cool RGB LEDs (and who doesn't like a bit of RGB?).
-
-As the Stealthburner is still in beta, some of the links below may not work. I will print the parts for the Clockwork Extruder first as they are less likely to be updated and will print the Stealthburner parts last to ensure I get the latest updates.
 
 There is also an adapter plate, [Hypercube Afterburner adapter intergration remix](https://www.thingiverse.com/thing:5156654) that may work to mount the Afterburner on the Anet A8 guide rails.
 
@@ -222,23 +222,23 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 
 #### Stealthburner
 
-| Item                                                                                                                                                          | Quantity | Material                                                         |      Printed       | Notes               |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------- | :----------------: | ------------------- |
-| [main_body_beta7](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Ba%5D_stealthburner_main_body_beta7.stl)                 | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)              |        :x:         | This is a Beta Part |
-| [LED_diffuser-beta3](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Bc%5D_stealthburner_LED_diffuser-beta3.stl)           | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) |        :x:         | This is a Beta Part |
-| [LED_carrier-beta2](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_carrier-beta2.stl)             | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :heavy_check_mark: | This is a Beta Part |
-| [LED_diffuser-mask-beta1](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_diffuser-mask-beta1.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          | :heavy_check_mark: | This is a Beta Part |
+| Item                                                                                                                                             | Quantity | Material                                                         | Printed | Notes |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ---------------------------------------------------------------- | :-----: | ----- |
+| [main_body](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Ba%5D_stealthburner_main_body.stl)                 | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)              |   :x:   |       |
+| [LED_diffuser](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Bc%5D_stealthburner_LED_diffuser.stl)           | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) |   :x:   |       |
+| [LED_carrier](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_carrier.stl)             | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          |   :x:   |       |
+| [LED_diffuser_mask](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_diffuser_mask.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          |   :x:   |       |
 
 #### ADXL345 Mount
 
-| Item                                                                                                                                                                  | Quantity | Material                                                | Printed | Notes                                             |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ------------------------------------------------- |
-| [adxl_mount_ldo_15mm_c-c-beta2](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/ADXL345_Mounts/sb_adxl_mount_ldo_15mm_c-c-beta2.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Beta Part. Spacing on my sensor is 15mm |
-| [adxl_washer_x2-beta0](https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/ADXL345_Mounts/sb_adxl_washer_x2-beta0.stl)                   | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Beta Part                               |
+| Item                                                                                                                                                     | Quantity | Material                                                | Printed | Notes                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ---------------------------- |
+| [adxl_mount_ldo_15mm_c_c](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/ADXL345_Mounts/sb_adxl_mount_ldo_15mm_c_c.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Spacing on my sensor is 15mm |
+| [adxl_washer](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/ADXL345_Mounts/sb_adxl_washer_x2.stl)                      | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                              |
 
 #### V6 Toolhead
 
-| Item                                                                                                                                                                                               | Quantity | Material                                                | Printed | Notes                                   |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | --------------------------------------- |
-| [toolhead\_(v6_r6)-front-beta4](<https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/Toolheads/revo_six_%26_v6/stealthburner_toolhead_(v6_r6)-front-beta4.stl>)       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Beta Part                     |
-| [toolhead\_(v6_r6)-rear-cw1-beta6](<https://github.com/VoronDesign/Voron-Afterburner/blob/sb-beta/STLs/Stealthburner/Toolheads/revo_six_%26_v6/stealthburner_toolhead_(v6_r6)-rear-cw1-beta6.stl>) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Beta Part for the Clockwork 1 |
+| Item                                                                                                                                                                              | Quantity | Material                                                | Printed | Notes               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ------------------- |
+| [printhead_v6_r6_front](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/Printheads/revo_six_and_v6/stealthburner_printhead_v6_r6_front.stl)       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                     |
+| [printhead_v6_r6_rear_cw1](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/Printheads/revo_six_and_v6/stealthburner_printhead_v6_r6_rear_cw1.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Clockwork 1 version |

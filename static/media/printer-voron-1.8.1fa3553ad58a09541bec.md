@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated May 28, 2022
+Updated November 26, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -39,31 +39,32 @@ The quantities here are from the 1.8 BOM, however I am planning on swapping out 
 
 I am aware that [the LDO Hardware Kit I purchased is for the 2.4](https://www.printyplease.uk/VoronPrinters/Voron2.4/LDO2.4Fasteners) and not the 1.8, however, all of the parts are the same except for the Knurled Nuts and it doesn't contain the Yellow Die Spring. I got a good discount on it (original price £83, I got it for £50) and I have sourced the missing quantities of parts from elsewhere. I should also have many spares left over for Mods and future projects.
 
-| Item                       | Quantity | Received | Notes |
-| -------------------------- | -------- | -------- | ----- |
-| M5x40 SHCS                 | 8        | 29       |       |
-| M5x30 BHCS                 | 6        | 15       |       |
-| M5x16 BHCS                 | 67       | 69       |       |
-| M5x10 BHCS                 | 71       | 104      |       |
-| M5 Hexnut                  | 8        | 19       |       |
-| M5 1mm Spacer              | 20       | 50       |       |
-| M5 T-nut                   | 83       | 130      |       |
-| M4x6 BHCS                  | 4        | 20       |       |
-| M3x40 SHCS                 | 5        | 20       |       |
-| M3x30 SHCS                 | 25       | 30       |       |
-| M3x20 SHCS                 | 10       | 26       |       |
-| M3x16 SHCS                 | 17       | 66       |       |
-| M3x12 SHCS                 | 30       | 77       |       |
-| M3x8 SHCS                  | 171      | 254      |       |
-| M3x6 BHCS                  | 20       | 47       |       |
-| M3 Hexnut                  | 7        | 50       |       |
-| M3 Washer                  | 10       | 50       |       |
-| M3 T-nut                   | 120      | 160      |       |
-| M3 Hammer Head T-nuts      | 54       | 97       |       |
-| M3 Threaded Insert         | 50       | 78       |       |
-| M3 Knurled Nut (DIN 466-B) | 3        | 5        |       |
-| M2x10 Self-Tapping Screw   | 7        | 51       |       |
-| Yellow Die Spring - M3     | 1        | 10       |       |
+| Item                       | Quantity | Received | Notes                                      |
+| -------------------------- | -------- | -------- | ------------------------------------------ |
+| M5x40 SHCS                 | 8        | 29       |                                            |
+| M5x30 BHCS                 | 6        | 15       |                                            |
+| M5x16 BHCS                 | 67       | 69       |                                            |
+| M5x10 BHCS                 | 71       | 104      |                                            |
+| M5 Hexnut                  | 8        | 19       |                                            |
+| M5 1mm Spacer              | 20       | 50       |                                            |
+| M5 T-nut                   | 83       | 130      |                                            |
+| M4x6 BHCS                  | 4        | 20       |                                            |
+| M3x40 SHCS                 | 5        | 20       |                                            |
+| M3x30 SHCS                 | 25       | 30       |                                            |
+| M3x20 SHCS                 | 10       | 26       |                                            |
+| M3x16 SHCS                 | 17       | 66       |                                            |
+| M3x12 SHCS                 | 30       | 77       |                                            |
+| M3x8 SHCS                  | 171      | 254      |                                            |
+| M3x6 BHCS                  | 20       | 47       |                                            |
+| M3 Hexnut                  | 7        | 50       |                                            |
+| M3 Washer                  | 10       | 50       |                                            |
+| M3 T-nut                   | 120      | 160      |                                            |
+| M3 Hammer Head T-nuts      | 54       | 97       |                                            |
+| M3 Threaded Insert         | 50       | 78       |                                            |
+| M3 Knurled Nut (DIN 466-B) | 1        | 5        | BOM specifies 3, replacing 2 rear with M4s |
+| M4 Knurled Nut (DIN 466-B) | 2        | 5        | Using these instead of 2 M3 at rear of bed |
+| M2x10 Self-Tapping Screw   | 7        | 51       |                                            |
+| Yellow Die Spring - M3     | 1        | 10       |                                            |
 
 ### Vibration Management
 
@@ -95,18 +96,18 @@ I have looked into a few different options for a new frame for my 3D Printer and
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-| Item                                       | Quantity | Received | Notes |
-| ------------------------------------------ | -------- | -------- | ----- |
-| GT2 20T Pulley (5mm ID 6mm W)              | 3        | 3        |       |
-| GT2 20T Toothed Idler (5mm ID 6mm W)       | 2        | 4        |       |
-| F695 Bearing                               | 20       | 30       |       |
-| LM8LUU Linear Bearing                      | 4        | 4        |       |
-| TR8x8 Leadscrew Nut                        | 2        | 6        |       |
-| 5x30mm Shaft                               | 1        | 1        |       |
-| BMG Extruder Components Kit                | 1        | 2        |       |
-| Linear Rail MGN9H 350mm                    | 4        | 4        |       |
-| Linear Shaft 8x320mm                       | 4        | 4        |       |
-| GT2 Open Belt LL-2GT-6 (6mm wide) - 1890mm | 2        | 4        |       |
+| Item                                       | Quantity | Received | Notes                                         |
+| ------------------------------------------ | -------- | -------- | --------------------------------------------- |
+| GT2 20T Pulley (5mm ID 6mm W)              | 3        | 3        |                                               |
+| GT2 20T Toothed Idler (5mm ID 6mm W)       | 2        | 4        |                                               |
+| F695 Bearing                               | 20       | 30       |                                               |
+| LM8LUU Linear Bearing                      | 4        | 4        |                                               |
+| TR8x4 Leadscrew Nut                        | 2        | 2        | Replaced the stock LDO Brass ones with Delrin |
+| 5x30mm Shaft                               | 1        | 1        |                                               |
+| BMG Extruder Components Kit                | 1        | 2        |                                               |
+| Linear Rail MGN9H 350mm                    | 4        | 4        |                                               |
+| Linear Shaft 8x320mm                       | 4        | 4        |                                               |
+| GT2 Open Belt LL-2GT-6 (6mm wide) - 1890mm | 2        | 4        |                                               |
 
 ### Print Bed
 
@@ -163,7 +164,7 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | SKR 1.4                            | 1        | 1        | I have the Turbo version                                                                                                                 |
 | TMC2209 Stepper Motor Driver       | 5        | 5        |                                                                                                                                          |
 | USB Cable A-male B-male            | 1        | 1        |                                                                                                                                          |
-| Raspberry Pi 4                     | 1        |          | Using Raspberry Pi 3B+ Instead as I already have one                                                                                     |
+| Raspberry Pi 4                     | 1        | 1        | 4GB RAM Version                                                                                                                          |
 | Mean Well LRS-200-24 PSU           | 1        | 1        |                                                                                                                                          |
 | Mean Well RS-25-5 PSU              | 1        | 1        |                                                                                                                                          |
 | Omron G3A-210B-DC5 SSR             | 1        | 1        |                                                                                                                                          |
@@ -172,7 +173,7 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | C13 Power Cord                     | 1        | 3        |                                                                                                                                          |
 | Thermal Fuse (120C)                | 1        | 5        |                                                                                                                                          |
 | NEMA17 Motor 17HS08-1004S          | 1        | 1        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit)                  |
-| NEMA17 TR8x8 300mm Linear Stepper  | 2        | 2        | In [LDO V1 Z Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-v1-z-motor-kit)                                      |
+| NEMA17 TR8x4 300mm Linear Stepper  | 2        | 2        | In [LDO V1 Z Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-v1-z-motor-kit)                                      |
 
 ### Panels
 
@@ -364,11 +365,11 @@ I carefully removed the carriages from the rails and soaked them in Isopropyl al
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
-| Item                                                                                                        | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes |
-| ----------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :----------------: | ----- |
-| [bed_mount_front](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/bed_mount_front.stl)        | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 10.22m | 26.05g | £0.49 | :heavy_check_mark: |       |
-| [z_bearing_block_a](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_bearing_block_a_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 7.09m  | 18.07g | £0.34 | :heavy_check_mark: |       |
-| [z_bearing_block_b](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_bearing_block_b_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 7.09m  | 18.07g | £0.34 | :heavy_check_mark: |       |
+| Item                                                                                                        | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                               |
+| ----------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :----------------: | --------------------------------------------------- |
+| [bed_mount_front](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/bed_mount_front.stl)        | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 10.22m | 26.05g | £0.49 | :heavy_check_mark: | Replaced later when [mounting the bed](#heated-bed) |
+| [z_bearing_block_a](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_bearing_block_a_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 7.09m  | 18.07g | £0.34 | :heavy_check_mark: |                                                     |
+| [z_bearing_block_b](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bed/z_bearing_block_b_x2.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 7.09m  | 18.07g | £0.34 | :heavy_check_mark: |                                                     |
 
 ##### Assembly
 
@@ -405,13 +406,13 @@ The bed frame will not only hold the bed, but will also be a base for the [Z end
 | Item                              | Quantity |
 | --------------------------------- | -------- |
 | Linear Shaft 8x320mm              | 4        |
-| M3 Hexnut                         | 4        |
+| M3 Nyloc Hexnut                   | 4        |
 | M3x12 SHCS                        | 12       |
 | M5 T-nut                          | 24       |
 | M5x10 BHCS                        | 20       |
 | M5x16 BHCS                        | 4        |
-| NEMA17 TR8x8 300mm Linear Stepper | 2        |
-| TR8x8 Leadscrew Nut               | 2        |
+| NEMA17 TR8x4 300mm Linear Stepper | 2        |
+| TR8x4 Leadscrew Nut               | 2        |
 
 ### X Axis
 
@@ -772,13 +773,14 @@ The manual says to install the DIN Rails after fitting the enclosure. I found it
 
 #### :wrench: Rear Electronics Brackets
 
-| Item                                                                                                                                                               | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----------------------------------------------------------- |
-| [controller_fan_guard](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_controller_fan_guard.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.80m | 4.59g  | £0.09 | :heavy_check_mark: |                                                             |
-| [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 5.44m | 13.88g | £0.26 | :heavy_check_mark: |                                                             |
-| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)                                                     | 3        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.51m | 3.84g  | £0.07 | :heavy_check_mark: | This is a Trident r1 Part. 2 for SKR and 1 for Raspberry Pi |
-| [raspberrypi_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/raspberrypi_bracket.stl)                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.77m | 4.51g  | £0.09 | :heavy_check_mark: | This is a Trident Part                                      |
-| [SKR_bracket_inline_2pc](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/SKR_bracket_inline_2pc.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.55m | 6.49g  | £0.12 | :heavy_check_mark: | This is a Trident Part                                      |
+| Item                                                                                                                                                               | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ------------------------------------------------------------------------------------ |
+| [controller_fan_guard](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_controller_fan_guard.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.80m | 4.59g  | £0.09 | :heavy_check_mark: |                                                                                      |
+| [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 5.44m | 13.88g | £0.26 | :heavy_check_mark: |                                                                                      |
+| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)                                                     | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.51m | 3.84g  | £0.07 |         3          | This is a Trident r1 Part. 2 for SKR, 1 for BTT MOT Expansion and 1 for Raspberry Pi |
+| [raspberrypi_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/raspberrypi_bracket.stl)                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.77m | 4.51g  | £0.09 | :heavy_check_mark: | This is a Trident Part                                                               |
+| [BTT_MOT_EXP_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/BTT_MOT_EXP_bracket.stl)                        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |       |        |       |        :x:         | This is a Trident Part                                                               |
+| [SKR_bracket_inline_set](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/SKR_bracket_inline_set.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.55m | 6.49g  | £0.12 | :heavy_check_mark: | This is a Trident Part                                                               |
 
 ##### Assembly
 
@@ -846,9 +848,13 @@ I originally printed this in PETG that would be fitted to [my HyperCube upgrade]
 
 ### Heated Bed
 
-![Print Bed Parts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/print-bed-parts.jpg)
+| Item                                                                                                                                 | Quantity | Material                                            | Size   | Weight | Cost  |      Printed       | Notes                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------- | ------ | ------ | ----- | :----------------: | ------------------------------------------- |
+| [bed_mount_front](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Voron%201.8%20Front%20Bed%20Mount/bed_mount_front.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 11.89m | 30.31g | £0.56 | :heavy_check_mark: | I modified this part to fit my off spec bed |
 
 #### :white_check_mark: Print Surface
+
+![Print Bed Parts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/print-bed-parts.jpg)
 
 ##### Assembly
 
@@ -886,7 +892,30 @@ After 24 hours I removed the weights and applied some masking tape 1cm from the 
 | Keenovo Silicone AC Heater w/ thermistor - 250x250mm (600W) | 1        |
 | MIC6 5/16" Plate - 12"x12"                                  | 1        |
 
-#### :negative_squared_cross_mark: Wiring
+#### :white_check_mark: Bed Mounting
+
+##### Assembly
+
+![Bed Installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/bed-installed.jpg)
+
+When mounting the bed, I noticed the mounting holes in the aluminum plate I purchased are a little different to the mounting holes in the [Drawings](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/Drawings/Voron_1.8_300mm_Bed_Drawing.pdf), my rear bed mounting holes are about 265mm from the front rather than 262mm.
+I have redesigned the front bed mount move the front mounting hole forward a few millimeters to compensate
+
+![Bed Mount](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/bed-mount.jpg)
+
+###### Parts Used
+
+| Item                       | Quantity |
+| -------------------------- | -------- |
+| M3 Knurled Nut (DIN 466-B) | 1        |
+| M3x16 SHCS                 | 2        |
+| M3x40 SHCS                 | 1        |
+| M3 T-nut                   | 2        |
+| M4 Knurled Nut (DIN 466-B) | 2        |
+| M5x16 SHCS                 | 2        |
+| Yellow Die Spring - M3     | 1        |
+
+#### :wrench: Wiring
 
 ##### Assembly
 
@@ -921,6 +950,8 @@ After 24 hours I removed the weights and applied some masking tape 1cm from the 
 **_NOTE:_** I have not been able to succesfully print the bottom panel hinges, they always seem to fuse up and the small pin just snaps when trying to free the hinge. I will print extra panel clips instead.
 
 ##### Assembly
+
+![Bottom Panel](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/bottom-panel.jpg)
 
 ###### Parts Used
 

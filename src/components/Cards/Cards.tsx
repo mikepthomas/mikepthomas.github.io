@@ -41,15 +41,9 @@ export default function Links() {
         </h2>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
           <Col>
-            <Card name="jFold" link="/jfold">
-              Java 11 Library to connect and call functions of the Client Remote
-              Interface in a Folding@Home v7 Client.
-            </Card>
-          </Col>
-          <Col>
-            <Card name="FAHServices" link="/fahservices">
-              Extension of work on FAHWeb. To create a REST API to be used by a
-              web front end to control Folding@Home v7 clients.
+            <Card name="FAHView" link="/fahview" archived={true}>
+              Final year University project. Viewer application to display
+              information from a Folding@Home client.
             </Card>
           </Col>
           <Col>
@@ -59,9 +53,15 @@ export default function Links() {
             </Card>
           </Col>
           <Col>
-            <Card name="FAHView" link="/fahview" archived={true}>
-              Final year University project. Viewer application to display
-              information from a Folding@Home client.
+            <Card name="FAHServices" link="/fahservices">
+              Extension of work on FAHWeb. To create a REST API to be used by a
+              web front end to control Folding@Home v7 clients.
+            </Card>
+          </Col>
+          <Col>
+            <Card name="jFold" link="/jfold">
+              Java 11 Library to connect and call functions of the Client Remote
+              Interface in a Folding@Home v7 Client.
             </Card>
           </Col>
         </Row>

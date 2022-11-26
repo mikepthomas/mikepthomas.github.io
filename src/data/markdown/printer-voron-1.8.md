@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated August 20, 2022
+Updated November 26, 2022
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -164,7 +164,7 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | SKR 1.4                            | 1        | 1        | I have the Turbo version                                                                                                                 |
 | TMC2209 Stepper Motor Driver       | 5        | 5        |                                                                                                                                          |
 | USB Cable A-male B-male            | 1        | 1        |                                                                                                                                          |
-| Raspberry Pi 4                     | 1        |          | Using Raspberry Pi 3B+ Instead as I already have one                                                                                     |
+| Raspberry Pi 4                     | 1        | 1        | 4GB RAM Version                                                                                                                          |
 | Mean Well LRS-200-24 PSU           | 1        | 1        |                                                                                                                                          |
 | Mean Well RS-25-5 PSU              | 1        | 1        |                                                                                                                                          |
 | Omron G3A-210B-DC5 SSR             | 1        | 1        |                                                                                                                                          |
@@ -773,13 +773,14 @@ The manual says to install the DIN Rails after fitting the enclosure. I found it
 
 #### :wrench: Rear Electronics Brackets
 
-| Item                                                                                                                                                               | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----------------------------------------------------------- |
-| [controller_fan_guard](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_controller_fan_guard.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.80m | 4.59g  | £0.09 | :heavy_check_mark: |                                                             |
-| [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 5.44m | 13.88g | £0.26 | :heavy_check_mark: |                                                             |
-| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)                                                     | 3        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.51m | 3.84g  | £0.07 | :heavy_check_mark: | This is a Trident r1 Part. 2 for SKR and 1 for Raspberry Pi |
-| [raspberrypi_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/raspberrypi_bracket.stl)                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.77m | 4.51g  | £0.09 | :heavy_check_mark: | This is a Trident Part                                      |
-| [SKR_bracket_inline_2pc](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/SKR_bracket_inline_2pc.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.55m | 6.49g  | £0.12 | :heavy_check_mark: | This is a Trident Part                                      |
+| Item                                                                                                                                                               | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ------------------------------------------------------------------------------------ |
+| [controller_fan_guard](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_controller_fan_guard.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.80m | 4.59g  | £0.09 | :heavy_check_mark: |                                                                                      |
+| [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 5.44m | 13.88g | £0.26 | :heavy_check_mark: |                                                                                      |
+| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)                                                     | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.51m | 3.84g  | £0.07 |         3          | This is a Trident r1 Part. 2 for SKR, 1 for BTT MOT Expansion and 1 for Raspberry Pi |
+| [raspberrypi_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/raspberrypi_bracket.stl)                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.77m | 4.51g  | £0.09 | :heavy_check_mark: | This is a Trident Part                                                               |
+| [BTT_MOT_EXP_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/BTT_MOT_EXP_bracket.stl)                        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |       |        |       |        :x:         | This is a Trident Part                                                               |
+| [SKR_bracket_inline_set](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/SKR_bracket_inline_set.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.55m | 6.49g  | £0.12 | :heavy_check_mark: | This is a Trident Part                                                               |
 
 ##### Assembly
 

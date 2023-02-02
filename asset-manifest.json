@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.0ecc42d1.css",
-    "main.js": "/static/js/main.f039ebd5.js",
+    "main.js": "/static/js/main.cde192c6.js",
     "static/js/444.a0435ea2.chunk.js": "/static/js/444.a0435ea2.chunk.js",
     "static/css/573.94c97534.chunk.css": "/static/css/573.94c97534.chunk.css",
-    "static/js/573.a1f1133b.chunk.js": "/static/js/573.a1f1133b.chunk.js",
-    "static/js/674.09ea189a.chunk.js": "/static/js/674.09ea189a.chunk.js",
+    "static/js/573.8ae627e3.chunk.js": "/static/js/573.8ae627e3.chunk.js",
+    "static/js/556.c88b34cf.chunk.js": "/static/js/556.c88b34cf.chunk.js",
     "static/media/banner.jpg": "/static/media/banner.9cbc9ef686c75e84369f.jpg",
     "static/media/wago-mounts.jpg": "/static/media/wago-mounts.b28170b6fe5cc1eb64f3.jpg",
     "static/media/frame-brace.jpg": "/static/media/frame-brace.c69cc01e586461289bb3.jpg",
@@ -240,14 +240,14 @@
     "static/media/guitar.md": "/static/media/guitar.d2f5bb2e22020eb420be.md",
     "index.html": "/index.html",
     "main.0ecc42d1.css.map": "/static/css/main.0ecc42d1.css.map",
-    "main.f039ebd5.js.map": "/static/js/main.f039ebd5.js.map",
+    "main.cde192c6.js.map": "/static/js/main.cde192c6.js.map",
     "444.a0435ea2.chunk.js.map": "/static/js/444.a0435ea2.chunk.js.map",
     "573.94c97534.chunk.css.map": "/static/css/573.94c97534.chunk.css.map",
-    "573.a1f1133b.chunk.js.map": "/static/js/573.a1f1133b.chunk.js.map",
-    "674.09ea189a.chunk.js.map": "/static/js/674.09ea189a.chunk.js.map"
+    "573.8ae627e3.chunk.js.map": "/static/js/573.8ae627e3.chunk.js.map",
+    "556.c88b34cf.chunk.js.map": "/static/js/556.c88b34cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ecc42d1.css",
-    "static/js/main.f039ebd5.js"
+    "static/js/main.cde192c6.js"
   ]
 }

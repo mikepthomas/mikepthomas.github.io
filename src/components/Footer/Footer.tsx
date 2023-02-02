@@ -37,7 +37,10 @@ export default function Footer() {
               Back to top
             </Link>
           </Col>
-          <Col>&copy; 2016-{new Date().getFullYear()} Mike Thomas, All rights reserved.</Col>
+          <Col>
+            &copy; 2016-{new Date().getFullYear()} Mike Thomas, All rights
+            reserved.
+          </Col>
         </Row>
       </Container>
     </footer>

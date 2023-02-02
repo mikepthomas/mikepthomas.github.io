@@ -125,9 +125,7 @@ const Projects = (props: Props) => {
                   </ul>
                 </li>
                 <li>
-                  <Link to="/projects/printer-extruders-and-toolheads">
-                    Extruders &amp; Toolheads
-                  </Link>
+                  <Link to="/projects/printer-rook">Rook</Link>
                 </li>
                 <li>
                   <Link to="/projects/printer-voron-1.8">Voron 1.8</Link>
@@ -143,6 +141,11 @@ const Projects = (props: Props) => {
                       </Link>
                     </li>
                   </ul>
+                </li>
+                <li>
+                  <Link to="/projects/printer-extruders-and-toolheads">
+                    Extruders &amp; Toolheads
+                  </Link>
                 </li>
                 <li>
                   <Link to="/projects/3d-lab-print-piper-cub">

@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.0ecc42d1.css",
-    "main.js": "/static/js/main.cde192c6.js",
+    "main.js": "/static/js/main.06f3837a.js",
     "static/js/444.a0435ea2.chunk.js": "/static/js/444.a0435ea2.chunk.js",
     "static/css/573.94c97534.chunk.css": "/static/css/573.94c97534.chunk.css",
-    "static/js/573.8ae627e3.chunk.js": "/static/js/573.8ae627e3.chunk.js",
-    "static/js/556.c88b34cf.chunk.js": "/static/js/556.c88b34cf.chunk.js",
+    "static/js/573.432b9d5a.chunk.js": "/static/js/573.432b9d5a.chunk.js",
+    "static/js/556.12a0f68c.chunk.js": "/static/js/556.12a0f68c.chunk.js",
     "static/media/banner.jpg": "/static/media/banner.9cbc9ef686c75e84369f.jpg",
     "static/media/wago-mounts.jpg": "/static/media/wago-mounts.b28170b6fe5cc1eb64f3.jpg",
     "static/media/frame-brace.jpg": "/static/media/frame-brace.c69cc01e586461289bb3.jpg",
@@ -232,6 +232,7 @@
     "static/media/printer-am8-switchwire.md": "/static/media/printer-am8-switchwire.16b70106fe463e82a9f4.md",
     "static/media/3d-lab-print-piper-cub.md": "/static/media/3d-lab-print-piper-cub.9650a6b85f5ec2949d4b.md",
     "static/media/printer-failures.md": "/static/media/printer-failures.af85a22e66b683cf592b.md",
+    "static/media/printer-rook.md": "/static/media/printer-rook.b83bc0d6228322a4cf15.md",
     "static/media/printer.md": "/static/media/printer.3640db1e60a594b47278.md",
     "static/media/printer-hardware-upgrades.md": "/static/media/printer-hardware-upgrades.90b1c292050045b09e1b.md",
     "static/media/openrc-mini-quad.md": "/static/media/openrc-mini-quad.145a35ac38c3405f8b4f.md",
@@ -240,14 +241,14 @@
     "static/media/guitar.md": "/static/media/guitar.d2f5bb2e22020eb420be.md",
     "index.html": "/index.html",
     "main.0ecc42d1.css.map": "/static/css/main.0ecc42d1.css.map",
-    "main.cde192c6.js.map": "/static/js/main.cde192c6.js.map",
+    "main.06f3837a.js.map": "/static/js/main.06f3837a.js.map",
     "444.a0435ea2.chunk.js.map": "/static/js/444.a0435ea2.chunk.js.map",
     "573.94c97534.chunk.css.map": "/static/css/573.94c97534.chunk.css.map",
-    "573.8ae627e3.chunk.js.map": "/static/js/573.8ae627e3.chunk.js.map",
-    "556.c88b34cf.chunk.js.map": "/static/js/556.c88b34cf.chunk.js.map"
+    "573.432b9d5a.chunk.js.map": "/static/js/573.432b9d5a.chunk.js.map",
+    "556.12a0f68c.chunk.js.map": "/static/js/556.12a0f68c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ecc42d1.css",
-    "static/js/main.cde192c6.js"
+    "static/js/main.06f3837a.js"
   ]
 }

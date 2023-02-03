@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated November 26, 2022
+Updated Febuary 3, 2023
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -76,7 +76,7 @@ I am aware that [the LDO Hardware Kit I purchased is for the 2.4](https://www.pr
 
 ![LDO Frame Kit](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/voron-frame.jpg)
 
-I have looked into a few different options for a new frame for my 3D Printer and eventually settled on an [LDO frame kit for a Voron 1.8](https://mechporium.co.uk/collections/v1-frame/products/ldo-voron-1-8-300-frame?variant=40879778988199). All these parts (Except for the DIN rails) come from this kit.
+I have looked into a few different options for a new frame for my 3D Printer and eventually settled on an LDO frame kit for a Voron 1.8. All these parts (Except for the DIN rails) come from this kit.
 
 | Item                                     | Quantity | Received | Notes                                 |
 | ---------------------------------------- | -------- | -------- | ------------------------------------- |
@@ -172,8 +172,8 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | BAT85 Diode                        | 1        | 7        | My Tronxy XY-08N seems to work fine on SKR 1.4 Turbo using endstop pins                                                                  |
 | C13 Power Cord                     | 1        | 3        |                                                                                                                                          |
 | Thermal Fuse (120C)                | 1        | 5        |                                                                                                                                          |
-| NEMA17 Motor 17HS08-1004S          | 1        | 1        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit)                  |
-| NEMA17 TR8x4 300mm Linear Stepper  | 2        | 2        | In [LDO V1 Z Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-v1-z-motor-kit)                                      |
+| NEMA17 Motor 17HS08-1004S          | 1        | 1        | In LDO Voron V1/V2 HT Motor Kit                                                                                                          |
+| NEMA17 TR8x4 300mm Linear Stepper  | 2        | 2        | In LDO V1 Z Motor Kit                                                                                                                    |
 
 ### Panels
 

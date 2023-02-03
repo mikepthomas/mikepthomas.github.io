@@ -1,6 +1,7 @@
 # 3D Printing a Mostly 3D Printed 3D Printer
 
-Feb 2, 2022 by [Mike Thomas](https://github.com/mikepthomas)
+Feb 2, 2023 by [Mike Thomas](https://github.com/mikepthomas),
+Updated Febuary 3, 2023
 
 Sourcing and printing parts to assemble a [Rook Legacy 3D Printer](https://github.com/rolohaun/Rook/tree/main/Legacy).
 

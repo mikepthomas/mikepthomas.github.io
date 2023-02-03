@@ -1,6 +1,7 @@
 # 3D Printing a Mostly 3D Printed 3D Printer
 
-Feb 2, 2022 by [Mike Thomas](https://github.com/mikepthomas)
+Feb 2, 2023 by [Mike Thomas](https://github.com/mikepthomas),
+Updated Febuary 3, 2023
 
 Sourcing and printing parts to assemble a [Rook Legacy 3D Printer](https://github.com/rolohaun/Rook/tree/main/Legacy).
 
@@ -33,7 +34,7 @@ Sourcing and printing parts to assemble a [Rook Legacy 3D Printer](https://githu
 
 | Item                              | Quantity | Received | Notes                                                  |
 | --------------------------------- | -------- | -------- | ------------------------------------------------------ |
-| Extruder                          | 1        | 1        | Using original Anet A8 Extruder with M8 Bowden Coupler |
+| Extruder                          | 1        | 1        | Using original Anet A8 Extruder with M6 Bowden Coupler |
 | F695 Bearing                      | 16       | 6        |                                                        |
 | GT2 20T Pulley (5mm ID 6mm W)     | 2        |          |                                                        |
 | GT2 Open Belt LL-2GT-6 (6mm wide) | 4m       | 4m       |                                                        |

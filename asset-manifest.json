@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.0ecc42d1.css",
-    "main.js": "/static/js/main.06f3837a.js",
+    "main.js": "/static/js/main.715575e2.js",
     "static/js/444.a0435ea2.chunk.js": "/static/js/444.a0435ea2.chunk.js",
     "static/css/573.94c97534.chunk.css": "/static/css/573.94c97534.chunk.css",
-    "static/js/573.432b9d5a.chunk.js": "/static/js/573.432b9d5a.chunk.js",
+    "static/js/573.d0e41d32.chunk.js": "/static/js/573.d0e41d32.chunk.js",
     "static/js/556.12a0f68c.chunk.js": "/static/js/556.12a0f68c.chunk.js",
     "static/media/banner.jpg": "/static/media/banner.9cbc9ef686c75e84369f.jpg",
     "static/media/wago-mounts.jpg": "/static/media/wago-mounts.b28170b6fe5cc1eb64f3.jpg",
@@ -201,7 +201,7 @@
     "static/media/y-belt-tensioner-updated.jpg": "/static/media/y-belt-tensioner-updated.c8b78e9d269b26fe7023.jpg",
     "static/media/y-belt-tensioner.jpg": "/static/media/y-belt-tensioner.c79309f1ac6788ffc279.jpg",
     "static/media/walls.jpg": "/static/media/walls.fe06f50594f9e1cdd132.jpg",
-    "static/media/printer-voron-1.8.md": "/static/media/printer-voron-1.8.1fa3553ad58a09541bec.md",
+    "static/media/printer-voron-1.8.md": "/static/media/printer-voron-1.8.87c807b652d3773f8793.md",
     "static/media/steering-assembly.png": "/static/media/steering-assembly.3f01b137b2b2d18c5922.png",
     "static/media/design.jpg": "/static/media/design.1ecdd44514d23c48c7ce.jpg",
     "static/media/front-c-hub-assembly.png": "/static/media/front-c-hub-assembly.c6b001742c46cf9d220d.png",
@@ -228,27 +228,28 @@
     "static/media/openrc-f1.md": "/static/media/openrc-f1.aaaedbe0447cf32f59cc.md",
     "static/media/printer-printed-upgrades.md": "/static/media/printer-printed-upgrades.d69270017bea802c0be3.md",
     "static/media/openrc-truggy.md": "/static/media/openrc-truggy.21685443ede85027c29c.md",
-    "static/media/printer-am8.md": "/static/media/printer-am8.36d696249eed5aa8a880.md",
+    "static/media/printer-am8.md": "/static/media/printer-am8.509123846adcfc7a225a.md",
     "static/media/printer-am8-switchwire.md": "/static/media/printer-am8-switchwire.16b70106fe463e82a9f4.md",
     "static/media/3d-lab-print-piper-cub.md": "/static/media/3d-lab-print-piper-cub.9650a6b85f5ec2949d4b.md",
     "static/media/printer-failures.md": "/static/media/printer-failures.af85a22e66b683cf592b.md",
-    "static/media/printer-rook.md": "/static/media/printer-rook.b83bc0d6228322a4cf15.md",
+    "static/media/printer-rook.md": "/static/media/printer-rook.bd3a2dc50302c1640367.md",
     "static/media/printer.md": "/static/media/printer.3640db1e60a594b47278.md",
     "static/media/printer-hardware-upgrades.md": "/static/media/printer-hardware-upgrades.90b1c292050045b09e1b.md",
+    "static/media/printer-polyformer.md": "/static/media/printer-polyformer.8f4acd6a4681c1e2f439.md",
     "static/media/openrc-mini-quad.md": "/static/media/openrc-mini-quad.145a35ac38c3405f8b4f.md",
     "static/media/red-rocket.md": "/static/media/red-rocket.35a63dd1898a1f68a8a6.md",
     "static/media/printer-enclosure.md": "/static/media/printer-enclosure.71de672817a77eb050b7.md",
     "static/media/guitar.md": "/static/media/guitar.d2f5bb2e22020eb420be.md",
     "index.html": "/index.html",
     "main.0ecc42d1.css.map": "/static/css/main.0ecc42d1.css.map",
-    "main.06f3837a.js.map": "/static/js/main.06f3837a.js.map",
+    "main.715575e2.js.map": "/static/js/main.715575e2.js.map",
     "444.a0435ea2.chunk.js.map": "/static/js/444.a0435ea2.chunk.js.map",
     "573.94c97534.chunk.css.map": "/static/css/573.94c97534.chunk.css.map",
-    "573.432b9d5a.chunk.js.map": "/static/js/573.432b9d5a.chunk.js.map",
+    "573.d0e41d32.chunk.js.map": "/static/js/573.d0e41d32.chunk.js.map",
     "556.12a0f68c.chunk.js.map": "/static/js/556.12a0f68c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ecc42d1.css",
-    "static/js/main.06f3837a.js"
+    "static/js/main.715575e2.js"
   ]
 }

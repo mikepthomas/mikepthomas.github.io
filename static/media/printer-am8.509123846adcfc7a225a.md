@@ -1,7 +1,7 @@
 # Upgrading the frame of my Anet A8
 
 May 28, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated June 11, 2022
+Updated Febuary 3, 2023
 
 The [AM8](https://www.thingiverse.com/thing:2263216) is a direct drop in replacement for the acrylic frame on the Anet A8.
 
@@ -42,15 +42,15 @@ It will be flashed with my [Marlin configuration](https://github.com/mikepthomas
 
 ### Y Axis
 
-| Item                                                                         | Quantity | Material                                                                   | Printed | Notes                                                                           |
-| ---------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ------------------------------------------------------------------------------- |
-| [Rear_Corner_Plate_Left](https://www.thingiverse.com/thing:2855523/files)    | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [penkerton](https://www.thingiverse.com/penkerton)           |
-| [Rear_Corner_Plate_Right](https://www.thingiverse.com/thing:2855523/files)   | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [penkerton](https://www.thingiverse.com/penkerton)           |
-| [Y_Belt_Block](https://www.thingiverse.com/thing:2342054/files)              | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [Blocki_Austria](https://www.thingiverse.com/Blocki_Austria) |
-| [Y_Belt_Tensioner](https://www.thingiverse.com/thing:2342054/files)          | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [Blocki_Austria](https://www.thingiverse.com/Blocki_Austria) |
-| [Y_Motor_Mount](https://www.thingiverse.com/thing:2657605/files)             | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [GrkMangas](https://www.thingiverse.com/GrkMangas)           |
-| [Y_Rod_Holder](https://www.thingiverse.com/thing:2263216/files)              | 3        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                                                                 |
-| [Y_Rod_Holder_With_Endstop](https://www.thingiverse.com/thing:2374305/files) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [cmccr88](https://www.thingiverse.com/cmccr88)               |
+| Item                                                                              | Quantity | Material                                                                   | Printed | Notes                                                                           |
+| --------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ------------------------------------------------------------------------------- |
+| [Rear_Corner_Plate_Left](https://www.thingiverse.com/thing:2855523/files)         | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [penkerton](https://www.thingiverse.com/penkerton)           |
+| [Rear_Corner_Plate_Right](https://www.thingiverse.com/thing:2855523/files)        | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [penkerton](https://www.thingiverse.com/penkerton)           |
+| [Y_Belt_Block](https://www.thingiverse.com/thing:2342054/files)                   | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [Blocki_Austria](https://www.thingiverse.com/Blocki_Austria) |
+| [Y_Belt_Tensioner](https://www.thingiverse.com/thing:2342054/files)               | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [Blocki_Austria](https://www.thingiverse.com/Blocki_Austria) |
+| [Y_Motor_Mount](https://www.thingiverse.com/thing:2657605/files)                  | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [GrkMangas](https://www.thingiverse.com/GrkMangas)           |
+| [Y_axis_Rod_Holder](https://www.thingiverse.com/thing:4028536/files)              | 3        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [morganlowe](https://www.thingiverse.com/morganlowe)         |
+| [Y_axis_Rod_Holder_with_endstop](https://www.thingiverse.com/thing:4028536/files) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [morganlowe](https://www.thingiverse.com/morganlowe)         |
 
 ### Z Axis
 

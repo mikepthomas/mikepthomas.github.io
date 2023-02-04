@@ -125,7 +125,7 @@ const Projects = (props: Props) => {
                   </ul>
                 </li>
                 <li>
-                  <Link to="/projects/printer-rook">Rook</Link>
+                  <Link to="/projects/printer-rook">Rook MK1</Link>
                 </li>
                 <li>
                   <Link to="/projects/printer-voron-1.8">Voron 1.8</Link>

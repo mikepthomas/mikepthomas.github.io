@@ -1,9 +1,9 @@
 # 3D Printing a Mostly 3D Printed 3D Printer
 
-Feb 2, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated Febuary 3, 2023
+Febuary 2, 2023 by [Mike Thomas](https://github.com/mikepthomas),
+Updated Febuary 4, 2023
 
-Sourcing and printing parts to assemble a [Rook Legacy 3D Printer](https://github.com/rolohaun/Rook/tree/main/Legacy).
+Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.com/rolohaun/Rook).
 
 ---
 
@@ -28,71 +28,84 @@ Sourcing and printing parts to assemble a [Rook Legacy 3D Printer](https://githu
 | M5x16              | 12       |          |                                |
 | M5x25              | 4        |          |                                |
 | M5x30              | 2        |          |                                |
-| M5 Washers         | 14       |          |                                |
+| M5 Washers         | 16       |          |                                |
 
 ### Motion
 
 | Item                              | Quantity | Received | Notes                                                  |
 | --------------------------------- | -------- | -------- | ------------------------------------------------------ |
-| Extruder                          | 1        | 1        | Using original Anet A8 Extruder with M6 Bowden Coupler |
-| F695 Bearing                      | 16       | 6        |                                                        |
-| GT2 20T Pulley (5mm ID 6mm W)     | 2        |          |                                                        |
+| Filament Extruder                 | 1        | 1        | Using original Anet A8 Extruder with M6 Bowden Coupler |
+| F695 Bearing                      | 18       | 6        |                                                        |
+| GT2 20T Pulley (5mm ID 6mm W)     | 3        |          |                                                        |
 | GT2 Open Belt LL-2GT-6 (6mm wide) | 4m       | 4m       |                                                        |
-| Lead Screw TR8x2 150mm            | 2        |          |                                                        |
-| Lead Screw Coupler 5x8            | 2        | 2        | Using original Anet A8 Spring Couplers                 |
 | Linear Rail MGN9C 200mm           | 2        |          |                                                        |
 | Linear Rail MGN9C 150mm           | 1        |          |                                                        |
-| Linear Shaft 8x150mm              | 4        |          |                                                        |
-| LM8UU Linear Bearing              | 4        | 4        |                                                        |
+| Linear Shaft 8x200mm              | 4        |          |                                                        |
+| LM8UU Linear Bearing              | 2        | 2        |                                                        |
 
 ### Print Bed
 
 | Item                   | Quantity | Received | Notes |
 | ---------------------- | -------- | -------- | ----- |
 | 6" Glass Picture Frame | 1        | 1        |       |
-| Yellow Die Spring - M3 | 4        | 4        |       |
+| Yellow Die Spring - M3 | 3        | 3        |       |
 
 ### Electronics
 
-| Item                         | Quantity | Received | Notes                               |
-| ---------------------------- | -------- | -------- | ----------------------------------- |
-| Nema 17 Stepper Motors       | 5        | 5        | Using original Anet A8 Steppers     |
-| CR10 Style Hotend            | 1        |          |                                     |
-| Power Supply                 | 1        | 1        | Using original Anet A8 Power Supply |
-| SKR 1.4                      | 1        |          |                                     |
-| SPDT KW10 Limit Micro Switch | 1        | 1        |                                     |
-| 120x120x32 Centrifugal Fan   | 1        |          |                                     |
-| 30x30x10 Axial Fan           | 1        | 1        |                                     |
+| Item                         | Quantity | Received | Notes                                                                                                                           |
+| ---------------------------- | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Nema 17 Stepper Motors       | 4        |          |                                                                                                                                 |
+| CR10 Style Hotend            | 1        |          |                                                                                                                                 |
+| Power Supply                 | 1        | 1        | Using original Anet A8 Power Supply                                                                                             |
+| Raspberry Pi Zero            | 1        | 1        | Using Zero 2W                                                                                                                   |
+| SKR Pico                     | 1        | 1        |                                                                                                                                 |
+| SPDT KW10 Limit Micro Switch | 1        | 1        |                                                                                                                                 |
+| 30x30x10 Axial Fan           | 1        | 1        |                                                                                                                                 |
+| 40x40x10 Centrifugal Fan     | 2        |          | Using instead of 120x120x32 Centrifugal Fan for the the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
 
 ## Printing Parts
 
 ### Frame
 
-| Item                                                                                                                                       | Quantity | Material | Printed | Notes                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------------ | -------- | -------- | :-----: | -------------------------------------------------- |
-| [Bed_Frame_v2](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Frame/Older%20STL%20with%20optional%20bed%20frames/Bed_Frame_v2.stl) | 1        |          |   :x:   |                                                    |
-| [Bed_Pad_for_springs](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Bed_Pad_for_springs.stl)                                      | 4        |          |   :x:   |                                                    |
-| [Bottom_Frame](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Frame/Bottom_Frame.stl)                                              | 1        |          |   :x:   |                                                    |
-| [Foot_Mount](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Frame/Foot_Mount.STL)                                                  | 4        |          |   :x:   |                                                    |
-| [Left_Motor_Mount](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Frame/Left_Motor_Mount.stl)                                      | 1        |          |   :x:   |                                                    |
-| [Right_Motor_Mount](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Frame/Right_Motor_Mount.stl)                                    | 1        |          |   :x:   |                                                    |
-| [SKR_3_Mount](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Frame/SKR_3_Mount.stl)                                                | 1        |          |   :x:   | This should also be the same mount for the SKR 1.4 |
-| [Top_Frame](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Frame/Top_Frame.stl)                                                    | 1        |          |   :x:   |                                                    |
-| [Z_endstop_Mount](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Frame/Z_endstop_Mount.stl)                                        | 1        |          |   :x:   |                                                    |
+| Item                                                                                                    | Quantity | Material | Printed | Notes                                                                      |
+| ------------------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | -------------------------------------------------------------------------- |
+| [Bed_Frame_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Bed/Bed_Frame_MK1.stl)                   | 1        |          |   :x:   |                                                                            |
+| [Bed_Pad_for_springs](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Bed_Pad_for_springs.stl)   | 3        |          |   :x:   |                                                                            |
+| [Bottom_Frame_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Bottom_Frame_MK1.stl)           | 1        |          |   :x:   |                                                                            |
+| [Foot_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Foot_Mount_MK1.STL)               | 4        |          |   :x:   |                                                                            |
+| [Left_Motor_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Left_Motor_Mount_MK1.stl)   | 1        |          |   :x:   |                                                                            |
+| [Right_Motor_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Right_Motor_Mount_MK1.stl) | 1        |          |   :x:   |                                                                            |
+| [SKR Pico PiZero - Inserts](https://www.printables.com/model/388353-rook-mk1-skr-pico-pi-zero-adapter)  | 1        |          |   :x:   | This is a mod by [Kanrog](https://www.printables.com/social/109495-kanrog) |
+| [Top_Frame_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Top_Frame_MK1.stl)                 | 1        |          |   :x:   |                                                                            |
+| [Rook Endstop](https://www.printables.com/model/381948-rook-mk1-low-profile-endstop)                    | 1        |          |   :x:   |                                                                            |
 
 ### Gantry
 
 | Item                                                                                                                     | Quantity | Material | Printed | Notes |
 | ------------------------------------------------------------------------------------------------------------------------ | -------- | -------- | :-----: | ----- |
-| [Left_Idler_v2\_\_polished](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Gantry/Left_Idler_v2__polished.stl)   | 1        |          |   :x:   |       |
-| [Right_Idler_v2\_\_polished](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Gantry/Right_Idler_v2__polished.stl) | 1        |          |   :x:   |       |
-| [X_Carriage_CR10_Style](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/X_Carriage_CR10_Style.stl)                | 1        |          |   :x:   |       |
-| [Y_Carriage_Left_polished](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Gantry/Y_Carriage_Left_polished.stl)   | 1        |          |   :x:   |       |
-| [Y_Carriage_Right_polished](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Gantry/Y_Carriage_Right_polished.stl) | 1        |          |   :x:   |       |
+| [Left_Idler_v2\_\_polished_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Gantry/Left_Idler_v2__polished_MK1.stl)   | 1        |          |   :x:   |       |
+| [Right_Idler_v2\_\_polished_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Gantry/Right_Idler_v2__polished_MK1.stl) | 1        |          |   :x:   |       |
+| [Y_Carriage_Left_polished_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Gantry/Y_Carriage_Left_polished_MK1.stl)   | 1        |          |   :x:   |       |
+| [Y_Carriage_Right_polished_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Gantry/Y_Carriage_Right_polished_MK1.stl) | 1        |          |   :x:   |       |
 
 ### Layer Cooling
 
-| Item                                                                                                                  | Quantity | Material | Printed | Notes |
-| --------------------------------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | ----- |
-| [120mm blower_Mount](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Layer%20Cooling/120mm%20blower_Mount.stl) | 1        |          |   :x:   |       |
-| [120mm_duct](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Layer%20Cooling/120mm_duct.stl)                   | 1        |          |   :x:   |       |
+| Item                                                                                                                  | Quantity | Material | Printed | Notes                                                                                         |
+| --------------------------------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | --------------------------------------------------------------------------------------------- |
+| [120mm blower_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Layer%20Cooling/120mm%20blower_Mount_MK1.stl) | 1        |          |   :x:   | Will replace with the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
+| [120mm_duct_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Layer%20Cooling/120mm_duct_MK1.stl)                   | 1        |          |   :x:   | Will replace with the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
+
+### Toolhead
+
+| Item                                                                                                                           | Quantity | Material | Printed | Notes                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------ | -------- | -------- | :-----: | --------------------------------------------------------------------------------------------- |
+| [Front_X_Carriage_CR10_Style_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Toolhead/Front_X_Carriage_CR10_Style_MK1.stl) | 1        |          |   :x:   | Will replace with the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
+| [Rear_X_Carriage_CR10_Style_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Toolhead/Rear_X_Carriage_CR10_Style_MK1.stl)   | 1        |          |   :x:   | Will replace with the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
+
+### Side-mounted spool and Extruder
+
+| Item                                                                                                          | Quantity | Material | Printed | Notes                                                                      |
+| ------------------------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | -------------------------------------------------------------------------- |
+| [motor-mount short V2](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files)    | 1        |          |   :x:   | This is a mod by [Kanrog](https://www.printables.com/social/109495-kanrog) |
+| [Front Vertical Spool V3](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files) | 1        |          |   :x:   | This is a mod by [Kanrog](https://www.printables.com/social/109495-kanrog) |
+| [Spool-hanger V3](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files)         | 1        |          |   :x:   | This is a mod by [Kanrog](https://www.printables.com/social/109495-kanrog) |

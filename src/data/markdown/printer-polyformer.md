@@ -1,6 +1,7 @@
 # Making 3D Printer Filament from Empty Plastic Bottles
 
-Febuary 3, 2023 by [Mike Thomas](https://github.com/mikepthomas)
+Febuary 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
+Updated February 4, 2023
 
 Sourcing and printing parts to assemble a [Polyformer](https://www.reiten.design/polyformer).
 
@@ -63,37 +64,37 @@ Sourcing and printing parts to assemble a [Polyformer](https://www.reiten.design
 
 I plan to start by using the [PolyPlank Mod](https://github.com/Reiten966/Polyformer/tree/main/User_Mods/Sean9%238523/PolyPlank) which means printing the bare minimum parts to get the machine working out of ABS and then hopefully print the rest of the Polyformer using recycled PET Bottle Filament.
 
-| Item                                                                                                                          | Quantity | Material | Printed | Notes |
-| ----------------------------------------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | ----- |
-| [Polyplank_Q4_2022](https://github.com/Reiten966/Polyformer/blob/main/User_Mods/Sean9%238523/PolyPlank/Polyplank_Q4_2022.3mf) | 1        |          |   :x:   |       |
+| Item                                                                                                                          | Quantity | Material                                            | Printed | Notes |
+| ----------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- | :-----: | ----- |
+| [Polyplank_Q4_2022](https://github.com/Reiten966/Polyformer/blob/main/User_Mods/Sean9%238523/PolyPlank/Polyplank_Q4_2022.3mf) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) |   :x:   |       |
 
 ### Bottle Cutter
 
-| Item                                                                                                                 | Quantity | Material | Printed | Notes |
-| -------------------------------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | ----- |
-| [Body](https://github.com/Reiten966/Polyformer/blob/main/STL/Bottle_Cutter/Body.stl)                                 | 1        |          |   :x:   |       |
-| [Bottle_Cap](https://github.com/Reiten966/Polyformer/blob/main/STL/Bottle_Cutter/Bottle_Cap.STL)                     | 1        |          |   :x:   |       |
-| [Bottle_Cap_Tensioner](https://github.com/Reiten966/Polyformer/blob/main/STL/Bottle_Cutter/Bottle_Cap_Tensioner.STL) | 1        |          |   :x:   |       |
-| [Bottle_Holder](https://github.com/Reiten966/Polyformer/blob/main/STL/Bottle_Cutter/Bottle_Holder.stl)               | 1        |          |   :x:   |       |
-| [Cutter](https://github.com/Reiten966/Polyformer/blob/main/STL/Bottle_Cutter/Cutter.stl)                             | 1        |          |   :x:   |       |
-| [Sliding_Gauge](https://github.com/Reiten966/Polyformer/blob/main/STL/Bottle_Cutter/Sliding_Gauge.stl)               | 1        |          |   :x:   |       |
+| Item                                                                                                                 | Quantity | Material                                                          | Printed | Notes |
+| -------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----- |
+| [Body](https://github.com/Reiten966/Polyformer/blob/main/STL/Bottle_Cutter/Body.stl)                                 | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| [Bottle_Cap](https://github.com/Reiten966/Polyformer/blob/main/STL/Bottle_Cutter/Bottle_Cap.STL)                     | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| [Bottle_Cap_Tensioner](https://github.com/Reiten966/Polyformer/blob/main/STL/Bottle_Cutter/Bottle_Cap_Tensioner.STL) | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| [Bottle_Holder](https://github.com/Reiten966/Polyformer/blob/main/STL/Bottle_Cutter/Bottle_Holder.stl)               | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| [Cutter](https://github.com/Reiten966/Polyformer/blob/main/STL/Bottle_Cutter/Cutter.stl)                             | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| [Sliding_Gauge](https://github.com/Reiten966/Polyformer/blob/main/STL/Bottle_Cutter/Sliding_Gauge.stl)               | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
 
 ### Gearbox
 
-| Item                                                                                                           | Quantity | Material | Printed | Notes |
-| -------------------------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | ----- |
-| [Gear_Box_CAM](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_CAM.stl)                 | 1        |          |   :x:   |       |
-| [Gear_Box_Cap](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Cap.stl)                 | 1        |          |   :x:   |       |
-| [Gear_Box_Fan](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Fan.stl)                 | 1        |          |   :x:   |       |
-| [Gear_Box_Motor_Mount](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Motor_Mount.stl) | 1        |          |   :x:   |       |
-| [Gear_Box_Output_Gear](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Output_Gear.stl) | 1        |          |   :x:   |       |
-| [Gear_Box_Ring_Gear](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Ring_Gear.stl)     | 1        |          |   :x:   |       |
+| Item                                                                                                           | Quantity | Material                                                          | Printed | Notes |
+| -------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----- |
+| [Gear_Box_CAM](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_CAM.stl)                 | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| [Gear_Box_Cap](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Cap.stl)                 | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| [Gear_Box_Fan](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Fan.stl)                 | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| [Gear_Box_Motor_Mount](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Motor_Mount.stl) | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| [Gear_Box_Output_Gear](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Output_Gear.stl) | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| [Gear_Box_Ring_Gear](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Ring_Gear.stl)     | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
 
 ### Spool
 
-| Item                                                                                                                                          | Quantity | Material | Printed | Notes |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | ----- |
-| [Filament_Mount_Meltzone_Side](https://github.com/Reiten966/Polyformer/blob/main/STL/Spool/Filament_Mount_Meltzone_Side.stl)                  | 1        |          |   :x:   |       |
-| [Filament_Mount_Spool_Side](https://github.com/Reiten966/Polyformer/blob/main/STL/Spool/%5BAccent%20Color%5D%20Filament_Mount_Spool_Side.stl) | 1        |          |   :x:   |       |
-| [Spool_Body](https://github.com/Reiten966/Polyformer/blob/main/STL/Spool/%5BAccent%20Color%5D%20Spool_Body.stl)                               | 1        |          |   :x:   |       |
-| [Spool_Shield_Left](https://github.com/Reiten966/Polyformer/blob/main/STL/Spool/%5BAccent%20Color%5D%20Spool_Shield_Left.stl)                 | 1        |          |   :x:   |       |
+| Item                                                                                                                                          | Quantity | Material                                                          | Printed | Notes |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----- |
+| [Filament_Mount_Meltzone_Side](https://github.com/Reiten966/Polyformer/blob/main/STL/Spool/Filament_Mount_Meltzone_Side.stl)                  | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| [Filament_Mount_Spool_Side](https://github.com/Reiten966/Polyformer/blob/main/STL/Spool/%5BAccent%20Color%5D%20Filament_Mount_Spool_Side.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)               |   :x:   |       |
+| [Spool_Body](https://github.com/Reiten966/Polyformer/blob/main/STL/Spool/%5BAccent%20Color%5D%20Spool_Body.stl)                               | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)               |   :x:   |       |
+| [Spool_Shield_Left](https://github.com/Reiten966/Polyformer/blob/main/STL/Spool/%5BAccent%20Color%5D%20Spool_Shield_Left.stl)                 | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)               |   :x:   |       |

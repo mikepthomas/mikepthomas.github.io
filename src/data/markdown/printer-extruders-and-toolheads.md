@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated August 20, 2022
+Updated February 4, 2023
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -15,6 +15,7 @@ Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 2. [ANET A8 BMG Direct Drive](#anet-a8-bmg-direct-drive)
 3. [Voron M4](#voron-m4)
 4. [Voron Afterburner/Stealthburner](#voron-afterburner-stealthburner)
+5. [Rook Fan Rookery](#rook-fan-rookery)
 
 ## Anet A8 MK8
 
@@ -242,3 +243,22 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ------------------- |
 | [printhead_v6_r6_front](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/Printheads/revo_six_and_v6/stealthburner_printhead_v6_r6_front.stl)       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                     |
 | [printhead_v6_r6_rear_cw1](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/Printheads/revo_six_and_v6/stealthburner_printhead_v6_r6_rear_cw1.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Clockwork 1 version |
+
+## Rook Fan Rookery
+
+The [Rook](printer-rook.md) printer's stock part cooling uses a large 120mm blower fan attached to the rear of the printer. The Rookery toolhead adds fans to the toolhead for part cooling instead.
+
+### Sourcing Parts
+
+| Item                     | Quantity | Received | Notes |
+| ------------------------ | -------- | -------- | ----- |
+| 30x30x10 Axial Fan       | 1        |          |       |
+| 40x40x10 Centrifugal Fan | 2        |          |       |
+
+### Printing Parts
+
+| Item                                                                                                                                   | Quantity | Material | Printed | Notes |
+| -------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | ----- |
+| [Belt Cradle](https://github.com/Gulsifer/Rook-Fan-Rookery/blob/main/Fan%20Rookery%20_%20Belt%20Cradle.STL)                            | 1        |          |   :x:   |       |
+| [Fan Shroud 4010 Short](https://github.com/Gulsifer/Rook-Fan-Rookery/blob/main/Fan%20Shroud%204010%20Short.STL)                        | 1        |          |   :x:   |       |
+| [Hot End Cradle 4010](https://github.com/Gulsifer/Rook-Fan-Rookery/blob/main/4010%20Fan%20Rookery%20_%20Hot%20End%20Cradle%204010.STL) | 1        |          |   :x:   |       |

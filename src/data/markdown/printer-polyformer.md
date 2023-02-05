@@ -1,7 +1,7 @@
 # Making 3D Printer Filament from Empty Plastic Bottles
 
 Febuary 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated February 4, 2023
+Updated February 5, 2023
 
 Sourcing and printing parts to assemble a [Polyformer](https://www.reiten.design/polyformer).
 
@@ -10,7 +10,8 @@ Sourcing and printing parts to assemble a [Polyformer](https://www.reiten.design
 ## Table of contents
 
 1. [Sourcing Parts](#sourcing-parts)
-2. [Printing Parts](#printing-parts)
+2. [PolyPlank Mod](#polyplank-mod)
+3. [Printing Parts](#printing-parts)
 
 ## Sourcing Parts
 
@@ -58,15 +59,13 @@ Sourcing and printing parts to assemble a [Polyformer](https://www.reiten.design
 | ---------------------- | -------- | -------- | ----- |
 | 6x3mm Neodimium Magnet | 24       |          |       |
 
-## Printing Parts
+## PolyPlank Mod
 
-### PolyPlank Mod
+I plan to start by using the [PolyPlank Mod](https://github.com/Reiten966/Polyformer/tree/main/User_Mods/Sean9%238523/PolyPlank) which means printing the bare minimum parts to get the machine working out of ABS.
 
-I plan to start by using the [PolyPlank Mod](https://github.com/Reiten966/Polyformer/tree/main/User_Mods/Sean9%238523/PolyPlank) which means printing the bare minimum parts to get the machine working out of ABS and then hopefully print the rest of the Polyformer using recycled PET Bottle Filament.
-
-| Item                                                                                                                          | Quantity | Material                                            | Printed | Notes |
-| ----------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------- | :-----: | ----- |
-| [Polyplank_Q4_2022](https://github.com/Reiten966/Polyformer/blob/main/User_Mods/Sean9%238523/PolyPlank/Polyplank_Q4_2022.3mf) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) |   :x:   |       |
+| Item                                                                                                                          | Quantity | Material                                                         | Printed | Notes |
+| ----------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------- | :-----: | ----- |
+| [Polyplank_Q4_2022](https://github.com/Reiten966/Polyformer/blob/main/User_Mods/Sean9%238523/PolyPlank/Polyplank_Q4_2022.3mf) | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) |   :x:   |       |
 
 ### Bottle Cutter
 
@@ -81,14 +80,14 @@ I plan to start by using the [PolyPlank Mod](https://github.com/Reiten966/Polyfo
 
 ### Gearbox
 
-| Item                                                                                                           | Quantity | Material                                                          | Printed | Notes |
-| -------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----- |
-| [Gear_Box_CAM](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_CAM.stl)                 | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
-| [Gear_Box_Cap](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Cap.stl)                 | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
-| [Gear_Box_Fan](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Fan.stl)                 | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
-| [Gear_Box_Motor_Mount](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Motor_Mount.stl) | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
-| [Gear_Box_Output_Gear](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Output_Gear.stl) | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
-| [Gear_Box_Ring_Gear](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Ring_Gear.stl)     | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| Item                                                                                                           | Quantity | Material                                                         | Printed | Notes |
+| -------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------- | :-----: | ----- |
+| [Gear_Box_CAM](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_CAM.stl)                 | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) |   :x:   |       |
+| [Gear_Box_Cap](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Cap.stl)                 | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) |   :x:   |       |
+| [Gear_Box_Fan](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Fan.stl)                 | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) |   :x:   |       |
+| [Gear_Box_Motor_Mount](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Motor_Mount.stl) | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) |   :x:   |       |
+| [Gear_Box_Output_Gear](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Output_Gear.stl) | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) |   :x:   |       |
+| [Gear_Box_Ring_Gear](https://github.com/Reiten966/Polyformer/blob/main/STL/Gearbox/Gear_Box_Ring_Gear.stl)     | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) |   :x:   |       |
 
 ### Spool
 
@@ -98,3 +97,64 @@ I plan to start by using the [PolyPlank Mod](https://github.com/Reiten966/Polyfo
 | [Filament_Mount_Spool_Side](https://github.com/Reiten966/Polyformer/blob/main/STL/Spool/%5BAccent%20Color%5D%20Filament_Mount_Spool_Side.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)               |   :x:   |       |
 | [Spool_Body](https://github.com/Reiten966/Polyformer/blob/main/STL/Spool/%5BAccent%20Color%5D%20Spool_Body.stl)                               | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)               |   :x:   |       |
 | [Spool_Shield_Left](https://github.com/Reiten966/Polyformer/blob/main/STL/Spool/%5BAccent%20Color%5D%20Spool_Shield_Left.stl)                 | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)               |   :x:   |       |
+
+## Printing Parts
+
+Once I have hopefully made some PET Filament I plan to eventually print the rest of the Polyformer using the recycled PET Bottle Filament.
+
+### Ribbon Cartridge
+
+| Item                                                                                                                                                    | Quantity | Material                                   | Printed | Notes |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------ | :-----: | ----- |
+| [Ribbon_Cartridge_Body](https://github.com/Reiten966/Polyformer/blob/main/STL/Carriages/Ribbon_Cartridge_Body_2x.stl)                                   | 2        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Ribbon_Cartridge_Cap](https://github.com/Reiten966/Polyformer/blob/main/STL/Carriages/Ribbon_Cartridge_Cap_2x.stl)                                     | 2        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Ribbon_Cartridge_Turning_Key](https://github.com/Reiten966/Polyformer/blob/main/STL/Carriages/%5BAccent%20Color%5D%20Ribbon_Cartridge_Turning_Key.stl) | 1        | Recycled PET Bottle Filament Accent Colour |   :x:   |       |
+
+### Carriages
+
+| Item                                                                                                                                             | Quantity | Material                                                          | Printed | Notes |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ----------------------------------------------------------------- | :-----: | ----- |
+| [Electronics_Bracket](https://github.com/Reiten966/Polyformer/blob/main/STL/Carriages/Electronics_Bracket_4x.stl)                                | 4        | Recycled PET Bottle Filament                                      |   :x:   |       |
+| [Filament_Guidler](<https://github.com/Reiten966/Polyformer/blob/main/STL/Carriages/Filament_Guidler_(built_in_supports).stl>)                   | 1        | Recycled PET Bottle Filament                                      |   :x:   |       |
+| [Filament_Guidler_Mirrored](<https://github.com/Reiten966/Polyformer/blob/main/STL/Carriages/Filament_Guidler_Mirrored_(built_in_supports).stl>) | 1        | Recycled PET Bottle Filament                                      |   :x:   |       |
+| [Filament_Guidler_Spindle](https://github.com/Reiten966/Polyformer/blob/main/STL/Carriages/Filament_Guidler_Spindle.stl)                         | 1        | Recycled PET Bottle Filament                                      |   :x:   |       |
+| [Inlet](https://github.com/Reiten966/Polyformer/blob/main/STL/Carriages/Inlet.stl)                                                               | 1        | Recycled PET Bottle Filament                                      |   :x:   |       |
+| [Meltzone](https://github.com/Reiten966/Polyformer/blob/main/STL/Carriages/Meltzone.stl)                                                         | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| [Meltzone_Wings](https://github.com/Reiten966/Polyformer/blob/main/STL/Carriages/Meltzone_Wings_2x.stl)                                          | 2        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
+| [Ribbon_Cartridge_Holder](<https://github.com/Reiten966/Polyformer/blob/main/STL/Carriages/Ribbon_Cartridge_Holder_(built_in_supports).stl>)     | 1        | Recycled PET Bottle Filament                                      |   :x:   |       |
+
+### Main Body
+
+| Item                                                                                                                                                | Quantity | Material                                   | Printed | Notes                                    |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------ | :-----: | ---------------------------------------- |
+| [Feet](https://github.com/Reiten966/Polyformer/blob/main/STL/Main_Body/Feet_x2.stl)                                                                 | 2        | Recycled PET Bottle Filament               |   :x:   |                                          |
+| [Left_Lower_Arm](<https://github.com/Reiten966/Polyformer/blob/main/STL/Main_Body/Left_Lower_Arm_(Built-in%20Supports).stl>)                        | 1        | Recycled PET Bottle Filament               |   :x:   |                                          |
+| [Left_Upper_Arm](<https://github.com/Reiten966/Polyformer/blob/main/STL/Main_Body/Left_Upper_Arm_(Built-in%20Supports).stl>)                        | 1        | Recycled PET Bottle Filament               |   :x:   |                                          |
+| [Panel_Stabilizer](https://github.com/Reiten966/Polyformer/blob/main/STL/Main_Body/Panel_Stabilizer_x2.stl)                                         | 2        | Recycled PET Bottle Filament               |   :x:   |                                          |
+| [Right_Arm_Connector](https://github.com/Reiten966/Polyformer/blob/main/STL/Main_Body/Right_Arm_Connector.stl)                                      | 1        | Recycled PET Bottle Filament               |   :x:   |                                          |
+| [Right_Lower_Arm](<https://github.com/Reiten966/Polyformer/blob/main/STL/Main_Body/Right_Lower_Arm_(Built-in%20Supports).stl>)                      | 1        | Recycled PET Bottle Filament               |   :x:   |                                          |
+| [Right_Upper_Arm](https://github.com/Reiten966/Polyformer/blob/main/STL/Main_Body/Right_Upper_Arm.stl)                                              | 1        | Recycled PET Bottle Filament               |   :x:   | Replaces [PolyPlank Mod](#polyplank-mod) |
+| [Spool_Shaft](https://github.com/Reiten966/Polyformer/blob/main/STL/Main_Body/%5BAccent%20Color%5D%20Spool_Shaft.STL)                               | 1        | Recycled PET Bottle Filament Accent Colour |   :x:   |                                          |
+| [Spool_Shaft_Knob](https://github.com/Reiten966/Polyformer/blob/main/STL/Main_Body/%5BAccent%20Color%5D%20Spool_Shaft_Knob.stl)                     | 1        | Recycled PET Bottle Filament Accent Colour |   :x:   |                                          |
+| [Spool_Shaft_Knob_Tensioner](https://github.com/Reiten966/Polyformer/blob/main/STL/Main_Body/%5BAccent%20Color%5D%20Spool_Shaft_Knob_Tensioner.stl) | 1        | Recycled PET Bottle Filament Accent Colour |   :x:   |                                          |
+| [Trim_Plate](https://github.com/Reiten966/Polyformer/blob/main/STL/Main_Body/%5BAccent%20Color%5D%20Trim_Plate_x2.stl)                              | 2        | Recycled PET Bottle Filament Accent Colour |   :x:   |                                          |
+
+### Panels
+
+| Item                                                                                                                                           | Quantity | Material                                   | Printed | Notes |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------ | :-----: | ----- |
+| [Left_Lower_Panel_First_Half](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Left_Lower_Panel_First_Half.stl>)     | 1        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Left_Lower_Panel_Second_Half](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Left_Lower_Panel_Second_Half.stl>)   | 1        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Left_Upper_Panel_First_Half](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Left_Upper_Panel_First_Half.STL>)     | 1        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Left_Upper_Panel_Second_Half](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Left_Upper_Panel_Second_Half.STL>)   | 1        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Panel_Locks](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Panel_Locks_x6.stl>)                                  | 6        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Rail_Cap_Left](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Rail_Cap_Left.stl>)                                 | 1        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Rail_Cap_Right](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Rail_Cap_Right.stl>)                               | 1        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Right_Lower_Panel_First_Half](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Right_Lower_Panel_First_Half.stl>)   | 1        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Right_Lower_Panel_Second_Half](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Right_Lower_Panel_Second_Half.stl>) | 1        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Right_Upper_Panel_First_Half](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Right_Upper_Panel_First_Half.stl>)   | 1        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Right_Upper_Panel_Second_Half](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Right_Upper_Panel_Second_Half.stl>) | 1        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Screen_Mount](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Screen_Mount.stl>)                                   | 1        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Top_Panel](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Top_Panel.stl>)                                         | 1        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Top_Panel_Shaft](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/Top_Panel_Shaft.stl>)                             | 1        | Recycled PET Bottle Filament               |   :x:   |       |
+| [Screen_Dial](<https://github.com/Reiten966/Polyformer/blob/main/STL/Panels%20(Optional)/%5BAccent_Color%5D%20Screen_Dial.stl>)                | 1        | Recycled PET Bottle Filament Accent Colour |   :x:   |       |

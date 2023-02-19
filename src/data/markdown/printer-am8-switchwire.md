@@ -1,7 +1,7 @@
 # Upgrading the Anet A8 to an AM8 Switchwire
 
 July 23, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated August 1, 2022
+Updated February 19, 2023
 
 Upgrading the Anet A8 to a metal frame with CoreXZ kinematics with the [AM8 Switchwire Mod](https://github.com/maximilian-foerg/AM8-Switchwire-Mod).
 
@@ -72,10 +72,10 @@ I will install Klipper on the Anet A8 mainboard, and use it in conjunction with 
 
 ### Electronics
 
-| Item                                                                                                                     | Quantity | Material                                                                   | Printed | Notes                                                             |
-| ------------------------------------------------------------------------------------------------------------------------ | -------- | -------------------------------------------------------------------------- | :-----: | ----------------------------------------------------------------- |
-| [PSU_Mount](https://www.thingiverse.com/thing:2430529/files)                                                             | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [dziliak](https://www.thingiverse.com/dziliak) |
-| [raspberry_pi_mount](https://github.com/VoronDesign/Voron-Switchwire/blob/master/STL/Electronics/raspberry_pi_mount.stl) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | For the SKR Pico as it has the same bolt pattern.                 |
+| Item                                                                                                            | Quantity | Material                                                                   | Printed | Notes                                                                                |
+| --------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ------------------------------------------------------------------------------------ |
+| [PSU_Mount](https://www.thingiverse.com/thing:2430529/files)                                                    | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [dziliak](https://www.thingiverse.com/dziliak)                    |
+| [skr_pico_mount_v2](https://www.printables.com/model/244991-ender-3-skr-pico-mount-for-voron-switchwire-conver) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [thomasfjen](https://www.printables.com/social/222021-thomasfjen) |
 
 ### XZ Axis
 

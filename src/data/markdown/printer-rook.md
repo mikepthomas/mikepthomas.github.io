@@ -1,7 +1,7 @@
 # 3D Printing a Mostly 3D Printed 3D Printer
 
 Febuary 2, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated Febuary 4, 2023
+Updated Febuary 19, 2023
 
 Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.com/rolohaun/Rook).
 
@@ -54,7 +54,7 @@ Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.c
 
 | Item                         | Quantity | Received | Notes                                                                                                                           |
 | ---------------------------- | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Nema 17 Stepper Motors       | 4        |          |                                                                                                                                 |
+| Nema 17 Stepper Motors       | 4        | 4        | Using original Anet A8 X/Y/Z1/Z2 Stepper Motors                                                                                 |
 | CR10 Style Hotend            | 1        |          |                                                                                                                                 |
 | Power Supply                 | 1        | 1        | Using original Anet A8 Power Supply                                                                                             |
 | Raspberry Pi Zero            | 1        | 1        | Using Zero 2W                                                                                                                   |

@@ -1,7 +1,7 @@
 # Building an Enraged Rabbit Carrot Feeder
 
 Febuary 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 23, 2022
+Updated February 19, 2023
 
 Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRabbitProject) to print using multiple colours of filament on the Voron.
 
@@ -96,32 +96,32 @@ I have some of the parts required left over from the build of the [Voron](printe
 ### Enraged Rabbit Carrot Patch
 
 The [Enraged Rabbit Carrot Patch](https://github.com/EtteGit/EnragedRabbitProject) manages filament reels being used by the Enraged Rabbit Carrot Feeder.
-Quantities are for 1 Patch. I should have enough parts for 4 patches.
+Quantities are for 1 Patch. I should have enough parts for 6 patches.
 
 #### Fasteners
 
 | Item                | Quantity | Received | Notes |
 | ------------------- | -------- | -------- | ----- |
-| M3 threaded inserts | 4        | 16       |       |
-| M3x8 SHCS           | 2        | 8        |       |
-| M3x16 SHCS          | 1        | 4        |       |
-| M3x20 SHCS          | 1        | 4        |       |
-| M5 nylock nuts      | 1        | 4        |       |
-| M5x30 BHCS          | 1        | 4        |       |
+| M3 threaded inserts | 4        | 24       |       |
+| M3x8 SHCS           | 2        | 12       |       |
+| M3x16 SHCS          | 1        | 6        |       |
+| M3x20 SHCS          | 1        | 6        |       |
+| M5 nylock nuts      | 1        | 6        |       |
+| M5x30 BHCS          | 1        | 6        |       |
 
 #### Misc
 
 | Item                             | Quantity | Received | Notes |
 | -------------------------------- | -------- | -------- | ----- |
-| Bowden Clip                      | 2        | 8        |       |
-| Bowden Fitting                   | 2        | 8        |       |
-| PTFE Tube (4mm OD 3mm ID) - 25cm | 1        | 4        |       |
+| Bowden Clip                      | 2        | 12       |       |
+| Bowden Fitting                   | 2        | 12       |       |
+| PTFE Tube (4mm OD 3mm ID) - 30cm | 1        | 2m       |       |
 
 #### Motion
 
 | Item          | Quantity | Received | Notes |
 | ------------- | -------- | -------- | ----- |
-| 608ZZ Bearing | 1        | 4        |       |
+| 608ZZ Bearing | 1        | 6        |       |
 
 ## Printing Parts
 

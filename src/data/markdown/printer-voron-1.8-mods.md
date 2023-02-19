@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated November 26, 2022
+Updated February 19, 2023
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -25,13 +25,15 @@ List of upgrades that I plan on adding from the printer mods directory of the Vo
 14. [Klicky Probe](#klicky-probe)
 15. [Wago Mounts](#wago-mounts)
 16. [MKS Mosfet Mount](#mks-mosfet-mount)
-17. [Cable Management Duct](#cable-management-duct)
+17. [BTT UPS 24V DIN Mount](#btt-ups-24v-din-mount)
 18. [Corner Cable Cover](#corner-cable-cover)
 19. [Power Supply Cover](#power-supply-cover)
 20. [Deck Panel Support Clips](#deck-panel-support-clips)
 21. [Klipper Expander](#klipper-expander)
 22. [BTT 5" Screen case](#btt-5--screen-case)
 23. [Nevermore Micro V5 Duo](#nevermore-micro-v5-duo)
+24. [LDO Beefy Raspberry Pi Bracket](#ldo-beefy-raspberry-pi-bracket)
+25. [LDO Toolhead Breakout PCB Bracket](#ldo-toolhead-breakout-pcb-bracket)
 
 ## Mods
 
@@ -436,22 +438,21 @@ A mount for a [BIQU116-A2 MKS Mosfet](https://www.biqu.equipment/products/3d-pri
 | ------------------------ | -------- |
 | M2x10 Self-Tapping Screw | 6        |
 
-### Cable Management Duct
+### BTT UPS 24V DIN Mount
 
-A cable management duct to tidy up the wiring in the electronics case.
+A mount for a [BigTreeTech 24V UPS Module](https://github.com/bigtreetech/BIGTREETECH-MINI-UPS-V2.0/tree/master/BTT%20UPS%2024V%20V1.0) using a metal SSR DIN clamp.
 
-| Item                                                                                                                                       | Quantity | Material                                            | Size  | Weight | Cost  | Printed | Notes                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------- | ----- | ------ | ----- | :-----: | ------------------------------------ |
-| [CableDuctBody](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/ryandam/Cable_management_duct/STLs/CableDuctBody.stl)   | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 4.59m | 11.70g | £0.22 |   :x:   | This is a Voron Users Mod by ryandam |
-| [CableDuctCover](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/ryandam/Cable_management_duct/STLs/CableDuctCover.stl) | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 2.13m | 5.42g  | £0.10 |   :x:   | This is a Voron Users Mod by ryandam |
+| Item                                                                                                                                         | Quantity | Material                                                | Size | Weight | Cost | Printed | Notes                               |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----------------------------------- |
+| [BTT_UPS_24V_DIN](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Oakman/BTT_24V_UPS_Metal_DIN_Mount/BTT_UPS_24V_DIN.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   | This is a Voron Users Mod by Oakman |
 
 #### Assembly
 
 ##### Parts Used
 
-| Item             | Quantity |
-| ---------------- | -------- |
-| 3M VHB Tape 5952 | 1        |
+| Item      | Quantity |
+| --------- | -------- |
+| M4x6 BHCS | 4        |
 
 ### Corner Cable Cover
 
@@ -581,3 +582,37 @@ The [Nevermore Micro V5 Duo](https://github.com/nevermore3d/Nevermore_Micro) fil
 | M3x6 BHCS                          | 2        |
 | M3x4 BHCS                          | 1        |
 | M3 Hammer Head T-nuts              | 2        |
+
+### LDO Beefy Raspberry Pi Bracket
+
+This replaces the stock [Raspberry Pi Bracket](printer-voron-1.8.md#electronics-compartment).
+
+| Item                                                                                                                | Quantity | Material                                                | Printed | Notes                   |
+| ------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----------------------- |
+| [beefy_raspberry_bracket](https://github.com/MotorDynamicsLab/LDOVoron2/blob/main/STLs/beefy_raspberry_bracket.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                         |
+| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)      | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part. |
+
+#### Assembly
+
+##### Parts Used
+
+| Item                     | Quantity |
+| ------------------------ | -------- |
+| M2x10 Self-Tapping Screw | 4        |
+
+### LDO Toolhead Breakout PCB Bracket
+
+A bracket to hold the LDO Breakout PCB, the PCB converts the 14 pin connector from the toolhead to separate connectors making it a little easier to connect to the MCU.
+
+| Item                                                                                                                      | Quantity | Material                                                | Printed | Notes                   |
+| ------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----------------------- |
+| [beefy_raspberry_bracket](https://github.com/MotorDynamicsLab/LDOVoron2/blob/main/STLs/toolhead_breakout_pcb_bracket.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                         |
+| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)            | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part. |
+
+#### Assembly
+
+##### Parts Used
+
+| Item                     | Quantity |
+| ------------------------ | -------- |
+| M2x10 Self-Tapping Screw | 2        |

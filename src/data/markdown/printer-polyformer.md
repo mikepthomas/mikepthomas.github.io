@@ -1,7 +1,7 @@
 # Making 3D Printer Filament from Empty Plastic Bottles
 
 Febuary 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated February 5, 2023
+Updated February 19, 2023
 
 Sourcing and printing parts to assemble a [Polyformer](https://www.reiten.design/polyformer).
 
@@ -36,8 +36,8 @@ Sourcing and printing parts to assemble a [Polyformer](https://www.reiten.design
 
 | Item                  | Quantity | Received | Notes |
 | --------------------- | -------- | -------- | ----- |
-| 623 Bearing           | 6        |          |       |
-| 608 Bearing           | 3        |          |       |
+| 623 Bearing           | 6        | 6        |       |
+| 608 Bearing           | 3        | 3        |       |
 | Linear Shaft 12x300mm | 6        |          |       |
 
 ### Electronics
@@ -46,10 +46,10 @@ Sourcing and printing parts to assemble a [Polyformer](https://www.reiten.design
 | ----------------------------- | -------- | -------- | --------------------------------------------------------------------- |
 | BigTreeTech EBB42             | 1        | 1        |                                                                       |
 | Inlet Power Socket IEC320 C14 | 1        | 1        |                                                                       |
-| Nema 17 Stepper Motor         | 1        |          |                                                                       |
+| Nema 17 Stepper Motor         | 1        | 1        | Using original Anet A8 Extruder Motor                                 |
 | Power Supply                  | 1        | 1        | Using original Anet A8 Power Supply                                   |
 | Raspberry Pi                  | 1        | 1        |                                                                       |
-| Volcano Hotend                | 1        |          | 3.00mm x 1.20mm Nozzle, 12V 40W Heater Cartridge, M3 Screw Thermistor |
+| Volcano Hotend                | 1        | 1        | 3.00mm x 1.20mm Nozzle, 12V 40W Heater Cartridge, M3 Screw Thermistor |
 | 40x40x10 Axial Fan            | 1        | 1        | 12V Noctua                                                            |
 | 60x60x25 Axial Fan            | 1        | 1        | 12V Noctua                                                            |
 

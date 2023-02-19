@@ -511,7 +511,7 @@ The coroplast on the bottom of the printer is not that well supported so this ju
 
 ### Klipper Expander
 
-PCB to expand the ports that can be used for fans and neopixels. I already have RGB neopixel strips and will need another neopixel header to run the Stealthburner RGBW LEDs.
+PCB to expand the ports that can be used for fans and neopixels. I already have RGB neopixel strips and will need an assitional neopixel header as the Stealthburner LEDs I have purchased are incompatible with the strips as they are RGBW.
 There are three different mounts, one vertical, one horizontal and one for DIN rail.
 
 | Item                                                                                                                                                  | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes |
@@ -522,7 +522,7 @@ There are three different mounts, one vertical, one horizontal and one for DIN r
 
 #### Assembly
 
-I have printed the horizontal mount as I am planning on mounting the Klipper Expander to the left hand side of the rear electronics compartment and the inner slot is occupied by the corroplast side panel.
+I have printed the horizontal mount as I am planning on mounting the Klipper Expander on the bottom of the rear electronics compartment.
 
 ##### Parts Used
 

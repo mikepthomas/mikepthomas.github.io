@@ -641,6 +641,8 @@ It appears that these parts are not specified in the manual, I will use them for
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
+The bottom compartment is designed to hold the high voltage components such as the main power supply, the power supply for the Raspberry Pi and Neopixel light strips, and Solid State Relay (SSR) for the heated bed. I will also be placing a [BigTreeTech 24V UPS module](printer-voron-1.8-mods.md#btt-ups-24v-din-mount) to add capacators across the 24V supply to smooth out the power supplying the MCUs.
+
 #### :white_check_mark: Skirts
 
 | Item                                                                                                                            | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                                                                                                              |
@@ -659,6 +661,8 @@ It appears that these parts are not specified in the manual, I will use them for
 Before attaching the power skirt to the printer the power socket and Keystone inserts are installed into the part.
 
 ![Skirts Installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/skirts-installed.jpg)
+
+I will eventually reprint the skirts in black with a red accent mesh using the mod from [Eddie the Engineer's Youtube Video](https://www.youtube.com/watch?v=K6sHfXldK4k).
 
 ###### Parts Used
 
@@ -734,6 +738,8 @@ Before attaching the power skirt to the printer the power socket and Keystone in
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
+The rear electronics compartment is designed to house the low voltage components for the printer. The compartment was removed from the 1.8's successor the Trident, however I wanted to have the separation between the low and high voltage components and also wanted space to expand and add additional compenents without being restricted to the space beneath the printer.
+
 #### :white_check_mark: Rear Electronics Enclosure
 
 | Item                                                                                                                                                       | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                                                                    |
@@ -756,6 +762,8 @@ The manual says to install the DIN Rails after fitting the enclosure. I found it
 
 ![Rear DIN Rails](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/rear-din-rails.jpg)
 
+I have also purchased an additional DIN rail than what was specified on the BOM as the manual displays 2 installed and it will give the flexability to place additional components in the rear of the printer.
+
 ###### Parts Used
 
 | Item                           | Quantity |
@@ -772,6 +780,9 @@ The manual says to install the DIN Rails after fitting the enclosure. I found it
 | Misumi HFSB5-2020-420          | 1        |
 
 #### :wrench: Rear Electronics Brackets
+
+I managed purchase a SKR 1.4 (the non Turbo verion) cheaply to replace the [SKR 1.4 Turbo I have in my Anet A8](printer-hardware-upgrades.md) and plan to install the SKR 1.4 Turbo here. I chose this to enable me to swap the boards with minimal re-wiring, and without the need to re-print a new case.
+I have also purchased the [BTT EXP-MOT motor expansion module](https://github.com/bigtreetech/BTT-Expansion-module/tree/master/BTT%20EXP-MOT) to allow me to install additional stepper motor drivers to run the [Enraged Rabbit Carrot Feeder](printer-enraged-rabbit-carrot-feeder.md) and potentially add a [3rd Z Stepper Motor](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/yeri/V1_3Z).
 
 | Item                                                                                                                                                               | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                                                                                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -811,7 +822,8 @@ The manual says to install the DIN Rails after fitting the enclosure. I found it
 
 ![Electronics Panel Holder](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/rear-handles.jpg)
 
-The [Electronics Compartment](#electronics-compartment) has a couple of parts to rest the elecronics panel on called `panel_holder`s I have replaced these with the front handles from the 2.2
+The [Electronics Compartment](#electronics-compartment) has a couple of parts to rest the elecronics panel on called `panel_holder`s I have replaced these with the front handles from the 2.2 to enable me to move the printer about a little easier and to also keep a little bit of space behind the printer to allow the electronics compartment fan to breathe.
+I also plan on installing the [Klipper Expander](printer-voron-1.8-mods.md#klipper-expander) in the space at the bottom of the electronics compartment just above the handle shown.
 
 ![Electronics Panel](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/electronics-panel-installed.jpg)
 

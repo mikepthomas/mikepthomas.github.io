@@ -153,7 +153,7 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | ---------------------------------- | -------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | NEMA17 Motor 17HS19-2004S          | 2        | 2        | Ordered some [larger ones than that are in the LDO Voron V1/V2 HT Motor Kit](https://www.onetwo3d.co.uk/product/ldo-42sth48-2004mahvrn/) |
 | SPDT KW10 Limit Micro Switch       | 3        | 30       |                                                                                                                                          |
-| PL-08N Inductive Probe             | 1        | 1        | Using Tronxy XY-08N. Going to replace with [Klicky Probe](printer-voron-1.8-mods.md#klicky-probe)                                        |
+| PL-08N Inductive Probe             | 1        | 1        | Purchased an Omron TL-Q5MC2. Going to replace with [Klicky Probe](printer-voron-1.8-mods.md#klicky-probe)                                |
 | E3D V6 Bowden Hotend Kit (24V)     | 1        | 1        |                                                                                                                                          |
 | 40x40x20 Centrifugal Fan (24V)     | 1        |          | Using a 5015 Centrifugal Fan in Stealthburner instead                                                                                    |
 | 40x40x10 Axial Fan (24V)           | 1        | 1        |                                                                                                                                          |
@@ -169,7 +169,7 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | Mean Well RS-25-5 PSU              | 1        | 1        |                                                                                                                                          |
 | Omron G3A-210B-DC5 SSR             | 1        | 1        |                                                                                                                                          |
 | DIN Rail Mount Bracket for G3A SSR | 1        | 1        |                                                                                                                                          |
-| BAT85 Diode                        | 1        | 7        | My Tronxy XY-08N seems to work fine on SKR 1.4 Turbo using endstop pins                                                                  |
+| BAT85 Diode                        | 1        | 7        | I have purched the ERCF toolhead board which has the BAT85 Diode integrated.                                                             |
 | C13 Power Cord                     | 1        | 3        |                                                                                                                                          |
 | Thermal Fuse (120C)                | 1        | 5        |                                                                                                                                          |
 | NEMA17 Motor 17HS08-1004S          | 1        | 1        | In LDO Voron V1/V2 HT Motor Kit                                                                                                          |

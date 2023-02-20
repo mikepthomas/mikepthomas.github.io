@@ -1,7 +1,7 @@
 # Upgrading the Anet A8 to an AM8 Switchwire
 
 July 23, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated February 19, 2023
+Updated February 20, 2023
 
 Upgrading the Anet A8 to a metal frame with CoreXZ kinematics with the [AM8 Switchwire Mod](https://github.com/maximilian-foerg/AM8-Switchwire-Mod).
 
@@ -16,21 +16,17 @@ Upgrading the Anet A8 to a metal frame with CoreXZ kinematics with the [AM8 Swit
 
 ## Frame
 
-Since upgrading to SuperSlicer, I have pushed my printing speeds to the limit of what stock Anet A8 acrylic frame can cope with.
+Since upgrading to SuperSlicer, I have pushed my printing speeds to the limit of what stock Anet A8 acrylic frame can cope with. I have [stiffened the frame as much as I can with 3D printed upgrades](printer-printed-upgrades.md#frame-bracing) however, the frame really could do with a metal frame to print faster.
 
-I have [stiffened the frame as much as I can with 3D printed upgrades](printer-printed-upgrades.md#frame-bracing) however, the frame really could do with a metal frame to print faster.
-
-I had originally intended to migrate from the Anet A8's acrylic frame to a CoreXY [Hypercube](printer-hypercube.md) style printer but instead decided to build a complete Voron 1.8. As [Nero 3D](https://www.onlybenchies.com/) says 2 printers are 1 and 1 printer is none.
+I had originally intended to migrate from the Anet A8's acrylic frame to a CoreXY [Hypercube](printer-hypercube.md) style printer but instead decided to build a complete Voron 1.8. As [Nero 3D](https://www.onlybenchies.com/) says 2 printers are 1 and 1 printer is none, therefore I would like to keep at least one working printer before heavilly modifing a working one.
 
 During my research for the [Hypercube](printer-hypercube.md), I ruled out the AM8 due to the cost of the frame, however the frame I settled on was an [ALTRAX frame that I have imported from Poland](https://hobby-store.co.uk/frame-kits/altrax-anet-am8-3d-printer-frame.html) for £30.55 plus postage which I thought was resonable.
 
-After purchasing the frame, I found a [project on Reddit](https://www.reddit.com/r/AnetA8/comments/rvt3zt) to convert the Anet A8 to a CoreXZ style printer similar to the [Voron Switchwire](https://vorondesign.com/voron_switchwire)
+After purchasing the frame, I found a [project on Reddit](https://www.reddit.com/r/AnetA8/comments/rvt3zt) to convert the Anet A8 to a CoreXZ style printer similar to the [Voron Switchwire](https://vorondesign.com/voron_switchwire).
 
 ## Software
 
-I will be using the original Anet A8 mainboard with an [Anet A6 display](https://shop.anet3d.com/products/lcd-screen-for-a6-a8-e10-e12) as I will be using it's SKR 1.4 Turbo for the [Voron](printer-voron-1.8.md).
-
-I will install Klipper on the Anet A8 mainboard, and use it in conjunction with an [SKR Pico](https://github.com/bigtreetech/SKR-Pico) as the Pico has no way to run a display with an encoder and to be able to get enough stepper drivers to run [2 M4 extruders](printer-extruders-and-toolheads.md#voron-m4).
+I will be using a [SKR Pico](https://github.com/bigtreetech/SKR-Pico) to run the printer. The SKR Pico currently does not work with [Marlin firmware](https://marlinfw.org/) therefore I will be using [Klipper](https://www.klipper3d.org/). It also does not have a port to connect a display with an encoder so I plan on creating a wiring adapter to connect a [BigTreeTech Mini 12864](https://github.com/bigtreetech/MINI-12864) to the Raspberry Pi GPIO pins, and connecting to it using the [RPi as a secondary MCU](https://www.klipper3d.org/RPi_microcontroller.html).
 
 ## Sourcing Parts
 
@@ -60,6 +56,20 @@ I will install Klipper on the Anet A8 mainboard, and use it in conjunction with 
 | GT2 16T Pulley (5mm ID 6mm W)     | 3        | 3        |       |
 | GT2 Open Belt LL-2GT-6 (6mm wide) | 5m       | 5m       |       |
 | LM8LUU Linear Bearing             | 2        | 2        |       |
+
+### Electronics
+
+| Item                                 | Quantity | Received | Notes                                  |
+| ------------------------------------ | -------- | -------- | -------------------------------------- |
+| 40x40x20 Centrifugal Fan (12V)       | 1        | 1        |                                        |
+| 40x40x10 Axial Fan (12V)             | 1        | 1        |                                        |
+| E3D V6 Bowden Hotend Kit (12V)       | 1        |          | Will use the Anet A8 Extruder to start |
+| Mini 12864 Display                   | 1        | 1        |                                        |
+| NEMA17 Motor 17HS15-1504S1           | 3        | 3        |                                        |
+| NEMA17 Motor 17HS08-1004S            | 1        | 1        |                                        |
+| Omron TL-Q5MC2 - NPN Inductive Probe | 1        | 1        |                                        |
+| SKR Pico                             | 1        | 1        |                                        |
+| Raspberry Pi Zero 2W                 | 1        | 1        |                                        |
 
 ## Printing Parts
 

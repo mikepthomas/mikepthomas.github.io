@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated February 19, 2023
+Updated February 20, 2023
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -80,9 +80,9 @@ I will print two M4 Extruders, 1 standard and 1 mirrored to mount to the back of
 
 ### Electronics
 
-| Item                      | Quantity | Received | Notes      |
-| ------------------------- | -------- | -------- | ---------- |
-| NEMA17 Motor 17HS08-1004S | 2        |          | 2 On Order |
+| Item                      | Quantity | Received | Notes |
+| ------------------------- | -------- | -------- | ----- |
+| NEMA17 Motor 17HS08-1004S | 2        | 2        |       |
 
 ### Bowden
 

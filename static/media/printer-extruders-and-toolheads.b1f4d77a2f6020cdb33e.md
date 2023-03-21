@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated February 4, 2023
+Updated February 20, 2023
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -55,7 +55,6 @@ I have purchased parts to install the [ANET A8 E3DV6 BMG Direct Drive X Carriage
 ## Voron M4
 
 I will print two M4 Extruders, 1 standard and 1 mirrored to mount to the back of the printer so that I can experiment with the dual bowden setup.
-When I have upgraded to the Afterburner, I will reuse the parts for the M4 for the [Enraged Rabbit Carrot Feeder](printer-enraged-rabbit-carrot-feeder.md).
 
 ### Fasteners
 
@@ -81,17 +80,17 @@ When I have upgraded to the Afterburner, I will reuse the parts for the M4 for t
 
 ### Electronics
 
-| Item                       | Quantity | Received | Notes                                                                                                                   |
-| -------------------------- | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------- |
-| NEMA17 Motor 17HS15-1504S1 | 2        | 2        | In [LDO Voron V1/V2 HT Motor Kit](https://mechporium.co.uk/collections/v1-motion/products/ldo-voron-v1-v2-ht-motor-kit) |
+| Item                      | Quantity | Received | Notes |
+| ------------------------- | -------- | -------- | ----- |
+| NEMA17 Motor 17HS08-1004S | 2        | 2        |       |
 
 ### Bowden
 
-| Item            | Quantity | Received | Notes |
-| --------------- | -------- | -------- | ----- |
-| Bowden Clip     | 2        | 2        |       |
-| Bowden Fitting  | 2        | 2        |       |
-| Bowden Tube (m) | 2        | 2        |       |
+| Item            | Quantity | Received | Notes      |
+| --------------- | -------- | -------- | ---------- |
+| Bowden Clip     | 2        | 2        |            |
+| Bowden Fitting  | 2        |          | 5 On Order |
+| Bowden Tube (m) | 2        | 2        |            |
 
 ### Printed Parts
 
@@ -114,10 +113,10 @@ When I have upgraded to the Afterburner, I will reuse the parts for the M4 for t
 
 ### Bowden
 
-| Item          | Quantity | Received | Notes |
-| ------------- | -------- | -------- | ----- |
-| Bowden Clip   | 2        | 2        |       |
-| Bowden Collet | 2        | 10       |       |
+| Item          | Quantity | Received | Notes      |
+| ------------- | -------- | -------- | ---------- |
+| Bowden Clip   | 2        | 2        |            |
+| Bowden Collet | 2        |          | 5 On Order |
 
 ### Printed Parts
 
@@ -252,7 +251,7 @@ The [Rook](printer-rook.md) printer's stock part cooling uses a large 120mm blow
 
 | Item                     | Quantity | Received | Notes |
 | ------------------------ | -------- | -------- | ----- |
-| 30x30x10 Axial Fan       | 1        |          |       |
+| 30x30x10 Axial Fan       | 1        | 1        |       |
 | 40x40x10 Centrifugal Fan | 2        |          |       |
 
 ### Printing Parts

@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated November 26, 2022
+Updated March 23, 2023
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -25,13 +25,15 @@ List of upgrades that I plan on adding from the printer mods directory of the Vo
 14. [Klicky Probe](#klicky-probe)
 15. [Wago Mounts](#wago-mounts)
 16. [MKS Mosfet Mount](#mks-mosfet-mount)
-17. [Cable Management Duct](#cable-management-duct)
+17. [BTT UPS 24V DIN Mount](#btt-ups-24v-din-mount)
 18. [Corner Cable Cover](#corner-cable-cover)
 19. [Power Supply Cover](#power-supply-cover)
 20. [Deck Panel Support Clips](#deck-panel-support-clips)
 21. [Klipper Expander](#klipper-expander)
 22. [BTT 5" Screen case](#btt-5--screen-case)
 23. [Nevermore Micro V5 Duo](#nevermore-micro-v5-duo)
+24. [LDO Beefy Raspberry Pi Bracket](#ldo-beefy-raspberry-pi-bracket)
+25. [LDO Toolhead Breakout PCB Bracket](#ldo-toolhead-breakout-pcb-bracket)
 
 ## Mods
 
@@ -165,7 +167,7 @@ Mount for the BigTreeTech Smart filment sensor that I already have. There are tw
 | [BTT_Sensor_Mount_A](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Empusas/BTT_Filament_Motion_Sensor_Mount/BTT_Sensor_Mount_A.stl) | 2        |                                                         |       |        |       |        :x:         | This is a Voron Users Mod by Empusas |
 | [BTT_Sensor_Mount_B](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Empusas/BTT_Filament_Motion_Sensor_Mount/BTT_Sensor_Mount_B.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 3.71m | 9.46g  | £0.18 | :heavy_check_mark: | This is a Voron Users Mod by Empusas |
 
-#### Assembly
+#### :negative_squared_cross_mark: Assembly
 
 I have printed the 'B' mounts as I am planning on mounting them on the top rear extrusion just before the bowden enters the Exhaust Filter. I have had to mirror the part along the Y axis when importing as I want the bowden to be as close to inline of the [Side Entry Exhaust Filter](#exhaust-mount-side-entry).
 
@@ -304,7 +306,7 @@ Will make moving the printer around a little easier when assembled.
 | -------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ------ | ------ | ----- | :-----: | ---------------------------------- |
 | [sturdy_handles](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/jeoje/Sturdy_Handles/STL/sturdy_handles.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 20.24m | 54.14g | £1.03 |   :x:   | This is a Voron Users Mod by jeoje |
 
-#### Assembly
+#### :negative_squared_cross_mark: Assembly
 
 ##### Parts Used
 
@@ -428,7 +430,7 @@ A mount for a [BIQU116-A2 MKS Mosfet](https://www.biqu.equipment/products/3d-pri
 | [MKS Mosfet Mount](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/mikepthomas/MKS_Mosfet_Mount/STL/MKS_Mosfet_Mount.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.29m | 5.85g  | £0.11 | :heavy_check_mark: | This is a Voron Users Mod by mikepthomas (me :blush:) |
 | [pcb_din_clip_v2](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_v2_x5.stl)                         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.51m | 3.84g  | £0.07 | :heavy_check_mark: | This is a Trident Part                                |
 
-#### Assembly
+#### :wrench: Assembly
 
 ##### Parts Used
 
@@ -436,22 +438,21 @@ A mount for a [BIQU116-A2 MKS Mosfet](https://www.biqu.equipment/products/3d-pri
 | ------------------------ | -------- |
 | M2x10 Self-Tapping Screw | 6        |
 
-### Cable Management Duct
+### BTT UPS 24V DIN Mount
 
-A cable management duct to tidy up the wiring in the electronics case.
+A mount for a [BigTreeTech 24V UPS Module](https://github.com/bigtreetech/BIGTREETECH-MINI-UPS-V2.0/tree/master/BTT%20UPS%2024V%20V1.0) using a metal SSR DIN clamp.
 
-| Item                                                                                                                                       | Quantity | Material                                            | Size  | Weight | Cost  | Printed | Notes                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------- | ----- | ------ | ----- | :-----: | ------------------------------------ |
-| [CableDuctBody](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/ryandam/Cable_management_duct/STLs/CableDuctBody.stl)   | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 4.59m | 11.70g | £0.22 |   :x:   | This is a Voron Users Mod by ryandam |
-| [CableDuctCover](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/ryandam/Cable_management_duct/STLs/CableDuctCover.stl) | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red) | 2.13m | 5.42g  | £0.10 |   :x:   | This is a Voron Users Mod by ryandam |
+| Item                                                                                                                                         | Quantity | Material                                                | Size | Weight | Cost | Printed | Notes                               |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----------------------------------- |
+| [BTT_UPS_24V_DIN](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Oakman/BTT_24V_UPS_Metal_DIN_Mount/BTT_UPS_24V_DIN.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   | This is a Voron Users Mod by Oakman |
 
-#### Assembly
+#### :negative_squared_cross_mark: Assembly
 
 ##### Parts Used
 
-| Item             | Quantity |
-| ---------------- | -------- |
-| 3M VHB Tape 5952 | 1        |
+| Item      | Quantity |
+| --------- | -------- |
+| M4x6 BHCS | 4        |
 
 ### Corner Cable Cover
 
@@ -510,7 +511,7 @@ The coroplast on the bottom of the printer is not that well supported so this ju
 
 ### Klipper Expander
 
-PCB to expand the ports that can be used for fans and neopixels. I already have RGB neopixel strips and will need another neopixel header to run the Stealthburner RGBW LEDs.
+PCB to expand the ports that can be used for fans and neopixels. I already have RGB neopixel strips and will need an assitional neopixel header as the Stealthburner LEDs I have purchased are incompatible with the strips as they are RGBW.
 There are three different mounts, one vertical, one horizontal and one for DIN rail.
 
 | Item                                                                                                                                                  | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes |
@@ -519,9 +520,9 @@ There are three different mounts, one vertical, one horizontal and one for DIN r
 | [KlipperExpander_RailMount](https://github.com/VoronDesign/Voron-Hardware/blob/master/Klipper_Expander/CAD/KlipperExpander_RailMount.stl)             | 1        |                                                         |       |        |       |        :x:         |       |
 | [KlipperExpander_VerticalMount](https://github.com/VoronDesign/Voron-Hardware/blob/master/Klipper_Expander/CAD/KlipperExpander_VerticalMount.STL)     | 1        |                                                         |       |        |       |        :x:         |       |
 
-#### Assembly
+#### :wrench: Assembly
 
-I have printed the horizontal mount as I am planning on mounting the Klipper Expander to the left hand side of the rear electronics compartment and the inner slot is occupied by the corroplast side panel.
+I have printed the horizontal mount as I am planning on mounting the Klipper Expander on the bottom of the rear electronics compartment.
 
 ##### Parts Used
 
@@ -541,7 +542,7 @@ This replaces the [Display Mount](#display-mount) to fit a BigTreeTech PITFT50 t
 | [plate](https://www.thingiverse.com/thing:4837419/files) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                           |
 | [main](https://www.thingiverse.com/thing:4837419/files)  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This will need to be modified to fit the BTT PITFT50 V2.0 |
 
-#### Assembly
+#### :negative_squared_cross_mark: Assembly
 
 ##### Parts Used
 
@@ -562,7 +563,7 @@ The [Nevermore Micro V5 Duo](https://github.com/nevermore3d/Nevermore_Micro) fil
 | [V18_cartridge_RC2](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/1.8/V18_cartridge_RC2.stl)       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
 | [V1_Duo_Plenum](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/1.8/V1_Duo_Plenum.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
 
-#### Assembly
+#### :negative_squared_cross_mark: Assembly
 
 ![Nevermore Filter Parts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-mods/nevermore-filter.jpg)
 
@@ -581,3 +582,37 @@ The [Nevermore Micro V5 Duo](https://github.com/nevermore3d/Nevermore_Micro) fil
 | M3x6 BHCS                          | 2        |
 | M3x4 BHCS                          | 1        |
 | M3 Hammer Head T-nuts              | 2        |
+
+### LDO Beefy Raspberry Pi Bracket
+
+This replaces the stock [Raspberry Pi Bracket](printer-voron-1.8.md#electronics-compartment).
+
+| Item                                                                                                                | Quantity | Material                                                | Printed | Notes                   |
+| ------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----------------------- |
+| [beefy_raspberry_bracket](https://github.com/MotorDynamicsLab/LDOVoron2/blob/main/STLs/beefy_raspberry_bracket.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                         |
+| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)      | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part. |
+
+#### :negative_squared_cross_mark: Assembly
+
+##### Parts Used
+
+| Item                     | Quantity |
+| ------------------------ | -------- |
+| M2x10 Self-Tapping Screw | 4        |
+
+### LDO Toolhead Breakout PCB Bracket
+
+A bracket to hold the LDO Breakout PCB, the PCB converts the 14 pin connector from the toolhead to separate connectors making it a little easier to connect to the MCU.
+
+| Item                                                                                                                      | Quantity | Material                                                | Printed | Notes                   |
+| ------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----------------------- |
+| [beefy_raspberry_bracket](https://github.com/MotorDynamicsLab/LDOVoron2/blob/main/STLs/toolhead_breakout_pcb_bracket.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                         |
+| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)            | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part. |
+
+#### :negative_squared_cross_mark: Assembly
+
+##### Parts Used
+
+| Item                     | Quantity |
+| ------------------------ | -------- |
+| M2x10 Self-Tapping Screw | 2        |

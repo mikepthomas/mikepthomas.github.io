@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated Febuary 3, 2023
+Updated Febuary 19, 2023
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -153,7 +153,7 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | ---------------------------------- | -------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | NEMA17 Motor 17HS19-2004S          | 2        | 2        | Ordered some [larger ones than that are in the LDO Voron V1/V2 HT Motor Kit](https://www.onetwo3d.co.uk/product/ldo-42sth48-2004mahvrn/) |
 | SPDT KW10 Limit Micro Switch       | 3        | 30       |                                                                                                                                          |
-| PL-08N Inductive Probe             | 1        | 1        | Using Tronxy XY-08N. Going to replace with [Klicky Probe](printer-voron-1.8-mods.md#klicky-probe)                                        |
+| PL-08N Inductive Probe             | 1        | 1        | Purchased an Omron TL-Q5MC2. Going to replace with [Klicky Probe](printer-voron-1.8-mods.md#klicky-probe)                                |
 | E3D V6 Bowden Hotend Kit (24V)     | 1        | 1        |                                                                                                                                          |
 | 40x40x20 Centrifugal Fan (24V)     | 1        |          | Using a 5015 Centrifugal Fan in Stealthburner instead                                                                                    |
 | 40x40x10 Axial Fan (24V)           | 1        | 1        |                                                                                                                                          |
@@ -169,7 +169,7 @@ I have looked into a few different options for a new frame for my 3D Printer and
 | Mean Well RS-25-5 PSU              | 1        | 1        |                                                                                                                                          |
 | Omron G3A-210B-DC5 SSR             | 1        | 1        |                                                                                                                                          |
 | DIN Rail Mount Bracket for G3A SSR | 1        | 1        |                                                                                                                                          |
-| BAT85 Diode                        | 1        | 7        | My Tronxy XY-08N seems to work fine on SKR 1.4 Turbo using endstop pins                                                                  |
+| BAT85 Diode                        | 1        | 7        | I have purched the ERCF toolhead board which has the BAT85 Diode integrated.                                                             |
 | C13 Power Cord                     | 1        | 3        |                                                                                                                                          |
 | Thermal Fuse (120C)                | 1        | 5        |                                                                                                                                          |
 | NEMA17 Motor 17HS08-1004S          | 1        | 1        | In LDO Voron V1/V2 HT Motor Kit                                                                                                          |
@@ -641,6 +641,8 @@ It appears that these parts are not specified in the manual, I will use them for
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
+The bottom compartment is designed to hold the high voltage components such as the main power supply, the power supply for the Raspberry Pi and Neopixel light strips, and Solid State Relay (SSR) for the heated bed. I will also be placing a [BigTreeTech 24V UPS module](printer-voron-1.8-mods.md#btt-ups-24v-din-mount) to add capacators across the 24V supply to smooth out the power supplying the MCUs.
+
 #### :white_check_mark: Skirts
 
 | Item                                                                                                                            | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                                                                                                              |
@@ -659,6 +661,8 @@ It appears that these parts are not specified in the manual, I will use them for
 Before attaching the power skirt to the printer the power socket and Keystone inserts are installed into the part.
 
 ![Skirts Installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/skirts-installed.jpg)
+
+I will eventually reprint the skirts in black with a red accent mesh using the mod from [Eddie the Engineer's Youtube Video](https://www.youtube.com/watch?v=K6sHfXldK4k).
 
 ###### Parts Used
 
@@ -734,6 +738,8 @@ Before attaching the power skirt to the printer the power socket and Keystone in
 
 > Image &copy; 2020 [Voron Design](https://www.vorondesign.com/)
 
+The rear electronics compartment is designed to house the low voltage components for the printer. The compartment was removed from the 1.8's successor the Trident, however I wanted to have the separation between the low and high voltage components and also wanted space to expand and add additional compenents without being restricted to the space beneath the printer.
+
 #### :white_check_mark: Rear Electronics Enclosure
 
 | Item                                                                                                                                                       | Quantity | Material                                                | Size   | Weight | Cost  |      Printed       | Notes                                                                                    |
@@ -756,6 +762,8 @@ The manual says to install the DIN Rails after fitting the enclosure. I found it
 
 ![Rear DIN Rails](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/rear-din-rails.jpg)
 
+I have also purchased an additional DIN rail than what was specified on the BOM as the manual displays 2 installed and it will give the flexability to place additional components in the rear of the printer.
+
 ###### Parts Used
 
 | Item                           | Quantity |
@@ -773,14 +781,17 @@ The manual says to install the DIN Rails after fitting the enclosure. I found it
 
 #### :wrench: Rear Electronics Brackets
 
-| Item                                                                                                                                                               | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ------------------------------------------------------------------------------------ |
-| [controller_fan_guard](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_controller_fan_guard.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.80m | 4.59g  | £0.09 | :heavy_check_mark: |                                                                                      |
-| [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 5.44m | 13.88g | £0.26 | :heavy_check_mark: |                                                                                      |
-| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)                                                     | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.51m | 3.84g  | £0.07 |         3          | This is a Trident r1 Part. 2 for SKR, 1 for BTT MOT Expansion and 1 for Raspberry Pi |
-| [raspberrypi_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/raspberrypi_bracket.stl)                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.77m | 4.51g  | £0.09 | :heavy_check_mark: | This is a Trident Part                                                               |
-| [BTT_MOT_EXP_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/BTT_MOT_EXP_bracket.stl)                        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |       |        |       |        :x:         | This is a Trident Part                                                               |
-| [SKR_bracket_inline_set](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/SKR_bracket_inline_set.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.55m | 6.49g  | £0.12 | :heavy_check_mark: | This is a Trident Part                                                               |
+I managed purchase a SKR 1.4 (the non Turbo verion) cheaply to replace the [SKR 1.4 Turbo I have in my Anet A8](printer-hardware-upgrades.md) and plan to install the SKR 1.4 Turbo here. I chose this to enable me to swap the boards with minimal re-wiring, and without the need to re-print a new case.
+I have also purchased the [BTT EXP-MOT motor expansion module](https://github.com/bigtreetech/BTT-Expansion-module/tree/master/BTT%20EXP-MOT) to allow me to install additional stepper motor drivers to run the [Enraged Rabbit Carrot Feeder](printer-enraged-rabbit-carrot-feeder.md) and potentially add a [3rd Z Stepper Motor](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/yeri/V1_3Z).
+
+| Item                                                                                                                                                               | Quantity | Material                                                | Size  | Weight | Cost  |      Printed       | Notes                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| [controller_fan_guard](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_controller_fan_guard.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | 1.80m | 4.59g  | £0.09 | :heavy_check_mark: |                                                                                                                                          |
+| [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 5.44m | 13.88g | £0.26 | :heavy_check_mark: |                                                                                                                                          |
+| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)                                                     | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.51m | 3.84g  | £0.07 |         3          | This is a Trident r1 Part. 2 for SKR, 1 for BTT MOT Expansion and 1 for Raspberry Pi                                                     |
+| [raspberrypi_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/raspberrypi_bracket.stl)                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.77m | 4.51g  | £0.09 | :heavy_check_mark: | This is a Trident Part. Going to replace with [LDO Beefy Raspberry Pi Bracket](printer-voron-1.8-mods.md#ldo-beefy-raspberry-pi-bracket) |
+| [BTT_MOT_EXP_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/BTT_MOT_EXP_bracket.stl)                        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |       |        |       |        :x:         | This is a Trident Part                                                                                                                   |
+| [SKR_bracket_inline_set](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/SKR_bracket_inline_set.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.55m | 6.49g  | £0.12 | :heavy_check_mark: | This is a Trident Part                                                                                                                   |
 
 ##### Assembly
 
@@ -811,7 +822,8 @@ The manual says to install the DIN Rails after fitting the enclosure. I found it
 
 ![Electronics Panel Holder](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/rear-handles.jpg)
 
-The [Electronics Compartment](#electronics-compartment) has a couple of parts to rest the elecronics panel on called `panel_holder`s I have replaced these with the front handles from the 2.2
+The [Electronics Compartment](#electronics-compartment) has a couple of parts to rest the elecronics panel on called `panel_holder`s I have replaced these with the front handles from the 2.2 to enable me to move the printer about a little easier and to also keep a little bit of space behind the printer to allow the electronics compartment fan to breathe.
+I also plan on installing the [Klipper Expander](printer-voron-1.8-mods.md#klipper-expander) in the space at the bottom of the electronics compartment just above the handle shown.
 
 ![Electronics Panel](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron/electronics-panel-installed.jpg)
 

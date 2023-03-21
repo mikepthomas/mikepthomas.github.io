@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated February 20, 2023
+Updated March 21, 2023
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -86,11 +86,11 @@ I will print two M4 Extruders, 1 standard and 1 mirrored to mount to the back of
 
 ### Bowden
 
-| Item            | Quantity | Received | Notes      |
-| --------------- | -------- | -------- | ---------- |
-| Bowden Clip     | 2        | 2        |            |
-| Bowden Fitting  | 2        |          | 5 On Order |
-| Bowden Tube (m) | 2        | 2        |            |
+| Item            | Quantity | Received | Notes |
+| --------------- | -------- | -------- | ----- |
+| Bowden Clip     | 2        | 2        |       |
+| Bowden Fitting  | 2        | 2        |       |
+| Bowden Tube (m) | 2        | 2        |       |
 
 ### Printed Parts
 
@@ -113,10 +113,10 @@ I will print two M4 Extruders, 1 standard and 1 mirrored to mount to the back of
 
 ### Bowden
 
-| Item          | Quantity | Received | Notes      |
-| ------------- | -------- | -------- | ---------- |
-| Bowden Clip   | 2        | 2        |            |
-| Bowden Collet | 2        |          | 5 On Order |
+| Item          | Quantity | Received | Notes |
+| ------------- | -------- | -------- | ----- |
+| Bowden Clip   | 2        | 2        |       |
+| Bowden Collet | 2        | 2        |       |
 
 ### Printed Parts
 
@@ -249,10 +249,10 @@ The [Rook](printer-rook.md) printer's stock part cooling uses a large 120mm blow
 
 ### Sourcing Parts
 
-| Item                     | Quantity | Received | Notes |
-| ------------------------ | -------- | -------- | ----- |
-| 30x30x10 Axial Fan       | 1        | 1        |       |
-| 40x40x10 Centrifugal Fan | 2        |          |       |
+| Item                     | Quantity | Received | Notes      |
+| ------------------------ | -------- | -------- | ---------- |
+| 30x30x10 Axial Fan       | 1        | 1        |            |
+| 40x40x10 Centrifugal Fan | 2        |          | 2 on order |
 
 ### Printing Parts
 

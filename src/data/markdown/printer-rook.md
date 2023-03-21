@@ -1,7 +1,7 @@
 # 3D Printing a Mostly 3D Printed 3D Printer
 
 Febuary 2, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated Febuary 19, 2023
+Updated March 23, 2023
 
 Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.com/rolohaun/Rook).
 
@@ -35,12 +35,12 @@ Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.c
 | Item                              | Quantity | Received | Notes                                                  |
 | --------------------------------- | -------- | -------- | ------------------------------------------------------ |
 | Filament Extruder                 | 1        | 1        | Using original Anet A8 Extruder with M6 Bowden Coupler |
-| F695 Bearing                      | 18       | 6        |                                                        |
+| F695 Bearing                      | 18       | 6        | 10 on order                                            |
 | GT2 20T Pulley (5mm ID 6mm W)     | 3        |          |                                                        |
 | GT2 Open Belt LL-2GT-6 (6mm wide) | 4m       | 4m       |                                                        |
-| Linear Rail MGN9C 200mm           | 2        |          |                                                        |
-| Linear Rail MGN9C 150mm           | 1        |          |                                                        |
-| Linear Shaft 8x200mm              | 4        |          |                                                        |
+| Linear Rail MGN9C 200mm           | 2        |          | 2 on order                                             |
+| Linear Rail MGN9C 150mm           | 1        |          | 1 on order                                             |
+| Linear Shaft 8x200mm              | 4        |          | 4 on order                                             |
 | LM8UU Linear Bearing              | 2        | 2        |                                                        |
 
 ### Print Bed
@@ -52,16 +52,16 @@ Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.c
 
 ### Electronics
 
-| Item                         | Quantity | Received | Notes                                                                                                                           |
-| ---------------------------- | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Nema 17 Stepper Motors       | 4        | 4        | Using original Anet A8 X/Y/Z1/Z2 Stepper Motors                                                                                 |
-| CR10 Style Hotend            | 1        |          |                                                                                                                                 |
-| Power Supply                 | 1        | 1        | Using original Anet A8 Power Supply                                                                                             |
-| Raspberry Pi Zero            | 1        | 1        | Using Zero 2W                                                                                                                   |
-| SKR Pico                     | 1        | 1        |                                                                                                                                 |
-| SPDT KW10 Limit Micro Switch | 1        | 1        |                                                                                                                                 |
-| 30x30x10 Axial Fan           | 1        | 1        |                                                                                                                                 |
-| 40x40x10 Centrifugal Fan     | 2        |          | Using instead of 120x120x32 Centrifugal Fan for the the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
+| Item                         | Quantity | Received | Notes                                                                                                                                       |
+| ---------------------------- | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nema 17 Stepper Motors       | 4        | 4        | Using original Anet A8 X/Y/Z1/Z2 Stepper Motors                                                                                             |
+| CR10 Style Hotend            | 1        |          | 1 on order                                                                                                                                  |
+| Power Supply                 | 1        | 1        | Using original Anet A8 Power Supply                                                                                                         |
+| Raspberry Pi Zero            | 1        | 1        | Using Zero 2W                                                                                                                               |
+| SKR Pico                     | 1        | 1        |                                                                                                                                             |
+| SPDT KW10 Limit Micro Switch | 1        | 1        |                                                                                                                                             |
+| 30x30x10 Axial Fan           | 1        | 1        |                                                                                                                                             |
+| 40x40x10 Centrifugal Fan     | 2        |          | 2 on order. Using instead of 120x120x32 Centrifugal Fan for the the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
 
 ## Printing Parts
 

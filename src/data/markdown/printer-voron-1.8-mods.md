@@ -23,17 +23,18 @@ List of upgrades that I plan on adding from the printer mods directory of the Vo
 12. [Mosfet Mounts](#mosfet-mounts)
 13. [Sturdy Handles](#sturdy-handles)
 14. [Klicky Probe](#klicky-probe)
-15. [Wago Mounts](#wago-mounts)
-16. [MKS Mosfet Mount](#mks-mosfet-mount)
-17. [BTT UPS 24V DIN Mount](#btt-ups-24v-din-mount)
-18. [Corner Cable Cover](#corner-cable-cover)
-19. [Power Supply Cover](#power-supply-cover)
-20. [Deck Panel Support Clips](#deck-panel-support-clips)
-21. [Klipper Expander](#klipper-expander)
-22. [BTT 5" Screen case](#btt-5--screen-case)
-23. [Nevermore Micro V5 Duo](#nevermore-micro-v5-duo)
-24. [LDO Beefy Raspberry Pi Bracket](#ldo-beefy-raspberry-pi-bracket)
-25. [LDO Toolhead Breakout PCB Bracket](#ldo-toolhead-breakout-pcb-bracket)
+15. [PCB Klicky](#klicky-probe)
+16. [Wago Mounts](#wago-mounts)
+17. [MKS Mosfet Mount](#mks-mosfet-mount)
+18. [BTT UPS 24V DIN Mount](#btt-ups-24v-din-mount)
+19. [Corner Cable Cover](#corner-cable-cover)
+20. [Power Supply Cover](#power-supply-cover)
+21. [Deck Panel Support Clips](#deck-panel-support-clips)
+22. [Klipper Expander](#klipper-expander)
+23. [BTT 5" Screen case](#btt-5--screen-case)
+24. [Nevermore Micro V5 Duo](#nevermore-micro-v5-duo)
+25. [LDO Beefy Raspberry Pi Bracket](#ldo-beefy-raspberry-pi-bracket)
+26. [LDO Toolhead Breakout PCB Bracket](#ldo-toolhead-breakout-pcb-bracket)
 
 ## Mods
 
@@ -373,6 +374,23 @@ Recommended upgrade to replace the PL-08N Inductive Probe which can be a bit unr
 | [Mount_magnet_holder](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Printers/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_magnet_holder.stl)                   | 1        |          |      |        |      |   :x:   | This is a Voron Users Mod by JosAr |
 | [Mount_magnet_pressfit_helper](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Printers/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_magnet_pressfit_helper.stl) | 1        |          |      |        |      |   :x:   | This is a Voron Users Mod by JosAr |
 | [Mount_pressfit_holder](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/JosAr/Klicky-Probe/Printers/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_pressfit_holder.stl)               | 1        |          |      |        |      |   :x:   | This is a Voron Users Mod by JosAr |
+
+### PCB Klicky
+
+This will replace the [Klicky Probe](#klicky-probe) as I have found that my printed probe does not quite sit flush on the toolhead as the magnets are not fully pressed into the printed parts.
+
+#### Dock
+
+| Item                                                                                                               | Quantity | Material                                                                    | Size | Weight | Cost | Printed | Notes                   |
+| ------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----------------------- |
+| [dock-front_insert](https://github.com/tanaes/whopping_Voron_mods/blob/main/pcb_klicky/STLs/dock-front_insert.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |      |        |      |   :x:   | This is a Mod by tanaes |
+
+#### Probe
+
+| Item                                                                                                             | Quantity | Material                                                                    | Size | Weight | Cost | Printed | Notes                                                                                  |
+| ---------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------- | ---- | ------ | ---- | :-----: | -------------------------------------------------------------------------------------- |
+| [AB_mount-heatset](https://github.com/tanaes/whopping_Voron_mods/blob/main/pcb_klicky/STLs/AB_mount-heatset.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |      |        |      |   :x:   | This is a Mod by tanaes                                                                |
+| [probe-heatset](https://github.com/tanaes/whopping_Voron_mods/blob/main/pcb_klicky/STLs/probe-heatset.stl)       | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |      |        |      |   :x:   | This is a Mod by tanaes. For standard size switch, may need to swap out for XL version |
 
 ### VEFACH
 

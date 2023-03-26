@@ -23,7 +23,7 @@ List of upgrades that I plan on adding from the printer mods directory of the Vo
 12. [Mosfet Mounts](#mosfet-mounts)
 13. [Sturdy Handles](#sturdy-handles)
 14. [Klicky Probe](#klicky-probe)
-15. [PCB Klicky](#klicky-probe)
+15. [PCB Klicky](#pcb-klicky)
 16. [Wago Mounts](#wago-mounts)
 17. [MKS Mosfet Mount](#mks-mosfet-mount)
 18. [BTT UPS 24V DIN Mount](#btt-ups-24v-din-mount)

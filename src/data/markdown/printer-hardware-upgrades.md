@@ -1,8 +1,9 @@
 # Printer Hardware Upgrades
 
-May 12, 2021 by [Mike Thomas](https://github.com/mikepthomas)
+May 12, 2021 by [Mike Thomas](https://github.com/mikepthomas),
+Updated March 26, 2023
 
-This page contains information about how I upgraded my stock Anet A8 to add various hardware mods including swapping out the control board to a BigTreeTech SKR 1.4 Turbo.
+This page contains information about how I upgraded my stock Anet A8 to add various hardware mods including swapping out the control board to a BigTreeTech SKR 1.4.
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/skr-upgrade-hero.jpg)
 
@@ -11,7 +12,7 @@ This page contains information about how I upgraded my stock Anet A8 to add vari
 ## Table of contents
 
 1. [Wiring](#wiring)
-2. [SKR 1.4 Turbo Control Board](#skr-1-4-turbo-control-board)
+2. [SKR 1.4 Control Board](#skr-1-4-control-board)
 3. [TFT24 Mount](#tft24-mount)
 4. [Smart Filament Sensor](#smart-filament-sensor)
 5. [Relay Mount](#relay-mount)
@@ -29,7 +30,7 @@ In addition to upgrading the heated bed cables as part of the [safety upgrades](
 
 I made adapter cables by following the guide at [Caggius Interweb blog](https://caggius.wordpress.com/anet-a8-rewiring-for-skr1-3/) so that I did not need to repin the existing cables if i ever need to go back to using the original Anet A8 control board.
 
-## SKR 1.4 Turbo Control Board
+## SKR 1.4 Control Board
 
 ![The obligatory Benchy](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/benchy.jpg)
 
@@ -49,9 +50,9 @@ You can download the experimental design from [my 3D printing repository on Gith
 
 ### Firmware
 
-![Marlin firmware for the BTT SKR 1.4 Turbo on an Anet A8](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/firmware.jpg)
+![Marlin firmware for the BTT SKR 1.4 on an Anet A8](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/firmware.jpg)
 
-The firmware configured to run the printer and all of the mods I have made is available on [my Marlin Github repository](https://github.com/mikepthomas/Marlin/tree/bugfix-2.0.x-Anet-SKR-1.4-Turbo).
+The firmware configured to run the printer and all of the mods I have made is available on [my Marlin Github repository](https://github.com/mikepthomas/Marlin/tree/2.1.x-Anet-SKR-1.4).
 
 ## TFT24 Mount
 

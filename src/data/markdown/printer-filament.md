@@ -1,7 +1,7 @@
 # 3D Printer Filament list
 
 January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated February 20, 2023
+Updated March 26, 2023
 
 This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
@@ -188,7 +188,7 @@ This filament was originally brought to print the main parts for my [Voron 1.8](
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                          | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ5MC78) | £18.99   | 3             | ![#0E0F12](https://via.placeholder.com/13/0E0F12/0E0F12.png) |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ5MC78) | £17.02   | 4             | ![#0E0F12](https://via.placeholder.com/13/0E0F12/0E0F12.png) |
 
 ### eSun ABS+ (Blue)
 
@@ -218,7 +218,7 @@ This filament was originally brought to print the accent parts for my [Voron 1.8
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                        | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Fire%20Engine%20Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07RT35GSF) | £18.49   | 2             | ![#C60018](https://via.placeholder.com/13/C60018/C60018.png) |
+| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Fire%20Engine%20Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07RT35GSF) | £16.03   | 3             | ![#C60018](https://via.placeholder.com/13/C60018/C60018.png) |
 
 ### eSun ABS+ (Grey)
 

@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated Febuary 19, 2023
+Updated March 26, 2023
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -790,7 +790,7 @@ I have also purchased the [BTT EXP-MOT motor expansion module](https://github.co
 | [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 5.44m | 13.88g | £0.26 | :heavy_check_mark: |                                                                                                                                          |
 | [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)                                                     | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.51m | 3.84g  | £0.07 |         3          | This is a Trident r1 Part. 2 for SKR, 1 for BTT MOT Expansion and 1 for Raspberry Pi                                                     |
 | [raspberrypi_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/raspberrypi_bracket.stl)                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.77m | 4.51g  | £0.09 | :heavy_check_mark: | This is a Trident Part. Going to replace with [LDO Beefy Raspberry Pi Bracket](printer-voron-1.8-mods.md#ldo-beefy-raspberry-pi-bracket) |
-| [BTT_MOT_EXP_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/BTT_MOT_EXP_bracket.stl)                        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |       |        |       |        :x:         | This is a Trident Part                                                                                                                   |
+| [BTT_MOT_EXP_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/BTT_MOT_EXP_bracket.stl)                        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 1.76m | 4.48g  | £0.09 | :heavy_check_mark: | This is a Trident Part                                                                                                                   |
 | [SKR_bracket_inline_set](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/SKR_bracket_inline_set.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 2.55m | 6.49g  | £0.12 | :heavy_check_mark: | This is a Trident Part                                                                                                                   |
 
 ##### Assembly

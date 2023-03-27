@@ -5,7 +5,7 @@ Updated March 27, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
-![Klipper Expander Hat Hero](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-expander-hat/klipper-expander-hat-hero.png)
+![Klipper Expander Hat Hero](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-expander-hat/klipper-expander-hat-hero.jpg)
 
 ---
 
@@ -15,6 +15,8 @@ Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://githu
 2. [Parts Required](#parts-required)
 
 ## Printed Circuit Board
+
+![Klipper Expander Hat Front](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-expander-hat/klipper-expander-hat-front.png)
 
 I have created a [repository on my GitHub](https://github.com/mikepthomas/Klipper-Expander-Hat) with the KiCad design files and Gerber files that I used to produce Version 1 of the board.
 
@@ -54,3 +56,5 @@ I have created a [repository on my GitHub](https://github.com/mikepthomas/Klippe
 | --------------- | -------- | -------- | ---------- |
 | 2510 Axial Fan  | 1        |          | 2 on order |
 | CAT24C32 EEPROM | 1        | 10       |            |
+
+![Klipper Expander Hat In Hand](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-expander-hat/klipper-expander-hat-in-hand.jpg)

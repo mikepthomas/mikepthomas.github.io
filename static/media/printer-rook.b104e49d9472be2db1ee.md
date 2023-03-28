@@ -1,7 +1,7 @@
 # 3D Printing a Mostly 3D Printed 3D Printer
 
 Febuary 2, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 23, 2023
+Updated March 27, 2023
 
 Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.com/rolohaun/Rook).
 
@@ -32,16 +32,17 @@ Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.c
 
 ### Motion
 
-| Item                              | Quantity | Received | Notes                                                  |
-| --------------------------------- | -------- | -------- | ------------------------------------------------------ |
-| Filament Extruder                 | 1        | 1        | Using original Anet A8 Extruder with M6 Bowden Coupler |
-| F695 Bearing                      | 18       | 6        | 10 on order                                            |
-| GT2 20T Pulley (5mm ID 6mm W)     | 3        |          |                                                        |
-| GT2 Open Belt LL-2GT-6 (6mm wide) | 4m       | 4m       |                                                        |
-| Linear Rail MGN9C 200mm           | 2        |          | 2 on order                                             |
-| Linear Rail MGN9C 150mm           | 1        |          | 1 on order                                             |
-| Linear Shaft 8x200mm              | 4        |          | 4 on order                                             |
-| LM8UU Linear Bearing              | 2        | 2        |                                                        |
+| Item                                 | Quantity | Received | Notes                                                                        |
+| ------------------------------------ | -------- | -------- | ---------------------------------------------------------------------------- |
+| Filament Extruder                    | 1        | 1        | Using original Anet A8 Extruder with M6 Bowden Coupler                       |
+| F695 Bearing                         | 12       | 6        | 10 on order                                                                  |
+| GT2 20T Pulley (5mm ID 6mm W)        | 3        |          | 3 on order                                                                   |
+| GT2 20T Toothed Idler (5mm ID 6mm W) | 3        | 3        | Using 3 of these instead of 6 F695 Bearings for gantry idlers and belted bed |
+| GT2 Open Belt LL-2GT-6 (6mm wide)    | 4m       | 4m       |                                                                              |
+| Linear Rail MGN9C 200mm              | 2        |          | 2 on order                                                                   |
+| Linear Rail MGN9C 150mm              | 1        |          | 1 on order                                                                   |
+| Linear Shaft 8x200mm                 | 4        |          | 4 on order                                                                   |
+| LM8UU Linear Bearing                 | 2        | 2        |                                                                              |
 
 ### Print Bed
 

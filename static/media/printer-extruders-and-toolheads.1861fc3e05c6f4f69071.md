@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated February 20, 2023
+Updated March 26, 2023
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -86,37 +86,37 @@ I will print two M4 Extruders, 1 standard and 1 mirrored to mount to the back of
 
 ### Bowden
 
-| Item            | Quantity | Received | Notes      |
-| --------------- | -------- | -------- | ---------- |
-| Bowden Clip     | 2        | 2        |            |
-| Bowden Fitting  | 2        |          | 5 On Order |
-| Bowden Tube (m) | 2        | 2        |            |
+| Item            | Quantity | Received | Notes |
+| --------------- | -------- | -------- | ----- |
+| Bowden Clip     | 2        | 2        |       |
+| Bowden Fitting  | 2        | 2        |       |
+| Bowden Tube (m) | 2        | 2        |       |
 
 ### Printed Parts
 
-| Item                                                                                                         | Quantity | Material                                                | Printed | Notes |
-| ------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------- | :-----: | ----- |
-| [80t_gear](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/%5Ba%5D_80t_gear.stl)             | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |       |
-| [5x4mm_spacer](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/%5Ba%5D_5x4mm_spacer.stl)     | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |       |
-| [guidler](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/%5Ba%5D_guidler.stl)               | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |       |
-| [guidler_mirror](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/%5Ba%5D_guidler_mirror.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |       |
-| [latch_shuttle](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/latch_shuttle.stl)           | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-| [end_plate](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/end_plate.stl)                   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-| [end_plate_mirror](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/end_plate_mirror.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-| [motor_plate](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/motor_plate.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-| [motor_plate_mirror](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/motor_plate_mirror.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-| [main_body](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/main_body.stl)                   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-| [main_body_mirror](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/main_body_mirror.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-| [latch](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/%5Ba%5D_latch.stl)                   | 2        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |   :x:   |       |
+| Item                                                                                                         | Quantity | Material                                                                    | Printed | Notes |
+| ------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------- | :-----: | ----- |
+| [80t_gear](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/%5Ba%5D_80t_gear.stl)             | 2        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
+| [5x4mm_spacer](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/%5Ba%5D_5x4mm_spacer.stl)     | 2        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
+| [guidler](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/%5Ba%5D_guidler.stl)               | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
+| [guidler_mirror](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/%5Ba%5D_guidler_mirror.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
+| [latch_shuttle](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/latch_shuttle.stl)           | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
+| [end_plate](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/end_plate.stl)                   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
+| [end_plate_mirror](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/end_plate_mirror.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
+| [motor_plate](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/motor_plate.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
+| [motor_plate_mirror](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/motor_plate_mirror.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
+| [main_body](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/main_body.stl)                   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
+| [main_body_mirror](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/main_body_mirror.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
+| [latch](https://github.com/VoronDesign/Mobius-Extruder/blob/master/STLs/%5Ba%5D_latch.stl)                   | 2        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
 
 ## Voron Dual Bowden
 
 ### Bowden
 
-| Item          | Quantity | Received | Notes      |
-| ------------- | -------- | -------- | ---------- |
-| Bowden Clip   | 2        | 2        |            |
-| Bowden Collet | 2        |          | 5 On Order |
+| Item          | Quantity | Received | Notes |
+| ------------- | -------- | -------- | ----- |
+| Bowden Clip   | 2        | 2        |       |
+| Bowden Collet | 2        | 2        |       |
 
 ### Printed Parts
 
@@ -183,18 +183,18 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 
 #### Clockwork
 
-| Item                                                                                                                                                                          | Quantity | Material                                                |      Printed       | Notes                                                                            |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | -------------------------------------------------------------------------------- |
-| [pcb_cover](https://github.com/wile-e1/VoronUsers/blob/sb_cw1_pcb_cover/printer_mods/wile-e1/Stealthburner_CW1_PCB_Cover/sb_cw1_pcb_cover-r1.stl)                             | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This a User Mod for the ERCF Toolhead PCB by wile-e1 that fits the Stealthburner |
-| [pcb_cover_clip-on_mount](https://github.com/wile-e1/VoronUsers/blob/sb_cw1_pcb_cover/printer_mods/wile-e1/Stealthburner_CW1_PCB_Cover/sb_cw1_pcb_cover_clip-on_mount-r1.stl) | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     |        :x:         | This a User Mod for the ERCF Toolhead PCB by wile-e1 that fits the Stealthburner |
-| [guidler](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/%5Ba%5D_guidler.stl)                                                                  | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: |                                                                                  |
-| [ERCF_Sensor_Latch](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/%5Ba%5D_AB_ERCF_Sensor_Latch.stl)                                       | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | ERCF Filament Sensor Part                                                        |
-| [latch_shuttle](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/%5Ba%5D_latch_shuttle.stl)                                                      | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: |                                                                                  |
-| [chain_anchor](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/chain_anchor_3hole.stl)                                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | This is the Generic Cable Chain Version                                          |
-| [ERCF_Sensor_Extruder_Body](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/AB_ERCF_Sensor_Extruder_Body.stl)                               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | ERCF Filament Sensor Part                                                        |
-| [ERCF_Sensor_Cable_Cover](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/%5Ba%5D_AB_ERCF_Sensor_Cable_Cover.stl)                           | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | ERCF Filament Sensor Part                                                        |
-| [extruder_motor_plate_for_pcb](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/extruder_motor_plate_for_pcb.stl)            | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: | Afterburner Toolhead PCB Part                                                    |
-| [pcb_spacer](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/pcb_spacer.stl)                                                | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)     | :heavy_check_mark: | Afterburner Toolhead PCB Part                                                    |
+| Item                                                                                                                                                                          | Quantity | Material                                                                    |      Printed       | Notes                                                                            |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------- | :----------------: | -------------------------------------------------------------------------------- |
+| [pcb_cover](https://github.com/wile-e1/VoronUsers/blob/sb_cw1_pcb_cover/printer_mods/wile-e1/Stealthburner_CW1_PCB_Cover/sb_cw1_pcb_cover-r1.stl)                             | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |        :x:         | This a User Mod for the ERCF Toolhead PCB by wile-e1 that fits the Stealthburner |
+| [pcb_cover_clip-on_mount](https://github.com/wile-e1/VoronUsers/blob/sb_cw1_pcb_cover/printer_mods/wile-e1/Stealthburner_CW1_PCB_Cover/sb_cw1_pcb_cover_clip-on_mount-r1.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |        :x:         | This a User Mod for the ERCF Toolhead PCB by wile-e1 that fits the Stealthburner |
+| [guidler](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/%5Ba%5D_guidler.stl)                                                                  | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | :heavy_check_mark: |                                                                                  |
+| [ERCF_Sensor_Latch](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/%5Ba%5D_AB_ERCF_Sensor_Latch.stl)                                       | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | :heavy_check_mark: | ERCF Filament Sensor Part                                                        |
+| [latch_shuttle](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/%5Ba%5D_latch_shuttle.stl)                                                      | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | :heavy_check_mark: |                                                                                  |
+| [chain_anchor](https://github.com/VoronDesign/Voron-Afterburner/blob/master/STLs/Direct_Feed/chain_anchor_3hole.stl)                                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | :heavy_check_mark: | This is the Generic Cable Chain Version                                          |
+| [ERCF_Sensor_Extruder_Body](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/AB_ERCF_Sensor_Extruder_Body.stl)                               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | :heavy_check_mark: | ERCF Filament Sensor Part                                                        |
+| [ERCF_Sensor_Cable_Cover](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Filament_Sensor/Stls/AB/%5Ba%5D_AB_ERCF_Sensor_Cable_Cover.stl)                           | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | :heavy_check_mark: | ERCF Filament Sensor Part                                                        |
+| [extruder_motor_plate_for_pcb](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/extruder_motor_plate_for_pcb.stl)            | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | :heavy_check_mark: | Afterburner Toolhead PCB Part                                                    |
+| [pcb_spacer](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/STLs/Clockwork/pcb_spacer.stl)                                                | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | :heavy_check_mark: | Afterburner Toolhead PCB Part                                                    |
 
 ##### :white_check_mark: Assembly
 
@@ -222,12 +222,12 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 
 #### Stealthburner
 
-| Item                                                                                                                                             | Quantity | Material                                                         | Printed | Notes |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ---------------------------------------------------------------- | :-----: | ----- |
-| [main_body](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Ba%5D_stealthburner_main_body.stl)                 | 1        | [eSun ABS+ (Red)](printer-filament.md#esun-abs-red)              |   :x:   |       |
-| [LED_diffuser](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Bc%5D_stealthburner_LED_diffuser.stl)           | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) |   :x:   |       |
-| [LED_carrier](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_carrier.stl)             | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          |   :x:   |       |
-| [LED_diffuser_mask](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_diffuser_mask.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          |   :x:   |       |
+| Item                                                                                                                                             | Quantity | Material                                                                    | Printed | Notes |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------- | :-----: | ----- |
+| [main_body](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Ba%5D_stealthburner_main_body.stl)                 | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
+| [LED_diffuser](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Bc%5D_stealthburner_LED_diffuser.stl)           | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)            |   :x:   |       |
+| [LED_carrier](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_carrier.stl)             | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
+| [LED_diffuser_mask](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_diffuser_mask.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
 
 #### ADXL345 Mount
 
@@ -249,10 +249,10 @@ The [Rook](printer-rook.md) printer's stock part cooling uses a large 120mm blow
 
 ### Sourcing Parts
 
-| Item                     | Quantity | Received | Notes |
-| ------------------------ | -------- | -------- | ----- |
-| 30x30x10 Axial Fan       | 1        | 1        |       |
-| 40x40x10 Centrifugal Fan | 2        |          |       |
+| Item                     | Quantity | Received | Notes      |
+| ------------------------ | -------- | -------- | ---------- |
+| 30x30x10 Axial Fan       | 1        | 1        |            |
+| 40x40x10 Centrifugal Fan | 2        |          | 2 on order |
 
 ### Printing Parts
 

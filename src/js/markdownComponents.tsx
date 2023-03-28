@@ -27,6 +27,8 @@ import React from 'react';
 import { Table } from 'reactstrap';
 import { Helmet } from 'react-helmet';
 import { HashLink } from 'react-router-hash-link';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { oneLight } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import ReactWOW from 'react-wow';
 
 export function getComponents() {
@@ -54,6 +56,22 @@ export function getComponents() {
     blockquote: ({ ...props }) => (
       <blockquote className="blockquote">{props.children}</blockquote>
     ),
+    code: ({ ...props }) => {
+      const match = /language-(\w+)/.exec(props.className || '');
+      return !props.inline && match ? (
+        <SyntaxHighlighter
+          children={String(props.children).replace(/\n$/, '')}
+          language={match[1]}
+          style={oneLight}
+          PreTag="div"
+          {...props}
+        />
+      ) : (
+        <code className={props.className} {...props}>
+          {props.children}
+        </code>
+      );
+    },
     h1: ({ ...props }) => {
       let title = props.children.toString();
       return (

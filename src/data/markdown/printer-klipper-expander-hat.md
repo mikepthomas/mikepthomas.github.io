@@ -363,7 +363,23 @@ Update the contents with the [Klipper config source file from the Repository](ht
 
 **_TODO:_** Create a specific config file for the hat and update this link.
 
-Save the file, and flash the EEPROM
+Save the file, and embed the config file into the EEPROM image
+
+```bash
+pi@raspberrypi:~/hats/eepromutils $ ./eepmake eeprom_settings.txt klipper-expander-hat-with-dt.eep klipper-expander-hat.dtb -c klipper-expander-hat.cfg
+Opening file eeprom_settings.txt for read
+UUID=c13a6e9e-67d8-465d-9084-0fb77054ec7c
+Done reading
+Opening DT file klipper-expander-hat.dtb for read
+Adding 411 bytes of DT data
+Opening custom data file klipper-expander-hat.cfg for read
+Adding 245 bytes of custom data
+Writing out...
+Writing out DT...
+Done.
+```
+
+...then flash the EEPROM
 
 ```bash
 pi@raspberrypi:~/hats/eepromutils $ sudo ./eepflash.sh -w -f=blank.eep -t=24c32

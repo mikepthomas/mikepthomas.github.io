@@ -1,7 +1,7 @@
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 28, 2023
+Updated March 29, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
@@ -238,7 +238,7 @@ Do you wish to continue? (yes/no): yes
 Writing...
 0+1 records in
 0+1 records out
-134 bytes copied, 0.556762 s, 0.2 kB/s
+220 bytes copied, 0.825629 s, 0.3 kB/s
 Closing EEPROM Device.
 Done.
 ```
@@ -264,11 +264,75 @@ Voron Design
 pi@raspberrypi:/proc/device-tree/hat $ more product
 Klipper Expander Hat
 pi@raspberrypi:/proc/device-tree/hat $ more product_id
-0x0000
+0x4b45
 pi@raspberrypi:/proc/device-tree/hat $ more product_ver
-0x0000
+0x0001
 pi@raspberrypi:/proc/device-tree/hat $ more uuid
 fef562f0-9e28-4453-88c2-c073303e6ab2
+```
+
+### Enable I2C and SPI Automatically
+
+To allow the hat to automatically enable I2C and SPI we will create a device tree overlay and embed it into the EEPROM. The Raspberry Pi will then enable this at boot time.
+
+```bash
+pi@raspberrypi:~/hats/eepromutils $ nano klipper-expander-hat.dts
+```
+
+Update the contents with the [Klipper Expander Hat device tree source file from the Repository](https://github.com/mikepthomas/Klipper-Expander-Hat/blob/main/EEPROM/klipper-expander-hat.dts).
+
+Save the file, compile the binary and set the correct permissions to the output file:
+
+```bash
+pi@raspberrypi:~/hats/eepromutils $ sudo dtc -@ -I dts -O dtb -o klipper-expander-hat.dtb klipper-expander-hat.dts
+pi@raspberrypi:~/hats/eepromutils $ sudo chown pi:pi klipper-expander-hat.dtb
+```
+
+You may need to install the `device-tree-compiler` package if you get any errors running the previous command, however, it was already installed in the version of Raspberry Pi OS that I was using.
+
+```bash
+pi@raspberrypi:~/hats/eepromutils $ sudo apt-get install device-tree-compiler
+```
+
+We can then embed the device tree binary into the flash file...
+
+```bash
+pi@raspberrypi:~/hats/eepromutils $ ./eepmake eeprom_settings.txt klipper-expander-hat-with-dt.eep klipper-expander-hat.dtb
+Opening file eeprom_settings.txt for read
+UUID=967cd2a4-9c61-4397-ae2e-5184a7f2b7de
+Done reading
+Opening DT file klipper-expander-hat.dtb for read
+Adding 411 bytes of DT data
+Writing out...
+Writing out DT...
+Done.
+```
+
+...and flash it to the EEPROM the same way we did before:
+
+```bash
+pi@raspberrypi:~/hats/eepromutils $ sudo ./eepflash.sh -w -f=blank.eep -t=24c32
+This will attempt to talk to an eeprom at i2c address 0x50. Make sure there is an eeprom at this address.
+This script comes with ABSOLUTELY no warranty. Continue only if you know what you are doing.
+Do you wish to continue? (yes/no): yes
+Writing...
+4096 bytes (4.1 kB, 4.0 KiB) copied, 17 s, 0.2 kB/s
+8+0 records in
+8+0 records out
+4096 bytes (4.1 kB, 4.0 KiB) copied, 16.6287 s, 0.2 kB/s
+Closing EEPROM Device.
+Done.
+pi@raspberrypi:~/hats/eepromutils $ sudo ./eepflash.sh -w -f=klipper-expander-hat-with-dt.eep -t=24c32
+This will attempt to talk to an eeprom at i2c address 0x50. Make sure there is an eeprom at this address.
+This script comes with ABSOLUTELY no warranty. Continue only if you know what you are doing.
+Do you wish to continue? (yes/no): yes
+Writing...
+512 bytes copied, 2 s, 0.3 kB/s
+1+1 records in
+1+1 records out
+641 bytes copied, 2.53118 s, 0.3 kB/s
+Closing EEPROM Device.
+Done.
 ```
 
 ![EEPROM Connection to RPi](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-expander-hat/eeprom-connection-to-rpi.jpg)

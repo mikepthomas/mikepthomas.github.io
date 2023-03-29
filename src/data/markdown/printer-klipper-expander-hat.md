@@ -335,6 +335,67 @@ Closing EEPROM Device.
 Done.
 ```
 
+We can check that I2C and SPI is enabled by switching off I2C using `raspi-config` [the same way we enabled it](#enable-i2c) except clicking `No` when prompted to enable.
+
+After another restart you will be able to see the devices `/dev/i2c-1`, and `/dev/spidev0.0` and `/dev/spidev0.1` only when the hat EEPROM is connected.
+
+```bash
+pi@raspberrypi:~ $ ls /dev
+autofs         dma_heap   i2c-1    loop4         mmcblk0    ram1   ram5     spidev0.0  tty12  tty21  tty30  tty4   tty49  tty58  ttyAMA0    vcs1   vcsa4     vcsu6    video20
+block          dri        i2c-2    loop5         mmcblk0p1  ram10  ram6     spidev0.1  tty13  tty22  tty31  tty40  tty5   tty59  ttyprintk  vcs2   vcsa5     vhci     video21
+btrfs-control  fd         initctl  loop6         mmcblk0p2  ram11  ram7     stderr     tty14  tty23  tty32  tty41  tty50  tty6   uhid       vcs3   vcsa6     video10  video22
+bus            full       input    loop7         mqueue     ram12  ram8     stdin      tty15  tty24  tty33  tty42  tty51  tty60  uinput     vcs4   vcsm-cma  video11  video23
+cachefiles     fuse       kmsg     loop-control  net        ram13  ram9     stdout     tty16  tty25  tty34  tty43  tty52  tty61  urandom    vcs5   vcsu      video12  video31
+cec0           gpiochip0  log      mapper        null       ram14  random   tty        tty17  tty26  tty35  tty44  tty53  tty62  v4l        vcs6   vcsu1     video13  watchdog
+char           gpiochip1  loop0    media0        ppp        ram15  rfkill   tty0       tty18  tty27  tty36  tty45  tty54  tty63  vchiq      vcsa   vcsu2     video14  watchdog0
+console        gpiochip2  loop1    media1        ptmx       ram2   serial1  tty1       tty19  tty28  tty37  tty46  tty55  tty7   vcio       vcsa1  vcsu3     video15  zero
+cuse           gpiomem    loop2    media2        pts        ram3   shm      tty10      tty2   tty29  tty38  tty47  tty56  tty8   vc-mem     vcsa2  vcsu4     video16
+disk           hwrng      loop3    mem           ram0       ram4   snd      tty11      tty20  tty3   tty39  tty48  tty57  tty9   vcs        vcsa3  vcsu5     video18
+```
+
+### Embed Klipper config in EEPROM
+
+```bash
+pi@raspberrypi:~/hats/eepromutils $ nano klipper-expander-hat.cfg
+```
+
+Update the contents with the [Klipper config source file from the Repository](https://github.com/mikepthomas/klipper_config/blob/main/Boards/raspberry_pi.cfg).
+
+**_TODO:_** Create a specific config file for the hat and update this link.
+
+Save the file, and flash the EEPROM
+
+```bash
+pi@raspberrypi:~/hats/eepromutils $ sudo ./eepflash.sh -w -f=blank.eep -t=24c32
+This will attempt to talk to an eeprom at i2c address 0x50. Make sure there is an eeprom at this address.
+This script comes with ABSOLUTELY no warranty. Continue only if you know what you are doing.
+Do you wish to continue? (yes/no): yes
+Writing...
+4096 bytes (4.1 kB, 4.0 KiB) copied, 17 s, 0.2 kB/s
+8+0 records in
+8+0 records out
+4096 bytes (4.1 kB, 4.0 KiB) copied, 16.5953 s, 0.2 kB/s
+Closing EEPROM Device.
+Done.
+pi@raspberrypi:~/hats/eepromutils $ sudo ./eepflash.sh -w -f=klipper-expander-hat-with-dt.eep -t=24c32
+This will attempt to talk to an eeprom at i2c address 0x50. Make sure there is an eeprom at this address.
+This script comes with ABSOLUTELY no warranty. Continue only if you know what you are doing.
+Do you wish to continue? (yes/no): yes
+Writing...
+512 bytes copied, 2 s, 0.2 kB/s
+1+1 records in
+1+1 records out
+896 bytes copied, 3.62112 s, 0.2 kB/s
+Closing EEPROM Device.
+Done.
+```
+
+Restart the Pi and we can then we can copy the config out of the device tree into the klipper config directory:
+
+```bash
+cat /proc/device-tree/hat/custom_1 > ~/printer_data/config/klipper-expander-hat.cfg
+```
+
 ![EEPROM Connection to RPi](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-expander-hat/eeprom-connection-to-rpi.jpg)
 
 ## Parts Required

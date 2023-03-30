@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.0ecc42d1.css",
-    "main.js": "/static/js/main.9055b76b.js",
+    "main.js": "/static/js/main.4751f1b2.js",
     "static/js/444.8aa8e223.chunk.js": "/static/js/444.8aa8e223.chunk.js",
     "static/css/573.94c97534.chunk.css": "/static/css/573.94c97534.chunk.css",
-    "static/js/573.ef9fdec6.chunk.js": "/static/js/573.ef9fdec6.chunk.js",
+    "static/js/573.815aaac9.chunk.js": "/static/js/573.815aaac9.chunk.js",
     "static/js/605.633b31c9.chunk.js": "/static/js/605.633b31c9.chunk.js",
     "static/media/banner.jpg": "/static/media/banner.9cbc9ef686c75e84369f.jpg",
     "static/media/wago-mounts.jpg": "/static/media/wago-mounts.b28170b6fe5cc1eb64f3.jpg",
@@ -248,14 +248,14 @@
     "static/media/guitar.md": "/static/media/guitar.d2f5bb2e22020eb420be.md",
     "index.html": "/index.html",
     "main.0ecc42d1.css.map": "/static/css/main.0ecc42d1.css.map",
-    "main.9055b76b.js.map": "/static/js/main.9055b76b.js.map",
+    "main.4751f1b2.js.map": "/static/js/main.4751f1b2.js.map",
     "444.8aa8e223.chunk.js.map": "/static/js/444.8aa8e223.chunk.js.map",
     "573.94c97534.chunk.css.map": "/static/css/573.94c97534.chunk.css.map",
-    "573.ef9fdec6.chunk.js.map": "/static/js/573.ef9fdec6.chunk.js.map",
+    "573.815aaac9.chunk.js.map": "/static/js/573.815aaac9.chunk.js.map",
     "605.633b31c9.chunk.js.map": "/static/js/605.633b31c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ecc42d1.css",
-    "static/js/main.9055b76b.js"
+    "static/js/main.4751f1b2.js"
   ]
 }

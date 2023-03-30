@@ -148,8 +148,8 @@ const Projects = (props: Props) => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/projects/printer-klipper-expander-hat">
-                    Klipper Expander Hat
+                  <Link to="/projects/printer-klipper-fan-hat">
+                    Klipper Fan Hat
                   </Link>
                 </li>
                 <li>

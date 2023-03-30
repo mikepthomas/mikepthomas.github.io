@@ -1,11 +1,11 @@
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 29, 2023
+Updated March 30, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
-![Klipper Expander Hat Hero](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-expander-hat/klipper-expander-hat-hero.jpg)
+![Klipper Fan Hat Hero](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-hero.jpg)
 
 ---
 
@@ -17,11 +17,11 @@ Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://githu
 
 ## Printed Circuit Board
 
-![Klipper Expander Hat Front](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-expander-hat/klipper-expander-hat-front.png)
+![Klipper Fan Hat Front](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-front.jpg)
 
-I have created a [repository on my GitHub](https://github.com/mikepthomas/Klipper-Expander-Hat) with the KiCad design files and Gerber files that I used to produce Version 1 of the board.
+I have created a [repository on my GitHub](https://github.com/mikepthomas/Klipper-Fan-Hat) with the KiCad design files and Gerber files that I used to produce Version 1 of the board.
 
-![Klipper Expander Hat Back](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-expander-hat/klipper-expander-hat-back.png)
+![Klipper Fan Hat Back](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-back.jpg)
 
 ## Flash Hat EEPROM
 
@@ -215,12 +215,12 @@ Open the `eeprom_settings.txt` file:
 pi@raspberrypi:~/hats/eepromutils $ nano eeprom_settings.txt
 ```
 
-Update the contents with the [Klipper Expander Hat settings file from the Repository](https://github.com/mikepthomas/Klipper-Expander-Hat/blob/main/EEPROM/eeprom_settings.txt).
+Update the contents with the [Klipper Fan Hat settings file from the Repository](https://github.com/mikepthomas/Klipper-Fan-Hat/blob/main/EEPROM/eeprom_settings.txt).
 
 Save and close the file, and then we can make the EEPROM image...
 
 ```bash
-pi@raspberrypi:~/hats/eepromutils $ ./eepmake eeprom_settings.txt klipper-expander-hat.eep
+pi@raspberrypi:~/hats/eepromutils $ ./eepmake eeprom_settings.txt klipper-fan-hat.eep
 Opening file eeprom_settings.txt for read
 UUID=fef562f0-9e28-4453-88c2-c073303e6ab2
 Done reading
@@ -231,7 +231,7 @@ Done.
 ...and flash it to the chip.
 
 ```bash
-pi@raspberrypi:~/hats/eepromutils $ sudo ./eepflash.sh -w -f=klipper-expander-hat.eep -t=24c32
+pi@raspberrypi:~/hats/eepromutils $ sudo ./eepflash.sh -w -f=klipper-fan-hat.eep -t=24c32
 This will attempt to talk to an eeprom at i2c address 0x50. Make sure there is an eeprom at this address.
 This script comes with ABSOLUTELY no warranty. Continue only if you know what you are doing.
 Do you wish to continue? (yes/no): yes
@@ -262,9 +262,9 @@ hat
 pi@raspberrypi:/proc/device-tree/hat $ more vendor
 Voron Design
 pi@raspberrypi:/proc/device-tree/hat $ more product
-Klipper Expander Hat
+Klipper Fan Hat
 pi@raspberrypi:/proc/device-tree/hat $ more product_id
-0x4b45
+0x4b46
 pi@raspberrypi:/proc/device-tree/hat $ more product_ver
 0x0001
 pi@raspberrypi:/proc/device-tree/hat $ more uuid
@@ -276,16 +276,16 @@ fef562f0-9e28-4453-88c2-c073303e6ab2
 To allow the hat to automatically enable I2C and SPI we will create a device tree overlay and embed it into the EEPROM. The Raspberry Pi will then enable this at boot time.
 
 ```bash
-pi@raspberrypi:~/hats/eepromutils $ nano klipper-expander-hat.dts
+pi@raspberrypi:~/hats/eepromutils $ nano klipper-fan-hat.dts
 ```
 
-Update the contents with the [Klipper Expander Hat device tree source file from the Repository](https://github.com/mikepthomas/Klipper-Expander-Hat/blob/main/EEPROM/klipper-expander-hat.dts).
+Update the contents with the [Klipper Fan Hat device tree source file from the Repository](https://github.com/mikepthomas/Klipper-Fan-Hat/blob/main/EEPROM/klipper-fan-hat.dts).
 
 Save the file, compile the binary and set the correct permissions to the output file:
 
 ```bash
-pi@raspberrypi:~/hats/eepromutils $ sudo dtc -@ -I dts -O dtb -o klipper-expander-hat.dtb klipper-expander-hat.dts
-pi@raspberrypi:~/hats/eepromutils $ sudo chown pi:pi klipper-expander-hat.dtb
+pi@raspberrypi:~/hats/eepromutils $ sudo dtc -@ -I dts -O dtb -o klipper-fan-hat.dtb klipper-fan-hat.dts
+pi@raspberrypi:~/hats/eepromutils $ sudo chown pi:pi klipper-fan-hat.dtb
 ```
 
 You may need to install the `device-tree-compiler` package if you get any errors running the previous command, however, it was already installed in the version of Raspberry Pi OS that I was using.
@@ -297,11 +297,11 @@ pi@raspberrypi:~/hats/eepromutils $ sudo apt-get install device-tree-compiler
 We can then embed the device tree binary into the flash file...
 
 ```bash
-pi@raspberrypi:~/hats/eepromutils $ ./eepmake eeprom_settings.txt klipper-expander-hat-with-dt.eep klipper-expander-hat.dtb
+pi@raspberrypi:~/hats/eepromutils $ ./eepmake eeprom_settings.txt klipper-fan-hat-with-dt.eep klipper-fan-hat.dtb
 Opening file eeprom_settings.txt for read
 UUID=967cd2a4-9c61-4397-ae2e-5184a7f2b7de
 Done reading
-Opening DT file klipper-expander-hat.dtb for read
+Opening DT file klipper-fan-hat.dtb for read
 Adding 411 bytes of DT data
 Writing out...
 Writing out DT...
@@ -322,7 +322,7 @@ Writing...
 4096 bytes (4.1 kB, 4.0 KiB) copied, 16.6287 s, 0.2 kB/s
 Closing EEPROM Device.
 Done.
-pi@raspberrypi:~/hats/eepromutils $ sudo ./eepflash.sh -w -f=klipper-expander-hat-with-dt.eep -t=24c32
+pi@raspberrypi:~/hats/eepromutils $ sudo ./eepflash.sh -w -f=klipper-fan-hat-with-dt.eep -t=24c32
 This will attempt to talk to an eeprom at i2c address 0x50. Make sure there is an eeprom at this address.
 This script comes with ABSOLUTELY no warranty. Continue only if you know what you are doing.
 Do you wish to continue? (yes/no): yes
@@ -356,7 +356,7 @@ disk           hwrng      loop3    mem           ram0       ram4   snd      tty1
 ### Embed Klipper config in EEPROM
 
 ```bash
-pi@raspberrypi:~/hats/eepromutils $ nano klipper-expander-hat.cfg
+pi@raspberrypi:~/hats/eepromutils $ nano klipper-fan-hat.cfg
 ```
 
 Update the contents with the [Klipper config source file from the Repository](https://github.com/mikepthomas/klipper_config/blob/main/Boards/raspberry_pi.cfg).
@@ -366,13 +366,13 @@ Update the contents with the [Klipper config source file from the Repository](ht
 Save the file, and embed the config file into the EEPROM image
 
 ```bash
-pi@raspberrypi:~/hats/eepromutils $ ./eepmake eeprom_settings.txt klipper-expander-hat-with-dt.eep klipper-expander-hat.dtb -c klipper-expander-hat.cfg
+pi@raspberrypi:~/hats/eepromutils $ ./eepmake eeprom_settings.txt klipper-fan-hat-with-dt.eep klipper-fan-hat.dtb -c klipper-fan-hat.cfg
 Opening file eeprom_settings.txt for read
 UUID=c13a6e9e-67d8-465d-9084-0fb77054ec7c
 Done reading
-Opening DT file klipper-expander-hat.dtb for read
+Opening DT file klipper-fan-hat.dtb for read
 Adding 411 bytes of DT data
-Opening custom data file klipper-expander-hat.cfg for read
+Opening custom data file klipper-fan-hat.cfg for read
 Adding 245 bytes of custom data
 Writing out...
 Writing out DT...
@@ -393,7 +393,7 @@ Writing...
 4096 bytes (4.1 kB, 4.0 KiB) copied, 16.5953 s, 0.2 kB/s
 Closing EEPROM Device.
 Done.
-pi@raspberrypi:~/hats/eepromutils $ sudo ./eepflash.sh -w -f=klipper-expander-hat-with-dt.eep -t=24c32
+pi@raspberrypi:~/hats/eepromutils $ sudo ./eepflash.sh -w -f=klipper-fan-hat-with-dt.eep -t=24c32
 This will attempt to talk to an eeprom at i2c address 0x50. Make sure there is an eeprom at this address.
 This script comes with ABSOLUTELY no warranty. Continue only if you know what you are doing.
 Do you wish to continue? (yes/no): yes
@@ -409,10 +409,10 @@ Done.
 Restart the Pi and we can then we can copy the config out of the device tree into the klipper config directory:
 
 ```bash
-cat /proc/device-tree/hat/custom_1 > ~/printer_data/config/klipper-expander-hat.cfg
+cat /proc/device-tree/hat/custom_1 > ~/printer_data/config/klipper-fan-hat.cfg
 ```
 
-![EEPROM Connection to RPi](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-expander-hat/eeprom-connection-to-rpi.jpg)
+![EEPROM Connection to RPi](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/eeprom-connection-to-rpi.jpg)
 
 ## Parts Required
 
@@ -449,4 +449,4 @@ cat /proc/device-tree/hat/custom_1 > ~/printer_data/config/klipper-expander-hat.
 | 2510 Axial Fan  | 1        | 2        |       |
 | CAT24C32 EEPROM | 1        | 10       |       |
 
-![Klipper Expander Hat In Hand](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-expander-hat/klipper-expander-hat-in-hand.jpg)
+![Klipper Fan Hat In Hand](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-in-hand.jpg)

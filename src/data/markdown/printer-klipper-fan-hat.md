@@ -1,7 +1,7 @@
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 30, 2023
+Updated March 31, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
@@ -439,7 +439,7 @@ cat /proc/device-tree/hat/custom_1 > ~/printer_data/config/klipper-fan-hat.cfg
 | 4.7kΩ Resistor (1206 Package)           | 8        |          | 100 on order |
 | 100Ω Resistor (1206 Package)            | 5        | 123      |              |
 | 10kΩ Resistor (1206 Package)            | 5        | 111      |              |
-| LED (1206 Package)                      | 6        |          | 100 on order |
+| LED Red (1206 Package)                  | 6        | 105      |              |
 | IRLML6344-TRPBF Mosfet (SOT-23 Package) | 5        | 50       |              |
 
 ### Misc

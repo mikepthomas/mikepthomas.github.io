@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.0ecc42d1.css",
-    "main.js": "/static/js/main.2365c2ee.js",
+    "main.js": "/static/js/main.e510250b.js",
     "static/js/444.8aa8e223.chunk.js": "/static/js/444.8aa8e223.chunk.js",
     "static/css/573.94c97534.chunk.css": "/static/css/573.94c97534.chunk.css",
-    "static/js/573.ef9fdec6.chunk.js": "/static/js/573.ef9fdec6.chunk.js",
+    "static/js/573.089e32da.chunk.js": "/static/js/573.089e32da.chunk.js",
     "static/js/605.633b31c9.chunk.js": "/static/js/605.633b31c9.chunk.js",
     "static/media/banner.jpg": "/static/media/banner.9cbc9ef686c75e84369f.jpg",
     "static/media/wago-mounts.jpg": "/static/media/wago-mounts.b28170b6fe5cc1eb64f3.jpg",
@@ -223,6 +223,7 @@
     "static/media/belt-path.jpg": "/static/media/belt-path.47a79c82a572407b0f54.jpg",
     "static/media/electronics-compartment.jpg": "/static/media/electronics-compartment.976707c8d2bcab2307a2.jpg",
     "static/media/printer-enraged-rabbit-carrot-feeder.md": "/static/media/printer-enraged-rabbit-carrot-feeder.20d6c40b2411938cb2bc.md",
+    "static/media/printer-am8.md": "/static/media/printer-am8.3562f53cb92bca5fc8c4.md",
     "static/media/panels.jpg": "/static/media/panels.c8eb6f36d67e4e47fdd6.jpg",
     "static/media/ab-drive.jpg": "/static/media/ab-drive.9c50bd2860ad8033c72c.jpg",
     "static/media/printer-extruders-and-toolheads.md": "/static/media/printer-extruders-and-toolheads.1861fc3e05c6f4f69071.md",
@@ -232,12 +233,10 @@
     "static/media/printer-hypercube.md": "/static/media/printer-hypercube.75ec04c0ebd3235b9683.md",
     "static/media/printer-polyformer.md": "/static/media/printer-polyformer.fdbaaabba0fa49b33d9e.md",
     "static/media/openrc-f1.md": "/static/media/openrc-f1.aaaedbe0447cf32f59cc.md",
-    "static/media/printer-klipper-fan-hat.md": "/static/media/printer-klipper-fan-hat.99b9d8404b4a39485b26.md",
+    "static/media/printer-klipper-fan-hat.md": "/static/media/printer-klipper-fan-hat.51eedfa2b88facb5434e.md",
     "static/media/printer-printed-upgrades.md": "/static/media/printer-printed-upgrades.d69270017bea802c0be3.md",
     "static/media/openrc-truggy.md": "/static/media/openrc-truggy.21685443ede85027c29c.md",
-    "static/media/printer-am8.md": "/static/media/printer-am8.509123846adcfc7a225a.md",
-    "static/media/printer-am8-switchwire.md": "/static/media/printer-am8-switchwire.89f3b63b1a627b6a9125.md",
-    "static/media/printer-rook.md": "/static/media/printer-rook.b104e49d9472be2db1ee.md",
+    "static/media/printer-rook.md": "/static/media/printer-rook.5c3121f08b91f620f57e.md",
     "static/media/3d-lab-print-piper-cub.md": "/static/media/3d-lab-print-piper-cub.9650a6b85f5ec2949d4b.md",
     "static/media/printer-failures.md": "/static/media/printer-failures.af85a22e66b683cf592b.md",
     "static/media/printer.md": "/static/media/printer.3640db1e60a594b47278.md",
@@ -248,14 +247,14 @@
     "static/media/guitar.md": "/static/media/guitar.d2f5bb2e22020eb420be.md",
     "index.html": "/index.html",
     "main.0ecc42d1.css.map": "/static/css/main.0ecc42d1.css.map",
-    "main.2365c2ee.js.map": "/static/js/main.2365c2ee.js.map",
+    "main.e510250b.js.map": "/static/js/main.e510250b.js.map",
     "444.8aa8e223.chunk.js.map": "/static/js/444.8aa8e223.chunk.js.map",
     "573.94c97534.chunk.css.map": "/static/css/573.94c97534.chunk.css.map",
-    "573.ef9fdec6.chunk.js.map": "/static/js/573.ef9fdec6.chunk.js.map",
+    "573.089e32da.chunk.js.map": "/static/js/573.089e32da.chunk.js.map",
     "605.633b31c9.chunk.js.map": "/static/js/605.633b31c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ecc42d1.css",
-    "static/js/main.2365c2ee.js"
+    "static/js/main.e510250b.js"
   ]
 }

@@ -191,11 +191,6 @@ const Projects = (props: Props) => {
                         Hypercube CoreXY Upgrade
                       </Link>
                     </li>
-                    <li>
-                      <Link to="/projects/printer-am8">
-                        AM8 Frame Upgrade for Anet A8
-                      </Link>
-                    </li>
                   </ul>
                 </li>
               </ol>

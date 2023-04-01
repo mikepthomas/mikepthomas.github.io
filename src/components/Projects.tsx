@@ -118,7 +118,7 @@ const Projects = (props: Props) => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/projects/printer-am8-switchwire">
+                      <Link to="/projects/printer-am8">
                         AM8 Switchwire
                       </Link>
                     </li>

@@ -154,7 +154,6 @@ I will probably skip these and use right angle M6 threaded hole brackets to moun
 | [Tool_Caddy](https://www.thingiverse.com/thing:2441957/files)                   | 2        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [kayOs](https://www.thingiverse.com/kayOs)                 |
 | [Tool_Holder](https://www.thingiverse.com/thing:2764362/files)                  | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | This is a remix by [zimonkaizoku](https://www.thingiverse.com/zimonkaizoku)   |
 
-
 **_NOTE:_** Colours are provisional, I will probably add in Black as an accent colour for some parts.
 
 ### Original AM8 Parts

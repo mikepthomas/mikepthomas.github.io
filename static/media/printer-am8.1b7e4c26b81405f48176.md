@@ -22,13 +22,13 @@ I have [stiffened the frame as much as I can with 3D printed upgrades](printer-p
 
 I had originally intended to migrate from the Anet A8's acrylic frame to a CoreXY [Hypercube](printer-hypercube.md) style printer but instead decided to build a complete Voron 1.8. As [Nero 3D](https://www.onlybenchies.com/) says 2 printers are 1 and 1 printer is none, therefore I would like to keep at least one working printer before heavilly modifing a working one.
 
-During my research for the [Hypercube](printer-hypercube.md), I ruled out the AM8 due to the cost of the frame, however the frame I settled on was an [ALTRAX frame that I have imported from Poland](https://hobby-store.co.uk/frame-kits/altrax-anet-am8-3d-printer-frame.html) for £30.55 plus postage which I thought was resonable.
+During my research for the [Hypercube](printer-hypercube.md), I ruled out the AM8 due to the cost of the frame, however the frame I settled on was an [ALTRAX frame that I have imported from Poland](https://hobby-store.pl/en/frame-kits-for-3d-printers/altrax-anet-am8-3d-printer-frame.html) for £30.55 plus postage which I thought was resonable.
 
 After purchasing the frame, I found a [project on Reddit](https://www.reddit.com/r/AnetA8/comments/rvt3zt) to convert the Anet A8 to a CoreXZ style printer similar to the [Voron Switchwire](https://vorondesign.com/voron_switchwire).
 
 ## Software
 
-I have purchased an SKR 1.4 to run the printer as I will be using the Anet A8's SKR 1.4 Turbo for the [Voron](printer-voron-1.8.md).
+I have purchased an SKR 1.4 to run the printer as I will be using the Anet A8's SKR 1.4 Turbo for the [Voron 1.8](printer-voron-1.8.md).
 
 It will be flashed with [Klipper Firmware](https://www.klipper3d.org/) as the [Marlin configuration](https://github.com/mikepthomas/Marlin/tree/2.1.x-Anet-SKR-1.4) that I currently use is not set up to use the CoreXZ kinematics the AM8 Switchwire uses. The SKR 1.4 has 5 stepper motors which will be enough to run the 2 XZ stepper motors, the Y Stepper and [2 M4 extruders](printer-extruders-and-toolheads.md#voron-m4).
 

@@ -126,6 +126,9 @@ const Projects = (props: Props) => {
                   <Link to="/projects/printer-rook">Rook MK1</Link>
                 </li>
                 <li>
+                  <Link to="/projects/printer-voron-0.2">Voron 0.2</Link>
+                </li>
+                <li>
                   <Link to="/projects/printer-voron-1.8">Voron 1.8</Link>
                   <ul>
                     <li>

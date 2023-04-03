@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 26, 2023
+Updated April 3, 2023
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -249,10 +249,10 @@ The [Rook](printer-rook.md) printer's stock part cooling uses a large 120mm blow
 
 ### Sourcing Parts
 
-| Item                     | Quantity | Received | Notes      |
-| ------------------------ | -------- | -------- | ---------- |
-| 30x30x10 Axial Fan       | 1        | 1        |            |
-| 40x40x10 Centrifugal Fan | 2        |          | 2 on order |
+| Item                     | Quantity | Received | Notes |
+| ------------------------ | -------- | -------- | ----- |
+| 30x30x10 Axial Fan       | 1        | 1        |       |
+| 40x40x10 Centrifugal Fan | 2        | 2        |       |
 
 ### Printing Parts
 

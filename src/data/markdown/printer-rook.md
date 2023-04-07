@@ -66,19 +66,25 @@ Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.c
 
 ## Printing Parts
 
+### Bed
+
+| Item                                                                                                                 | Quantity | Material                                                          | Printed | Notes                                                           |
+| -------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | --------------------------------------------------------------- |
+| [Bed_Frame_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Bed/Bed_Frame_MK1.stl)                                | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   |                                                                 |
+| [Rook -150mm glass bed support](https://www.printables.com/model/371475-rook-3d-printer-mods-150mm-glass-bed-holder) | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   | This is a mod by [FabienT](https://www.printables.com/@FabienT) |
+
 ### Frame
 
-| Item                                                                                                    | Quantity | Material                                                          | Printed | Notes                                                                      |
-| ------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | -------------------------------------------------------------------------- |
-| [Bed_Frame_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Bed/Bed_Frame_MK1.stl)                   | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   |                                                                            |
-| [Bed_Pad_for_springs](https://github.com/rolohaun/Rook/blob/main/Legacy/STLs/Bed_Pad_for_springs.stl)   | 3        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   |                                                                            |
-| [Bottom_Frame_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Bottom_Frame_MK1.stl)           | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   |                                                                            |
-| [Foot_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Foot_Mount_MK1.STL)               | 4        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   |                                                                            |
-| [Left_Motor_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Left_Motor_Mount_MK1.stl)   | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   |                                                                            |
-| [Right_Motor_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Right_Motor_Mount_MK1.stl) | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   |                                                                            |
-| [SKR Pico PiZero - Inserts](https://www.printables.com/model/388353-rook-mk1-skr-pico-pi-zero-adapter)  | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   | This is a mod by [Kanrog](https://www.printables.com/social/109495-kanrog) |
-| [Top_Frame_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Top_Frame_MK1.stl)                 | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   |                                                                            |
-| [Rook Endstop](https://www.printables.com/model/381948-rook-mk1-low-profile-endstop)                    | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   |                                                                            |
+| Item                                                                                                    | Quantity | Material                                                          | Printed | Notes                                                           |
+| ------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | --------------------------------------------------------------- |
+| [Bottom_Frame_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Bottom_Frame_MK1.stl)           | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   |                                                                 |
+| [Foot_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Foot_Mount_MK1.STL)               | 4        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   |                                                                 |
+| [Left_Motor_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Left_Motor_Mount_MK1.stl)   | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   |                                                                 |
+| [Right_Motor_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Right_Motor_Mount_MK1.stl) | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   |                                                                 |
+| [SKR Pico PiZero - Inserts](https://www.printables.com/model/388353-rook-mk1-skr-pico-pi-zero-adapter)  | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog)   |
+| [Top_Frame_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Top_Frame_MK1.stl)                 | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   |                                                                 |
+| [Rook Endstop](https://www.printables.com/model/381948-rook-mk1-low-profile-endstop)                    | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   |                                                                 |
+| [Rook boot](https://www.printables.com/model/371470-rook-3d-printer-mods-boots/files)                   | 4        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   | This is a mod by [FabienT](https://www.printables.com/@FabienT) |
 
 ### Gantry
 
@@ -105,8 +111,22 @@ Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.c
 
 ### Side-mounted spool and Extruder
 
-| Item                                                                                                          | Quantity | Material                                                          | Printed | Notes                                                                      |
-| ------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | -------------------------------------------------------------------------- |
-| [motor-mount short V2](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files)    | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   | This is a mod by [Kanrog](https://www.printables.com/social/109495-kanrog) |
-| [Front Vertical Spool V4](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files) | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   | This is a mod by [Kanrog](https://www.printables.com/social/109495-kanrog) |
-| [Spool-hanger V4](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files)         | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/social/109495-kanrog) |
+| Item                                                                                                          | Quantity | Material                                                          | Printed | Notes                                                         |
+| ------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ------------------------------------------------------------- |
+| [motor-mount short V2](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files)    | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
+| [Front Vertical Spool V4](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files) | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
+| [Spool-hanger V4](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files)         | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
+
+### Base
+
+| Item                                                                                                                                                | Quantity | Material | Printed | Notes                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | ----------------------------------------------------------------- |
+| [MK1 Bottom Frame Top Lid Guls Mod - Raised logo](https://www.printables.com/model/406991-rook-mk1-base-lid-remix-to-fit-kanrog-low-profile-/files) | 1        |          |   :x:   | This is a mod by [ImSteffe](https://www.printables.com/@ImSteffe) |
+
+### Skirts
+
+| Item                                                                                         | Quantity | Material | Printed | Notes                                                       |
+| -------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | ----------------------------------------------------------- |
+| [Rook_skirt_front_OLED_Screen](https://www.printables.com/model/419088-rook-mk1-skirt/files) | 1        |          |   :x:   | This is a mod by [HK721](https://www.printables.com/@HK721) |
+| [Rook_skirt_side_left](https://www.printables.com/model/419088-rook-mk1-skirt/files)         | 1        |          |   :x:   | This is a mod by [HK721](https://www.printables.com/@HK721) |
+| [Rook_skirt_side_right](https://www.printables.com/model/419088-rook-mk1-skirt/files)        | 1        |          |   :x:   | This is a mod by [HK721](https://www.printables.com/@HK721) |

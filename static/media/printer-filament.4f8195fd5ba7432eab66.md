@@ -1,7 +1,7 @@
 # 3D Printer Filament list
 
 January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 26, 2023
+Updated April 9, 2023
 
 This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
@@ -230,6 +230,8 @@ This filament was originally brought to print the wheels for a [3D Sets Landy](3
 
 ### eSun ABS+ (Light Blue)
 
+This filament will be used to print the main parts for the [Rook MK1](printer-rook.md).
+
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
 | 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Light%20Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ1VKXX) | £18.99   | 1             | ![#42C2F4](https://via.placeholder.com/13/42C2F4/42C2F4.png) |
@@ -242,11 +244,15 @@ This filament was originally brought to print the wheels for a [3D Sets Landy](3
 
 ### eSun ABS+ (Orange)
 
+This filament will be used to print some of the accent parts for the [Voron 0.2](printer-voron-0.2.md).
+
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                     | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
 | 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Orange).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-orange-3) | £18.59   | 1             | ![#FA4919](https://via.placeholder.com/13/FA4919/FA4919.png) |
 
 ### eSun ABS+ (Peak Green)
+
+This filament will be used to print the parts for the [Rook 2020](printer-rook.md).
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
@@ -262,13 +268,15 @@ This filament was originally brought to print the body panels for a [3D Sets Lan
 
 ### eSun ABS+ (Pink)
 
+This filament will be used to print the accent parts for the [Rook MK1](printer-rook.md).
+
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                         | Purchased From | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------- | ------------- | :----------------------------------------------------------: |
 | 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Pink).ini>) | Wedge3D        | £16.20   | 1             | ![#F8467A](https://via.placeholder.com/13/F8467A/F8467A.png) |
 
 ### eSun ABS+ (Purple)
 
-This filament was originally brought to print the accent parts to upgrade my [Voron 1.8](printer-voron-1.8.md) to a 2.4.
+This filament will be used to print some of the accent parts for the [Voron 0.2](printer-voron-0.2.md).
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |

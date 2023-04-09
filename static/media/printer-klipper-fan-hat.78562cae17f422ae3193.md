@@ -1,7 +1,7 @@
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 31, 2023
+Updated April 7, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
@@ -11,9 +11,16 @@ Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://githu
 
 ## Table of contents
 
-1. [Printed Circuit Board](#printed-circuit-board)
-2. [Flash Hat EEPROM](#flash-hat-eeprom)
-3. [Parts Required](#parts-required)
+1. [What is this?](#what-is-this-)
+2. [Printed Circuit Board](#printed-circuit-board)
+3. [Flash Hat EEPROM](#flash-hat-eeprom)
+4. [Parts Required](#parts-required)
+
+## What is this?
+
+The Klipper Expander is designed to add 4 additional Mosfet outputs, 2 thermistor inputs, a Neopixel output, a GPIO Header and an I2C header that can be added as a secondary Klipper MCU. The Klipper Fan Hat is supposed to be a re-imagination of this, that can be attached on top of the Raspberry Pi that is used as the Klipper Host.
+
+The Klipper Fan Hat is not supposed to be a replacement for the Klipper Expander, the Klipper expander can handle more current as it has wider PCB tracks than this PCB and therefore the Klipper Fan Hat should only be used for lower current devices such as fans. The Klipper Fan Hat also does not support Neopixels due to space constraints of fitting it within the footprint of a Raspberry Pi Hat.
 
 ## Printed Circuit Board
 
@@ -415,6 +422,15 @@ cat /proc/device-tree/hat/custom_1 > ~/printer_data/config/klipper-fan-hat.cfg
 ![EEPROM Connection to RPi](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/eeprom-connection-to-rpi.jpg)
 
 ## Parts Required
+
+### Fasteners
+
+| Item                | Quantity | Received | Notes |
+| ------------------- | -------- | -------- | ----- |
+| M2.5x6 BHCS         | 4        | 50       |       |
+| M2.5x14 BHCS        | 4        | 10       |       |
+| M2.5 Nut            | 4        | 50       |       |
+| M2.5 Brass Standoff | 4        | 50       |       |
 
 ### Connectors
 

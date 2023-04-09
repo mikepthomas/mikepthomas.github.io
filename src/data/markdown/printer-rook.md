@@ -1,9 +1,9 @@
-# 3D Printing a Mostly 3D Printed 3D Printer
+# 3D Printing a cheap CoreXY 3D Printer
 
 Febuary 2, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 7, 2023
+Updated April 9, 2023
 
-Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.com/rolohaun/Rook).
+Sourcing and printing parts to assemble a [Rook 2020 3D Printer](https://www.printables.com/model/447255-rook-2020).
 
 ---
 
@@ -13,6 +13,13 @@ Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.c
 2. [Printing Parts](#printing-parts)
 
 ## Sourcing Parts
+
+### Frame
+
+| Item                                  | Quantity | Received | Notes       |
+| ------------------------------------- | -------- | -------- | ----------- |
+| 200mm T-slot 2020 Aluminium Extrusion | 12       |          | 12 on order |
+| 2020 Aluminium Extrusion 3-way corner | 8        | 8        |             |
 
 ### Fasteners
 
@@ -25,9 +32,11 @@ Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.c
 | M3x18              | 2        |          |                                |
 | M3x25              | 8        |          |                                |
 | M3 Threaded Insert | 100      |          | BOM specifies more than needed |
+| M5x8               | 35       |          |                                |
 | M5x16              | 12       |          |                                |
 | M5x25              | 4        |          |                                |
 | M5x30              | 2        |          |                                |
+| M5 T-nuts          | 35       |          |                                |
 | M5 Washers         | 16       |          |                                |
 
 ### Motion
@@ -68,65 +77,59 @@ Sourcing and printing parts to assemble a [Rook MK1 3D Printer](https://github.c
 
 ### Bed
 
-| Item                                                                                                                 | Quantity | Material                                                          | Printed | Notes                                                           |
-| -------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | --------------------------------------------------------------- |
-| [Bed_Frame_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Bed/Bed_Frame_MK1.stl)                                | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   |                                                                 |
-| [Rook -150mm glass bed support](https://www.printables.com/model/371475-rook-3d-printer-mods-150mm-glass-bed-holder) | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   | This is a mod by [FabienT](https://www.printables.com/@FabienT) |
+| Item                                                                                         | Quantity | Material                                                          | Printed | Notes                                                         |
+| -------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ------------------------------------------------------------- |
+| [Bed_Frame_Front](https://www.printables.com/model/447255-rook-2020/files)                   | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |                                                               |
+| [Bed_Frame_Left](https://www.printables.com/model/447255-rook-2020/files)                    | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |                                                               |
+| [Bed_Frame_Right](https://www.printables.com/model/447255-rook-2020/files)                   | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |                                                               |
+| [Rook Bed Frame 150](https://www.printables.com/model/381943-rook-mk1-glass-bed-frame/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
 
 ### Frame
 
-| Item                                                                                                    | Quantity | Material                                                          | Printed | Notes                                                           |
-| ------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | --------------------------------------------------------------- |
-| [Bottom_Frame_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Bottom_Frame_MK1.stl)           | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   |                                                                 |
-| [Foot_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Foot_Mount_MK1.STL)               | 4        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   |                                                                 |
-| [Left_Motor_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Left_Motor_Mount_MK1.stl)   | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   |                                                                 |
-| [Right_Motor_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Right_Motor_Mount_MK1.stl) | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   |                                                                 |
-| [SKR Pico PiZero - Inserts](https://www.printables.com/model/388353-rook-mk1-skr-pico-pi-zero-adapter)  | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog)   |
-| [Top_Frame_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Frame/Top_Frame_MK1.stl)                 | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   |                                                                 |
-| [Rook Endstop](https://www.printables.com/model/381948-rook-mk1-low-profile-endstop)                    | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   |                                                                 |
-| [Rook boot](https://www.printables.com/model/371470-rook-3d-printer-mods-boots/files)                   | 4        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   | This is a mod by [FabienT](https://www.printables.com/@FabienT) |
+| Item                                                                                  | Quantity | Material                                                          | Printed | Notes                                                           |
+| ------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | --------------------------------------------------------------- |
+| [foot](https://www.printables.com/model/447255-rook-2020/files)                       | 4        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |                                                                 |
+| [Motor Mount Left](https://www.printables.com/model/447255-rook-2020/files)           | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |                                                                 |
+| [Motor Mount Right](https://www.printables.com/model/447255-rook-2020/files)          | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |                                                                 |
+| [Rook boot](https://www.printables.com/model/371470-rook-3d-printer-mods-boots/files) | 4        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [FabienT](https://www.printables.com/@FabienT) |
+
+### Z Axis
+
+| Item                                                                          | Quantity | Material                                                          | Printed | Notes |
+| ----------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----- |
+| [Z_Idler_Mount](https://www.printables.com/model/447255-rook-2020/files)      | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |       |
+| [Z_Motor_Mount](https://www.printables.com/model/447255-rook-2020/files)      | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |       |
+| [Z_Rod_Mount_Bottom](https://www.printables.com/model/447255-rook-2020/files) | 2        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |       |
+| [Z_Rod_Mount_Top](https://www.printables.com/model/447255-rook-2020/files)    | 2        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |       |
 
 ### Gantry
 
-| Item                                                                                                                     | Quantity | Material                                              | Printed | Notes |
-| ------------------------------------------------------------------------------------------------------------------------ | -------- | ----------------------------------------------------- | :-----: | ----- |
-| [Left_Idler_v2\_\_polished_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Gantry/Left_Idler_v2__polished_MK1.stl)   | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink) |   :x:   |       |
-| [Right_Idler_v2\_\_polished_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Gantry/Right_Idler_v2__polished_MK1.stl) | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink) |   :x:   |       |
-| [Y_Carriage_Left_polished_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Gantry/Y_Carriage_Left_polished_MK1.stl)   | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink) |   :x:   |       |
-| [Y_Carriage_Right_polished_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Gantry/Y_Carriage_Right_polished_MK1.stl) | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink) |   :x:   |       |
-
-### Layer Cooling
-
-| Item                                                                                                                  | Quantity | Material                                                          | Printed | Notes                                                                                         |
-| --------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | --------------------------------------------------------------------------------------------- |
-| [120mm blower_Mount_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Layer%20Cooling/120mm%20blower_Mount_MK1.stl) | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   | Will replace with the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
-| [120mm_duct_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Layer%20Cooling/120mm_duct_MK1.stl)                   | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   | Will replace with the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
+| Item                                                                          | Quantity | Material                                                          | Printed | Notes                                                                             |
+| ----------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | --------------------------------------------------------------------------------- |
+| [XY_Idler](https://www.printables.com/model/447255-rook-2020/files)           | 2        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |                                                                                   |
+| [Y_Carriage_Left](https://www.printables.com/model/447255-rook-2020/files)    | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |                                                                                   |
+| [Y_Carriage_Right](https://www.printables.com/model/447255-rook-2020/files)   | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |                                                                                   |
+| [belt_tie_v2](https://www.printables.com/model/389235-rook-belt-tie-v2/files) | 2        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [kyledavis_351660](https://www.printables.com/@kyledavis_351660) |
 
 ### Toolhead
 
-| Item                                                                                                                           | Quantity | Material                                              | Printed | Notes                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------------ | -------- | ----------------------------------------------------- | :-----: | --------------------------------------------------------------------------------------------- |
-| [Front_X_Carriage_CR10_Style_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Toolhead/Front_X_Carriage_CR10_Style_MK1.stl) | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink) |   :x:   | Will replace with the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
-| [Rear_X_Carriage_CR10_Style_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Toolhead/Rear_X_Carriage_CR10_Style_MK1.stl)   | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink) |   :x:   | Will replace with the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
+| Item                                                                                                                           | Quantity | Material                                                          | Printed | Notes                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------ | -------- | ----------------------------------------------------------------- | :-----: | --------------------------------------------------------------------------------------------- |
+| [Front_X_Carriage_CR10_Style_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Toolhead/Front_X_Carriage_CR10_Style_MK1.stl) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | Will replace with the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
+| [Rear_X_Carriage_CR10_Style_MK1](https://github.com/rolohaun/Rook/blob/main/STL/Toolhead/Rear_X_Carriage_CR10_Style_MK1.stl)   | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | Will replace with the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
 
 ### Side-mounted spool and Extruder
 
 | Item                                                                                                          | Quantity | Material                                                          | Printed | Notes                                                         |
 | ------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ------------------------------------------------------------- |
-| [motor-mount short V2](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files)    | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
-| [Front Vertical Spool V4](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files) | 1        | [eSun ABS+ (Pink)](printer-filament.md#esun-abs-pink)             |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
-| [Spool-hanger V4](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files)         | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
-
-### Base
-
-| Item                                                                                                                                                | Quantity | Material | Printed | Notes                                                             |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | ----------------------------------------------------------------- |
-| [MK1 Bottom Frame Top Lid Guls Mod - Raised logo](https://www.printables.com/model/406991-rook-mk1-base-lid-remix-to-fit-kanrog-low-profile-/files) | 1        |          |   :x:   | This is a mod by [ImSteffe](https://www.printables.com/@ImSteffe) |
+| [motor-mount short V2](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files)    | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
+| [Front Vertical Spool V4](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
+| [Spool-hanger V4](https://www.printables.com/model/349249-rook-side-mounted-spool-and-extruder/files)         | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
 
 ### Skirts
 
-| Item                                                                                         | Quantity | Material | Printed | Notes                                                       |
-| -------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | ----------------------------------------------------------- |
-| [Rook_skirt_front_OLED_Screen](https://www.printables.com/model/419088-rook-mk1-skirt/files) | 1        |          |   :x:   | This is a mod by [HK721](https://www.printables.com/@HK721) |
-| [Rook_skirt_side_left](https://www.printables.com/model/419088-rook-mk1-skirt/files)         | 1        |          |   :x:   | This is a mod by [HK721](https://www.printables.com/@HK721) |
-| [Rook_skirt_side_right](https://www.printables.com/model/419088-rook-mk1-skirt/files)        | 1        |          |   :x:   | This is a mod by [HK721](https://www.printables.com/@HK721) |
+| Item                                                                                         | Quantity | Material                                                          | Printed | Notes                                                       |
+| -------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----------------------------------------------------------- |
+| [Rook_skirt_front_OLED_Screen](https://www.printables.com/model/419088-rook-mk1-skirt/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [HK721](https://www.printables.com/@HK721) |
+| [Rook_skirt_side_left](https://www.printables.com/model/419088-rook-mk1-skirt/files)         | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [HK721](https://www.printables.com/@HK721) |
+| [Rook_skirt_side_right](https://www.printables.com/model/419088-rook-mk1-skirt/files)        | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [HK721](https://www.printables.com/@HK721) |

@@ -1,7 +1,7 @@
 # 3D Printer Filament list
 
 January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 7, 2023
+Updated April 9, 2023
 
 This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
@@ -251,6 +251,8 @@ This filament will be used to print some of the accent parts for the [Voron 0.2]
 | 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Orange).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-orange-3) | £18.59   | 1             | ![#FA4919](https://via.placeholder.com/13/FA4919/FA4919.png) |
 
 ### eSun ABS+ (Peak Green)
+
+This filament will be used to print the parts for the [Rook 2020](printer-rook.md).
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |

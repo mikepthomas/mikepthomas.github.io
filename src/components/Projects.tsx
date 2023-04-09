@@ -123,7 +123,7 @@ const Projects = (props: Props) => {
                   </ul>
                 </li>
                 <li>
-                  <Link to="/projects/printer-rook">Rook MK1</Link>
+                  <Link to="/projects/printer-rook">Rook 2020</Link>
                 </li>
                 <li>
                   <Link to="/projects/printer-voron-0.2">Voron 0.2</Link>

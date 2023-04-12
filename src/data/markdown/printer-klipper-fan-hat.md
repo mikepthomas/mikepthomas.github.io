@@ -1,7 +1,7 @@
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 7, 2023
+Updated April 12, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
@@ -434,35 +434,37 @@ cat /proc/device-tree/hat/custom_1 > ~/printer_data/config/klipper-fan-hat.cfg
 
 ### Connectors
 
-| Item                              | Quantity | Received          | Notes |
-| --------------------------------- | -------- | ----------------- | ----- |
-| 2 Pin JST-XH Header               | 7        | 20                |       |
-| 3 Pin JST-XH Header               | 1        | 20                |       |
-| 4 Pin JST-XH Header               | 1        | 20                |       |
-| 5 Pin JST-XH Header               | 1        | 20                |       |
-| 40 Pin Raspberry Pi Header        | 1        | 2                 |       |
-| Dupont Pin Headers                | 23 Pins  | 2 x 30 pin strips |       |
-| KF301 Screw Terminal (5mm pitch)  | 1        | 10                |       |
-| PCB Panel Mount Blade Fuse Holder | 1        | 5                 |       |
+| Item                              | Quantity | Received          | Notes        |
+| --------------------------------- | -------- | ----------------- | ------------ |
+| 2 Pin JST-XH Header               | 7        | 20                |              |
+| 3 Pin JST-XH Header               | 1        | 20                |              |
+| 4 Pin JST-XH Header               | 1        | 20                |              |
+| 5 Pin JST-XH Header               | 1        | 20                |              |
+| 40 Pin Raspberry Pi Header        | 1        | 2                 |              |
+| Dupont Pin Headers                | 23 Pins  | 2 x 30 pin strips |              |
+| Jumper Cap 2.54mm                 | 6        |                   | 100 on order |
+| KF301 Screw Terminal (5mm pitch)  | 1        | 10                |              |
+| PCB Panel Mount Blade Fuse Holder | 1        | 5                 |              |
 
 ### SMD Components
 
-| Item                                    | Quantity | Received | Notes        |
-| --------------------------------------- | -------- | -------- | ------------ |
-| 100nF Capacitor (1206 Package)          | 1        | 20       |              |
-| 4.7uF Capacitor (1206 Package)          | 2        | 20       |              |
-| 3.9kΩ Resistor (1206 Package)           | 2        | 112      |              |
-| 4.7kΩ Resistor (1206 Package)           | 8        |          | 100 on order |
-| 100Ω Resistor (1206 Package)            | 5        | 123      |              |
-| 10kΩ Resistor (1206 Package)            | 5        | 111      |              |
-| LED Red (1206 Package)                  | 6        | 105      |              |
-| IRLML6344-TRPBF Mosfet (SOT-23 Package) | 5        | 50       |              |
+| Item                                    | Quantity | Received | Notes |
+| --------------------------------------- | -------- | -------- | ----- |
+| 100nF Capacitor (1206 Package)          | 1        | 20       |       |
+| 4.7uF Capacitor (1206 Package)          | 2        | 20       |       |
+| 3.9kΩ Resistor (1206 Package)           | 2        | 112      |       |
+| 4.7kΩ Resistor (1206 Package)           | 8        | 103      |       |
+| 100Ω Resistor (1206 Package)            | 5        | 123      |       |
+| 10kΩ Resistor (1206 Package)            | 5        | 111      |       |
+| LED Red (1206 Package)                  | 6        | 105      |       |
+| IRLML6344-TRPBF Mosfet (SOT-23 Package) | 5        | 50       |       |
 
 ### Misc
 
-| Item            | Quantity | Received | Notes |
-| --------------- | -------- | -------- | ----- |
-| 2510 Axial Fan  | 1        | 2        |       |
-| CAT24C32 EEPROM | 1        | 10       |       |
+| Item            | Quantity | Received | Notes       |
+| --------------- | -------- | -------- | ----------- |
+| 2510 Axial Fan  | 1        | 2        |             |
+| CAT24C32 EEPROM | 1        | 10       |             |
+| DIP-8 Socket    | 1        |          | 10 on order |
 
 ![Klipper Fan Hat In Hand](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-in-hand.jpg)

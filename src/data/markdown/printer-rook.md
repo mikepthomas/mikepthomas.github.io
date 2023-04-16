@@ -1,7 +1,7 @@
 # 3D Printing a cheap CoreXY 3D Printer
 
 Febuary 2, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 9, 2023
+Updated April 16, 2023
 
 Sourcing and printing parts to assemble a [Rook 2020 3D Printer](https://www.printables.com/model/447255-rook-2020).
 
@@ -70,6 +70,7 @@ Sourcing and printing parts to assemble a [Rook 2020 3D Printer](https://www.pri
 | Raspberry Pi Zero            | 1        | 1        | Using Zero 2W                                                                                                                   |
 | SKR Pico                     | 1        | 1        |                                                                                                                                 |
 | SPDT KW10 Limit Micro Switch | 1        | 1        |                                                                                                                                 |
+| V0 Display                   | 1        |          | 1 on order                                                                                                                      |
 | 30x30x10 Axial Fan           | 1        | 1        |                                                                                                                                 |
 | 40x40x10 Centrifugal Fan     | 2        | 2        | Using instead of 120x120x32 Centrifugal Fan for the the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
 

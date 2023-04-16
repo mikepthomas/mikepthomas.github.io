@@ -1,7 +1,7 @@
 # Assembling the smallest Voron printer
 
 Created April 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 12, 2023
+Updated April 16, 2023
 
 Building the smallest of the Voron printers, the Voron Zero.
 
@@ -32,7 +32,7 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 | Item                                      | Quantity | Received | Notes        |
 | ----------------------------------------- | -------- | -------- | ------------ |
-| 3x6x0.5 Shim Washer                       | 50       |          | 35 on order  |
+| 3x6x0.5 Shim Washer                       | 50       | 50       |              |
 | M2 Nut                                    | 55       |          | 55 on order  |
 | M3 Nut                                    | 140      |          | 140 on order |
 | M2x4 SHCS                                 | 0        |          | 8 on order   |
@@ -75,23 +75,23 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 | -------------------------------------------------------- | -------- | -------- | ---------- |
 | Meanwell LRS-150-24                                      | 1        |          | 1 on order |
 | Bigtreetech SKR Pico                                     | 1        | 1        |            |
-| Raspberry Pi 3                                           | 1        | 1        |            |
+| Raspberry Pi 3                                           | 1        | 1        | A+         |
 | MicroSD Card                                             | 1        | 1        |            |
 | NEMA14 Stepper Motor 40Ncm                               | 2        |          | 2 on order |
 | NEMA17 Stepper Motor w/ integrated lead screw 200mm T8x8 | 1        |          | 1 on order |
 | 3010 blower fans 24V                                     | 2        |          | 2 on order |
 | 3010 axial fan 24V                                       | 2        |          | 2 on order |
-| 3510 axial fan 24V                                       | 0        |          | 5 on order |
+| 3510 axial fan 24V                                       | 4        | 5        |            |
 | Omron Mouse Button - Micro Switch                        | 1        | 1        |            |
-| C13 Power Cord                                           | 1        |          | 1 on order |
+| C13 Power Cord                                           | 1        | 1        |            |
 | IEC320 C14 inlet                                         | 1        |          | 1 on order |
 | Hotend                                                   | 1        |          | 1 on order |
 | 24V Heater Cartridge                                     | 1        | 1        |            |
 | Hotend thermistor                                        | 1        | 1        |            |
-| V0-Display                                               | 1        |          | 1 on order |
+| V0 Simple Display                                        | 1        |          | 1 on order |
 | 3M 5952 VHB tape                                         | 1        | 1        |            |
-| Adafruit Sequins                                         | 0        |          | 5 on order |
-| Rainbow Barf LED                                         | 0        |          | 1 on order |
+| Adafruit Sequins                                         | 2        | 5        |            |
+| Rainbow Barf LED                                         | 1        | 1        |            |
 
 ### Cables
 
@@ -101,21 +101,21 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 | High Flex Wire 22gauge 100ft                       | 1        |          | Kit comes with pre-made wiring harness |
 | High Flex Wire 20gauge 10ft                        | 1        |          | Kit comes with pre-made wiring harness |
 | Wire 18gauge 10ft                                  | 1        |          | Kit comes with pre-made wiring harness |
-| LDO Picobilical                                    | 0        |          | 1 on order                             |
+| LDO Picobilical kit                                | 1        | 1        |                                        |
 | Thermal Fuse 125C                                  | 1        | 4        |                                        |
 | JST connectors (2pin 3pin 4pin)                    | ?        |          | Kit comes with pre-made wiring harness |
 | Microfit3 Dual Row (10circuits) Male & Female Plug | 1        |          | Kit comes with pre-made wiring harness |
 | 7mm x 7mm cable chain (less than 1/2 meter needed) | 1        |          | 1 on order                             |
-| Cable Clips                                        | 0        |          | 5 on order                             |
+| Cable Clips                                        | 5        |          | 5 on order                             |
 | Nylon Cable Ties (1.8mm wide or smaller)           | 50       | 100      |                                        |
 
 ### Motion
 
 | Item                                    | Quantity | Received | Notes       |
 | --------------------------------------- | -------- | -------- | ----------- |
-| F623-RS Bearing                         | 24       |          | 24 on order |
+| F623-RS Bearing                         | 24       | 20       | 10 on order |
 | MGN7H Linear Rail with Carriage - 150mm | 5        |          | 5 on order  |
-| Siboor PCB Rail Holders                 | 0        |          | 10 on order |
+| Siboor PCB Rail Holders                 | 10       | 10       |             |
 | GT2 20T (5mm ID 6mm W)                  | 2        |          | 2 on order  |
 | GT2 Open Belt (6mm W) - 3000mm          | 1        |          | 1 on order  |
 | T8x8 Anti-backlash Flange Nut           | 1        |          | 1 on order  |
@@ -132,16 +132,16 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 ### Panels
 
-| Item                              | Quantity | Received | Notes      |
-| --------------------------------- | -------- | -------- | ---------- |
-| Acrylic Sheet Clear - 212x230x3mm | 2        |          | 2 on order |
-| Acrylic Sheet Clear - 212x239x3mm | 1        |          | 1 on order |
-| Upper Rear Panel 212x63x3mm       | 1        |          | 1 on order |
-| Lower Rear Panel 212x185x3mm      | 1        |          | 1 on order |
-| Deck Panel 3mm thick (See DXF)    | 1        |          | 1 on order |
-| Motor Panel 3mm thick (See DXF)   | 1        |          | 1 on order |
-| Bottom Panel 3mm thick (See DXF)  | 1        |          | 1 on order |
-| Mid Panel 3mm thick (See DXF)     | 1        |          | 1 on order |
+| Item                              | Quantity | Received | Notes                             |
+| --------------------------------- | -------- | -------- | --------------------------------- |
+| Acrylic Sheet Clear - 212x230x3mm | 2        |          | 2 on order                        |
+| Acrylic Sheet Clear - 212x239x3mm | 1        |          | 1 on order                        |
+| Upper Rear Panel 212x63x3mm       | 1        |          | 1 on order, Linneo Orange ACM     |
+| Lower Rear Panel 212x185x3mm      | 1        |          | 1 on order, Linneo Orange ACM     |
+| Deck Panel 3mm thick (See DXF)    | 1        |          | 1 on order, Linneo Orange ACM     |
+| Motor Panel 3mm thick (See DXF)   | 1        |          | Not required as using Picobilical |
+| Bottom Panel 3mm thick (See DXF)  | 1        |          | 1 on order, Linneo Orange ACM     |
+| Mid Panel 3mm thick (See DXF)     | 1        |          | 1 on order, Linneo Orange ACM     |
 
 ### Bowden
 
@@ -157,7 +157,7 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 | Little Rubber Feet                | 4        |          | 4 on order |
 | Bowden Tube 4x3mm - 1m            | 1        |          | 1 on order |
 | Medium Strength Thread Locker     | 1        | 1        |            |
-| 6mm x 3mm Round Neodymium Magnets | 8        |          | 8 on order |
+| 6mm x 3mm Round Neodymium Magnets | 8        | 8        |            |
 
 ### Extrusion Tophat Panels
 

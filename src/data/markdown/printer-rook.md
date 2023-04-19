@@ -1,7 +1,7 @@
 # 3D Printing a cheap CoreXY 3D Printer
 
 Febuary 2, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 17, 2023
+Updated April 19, 2023
 
 Sourcing and printing parts to assemble a [Rook 2020 3D Printer](https://www.printables.com/model/447255-rook-2020).
 
@@ -16,10 +16,10 @@ Sourcing and printing parts to assemble a [Rook 2020 3D Printer](https://www.pri
 
 ### Frame
 
-| Item                                  | Quantity | Received | Notes       |
-| ------------------------------------- | -------- | -------- | ----------- |
-| 200mm T-slot 2020 Aluminium Extrusion | 12       |          | 12 on order |
-| 2020 Aluminium Extrusion 3-way corner | 8        | 8        |             |
+| Item                                  | Quantity | Received | Notes |
+| ------------------------------------- | -------- | -------- | ----- |
+| 200mm T-slot 2020 Aluminium Extrusion | 12       | 12       |       |
+| 2020 Aluminium Extrusion 3-way corner | 8        | 8        |       |
 
 ### Fasteners
 

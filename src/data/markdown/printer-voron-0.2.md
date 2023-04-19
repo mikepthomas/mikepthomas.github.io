@@ -1,7 +1,7 @@
 # Assembling the smallest Voron printer
 
 Created April 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 17, 2023
+Updated April 19, 2023
 
 Building the smallest of the Voron printers, the Voron Zero.
 
@@ -236,10 +236,10 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 #### :negative_squared_cross_mark: Z Endstop
 
-| Item                                                                                                        | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                   |
-| ----------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | --------------------------------------- |
-| [Z_Endstop_Mount](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Z_Endstop_Mount_x1.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Replace with Z cover mod                |
-| [Z_Cover](https://github.com/chirpy2605/voron/blob/main/V0/v0.2_Stuff/STLs/%5Ba%5D_Z_Cover.stl)             | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Voron Users Mod by chirpy2605 |
+| Item                                                                                                        | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                                     |
+| ----------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------------------------------------- |
+| [Z_Endstop_Mount](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Z_Endstop_Mount_x1.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Replace with Z cover mod                                                  |
+| [deck_plate_cover](https://www.printables.com/model/405522/files)                                           | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a mod by [MarekZCMB](https://www.printables.com/@MarekZCMB_58830) |
 
 ### A/B Drives
 

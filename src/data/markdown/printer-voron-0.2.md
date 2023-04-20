@@ -1,7 +1,7 @@
 # Assembling the smallest Voron printer
 
 Created April 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 19, 2023
+Updated April 20, 2023
 
 Building the smallest of the Voron printers, the Voron Zero.
 
@@ -152,12 +152,12 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 ### Misc
 
-| Item                              | Quantity | Received | Notes      |
-| --------------------------------- | -------- | -------- | ---------- |
-| Little Rubber Feet                | 4        | 4        |            |
-| Bowden Tube 4x2mm - 1m            | 1        |          | 1 on order |
-| Medium Strength Thread Locker     | 1        | 1        |            |
-| 6mm x 3mm Round Neodymium Magnets | 8        | 8        |            |
+| Item                              | Quantity | Received | Notes |
+| --------------------------------- | -------- | -------- | ----- |
+| Little Rubber Feet                | 4        | 4        |       |
+| Bowden Tube 4x2mm - 1m            | 1        | 1        |       |
+| Medium Strength Thread Locker     | 1        | 1        |       |
+| 6mm x 3mm Round Neodymium Magnets | 8        | 8        |       |
 
 ### Extrusion Tophat Panels
 

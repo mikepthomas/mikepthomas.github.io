@@ -1,7 +1,7 @@
 # Assembling the smallest Voron printer
 
 Created April 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 7, 2023
+Updated April 20, 2023
 
 Building the smallest of the Voron printers, the Voron Zero.
 
@@ -26,157 +26,164 @@ Building the smallest of the Voron printers, the Voron Zero.
 
 ## Sourcing Parts
 
+After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as kits were not available, to keep costs down, I have decided to order a [Formbot](https://www.formbot3d.com/) kit that contains all of the parts required to build the printer.
+
 ### Fasteners
 
-| Item                                      | Quantity | Received | Notes        |
-| ----------------------------------------- | -------- | -------- | ------------ |
-| 3x6x0.5 Shim Washer                       | 50       |          | 35 on order  |
-| M2 Nut                                    | 55       |          | 55 on order  |
-| M3 Nut                                    | 140      |          | 140 on order |
-| M2x4 SHCS                                 | 0        |          | 8 on order   |
-| M2x6 SHCS                                 | 70       |          | 70 on order  |
-| M2x6 FHCS                                 | 10       |          | 10 on order  |
-| M2x8 SHCS                                 | 10       |          | 10 on order  |
-| M3x6 BHCS                                 | 40       |          | 40 on order  |
-| M3x6 FHCS                                 | 0        |          | 8 on order   |
-| M3x8 BHCS                                 | 115      |          | 115 on order |
-| M3x8 FHCS                                 | 5        |          | 5 on order   |
-| M3x10 BHCS                                | 50       |          | 30 on order  |
-| M3x12 BHCS                                | 25       |          | 25 on order  |
-| M3x16 BHCS                                | 10       |          | 10 on order  |
-| M3x25 BHCS                                | 10       |          | 10 on order  |
-| M3x30 BHCS                                | 10       |          | 10 on order  |
-| M3x35 BHCS                                | 30       |          | 30 on order  |
-| M3x40 BHCS                                | 10       |          | 10 on order  |
-| M2x10 Self Tapping Screws for Plastic     | 30       |          | 30 on order  |
-| M3 Brass heatstake inserts - short M3x5x4 | 50       |          | 50 on order  |
-| Makerbeam XL M3 t-nut                     | 2        |          | 2 on order   |
+| Item                                      | Quantity | Received | Notes                                  |
+| ----------------------------------------- | -------- | -------- | -------------------------------------- |
+| 3x6x0.5 Shim Washer                       | 50       | 50       |                                        |
+| M2 Nut                                    | 55       | 72       |                                        |
+| M3 Nut                                    | 140      | 151      |                                        |
+| M2x4 SHCS                                 | 8        | 10       |                                        |
+| M2x6 SHCS                                 | 70       | 77       |                                        |
+| M2x6 FHCS                                 | 10       | 15       |                                        |
+| M2x8 SHCS                                 | 10       | 18       |                                        |
+| M3x6 BHCS                                 | 40       | 50       |                                        |
+| M3x6 FHCS                                 | 8        | 10       |                                        |
+| M3x8 BHCS                                 | 115      | 120      |                                        |
+| M3x8 FHCS                                 | 5        | 10       |                                        |
+| M3x10 BHCS                                | 50       | 35       | Fewer needed due to Kirigami Bed Mount |
+| M3x12 BHCS                                | 25       | 30       |                                        |
+| M3x16 BHCS                                | 10       | 15       |                                        |
+| M3x25 BHCS                                | 10       | 15       |                                        |
+| M3x30 BHCS                                | 10       | 15       |                                        |
+| M3x35 BHCS                                | 30       | 35       |                                        |
+| M3x40 BHCS                                | 10       | 15       |                                        |
+| M2x10 Self Tapping Screws for Plastic     | 30       | 36       |                                        |
+| M3 Brass heatstake inserts - short M3x5x4 | 50       | 71       |                                        |
+| Makerbeam XL M3 t-nut                     | 2        | 2        |                                        |
 
 ### Frame
 
 | Item                     | Quantity | Received | Notes                            |
 | ------------------------ | -------- | -------- | -------------------------------- |
-| Makerbeam XL 15x15 200mm | 16       |          | 16 on order                      |
+| Makerbeam XL 15x15 200mm | 16       | 16       |                                  |
 | Makerbeam XL 15x15 100mm | 3        |          | Using Kirigami Bed Mount instead |
-| Kirigami Bed Mount       | 1        |          | 1 on order                       |
+| Kirigami Bed Mount       | 1        | 1        |                                  |
 
 ### Extrusion Tophat Frame
 
-| Item                        | Quantity | Received | Notes             |
-| --------------------------- | -------- | -------- | ----------------- |
-| Makerbeam XL 15x15 200mm    | 4        |          | 4 on order        |
-| Makerbeam XL 15x15 80-100mm | 4        |          | 4 on order. 100mm |
+| Item                        | Quantity | Received | Notes |
+| --------------------------- | -------- | -------- | ----- |
+| Makerbeam XL 15x15 200mm    | 4        | 4        |       |
+| Makerbeam XL 15x15 80-100mm | 4        | 4        | 100mm |
 
 ### Electronics
 
 | Item                                                     | Quantity | Received | Notes      |
 | -------------------------------------------------------- | -------- | -------- | ---------- |
-| Meanwell LRS-150-24                                      | 1        |          | 1 on order |
-| Bigtreetech SKR Pico                                     | 1        |          | 1 on order |
-| Raspberry Pi 3                                           | 1        | 1        |            |
+| Meanwell LRS-150-24                                      | 1        | 1        |            |
+| Bigtreetech SKR Pico                                     | 1        | 1        |            |
+| Raspberry Pi 4                                           | 1        | 1        |            |
 | MicroSD Card                                             | 1        | 1        |            |
-| NEMA14 Stepper Motor 40Ncm                               | 2        |          | 2 on order |
-| NEMA17 Stepper Motor w/ integrated lead screw 200mm T8x8 | 1        |          | 1 on order |
+| NEMA14 Stepper Motor 40Ncm                               | 2        | 2        |            |
+| NEMA17 Stepper Motor w/ integrated lead screw 200mm T8x8 | 1        | 1        |            |
 | 3010 blower fans 24V                                     | 2        |          | 2 on order |
 | 3010 axial fan 24V                                       | 2        |          | 2 on order |
+| 3510 axial fan 24V                                       | 4        | 5        |            |
 | Omron Mouse Button - Micro Switch                        | 1        | 1        |            |
-| C13 Power Cord                                           | 1        |          | 1 on order |
-| IEC320 C14 inlet                                         | 1        |          | 1 on order |
-| Hotend                                                   | 1        |          | 1 on order |
-| 24V Heater Cartridge                                     | 1        |          | 1 on order |
-| Hotend thermistor                                        | 1        |          | 1 on order |
-| V0-Display                                               | 1        |          | 1 on order |
-| 3M 5952 VHB tape                                         | 1        |          | 1 on order |
+| C13 Power Cord                                           | 1        | 1        |            |
+| IEC320 C14 inlet                                         | 1        | 1        |            |
+| Hotend                                                   | 1        | 1        |            |
+| 24V Heater Cartridge                                     | 1        | 1        |            |
+| Hotend thermistor                                        | 1        | 1        |            |
+| V0 Display                                               | 1        | 1        |            |
+| 3M 5952 VHB tape                                         | 1        | 1        |            |
+| Adafruit Sequins                                         | 2        | 5        |            |
+| Rainbow Barf LED                                         | 1        | 1        |            |
 
 ### Cables
 
-| Item                                               | Quantity | Received | Notes                                  |
-| -------------------------------------------------- | -------- | -------- | -------------------------------------- |
-| Insulated Crimp Receptical                         | 4        |          | Kit comes with pre-made wiring harness |
-| High Flex Wire 22gauge 100ft                       | 1        |          | Kit comes with pre-made wiring harness |
-| High Flex Wire 20gauge 10ft                        | 1        |          | Kit comes with pre-made wiring harness |
-| Wire 18gauge 10ft                                  | 1        |          | Kit comes with pre-made wiring harness |
-| Umbilical PCB Boards                               | 0        |          | 1 on order                             |
-| Thermal Fuse 125C                                  | 1        |          | 1 on order                             |
-| JST connectors (2pin 3pin 4pin)                    | ?        |          | Kit comes with pre-made wiring harness |
-| Microfit3 Dual Row (10circuits) Male & Female Plug | 1        |          | Kit comes with pre-made wiring harness |
-| 7mm x 7mm cable chain (less than 1/2 meter needed) | 1        |          | 1 on order                             |
-| Cable Clips                                        | 0        |          | 5 on order                             |
-| Nylon Cable Ties (1.8mm wide or smaller)           | 50       |          | 50 on order                            |
+| Item                                               | Quantity | Received | Notes                                                                                     |
+| -------------------------------------------------- | -------- | -------- | ----------------------------------------------------------------------------------------- |
+| Insulated Crimp Receptical                         | 4        |          | Kit comes with pre-made wiring harness                                                    |
+| High Flex Wire 22gauge 100ft                       | 1        |          | Kit comes with pre-made wiring harness                                                    |
+| High Flex Wire 20gauge 10ft                        | 1        |          | Kit comes with pre-made wiring harness                                                    |
+| Wire 18gauge 10ft                                  | 1        |          | Kit comes with pre-made wiring harness                                                    |
+| LDO Picobilical kit                                | 1        | 1        |                                                                                           |
+| Thermal Fuse 125C                                  | 1        | 5        |                                                                                           |
+| JST connectors (2pin 3pin 4pin)                    | ?        |          | Kit comes with pre-made wiring harness                                                    |
+| Microfit3 Dual Row (10circuits) Male & Female Plug | 1        |          | Kit comes with pre-made wiring harness                                                    |
+| 7mm x 7mm cable chain (less than 1/2 meter needed) | 1        | 1        |                                                                                           |
+| Cable Clips                                        | 5        | 5        | Replace with [Cable Trunking Raceway Kit](https://www.amazon.co.uk/gp/product/B09BL9N1P1) |
+| Nylon Cable Ties (1.8mm wide or smaller)           | 50       | 100      |                                                                                           |
 
 ### Motion
 
-| Item                                    | Quantity | Received | Notes       |
-| --------------------------------------- | -------- | -------- | ----------- |
-| F623-RS Bearing                         | 24       |          | 24 on order |
-| MGN7H Linear Rail with Carriage - 150mm | 5        |          | 5 on order  |
-| GT2 20T (5mm ID 6mm W)                  | 2        |          | 2 on order  |
-| GT2 Open Belt (6mm W) - 3000mm          | 1        |          | 1 on order  |
-| T8x8 Anti-backlash Flange Nut           | 1        |          | 1 on order  |
+| Item                                    | Quantity | Received | Notes |
+| --------------------------------------- | -------- | -------- | ----- |
+| F623-RS Bearing                         | 24       | 24       |       |
+| MGN7H Linear Rail with Carriage - 150mm | 5        | 5        |       |
+| Siboor PCB Rail Holders                 | 10       | 10       |       |
+| GT2 20T (5mm ID 6mm W)                  | 2        | 2        |       |
+| GT2 Open Belt (6mm W) - 3000mm          | 1        | 1        |       |
+| T8x8 Anti-backlash Flange Nut           | 1        | 1        |       |
 
 ### Buildplate
 
-| Item                                              | Quantity | Received | Notes                                                               |
-| ------------------------------------------------- | -------- | -------- | ------------------------------------------------------------------- |
-| MIC6 1/4" Plate - 120x120mm                       | 1        |          | 1 on order                                                          |
-| Silicone DC 24V Heater 100x100mm 60W              | 1        |          | 1 on order                                                          |
-| PEI + 3M 468MP (200MP)                            | 1        |          |                                                                     |
-| yellow die springs 8x4x20mm                       | 1        |          | 1 on order                                                          |
-| Spring Steel Flex Buildplate 120x120mm (OPTIONAL) | 1        |          | 1 on order, kit comes with Double-Sided Magnetic Flexible PEI Sheet |
+| Item                                              | Quantity | Received | Notes                                                   |
+| ------------------------------------------------- | -------- | -------- | ------------------------------------------------------- |
+| MIC6 1/4" Plate - 120x120mm                       | 1        | 1        |                                                         |
+| Silicone DC 24V Heater 100x100mm 60W              | 1        | 1        |                                                         |
+| PEI + 3M 468MP (200MP)                            | 1        |          | Already applied to Flex Buildplate                      |
+| yellow die springs 8x4x20mm                       | 3        | 3        |                                                         |
+| Spring Steel Flex Buildplate 120x120mm (OPTIONAL) | 1        | 1        | Kit comes with Double-Sided Magnetic Flexible PEI Sheet |
 
 ### Panels
 
-| Item                              | Quantity | Received | Notes      |
-| --------------------------------- | -------- | -------- | ---------- |
-| Acrylic Sheet Clear - 212x230x3mm | 2        |          | 2 on order |
-| Acrylic Sheet Clear - 212x239x3mm | 1        |          | 1 on order |
-| Upper Rear Panel 212x63x3mm       | 1        |          | 1 on order |
-| Lower Rear Panel 212x185x3mm      | 1        |          | 1 on order |
-| Deck Panel 3mm thick (See DXF)    | 1        |          | 1 on order |
-| Motor Panel 3mm thick (See DXF)   | 1        |          | 1 on order |
-| Bottom Panel 3mm thick (See DXF)  | 1        |          | 1 on order |
-| Mid Panel 3mm thick (See DXF)     | 1        |          | 1 on order |
+| Item                              | Quantity | Received | Notes                             |
+| --------------------------------- | -------- | -------- | --------------------------------- |
+| Acrylic Sheet Clear - 212x230x3mm | 2        | 2        |                                   |
+| Acrylic Sheet Clear - 212x239x3mm | 1        | 1        |                                   |
+| Upper Rear Panel 212x63x3mm       | 1        |          | 1 on order, Linneo Orange ACM     |
+| Lower Rear Panel 212x185x3mm      | 1        |          | 1 on order, Linneo Orange ACM     |
+| Deck Panel 3mm thick (See DXF)    | 1        |          | 1 on order, Linneo Orange ACM     |
+| Motor Panel 3mm thick (See DXF)   | 1        |          | Not required as using Picobilical |
+| Bottom Panel 3mm thick (See DXF)  | 1        |          | 1 on order, Linneo Orange ACM     |
+| Mid Panel 3mm thick (See DXF)     | 1        |          | 1 on order, Linneo Orange ACM     |
 
 ### Bowden
 
-| Item                   | Quantity | Received | Notes      |
-| ---------------------- | -------- | -------- | ---------- |
-| Bowden Fitting         | 2        |          | 2 on order |
-| Bowden Tube 4x2mm - 1m | 1        |          | 1 on order |
+| Item                   | Quantity | Received | Notes |
+| ---------------------- | -------- | -------- | ----- |
+| Bowden Fitting         | 2        | 2        |       |
+| Bowden Tube 4x3mm - 1m | 1        | 1        |       |
 
 ### Misc
 
-| Item                              | Quantity | Received | Notes      |
-| --------------------------------- | -------- | -------- | ---------- |
-| Little Rubber Feet                | 4        |          | 4 on order |
-| Bowden Tube 4x3mm - 1m            | 1        |          | 1 on order |
-| Medium Strength Thread Locker     | 1        | 1        |            |
-| 6mm x 3mm Round Neodymium Magnets | 8        |          | 8 on order |
+| Item                              | Quantity | Received | Notes |
+| --------------------------------- | -------- | -------- | ----- |
+| Little Rubber Feet                | 4        | 4        |       |
+| Bowden Tube 4x2mm - 1m            | 1        | 1        |       |
+| Medium Strength Thread Locker     | 1        | 1        |       |
+| 6mm x 3mm Round Neodymium Magnets | 8        | 8        |       |
 
 ### Extrusion Tophat Panels
 
-| Item                      | Quantity | Received | Notes      |
-| ------------------------- | -------- | -------- | ---------- |
-| Top Panel 212x212mm       | 1        |          | 1 on order |
-| Side Panels 212x(71-91)mm | 4        |          | 4 on order |
+| Item                      | Quantity | Received | Notes |
+| ------------------------- | -------- | -------- | ----- |
+| Top Panel 212x212mm       | 1        | 1        |       |
+| Side Panels 212x(71-91)mm | 4        | 4        |       |
 
 ### Extruder
 
-| Item                                         | Quantity | Received | Notes      |
-| -------------------------------------------- | -------- | -------- | ---------- |
-| NEMA14 36mm pancake Motor with 10 tooth gear | 1        |          | 1 on order |
-| Bondtech BMG Extruder Kit                    | 1        |          | 1 on order |
-| MR85 Bearing                                 | 2        |          | 1 on order |
+| Item                                         | Quantity | Received | Notes |
+| -------------------------------------------- | -------- | -------- | ----- |
+| NEMA14 36mm pancake Motor with 10 tooth gear | 1        | 1        |       |
+| Bondtech BMG Extruder Kit                    | 1        | 1        |       |
+| MR85 Bearing                                 | 2        | 2        |       |
 
 ## Printing Parts
 
 ### Tools
 
-| Item                                                                                                                            | Quantity | Material                                                | Size | Weight | Cost | Printed | Notes                              |
-| ------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ---- | ------ | ---- | :-----: | ---------------------------------- |
-| [MGN7_Rail_Guide](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Tools/MGN7_Rail_Guide_x2.STL)                       | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   |                                    |
-| [Pulley_Jig_V0](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Tools/Pulley_Jig_V0.stl)                              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   |                                    |
-| [HexNut_1515](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Zen3D/V0_1515_T-nut/MakerBeam/HexNut_1515.stl) | ?        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   | This is a Voron Users Mod by Zen3D |
+| Item                                                                                                                               | Quantity | Material                                                | Size | Weight | Cost | Printed | Notes                              |
+| ---------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ---- | ------ | ---- | :-----: | ---------------------------------- |
+| [MGN7_Rail_Guide](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Tools/MGN7_Rail_Guide_x2.STL)                          | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   |                                    |
+| [Pulley_Jig_V0](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Tools/Pulley_Jig_V0.stl)                                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   |                                    |
+| [HexNut_1515](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/Zen3D/V0_1515_T-nut/MakerBeam/HexNut_1515.stl)    | ?        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   | This is a Voron Users Mod by Zen3D |
+| [v0_z_rail_dual_align](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/master/STL/tools/v0_z_rail_dual_align.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   | This is a Kirigami Bed Part        |
 
 ### Frame
 
@@ -186,16 +193,16 @@ Building the smallest of the Voron printers, the Voron Zero.
 
 #### :negative_squared_cross_mark: Y Rails
 
-| Item                                                                                                              | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                                  |
-| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ---------------------------------------------------------------------- |
-| [M2_Nut_Adapter_Rotated](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/M2_Nut_Adapter_Rotated_x5.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | May replace with [LDO Nut Bars](https://www.printyplease.uk/LDONutBar) |
-| [Railstops](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Railstops_x5.stl)                   | 2        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                                        |
+| Item                                                                                                              | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                      |
+| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------ |
+| [M2_Nut_Adapter_Rotated](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/M2_Nut_Adapter_Rotated_x5.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | Will replace with 4 Siboor PCB Rail Mounts |
+| [Railstops](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Railstops_x5.stl)                   | 2        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                            |
 
 #### :negative_squared_cross_mark: Z Rails
 
-| Item                                                                                                              | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                                  |
-| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ---------------------------------------------------------------------- |
-| [M2_Nut_Adapter_Rotated](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/M2_Nut_Adapter_Rotated_x5.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | May replace with [LDO Nut Bars](https://www.printyplease.uk/LDONutBar) |
+| Item                                                                                                              | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                      |
+| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------ |
+| [M2_Nut_Adapter_Rotated](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/M2_Nut_Adapter_Rotated_x5.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | Will replace with 4 Siboor PCB Rail Mounts |
 | [Railstops](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Railstops_x5.stl)                   | 2        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |
 
 #### :negative_squared_cross_mark: Z Axis
@@ -214,20 +221,25 @@ Building the smallest of the Voron printers, the Voron Zero.
 
 #### :negative_squared_cross_mark: Kirigami Bed
 
-| Item                                                                                                                           | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                 |
-| ------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------- |
-| [igus_chain_mount](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/master/STL/igus_chain_mount.stl)           | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Kirigami Bed Part           |
-| [kirigami_wago_mount](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/master/STL/kirigami_wago_mount.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | This is a Kirigami Bed Part           |
-| [nut_block](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/master/STL/nut_block.stl)                         | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Kirigami Bed Part           |
-| [Stealth_Bed_Main_Body](https://github.com/MotorDynamicsLab/LDOVoron0/blob/main/STLs/Kirigami/Stealth_Bed_Main_Body.stl)       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | This is a LDO Part                    |
-| [Stealth_Bed_Diffuser](https://github.com/MotorDynamicsLab/LDOVoron0/blob/main/STLs/Kirigami/%5Bc%5D_Stealth_Bed_Diffuser.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | This is a LDO Part                    |
-| [Kirigami_Bed_Spacer](https://github.com/stvptrsn/Voron_Stuff/blob/main/Voron_0/Kirigami/Kirigami_Bed_Spacer.stl)              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | This is a Voron Users Mod by stvptrsn |
+| Item                                                                                                                                                           | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------- |
+| [Kirigami_Bed_Spacer](https://github.com/stvptrsn/Voron_Stuff/blob/main/Voron_0/Kirigami/Kirigami_Bed_Spacer.stl)                                              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | This is a Voron Users Mod by stvptrsn |
+| [kirigami_wago_mount](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/master/STL/kirigami_wago_mount.stl)                                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | This is a Kirigami Bed Part           |
+| [logo_insert](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/logo_insert.stl)                                                              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
+| [main_body_kirigami](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/%5Ba%5D_main_body_kirigami.stl)                                        | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
+| [rainbow_barf_diffuser](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/%5Bc%5D_rainbow_barf_diffuser.stl)                                  | 1        | Clear Resin                                               |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
+| [rainbow_barf_carrier](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/rainbow_barf_carrier.stl)                                            | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
+| [stealth_chain_mount](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/v0.2_beta/STL/VORON_v0.2_stealth_chain_mount.stl)                       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Beta Kirigami Bed Part      |
+| [stealth_chain_mount_5mm_spacer](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/v0.2_beta/STL/VORON_v0.2_stealth_chain_mount_5mm_spacer.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Beta Kirigami Bed Part      |
+| [stealth_nut_block](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/v0.2_beta/STL/VORON_v0.2_stealth_nut_block.stl)                           | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Beta Kirigami Bed Part      |
+| [stealth_wire_guide](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/v0.2_beta/STL/VORON_v0.2_stealth_wire_guide.stl)                         | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Beta Kirigami Bed Part      |
 
 #### :negative_squared_cross_mark: Z Endstop
 
-| Item                                                                                                        | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes |
-| ----------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----- |
-| [Z_Endstop_Mount](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Z_Endstop_Mount_x1.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
+| Item                                                                                                        | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                                     |
+| ----------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------------------------------------- |
+| [Z_Endstop_Mount](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Z_Endstop_Mount_x1.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Replace with Z cover mod                                                  |
+| [deck_plate_cover](https://www.printables.com/model/405522/files)                                           | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a mod by [MarekZCMB](https://www.printables.com/@MarekZCMB_58830) |
 
 ### A/B Drives
 
@@ -339,9 +351,9 @@ Building the smallest of the Voron printers, the Voron Zero.
 
 #### :negative_squared_cross_mark: X Axis
 
-| Item                                                                                                              | Quantity | Material                                                | Size | Weight | Cost | Printed | Notes                                                                  |
-| ----------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ---- | ------ | ---- | :-----: | ---------------------------------------------------------------------- |
-| [M2_Nut_Adapter_Rotated](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/M2_Nut_Adapter_Rotated_x5.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   | May replace with [LDO Nut Bars](https://www.printyplease.uk/LDONutBar) |
+| Item                                                                                                              | Quantity | Material                                                | Size | Weight | Cost | Printed | Notes                                      |
+| ----------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------ |
+| [M2_Nut_Adapter_Rotated](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/M2_Nut_Adapter_Rotated_x5.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   | Will replace with 2 Siboor PCB Rail Mounts |
 
 #### :negative_squared_cross_mark: Adafruit Y Rails
 
@@ -360,9 +372,10 @@ Building the smallest of the Voron printers, the Voron Zero.
 
 #### :negative_squared_cross_mark: X Carriage
 
-| Item                                                                                      | Quantity | Material                                                | Size | Weight | Cost | Printed | Notes |
-| ----------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----- |
-| [X_Carriage](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/X_Carriage_x1.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   |       |
+| Item                                                                                                                   | Quantity | Material                                                | Size | Weight | Cost | Printed | Notes                                    |
+| ---------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ---- | ------ | ---- | :-----: | ---------------------------------------- |
+| [X_Carriage](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/X_Carriage_x1.stl)                              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   | Replace with X Carriage with Inserts mod |
+| [X_Carriage_Inserts](https://github.com/chirpy2605/voron/blob/main/V0/XCarriage_v0_2/STLs/X_Carriage_Inserts_v0.2.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   | This is a Voron Users Mod by chirpy2605  |
 
 ### Print Bed
 
@@ -384,17 +397,17 @@ Building the smallest of the Voron printers, the Voron Zero.
 
 #### :negative_squared_cross_mark: Mini Stealthburner
 
-| Item                                                                                                                                               | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                              |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------------------------------ |
-| [MiniSB_Cowling_Logo_Only](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/MiniSB_Cowling_Logo_Only_x1.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |                                                                    |
-| [Strain_Relief_Body](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/Strain_Relief_Body_x1.stl)             | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | Not Required as this will be replaced by the PCB Umbilical Version |
-| [Strain_Relief_Spacer](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/Strain_Relief_Spacer_x2.stl)         | 2        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |                                                                    |
-| [Guidler](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/%5Ba%5D_Guidler_x1.stl)                           | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |                                                                    |
-| [Latch](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/%5Ba%5D_Latch_x1.stl)                               | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                                    |
-| [MiniSB_Cowling](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/%5Ba%5D_MiniSB_Cowling_x1.stl)             | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                                    |
-| [MiniSB_MidBody](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/%5Ba%5D_MiniSB_MidBody_x1.stl)             | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                                    |
-| [MiniSB_Motor_Plate](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/%5Ba%5D_MiniSB_Motor_Plate_x1.stl)     | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                                    |
-| [Shuttle](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/%5Ba%5D_Shuttle_x1.stl)                           | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |                                                                    |
+| Item                                                                                                                                               | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ---------------------------------------------------------------- |
+| [MiniSB_Cowling_Logo_Only](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/MiniSB_Cowling_Logo_Only_x1.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |                                                                  |
+| [Strain_Relief_Body](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/Strain_Relief_Body_x1.stl)             | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | Not Required as this will be replaced by the Picobilical Version |
+| [Strain_Relief_Spacer](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/Strain_Relief_Spacer_x2.stl)         | 2        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |                                                                  |
+| [Guidler](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/%5Ba%5D_Guidler_x1.stl)                           | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |                                                                  |
+| [Latch](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/%5Ba%5D_Latch_x1.stl)                               | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                                  |
+| [MiniSB_Cowling](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/%5Ba%5D_MiniSB_Cowling_x1.stl)             | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                                  |
+| [MiniSB_MidBody](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/%5Ba%5D_MiniSB_MidBody_x1.stl)             | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                                  |
+| [MiniSB_Motor_Plate](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/%5Ba%5D_MiniSB_Motor_Plate_x1.stl)     | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                                  |
+| [Shuttle](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Mini_Stealthburner/%5Ba%5D_Shuttle_x1.stl)                           | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |                                                                  |
 
 #### :negative_squared_cross_mark: Hotend Mount
 
@@ -404,15 +417,15 @@ Building the smallest of the Voron printers, the Voron Zero.
 
 #### :negative_squared_cross_mark: AXDL345 Mount
 
-| Item                                                                                                                                            | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes       |
-| ----------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----------- |
-| [MiniSB_adxl_mount_ldo_15mm](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/ADXL_Mounts/MiniSB_adxl_mount_ldo_15mm_x1.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | LDO Version |
+| Item                                                                                                                                            | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                                      |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | -------------------------------------------------------------------------- |
+| [MiniSB_adxl_mount_ldo_15mm](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/ADXL_Mounts/MiniSB_adxl_mount_ldo_15mm_x1.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | LDO Version, Not required as Picobilical has ADXL sensor on toolhead board |
 
-#### :negative_squared_cross_mark: PCB Umbilical
+#### :negative_squared_cross_mark: Picobilical
 
-| Item                                                                                                                                    | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                         |
-| --------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----------------------------- |
-| [V0.2_Toolhead_PCB_Mount](https://github.com/VoronDesign/Voron-Hardware/blob/master/V0-Umbilical/STLs/V0.2/V0.2_Toolhead_PCB_Mount.STL) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | This is an Umbilical PCB Part |
+| Item                                                                                                                | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                          |
+| ------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------ |
+| [toolhead_spacer_v02](https://github.com/MotorDynamicsLab/LDO-Picobilical/blob/master/STLs/toolhead_spacer_v02.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | This is a LDO Picobilical Part |
 
 ### Electronics & Wiring
 
@@ -531,14 +544,11 @@ The Hexagon inserts will be printed in Black and the rest will be printed in Ora
 | ---------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------------------------- |
 | [V0.2MMU_Display Faceplate](https://www.printables.com/model/363207-voron-v02-mmu-display-faceplate/files) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | This is a mod by [Lab3Dp](https://www.printables.com/@Lab3Dp) |
 
-#### :negative_squared_cross_mark: Umbilical PCB Motor Panel
+#### :negative_squared_cross_mark: Picobilical Motor Panel
 
-These parts will be printed together as one part with a filament change to change the colour of the text.
-
-| Item                                                                                                                                        | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                         |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----------------------------- |
-| [PCB_Cover_Voron](https://github.com/VoronDesign/Voron-Hardware/blob/master/V0-Umbilical/STLs/Multicolor%20PCB%20Cover/PCB_Cover_Voron.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | This is an Umbilical PCB Part |
-| [PCB_Text](https://github.com/VoronDesign/Voron-Hardware/blob/master/V0-Umbilical/STLs/Multicolor%20PCB%20Cover/PCB_Text.stl)               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | This is an Umbilical PCB Part |
+| Item                                                                                                            | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                          |
+| --------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------ |
+| [frame_cover_plate](https://github.com/MotorDynamicsLab/LDO-Picobilical/blob/master/STLs/frame_cover_plate.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | This is a LDO Picobilical Part |
 
 #### :negative_squared_cross_mark: Detachable Spool Holder
 
@@ -617,6 +627,12 @@ These parts will be printed together as one part with a filament change to chang
 | [TH_Hinge_B_Top](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Tophat/Extrusion_Tophat_v0.2/TH_Hinge_B_Top_x1.stl)           | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
 | [TH_Side_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Tophat/Extrusion_Tophat_v0.2/TH_Side_Clip_x4.stl)               | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
 | [TH_Side_Clip_Mirror](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Tophat/Extrusion_Tophat_v0.2/TH_Side_Clip_Mirror_x4.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
+
+#### :negative_squared_cross_mark: Camera Mount
+
+| Item                                                                                              | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                   |
+| ------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | --------------------------------------- |
+| [picamera3stl](https://github.com/chirpy2605/voron/blob/main/V0/v0.2_Stuff/STLs/picamera3stl.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Voron Users Mod by chirpy2605 |
 
 ### Nevermore Micro V5 Duo
 

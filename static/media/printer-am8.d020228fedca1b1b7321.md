@@ -1,7 +1,7 @@
 # Upgrading the Anet A8 to an AM8 Switchwire
 
 May 28, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 1, 2023
+Updated April 17, 2023
 
 The [AM8](https://www.thingiverse.com/thing:2263216) is a direct drop in replacement for the acrylic frame on the Anet A8. However I will be upgrading the Anet A8 to a metal frame with CoreXZ kinematics with the [AM8 Switchwire Mod](https://github.com/maximilian-foerg/AM8-Switchwire-Mod).
 
@@ -45,7 +45,7 @@ It will be flashed with [Klipper Firmware](https://www.klipper3d.org/) as the [M
 | M3x16 SHCS         | 1        | 1        |       |
 | M3x25 BHCS         | 4        | 25       |       |
 | M3x30 BHCS         | 23       | 25       |       |
-| M3 0.5mm Spacer    | 18       | 50       |       |
+| M3 0.5mm Spacer    | 18       | 40       |       |
 | M3 nuts            | 3        | 3        |       |
 | M3 Threaded Insert | 15       | 28       |       |
 | M5x10 BHCS         | 31       | 50       |       |
@@ -72,8 +72,8 @@ It will be flashed with [Klipper Firmware](https://www.klipper3d.org/) as the [M
 | NEMA17 Motor 17HS15-1504S1           | 3        | 3        |                                        |
 | NEMA17 Motor 17HS08-1004S            | 1        | 1        |                                        |
 | Omron TL-Q5MC2 - NPN Inductive Probe | 1        | 1        |                                        |
-| SKR Pico                             | 1        | 1        |                                        |
-| Raspberry Pi Zero 2W                 | 1        | 1        |                                        |
+| SKR 1.4                              | 1        | 1        |                                        |
+| Raspberry Pi 3                       | 1        | 1        |                                        |
 
 ## Printing Parts
 

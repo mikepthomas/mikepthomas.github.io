@@ -1,7 +1,7 @@
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 20, 2023
+Updated April 21, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
@@ -13,8 +13,9 @@ Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://githu
 
 1. [What is this?](#what-is-this-)
 2. [Printed Circuit Board](#printed-circuit-board)
-3. [Flash Hat EEPROM](#flash-hat-eeprom)
-4. [Parts Required](#parts-required)
+3. [Parts Required](#parts-required)
+4. [Assembly and Testing](#assembly-and-testing)
+5. [Flash Hat EEPROM](#flash-hat-eeprom)
 
 ## What is this?
 
@@ -22,13 +23,92 @@ The Klipper Expander is designed to add 4 additional Mosfet outputs, 2 thermisto
 
 The Klipper Fan Hat is not supposed to be a replacement for the Klipper Expander, the Klipper expander can handle more current as it has wider PCB tracks than this PCB and therefore the Klipper Fan Hat should only be used for lower current devices such as fans. The Klipper Fan Hat also does not support Neopixels due to space constraints of fitting it within the footprint of a Raspberry Pi Hat.
 
+What it does have however is:
+
+- SKR Pico compatible input for powering the Pi and Serial communication
+- 5 Mosfet outputs (with 2 pin JST-XH connectors standard on most fans used on 3D printers)
+- Voltage selector jumpers to power each fan from either 5V or VCC supplied by screw terminal
+- I2C and 1-Wire and SPI headers for connecting accesories to the Raspberry Pi
+- ~2 thermistor inputs~ (removed, see [Testing Section](#testing) to find out why)
+- 2 headers connected to General Purpose GPIO pins for accesories such as Filament Run Out Sensors
+
 ## Printed Circuit Board
+
+The PCB was designed in [KiCad 7](https://www.kicad.org/).
+
+I have created a [repository on my GitHub](https://github.com/mikepthomas/Klipper-Fan-Hat) with the design files and Gerber files that I used to produce [Version 1](https://github.com/mikepthomas/Klipper-Fan-Hat/releases/tag/v1.0) of the board.
 
 ![Klipper Fan Hat Front](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-front.jpg)
 
-I have created a [repository on my GitHub](https://github.com/mikepthomas/Klipper-Fan-Hat) with the KiCad design files and Gerber files that I used to produce Version 1 of the board.
+The main branch contains a currently unproduced and untested, updated version of the board with a few revisions to fix some bugs that were found when testing the first version of the board.
 
 ![Klipper Fan Hat Back](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-back.jpg)
+
+## Parts Required
+
+### Fasteners
+
+| Item                | Quantity | Received | Notes                                              |
+| ------------------- | -------- | -------- | -------------------------------------------------- |
+| M2.5x6 BHCS         | 4        | 50       | To mount the hat to the Raspberry Pi               |
+| M2.5x14 BHCS        | 4        | 10       | To mount the Fan                                   |
+| M2.5 Nut            | 4        | 50       | To mount the Fan                                   |
+| M2.5 Brass Standoff | 4        | 50       | To stop the fan inputs shorting on the HDMI Socket |
+
+### Connectors
+
+| Item                              | Quantity | Received          | Notes |
+| --------------------------------- | -------- | ----------------- | ----- |
+| 2 Pin JST-XH Header               | 5        | 20                |       |
+| 3 Pin JST-XH Header               | 3        | 20                |       |
+| 4 Pin JST-XH Header               | 1        | 20                |       |
+| 5 Pin JST-XH Header               | 1        | 20                |       |
+| 40 Pin Raspberry Pi Header        | 1        | 2                 |       |
+| Dupont Pin Headers                | 23 Pins  | 2 x 30 pin strips |       |
+| Jumper Cap 2.54mm                 | 6        | 109               |       |
+| KF301 Screw Terminal (5mm pitch)  | 1        | 10                |       |
+| PCB Panel Mount Blade Fuse Holder | 1        | 5                 |       |
+
+### SMD Components
+
+| Item                                    | Quantity | Received | Notes |
+| --------------------------------------- | -------- | -------- | ----- |
+| 100nF Capacitor (1206 Package)          | 1        | 20       |       |
+| 100Ω Resistor (1206 Package)            | 5        | 123      |       |
+| 1kΩ Resistor (1206 Package)             | 1        | ???      |       |
+| 3.9kΩ Resistor (1206 Package)           | 5        | 112      |       |
+| 4.7kΩ Resistor (1206 Package)           | 6        | 103      |       |
+| 10kΩ Resistor (1206 Package)            | 5        | 111      |       |
+| LED Red (1206 Package)                  | 7        | 105      |       |
+| IRLML6344-TRPBF Mosfet (SOT-23 Package) | 5        | 50       |       |
+
+### Misc
+
+| Item            | Quantity | Received | Notes                                                                   |
+| --------------- | -------- | -------- | ----------------------------------------------------------------------- |
+| 2510 Axial Fan  | 1        | 2        |                                                                         |
+| CAT24C32 EEPROM | 1        | 10       |                                                                         |
+| DIP-8 Socket    | 1        | 10       | Not required, but makes switching EEPROM modules out easier for testing |
+
+![Klipper Fan Hat In Hand](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-in-hand.jpg)
+
+**_NOTE:_** This image shows Version 1 of the PCB, It has been subsequently renamed from `Klipper Expander Hat` to `Klipper Fan Hat` as it was decided on the [Voron Discord](https://discord.com/channels/460117602945990666/540528535262068739/1090833386421112933) that it may have been confused with the `Klipper Expander`.
+
+## Assembly and Testing
+
+### Assembly
+
+Excuse the messy soldering, this is the first time I have tried to solder SMD components, and the pads are TINY, I'm probably going to need to invest in a TS100 (that's probably just my excuse to buy a shiny new toy).
+
+![Klipper Fan Hat Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-assembled.jpg)
+
+The first time powering the Hat up, I connected the Mosfets to 5V from the Raspberry Pi USB input. All 5 Fan output LEDs lit up which made me happy, however, this happiness was short lived as I unfortunately found a major design flaw in my design...
+
+### Testing
+
+...TBC
+
+![Klipper Fan Hat Testing](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-testing.jpg)
 
 ## Flash Hat EEPROM
 
@@ -420,51 +500,3 @@ cat /proc/device-tree/hat/custom_1 > ~/printer_data/config/klipper-fan-hat.cfg
 ```
 
 ![EEPROM Connection to RPi](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/eeprom-connection-to-rpi.jpg)
-
-## Parts Required
-
-### Fasteners
-
-| Item                | Quantity | Received | Notes |
-| ------------------- | -------- | -------- | ----- |
-| M2.5x6 BHCS         | 4        | 50       |       |
-| M2.5x14 BHCS        | 4        | 10       |       |
-| M2.5 Nut            | 4        | 50       |       |
-| M2.5 Brass Standoff | 4        | 50       |       |
-
-### Connectors
-
-| Item                              | Quantity | Received          | Notes |
-| --------------------------------- | -------- | ----------------- | ----- |
-| 2 Pin JST-XH Header               | 7        | 20                |       |
-| 3 Pin JST-XH Header               | 1        | 20                |       |
-| 4 Pin JST-XH Header               | 1        | 20                |       |
-| 5 Pin JST-XH Header               | 1        | 20                |       |
-| 40 Pin Raspberry Pi Header        | 1        | 2                 |       |
-| Dupont Pin Headers                | 23 Pins  | 2 x 30 pin strips |       |
-| Jumper Cap 2.54mm                 | 6        | 109               |       |
-| KF301 Screw Terminal (5mm pitch)  | 1        | 10                |       |
-| PCB Panel Mount Blade Fuse Holder | 1        | 5                 |       |
-
-### SMD Components
-
-| Item                                    | Quantity | Received | Notes |
-| --------------------------------------- | -------- | -------- | ----- |
-| 100nF Capacitor (1206 Package)          | 1        | 20       |       |
-| 4.7uF Capacitor (1206 Package)          | 2        | 20       |       |
-| 3.9kΩ Resistor (1206 Package)           | 2        | 112      |       |
-| 4.7kΩ Resistor (1206 Package)           | 8        | 103      |       |
-| 100Ω Resistor (1206 Package)            | 5        | 123      |       |
-| 10kΩ Resistor (1206 Package)            | 5        | 111      |       |
-| LED Red (1206 Package)                  | 6        | 105      |       |
-| IRLML6344-TRPBF Mosfet (SOT-23 Package) | 5        | 50       |       |
-
-### Misc
-
-| Item            | Quantity | Received | Notes |
-| --------------- | -------- | -------- | ----- |
-| 2510 Axial Fan  | 1        | 2        |       |
-| CAT24C32 EEPROM | 1        | 10       |       |
-| DIP-8 Socket    | 1        | 10       |       |
-
-![Klipper Fan Hat In Hand](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-in-hand.jpg)

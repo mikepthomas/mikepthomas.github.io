@@ -51,7 +51,7 @@ export default function Navigation(props: Props) {
         href={`${social.github.url}${props.github.user}/${props.github.project}`}
       >
         <img
-          src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"
+          src="https://raw.githubusercontent.com/aral/fork-me-on-github-retina-ribbons/master/images-uncompressed/fork-me-right-orange.png"
           alt="Fork me on GitHub"
         />
       </a>

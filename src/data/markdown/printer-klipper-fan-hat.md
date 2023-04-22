@@ -75,7 +75,7 @@ Although currently unproduced and untested, the main branch contains an updated 
 | --------------------------------------- | -------- | -------- | ----- |
 | 100nF Capacitor (1206 Package)          | 1        | 20       |       |
 | 100Ω Resistor (1206 Package)            | 5        | 123      |       |
-| 1kΩ Resistor (1206 Package)             | 1        | ???      |       |
+| 1kΩ Resistor (1206 Package)             | 1        | 127      |       |
 | 3.9kΩ Resistor (1206 Package)           | 5        | 112      |       |
 | 4.7kΩ Resistor (1206 Package)           | 6        | 103      |       |
 | 10kΩ Resistor (1206 Package)            | 5        | 111      |       |
@@ -98,7 +98,7 @@ Although currently unproduced and untested, the main branch contains an updated 
 
 ### Assembly
 
-Excuse the messy soldering, this is the first time I have tried to solder SMD components, and the pads are TINY, I'm probably going to need to invest in a TS100 (...and provides an excuse to buy a shiny new toy).
+Excuse the messy soldering, this is the first time I have tried to solder Surface Mount Device (SMD) components, and the pads are TINY, I'm probably going to need to invest in a TS100 (...and provides an excuse to buy a shiny new toy).
 
 ![Klipper Fan Hat Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-assembled.jpg)
 

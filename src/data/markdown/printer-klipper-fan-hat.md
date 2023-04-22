@@ -19,11 +19,11 @@ Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://githu
 
 ## What is this?
 
-The Klipper Expander is designed to add 4 additional Mosfet outputs, 2 thermistor inputs, a Neopixel output, a GPIO Header and an I2C header that can be added as a secondary Klipper MCU. The Klipper Fan Hat is supposed to be a re-imagination of this, that can be attached on top of the Raspberry Pi that is used as the Klipper Host.
+The Klipper Expander is designed to add 4 additional Mosfet outputs, 2 thermistor inputs, a Neopixel output, a GPIO Header and an I2C header that can be added as a secondary Klipper MCU. The Klipper Fan Hat is supposed to be a re-imagining of this, which can be attached on top of the Raspberry Pi that is used as the Klipper Host.
 
-The Klipper Fan Hat is not supposed to be a replacement for the Klipper Expander, the Klipper expander can handle more current as it has wider PCB tracks than this PCB and therefore the Klipper Fan Hat should only be used for lower current devices such as fans. The Klipper Fan Hat also does not support Neopixels due to space constraints of fitting it within the footprint of a Raspberry Pi Hat.
+The Klipper Fan Hat is not supposed to be a replacement for the Klipper Expander, the Klipper expander can handle more current as it has wider PCB tracks than this PCB. Therefore the Klipper Fan Hat should only be used for lower current devices such as fans. Also, the Klipper Fan Hat does not support Neopixels due to space constraints of fitting it within the footprint of a Raspberry Pi Hat.
 
-What it does have is:
+Klipper Fan Hat features:
 
 - SKR Pico compatible input for powering the Pi and Serial communication
 - 5 Mosfet outputs (with 2 pin JST-XH connectors standard on most fans used on 3D printers)
@@ -40,7 +40,7 @@ I have created a [repository on my GitHub](https://github.com/mikepthomas/Klippe
 
 ![Klipper Fan Hat Front](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-front.jpg)
 
-The main branch contains a currently unproduced and untested, updated version of the board with a few revisions to fix some bugs that were found when testing the first version of the board.
+Although currently unproduced and untested, the main branch contains an updated version of the board, with a few revisions to fix some bugs that were found when testing the first version of the board.
 
 ![Klipper Fan Hat Back](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-back.jpg)
 
@@ -98,27 +98,29 @@ The main branch contains a currently unproduced and untested, updated version of
 
 ### Assembly
 
-Excuse the messy soldering, this is the first time I have tried to solder SMD components, and the pads are TINY, I'm probably going to need to invest in a TS100 (that's probably just my excuse to buy a shiny new toy).
+Excuse the messy soldering, this is the first time I have tried to solder SMD components, and the pads are TINY, I'm probably going to need to invest in a TS100 (...and provides an excuse to buy a shiny new toy).
 
 ![Klipper Fan Hat Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-assembled.jpg)
 
-The first time powering the Hat up, I connected the Mosfets to 5V from the Raspberry Pi USB input. All 5 Fan output LEDs lit up which made me happy, however, this happiness was short lived as I unfortunately found a major design flaw in my design...
+The first time powering the Hat up, I connected the Mosfets to 5V from the Raspberry Pi USB input. All 5 Fan output LEDs lit up which made me happy, however, this happiness was short lived, as I unfortunately found a major design flaw in my design...
 
 ### Testing
 
-I have connected a 12V power supply to VCC for testing however it should also work for 24V. I switched the power selector jumpers for the Fan mosfets to VCC and tried to switch 12V Fans which also worked succesfully. I have also connected a mini OLED display to the I2C bus and managed to get it to output the default Klipper display.
+I used one of my abused Raspberry Pis that I did not mind if I destroyed by releasing its "Magic Smoke" whilst testing the board. This is a Raspberry Pi 3 that unfortunately has lost its ability to talk to Wifi or Bluetooth devices, hence the USB wifi module you can see in any pictures.
+
+I have connected a 12V power supply to VCC for testing, however it should also work for 24V. I switched the power selector jumpers for the Fan mosfets to VCC and tried to switch 12V Fans which also worked succesfully. I have also connected a mini OLED display to the I2C bus and managed to get it to output the default Klipper display.
 
 ![Klipper Fan Hat Testing](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-testing.jpg)
 
-I have yet to test the Serial and 1-Wire connection however they just pass the connection directly to the GPIO pins the same way as the I2C port does so I cannot see them not working.
+I have yet to test the Serial and 1-Wire connection; they just pass the connection directly to the GPIO pins the same way as the I2C port does, so I cannot see them not working.
 
-Now to the major design flaw... I neglected to check if the Raspberry Pi is capable of analog input (spoiler it's not) I have looked into adding an Analog to Digital Converter (ADC) however it will take up quite a bit of space on the board and I am unsure if I could get it to work with Klipper. I have therefore opted to remove the thermistor ports in favour of 2 General Purpose Input/Output connectors for connecting items such as Filament Runout Sensors instead.
+Now to the major design flaw - I neglected to check if the Raspberry Pi is capable of analog input (spoiler it's not) I have looked into adding an Analog to Digital Converter (ADC), however it will take up quite a bit of space on the board and I am unsure if I could get it to work with Klipper. I have therefore opted to remove the thermistor ports in favour of 2 General Purpose Input/Output connectors for connecting items such as Filament Runout Sensors instead.
 
-It is possible to connect a HTU21D sensor to the I2C port for measuring Temperature and Humidity, that is [compatible with klipper](https://www.klipper3d.org/Config_Reference.html#htu21d-sensor) and I have also purchased a DHT11 sensor to test on the 1-Wire port, however this is not currently compatible with Klipper but could be used with a [Python script running dirctly on the Pi](https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/).
+It is possible to connect a HTU21D sensor to the I2C port for measuring Temperature and Humidity, that is [compatible with klipper](https://www.klipper3d.org/Config_Reference.html#htu21d-sensor) and I have also purchased a DHT11 sensor to test on the 1-Wire port. This is not currently compatible with Klipper, but could be used with a [Python script running dirctly on the Pi](https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/).
 
 ### The Road to V2
 
-After my testing I identified a few improvements that could be made:
+After my testing I identified a few improvements that I have now made and are available in the master branch:
 
 - Rename to Klipper Fan Hat
 - Increase the thickness of the power delivery tracks
@@ -234,7 +236,7 @@ The Raspberry Pi should be powered off before making any connections to the GPIO
 pi@raspberrypi:~ $ sudo halt
 ```
 
-We will then need to connect the EEPROM chip as per the following diagram, I did not add the RGB LED or it's resistors as I just wanted to flash the EEPROM.
+We will then need to connect the EEPROM chip as per the following diagram, I did not add the RGB LED or its resistors as I just wanted to flash the EEPROM.
 
 ![EEPROM Connection Diagram](https://rpi-magazines.s3-eu-west-1.amazonaws.com/magpi/legacy-assets/2016/03/eeprom-hat-led_bb.jpg)
 
@@ -516,7 +518,7 @@ Closing EEPROM Device.
 Done.
 ```
 
-Restart the Pi and we can then we can copy the config out of the device tree into the klipper config directory:
+Restart the Pi and we can then copy the config out of the device tree into the klipper config directory:
 
 ```bash
 cat /proc/device-tree/hat/custom_1 > ~/printer_data/config/klipper-fan-hat.cfg

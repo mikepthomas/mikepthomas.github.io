@@ -1,7 +1,7 @@
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 21, 2023
+Updated April 22, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
@@ -23,7 +23,7 @@ The Klipper Expander is designed to add 4 additional Mosfet outputs, 2 thermisto
 
 The Klipper Fan Hat is not supposed to be a replacement for the Klipper Expander, the Klipper expander can handle more current as it has wider PCB tracks than this PCB and therefore the Klipper Fan Hat should only be used for lower current devices such as fans. The Klipper Fan Hat also does not support Neopixels due to space constraints of fitting it within the footprint of a Raspberry Pi Hat.
 
-What it does have however is:
+What it does have is:
 
 - SKR Pico compatible input for powering the Pi and Serial communication
 - 5 Mosfet outputs (with 2 pin JST-XH connectors standard on most fans used on 3D printers)
@@ -106,9 +106,32 @@ The first time powering the Hat up, I connected the Mosfets to 5V from the Raspb
 
 ### Testing
 
-...TBC
+I have connected a 12V power supply to VCC for testing however it should also work for 24V. I switched the power selector jumpers for the Fan mosfets to VCC and tried to switch 12V Fans which also worked succesfully. I have also connected a mini OLED display to the I2C bus and managed to get it to output the default Klipper display.
 
 ![Klipper Fan Hat Testing](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-testing.jpg)
+
+I have yet to test the Serial and 1-Wire connection however they just pass the connection directly to the GPIO pins the same way as the I2C port does so I cannot see them not working.
+
+Now to the major design flaw... I neglected to check if the Raspberry Pi is capable of analog input (spoiler it's not) I have looked into adding an Analog to Digital Converter (ADC) however it will take up quite a bit of space on the board and I am unsure if I could get it to work with Klipper. I have therefore opted to remove the thermistor ports in favour of 2 General Purpose Input/Output connectors for connecting items such as Filament Runout Sensors instead.
+
+It is possible to connect a HTU21D sensor to the I2C port for measuring Temperature and Humidity, that is [compatible with klipper](https://www.klipper3d.org/Config_Reference.html#htu21d-sensor) and I have also purchased a DHT11 sensor to test on the 1-Wire port, however this is not currently compatible with Klipper but could be used with a [Python script running dirctly on the Pi](https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/).
+
+### The Road to V2
+
+After my testing I identified a few improvements that could be made:
+
+- Rename to Klipper Fan Hat
+- Increase the thickness of the power delivery tracks
+- Increase the thickness of the mosfet tracks
+- Covered entire bottom side with ground plane
+- Move the EEPROM decoupling capacitor closer to the chip
+- Add pull up resistor to the 1-Wire pin
+- Move Fan 5 power selector header to the other side of the connector to allow space for fan wiring
+- Add missing component markings for power LED, it's resistor and power input screw terminal
+- Add pin markings to the silkscreen for Power, Serial, SPI and I2C
+- Replace non-working thermistor inputs with GPIO connectors
+- Switch orientation of Fan 1-4 resistors so that it does't matter if they are bridged when soldering
+- Added a status LED that can be controlled by the Klipper host
 
 ## Flash Hat EEPROM
 

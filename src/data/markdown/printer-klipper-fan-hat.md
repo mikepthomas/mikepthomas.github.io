@@ -53,7 +53,7 @@ Although currently unproduced and untested, the main branch contains an updated 
 | M2.5x6 BHCS         | 4        | 50       | To mount the hat to the Raspberry Pi               |
 | M2.5x14 BHCS        | 4        | 10       | To mount the Fan                                   |
 | M2.5 Nut            | 4        | 50       | To mount the Fan                                   |
-| M2.5 Brass Standoff | 4        | 50       | To stop the fan inputs shorting on the HDMI Socket |
+| M2.5 Brass Standoff | 4        | 16       | To stop the fan inputs shorting on the HDMI Socket |
 
 ### Connectors
 

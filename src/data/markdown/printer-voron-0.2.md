@@ -1,7 +1,7 @@
 # Assembling the smallest Voron printer
 
 Created April 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 20, 2023
+Updated April 24, 2023
 
 Building the smallest of the Voron printers, the Voron Zero.
 
@@ -30,29 +30,30 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 ### Fasteners
 
-| Item                                      | Quantity | Received | Notes                                  |
-| ----------------------------------------- | -------- | -------- | -------------------------------------- |
-| 3x6x0.5 Shim Washer                       | 50       | 50       |                                        |
-| M2 Nut                                    | 55       | 72       |                                        |
-| M3 Nut                                    | 140      | 151      |                                        |
-| M2x4 SHCS                                 | 8        | 10       |                                        |
-| M2x6 SHCS                                 | 70       | 77       |                                        |
-| M2x6 FHCS                                 | 10       | 15       |                                        |
-| M2x8 SHCS                                 | 10       | 18       |                                        |
-| M3x6 BHCS                                 | 40       | 50       |                                        |
-| M3x6 FHCS                                 | 8        | 10       |                                        |
-| M3x8 BHCS                                 | 115      | 120      |                                        |
-| M3x8 FHCS                                 | 5        | 10       |                                        |
-| M3x10 BHCS                                | 50       | 35       | Fewer needed due to Kirigami Bed Mount |
-| M3x12 BHCS                                | 25       | 30       |                                        |
-| M3x16 BHCS                                | 10       | 15       |                                        |
-| M3x25 BHCS                                | 10       | 15       |                                        |
-| M3x30 BHCS                                | 10       | 15       |                                        |
-| M3x35 BHCS                                | 30       | 35       |                                        |
-| M3x40 BHCS                                | 10       | 15       |                                        |
-| M2x10 Self Tapping Screws for Plastic     | 30       | 36       |                                        |
-| M3 Brass heatstake inserts - short M3x5x4 | 50       | 71       |                                        |
-| Makerbeam XL M3 t-nut                     | 2        | 2        |                                        |
+| Item                                      | Quantity | Received | Notes                                                       |
+| ----------------------------------------- | -------- | -------- | ----------------------------------------------------------- |
+| 3x6x0.5 Shim Washer                       | 50       | 50       |                                                             |
+| LDO M3 Slide In Nut                       | 40       | 40       | Can be used to install mods or if preloaded nuts are missed |
+| M2 Nut                                    | 55       | 72       |                                                             |
+| M3 Nut                                    | 140      | 151      |                                                             |
+| M2x4 SHCS                                 | 8        | 10       |                                                             |
+| M2x6 SHCS                                 | 70       | 77       |                                                             |
+| M2x6 FHCS                                 | 10       | 15       |                                                             |
+| M2x8 SHCS                                 | 10       | 18       |                                                             |
+| M3x6 BHCS                                 | 40       | 50       |                                                             |
+| M3x6 FHCS                                 | 8        | 10       |                                                             |
+| M3x8 BHCS                                 | 115      | 120      |                                                             |
+| M3x8 FHCS                                 | 5        | 10       |                                                             |
+| M3x10 BHCS                                | 50       | 35       | Fewer needed due to Kirigami Bed Mount                      |
+| M3x12 BHCS                                | 25       | 30       |                                                             |
+| M3x16 BHCS                                | 10       | 15       |                                                             |
+| M3x25 BHCS                                | 10       | 15       |                                                             |
+| M3x30 BHCS                                | 10       | 15       |                                                             |
+| M3x35 BHCS                                | 30       | 35       |                                                             |
+| M3x40 BHCS                                | 10       | 15       |                                                             |
+| M2x10 Self Tapping Screws for Plastic     | 30       | 36       |                                                             |
+| M3 Brass heatstake inserts - short M3x5x4 | 50       | 71       |                                                             |
+| Makerbeam XL M3 t-nut                     | 2        | 2        |                                                             |
 
 ### Frame
 
@@ -111,14 +112,15 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 ### Motion
 
-| Item                                    | Quantity | Received | Notes |
-| --------------------------------------- | -------- | -------- | ----- |
-| F623-RS Bearing                         | 24       | 24       |       |
-| MGN7H Linear Rail with Carriage - 150mm | 5        | 5        |       |
-| Siboor PCB Rail Holders                 | 10       | 10       |       |
-| GT2 20T (5mm ID 6mm W)                  | 2        | 2        |       |
-| GT2 Open Belt (6mm W) - 3000mm          | 1        | 1        |       |
-| T8x8 Anti-backlash Flange Nut           | 1        | 1        |       |
+| Item                                    | Quantity | Received | Notes                                      |
+| --------------------------------------- | -------- | -------- | ------------------------------------------ |
+| F623-RS Bearing                         | 24       | 24       |                                            |
+| MGN7H Linear Rail with Carriage - 150mm | 5        | 5        |                                            |
+| Siboor PCB Rail Holders                 | 10       | 10       | May use instead of LDO Nut Bar Mount Kit   |
+| LDO 0.1 & 0.2 Nut Bar Mount Kit         | 1        | 1        | May use instead of Siboor PCB Rail Holders |
+| GT2 20T (5mm ID 6mm W)                  | 2        | 2        |                                            |
+| GT2 Open Belt (6mm W) - 3000mm          | 1        | 1        |                                            |
+| T8x8 Anti-backlash Flange Nut           | 1        | 1        |                                            |
 
 ### Buildplate
 
@@ -136,12 +138,12 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 | --------------------------------- | -------- | -------- | --------------------------------- |
 | Acrylic Sheet Clear - 212x230x3mm | 2        | 2        |                                   |
 | Acrylic Sheet Clear - 212x239x3mm | 1        | 1        |                                   |
-| Upper Rear Panel 212x63x3mm       | 1        |          | 1 on order, Linneo Orange ACM     |
-| Lower Rear Panel 212x185x3mm      | 1        |          | 1 on order, Linneo Orange ACM     |
-| Deck Panel 3mm thick (See DXF)    | 1        |          | 1 on order, Linneo Orange ACM     |
+| Upper Rear Panel 212x63x3mm       | 1        | 1        | Linneo Orange ACM                 |
+| Lower Rear Panel 212x185x3mm      | 1        | 1        | Linneo Orange ACM                 |
+| Deck Panel 3mm thick (See DXF)    | 1        | 1        | Linneo Orange ACM                 |
 | Motor Panel 3mm thick (See DXF)   | 1        |          | Not required as using Picobilical |
-| Bottom Panel 3mm thick (See DXF)  | 1        |          | 1 on order, Linneo Orange ACM     |
-| Mid Panel 3mm thick (See DXF)     | 1        |          | 1 on order, Linneo Orange ACM     |
+| Bottom Panel 3mm thick (See DXF)  | 1        | 1        | Linneo Orange ACM                 |
+| Mid Panel 3mm thick (See DXF)     | 1        | 1        | Linneo Orange ACM                 |
 
 ### Bowden
 
@@ -193,16 +195,16 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 #### :negative_squared_cross_mark: Y Rails
 
-| Item                                                                                                              | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                      |
-| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------ |
-| [M2_Nut_Adapter_Rotated](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/M2_Nut_Adapter_Rotated_x5.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | Will replace with 4 Siboor PCB Rail Mounts |
-| [Railstops](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Railstops_x5.stl)                   | 2        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                            |
+| Item                                                                                                              | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                                  |
+| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ---------------------------------------------------------------------- |
+| [M2_Nut_Adapter_Rotated](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/M2_Nut_Adapter_Rotated_x5.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | Will replace with either 4 Siboor PCB Rail Mounts or 2 LDO Rail Mounts |
+| [Railstops](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Railstops_x5.stl)                   | 2        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                                        |
 
 #### :negative_squared_cross_mark: Z Rails
 
-| Item                                                                                                              | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                      |
-| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------ |
-| [M2_Nut_Adapter_Rotated](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/M2_Nut_Adapter_Rotated_x5.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | Will replace with 4 Siboor PCB Rail Mounts |
+| Item                                                                                                              | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                                  |
+| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ---------------------------------------------------------------------- |
+| [M2_Nut_Adapter_Rotated](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/M2_Nut_Adapter_Rotated_x5.stl) | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | Will replace with either 4 Siboor PCB Rail Mounts or 2 LDO Rail Mounts |
 | [Railstops](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Railstops_x5.stl)                   | 2        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |
 
 #### :negative_squared_cross_mark: Z Axis
@@ -351,9 +353,9 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 #### :negative_squared_cross_mark: X Axis
 
-| Item                                                                                                              | Quantity | Material                                                | Size | Weight | Cost | Printed | Notes                                      |
-| ----------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------ |
-| [M2_Nut_Adapter_Rotated](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/M2_Nut_Adapter_Rotated_x5.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   | Will replace with 2 Siboor PCB Rail Mounts |
+| Item                                                                                                              | Quantity | Material                                                | Size | Weight | Cost | Printed | Notes                                                                 |
+| ----------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | ---- | ------ | ---- | :-----: | --------------------------------------------------------------------- |
+| [M2_Nut_Adapter_Rotated](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/M2_Nut_Adapter_Rotated_x5.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |      |        |      |   :x:   | Will replace with either 2 Siboor PCB Rail Mounts or 1 LDO Rail Mount |
 
 #### :negative_squared_cross_mark: Adafruit Y Rails
 

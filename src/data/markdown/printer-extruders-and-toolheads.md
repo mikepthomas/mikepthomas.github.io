@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 3, 2023
+Updated April 24, 2023
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -222,19 +222,18 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 
 #### Stealthburner
 
-| Item                                                                                                                                             | Quantity | Material                                                                    | Printed | Notes |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------- | :-----: | ----- |
-| [main_body](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Ba%5D_stealthburner_main_body.stl)                 | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
-| [LED_diffuser](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Bc%5D_stealthburner_LED_diffuser.stl)           | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)            |   :x:   |       |
-| [LED_carrier](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_carrier.stl)             | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
-| [LED_diffuser_mask](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Bo%5D_stealthburner_LED_diffuser_mask.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
+| Item                                                                                                                                                                     | Quantity | Material                                                                    | Printed | Notes                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------- | :-----: | ------------------------ |
+| [main_body](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/%5Ba%5D_stealthburner_main_body.stl)                                         | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |                          |
+| [stealthburner_LED_diffuser-beta3](https://github.com/tanaes/whopping_Voron_mods/blob/main/LEDs/Rainbow_Barf_Logo_LED/STLs/%5Bc%5D_stealthburner_LED_diffuser-beta3.stl) | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)            |   :x:   | Rainbow Barf LED Version |
+| [led_carrier_rev2](https://github.com/tanaes/whopping_Voron_mods/blob/main/LEDs/Rainbow_Barf_Logo_LED/STLs/led_carrier_rev2.stl)                                         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   | Rainbow Barf LED Version |
 
 #### ADXL345 Mount
 
-| Item                                                                                                                                                     | Quantity | Material                                                | Printed | Notes                        |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ---------------------------- |
-| [adxl_mount_ldo_15mm_c_c](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/ADXL345_Mounts/sb_adxl_mount_ldo_15mm_c_c.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Spacing on my sensor is 15mm |
-| [adxl_washer](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/ADXL345_Mounts/sb_adxl_washer_x2.stl)                      | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                              |
+| Item                                                                                                                                                     | Quantity | Material                                                | Printed | Notes                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ------------------------------------------------------------------------------------ |
+| [adxl_mount_ldo_15mm_c_c](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/ADXL345_Mounts/sb_adxl_mount_ldo_15mm_c_c.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | For [LDO Input Shaper Kit](https://www.onetwo3d.co.uk/product/ldo-input-shaper-kit/) |
+| [adxl_washer](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/ADXL345_Mounts/sb_adxl_washer_x2.stl)                      | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                                                                      |
 
 #### V6 Toolhead
 

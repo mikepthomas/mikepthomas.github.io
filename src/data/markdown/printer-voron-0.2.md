@@ -1,7 +1,7 @@
 # Assembling the smallest Voron printer
 
 Created April 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 24, 2023
+Updated April 25, 2023
 
 Building the smallest of the Voron printers, the Voron Zero.
 
@@ -72,27 +72,27 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 ### Electronics
 
-| Item                                                     | Quantity | Received | Notes      |
-| -------------------------------------------------------- | -------- | -------- | ---------- |
-| Meanwell LRS-150-24                                      | 1        | 1        |            |
-| Bigtreetech SKR Pico                                     | 1        | 1        |            |
-| Raspberry Pi 4                                           | 1        | 1        |            |
-| MicroSD Card                                             | 1        | 1        |            |
-| NEMA14 Stepper Motor 40Ncm                               | 2        | 2        |            |
-| NEMA17 Stepper Motor w/ integrated lead screw 200mm T8x8 | 1        | 1        |            |
-| 3010 blower fans 24V                                     | 2        |          | 2 on order |
-| 3010 axial fan 24V                                       | 2        |          | 2 on order |
-| 3510 axial fan 24V                                       | 4        | 5        |            |
-| Omron Mouse Button - Micro Switch                        | 1        | 1        |            |
-| C13 Power Cord                                           | 1        | 1        |            |
-| IEC320 C14 inlet                                         | 1        | 1        |            |
-| Hotend                                                   | 1        | 1        |            |
-| 24V Heater Cartridge                                     | 1        | 1        |            |
-| Hotend thermistor                                        | 1        | 1        |            |
-| V0 Display                                               | 1        | 1        |            |
-| 3M 5952 VHB tape                                         | 1        | 1        |            |
-| Adafruit Sequins                                         | 2        | 5        |            |
-| Rainbow Barf LED                                         | 1        | 1        |            |
+| Item                                                     | Quantity | Received | Notes |
+| -------------------------------------------------------- | -------- | -------- | ----- |
+| Meanwell LRS-150-24                                      | 1        | 1        |       |
+| Bigtreetech SKR Pico                                     | 1        | 1        |       |
+| Raspberry Pi 4                                           | 1        | 1        |       |
+| MicroSD Card                                             | 1        | 1        |       |
+| NEMA14 Stepper Motor 40Ncm                               | 2        | 2        |       |
+| NEMA17 Stepper Motor w/ integrated lead screw 200mm T8x8 | 1        | 1        |       |
+| 3010 blower fans 24V                                     | 2        | 2        |       |
+| 3010 axial fan 24V                                       | 2        | 2        |       |
+| 3510 axial fan 24V                                       | 4        | 5        |       |
+| Omron Mouse Button - Micro Switch                        | 1        | 1        |       |
+| C13 Power Cord                                           | 1        | 1        |       |
+| IEC320 C14 inlet                                         | 1        | 1        |       |
+| Hotend                                                   | 1        | 1        |       |
+| 24V Heater Cartridge                                     | 1        | 1        |       |
+| Hotend thermistor                                        | 1        | 1        |       |
+| V0 Display                                               | 1        | 1        |       |
+| 3M 5952 VHB tape                                         | 1        | 1        |       |
+| Adafruit Sequins                                         | 2        | 5        |       |
+| Rainbow Barf LED                                         | 1        | 1        |       |
 
 ### Cables
 
@@ -117,7 +117,7 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 | F623-RS Bearing                         | 24       | 24       |                                            |
 | MGN7H Linear Rail with Carriage - 150mm | 5        | 5        |                                            |
 | Siboor PCB Rail Holders                 | 10       | 10       | May use instead of LDO Nut Bar Mount Kit   |
-| LDO 0.1 & 0.2 Nut Bar Mount Kit         | 1        | 1        | May use instead of Siboor PCB Rail Holders |
+| LDO 0.2 Nut Bar Mount                   | 5        | 5        | May use instead of Siboor PCB Rail Holders |
 | GT2 20T (5mm ID 6mm W)                  | 2        | 2        |                                            |
 | GT2 Open Belt (6mm W) - 3000mm          | 1        | 1        |                                            |
 | T8x8 Anti-backlash Flange Nut           | 1        | 1        |                                            |

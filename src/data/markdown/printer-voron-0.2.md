@@ -209,9 +209,9 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 #### :negative_squared_cross_mark: Z Axis
 
-| Item                                                                                            | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes |
-| ----------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----- |
-| [Railstops](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Railstops_x5.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
+| Item                                                                                            | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                    |
+| ----------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------ |
+| [Railstops](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Railstops_x5.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Replace with Z cover mod |
 
 #### :negative_squared_cross_mark: Bed Carrier
 
@@ -223,18 +223,18 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 #### :negative_squared_cross_mark: Kirigami Bed
 
-| Item                                                                                                                                                           | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                 |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------- |
-| [Kirigami_Bed_Spacer](https://github.com/stvptrsn/Voron_Stuff/blob/main/Voron_0/Kirigami/Kirigami_Bed_Spacer.stl)                                              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | This is a Voron Users Mod by stvptrsn |
-| [kirigami_wago_mount](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/master/STL/kirigami_wago_mount.stl)                                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | This is a Kirigami Bed Part           |
-| [logo_insert](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/logo_insert.stl)                                                              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
-| [main_body_kirigami](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/%5Ba%5D_main_body_kirigami.stl)                                        | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
-| [rainbow_barf_diffuser](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/%5Bc%5D_rainbow_barf_diffuser.stl)                                  | 1        | Clear Resin                                               |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
-| [rainbow_barf_carrier](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/rainbow_barf_carrier.stl)                                            | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
-| [stealth_chain_mount](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/v0.2_beta/STL/VORON_v0.2_stealth_chain_mount.stl)                       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Beta Kirigami Bed Part      |
-| [stealth_chain_mount_5mm_spacer](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/v0.2_beta/STL/VORON_v0.2_stealth_chain_mount_5mm_spacer.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Beta Kirigami Bed Part      |
-| [stealth_nut_block](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/v0.2_beta/STL/VORON_v0.2_stealth_nut_block.stl)                           | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Beta Kirigami Bed Part      |
-| [stealth_wire_guide](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/v0.2_beta/STL/VORON_v0.2_stealth_wire_guide.stl)                         | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Beta Kirigami Bed Part      |
+| Item                                                                                                                                                           | Quantity | Material                                                         | Size | Weight | Cost | Printed | Notes                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------- |
+| [Kirigami_Bed_Spacer](https://github.com/stvptrsn/Voron_Stuff/blob/main/Voron_0/Kirigami/Kirigami_Bed_Spacer.stl)                                              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          |      |        |      |   :x:   | This is a Voron Users Mod by stvptrsn |
+| [kirigami_wago_mount](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/master/STL/kirigami_wago_mount.stl)                                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          |      |        |      |   :x:   | This is a Kirigami Bed Part           |
+| [logo_insert](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/logo_insert.stl)                                                              | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple)        |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
+| [main_body_kirigami](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/%5Ba%5D_main_body_kirigami.stl)                                        | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange)        |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
+| [rainbow_barf_diffuser](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/%5Bc%5D_rainbow_barf_diffuser.stl)                                  | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
+| [rainbow_barf_carrier](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/rainbow_barf_carrier.stl)                                            | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
+| [stealth_chain_mount](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/v0.2_beta/STL/VORON_v0.2_stealth_chain_mount.stl)                       | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange)        |      |        |      |   :x:   | This is a Beta Kirigami Bed Part      |
+| [stealth_chain_mount_5mm_spacer](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/v0.2_beta/STL/VORON_v0.2_stealth_chain_mount_5mm_spacer.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple)        |      |        |      |   :x:   | This is a Beta Kirigami Bed Part      |
+| [stealth_nut_block](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/v0.2_beta/STL/VORON_v0.2_stealth_nut_block.stl)                           | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple)        |      |        |      |   :x:   | This is a Beta Kirigami Bed Part      |
+| [stealth_wire_guide](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/v0.2_beta/STL/VORON_v0.2_stealth_wire_guide.stl)                         | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple)        |      |        |      |   :x:   | This is a Beta Kirigami Bed Part      |
 
 #### :negative_squared_cross_mark: Z Endstop
 
@@ -389,7 +389,7 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 | Item                                                                                            | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                               |
 | ----------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----------------------------------- |
-| [Thumb_Nut](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Thumb_Nut_x3.stl) | 3        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | May substitute these for metal ones |
+| [Thumb_Nut](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/%5Ba%5D_Thumb_Nut_x3.stl) | 3        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | May substitute these for metal ones |
 
 ### Print Head
 
@@ -413,6 +413,8 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 #### :negative_squared_cross_mark: Multi-color Mini Stealthburner
 
+I will print this using the [Multi-Colour Prints with a Single Nozzle](https://docs.vorondesign.com/community/howto/mikhail/multi-colour-prints-with-a-single-nozzle.html) guide. The main colour will be Orange with Accents in Purple.
+
 | Item                                                                | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                               |
 | ------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------------------------------- |
 | [MiniSB_Hex_Centred](https://www.printables.com/model/368134/files) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | This is a mod by [Jadecky3D](https://www.printables.com/@Jadecky3D) |
@@ -421,19 +423,19 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 | Item                                                                                                                                                     | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                     |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------- |
-| [FS_Hotend_Mount_Dragon](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Hotend_Mounts/Fan_Saver/%5Ba%5D_FS_Hotend_Mount_Dragon.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Dragon, Fan Saver Version |
+| [FS_Hotend_Mount_Dragon](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/Hotend_Mounts/Fan_Saver/%5Ba%5D_FS_Hotend_Mount_Dragon.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | Dragon, Fan Saver Version |
 
 #### :negative_squared_cross_mark: AXDL345 Mount
 
 | Item                                                                                                                                            | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                                      |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | -------------------------------------------------------------------------- |
-| [MiniSB_adxl_mount_ldo_15mm](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/ADXL_Mounts/MiniSB_adxl_mount_ldo_15mm_x1.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | LDO Version, Not required as Picobilical has ADXL sensor on toolhead board |
+| [MiniSB_adxl_mount_ldo_15mm](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Toolheads/ADXL_Mounts/MiniSB_adxl_mount_ldo_15mm_x1.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | LDO Version, Not required as Picobilical has ADXL sensor on toolhead board |
 
 #### :negative_squared_cross_mark: Picobilical
 
 | Item                                                                                                                | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                          |
 | ------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------ |
-| [toolhead_spacer_v02](https://github.com/MotorDynamicsLab/LDO-Picobilical/blob/master/STLs/toolhead_spacer_v02.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | This is a LDO Picobilical Part |
+| [toolhead_spacer_v02](https://github.com/MotorDynamicsLab/LDO-Picobilical/blob/master/STLs/toolhead_spacer_v02.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a LDO Picobilical Part |
 
 ### Electronics & Wiring
 
@@ -546,7 +548,7 @@ I Plan on replacing the stock Trident style skirts with the [Stealth Skirts mod 
 
 #### :negative_squared_cross_mark: Multi-color Display Faceplate
 
-The Hexagon inserts will be printed in Black and the rest will be printed in Orange.
+I will print this using the [Multi-Colour Prints with a Single Nozzle](https://docs.vorondesign.com/community/howto/mikhail/multi-colour-prints-with-a-single-nozzle.html) guide. The main colour will be Orange with Accents in Purple.
 
 | Item                                                                         | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                               |
 | ---------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------------------------------- |
@@ -647,12 +649,14 @@ The Hexagon inserts will be printed in Black and the rest will be printed in Ora
 
 The [Nevermore Micro V5 Duo](https://github.com/nevermore3d/Nevermore_Micro) filters the encosure to reduce the smell of printing ABS. [Carbon refill is available from here](https://www.onetwo3d.co.uk/product/nevermore3d-carbon/).
 
-| Item                                                                                                                                              | Quantity | Material                                                | Printed | Notes |
-| ------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----- |
-| [Duo_Cartridge_LID](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/V0/Duo_Cartridge_LID.stl)                                   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-| [Duo_Cartridge_STRAIGHT-AIRFLOW](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/V0/Duo_Cartridge_STRAIGHT-AIRFLOW_by_aive.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-| [Plenum_LID](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/V0/Plenum_LID.stl)                                                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-| [V0_Duo_Plenum](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/V0/V0_Duo_Plenum.stl)                                           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+I will perform a falament swap from Purple to Orange after the first few layers of the `LID` elements to make the text stand out.
+
+| Item                                                                                                                                              | Quantity | Material                                                  | Printed | Notes |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | :-----: | ----- |
+| [Duo_Cartridge_LID](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/V0/Duo_Cartridge_LID.stl)                                   | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |   :x:   |       |
+| [Duo_Cartridge_STRAIGHT-AIRFLOW](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/V0/Duo_Cartridge_STRAIGHT-AIRFLOW_by_aive.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |   :x:   |       |
+| [Plenum_LID](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/V0/Plenum_LID.stl)                                                 | 1        | [eSun ABS+ (purple)](printer-filament.md#esun-abs-purple) |   :x:   |       |
+| [V0_Duo_Plenum](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/V0/V0_Duo_Plenum.stl)                                           | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |   :x:   |       |
 
 #### :negative_squared_cross_mark: Assembly
 

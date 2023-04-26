@@ -1,7 +1,7 @@
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 23, 2023
+Updated April 26, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
@@ -112,13 +112,19 @@ I have connected a 12V power supply to VCC for testing, however it should also w
 
 ![Klipper Fan Hat Testing](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-testing.jpg)
 
-I have yet to test the Serial and 1-Wire connection; they just pass the connection directly to the GPIO pins the same way as the I2C port does, so I cannot see them not working.
+I have yet to test the Serial port; it just passes the connections directly to the GPIO pins the same way as the I2C port does, so I am pretty sure it will work.
 
-Now to the major design flaw - I neglected to check if the Raspberry Pi is capable of analog input (spoiler it's not) I have looked into adding an Analog to Digital Converter (ADC), however it will take up quite a bit of space on the board and I am unsure if I could get it to work with Klipper. I have therefore opted to remove the thermistor ports in favour of 2 General Purpose Input/Output connectors for connecting items such as Filament Runout Sensors instead.
+Now to the major design flaw - I neglected to check if the Raspberry Pi is capable of analog input (spoiler - it's not) I have looked into adding an Analog to Digital Converter (ADC), however it will take up quite a bit of space on the board and I am unsure if I could get it to work with Klipper. I have therefore opted to remove the thermistor ports in favour of 2 General Purpose Input/Output connectors for connecting items such as Filament Runout Sensors instead.
 
-It is possible to connect a HTU21D sensor to the I2C port for measuring Temperature and Humidity, that is [compatible with klipper](https://www.klipper3d.org/Config_Reference.html#htu21d-sensor) and I have also purchased a DHT11 sensor to test on the 1-Wire port. This is not currently compatible with Klipper, but could be used with a [Python script running dirctly on the Pi](https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/).
+If a temperature sensor is required, I have purchased a couple of different DS18B20 temperature sensors to test, they connect to the 1-wire port and should be [compatable with Klipper](https://www.klipper3d.org/Config_Reference.html#ds18b20-temperature-sensor). It is also possible to connect a HTU21D Temperature and Humidity sensor to the I2C port that is also [compatible with Klipper](https://www.klipper3d.org/Config_Reference.html#htu21d-sensor).
 
-After further testing I have noticed I have used some incorrect resistor values in some places, I have now updated these to the correct values. I have also removed the decoupling capacitors from the thermistor ports and changed the pull up resistor to 3.9kΩ so that I can repurpose the non working thermistor ports as GPIO the same way I have added into V2.
+I also have a DHT11 temperature sensor to test on the 1-Wire port. This is not currently compatible with Klipper, but could be used with a [Python script running directly on the Pi](https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/).
+
+After further testing, I have noticed I have used some incorrect resistor values in some places, I have now updated these to the correct values. I have also removed the decoupling capacitors from the thermistor ports and changed the pull up resistors to 3.9kΩ so that I can repurpose the non working thermistor ports as GPIO the same way I have added into V2.
+
+These have been tested by connecting the 1-wire and the two GPIO pins to a [rotary encoder](https://github.com/mikepthomas/Klipper-Fan-Hat/blob/main/Software/klipper-fan-hat.cfg#L96-L98), and I have also tested a microswitch acting as a [filament runout sensor](https://github.com/mikepthomas/Klipper-Fan-Hat/blob/main/Software/klipper-fan-hat.cfg#L81-L84). Both of which worked perfectly and I have added example configuration sections to the Klipper config file.
+
+![Klipper Fan Hat Rotary Encoder](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-rotary-encoder.jpg)
 
 ### The Road to V2
 
@@ -352,7 +358,7 @@ Do you wish to continue? (yes/no): yes
 Writing...
 0+1 records in
 0+1 records out
-220 bytes copied, 0.825629 s, 0.3 kB/s
+215 bytes copied, 0.788403 s, 0.3 kB/s
 Closing EEPROM Device.
 Done.
 ```
@@ -380,7 +386,7 @@ Klipper Fan Hat
 pi@raspberrypi:/proc/device-tree/hat $ more product_id
 0x4b46
 pi@raspberrypi:/proc/device-tree/hat $ more product_ver
-0x0001
+0x0002
 pi@raspberrypi:/proc/device-tree/hat $ more uuid
 fef562f0-9e28-4453-88c2-c073303e6ab2
 ```
@@ -444,7 +450,7 @@ Writing...
 512 bytes copied, 2 s, 0.3 kB/s
 1+1 records in
 1+1 records out
-641 bytes copied, 2.53118 s, 0.3 kB/s
+636 bytes copied, 2.40116 s, 0.3 kB/s
 Closing EEPROM Device.
 Done.
 ```
@@ -473,21 +479,19 @@ disk           hwrng      loop3    mem           ram0       ram4   snd      tty1
 pi@raspberrypi:~/hats/eepromutils $ nano klipper-fan-hat.cfg
 ```
 
-Update the contents with the [Klipper config source file from the Repository](https://github.com/mikepthomas/klipper_config/blob/main/Boards/raspberry_pi.cfg).
-
-**_TODO:_** Create a specific config file for the hat and update this link.
+Update the contents with the [Klipper config source file from the Repository](https://github.com/mikepthomas/Klipper-Fan-Hat/blob/main/Software/klipper-fan-hat.cfg).
 
 Save the file, and embed the config file into the EEPROM image
 
 ```bash
 pi@raspberrypi:~/hats/eepromutils $ ./eepmake eeprom_settings.txt klipper-fan-hat-with-dt.eep klipper-fan-hat.dtb -c klipper-fan-hat.cfg
 Opening file eeprom_settings.txt for read
-UUID=c13a6e9e-67d8-465d-9084-0fb77054ec7c
+UUID=bad30696-4538-41da-9d5c-628d9fdc3824
 Done reading
 Opening DT file klipper-fan-hat.dtb for read
 Adding 411 bytes of DT data
 Opening custom data file klipper-fan-hat.cfg for read
-Adding 245 bytes of custom data
+Adding 3263 bytes of custom data
 Writing out...
 Writing out DT...
 Done.
@@ -512,10 +516,10 @@ This will attempt to talk to an eeprom at i2c address 0x50. Make sure there is a
 This script comes with ABSOLUTELY no warranty. Continue only if you know what you are doing.
 Do you wish to continue? (yes/no): yes
 Writing...
-512 bytes copied, 2 s, 0.2 kB/s
-1+1 records in
-1+1 records out
-896 bytes copied, 3.62112 s, 0.2 kB/s
+3584 bytes (3.6 kB, 3.5 KiB) copied, 14 s, 0.3 kB/s
+7+1 records in
+7+1 records out
+3909 bytes (3.9 kB, 3.8 KiB) copied, 14.7817 s, 0.3 kB/s
 Closing EEPROM Device.
 Done.
 ```

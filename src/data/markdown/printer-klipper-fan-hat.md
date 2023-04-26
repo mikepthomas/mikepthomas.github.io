@@ -46,6 +46,8 @@ Although currently unproduced and untested, the main branch contains an updated 
 
 ## Parts Required
 
+The reference numbers in the notes field refer to the parts required marked on the silkscreen and [can be seen in the interactive BOM](https://www.mikethomas.info/Klipper-Fan-Hat).
+
 ### Fasteners
 
 | Item                | Quantity | Received | Notes                                              |

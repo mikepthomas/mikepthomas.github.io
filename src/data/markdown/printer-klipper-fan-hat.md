@@ -1,7 +1,7 @@
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 26, 2023
+Updated April 27, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
@@ -124,7 +124,7 @@ I also have a DHT11 temperature sensor to test on the 1-Wire port. This is not c
 
 After further testing, I have noticed I have used some incorrect resistor values in some places, I have now updated these to the correct values. I have also removed the decoupling capacitors from the thermistor ports and changed the pull up resistors to 3.9kΩ so that I can repurpose the non working thermistor ports as GPIO the same way I have added into V2.
 
-These have been tested by connecting the 1-wire and the two GPIO pins to a [rotary encoder](https://github.com/mikepthomas/Klipper-Fan-Hat/blob/main/Software/klipper-fan-hat.cfg#L96-L98), and I have also tested a microswitch acting as a [filament runout sensor](https://github.com/mikepthomas/Klipper-Fan-Hat/blob/main/Software/klipper-fan-hat.cfg#L81-L84). Both of which worked perfectly and I have added example configuration sections to the Klipper config file.
+These have been tested by connecting the 1-wire and the two GPIO pins to a [rotary encoder](https://github.com/mikepthomas/Klipper-Fan-Hat/blob/main/Software/klipper-fan-hat.cfg#L67-L69), and I have also tested a microswitch acting as a [filament runout sensor](https://github.com/mikepthomas/Klipper-Fan-Hat/blob/main/Software/klipper-fan-hat.cfg#L115-L118). Both of which worked perfectly and I have added example configuration sections to the Klipper config file.
 
 ![Klipper Fan Hat Rotary Encoder](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-rotary-encoder.jpg)
 
@@ -488,12 +488,12 @@ Save the file, and embed the config file into the EEPROM image
 ```bash
 pi@raspberrypi:~/hats/eepromutils $ ./eepmake eeprom_settings.txt klipper-fan-hat-with-dt.eep klipper-fan-hat.dtb -c klipper-fan-hat.cfg
 Opening file eeprom_settings.txt for read
-UUID=bad30696-4538-41da-9d5c-628d9fdc3824
+UUID=62ed7b88-3e38-4958-a397-5271702f3386
 Done reading
 Opening DT file klipper-fan-hat.dtb for read
 Adding 411 bytes of DT data
 Opening custom data file klipper-fan-hat.cfg for read
-Adding 3263 bytes of custom data
+Adding 3450 bytes of custom data
 Writing out...
 Writing out DT...
 Done.
@@ -518,10 +518,10 @@ This will attempt to talk to an eeprom at i2c address 0x50. Make sure there is a
 This script comes with ABSOLUTELY no warranty. Continue only if you know what you are doing.
 Do you wish to continue? (yes/no): yes
 Writing...
-3584 bytes (3.6 kB, 3.5 KiB) copied, 14 s, 0.3 kB/s
-7+1 records in
-7+1 records out
-3909 bytes (3.9 kB, 3.8 KiB) copied, 14.7817 s, 0.3 kB/s
+4096 bytes (4.1 kB, 4.0 KiB) copied, 19 s, 0.2 kB/s
+8+0 records in
+8+0 records out
+4096 bytes (4.1 kB, 4.0 KiB) copied, 19.0053 s, 0.2 kB/s
 Closing EEPROM Device.
 Done.
 ```

@@ -556,7 +556,7 @@ cd ~/klipper/
 make menuconfig
 ```
 
-In the menu, set `Microcontroller Architecture` to `Linux process`, then save and exit.
+In the menu, set `Micro-controller Architecture` to `Linux process`, then save and exit.
 
 ![Klipper Config](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-config.jpg)
 

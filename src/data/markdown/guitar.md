@@ -65,6 +65,6 @@ The parts were printed using a 1mm nozzle on my Anet A8 3D Printer. This is the 
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/16-rear-cover.jpg)
 
-I designed the Tremolo cover in SketchUp 2017 and it is [available on my 3D printing GitHub repository](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Guitar%20Tremolo%20Cover/Tremolo%20Cover.stl).
+I designed the Tremolo cover in SketchUp 2017 and it is [available on my 3D printing GitHub repository](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Guitar%20Tremolo%20Cover/Tremolo%20Cover.stl). You can also [view the design on the SketchUp website](https://app.sketchup.com/share/tc/europe/pxdZncLrWzY?stoken=gDHVrREtDf6Prk3EPKV8_tvkqZzCViiDa9BCoXuSLfEOKwwUwz-NuO2FCFrlYMM9&source=web).
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/17-finished.jpg)

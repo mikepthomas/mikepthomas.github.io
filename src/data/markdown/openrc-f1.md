@@ -142,7 +142,7 @@ Assembly of the car is split into the following parts:
 
 ![Electronics Box Layout](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/electronics-box-layout.jpg)
 
-This was one of the first items I modified. I used SketchUp 2017 to edit an existing electronics box to fit the battery I purchased.
+This was one of the first items I modified. I used SketchUp 2017 to edit an existing electronics box to fit the battery I purchased. You can also [view the design on the SketchUp website](https://app.sketchup.com/share/tc/europe/eDflgsYeHGA?stoken=uL6KUMBR9SgNFsqt7Iui99P_QAL9iSydfDcQVslXiyaSsP3Mw8FabXYOr0XHB1bj&source=web).
 
 ![Electronics Box Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/electronics-box-assembled.jpg)
 

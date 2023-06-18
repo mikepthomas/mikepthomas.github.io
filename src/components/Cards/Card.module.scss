@@ -1,4 +1,4 @@
-/*
+/* 
  * Copyright (c) 2016-2022, Mike Thomas
  * All rights reserved.
  *
@@ -23,50 +23,18 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import React from 'react';
-import {
-  Card,
-  CardBody,
-  CardFooter,
-  CardHeader,
-  CardImg,
-  CardLink,
-  CardSubtitle,
-  CardText,
-} from 'reactstrap';
+.zoom {
+  overflow: hidden;
 
-import styles from './Card.module.scss';
+  img {
+    transition: transform 0.25s, filter 0.25s ease-in-out;
+    filter: brightness(75%);
+  }
 
-interface Props {
-  archived?: boolean;
-  children: string;
-  image?: string;
-  link: string;
-  name: string;
-}
-
-export default function Link(props: Props) {
-  return (
-    <Card className="h-100" color="light">
-      <CardHeader tag="h3">{props.name}</CardHeader>
-      {props.image ? (
-        <CardLink href={props.link} className={styles['zoom']}>
-          <CardImg src={props.image} />
-        </CardLink>
-      ) : null}
-      <CardBody>
-        {props.archived ? (
-          <CardSubtitle className="text-muted" tag="h4">
-            Archived:
-          </CardSubtitle>
-        ) : null}
-        <CardText>{props.children}</CardText>
-      </CardBody>
-      <CardFooter className="text-end">
-        <CardLink className="btn btn-outline-primary" href={props.link}>
-          View details »
-        </CardLink>
-      </CardFooter>
-    </Card>
-  );
+  &:hover {
+    img {
+      filter: brightness(100%);
+      transform: scale(1.1);
+    }
+  }
 }

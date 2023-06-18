@@ -1,6 +1,7 @@
 # 3D Printing a radio controlled car
 
-June 28, 2018 by [Mike Thomas](https://github.com/mikepthomas)
+June 28, 2018 by [Mike Thomas](https://github.com/mikepthomas),
+Updated June 17, 2023
 
 How I printed my OpenRC F1 car, Designed by Daniel Norée. This project was one of the main reasons I got into 3D printing in the first place.
 
@@ -18,6 +19,7 @@ Assembly of the car is split into the following parts:
 4. [Rear Axle Assembly](#rear-axle-assembly)
 5. [Chassis Assembly](#chassis-assembly)
 6. [Body](#body)
+7. [Electronics Box](#electronics-box)
 
 ### Front Wheel Assembly
 
@@ -135,3 +137,15 @@ Assembly of the car is split into the following parts:
 | [Front Spoiler 2019](https://www.thingiverse.com/thing:3479513)                 | 1        | [Ziro TPU (Black)](printer-filament.md#ziro-tpu-black)                     |      |      |        |      |
 | [Rear Wing 2019](https://www.thingiverse.com/thing:3479513)                     | 1        | [Ziro TPU (Black)](printer-filament.md#ziro-tpu-black)                     |      |      |        |      |
 | [Rainlight and Diffuser](https://www.thingiverse.com/thing:1193309)             | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |
+
+### Electronics Box
+
+![Electronics Box Layout](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/electronics-box-layout.jpg)
+
+This was one of the first items I modified. I used SketchUp 2017 to edit an existing electronics box to fit the battery I purchased. You can also [view the design on the SketchUp website](https://app.sketchup.com/share/tc/europe/eDflgsYeHGA?stoken=uL6KUMBR9SgNFsqt7Iui99P_QAL9iSydfDcQVslXiyaSsP3Mw8FabXYOr0XHB1bj&source=web).
+
+![Electronics Box Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/electronics-box-assembled.jpg)
+
+The source file and STL is [available to download on my 3D Printing repository on GitHub](https://github.com/mikepthomas/3dprinting/blob/main/Designs/OpenRC%20F1%20Battery%20Box/Battery%20Box.stl).
+
+![Electronics Box Installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/electronics-box-installed.jpg)

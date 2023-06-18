@@ -1,7 +1,7 @@
 # Assembling the smallest Voron printer
 
 Created April 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 25, 2023
+Updated June 18, 2023
 
 Building the smallest of the Voron printers, the Voron Zero.
 
@@ -22,7 +22,7 @@ Building the smallest of the Voron printers, the Voron Zero.
    9. [Electronics & Wiring](#electronics---wiring)
    10. [Skirts & Panels](#skirts---panels)
    11. [Extrusion Tophat](#extrusion-tophat)
-   12. [Nevermore Micro V5 Duo](#nevermore-micro-v5-duo)
+   12. [Nevermore Micro V6](#nevermore-micro-v6)
 
 ## Sourcing Parts
 
@@ -645,18 +645,20 @@ I will print this using the [Multi-Colour Prints with a Single Nozzle](https://d
 | ------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | --------------------------------------- |
 | [picamera3stl](https://github.com/chirpy2605/voron/blob/main/V0/v0.2_Stuff/STLs/picamera3stl.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Voron Users Mod by chirpy2605 |
 
-### Nevermore Micro V5 Duo
+### Nevermore Micro V6
 
-The [Nevermore Micro V5 Duo](https://github.com/nevermore3d/Nevermore_Micro) filters the encosure to reduce the smell of printing ABS. [Carbon refill is available from here](https://www.onetwo3d.co.uk/product/nevermore3d-carbon/).
+The [Nevermore Micro V6](https://github.com/nevermore3d/Nevermore_Micro) filters the encosure to reduce the smell of printing ABS. [Carbon refill is available from here](https://www.onetwo3d.co.uk/product/nevermore3d-carbon/).
 
-I will perform a falament swap from Purple to Orange after the first few layers of the `LID` elements to make the text stand out.
+The V6 no longer requires you to cut up the fans like you used to hve to do with the V5.
 
-| Item                                                                                                                                              | Quantity | Material                                                  | Printed | Notes |
-| ------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | :-----: | ----- |
-| [Duo_Cartridge_LID](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/V0/Duo_Cartridge_LID.stl)                                   | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |   :x:   |       |
-| [Duo_Cartridge_STRAIGHT-AIRFLOW](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/V0/Duo_Cartridge_STRAIGHT-AIRFLOW_by_aive.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |   :x:   |       |
-| [Plenum_LID](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/V0/Plenum_LID.stl)                                                 | 1        | [eSun ABS+ (purple)](printer-filament.md#esun-abs-purple) |   :x:   |       |
-| [V0_Duo_Plenum](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V5_Duo/V0/V0_Duo_Plenum.stl)                                           | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |   :x:   |       |
+| Item                                                                                                                                    | Quantity | Material                                                  | Printed | Notes |
+| --------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | :-----: | ----- |
+| [v0_90deg_Cartridge](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V6/v0/v0_90deg_Cartridge.stl)                           | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |   :x:   |       |
+| [v0_Plenum_Delta_GDStime_Winsinn](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V6/v0/v0_Plenum_Delta_GDStime_Winsinn.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |   :x:   |       |
+| [V6_Plenum_Lid](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V6/STL/V6_Plenum_Lid.stl)                                    | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |   :x:   |       |
+| [V6_Jalousie_Slicer](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V6/STL/%5Ba%5DV6_Jalousie_Slicer.stl)                   | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
+| [1515_Frame_Connector](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V6/STL/Optional_stuff/1515_Frame_Connector.stl)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |   :x:   |       |
+| [JST_Holder](https://github.com/nevermore3d/Nevermore_Micro/blob/master/V6/STL/Optional_stuff/2xJST_Holder%5Bno_cut_fan_wires%5D.stl)   | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |   :x:   |       |
 
 #### :negative_squared_cross_mark: Assembly
 
@@ -669,11 +671,8 @@ I will perform a falament swap from Purple to Orange after the first few layers 
 | 5015 Centrifugal Fan (24V)         | 2        |
 | 6mm x 3mm Round Neodymium Magnets  | 8        |
 | Acid-free Activated Carbon Pack    | 1        |
-| JST XH Connector Header 2 Position | 1        |
-| M3 threaded inserts                | 6        |
-| M3x18 BHCS                         | 1        |
-| M3x16 BHCS                         | 4        |
-| M3x12 BHCS                         | 2        |
-| M3x6 BHCS                          | 2        |
-| M3x4 BHCS                          | 1        |
-| M3 Hammer Head T-nuts              | 2        |
+| JST XH Connector Header 2 Position | 3        |
+| M3 threaded inserts                | 2        |
+| M3x16 SHCS                         | 1        |
+| M3x6 SHCS                          | 1        |
+| M3 Hammer Head T-nuts              | 1        |

@@ -60,8 +60,10 @@ export default function Link(props: Props) {
         ) : null}
         <CardText>{props.children}</CardText>
       </CardBody>
-      <CardFooter>
-        <CardLink href={props.link}>View details »</CardLink>
+      <CardFooter className="text-end">
+        <CardLink className="btn btn-outline-primary" href={props.link}>
+          View details »
+        </CardLink>
       </CardFooter>
     </Card>
   );

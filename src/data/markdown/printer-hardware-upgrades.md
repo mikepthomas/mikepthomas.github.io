@@ -1,7 +1,7 @@
 # Printer Hardware Upgrades
 
 May 12, 2021 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 26, 2023
+Updated June 18, 2023
 
 This page contains information about how I upgraded my stock Anet A8 to add various hardware mods including swapping out the control board to a BigTreeTech SKR 1.4.
 
@@ -21,6 +21,7 @@ This page contains information about how I upgraded my stock Anet A8 to add vari
 8. [Neopixel LED Strip](#neopixel-led-strip)
 9. [Optical Endstops](#optical-endstops)
 10. [0.9 Degree Motors](#0-9-degree-motors)
+11. [Aluminium Bed Support Plate](#aluminium-bed-support-plate)
 
 ## Wiring
 
@@ -112,4 +113,13 @@ Since tuning the printer to remove as many imperfections in my prints as possibl
 
 [This page on the Prusa Printer Forums](https://forum.prusaprinters.org/forum/original-prusa-i3-mk3s-mk3-user-mods-octoprint-enclosures-nozzles/stepper-motor-upgrades-to-eliminate-vfa-s-vertical-fine-artifacts/) suggests replacing the stock 1.8 degree motors with higher resolution 0.9 degree stepper motors.
 
-I will update when I have been using them for a while to see the results.
+I have mainly been printing with Matt ABS filament since fitting the motors and therefore have not really seen any improvements in print quality. I will have to print with some glossy black PETG to see some like for like results before recommending the upgrade.
+
+## Aluminium Bed Support Plate
+
+I have purchased a one piece Aluminium support plate to replace the stock steel 3 piece design, mainly for aesthetics.
+
+The [plate I have purchased is from Ali Express](https://aliexpress.com/item/1005003150430699.html) and the hole spacing in the center of the plate is designed to mount on a linear rail and therefore has a spacing of 20mm x 20mm for MGN-12H or 20mm x 15mm for MGN-12C.
+
+I have therefore needed to design a belt clamp to affix the belt to the bed as the hole spacing is different to the stock design.
+You can download the clamp from my [3D Printing GitHub repository](https://github.com/mikepthomas/3dprinting/tree/main/Designs/Aluminium%20Bed%20Support%20Plate%20Belt%20Clamp).

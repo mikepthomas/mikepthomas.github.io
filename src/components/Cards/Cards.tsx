@@ -29,14 +29,14 @@ import { Col, Container, Row } from 'reactstrap';
 import Card from './Card';
 import F1 from '../../img/openrc-f1/openrc-hero.jpg';
 import Guitar from '../../img/guitar/12-almost-there.jpg';
+import RedRocket from '../../img/red-rocket/red-rocket-hero.jpg';
 import Truggy from '../../img/openrc-truggy/truggy-hero.jpg';
-import Printer from '../../img/printer-voron-1.8/voron-hero.jpg';
 
 export default function Links() {
   return (
     <>
       <Container>
-        <h2 className="mb-3" id="projects">
+        <h2 className="mb-3" id="software-projects">
           Software projects
         </h2>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
@@ -68,19 +68,10 @@ export default function Links() {
         <hr />
       </Container>
       <Container>
-        <h2 className="mb-3" id="projects">
+        <h2 className="mb-3" id="3d-printing-projects">
           3D printing projects
         </h2>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
-          <Col>
-            <Card
-              name="3D Printer"
-              link="/#/projects/printer-voron-1.8"
-              image={Printer}
-            >
-              Printing parts to assemble a Voron 1.8 3D printer.
-            </Card>
-          </Col>
           <Col>
             <Card name="OpenRC F1" link="/#/projects/openrc-f1" image={F1}>
               Printing a Formula 1 style remote control car.
@@ -98,6 +89,43 @@ export default function Links() {
           <Col>
             <Card name="Guitar" link="/#/projects/guitar" image={Guitar}>
               Building a guitar with a 3D printed body.
+            </Card>
+          </Col>
+          <Col>
+            <Card
+              name="Red Rocket"
+              link="/#/projects/red-rocket"
+              image={RedRocket}
+            >
+              3D Printing the Red Rocket Truck Stop from Fallout 4.
+            </Card>
+          </Col>
+        </Row>
+        <hr />
+      </Container>
+      <Container>
+        <h2 className="mb-3" id="3d-printers">
+          3D printers
+        </h2>
+        <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+          <Col>
+            <Card name="Anet A8" link="/#/projects/printer">
+              My first 3D printer.
+            </Card>
+          </Col>
+          <Col>
+            <Card name="Rook 2020" link="/#/projects/printer-rook">
+              3D Printing a cheap CoreXY 3D Printer.
+            </Card>
+          </Col>
+          <Col>
+            <Card name="Voron 0.2" link="/#/projects/printer-voron-0.2">
+              Printing parts to assemble a Voron 0.2 3D printer.
+            </Card>
+          </Col>
+          <Col>
+            <Card name="Voron 1.8" link="/#/projects/printer-voron-1.8">
+              Printing parts to assemble a Voron 1.8 3D printer.
             </Card>
           </Col>
         </Row>

@@ -58,7 +58,7 @@ export default function Navigation(props: Props) {
       </a>
       <Navbar color="dark" dark={true} expand="md" fixed="top">
         <NavbarBrand href="/">
-          <img className={styles['navbar-logo']} src={logo} alt="Logo" />
+          <img className={styles['navbar-logo']} src={logo} alt="Mike Thomas" />
         </NavbarBrand>
         <NavbarToggler onClick={() => setIsOpen(!isOpen)} />
         <Collapse isOpen={isOpen} navbar={true}>

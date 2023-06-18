@@ -30,6 +30,7 @@ import { IconName } from '@fortawesome/free-brands-svg-icons';
 import SocialLink, { SocialData } from './SocialLink';
 
 import socialJson from '../../data/Social.json';
+import logo from '../../img/logo-blue.png';
 import styles from './Navigation.module.scss';
 
 interface SocialItem {
@@ -56,7 +57,9 @@ export default function Navigation(props: Props) {
         />
       </a>
       <Navbar color="dark" dark={true} expand="md" fixed="top">
-        <NavbarBrand href="/">Mike Thomas</NavbarBrand>
+        <NavbarBrand href="/">
+          <img className={styles['navbar-logo']} src={logo} alt="Logo" />
+        </NavbarBrand>
         <NavbarToggler onClick={() => setIsOpen(!isOpen)} />
         <Collapse isOpen={isOpen} navbar={true}>
           <Nav className="mr-auto" navbar={true}>

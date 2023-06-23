@@ -1,7 +1,7 @@
 # Assembling the smallest Voron printer
 
 Created April 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated June 18, 2023
+Updated June 23, 2023
 
 Building the smallest of the Voron printers, the Voron Zero.
 
@@ -134,16 +134,18 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 ### Panels
 
-| Item                              | Quantity | Received | Notes                             |
-| --------------------------------- | -------- | -------- | --------------------------------- |
-| Acrylic Sheet Clear - 212x230x3mm | 2        | 2        |                                   |
-| Acrylic Sheet Clear - 212x239x3mm | 1        | 1        |                                   |
-| Upper Rear Panel 212x63x3mm       | 1        | 1        | Linneo Orange ACM                 |
-| Lower Rear Panel 212x185x3mm      | 1        | 1        | Linneo Orange ACM                 |
-| Deck Panel 3mm thick (See DXF)    | 1        | 1        | Linneo Orange ACM                 |
-| Motor Panel 3mm thick (See DXF)   | 1        |          | Not required as using Picobilical |
-| Bottom Panel 3mm thick (See DXF)  | 1        | 1        | Linneo Orange ACM                 |
-| Mid Panel 3mm thick (See DXF)     | 1        | 1        | Linneo Orange ACM                 |
+| Item                               | Quantity | Received | Notes                                 |
+| ---------------------------------- | -------- | -------- | ------------------------------------- |
+| Acrylic Sheet Clear - 212x230x3mm  | 2        | 2        | Not required as using RGB Side Panels |
+| Acrylic Sheet Clear - 212x239x3mm  | 1        | 1        | Linneo RGB Side Panel Kit             |
+| Acrylic Sheet Smoked - 168x180x3mm | 2        | 2        | Linneo RGB Side Panel Kit             |
+| RGB Side Panel PCB                 | 2        | 2        | Linneo RGB Side Panel Kit             |
+| Upper Rear Panel 212x63x3mm        | 1        | 1        | Linneo Orange ACM                     |
+| Lower Rear Panel 212x185x3mm       | 1        | 1        | Linneo Orange ACM                     |
+| Deck Panel 3mm thick (See DXF)     | 1        | 1        | Linneo Orange ACM                     |
+| Motor Panel 3mm thick (See DXF)    | 1        |          | Not required as using Picobilical     |
+| Bottom Panel 3mm thick (See DXF)   | 1        | 1        | Linneo Orange ACM                     |
+| Mid Panel 3mm thick (See DXF)      | 1        | 1        | Linneo Orange ACM                     |
 
 ### Bowden
 
@@ -163,10 +165,10 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 ### Extrusion Tophat Panels
 
-| Item                      | Quantity | Received | Notes |
-| ------------------------- | -------- | -------- | ----- |
-| Top Panel 212x212mm       | 1        | 1        |       |
-| Side Panels 212x(71-91)mm | 4        | 4        |       |
+| Item                      | Quantity | Received | Notes              |
+| ------------------------- | -------- | -------- | ------------------ |
+| Top Panel 212x212mm       | 1        | 1        | Linneo Top Hat Kit |
+| Side Panels 212x(71-91)mm | 4        | 4        | Linneo Top Hat Kit |
 
 ### Extruder
 
@@ -578,25 +580,52 @@ I will print this using the [Multi-Colour Prints with a Single Nozzle](https://d
 | [TH_Hinge_A_Bottom](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Tophat/Extrusion_Tophat_v0.2/TH_Hinge_A_Bottom_x1.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
 | [TH_Hinge_B_Bottom](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Tophat/Extrusion_Tophat_v0.2/TH_Hinge_B_Bottom_x1.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
 
-#### :negative_squared_cross_mark: Right Panel
-
-| Item                                                                                                                                         | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes |
-| -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----- |
-| [Middle_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Middle_Clip_x9.stl)                                   | 4        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
-| [Right_Bottom_Front_Hinge](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Right_Bottom_Front_Hinge_x1.stl)         | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
-| [Right_Bottom_Rear_Panel_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Right_Bottom_Rear_Panel_Clip_x1.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
-| [Right_Top_Left_Hinge](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Right_Top_Left_Hinge_x1.stl)                 | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
-| [Right_Top_Rear_Panel_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Right_Top_Rear_Panel_Clip_x1.stl)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
-
 #### :negative_squared_cross_mark: Left Panel
 
-| Item                                                                                                                                         | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes |
-| -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----- |
-| [Left_Bottom_Front_Panel_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Left_Bottom_Front_Panel_Clip_x1.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
-| [Left_Bottom_Rear_Panel_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Left_Bottom_Rear_Panel_Clip_x1.stl)   | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
-| [Left_Top_Front_Panel_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Left_Top_Front_Panel_Clip_x1.stl)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
-| [Left_Top_Rear_Panel_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Left_Top_Rear_Panel_Clip_x1.stl)         | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
-| [Middle_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Middle_Clip_x9.stl)                                   | 4        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
+| Item                                                                                                                                         | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ---------------------------------------------------------- |
+| [Left_Bottom_Front_Panel_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Left_Bottom_Front_Panel_Clip_x1.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Not Required as I plan on printing the RGB Side Panels mod |
+| [Left_Bottom_Rear_Panel_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Left_Bottom_Rear_Panel_Clip_x1.stl)   | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Not Required as I plan on printing the RGB Side Panels mod |
+| [Left_Top_Front_Panel_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Left_Top_Front_Panel_Clip_x1.stl)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Not Required as I plan on printing the RGB Side Panels mod |
+| [Left_Top_Rear_Panel_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Left_Top_Rear_Panel_Clip_x1.stl)         | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Not Required as I plan on printing the RGB Side Panels mod |
+| [Middle_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Middle_Clip_x9.stl)                                   | 4        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Not Required as I plan on printing the RGB Side Panels mod |
+
+#### :negative_squared_cross_mark: Left RGB Side Panel
+
+| Item                                                                                                                                   | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------------------------ |
+| [Panel_Clip_Middle](https://github.com/timmit99/Voron_Zero_RGB_Side_Panels/blob/main/STL's/Panel_Clip_Middle_x8.STL)                   | ~4~ 3    | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | 1 Not Required as I plan on printing the Stealth Handles mod |
+| [Panel_Clip_Corner_Bottom_A](https://github.com/timmit99/Voron_Zero_RGB_Side_Panels/blob/main/STL's/Panel_Clip_Corner_Bottom_A_x1.STL) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                              |
+| [Panel_Clip_Corner_Bottom_B](https://github.com/timmit99/Voron_Zero_RGB_Side_Panels/blob/main/STL's/Panel_Clip_Corner_Bottom_B_x2.STL) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                              |
+| [Panel_Clip_Corner_Top_A](https://github.com/timmit99/Voron_Zero_RGB_Side_Panels/blob/main/STL's/Panel_Clip_Corner_Top_A_x1.STL)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                              |
+| [Panel_Clip_Corner_Top_B](https://github.com/timmit99/Voron_Zero_RGB_Side_Panels/blob/main/STL's/Panel_Clip_Corner_Top_B_x2.STL)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                              |
+
+#### :negative_squared_cross_mark: Right Panel
+
+| Item                                                                                                                                         | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ---------------------------------------------------------- |
+| [Middle_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Middle_Clip_x9.stl)                                   | 4        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Not Required as I plan on printing the RGB Side Panels mod |
+| [Right_Bottom_Front_Hinge](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Right_Bottom_Front_Hinge_x1.stl)         | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Not Required as I plan on printing the RGB Side Panels mod |
+| [Right_Bottom_Rear_Panel_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Right_Bottom_Rear_Panel_Clip_x1.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Not Required as I plan on printing the RGB Side Panels mod |
+| [Right_Top_Left_Hinge](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Right_Top_Left_Hinge_x1.stl)                 | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Not Required as I plan on printing the RGB Side Panels mod |
+| [Right_Top_Rear_Panel_Clip](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Panel_Mounting/Right_Top_Rear_Panel_Clip_x1.stl)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | Not Required as I plan on printing the RGB Side Panels mod |
+
+#### :negative_squared_cross_mark: Right RGB Side Panel
+
+| Item                                                                                                                                           | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------------------------ |
+| [Panel_Clip_Middle](https://github.com/timmit99/Voron_Zero_RGB_Side_Panels/blob/main/STL's/Panel_Clip_Middle_x8.STL)                           | ~4~ 3    | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | 1 Not Required as I plan on printing the Stealth Handles mod |
+| [Panel_Clip_Corner_Bottom_Hinge](https://github.com/timmit99/Voron_Zero_RGB_Side_Panels/blob/main/STL's/Panel_Clip_Corner_Bottom_Hinge_x1.STL) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                              |
+| [Panel_Clip_Corner_Bottom_B](https://github.com/timmit99/Voron_Zero_RGB_Side_Panels/blob/main/STL's/Panel_Clip_Corner_Bottom_B_x2.STL)         | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                              |
+| [Panel_Clip_Corner_Top_Hinge](https://github.com/timmit99/Voron_Zero_RGB_Side_Panels/blob/main/STL's/Panel_Clip_Corner_Top_Hinge_x1.STL)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                              |
+| [Panel_Clip_Corner_Top_B](https://github.com/timmit99/Voron_Zero_RGB_Side_Panels/blob/main/STL's/Panel_Clip_Corner_Top_B_x2.STL)               | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |                                                              |
+
+#### :negative_squared_cross_mark: Stealth Handles
+
+| Item                                                                                         | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                                                                           |
+| -------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------------------------------------------------- |
+| [handle_a](https://github.com/MapleLeafMakers/V0_Stealth_Handles/blob/main/STL/handle_a.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Maple Leaf Makers Part, may need to modify to fit RGB Side Panels mod |
+| [handle_b](https://github.com/MapleLeafMakers/V0_Stealth_Handles/blob/main/STL/handle_b.stl) | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   | This is a Maple Leaf Makers Part, may need to modify to fit RGB Side Panels mod |
 
 #### :negative_squared_cross_mark: Front Panel
 

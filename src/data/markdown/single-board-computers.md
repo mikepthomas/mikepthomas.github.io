@@ -49,13 +49,13 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 ![Raspberry Pi Zero Cluster](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/raspberry-pi-zero-cluster.jpg)
 
-| Item                       | Revision | SoC     | RAM   | Case                                                                    | Storage                 | OS                          | hostname | Notes                                          |
-| -------------------------- | -------- | ------- | ----- | ----------------------------------------------------------------------- | ----------------------- | --------------------------- | -------- | ---------------------------------------------- |
-| Raspberry Pi Zero V1.2     | 900092   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p1       | No Storage as it boots via USBBoot from `cnat` |
-| Raspberry Pi Zero V1.3     | 900093   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p2       | No Storage as it boots via USBBoot from `cnat` |
-| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p3       | No Storage as it boots via USBBoot from `cnat` |
-| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p4       | No Storage as it boots via USBBoot from `cnat` |
-| Raspberry Pi Zero 2 W V1.0 | 902120   | BCM2837 | 512MB | Voron DIN Clip                                                          | 16GB MicroSD (Integral) | Raspberry Pi OS             | rook     | Klipper installed via Kiauh                    |
+| Item                       | Revision | SoC     | RAM   | Case                                                                    | Storage                 | OS                                                                        | hostname | Notes                                          |
+| -------------------------- | -------- | ------- | ----- | ----------------------------------------------------------------------- | ----------------------- | ------------------------------------------------------------------------- | -------- | ---------------------------------------------- |
+| Raspberry Pi Zero V1.2     | 900092   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | [Raspberry Pi OS ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p1       | No Storage as it boots via USBBoot from `cnat` |
+| Raspberry Pi Zero V1.3     | 900093   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | [Raspberry Pi OS ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p2       | No Storage as it boots via USBBoot from `cnat` |
+| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | [Raspberry Pi OS ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p3       | No Storage as it boots via USBBoot from `cnat` |
+| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | [Raspberry Pi OS ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p4       | No Storage as it boots via USBBoot from `cnat` |
+| Raspberry Pi Zero 2 W V1.0 | 902120   | BCM2837 | 512MB | Voron DIN Clip                                                          | 16GB MicroSD (Integral) | Raspberry Pi OS                                                           | rook     | Klipper installed via Kiauh                    |
 
 ## Raspberry Pi 1
 
@@ -78,40 +78,40 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 ![Raspberry Pi 2 Cluster](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/raspberry-pi-2-cluster.jpg)
 
-| Item                        | Revision | SoC     | RAM | Case         | Storage                      | OS                       | Hostname | Notes                                                             |
-| --------------------------- | -------- | ------- | --- | ------------ | ---------------------------- | ------------------------ | -------- | ----------------------------------------------------------------- |
-| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | red      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | green    | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | blue     | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | black    | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 2 Model B V1.2 | a02042   | BCM2837 | 1GB | Flirc        | 8GB MicroSD (Generic)        | PiAware 8.1              | piaware  | Boxed With FlightAware Pro Stick Plus                             |
+| Item                        | Revision | SoC     | RAM | Case         | Storage                      | OS                                                   | Hostname | Notes                                                             |
+| --------------------------- | -------- | ------- | --- | ------------ | ---------------------------- | ---------------------------------------------------- | -------- | ----------------------------------------------------------------- |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | red      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | green    | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | blue     | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | black    | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
+| Raspberry Pi 2 Model B V1.2 | a02042   | BCM2837 | 1GB | Flirc        | 8GB MicroSD (Generic)        | [PiAware 8.1](https://flightaware.com/adsb/piaware/) | piaware  | Boxed With FlightAware Pro Stick Plus                             |
 
 ## Raspberry Pi 3
 
 ![Raspberry Pi 3 Cluster](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/raspberry-pi-3-cluster.jpg)
 
-| Item                         | Revision | SoC     | RAM   | Case                            | Storage                      | OS              | Hostname    | Notes                     |
-| ---------------------------- | -------- | ------- | ----- | ------------------------------- | ---------------------------- | --------------- | ----------- | ------------------------- |
-| Raspberry Pi 3 Model A+ V1.0 | 9020e0   | BCM2837 | 512MB | Official Raspberry Pi 3 A+ Case | 16GB MicroSD (Generic)       | MainsailOS      | am8         | Boxed                     |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS | node1       | Broken Wifi and Bluetooth |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS | node2       |                           |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS | node3       |                           |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS | node4       |                           |
-| Raspberry Pi 3 Model B V1.2  | a22082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS | node5       |                           |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Official Raspberry Pi 3 Case    | 16GB MicroSD (Sandisk Edge)  | Raspberry Pi OS | pi3desktop  |                           |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag NESPi Case+           | 64GB MicroSD (Integral)      | RetroPie        | nespi       |                           |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag SuperPi Case          | 64GB MicroSD (Integral)      | RetroPie        | superpi     |                           |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Waveshare Touch Screen Case     | 64GB MicroSD (Sandisk Ultra) | Raspberry Pi OS | raspberrypi |                           |
+| Item                         | Revision | SoC     | RAM   | Case                            | Storage                      | OS                                         | Hostname    | Notes                     |
+| ---------------------------- | -------- | ------- | ----- | ------------------------------- | ---------------------------- | ------------------------------------------ | ----------- | ------------------------- |
+| Raspberry Pi 3 Model A+ V1.0 | 9020e0   | BCM2837 | 512MB | Official Raspberry Pi 3 A+ Case | 16GB MicroSD (Generic)       | [MainsailOS](https://docs-os.mainsail.xyz) | am8         | Boxed                     |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node1       | Broken Wifi and Bluetooth |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node2       |                           |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node3       |                           |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node4       |                           |
+| Raspberry Pi 3 Model B V1.2  | a22082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node5       |                           |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Official Raspberry Pi 3 Case    | 16GB MicroSD (Sandisk Edge)  | Raspberry Pi OS                            | pi3desktop  |                           |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag NESPi Case+           | 64GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | nespi       |                           |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag SuperPi Case          | 64GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | superpi     |                           |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Waveshare Touch Screen Case     | 64GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | raspberrypi |                           |
 
 ## Raspberry Pi 4
 
-| Item                        | Revision | SoC     | RAM | Case                                                                    | Storage                     | OS                          | Hostname   | Notes                                                                   |
-| --------------------------- | -------- | ------- | --- | ----------------------------------------------------------------------- | --------------------------- | --------------------------- | ---------- | ----------------------------------------------------------------------- |
-| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | [Voron 0.2](printer-voron-0.2.md)                                       | 16GB MicroSD (Integral)     | MainsailOS                  | voron0     | Boxed (Unopened)                                                        |
-| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | [Voron 1.8](printer-voron-1.8.md)                                       | 16GB MicroSD (Integral)     | MainsailOS                  | voron1     | Boxed (Unopened)                                                        |
-| Raspberry Pi 4 Model B V1.4 | c03114   | BCM2711 | 4GB | Official Raspberry Pi 4 Case                                            | 16GB MicroSD (Sandisk Edge) | Raspberry Pi OS             | pi4desktop | Boxed Desktop Kit                                                       |
-| Raspberry Pi 4 Model B V1.5 | c03115   | BCM2711 | 4GB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) | 128GB MicroSD (Integral)    | Raspberry Pi OS ClusterCTRL | cnat       | With [Cluster Hat v2.5](https://thepihut.com/products/cluster-hat-v2-0) |
-| Raspberry Pi 400 V1.0       | c03130   | BCM2711 | 4GB |                                                                         | 128GB MicroSD (Integral)    | Ubuntu Desktop 22.04.2 LTS  | pi400      | Boxed                                                                   |
+| Item                        | Revision | SoC     | RAM | Case                                                                    | Storage                     | OS                                                                        | Hostname   | Notes                                                                   |
+| --------------------------- | -------- | ------- | --- | ----------------------------------------------------------------------- | --------------------------- | ------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------------- |
+| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | [Voron 0.2](printer-voron-0.2.md)                                       | 16GB MicroSD (Integral)     | [MainsailOS](https://docs-os.mainsail.xyz)                                | voron0     | Boxed (Unopened)                                                        |
+| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | [Voron 1.8](printer-voron-1.8.md)                                       | 16GB MicroSD (Integral)     | [MainsailOS](https://docs-os.mainsail.xyz)                                | voron1     | Boxed (Unopened)                                                        |
+| Raspberry Pi 4 Model B V1.4 | c03114   | BCM2711 | 4GB | Official Raspberry Pi 4 Case                                            | 16GB MicroSD (Sandisk Edge) | Raspberry Pi OS                                                           | pi4desktop | Boxed Desktop Kit                                                       |
+| Raspberry Pi 4 Model B V1.5 | c03115   | BCM2711 | 4GB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) | 128GB MicroSD (Integral)    | [Raspberry Pi OS ClusterCTRL](https://github.com/burtyb/clusterhat-image) | cnat       | With [Cluster Hat v2.5](https://thepihut.com/products/cluster-hat-v2-0) |
+| Raspberry Pi 400 V1.0       | c03130   | BCM2711 | 4GB |                                                                         | 128GB MicroSD (Integral)    | Ubuntu Desktop 22.04.2 LTS                                                | pi400      | Boxed                                                                   |
 
 ## Raspberry Pi Pico
 

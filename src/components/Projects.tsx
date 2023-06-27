@@ -91,11 +91,11 @@ const Projects = (props: Props) => {
           <div className="position-sticky">
             <div className="p-4 mb-3 bg-light rounded">
               <p>
-                Here you can find information about a few projects I am
-                currently working on and others that I have planned over the
-                next few <del>months</del> <del>years</del> decades...
+                Some information about projects I am working on and I have
+                planned over the next few <del>months</del> <del>years</del>{' '}
+                decades...
               </p>
-              <ol className="list-unstyled">
+              <ul>
                 <li>
                   <Link to="/projects/printer">Anet A8</Link>
                   <ul>
@@ -123,6 +123,11 @@ const Projects = (props: Props) => {
                   </ul>
                 </li>
                 <li>
+                  <Link to="/projects/printer-hypercube">
+                    Hypercube CoreXY Upgrade Abandoned⁉️
+                  </Link>
+                </li>
+                <li>
                   <Link to="/projects/printer-rook">Rook 2020</Link>
                 </li>
                 <li>
@@ -146,11 +151,6 @@ const Projects = (props: Props) => {
                 <li>
                   <Link to="/projects/printer-extruders-and-toolheads">
                     Extruders &amp; Toolheads
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/projects/printer-klipper-fan-hat">
-                    Klipper Fan Hat
                   </Link>
                 </li>
                 <li>
@@ -185,16 +185,21 @@ const Projects = (props: Props) => {
                   </Link>
                 </li>
                 <li>
-                  Abandoned Projects
-                  <ul>
-                    <li>
-                      <Link to="/projects/printer-hypercube">
-                        Hypercube CoreXY Upgrade
-                      </Link>
-                    </li>
-                  </ul>
+                  <Link to="/projects/printer-klipper-fan-hat">
+                    Klipper Fan Hat
+                  </Link>
                 </li>
-              </ol>
+                <li>
+                  <Link to="/projects/solar-wifi-weather-station">
+                    Solar Wifi Weather Station
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/projects/single-board-computers">
+                    Single Board Computers
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </Col>

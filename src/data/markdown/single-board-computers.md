@@ -71,8 +71,8 @@ This page lists all of the single board computers I own and is mainly for me to 
 | Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `black`    |                          |          | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 | Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB |                                    |                        |                          |          | Broken SD Slot                                                               |
 | Raspberry Pi Model A+ V1.1 | 0015     | BCM2835 | 256MB | ModMyPi VESA-Pi+ Model A+ Case     |                        |                          |          |                                                                              |
-| Raspberry Pi Model B+ V1.2 | 0010     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | 8GB MicroSD (Sandisk)  | Raspberry Pi OS (Legacy) | Orange   | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
-| Raspberry Pi Model B+ V1.2 | 0013     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | 8GB MicroSD (Sandisk)  | Raspberry Pi OS (Legacy) | Purple   | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
+| Raspberry Pi Model B+ V1.2 | 0010     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | 8GB MicroSD (Sandisk)  | Raspberry Pi OS (Legacy) | orange   | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
+| Raspberry Pi Model B+ V1.2 | 0013     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | 8GB MicroSD (Sandisk)  | Raspberry Pi OS (Legacy) | purple   | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 
 ## Raspberry Pi 2
 

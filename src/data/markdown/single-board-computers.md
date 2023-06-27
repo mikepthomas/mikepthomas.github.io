@@ -5,6 +5,8 @@ Updated June 27, 2023
 
 This page lists all of the single board computers I own and is mainly for me to keep track of what I have and what I am currently using it for.
 
+![Raspberry Pi Hero](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/raspberry-pi-hero.jpg)
+
 ---
 
 ## Table of contents
@@ -21,6 +23,8 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 ## Arduino
 
+![Arduino Robot](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/arduino-robot.jpg)
+
 | Item                                                                              | Case            | Flashed with     | Notes                                                                                   |
 | --------------------------------------------------------------------------------- | --------------- | ---------------- | --------------------------------------------------------------------------------------- |
 | [Arduino Duemilanove](https://docs.arduino.cc/retired/boards/arduino-duemilanove) | Tracked Robot   | Blink Sketch     | With [Arduino XBee Shield](https://docs.arduino.cc/retired/shields/arduino-xbee-shield) |
@@ -33,6 +37,8 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 ## Odroid
 
+![Odroid CloudShell 2](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/odroid-cloudshell2.jpg)
+
 | Item                                                        | Case                                                                                            | Storage   | OS           | Hostname | Notes                                                                                                                                                                |
 | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --------- | ------------ | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Odroid C2](https://wiki.odroid.com/odroid-c2/odroid-c2)    |                                                                                                 |           |              |          | With [Odroid UPS3](https://wiki.odroid.com/accessory/power_supply_battery/odroid-ups3) + [Odroid USB Wifi adapter](https://www.hardkernel.com/shop/wifi-module-5bk/) |
@@ -40,6 +46,8 @@ This page lists all of the single board computers I own and is mainly for me to 
 | [Odroid XU4](https://wiki.odroid.com/odroid-xu4/odroid-xu4) | [CloudShell 2](https://wiki.odroid.com/accessory/add-on_boards/xu4_cloudshell2/xu4_cloudshell2) | 32GB eMMC | Ubuntu 22.04 | odroid   | With 2 x 3TB Hard Drives in RAID 1                                                                                                                                   |
 
 ## Raspberry Pi Zero
+
+![Raspberry Pi Zero Cluster](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/raspberry-pi-zero-cluster.jpg)
 
 | Item                       | Revision | SoC     | RAM   | Case                                                                    | Storage                 | OS                          | hostname | Notes                                          |
 | -------------------------- | -------- | ------- | ----- | ----------------------------------------------------------------------- | ----------------------- | --------------------------- | -------- | ---------------------------------------------- |
@@ -68,6 +76,8 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 ## Raspberry Pi 2
 
+![Raspberry Pi 2 Cluster](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/raspberry-pi-2-cluster.jpg)
+
 | Item                        | Revision | SoC     | RAM | Case         | Storage                | OS                       | Hostname | Notes                                                             |
 | --------------------------- | -------- | ------- | --- | ------------ | ---------------------- | ------------------------ | -------- | ----------------------------------------------------------------- |
 | Raspberry Pi 2 Model B V1.1 |          |         |     | Cluster Case | 16GB MicroSD (Sandisk) | Raspberry Pi OS (Legacy) | red      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
@@ -77,6 +87,8 @@ This page lists all of the single board computers I own and is mainly for me to 
 | Raspberry Pi 2 Model B V1.2 | a02042   | BCM2837 | 1GB | Flirc        | Generic 8GB MicroSD    | PiAware 8.1              | piaware  | With FlightAware Pro Stick Plus                                   |
 
 ## Raspberry Pi 3
+
+![Raspberry Pi 3 Cluster](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/raspberry-pi-3-cluster.jpg)
 
 | Item                         | Revision | SoC     | RAM   | Case                            | Storage                | OS              | Hostname    | Notes                     |
 | ---------------------------- | -------- | ------- | ----- | ------------------------------- | ---------------------- | --------------- | ----------- | ------------------------- |
@@ -115,6 +127,8 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 ## Teensy
 
-| Item       | Case            | Flashed with    | Notes                         |
-| ---------- | --------------- | --------------- | ----------------------------- |
-| Teensy 4.0 | Retro Telephone | Audio Guestbook | With Audio Board for Teensy 4 |
+![Teensy Audio Guestbook](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/teensy-audio-guestbook.jpg)
+
+| Item       | Case            | Flashed with                                                            | Notes                         |
+| ---------- | --------------- | ----------------------------------------------------------------------- | ----------------------------- |
+| Teensy 4.0 | Retro Telephone | [Audio Guestbook](https://github.com/playfultechnology/audio-guestbook) | With Audio Board for Teensy 4 |

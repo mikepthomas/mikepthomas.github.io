@@ -90,18 +90,18 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 ![Raspberry Pi 3 Cluster](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/raspberry-pi-3-cluster.jpg)
 
-| Item                         | Revision | SoC     | RAM   | Case                            | Storage                      | OS                                         | Hostname    | Notes                     |
-| ---------------------------- | -------- | ------- | ----- | ------------------------------- | ---------------------------- | ------------------------------------------ | ----------- | ------------------------- |
-| Raspberry Pi 3 Model A+ V1.0 | 9020e0   | BCM2837 | 512MB | Official Raspberry Pi 3 A+ Case | 16GB MicroSD (Generic)       | [MainsailOS](https://docs-os.mainsail.xyz) | am8         | Boxed                     |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node1       | Broken Wifi and Bluetooth |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node2       |                           |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node3       |                           |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node4       |                           |
-| Raspberry Pi 3 Model B V1.2  | a22082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node5       |                           |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Official Raspberry Pi 3 Case    | 16GB MicroSD (Sandisk Edge)  | Raspberry Pi OS                            | pi3desktop  |                           |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag NESPi Case+           | 64GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | nespi       |                           |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag SuperPi Case          | 64GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | superpi     |                           |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Waveshare Touch Screen Case     | 64GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | raspberrypi |                           |
+| Item                         | Revision | SoC     | RAM   | Case                            | Storage                      | OS                                         | Hostname   | Notes                     |
+| ---------------------------- | -------- | ------- | ----- | ------------------------------- | ---------------------------- | ------------------------------------------ | ---------- | ------------------------- |
+| Raspberry Pi 3 Model A+ V1.0 | 9020e0   | BCM2837 | 512MB | Official Raspberry Pi 3 A+ Case | 16GB MicroSD (Generic)       | [MainsailOS](https://docs-os.mainsail.xyz) | am8        | Boxed                     |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node1      | Broken Wifi and Bluetooth |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node2      |                           |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node3      |                           |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node4      |                           |
+| Raspberry Pi 3 Model B V1.2  | a22082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | node5      |                           |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Waveshare Touch Screen Case     | 64GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | controller |                           |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Official Raspberry Pi 3 Case    | 16GB MicroSD (Sandisk Edge)  | Raspberry Pi OS                            | pi3desktop |                           |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag NESPi Case+           | 64GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | nespi      |                           |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag SuperPi Case          | 64GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | superpi    |                           |
 
 ## Raspberry Pi 4
 

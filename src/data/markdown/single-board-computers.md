@@ -12,14 +12,15 @@ This page lists all of the single board computers I own and is mainly for me to 
 ## Table of contents
 
 1. [Arduino](#arduino)
-1. [Odroid](#odroid)
-1. [Raspberry Pi Zero](#raspberry-pi-zero)
-1. [Raspberry Pi 1](#raspberry-pi-1)
-1. [Raspberry Pi 2](#raspberry-pi-2)
-1. [Raspberry Pi 3](#raspberry-pi-3)
-1. [Raspberry Pi 4](#raspberry-pi-4)
-1. [Raspberry Pi Pico](#raspberry-pi-pico)
-1. [Teensy](#teensy)
+2. [Next Thing Co](#next-thing-co)
+3. [Odroid](#odroid)
+4. [Raspberry Pi Zero](#raspberry-pi-zero)
+5. [Raspberry Pi 1](#raspberry-pi-1)
+6. [Raspberry Pi 2](#raspberry-pi-2)
+7. [Raspberry Pi 3](#raspberry-pi-3)
+8. [Raspberry Pi 4](#raspberry-pi-4)
+9. [Raspberry Pi Pico](#raspberry-pi-pico)
+10. [Teensy](#teensy)
 
 ## Arduino
 
@@ -35,9 +36,21 @@ This page lists all of the single board computers I own and is mainly for me to 
 | [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       |                 | Blink Sketch                                  | Boxed                                                                                   |
 | [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       |                 | Blink Sketch                                  | Boxed                                                                                   |
 
+## Next Thing Co
+
+Dubbed as "The World's First Nine Dollar Computer" I purchased a CHIP in about November 2016 as a toy to play about with however I hardly used it and eventually the company Next Thing Co. entered insolvency it quickly became unsupported.
+
+However mine still works albeit on a very old operating system version.
+
+| Item                                               | Case          | Flashed with                                              | Notes                |
+| -------------------------------------------------- | ------------- | --------------------------------------------------------- | -------------------- |
+| [CHIP](https://docs.getchip.cc/chip#chip-hardware) | C.H.I.P. Case | [The CHIP Operating System](https://docs.getchip.cc/chip) | With Composite Cable |
+
 ## Odroid
 
 ![Odroid CloudShell 2](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/odroid-cloudshell2.jpg)
+
+I purchased the Odroid XU4 and CloudShell enclosure to use as a Network Attached Storage (NAS) server to replace an old outdated and failing 1TB Western Digital MyBook World edition NAS.
 
 | Item                                                        | Case                                                                                            | Storage                             | OS           | Hostname   | Notes                                                                                                                                                                |
 | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------- | ------------ | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -48,6 +61,10 @@ This page lists all of the single board computers I own and is mainly for me to 
 ## Raspberry Pi Zero
 
 ![Raspberry Pi Zero Cluster](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/raspberry-pi-zero-cluster.jpg)
+
+My Raspberry Pi Zero cluster was assembled using a 8086 Cluster Hat that is quite cool due to it using USB gadget mode of the Raspberry Pi Zero to boot up the Raspberry Pis over USB therefore they do not require their own MicroSD cards and can share the storage of the controller Pi.
+
+I plan on replacing all the Raspberry Pi Zeros in the cluster with Raspberry Pi Zero 2Ws, which I ordered on Oct 15, 2022... but due to the current Raspberry Pi shortage they have yet to arrive.
 
 | Item                       | Revision | SoC     | RAM   | Case                                                                    | Storage                 | OS                                                                        | hostname | Notes                                          |
 | -------------------------- | -------- | ------- | ----- | ----------------------------------------------------------------------- | ----------------------- | ------------------------------------------------------------------------- | -------- | ---------------------------------------------- |
@@ -78,6 +95,12 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 ![Raspberry Pi 2 Cluster](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/raspberry-pi-2-cluster.jpg)
 
+I got this case from eBay, it was not in the best shape, very dusty and scratched, it cost me £68.55 but it did contain 3 Raspberry Pi 3s (including one with broken Wifi and Bluetooth) and a few Micro USB Chargers Ethernet cables, and a network switch.
+
+I cleaned it up with some isopropyl alcohol and re-assembled it with some new screws as some of them were quite rusted and decided to use it for my Raspberry Pi 2s as they do not have wifi and the case holds a switch at the bottom perfectly.
+
+The cluster was set up to learn [Ansible](https://www.ansible.com) as the Raspberry Pi 2s were a little too slow to run Docker or Kubernetes.
+
 | Item                        | Revision | SoC     | RAM | Case         | Storage                      | OS                                                   | Hostname | Notes                                                             |
 | --------------------------- | -------- | ------- | --- | ------------ | ---------------------------- | ---------------------------------------------------- | -------- | ----------------------------------------------------------------- |
 | Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | red      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
@@ -89,6 +112,10 @@ This page lists all of the single board computers I own and is mainly for me to 
 ## Raspberry Pi 3
 
 ![Raspberry Pi 3 Cluster](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/raspberry-pi-3-cluster.jpg)
+
+This was my original Raspberry Pi cluster, It was originally 4 layers however I managed to find a case that fit perfectly to add an additional layer. If you look hard enough, you will see that the fan of the bottom layer is in a slightly different place and the standoffs are slightly shorter.
+
+I assembled this cluster to learn all about Containerization using [Docker Swarm mode](https://docs.docker.com/engine/swarm) and eventually, Kubernetes using [MicroK8s](https://microk8s.io/), however the Raspberry Pi 3s are a little too slow to fully run a K8s cluster with more than a handful of containers.
 
 | Item                         | Revision | SoC     | RAM   | Case                            | Storage                      | OS                                         | Hostname   | Notes                     |
 | ---------------------------- | -------- | ------- | ----- | ------------------------------- | ---------------------------- | ------------------------------------------ | ---------- | ------------------------- |

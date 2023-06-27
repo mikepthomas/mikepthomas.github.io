@@ -25,15 +25,15 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 ![Arduino Robot](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/arduino-robot.jpg)
 
-| Item                                                                              | Case            | Flashed with     | Notes                                                                                   |
-| --------------------------------------------------------------------------------- | --------------- | ---------------- | --------------------------------------------------------------------------------------- |
-| [Arduino Duemilanove](https://docs.arduino.cc/retired/boards/arduino-duemilanove) | Tracked Robot   | Blink Sketch     | With [Arduino XBee Shield](https://docs.arduino.cc/retired/shields/arduino-xbee-shield) |
-| Arduino Mega 2560 Clone                                                           |                 | Klipper Firmware | With [RAMPS 1.6](https://reprap.org/wiki/RAMPS_1.6) + DRV8825 x 5                       |
-| Arduino Uno Clone                                                                 |                 | Klipper Firmware | With CNC Shield 3.0 + A4988 x 4                                                         |
-| Arduino Uno                                                                       |                 | Blink Sketch     |                                                                                         |
-| Arduino Uno R2                                                                    | Breadboard Case | Blink Sketch     |                                                                                         |
-| [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       |                 | Blink Sketch     | Boxed                                                                                   |
-| [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       |                 | Blink Sketch     | Boxed                                                                                   |
+| Item                                                                              | Case            | Flashed with                                  | Notes                                                                                   |
+| --------------------------------------------------------------------------------- | --------------- | --------------------------------------------- | --------------------------------------------------------------------------------------- |
+| [Arduino Duemilanove](https://docs.arduino.cc/retired/boards/arduino-duemilanove) | Tracked Robot   | Blink Sketch                                  | With [Arduino XBee Shield](https://docs.arduino.cc/retired/shields/arduino-xbee-shield) |
+| Arduino Mega 2560 Clone                                                           |                 | [Klipper Firmware](https://www.klipper3d.org) | With [RAMPS 1.6](https://reprap.org/wiki/RAMPS_1.6) + DRV8825 x 5                       |
+| Arduino Uno Clone                                                                 |                 | [Klipper Firmware](https://www.klipper3d.org) | With CNC Shield 3.0 + A4988 x 4                                                         |
+| Arduino Uno                                                                       |                 | Blink Sketch                                  |                                                                                         |
+| Arduino Uno R2                                                                    | Breadboard Case | Blink Sketch                                  |                                                                                         |
+| [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       |                 | Blink Sketch                                  | Boxed                                                                                   |
+| [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       |                 | Blink Sketch                                  | Boxed                                                                                   |
 
 ## Odroid
 
@@ -51,10 +51,10 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 | Item                       | Revision | SoC     | RAM   | Case                                                                    | Storage                 | OS                          | hostname | Notes                                          |
 | -------------------------- | -------- | ------- | ----- | ----------------------------------------------------------------------- | ----------------------- | --------------------------- | -------- | ---------------------------------------------- |
-| Raspberry Pi Zero V1.2     |          |         |       | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p1       | No Storage as it boots via USBBoot from `cnat` |
-| Raspberry Pi Zero V1.3     |          |         |       | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p2       | No Storage as it boots via USBBoot from `cnat` |
-| Raspberry Pi Zero W V1.1   |          |         |       | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p3       | No Storage as it boots via USBBoot from `cnat` |
-| Raspberry Pi Zero W V1.1   |          |         |       | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p4       | No Storage as it boots via USBBoot from `cnat` |
+| Raspberry Pi Zero V1.2     | 900092   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p1       | No Storage as it boots via USBBoot from `cnat` |
+| Raspberry Pi Zero V1.3     | 900093   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p2       | No Storage as it boots via USBBoot from `cnat` |
+| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p3       | No Storage as it boots via USBBoot from `cnat` |
+| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p4       | No Storage as it boots via USBBoot from `cnat` |
 | Raspberry Pi Zero 2 W V1.0 | 902120   | BCM2837 | 512MB | Voron DIN Clip                                                          | 16GB MicroSD (Integral) | Raspberry Pi OS             | voron    | Klipper installed via Kiauh                    |
 
 ## Raspberry Pi 1
@@ -80,50 +80,50 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 | Item                        | Revision | SoC     | RAM | Case         | Storage                | OS                       | Hostname | Notes                                                             |
 | --------------------------- | -------- | ------- | --- | ------------ | ---------------------- | ------------------------ | -------- | ----------------------------------------------------------------- |
-| Raspberry Pi 2 Model B V1.1 |          |         |     | Cluster Case | 16GB MicroSD (Sandisk) | Raspberry Pi OS (Legacy) | red      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 2 Model B V1.1 |          |         |     | Cluster Case | 16GB MicroSD (Sandisk) | Raspberry Pi OS (Legacy) | green    | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 2 Model B V1.1 |          |         |     | Cluster Case | 16GB MicroSD (Sandisk) | Raspberry Pi OS (Legacy) | blue     | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 2 Model B V1.1 |          |         |     | Cluster Case | 16GB MicroSD (Sandisk) | Raspberry Pi OS (Legacy) | black    | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk) | Raspberry Pi OS (Legacy) | red      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk) | Raspberry Pi OS (Legacy) | green    | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk) | Raspberry Pi OS (Legacy) | blue     | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk) | Raspberry Pi OS (Legacy) | black    | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
 | Raspberry Pi 2 Model B V1.2 | a02042   | BCM2837 | 1GB | Flirc        | Generic 8GB MicroSD    | PiAware 8.1              | piaware  | With FlightAware Pro Stick Plus                                   |
 
 ## Raspberry Pi 3
 
 ![Raspberry Pi 3 Cluster](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/raspberry-pi-3-cluster.jpg)
 
-| Item                         | Revision | SoC     | RAM   | Case                            | Storage                | OS              | Hostname    | Notes                     |
-| ---------------------------- | -------- | ------- | ----- | ------------------------------- | ---------------------- | --------------- | ----------- | ------------------------- |
-| Raspberry Pi 3 Model A+ V1.0 | 9020e0   | BCM2837 | 512MB | Official Raspberry Pi 3 A+ Case |                        |                 |             | Boxed                     |
-| Raspberry Pi 3 Model B V1.2  |          |         |       | Cluster Case                    | 32GB MicroSD (Sandisk) | Raspberry Pi OS | node1       | Broken Wifi and Bluetooth |
-| Raspberry Pi 3 Model B V1.2  |          |         |       | Cluster Case                    | 32GB MicroSD (Sandisk) | Raspberry Pi OS | node2       |                           |
-| Raspberry Pi 3 Model B V1.2  |          |         |       | Cluster Case                    | 32GB MicroSD (Sandisk) | Raspberry Pi OS | node3       |                           |
-| Raspberry Pi 3 Model B V1.2  |          |         |       | Cluster Case                    | 32GB MicroSD (Sandisk) | Raspberry Pi OS | node4       |                           |
-| Raspberry Pi 3 Model B V1.2  |          |         |       | Cluster Case                    | 32GB MicroSD (Sandisk) | Raspberry Pi OS | node5       |                           |
-| Raspberry Pi 3 Model B+ V1.3 |          |         |       | Official Raspberry Pi 3 Case    |                        |                 |             |                           |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag NESPi Case+           |                        |                 |             |                           |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag SuperPi Case          |                        |                 |             |                           |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Waveshare Touch Screen Case     | 64GB MicroSD (Sandisk) | Raspberry Pi OS | raspberrypi |                           |
+| Item                         | Revision | SoC     | RAM   | Case                            | Storage                 | OS              | Hostname    | Notes                     |
+| ---------------------------- | -------- | ------- | ----- | ------------------------------- | ----------------------- | --------------- | ----------- | ------------------------- |
+| Raspberry Pi 3 Model A+ V1.0 | 9020e0   | BCM2837 | 512MB | Official Raspberry Pi 3 A+ Case |                         |                 |             | Boxed                     |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk)  | Raspberry Pi OS | node1       | Broken Wifi and Bluetooth |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk)  | Raspberry Pi OS | node2       |                           |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk)  | Raspberry Pi OS | node3       |                           |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk)  | Raspberry Pi OS | node4       |                           |
+| Raspberry Pi 3 Model B V1.2  | a22082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk)  | Raspberry Pi OS | node5       |                           |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Official Raspberry Pi 3 Case    |                         |                 |             |                           |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag NESPi Case+           | 32GB MicroSD (Integral) | RetroPie        | nespi       |                           |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag SuperPi Case          | 32GB MicroSD (Integral) | RetroPie        | superpi     |                           |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Waveshare Touch Screen Case     | 64GB MicroSD (Sandisk)  | Raspberry Pi OS | raspberrypi |                           |
 
 ## Raspberry Pi 4
 
-| Item                   | Revision | SoC | RAM | Case                                                                    | Storage                  | OS                          | Hostname | Notes                                                                   |
-| ---------------------- | -------- | --- | --- | ----------------------------------------------------------------------- | ------------------------ | --------------------------- | -------- | ----------------------------------------------------------------------- |
-| Raspberry Pi 4 Model B |          |     | 4GB |                                                                         |                          |                             |          | Boxed                                                                   |
-| Raspberry Pi 4 Model B |          |     | 4GB |                                                                         |                          |                             |          | Boxed                                                                   |
-| Raspberry Pi 4 Model B |          |     | 4GB | Official Raspberry Pi 4 Case                                            |                          |                             |          | Boxed                                                                   |
-| Raspberry Pi 4 Model B |          |     | 4GB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) | 128GB MicroSD (Integral) | Raspberry Pi OS ClusterCTRL | cnat     | With [Cluster Hat v2.5](https://thepihut.com/products/cluster-hat-v2-0) |
-| Raspberry Pi 400       |          |     | 4GB |                                                                         | 128GB MicroSD (Integral) | Ubuntu Desktop 22.04.2 LTS  | pi400    |                                                                         |
+| Item                        | Revision | SoC     | RAM | Case                                                                    | Storage                  | OS                          | Hostname | Notes                                                                   |
+| --------------------------- | -------- | ------- | --- | ----------------------------------------------------------------------- | ------------------------ | --------------------------- | -------- | ----------------------------------------------------------------------- |
+| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB |                                                                         | 64GB MicroSD (Integral)  | MainsailOS                  | voron0   | Boxed (Unopened) for [Voron 0.2](printer-voron-0.2.md)                  |
+| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB |                                                                         | 64GB MicroSD (Integral)  | MainsailOS                  | voron1   | Boxed (Unopened) for [Voron 1.8](printer-voron-1.8.md)                  |
+| Raspberry Pi 4 Model B V1.4 | c03114   | BCM2711 | 4GB | Official Raspberry Pi 4 Case                                            |                          |                             |          | Boxed Desktop Kit                                                       |
+| Raspberry Pi 4 Model B V1.5 | c03115   | BCM2711 | 4GB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) | 128GB MicroSD (Integral) | Raspberry Pi OS ClusterCTRL | cnat     | With [Cluster Hat v2.5](https://thepihut.com/products/cluster-hat-v2-0) |
+| Raspberry Pi 400 V1.0       | c03130   | BCM2711 | 4GB |                                                                         | 128GB MicroSD (Integral) | Ubuntu Desktop 22.04.2 LTS  | pi400    | Boxed                                                                   |
 
 ## Raspberry Pi Pico
 
-| Item                                | Case      | Flashed with     | Notes     |
-| ----------------------------------- | --------- | ---------------- | --------- |
-| Bigtreetech SKR Pico                | Rook 2020 | Klipper Firmware |           |
-| Bigtreetech SKR Pico                | Voron 0.2 | Klipper Firmware |           |
-| Raspberry Pi Pico                   |           | MicroPython      |           |
-| Raspberry Pi Pico H                 |           | MicroPython      |           |
-| Raspberry Pi Pico W                 |           | MicroPython      |           |
-| Raspberry Pi Pico WH                |           | MicroPython      |           |
-| Raspberry Pi RP2040 Microcontroller |           |                  | Bare Chip |
+| Item                                | Case                              | Flashed with                                  | Notes     |
+| ----------------------------------- | --------------------------------- | --------------------------------------------- | --------- |
+| Bigtreetech SKR Pico                | [Rook 2020](printer-rook-2020.md) | [Klipper Firmware](https://www.klipper3d.org) |           |
+| Bigtreetech SKR Pico                | [Voron 0.2](printer-voron-0.2.md) | [Klipper Firmware](https://www.klipper3d.org) |           |
+| Raspberry Pi Pico                   |                                   | [MicroPython](https://micropython.org)        |           |
+| Raspberry Pi Pico H                 |                                   | [MicroPython](https://micropython.org)        |           |
+| Raspberry Pi Pico W                 |                                   | [MicroPython](https://micropython.org)        |           |
+| Raspberry Pi Pico WH                |                                   | [MicroPython](https://micropython.org)        |           |
+| Raspberry Pi RP2040 Microcontroller |                                   |                                               | Bare Chip |
 
 ## Teensy
 

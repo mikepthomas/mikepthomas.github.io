@@ -84,7 +84,7 @@ This page lists all of the single board computers I own and is mainly for me to 
 | Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | green    | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
 | Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | blue     | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
 | Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | black    | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 2 Model B V1.2 | a02042   | BCM2837 | 1GB | Flirc        | Generic 8GB MicroSD          | PiAware 8.1              | piaware  | Boxed With FlightAware Pro Stick Plus                             |
+| Raspberry Pi 2 Model B V1.2 | a02042   | BCM2837 | 1GB | Flirc        | 8GB MicroSD (Generic)        | PiAware 8.1              | piaware  | Boxed With FlightAware Pro Stick Plus                             |
 
 ## Raspberry Pi 3
 

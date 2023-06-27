@@ -55,7 +55,7 @@ This page lists all of the single board computers I own and is mainly for me to 
 | Raspberry Pi Zero V1.3     | 900093   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p2       | No Storage as it boots via USBBoot from `cnat` |
 | Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p3       | No Storage as it boots via USBBoot from `cnat` |
 | Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | Raspberry Pi OS ClusterCTRL | p4       | No Storage as it boots via USBBoot from `cnat` |
-| Raspberry Pi Zero 2 W V1.0 | 902120   | BCM2837 | 512MB | Voron DIN Clip                                                          | 16GB MicroSD (Integral) | Raspberry Pi OS             | voron    | Klipper installed via Kiauh                    |
+| Raspberry Pi Zero 2 W V1.0 | 902120   | BCM2837 | 512MB | Voron DIN Clip                                                          | 16GB MicroSD (Integral) | Raspberry Pi OS             | rook     | Klipper installed via Kiauh                    |
 
 ## Raspberry Pi 1
 
@@ -107,8 +107,8 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 | Item                        | Revision | SoC     | RAM | Case                                                                    | Storage                  | OS                          | Hostname | Notes                                                                   |
 | --------------------------- | -------- | ------- | --- | ----------------------------------------------------------------------- | ------------------------ | --------------------------- | -------- | ----------------------------------------------------------------------- |
-| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB |                                                                         | 64GB MicroSD (Integral)  | MainsailOS                  | voron0   | Boxed (Unopened) for [Voron 0.2](printer-voron-0.2.md)                  |
-| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB |                                                                         | 64GB MicroSD (Integral)  | MainsailOS                  | voron1   | Boxed (Unopened) for [Voron 1.8](printer-voron-1.8.md)                  |
+| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB |                                                                         | 16GB MicroSD (Integral)  | MainsailOS                  | voron0   | Boxed (Unopened) for [Voron 0.2](printer-voron-0.2.md)                  |
+| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB |                                                                         | 16GB MicroSD (Integral)  | MainsailOS                  | voron1   | Boxed (Unopened) for [Voron 1.8](printer-voron-1.8.md)                  |
 | Raspberry Pi 4 Model B V1.4 | c03114   | BCM2711 | 4GB | Official Raspberry Pi 4 Case                                            |                          |                             |          | Boxed Desktop Kit                                                       |
 | Raspberry Pi 4 Model B V1.5 | c03115   | BCM2711 | 4GB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) | 128GB MicroSD (Integral) | Raspberry Pi OS ClusterCTRL | cnat     | With [Cluster Hat v2.5](https://thepihut.com/products/cluster-hat-v2-0) |
 | Raspberry Pi 400 V1.0       | c03130   | BCM2711 | 4GB |                                                                         | 128GB MicroSD (Integral) | Ubuntu Desktop 22.04.2 LTS  | pi400    | Boxed                                                                   |

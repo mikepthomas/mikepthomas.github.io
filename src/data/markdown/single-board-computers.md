@@ -92,7 +92,7 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 | Item                         | Revision | SoC     | RAM   | Case                            | Storage                 | OS              | Hostname    | Notes                     |
 | ---------------------------- | -------- | ------- | ----- | ------------------------------- | ----------------------- | --------------- | ----------- | ------------------------- |
-| Raspberry Pi 3 Model A+ V1.0 | 9020e0   | BCM2837 | 512MB | Official Raspberry Pi 3 A+ Case |                         |                 |             | Boxed                     |
+| Raspberry Pi 3 Model A+ V1.0 | 9020e0   | BCM2837 | 512MB | Official Raspberry Pi 3 A+ Case | 16GB MicroSD (Generic)  | MainsailOS      | am8         | Boxed                     |
 | Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk)  | Raspberry Pi OS | node1       | Broken Wifi and Bluetooth |
 | Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk)  | Raspberry Pi OS | node2       |                           |
 | Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                    | 32GB MicroSD (Sandisk)  | Raspberry Pi OS | node3       |                           |

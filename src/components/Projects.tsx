@@ -185,6 +185,11 @@ const Projects = (props: Props) => {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/projects/eurorack-modular-synth">
+                    Eurorack Modular Synth
+                  </Link>
+                </li>
+                <li>
                   <Link to="/projects/printer-klipper-fan-hat">
                     Klipper Fan Hat
                   </Link>

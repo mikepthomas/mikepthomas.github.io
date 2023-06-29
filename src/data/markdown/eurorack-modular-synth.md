@@ -95,11 +95,11 @@ I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER)
 
 ### Misc
 
-| Item                | Quantity | Received | Notes |
-| ------------------- | -------- | -------- | ----- |
-| 9V Batter Connector | 2        | 1        |       |
-| 10K thermistor      | 20       |          |       |
-| Mono Audio Jack     | 30       |          |       |
+| Item                 | Quantity | Received | Notes |
+| -------------------- | -------- | -------- | ----- |
+| 9V Battery Connector | 2        | 1        |       |
+| 10K thermistor       | 20       |          |       |
+| Mono Audio Jack      | 30       |          |       |
 
 ## Printing Parts
 

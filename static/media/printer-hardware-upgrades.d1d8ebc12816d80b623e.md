@@ -1,7 +1,7 @@
 # Printer Hardware Upgrades
 
 May 12, 2021 by [Mike Thomas](https://github.com/mikepthomas),
-Updated June 18, 2023
+Updated June 29, 2023
 
 This page contains information about how I upgraded my stock Anet A8 to add various hardware mods including swapping out the control board to a BigTreeTech SKR 1.4.
 
@@ -22,6 +22,7 @@ This page contains information about how I upgraded my stock Anet A8 to add vari
 9. [Optical Endstops](#optical-endstops)
 10. [0.9 Degree Motors](#0-9-degree-motors)
 11. [Aluminium Bed Support Plate](#aluminium-bed-support-plate)
+12. [PEI Flex Plate](#pei-flex-plate)
 
 ## Wiring
 
@@ -123,3 +124,17 @@ The [plate I have purchased is from Ali Express](https://aliexpress.com/item/100
 
 I have therefore needed to design a belt clamp to affix the belt to the bed as the hole spacing is different to the stock design.
 You can download the clamp from my [3D Printing GitHub repository](https://github.com/mikepthomas/3dprinting/tree/main/Designs/Aluminium%20Bed%20Support%20Plate%20Belt%20Clamp).
+
+When trying to fit the support plate, I found out that the bearing holders actually sit about 2mm further apart than the stock 3 piece plate. Therefore I will have to wait until I upgrade to the [aluminium frame](printer-am8.md) before fitting this.
+
+## PEI Flex Plate
+
+![PEI Flex Plate](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/pei-flex-plate.jpg)
+
+When I first started printing with this machine I printed directly on the bed, covered in painters masking tape.
+
+After having to replace the tape after pretty much every print I purchased a [piece of tempered glass](https://www.amazon.co.uk/gp/product/B00ICKHRBA) to print on, however when I added an [inductive bed level sensor](printer.md#auto-bed-levelling) the sensor could not sense the metal through the glass pane so I switched to using [cheap buildtack clone build surfaces](https://www.amazon.co.uk/gp/product/B076G2X6ZH).
+
+I really liked the glossy look of printing on the glass so after I added a [3D Touch](printer-hardware-upgrades.md#3d-touch) sensor I moved back to printing on the glass build surface. To get the prints to adhere to the glass, I had to use glue stick or [Magigoo](https://www.amazon.co.uk/gp/product/B01N2JGTWJ) and wash the glass clean after a few prints.
+
+More modern printers have moved over to using magnetic PEI Flex plates. The PEI has excellent print adhesion without adding anything extra and as the flex plate is removable, once the bed has cooled you can easilly pop off the print by slightly flexing the plate.

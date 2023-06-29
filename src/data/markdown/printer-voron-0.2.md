@@ -55,7 +55,7 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 | M3 Brass heatstake inserts - short M3x5x4 | 50       | 71       |                                                             |
 | Makerbeam XL M3 t-nut                     | 2        | 2        |                                                             |
 
-### Frame
+### Frame Extrusions
 
 | Item                     | Quantity | Received | Notes                            |
 | ------------------------ | -------- | -------- | -------------------------------- |
@@ -63,7 +63,7 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 | Makerbeam XL 15x15 100mm | 3        |          | Using Kirigami Bed Mount instead |
 | Kirigami Bed Mount       | 1        | 1        |                                  |
 
-### Extrusion Tophat Frame
+### Extrusion Tophat Frame Extrusions
 
 | Item                        | Quantity | Received | Notes |
 | --------------------------- | -------- | -------- | ----- |
@@ -188,7 +188,6 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 | [Pulley_Jig_V0](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/STLs/Tools/Pulley_Jig_V0.stl)                                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |       |        |      |   :x:   |                                                                                                                                          |
 | [NoDropNut_12mm](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/zruncho/V0_No_Drop_Nuts/stl/NoDropNut_12mm.stl) | ?        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |       |        |      |   :x:   | This is a Voron Users Mod by zruncho. These are for the front idlers.                                                                    |
 | [NoDropNut_15mm](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/zruncho/V0_No_Drop_Nuts/stl/NoDropNut_15mm.stl) | ?        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | 0.10m | 0.26g  | 0.00 |    1    | This is a Voron Users Mod by zruncho. The repo says these are for LDO frames only, however I can confirm they fit the Formbot frame too. |
-| [v0_z_rail_dual_align](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/master/STL/tools/v0_z_rail_dual_align.stl)  | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |       |        |      |   :x:   | This is a Kirigami Bed Part                                                                                                              |
 
 ### Frame
 

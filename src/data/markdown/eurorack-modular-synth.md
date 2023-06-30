@@ -57,15 +57,15 @@ Quantities are for 1 Unit
 | ---------------------- | -------- | -------- | ------------ |
 | Transistor NPN (BC548) | 1        |          | 100 on order |
 | Op Amp Dual (TL072)    | 3        |          | 10 on order  |
-| 8 Pin DIP Sockets      | 3        | 8        |              |
+| 8 Pin DIP Sockets      | 3        | 8        | 10 on order  |
 
 ### Potentiometers
 
 | Item                          | Quantity | Received | Notes       |
 | ----------------------------- | -------- | -------- | ----------- |
 | Vertical Potentiometer (1M)   | 2        |          | 5 on order  |
-| Vertical Potentiometer (100K) | 1        |          | 15 on order |
-| Aluminum Potentiometer Knob   | 3        |          | 20 on order |
+| Vertical Potentiometer (100K) | 1        |          | 20 on order |
+| Aluminum Potentiometer Knob   | 3        |          | 30 on order |
 
 #### Resistors
 
@@ -86,6 +86,54 @@ Quantities are for 1 Unit
 | SPDT Switch     | 1        |          |             |
 | 3mm Red LED     | 1        |          |             |
 | Mono Audio Jack | 3        |          | 30 on order |
+
+### Mixer
+
+Quantities are for 1 Unit
+
+#### Capacitors
+
+| Item                          | Quantity | Received | Notes        |
+| ----------------------------- | -------- | -------- | ------------ |
+| Electrolytic Capacitor (47uF) | 2        | 10       |              |
+| Ceramic Capacitor (100NF)     | 6        |          | 100 on order |
+
+#### Diodes
+
+| Item                   | Quantity | Received | Notes       |
+| ---------------------- | -------- | -------- | ----------- |
+| Schottky Diode (SB140) | 2        |          | 20 on order |
+| Signal Diode (1N4148)  | 2        |          | 25 on order |
+
+#### Integrated Circuits
+
+| Item                | Quantity | Received | Notes       |
+| ------------------- | -------- | -------- | ----------- |
+| Op Amp Dual (TL072) | 2        |          | 10 on order |
+| 8 Pin DIP Sockets   | 2        | 8        | 10 on order |
+
+### Potentiometers
+
+| Item                          | Quantity | Received | Notes       |
+| ----------------------------- | -------- | -------- | ----------- |
+| Vertical Potentiometer (100K) | 3        |          | 20 on order |
+| Trim Potentiometer (20K)      | 1        |          | 10 on order |
+| Aluminum Potentiometer Knob   | 3        |          | 30 on order |
+
+#### Resistors
+
+| Item                       | Quantity | Received | Notes        |
+| -------------------------- | -------- | -------- | ------------ |
+| Metal Film resistor (100K) | 8        |          | 100 on order |
+| Metal Film resistor (27K)  | 1        |          | 100 on order |
+| Metal Film resistor (1K)   | 3        |          | 100 on order |
+| Metal Film resistor (10R)  | 2        |          | 100 on order |
+
+#### Misc
+
+| Item            | Quantity | Received | Notes       |
+| --------------- | -------- | -------- | ----------- |
+| Mono Audio Jack | 6        |          | 30 on order |
 
 ## Voltage Controlled Amplifier (VCA)
 
@@ -110,15 +158,15 @@ Quantities are for 1 Unit
 | ---------------------- | -------- | -------- | ------------ |
 | Transistor NPN (BC548) | 4        |          | 100 on order |
 | Op Amp Dual (TL072)    | 2        |          | 10 on order  |
-| 8 Pin DIP Sockets      | 2        | 8        |              |
+| 8 Pin DIP Sockets      | 2        | 8        | 10 on order  |
 
 ### Potentiometers
 
 | Item                          | Quantity | Received | Notes       |
 | ----------------------------- | -------- | -------- | ----------- |
 | Trim Potentiometer (100K)     | 2        |          | 10 on order |
-| Vertical Potentiometer (100K) | 2        |          | 15 on order |
-| Aluminum Potentiometer Knob   | 2        |          | 20 on order |
+| Vertical Potentiometer (100K) | 2        |          | 20 on order |
+| Aluminum Potentiometer Knob   | 2        |          | 30 on order |
 
 #### Resistors
 
@@ -169,9 +217,9 @@ Quantities are for 1 Unit
 
 | Item                          | Quantity | Received | Notes       |
 | ----------------------------- | -------- | -------- | ----------- |
-| Vertical Potentiometer (100K) | 5        |          | 15 on order |
+| Vertical Potentiometer (100K) | 5        |          | 20 on order |
 | Trim Potentiometer (50K)      | 1        |          | 10 on order |
-| Aluminum Potentiometer Knob   | 5        |          | 20 on order |
+| Aluminum Potentiometer Knob   | 5        |          | 30 on order |
 
 #### Resistors
 
@@ -227,10 +275,10 @@ Quantities are for 1 Unit
 | Item                          | Quantity | Received | Notes       |
 | ----------------------------- | -------- | -------- | ----------- |
 | Trim Potentiometer (1K)       | 1        |          | 10 on order |
-| Vertical Potentiometer (100K) | 3        |          | 15 on order |
+| Vertical Potentiometer (100K) | 3        |          | 20 on order |
 | Vertical Potentiometer (250K) | 1        |          | 5 on order  |
 | Vertical Potentiometer (1M)   | 1        |          | 5 on order  |
-| Aluminum Potentiometer Knob   | 5        |          | 20 on order |
+| Aluminum Potentiometer Knob   | 5        |          | 30 on order |
 
 #### Resistors
 
@@ -252,54 +300,6 @@ Quantities are for 1 Unit
 | --------------- | -------- | -------- | ----------- |
 | 10K thermistor  | 4        |          | 20 on order |
 | Mono Audio Jack | 5        |          | 30 on order |
-
-### Mixer
-
-Quantities are for 1 Unit
-
-#### Capacitors
-
-| Item                          | Quantity | Received | Notes        |
-| ----------------------------- | -------- | -------- | ------------ |
-| Electrolytic Capacitor (47uF) | 2        | 10       |              |
-| Ceramic Capacitor (100NF)     | 5        |          | 100 on order |
-
-#### Diodes
-
-| Item                   | Quantity | Received | Notes       |
-| ---------------------- | -------- | -------- | ----------- |
-| Schottky Diode (SB140) | 2        |          | 20 on order |
-| Signal Diode (1N4148)  | 2        |          | 25 on order |
-
-#### Integrated Circuits
-
-| Item                | Quantity | Received | Notes       |
-| ------------------- | -------- | -------- | ----------- |
-| Op Amp Dual (TL072) | 2        |          | 10 on order |
-| 8 Pin DIP Sockets   | 2        | 8        |             |
-
-### Potentiometers
-
-| Item                          | Quantity | Received | Notes       |
-| ----------------------------- | -------- | -------- | ----------- |
-| Vertical Potentiometer (100K) | 3        |          | 15 on order |
-| Trim Potentiometer (20K)      | 1        |          | 10 on order |
-| Aluminum Potentiometer Knob   | 3        |          | 20 on order |
-
-#### Resistors
-
-| Item                       | Quantity | Received | Notes        |
-| -------------------------- | -------- | -------- | ------------ |
-| Metal Film resistor (100K) | 8        |          | 100 on order |
-| Metal Film resistor (27K)  | 1        |          | 100 on order |
-| Metal Film resistor (1K)   | 3        |          | 100 on order |
-| Metal Film resistor (10R)  | 2        |          | 100 on order |
-
-#### Misc
-
-| Item            | Quantity | Received | Notes       |
-| --------------- | -------- | -------- | ----------- |
-| Mono Audio Jack | 6        |          | 30 on order |
 
 ### Parts For Testing
 

@@ -27,80 +27,286 @@ I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER)
 | Item                        | Quantity | Received | Notes                                                                                                      |
 | --------------------------- | -------- | -------- | ---------------------------------------------------------------------------------------------------------- |
 | Behringer CP1A Power Supply | 1        |          | Available on [thomann](https://www.thomann.de/gb/behringer_cp1a.htm)                                       |
-| 16-16 pin Power Cable       | 14       |          | Available on [thomann](https://www.thomann.de/gb/make_noise_power_cable_16pin_16pin.htm)                   |
-| 6HP Eurorack Prototype Kit  | 6        |          | Available on [N8Synth](https://www.n8synth.co.uk/shop/eurorack-prototype-kits/6hp-eurorack-prototype-kit/) |
+| 16-16 pin Power Cable       | 5        |          | Available on [thomann](https://www.thomann.de/gb/make_noise_power_cable_16pin_16pin.htm)                   |
+| 6HP Eurorack Prototype Kit  | 5        |          | Available on [N8Synth](https://www.n8synth.co.uk/shop/eurorack-prototype-kits/6hp-eurorack-prototype-kit/) |
 | M3 Threadded Strip          | 4        |          | 6 would be required if I want to 3D pint a dust cover for the front of the rack                            |
 | M3 Thumb Screws             | 50       |          |                                                                                                            |
 
-### Capacitors
+## Envelope Generator (EG)
 
-| Item                          | Quantity | Received | Notes |
-| ----------------------------- | -------- | -------- | ----- |
-| Ceramic Capacitor (100NF)     | 100      |          |       |
-| Electrolytic Capacitor (47uF) | 10       | 10       |       |
-| Film Capacitor (1NF)          | 20       |          |       |
-| Film Capacitor (2.2NF)        | 20       |          |       |
-| Film Capacitor (1uF)          | 10       |          |       |
+Quantities are for 1 Unit
 
-### Diodes
+#### Capacitors
 
-| Item                   | Quantity | Received | Notes |
-| ---------------------- | -------- | -------- | ----- |
-| Schottky Diode (SB140) | 20       |          |       |
-| Signal Diode (1N4148)  | 25       |          |       |
+| Item                          | Quantity | Received | Notes        |
+| ----------------------------- | -------- | -------- | ------------ |
+| Electrolytic Capacitor (47uF) | 2        | 10       |              |
+| Film Capacitor (1uF)          | 2        |          | 10 on order  |
+| Ceramic Capacitor (100NF)     | 8        |          | 100 on order |
 
-### Integrated Circuits
+#### Diodes
 
-| Item                                   | Quantity | Received | Notes |
-| -------------------------------------- | -------- | -------- | ----- |
-| 8 Pin DIP Sockets                      | 5        | 5        |       |
-| 14 Pin DIP Sockets                     | 10       |          |       |
-| Hex Schmitt-Trigger Inverter (CD40106) | 10       |          |       |
-| Op Amp Dual (TL072)                    | 10       |          |       |
-| Op Amp Quad (TL074)                    | 10       |          |       |
-| Transistor (BC548B)                    | 100      |          |       |
-| Transistor (BC558B)                    | 100      |          |       |
+| Item                   | Quantity | Received | Notes       |
+| ---------------------- | -------- | -------- | ----------- |
+| Schottky Diode (SB140) | 2        |          | 20 on order |
+| Signal Diode (1N4148)  | 6        |          | 25 on order |
+
+#### Integrated Circuits
+
+| Item                   | Quantity | Received | Notes        |
+| ---------------------- | -------- | -------- | ------------ |
+| Transistor NPN (BC548) | 1        |          | 100 on order |
+| Op Amp Dual (TL072)    | 3        |          | 10 on order  |
+| 8 Pin DIP Sockets      | 3        | 8        |              |
 
 ### Potentiometers
 
-| Item                          | Quantity | Received | Notes |
-| ----------------------------- | -------- | -------- | ----- |
-| Aluminum Potentiometer Knob   | 20       |          |       |
-| Trim Potentiometer (1K)       | 10       |          |       |
-| Trim Potentiometer (20K)      | 10       |          |       |
-| Trim Potentiometer (50K)      | 10       |          |       |
-| Trim Potentiometer (100K)     | 10       |          |       |
-| Vertical Potentiometer (100K) | 15       |          |       |
-| Vertical Potentiometer (250K) | 5        |          |       |
-| Vertical Potentiometer (1M)   | 5        |          |       |
+| Item                          | Quantity | Received | Notes       |
+| ----------------------------- | -------- | -------- | ----------- |
+| Vertical Potentiometer (1M)   | 2        |          | 5 on order  |
+| Vertical Potentiometer (100K) | 1        |          | 15 on order |
+| Aluminum Potentiometer Knob   | 3        |          | 20 on order |
 
-### Resistors
+#### Resistors
 
-| Item                       | Quantity | Received | Notes |
-| -------------------------- | -------- | -------- | ----- |
-| Metal Film resistor (10R)  | 100      |          |       |
-| Metal Film resistor (100R) | 100      |          |       |
-| Metal Film resistor (470R) | 100      |          |       |
-| Metal Film resistor (1K)   | 100      |          |       |
-| Metal Film resistor (1.5K) | 100      |          |       |
-| Metal Film resistor (2K)   | 100      |          |       |
-| Metal Film resistor (10K)  | 100      |          |       |
-| Metal Film resistor (20K)  | 100      |          |       |
-| Metal Film resistor (27K)  | 100      |          |       |
-| Metal Film resistor (33K)  | 100      |          |       |
-| Metal Film resistor (47K)  | 100      |          |       |
-| Metal Film resistor (68K)  | 100      |          |       |
-| Metal Film resistor (82K)  | 100      |          |       |
-| Metal Film resistor (100K) | 100      |          |       |
-| Metal Film resistor (1M)   | 100      |          |       |
+| Item                       | Quantity | Received | Notes        |
+| -------------------------- | -------- | -------- | ------------ |
+| Metal Film resistor (100K) | 10       |          | 100 on order |
+| Metal Film resistor (47K)  | 1        |          | 100 on order |
+| Metal Film resistor (10K)  | 1        |          | 100 on order |
+| Metal Film resistor (1K)   | 2        |          | 100 on order |
+| Metal Film resistor (470R) | 1        |          | 100 on order |
+| Metal Film resistor (100R) | 1        |          | 100 on order |
+| Metal Film resistor (10R)  | 2        |          | 100 on order |
 
-### Misc
+#### Misc
+
+| Item            | Quantity | Received | Notes       |
+| --------------- | -------- | -------- | ----------- |
+| SPDT Switch     | 1        |          |             |
+| 3mm Red LED     | 1        |          |             |
+| Mono Audio Jack | 3        |          | 30 on order |
+
+## Voltage Controlled Amplifier (VCA)
+
+Quantities are for 1 Unit
+
+#### Capacitors
+
+| Item                          | Quantity | Received | Notes        |
+| ----------------------------- | -------- | -------- | ------------ |
+| Electrolytic Capacitor (47uF) | 2        | 10       |              |
+| Ceramic Capacitor (100NF)     | 6        |          | 100 on order |
+
+#### Diodes
+
+| Item                   | Quantity | Received | Notes       |
+| ---------------------- | -------- | -------- | ----------- |
+| Schottky Diode (SB140) | 2        |          | 20 on order |
+
+#### Integrated Circuits
+
+| Item                   | Quantity | Received | Notes        |
+| ---------------------- | -------- | -------- | ------------ |
+| Transistor NPN (BC548) | 4        |          | 100 on order |
+| Op Amp Dual (TL072)    | 2        |          | 10 on order  |
+| 8 Pin DIP Sockets      | 2        | 8        |              |
+
+### Potentiometers
+
+| Item                          | Quantity | Received | Notes       |
+| ----------------------------- | -------- | -------- | ----------- |
+| Trim Potentiometer (100K)     | 2        |          | 10 on order |
+| Vertical Potentiometer (100K) | 2        |          | 15 on order |
+| Aluminum Potentiometer Knob   | 2        |          | 20 on order |
+
+#### Resistors
+
+| Item                       | Quantity | Received | Notes        |
+| -------------------------- | -------- | -------- | ------------ |
+| Metal Film resistor (100K) | 12       |          | 100 on order |
+| Metal Film resistor (82K)  | 2        |          | 100 on order |
+| Metal Film resistor (20K)  | 6        |          | 100 on order |
+| Metal Film resistor (10K)  | 6        |          | 100 on order |
+| Metal Film resistor (1K)   | 2        |          | 100 on order |
+| Metal Film resistor (100R) | 4        |          | 100 on order |
+| Metal Film resistor (10R)  | 2        |          | 100 on order |
+
+#### Misc
+
+| Item            | Quantity | Received | Notes       |
+| --------------- | -------- | -------- | ----------- |
+| Mono Audio Jack | 6        |          | 30 on order |
+
+## Voltage Controlled Filter (VCF)
+
+Quantities are for 1 Unit
+
+#### Capacitors
+
+| Item                          | Quantity | Received | Notes        |
+| ----------------------------- | -------- | -------- | ------------ |
+| Electrolytic Capacitor (47uF) | 2        | 10       |              |
+| Film Capacitor (1uF)          | 2        |          | 10 on order  |
+| Ceramic Capacitor (100NF)     | 6        |          | 100 on order |
+| Film Capacitor (1NF)          | 5        |          | 20 on order  |
+
+#### Diodes
+
+| Item                   | Quantity | Received | Notes       |
+| ---------------------- | -------- | -------- | ----------- |
+| Schottky Diode (SB140) | 2        |          | 20 on order |
+| Signal Diode (1N4148)  | 9        |          | 25 on order |
+
+#### Integrated Circuits
+
+| Item                | Quantity | Received | Notes       |
+| ------------------- | -------- | -------- | ----------- |
+| Op Amp Quad (TL074) | 2        |          | 10 on order |
+| 14 Pin DIP Sockets  | 2        |          | 10 on order |
+
+### Potentiometers
+
+| Item                          | Quantity | Received | Notes       |
+| ----------------------------- | -------- | -------- | ----------- |
+| Vertical Potentiometer (100K) | 5        |          | 15 on order |
+| Trim Potentiometer (50K)      | 1        |          | 10 on order |
+| Aluminum Potentiometer Knob   | 5        |          | 20 on order |
+
+#### Resistors
+
+| Item                       | Quantity | Received | Notes                               |
+| -------------------------- | -------- | -------- | ----------------------------------- |
+| Metal Film resistor (100K) | 5        |          | 100 on order                        |
+| Metal Film resistor (68K)  | 2        |          | 100 on order                        |
+| Metal Film resistor (33K)  | 8        |          | 100 on order                        |
+| Metal Film resistor (27K)  | 2        |          | 100 on order                        |
+| Metal Film resistor (14K)  | 1        |          | Using 47K + 20k in parallel instead |
+| Metal Film resistor (2K)   | 2        |          | 100 on order                        |
+| Metal Film resistor (1K)   | 3        |          | 100 on order                        |
+| Metal Film resistor (10R)  | 2        |          | 100 on order                        |
+
+#### Misc
+
+| Item            | Quantity | Received | Notes       |
+| --------------- | -------- | -------- | ----------- |
+| Mono Audio Jack | 4        |          | 30 on order |
+
+### Voltage Controlled Oscillator (VCO)
+
+Quantities are for 1 Unit
+
+#### Capacitors
+
+| Item                          | Quantity | Received | Notes        |
+| ----------------------------- | -------- | -------- | ------------ |
+| Electrolytic Capacitor (47uF) | 2        | 10       |              |
+| Film Capacitor (1uF)          | 1        |          | 10 on order  |
+| Ceramic Capacitor (100NF)     | 5        |          | 100 on order |
+| Film Capacitor (2.2NF)        | 1        |          | 20 on order  |
+
+#### Diodes
+
+| Item                   | Quantity | Received | Notes       |
+| ---------------------- | -------- | -------- | ----------- |
+| Signal Diode (1N4148)  | 1        |          | 25 on order |
+| Schottky Diode (SB140) | 2        |          | 20 on order |
+
+#### Integrated Circuits
+
+| Item                                   | Quantity | Received | Notes        |
+| -------------------------------------- | -------- | -------- | ------------ |
+| Transistor NPN (BC548)                 | 1        |          | 100 on order |
+| Transistor PNP (BC558)                 | 1        |          | 100 on order |
+| Op Amp Quad (TL074)                    | 1        |          | 10 on order  |
+| Hex Schmitt-Trigger Inverter (CD40106) | 1        |          | 10 on order  |
+| 14 Pin DIP Sockets                     | 2        |          | 10 on order  |
+
+### Potentiometers
+
+| Item                          | Quantity | Received | Notes       |
+| ----------------------------- | -------- | -------- | ----------- |
+| Trim Potentiometer (1K)       | 1        |          | 10 on order |
+| Vertical Potentiometer (100K) | 3        |          | 15 on order |
+| Vertical Potentiometer (250K) | 1        |          | 5 on order  |
+| Vertical Potentiometer (1M)   | 1        |          | 5 on order  |
+| Aluminum Potentiometer Knob   | 5        |          | 20 on order |
+
+#### Resistors
+
+| Item                       | Quantity | Received | Notes                               |
+| -------------------------- | -------- | -------- | ----------------------------------- |
+| Metal Film resistor (1M)   | 2        |          | 100 on order                        |
+| Metal Film resistor (100K) | 9        |          | 100 on order                        |
+| Metal Film resistor (68K)  | 2        |          | 100 on order                        |
+| Metal Film resistor (47K)  | 1        |          | 100 on order                        |
+| Metal Film resistor (33K)  | 1        |          | 100 on order                        |
+| Metal Film resistor (14K)  | 1        |          | Using 47K + 20k in parallel instead |
+| Metal Film resistor (1.5K) | 1        |          | 100 on order                        |
+| Metal Film resistor (1K)   | 2        |          | 100 on order                        |
+| Metal Film resistor (10R)  | 2        |          | 100 on order                        |
+
+#### Misc
+
+| Item            | Quantity | Received | Notes       |
+| --------------- | -------- | -------- | ----------- |
+| 10K thermistor  | 4        |          | 20 on order |
+| Mono Audio Jack | 5        |          | 30 on order |
+
+### Mixer
+
+Quantities are for 1 Unit
+
+#### Capacitors
+
+| Item                          | Quantity | Received | Notes        |
+| ----------------------------- | -------- | -------- | ------------ |
+| Electrolytic Capacitor (47uF) | 2        | 10       |              |
+| Ceramic Capacitor (100NF)     | 5        |          | 100 on order |
+
+#### Diodes
+
+| Item                   | Quantity | Received | Notes       |
+| ---------------------- | -------- | -------- | ----------- |
+| Schottky Diode (SB140) | 2        |          | 20 on order |
+| Signal Diode (1N4148)  | 2        |          | 25 on order |
+
+#### Integrated Circuits
+
+| Item                | Quantity | Received | Notes       |
+| ------------------- | -------- | -------- | ----------- |
+| Op Amp Dual (TL072) | 2        |          | 10 on order |
+| 8 Pin DIP Sockets   | 2        | 8        |             |
+
+### Potentiometers
+
+| Item                          | Quantity | Received | Notes       |
+| ----------------------------- | -------- | -------- | ----------- |
+| Vertical Potentiometer (100K) | 3        |          | 15 on order |
+| Trim Potentiometer (20K)      | 1        |          | 10 on order |
+| Aluminum Potentiometer Knob   | 3        |          | 20 on order |
+
+#### Resistors
+
+| Item                       | Quantity | Received | Notes        |
+| -------------------------- | -------- | -------- | ------------ |
+| Metal Film resistor (100K) | 8        |          | 100 on order |
+| Metal Film resistor (27K)  | 1        |          | 100 on order |
+| Metal Film resistor (1K)   | 3        |          | 100 on order |
+| Metal Film resistor (10R)  | 2        |          | 100 on order |
+
+#### Misc
+
+| Item            | Quantity | Received | Notes       |
+| --------------- | -------- | -------- | ----------- |
+| Mono Audio Jack | 6        |          | 30 on order |
+
+### Parts For Testing
 
 | Item                 | Quantity | Received | Notes |
 | -------------------- | -------- | -------- | ----- |
 | 9V Battery Connector | 2        | 2        |       |
-| 10K thermistor       | 20       |          |       |
-| Mono Audio Jack      | 30       |          |       |
+| Breadboard           | 1        | 1        |       |
 
 ## Printing Parts
 

@@ -1,6 +1,7 @@
 # Building a DIY Eurorack Modular Synth
 
-June 29, 2023 by [Mike Thomas](https://github.com/mikepthomas)
+June 29, 2023 by [Mike Thomas](https://github.com/mikepthomas),
+Updated June 30, 2023
 
 I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER), In one of his videos he mentioned about the website [Music From Outer Space](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&VPW=1430&VPH=660) and the book `Make: Analog Synthesizers` which I have brought and I am currently reading through.
 
@@ -52,7 +53,7 @@ I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER)
 
 | Item                                   | Quantity | Received | Notes |
 | -------------------------------------- | -------- | -------- | ----- |
-| 8 Pin DIP Sockets                      | 10       | 10       |       |
+| 8 Pin DIP Sockets                      | 5        | 5        |       |
 | 14 Pin DIP Sockets                     | 10       |          |       |
 | Hex Schmitt-Trigger Inverter (CD40106) | 10       |          |       |
 | Op Amp Dual (TL072)                    | 10       |          |       |
@@ -97,7 +98,7 @@ I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER)
 
 | Item                 | Quantity | Received | Notes |
 | -------------------- | -------- | -------- | ----- |
-| 9V Battery Connector | 2        | 1        |       |
+| 9V Battery Connector | 2        | 2        |       |
 | 10K thermistor       | 20       |          |       |
 | Mono Audio Jack      | 30       |          |       |
 

@@ -1,7 +1,7 @@
 # 3D Printer Filament list
 
 January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 9, 2023
+Updated June 30, 2023
 
 This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
@@ -14,37 +14,38 @@ This is a list of 3D printer filament I have purchased over the years and how I 
 1. [Amazon Basics PETG (Red)](#amazon-basics-petg-red)
 2. [Amazon Basics PLA (Blue)](#amazon-basics-pla-blue)
 3. [BasicFil PETG (Clear)](#basicfil-petg-clear)
-4. [PolyLite PLA Pro (Black)](#polylite-pla-pro-black)
-5. [PrimaValue ABS (Dark Grey)](#primavalue-abs-dark-grey)
-6. [PrimaValue PLA (Black)](#primavalue-pla-black)
-7. [PrimaValue PLA (Blue)](#primavalue-pla-Blue)
-8. [PrimaValue PLA (Dark Grey)](#primavalue-pla-dark-grey)
-9. [PrimaValue PLA (Red)](#primavalue-pla-red)
-10. [Tinmorry PETG (Black)](#tinmorry-petg-black)
-11. [Tinmorry PETG (White)](#tinmorry-petg-white)
-12. [Tinmorry PLA (Black)](#tinmorry-pla-black)
-13. [Tinmorry PLA (Grey)](#tinmorry-pla-grey)
-14. [Tinmorry PLA (Matte Brick Red)](#tinmorry-pla-matte-brick-red)
-15. [Ziro PLA (Black)](#ziro-pla-black)
-16. [Ziro PLA (Yellow)](#ziro-pla-yellow)
-17. [Ziro TPU (Black)](#ziro-tpu-black)
-18. [eSun ABS+ (Black)](#esun-abs-black)
-19. [eSun ABS+ (Blue)](#esun-abs-blue)
-20. [eSun ABS+ (Brown)](#esun-abs-brown)
-21. [eSun ABS+ (Cold White)](#esun-abs-cold-white)
-22. [eSun ABS+ (Fire Engine Red)](#esun-abs-fire-engine-red)
-23. [eSun ABS+ (Grey)](#esun-abs-grey)
-24. [eSun ABS+ (Light Blue)](#esun-abs-light-blue)
-25. [eSun ABS+ (Magenta)](#esun-abs-magenta)
-26. [eSun ABS+ (Orange)](#esun-abs-orange)
-27. [eSun ABS+ (Peak Green)](#esun-abs-peak-green)
-28. [eSun ABS+ (Pine Green)](#esun-abs-pine-green)
-29. [eSun ABS+ (Pink)](#esun-abs-pink)
-30. [eSun ABS+ (Purple)](#esun-abs-purple)
-31. [eSun ABS+ (Red)](#esun-abs-red)
-32. [eSun ABS+ (Silver)](#esun-abs-silver)
-33. [eSun ABS+ (Yellow)](#esun-abs-yellow)
-34. [eSun PLA (Wood)](#esun-pla-wood)
+4. [PolyLite LW-PLA (Yellow)](#polylite-lw-pla-yellow)
+5. [PolyLite PLA Pro (Black)](#polylite-pla-pro-black)
+6. [PrimaValue ABS (Dark Grey)](#primavalue-abs-dark-grey)
+7. [PrimaValue PLA (Black)](#primavalue-pla-black)
+8. [PrimaValue PLA (Blue)](#primavalue-pla-Blue)
+9. [PrimaValue PLA (Dark Grey)](#primavalue-pla-dark-grey)
+10. [PrimaValue PLA (Red)](#primavalue-pla-red)
+11. [Tinmorry PETG (Black)](#tinmorry-petg-black)
+12. [Tinmorry PETG (White)](#tinmorry-petg-white)
+13. [Tinmorry PLA (Black)](#tinmorry-pla-black)
+14. [Tinmorry PLA (Grey)](#tinmorry-pla-grey)
+15. [Tinmorry PLA (Matte Brick Red)](#tinmorry-pla-matte-brick-red)
+16. [Ziro PLA (Black)](#ziro-pla-black)
+17. [Ziro PLA (Yellow)](#ziro-pla-yellow)
+18. [Ziro TPU (Black)](#ziro-tpu-black)
+19. [eSun ABS+ (Black)](#esun-abs-black)
+20. [eSun ABS+ (Blue)](#esun-abs-blue)
+21. [eSun ABS+ (Brown)](#esun-abs-brown)
+22. [eSun ABS+ (Cold White)](#esun-abs-cold-white)
+23. [eSun ABS+ (Fire Engine Red)](#esun-abs-fire-engine-red)
+24. [eSun ABS+ (Grey)](#esun-abs-grey)
+25. [eSun ABS+ (Light Blue)](#esun-abs-light-blue)
+26. [eSun ABS+ (Magenta)](#esun-abs-magenta)
+27. [eSun ABS+ (Orange)](#esun-abs-orange)
+28. [eSun ABS+ (Peak Green)](#esun-abs-peak-green)
+29. [eSun ABS+ (Pine Green)](#esun-abs-pine-green)
+30. [eSun ABS+ (Pink)](#esun-abs-pink)
+31. [eSun ABS+ (Purple)](#esun-abs-purple)
+32. [eSun ABS+ (Red)](#esun-abs-red)
+33. [eSun ABS+ (Silver)](#esun-abs-silver)
+34. [eSun ABS+ (Yellow)](#esun-abs-yellow)
+35. [eSun PLA (Wood)](#esun-pla-wood)
 
 ### Amazon Basics PETG (Red)
 
@@ -69,6 +70,14 @@ This filament was originally brought to print the [StealthBurner](https://vorond
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
 | 240         | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/BasicFil%20PETG%20(Clear).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07CTLV4W5) | £19.90   | 0.5           | ![#FFFFFC](https://via.placeholder.com/13/FFFFFC/FFFFFC.png) |
+
+### PolyLite LW-PLA (Yellow)
+
+I received this filament from a giveaway on [one of Steve Builds' live streams](https://www.youtube.com/watch?v=dnAZ1nw6Euk&t=10950s).
+
+| Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                               | Purchased From                                                                        | Cost  | KGs Purchased |                            Color                             |
+| ---------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----- | ------------- | :----------------------------------------------------------: |
+| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PolyLite%20LW-PLA%20(Yellow).ini>) | [Polymaker](https://us.polymaker.com/products/polylite-lw-pla?variant=40603758559289) | £0.00 | 0.8           | ![#FAD61B](https://via.placeholder.com/13/FAD61B/FAD61B.png) |
 
 ### PolyLite PLA Pro (Black)
 
@@ -298,7 +307,7 @@ This filament was originally brought to print the frame on a [3D Sets Car Hauler
 
 ### eSun ABS+ (Yellow)
 
-This filament was originally brought to print the [3D LabPrint Piper Cub](3d-lab-print-piper-cub.md).
+This filament was originally brought to print the [3D LabPrint Piper Cub](3d-lab-print-piper-cub.md) however I won some [Polylite LW-PLA](#polylite-lw-pla-yellow) that I will now ue instead.
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                  | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |

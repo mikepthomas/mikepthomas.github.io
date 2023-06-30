@@ -1,6 +1,7 @@
 # 3D LabPrint Piper Cub
 
-July 22, 2022 by [Mike Thomas](https://github.com/mikepthomas)
+July 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
+Updated June 30, 2023
 
 Sourcing parts for a [Piper Cub](https://3dlabprint.com/shop/piperj3cub/) remote control airplane!
 
@@ -66,23 +67,23 @@ Sourcing parts for a [Piper Cub](https://3dlabprint.com/shop/piperj3cub/) remote
 
 > Image &copy; 2022 [3D LabPrint](https://3dlabprint.com/)
 
-| Item        | Quantity | Material                                                  | Printed | Notes |
-| ----------- | -------- | --------------------------------------------------------- | :-----: | ----- |
-| aileron L1  | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| aileron L2  | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| aileron L3  | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| aileron R1  | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| aileron R2  | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| aileron R3  | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| Wing CENTRE | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| Wing L1     | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| Wing L2     | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| Wing L3     | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| Wing L4     | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| Wing R1     | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| Wing R2     | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| Wing R3     | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| Wing R4     | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
+| Item        | Quantity | Material                                                               | Printed | Notes |
+| ----------- | -------- | ---------------------------------------------------------------------- | :-----: | ----- |
+| aileron L1  | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| aileron L2  | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| aileron L3  | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| aileron R1  | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| aileron R2  | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| aileron R3  | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| Wing CENTRE | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| Wing L1     | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| Wing L2     | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| Wing L3     | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| Wing L4     | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| Wing R1     | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| Wing R2     | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| Wing R3     | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| Wing R4     | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
 
 ### Body
 
@@ -90,19 +91,19 @@ Sourcing parts for a [Piper Cub](https://3dlabprint.com/shop/piperj3cub/) remote
 
 > Image &copy; 2022 [3D LabPrint](https://3dlabprint.com/)
 
-| Item                | Quantity | Material                                                  | Printed | Notes |
-| ------------------- | -------- | --------------------------------------------------------- | :-----: | ----- |
-| cooler & exhausts   | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)     |   :x:   |       |
-| cover 1             | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| cover 2             | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| cover lock          | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)     |   :x:   |       |
-| engine valves       | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)     |   :x:   |       |
-| F1                  | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| F2                  | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| F3                  | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| F4                  | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| motor mount         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
-| rubber band-holders | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
+| Item                | Quantity | Material                                                               | Printed | Notes |
+| ------------------- | -------- | ---------------------------------------------------------------------- | :-----: | ----- |
+| cooler & exhausts   | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)                  |   :x:   |       |
+| cover 1             | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| cover 2             | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| cover lock          | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)                  |   :x:   |       |
+| engine valves       | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)                  |   :x:   |       |
+| F1                  | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| F2                  | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| F3                  | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| F4                  | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| motor mount         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                |   :x:   |       |
+| rubber band-holders | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                |   :x:   |       |
 
 ### Tail
 
@@ -110,24 +111,24 @@ Sourcing parts for a [Piper Cub](https://3dlabprint.com/shop/piperj3cub/) remote
 
 > Image &copy; 2022 [3D LabPrint](https://3dlabprint.com/)
 
-| Item          | Quantity | Material                                                  | Printed | Notes |
-| ------------- | -------- | --------------------------------------------------------- | :-----: | ----- |
-| elevator arm  | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)     |   :x:   |       |
-| elevator L1   | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| elevator L2   | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| elevator L3   | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| elevator R1A  | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| elevator R1B  | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| elevator R2   | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| elevator R3   | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| rudder 1      | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| rudder 2      | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| rudder 3      | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| rudder 4      | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| stabiliser L1 | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| stabiliser L2 | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| stabiliser R1 | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| stabiliser R2 | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
+| Item          | Quantity | Material                                                               | Printed | Notes |
+| ------------- | -------- | ---------------------------------------------------------------------- | :-----: | ----- |
+| elevator arm  | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)                  |   :x:   |       |
+| elevator L1   | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| elevator L2   | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| elevator L3   | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| elevator R1A  | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| elevator R1B  | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| elevator R2   | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| elevator R3   | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| rudder 1      | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| rudder 2      | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| rudder 3      | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| rudder 4      | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| stabiliser L1 | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| stabiliser L2 | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| stabiliser R1 | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| stabiliser R2 | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
 
 ### Wheels
 
@@ -149,16 +150,16 @@ Sourcing parts for a [Piper Cub](https://3dlabprint.com/shop/piperj3cub/) remote
 
 > Image &copy; 2022 [3D LabPrint](https://3dlabprint.com/)
 
-| Item               | Quantity | Material                                                  | Printed | Notes |
-| ------------------ | -------- | --------------------------------------------------------- | :-----: | ----- |
-| back float holder  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
-| float L1           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| float L2           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| float L3           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| float L4           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| float R1           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| float R2           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| float R3           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| float R4           | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
-| front float holder | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
-| tail rudder fin    | 1        | [eSun ABS+ (Yellow)](printer-filament.md#esun-abs-yellow) |   :x:   |       |
+| Item               | Quantity | Material                                                               | Printed | Notes |
+| ------------------ | -------- | ---------------------------------------------------------------------- | :-----: | ----- |
+| back float holder  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                |   :x:   |       |
+| float L1           | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| float L2           | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| float L3           | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| float L4           | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| float R1           | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| float R2           | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| float R3           | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| float R4           | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |
+| front float holder | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                |   :x:   |       |
+| tail rudder fin    | 1        | [PolyLite LW-PLA (Yellow)](printer-filament.md#polylite-lw-pla-yellow) |   :x:   |       |

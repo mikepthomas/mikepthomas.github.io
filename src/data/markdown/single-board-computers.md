@@ -88,8 +88,8 @@ I plan on replacing all the Raspberry Pi Zeros in the cluster with Raspberry Pi 
 | Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `node5`         |                          |          | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 | Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB |                                    |                             |                          |          | Broken SD Slot                                                               |
 | Raspberry Pi Model A+ V1.1 | 0015     | BCM2835 | 256MB | ModMyPi VESA-Pi+ Model A+ Case     |                             |                          |          |                                                                              |
-| Raspberry Pi Model B+ V1.2 | 0010     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | orange   | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
-| Raspberry Pi Model B+ V1.2 | 0013     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | purple   | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
+| Raspberry Pi Model B+ V1.2 | 0010     | BCM2835 | 512MB | CanaKit Raspberry Pi Case (Clear)  | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | orange   | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
+| Raspberry Pi Model B+ V1.2 | 0013     | BCM2835 | 512MB | CanaKit Raspberry Pi Case (Clear)  | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | purple   | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 
 ## Raspberry Pi 2
 
@@ -99,14 +99,14 @@ This was my original Raspberry Pi cluster, It was originally 4 layers however I 
 
 The cluster was set up to learn [Ansible](https://www.ansible.com) as the Raspberry Pi 2s were a little too slow to run Docker or Kubernetes.
 
-| Item                        | Revision | SoC     | RAM | Case         | Storage                      | OS                                                   | Hostname | Notes                                 |
-| --------------------------- | -------- | ------- | --- | ------------ | ---------------------------- | ---------------------------------------------------- | -------- | ------------------------------------- |
-| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | node1    |                                       |
-| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | node2    |                                       |
-| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | node3    |                                       |
-| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | node4    |                                       |
-| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | node5    |                                       |
-| Raspberry Pi 2 Model B V1.2 | a02042   | BCM2837 | 1GB | Flirc        | 8GB MicroSD (Generic)        | [PiAware 8.1](https://flightaware.com/adsb/piaware/) | piaware  | Boxed With FlightAware Pro Stick Plus |
+| Item                        | Revision | SoC     | RAM | Case                 | Storage                      | OS                                                   | Hostname | Notes                                 |
+| --------------------------- | -------- | ------- | --- | -------------------- | ---------------------------- | ---------------------------------------------------- | -------- | ------------------------------------- |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case         | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | node1    |                                       |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case         | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | node2    |                                       |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case         | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | node3    |                                       |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case         | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | node4    |                                       |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case         | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | node5    |                                       |
+| Raspberry Pi 2 Model B V1.2 | a02042   | BCM2837 | 1GB | Flirc Aluminium Case | 8GB MicroSD (Generic)        | [PiAware 8.1](https://flightaware.com/adsb/piaware/) | piaware  | Boxed With FlightAware Pro Stick Plus |
 
 ## Raspberry Pi 3
 
@@ -118,18 +118,18 @@ I cleaned it up with some isopropyl alcohol and re-assembled it with some new sc
 
 I assembled this cluster to learn all about Containerization using [Docker Swarm mode](https://docs.docker.com/engine/swarm) and eventually, Kubernetes using [MicroK8s](https://microk8s.io/), however the Raspberry Pi 3s are a little too slow to fully run a K8s cluster with more than a handful of containers.
 
-| Item                         | Revision | SoC     | RAM   | Case                               | Storage                      | OS                                         | Hostname   | Notes                                                             |
-| ---------------------------- | -------- | ------- | ----- | ---------------------------------- | ---------------------------- | ------------------------------------------ | ---------- | ----------------------------------------------------------------- |
-| Raspberry Pi 3 Model A+ V1.0 | 9020e0   | BCM2837 | 512MB | Official Raspberry Pi 3 A+ Case    | 32GB MicroSD (Integral)      | [MainsailOS](https://docs-os.mainsail.xyz) | am8        | Boxed                                                             |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Official Raspberry Pi Case (Black) | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | white      | Broken Wifi and Bluetooth with camera                             |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                       | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | red        | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                       | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | green      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                       | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | blue       | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 3 Model B V1.2  | a22082   | BCM2837 | 1GB   | Cluster Case                       | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | black      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Waveshare Touch Screen Case        | 64GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | controller |                                                                   |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag MegaPi Case              | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | megapi     |                                                                   |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag NESPi Case+              | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | nespi      |                                                                   |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag SuperPi Case             | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | superpi    |                                                                   |
+| Item                         | Revision | SoC     | RAM   | Case                              | Storage                      | OS                                         | Hostname   | Notes                                                             |
+| ---------------------------- | -------- | ------- | ----- | --------------------------------- | ---------------------------- | ------------------------------------------ | ---------- | ----------------------------------------------------------------- |
+| Raspberry Pi 3 Model A+ V1.0 | 9020e0   | BCM2837 | 512MB | Official Raspberry Pi 3 A+ Case   | 32GB MicroSD (Integral)      | [MainsailOS](https://docs-os.mainsail.xyz) | am8        | Boxed                                                             |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | CanaKit Raspberry Pi Case (Black) | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | white      | Broken Wifi and Bluetooth with camera                             |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | red        | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | green      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | blue       | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
+| Raspberry Pi 3 Model B V1.2  | a22082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | black      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Waveshare Touch Screen Case       | 64GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | controller |                                                                   |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag MegaPi Case             | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | megapi     |                                                                   |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag NESPi Case+             | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | nespi      |                                                                   |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag SuperPi Case            | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | superpi    |                                                                   |
 
 ## Raspberry Pi 4
 

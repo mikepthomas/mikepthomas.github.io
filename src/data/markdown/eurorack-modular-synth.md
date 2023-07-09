@@ -1,7 +1,7 @@
 # Building a DIY Eurorack Modular Synth
 
 June 29, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated June 30, 2023
+Updated July 9, 2023
 
 I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER), In one of his videos he mentioned about the website [Music From Outer Space](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&VPW=1430&VPH=660) and the book `Make: Analog Synthesizers` which I have brought and I am currently reading through.
 
@@ -24,13 +24,13 @@ I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER)
 
 ### Eurorack Parts
 
-| Item                        | Quantity | Received | Notes                                                                                                      |
-| --------------------------- | -------- | -------- | ---------------------------------------------------------------------------------------------------------- |
-| Behringer CP1A Power Supply | 1        |          | Available on [thomann](https://www.thomann.de/gb/behringer_cp1a.htm)                                       |
-| 16-16 pin Power Cable       | 5        |          | Available on [thomann](https://www.thomann.de/gb/make_noise_power_cable_16pin_16pin.htm)                   |
-| 6HP Eurorack Prototype Kit  | 5        |          | Available on [N8Synth](https://www.n8synth.co.uk/shop/eurorack-prototype-kits/6hp-eurorack-prototype-kit/) |
-| M3 Threadded Strip          | 4        |          | 6 would be required if I want to 3D pint a dust cover for the front of the rack                            |
-| M3 Thumb Screws             | 50       |          |                                                                                                            |
+| Item                        | Quantity | Received | Notes                                                                                                         |
+| --------------------------- | -------- | -------- | ------------------------------------------------------------------------------------------------------------- |
+| Behringer CP1A Power Supply | 1        |          | Available on [thomann](https://www.thomann.de/gb/behringer_cp1a.htm)                                          |
+| 16-16 pin Power Cable       | 5        |          | Available on [thomann](https://www.thomann.de/gb/make_noise_power_cable_16pin_16pin.htm)                      |
+| 6HP Eurorack Prototype Kit  | 5        |          | 5 on order from [N8Synth](https://www.n8synth.co.uk/shop/eurorack-prototype-kits/6hp-eurorack-prototype-kit/) |
+| M3 Threadded Strip          | 4        |          | 6 would be required if I want to 3D pint a dust cover for the front of the rack                               |
+| M3 Thumb Screws             | 50       |          |                                                                                                               |
 
 ## Envelope Generator (EG)
 
@@ -83,8 +83,8 @@ Quantities are for 1 Unit
 
 | Item            | Quantity | Received | Notes       |
 | --------------- | -------- | -------- | ----------- |
-| SPDT Switch     | 1        |          |             |
-| 3mm Red LED     | 1        |          |             |
+| SPDT Switch     | 1        |          | 1 on order  |
+| 3mm Red LED     | 1        |          | 5 on order  |
 | Mono Audio Jack | 3        |          | 30 on order |
 
 ### Mixer
@@ -303,10 +303,10 @@ Quantities are for 1 Unit
 
 ### Parts For Testing
 
-| Item                 | Quantity | Received | Notes |
-| -------------------- | -------- | -------- | ----- |
-| 9V Battery Connector | 2        | 2        |       |
-| Breadboard           | 1        | 1        |       |
+| Item                 | Quantity | Received | Notes      |
+| -------------------- | -------- | -------- | ---------- |
+| 9V Battery Connector | 2        | 1        | 5 on order |
+| Breadboard           | 1        | 1        |            |
 
 ## Printing Parts
 

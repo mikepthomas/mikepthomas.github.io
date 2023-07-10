@@ -41,11 +41,11 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 BigTreeTech make mainboards to control 3D printers.
 
-| Item                 | Case                              | Flashed with                                  | Notes                                        |
-| -------------------- | --------------------------------- | --------------------------------------------- | -------------------------------------------- |
-| BigTreeTech Pi V1.2  |                                   |                                               | Designed as a replacement for a Raspberry Pi |
-| BigTreeTech SKR Pico | [Rook 2020](printer-rook-2020.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040         |
-| BigTreeTech SKR Pico | [Voron 0.2](printer-voron-0.2.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040         |
+| Item                                                                                                | Case                              | Flashed with                                  | Notes                                        |
+| --------------------------------------------------------------------------------------------------- | --------------------------------- | --------------------------------------------- | -------------------------------------------- |
+| [BigTreeTech Pi V1.2](https://biqu.equipment/products/bigtreetech-btt-pi-v1-2)                      |                                   |                                               | Designed as a replacement for a Raspberry Pi |
+| [BigTreeTech SKR Pico](https://biqu.equipment/collections/control-board/products/btt-skr-pico-v1-0) | [Rook 2020](printer-rook-2020.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040         |
+| [BigTreeTech SKR Pico](https://biqu.equipment/collections/control-board/products/btt-skr-pico-v1-0) | [Voron 0.2](printer-voron-0.2.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040         |
 
 ## Next Thing Co
 

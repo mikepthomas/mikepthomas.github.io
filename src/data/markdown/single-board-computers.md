@@ -98,20 +98,20 @@ I plan on replacing all the Raspberry Pi Zeros in the cluster with Raspberry Pi 
 
 ## Raspberry Pi 1
 
-| Item                       | Revision | SoC     | RAM   | Case                               | Storage                     | OS                       | Hostname | Notes                                                                        |
-| -------------------------- | -------- | ------- | ----- | ---------------------------------- | --------------------------- | ------------------------ | -------- | ---------------------------------------------------------------------------- |
-| Raspberry Pi Model A Rev 2 | 0008     | BCM2835 | 256MB |                                    |                             |                          |          | With [Adafruit Prototyping Pi Plate](https://www.adafruit.com/product/801)   |
-| Raspberry Pi Model B Rev 1 | 0002     | BCM2835 | 256MB | Adafruit Acrylic Case              |                             |                          |          | With [Adafruit RGB Negative 16x2 LCD](https://www.adafruit.com/product/1110) |
-| Raspberry Pi Model B Rev 1 | 0002     | BCM2835 | 256MB | Piface Digital Acrylic Case        |                             |                          |          | With [PiFace Digital](http://www.piface.org.uk/products/piface_digital/)     |
-| Raspberry Pi Model B Rev 1 | 0002     | BCM2835 | 256MB | Official Raspberry Pi Case (White) | Shared with `node1`         |                          |          | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
-| Raspberry Pi Model B Rev 2 | 000e     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `node2`         |                          |          | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
-| Raspberry Pi Model B Rev 2 | 000e     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `node3`         |                          |          | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
-| Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `node4`         |                          |          | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
-| Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `node5`         |                          |          | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
-| Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB |                                    |                             |                          |          | Broken SD Slot                                                               |
-| Raspberry Pi Model A+ V1.1 | 0015     | BCM2835 | 256MB | ModMyPi VESA-Pi+ Model A+ Case     |                             |                          |          |                                                                              |
-| Raspberry Pi Model B+ V1.2 | 0010     | BCM2835 | 512MB | CanaKit Raspberry Pi Case (Clear)  | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | orange   | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
-| Raspberry Pi Model B+ V1.2 | 0013     | BCM2835 | 512MB | CanaKit Raspberry Pi Case (Clear)  | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | purple   | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
+| Item                       | Revision | SoC     | RAM   | Case                               | Storage                     | OS                       | Hostname    | Notes                                                                        |
+| -------------------------- | -------- | ------- | ----- | ---------------------------------- | --------------------------- | ------------------------ | ----------- | ---------------------------------------------------------------------------- |
+| Raspberry Pi Model A Rev 2 | 0008     | BCM2835 | 256MB |                                    |                             |                          |             | With [Adafruit Prototyping Pi Plate](https://www.adafruit.com/product/801)   |
+| Raspberry Pi Model B Rev 1 | 0002     | BCM2835 | 256MB | Adafruit Acrylic Case              | 8GB SD Card (TDK)           | Raspberry Pi OS (Legacy) | raspberrypi | With [Adafruit RGB Negative 16x2 LCD](https://www.adafruit.com/product/1110) |
+| Raspberry Pi Model B Rev 1 | 0002     | BCM2835 | 256MB | Piface Digital Acrylic Case        |                             |                          |             | With [PiFace Digital](http://www.piface.org.uk/products/piface_digital/)     |
+| Raspberry Pi Model B Rev 1 | 0002     | BCM2835 | 256MB | Official Raspberry Pi Case (White) | Shared with `node1`         |                          |             | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
+| Raspberry Pi Model B Rev 2 | 000e     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `node2`         |                          |             | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
+| Raspberry Pi Model B Rev 2 | 000e     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `node3`         |                          |             | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
+| Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `node4`         |                          |             | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
+| Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `node5`         |                          |             | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
+| Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB |                                    |                             |                          |             | Broken SD Slot                                                               |
+| Raspberry Pi Model A+ V1.1 | 0015     | BCM2835 | 256MB | ModMyPi VESA-Pi+ Model A+ Case     |                             |                          |             |                                                                              |
+| Raspberry Pi Model B+ V1.2 | 0010     | BCM2835 | 512MB | CanaKit Raspberry Pi Case (Clear)  | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | orange      | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
+| Raspberry Pi Model B+ V1.2 | 0013     | BCM2835 | 512MB | CanaKit Raspberry Pi Case (Clear)  | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | purple      | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 
 ## Raspberry Pi 2
 
@@ -165,13 +165,13 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 
 ## Raspberry Pi Pico
 
-| Item                                | Case                                                                                                        | Flashed with                           | Notes                           |
-| ----------------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------- |
-| Raspberry Pi Pico                   |                                                                                                             |                                        | In original packaging           |
-| Raspberry Pi Pico H                 | [Maker Pi Pico](https://www.cytron.io/p-maker-pi-pico-simplifying-raspberry-pi-pico-for-beginners-and-kits) | [MicroPython](https://micropython.org) |                                 |
-| Raspberry Pi Pico W                 |                                                                                                             |                                        | In original packaging           |
-| Raspberry Pi Pico WH                |                                                                                                             |                                        | Boxed                           |
-| Raspberry Pi RP2040 Microcontroller |                                                                                                             |                                        | Bare Chip in original packaging |
+| Item                                | Case                                                                                                        | Flashed with                                                     | Notes                           |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------- |
+| Raspberry Pi Pico                   | [Macro Pi](https://www.thingiverse.com/thing:5817044)                                                       | [PiPicoMacroKeys](https://github.com/novaspirit/PiPicoMacroKeys) | In original packaging           |
+| Raspberry Pi Pico H                 | [Maker Pi Pico](https://www.cytron.io/p-maker-pi-pico-simplifying-raspberry-pi-pico-for-beginners-and-kits) | [MicroPython](https://micropython.org)                           |                                 |
+| Raspberry Pi Pico W                 |                                                                                                             |                                                                  | In original packaging           |
+| Raspberry Pi Pico WH                |                                                                                                             |                                                                  | Boxed                           |
+| Raspberry Pi RP2040 Microcontroller |                                                                                                             |                                                                  | Bare Chip in original packaging |
 
 ## Teensy
 

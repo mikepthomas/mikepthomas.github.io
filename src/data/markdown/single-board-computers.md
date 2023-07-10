@@ -12,16 +12,17 @@ This page lists all of the single board computers I own and is mainly for me to 
 ## Table of contents
 
 1. [Arduino](#arduino)
-2. [BigTreeTech](#bigtreetech)
-3. [Next Thing Co](#next-thing-co)
-4. [Odroid](#odroid)
-5. [Raspberry Pi Zero](#raspberry-pi-zero)
-6. [Raspberry Pi 1](#raspberry-pi-1)
-7. [Raspberry Pi 2](#raspberry-pi-2)
-8. [Raspberry Pi 3](#raspberry-pi-3)
-9. [Raspberry Pi 4](#raspberry-pi-4)
-10. [Raspberry Pi Pico](#raspberry-pi-pico)
-11. [Teensy](#teensy)
+2. [BBC](#bbc)
+3. [BigTreeTech](#bigtreetech)
+4. [Hardkernel](#hardkernel)
+5. [Next Thing Co](#next-thing-co)
+6. [Raspberry Pi Zero](#raspberry-pi-zero)
+7. [Raspberry Pi 1](#raspberry-pi-1)
+8. [Raspberry Pi 2](#raspberry-pi-2)
+9. [Raspberry Pi 3](#raspberry-pi-3)
+10. [Raspberry Pi 4](#raspberry-pi-4)
+11. [Raspberry Pi Pico](#raspberry-pi-pico)
+12. [Teensy](#teensy)
 
 ## Arduino
 
@@ -37,6 +38,14 @@ This page lists all of the single board computers I own and is mainly for me to 
 | [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       |                 | Blink Sketch                                  | Boxed                                                                                   |
 | [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       |                 | Blink Sketch                                  | Boxed                                                                                   |
 
+## BBC
+
+The micro:bit is an inexpensive board designed to teach children how to code.
+
+| Item                                                    | Case                                                                                                                                         | Flashed with | Notes |
+| ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----- |
+| [BBC micro:bit V1](https://archive.microbit.org/guide/) | [Kitronic Inventor's Kit](https://kitronik.co.uk/collections/accessories-for-the-bbc-micro-bit/products/inventors-kit-for-the-bbc-micro-bit) |              |       |
+
 ## BigTreeTech
 
 BigTreeTech make mainboards to control 3D printers.
@@ -47,17 +56,7 @@ BigTreeTech make mainboards to control 3D printers.
 | [BigTreeTech SKR Pico](https://biqu.equipment/collections/control-board/products/btt-skr-pico-v1-0) | [Rook 2020](printer-rook-2020.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040         |
 | [BigTreeTech SKR Pico](https://biqu.equipment/collections/control-board/products/btt-skr-pico-v1-0) | [Voron 0.2](printer-voron-0.2.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040         |
 
-## Next Thing Co
-
-Dubbed as "The World's First Nine Dollar Computer" I purchased a CHIP in about November 2016 as a toy to play about with however I hardly used it and eventually the company Next Thing Co. entered insolvency it quickly became unsupported.
-
-However mine still works albeit on a very old operating system version.
-
-| Item                                               | Case          | Flashed with                                              | Notes                |
-| -------------------------------------------------- | ------------- | --------------------------------------------------------- | -------------------- |
-| [CHIP](https://docs.getchip.cc/chip#chip-hardware) | C.H.I.P. Case | [The CHIP Operating System](https://docs.getchip.cc/chip) | With Composite Cable |
-
-## Odroid
+## Hardkernel
 
 ![Odroid CloudShell 2](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/odroid-cloudshell2.jpg)
 
@@ -68,6 +67,16 @@ I purchased the Odroid XU4 and CloudShell enclosure to use as a Network Attached
 | [Odroid C2](https://wiki.odroid.com/odroid-c2/odroid-c2)    |                                                                                                 |           | Ubuntu 20.04 | odroid     | With [Odroid UPS3](https://wiki.odroid.com/accessory/power_supply_battery/odroid-ups3) + [Odroid USB Wifi adapter](https://www.hardkernel.com/shop/wifi-module-5bk/) |
 | [Odroid Go](https://wiki.odroid.com/odroid_go/odroid_go)    | [Odroid Go QWERTY](https://wiki.odroid.com/odroid_go/qwerty)                                    |           |              |            | Boxed                                                                                                                                                                |
 | [Odroid XU4](https://wiki.odroid.com/odroid-xu4/odroid-xu4) | [CloudShell 2](https://wiki.odroid.com/accessory/add-on_boards/xu4_cloudshell2/xu4_cloudshell2) | 32GB eMMC | Ubuntu 22.04 | cloudshell | With 2 x 3TB Hard Drives in RAID 1                                                                                                                                   |
+
+## Next Thing Co
+
+Dubbed as "The World's First Nine Dollar Computer" I purchased a CHIP in about November 2016 as a toy to play about with however I hardly used it and eventually the company Next Thing Co. entered insolvency it quickly became unsupported.
+
+However mine still works albeit on a very old operating system version.
+
+| Item                                               | Case          | Flashed with                                              | Notes                |
+| -------------------------------------------------- | ------------- | --------------------------------------------------------- | -------------------- |
+| [CHIP](https://docs.getchip.cc/chip#chip-hardware) | C.H.I.P. Case | [The CHIP Operating System](https://docs.getchip.cc/chip) | With Composite Cable |
 
 ## Raspberry Pi Zero
 

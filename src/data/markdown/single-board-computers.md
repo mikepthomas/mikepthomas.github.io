@@ -154,13 +154,13 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 
 ## Raspberry Pi Pico
 
-| Item                                | Case | Flashed with                           | Notes     |
-| ----------------------------------- | ---- | -------------------------------------- | --------- |
-| Raspberry Pi Pico                   |      | [MicroPython](https://micropython.org) |           |
-| Raspberry Pi Pico H                 |      | [MicroPython](https://micropython.org) |           |
-| Raspberry Pi Pico W                 |      | [MicroPython](https://micropython.org) |           |
-| Raspberry Pi Pico WH                |      |                                        | Boxed     |
-| Raspberry Pi RP2040 Microcontroller |      |                                        | Bare Chip |
+| Item                                | Case                                                                                                        | Flashed with                           | Notes                           |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------- |
+| Raspberry Pi Pico                   |                                                                                                             |                                        | In original packaging           |
+| Raspberry Pi Pico H                 | [Maker Pi Pico](https://www.cytron.io/p-maker-pi-pico-simplifying-raspberry-pi-pico-for-beginners-and-kits) | [MicroPython](https://micropython.org) |                                 |
+| Raspberry Pi Pico W                 |                                                                                                             |                                        | In original packaging           |
+| Raspberry Pi Pico WH                |                                                                                                             |                                        | Boxed                           |
+| Raspberry Pi RP2040 Microcontroller |                                                                                                             |                                        | Bare Chip in original packaging |
 
 ## Teensy
 

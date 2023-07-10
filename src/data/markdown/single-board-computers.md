@@ -1,7 +1,7 @@
 # Single Board Computers and Microcontrollers
 
 June 26, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 9, 2023
+Updated July 10, 2023
 
 This page lists all of the single board computers I own and is mainly for me to keep track of what I have and what I am currently using it for.
 
@@ -12,15 +12,16 @@ This page lists all of the single board computers I own and is mainly for me to 
 ## Table of contents
 
 1. [Arduino](#arduino)
-2. [Next Thing Co](#next-thing-co)
-3. [Odroid](#odroid)
-4. [Raspberry Pi Zero](#raspberry-pi-zero)
-5. [Raspberry Pi 1](#raspberry-pi-1)
-6. [Raspberry Pi 2](#raspberry-pi-2)
-7. [Raspberry Pi 3](#raspberry-pi-3)
-8. [Raspberry Pi 4](#raspberry-pi-4)
-9. [Raspberry Pi Pico](#raspberry-pi-pico)
-10. [Teensy](#teensy)
+2. [BigTreeTech](#bigtreetech)
+3. [Next Thing Co](#next-thing-co)
+4. [Odroid](#odroid)
+5. [Raspberry Pi Zero](#raspberry-pi-zero)
+6. [Raspberry Pi 1](#raspberry-pi-1)
+7. [Raspberry Pi 2](#raspberry-pi-2)
+8. [Raspberry Pi 3](#raspberry-pi-3)
+9. [Raspberry Pi 4](#raspberry-pi-4)
+10. [Raspberry Pi Pico](#raspberry-pi-pico)
+11. [Teensy](#teensy)
 
 ## Arduino
 
@@ -35,6 +36,16 @@ This page lists all of the single board computers I own and is mainly for me to 
 | Arduino Uno R2                                                                    |                 | Blink Sketch                                  |                                                                                         |
 | [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       |                 | Blink Sketch                                  | Boxed                                                                                   |
 | [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       |                 | Blink Sketch                                  | Boxed                                                                                   |
+
+## BigTreeTech
+
+BigTreeTech make mainboards to control 3D printers.
+
+| Item                 | Case                              | Flashed with                                  | Notes                                        |
+| -------------------- | --------------------------------- | --------------------------------------------- | -------------------------------------------- |
+| BigTreeTech Pi V1.2  |                                   |                                               | Designed as a replacement for a Raspberry Pi |
+| BigTreeTech SKR Pico | [Rook 2020](printer-rook-2020.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040         |
+| BigTreeTech SKR Pico | [Voron 0.2](printer-voron-0.2.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040         |
 
 ## Next Thing Co
 
@@ -143,15 +154,13 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 
 ## Raspberry Pi Pico
 
-| Item                                | Case                              | Flashed with                                  | Notes     |
-| ----------------------------------- | --------------------------------- | --------------------------------------------- | --------- |
-| Bigtreetech SKR Pico                | [Rook 2020](printer-rook-2020.md) | [Klipper Firmware](https://www.klipper3d.org) |           |
-| Bigtreetech SKR Pico                | [Voron 0.2](printer-voron-0.2.md) | [Klipper Firmware](https://www.klipper3d.org) |           |
-| Raspberry Pi Pico                   |                                   | [MicroPython](https://micropython.org)        |           |
-| Raspberry Pi Pico H                 |                                   | [MicroPython](https://micropython.org)        |           |
-| Raspberry Pi Pico W                 |                                   | [MicroPython](https://micropython.org)        |           |
-| Raspberry Pi Pico WH                |                                   | [MicroPython](https://micropython.org)        |           |
-| Raspberry Pi RP2040 Microcontroller |                                   |                                               | Bare Chip |
+| Item                                | Case | Flashed with                           | Notes     |
+| ----------------------------------- | ---- | -------------------------------------- | --------- |
+| Raspberry Pi Pico                   |      | [MicroPython](https://micropython.org) |           |
+| Raspberry Pi Pico H                 |      | [MicroPython](https://micropython.org) |           |
+| Raspberry Pi Pico W                 |      | [MicroPython](https://micropython.org) |           |
+| Raspberry Pi Pico WH                |      |                                        | Boxed     |
+| Raspberry Pi RP2040 Microcontroller |      |                                        | Bare Chip |
 
 ## Teensy
 

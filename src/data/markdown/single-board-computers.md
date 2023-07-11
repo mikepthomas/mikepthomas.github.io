@@ -1,7 +1,7 @@
 # Single Board Computers and Microcontrollers
 
 June 26, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 10, 2023
+Updated July 11, 2023
 
 This page lists all of the single board computers I own and is mainly for me to keep track of what I have and what I am currently using it for.
 
@@ -148,7 +148,7 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 | Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | green      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
 | Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | blue       | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
 | Raspberry Pi 3 Model B V1.2  | a22082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | black      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Waveshare Touch Screen Case       | 64GB MicroSD (Sandisk Ultra) | Raspberry Pi OS                            | controller |                                                                   |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Waveshare Touch Screen Case       | 64GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (64bit)                    | controller |                                                                   |
 | Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag MegaPi Case             | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | megapi     |                                                                   |
 | Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag NESPi Case+             | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | nespi      |                                                                   |
 | Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag SuperPi Case            | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | superpi    |                                                                   |

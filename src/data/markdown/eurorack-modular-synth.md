@@ -1,7 +1,7 @@
 # Building a DIY Eurorack Modular Synth
 
 June 29, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 9, 2023
+Updated July 12, 2023
 
 I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER), In one of his videos he mentioned about the website [Music From Outer Space](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&VPW=1430&VPH=660) and the book `Make: Analog Synthesizers` which I have brought and I am currently reading through.
 

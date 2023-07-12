@@ -1,7 +1,7 @@
 # Single Board Computers and Microcontrollers
 
 June 26, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 11, 2023
+Updated July 12, 2023
 
 This page lists all of the single board computers I own and is mainly for me to keep track of what I have and what I am currently using it for.
 
@@ -40,6 +40,8 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 ## BBC
 
+![BBC micro:bit](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/bbc-micro-bit.jpg)
+
 The micro:bit is an inexpensive board designed to teach children how to code.
 
 | Item                                                    | Case                                                                                                                                         | Flashed with | Notes |
@@ -48,7 +50,9 @@ The micro:bit is an inexpensive board designed to teach children how to code.
 
 ## BigTreeTech
 
-BigTreeTech make mainboards to control 3D printers.
+![BigTreeTech Pi](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/bigtreetech-pi.jpg)
+
+BigTreeTech make mainboards to control 3D printers. :duck:
 
 | Item                                                                                                                                                                                                      | Case                              | Flashed with                                  | Notes                                        |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | --------------------------------------------- | -------------------------------------------- |
@@ -71,6 +75,8 @@ I purchased the Odroid XU4 and CloudShell enclosure to use as a Network Attached
 | [Odroid XU4](https://wiki.odroid.com/odroid-xu4/odroid-xu4) | [CloudShell 2](https://wiki.odroid.com/accessory/add-on_boards/xu4_cloudshell2/xu4_cloudshell2) | 32GB eMMC | Ubuntu 22.04 | cloudshell | With 2 x 3TB Hard Drives in RAID 1                                                                                                                                   |
 
 ## Next Thing Co
+
+![Chip](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/chip.jpg)
 
 Dubbed as "The World's First Nine Dollar Computer" I purchased a CHIP in about November 2016 as a toy to play about with however I hardly used it and eventually the company Next Thing Co. entered insolvency it quickly became unsupported.
 
@@ -97,6 +103,8 @@ I plan on replacing all the Raspberry Pi Zeros in the cluster with Raspberry Pi 
 | Raspberry Pi Zero 2 W V1.0 | 902120   | BCM2837 | 512MB | Voron DIN Clip                                                          | 32GB MicroSD (Integral) | Raspberry Pi OS                                                           | rook     | Klipper installed via Kiauh                    |
 
 ## Raspberry Pi 1
+
+![My Original Raspberry Pi 1](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/original-raspberry-pi-1.jpg)
 
 | Item                       | Revision | SoC     | RAM   | Case                               | Storage                     | OS                       | Hostname    | Notes                                                                        |
 | -------------------------- | -------- | ------- | ----- | ---------------------------------- | --------------------------- | ------------------------ | ----------- | ---------------------------------------------------------------------------- |
@@ -155,6 +163,8 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 
 ## Raspberry Pi 4
 
+![Raspberry Pi 400](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/pi400.jpg)
+
 | Item                        | Revision | SoC     | RAM | Case                                                                    | Storage                     | OS                                                                        | Hostname   | Notes                                                                   |
 | --------------------------- | -------- | ------- | --- | ----------------------------------------------------------------------- | --------------------------- | ------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------------- |
 | Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | [Voron 0.2](printer-voron-0.2.md)                                       | 64GB MicroSD (Integral)     | [MainsailOS](https://docs-os.mainsail.xyz)                                | voron0     | Boxed (Unopened)                                                        |
@@ -165,6 +175,8 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 
 ## Raspberry Pi Pico
 
+![Maker Pi Pico](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/maker-pi-pico.jpg)
+
 | Item                                | Case                                                                                                        | Flashed with                                                     | Notes                           |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------- |
 | Raspberry Pi Pico                   | [Macro Pi](https://www.thingiverse.com/thing:5817044)                                                       | [PiPicoMacroKeys](https://github.com/novaspirit/PiPicoMacroKeys) | In original packaging           |
@@ -172,6 +184,8 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 | Raspberry Pi Pico W                 |                                                                                                             |                                                                  | In original packaging           |
 | Raspberry Pi Pico WH                |                                                                                                             |                                                                  | Boxed                           |
 | Raspberry Pi RP2040 Microcontroller |                                                                                                             |                                                                  | Bare Chip in original packaging |
+
+![Macro Pi](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/macro-pi.jpg)
 
 ## Teensy
 

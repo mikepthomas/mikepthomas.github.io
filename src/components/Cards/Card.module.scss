@@ -27,7 +27,9 @@
   overflow: hidden;
 
   img {
-    transition: transform 0.25s, filter 0.25s ease-in-out;
+    transition:
+      transform 0.25s,
+      filter 0.25s ease-in-out;
     filter: brightness(75%);
   }
 

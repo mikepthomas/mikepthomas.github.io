@@ -44,6 +44,6 @@ export default function register() {
     faLaptopCode,
     faUserGraduate,
     faWarehouse,
-    fab
+    fab,
   );
 }

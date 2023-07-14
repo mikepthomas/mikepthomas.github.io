@@ -42,7 +42,7 @@ export function formatYearsAndMonths(startDate: string, endDate?: string) {
       years: Math.floor(Number(monthCount) / 12),
       months: Number(monthCount) % 12,
     },
-    { delimiter: ', ' }
+    { delimiter: ', ' },
   );
   return `(${out})`;
 }

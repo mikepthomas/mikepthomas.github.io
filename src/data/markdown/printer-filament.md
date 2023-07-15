@@ -197,13 +197,13 @@ This filament was originally brought to print the main parts for my [Voron 1.8](
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                          | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ5MC78) | £17.02   | 4             | ![#0E0F12](https://via.placeholder.com/13/0E0F12/0E0F12.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ5MC78) | £17.02   | 4             | ![#0E0F12](https://via.placeholder.com/13/0E0F12/0E0F12.png) |
 
 ### eSun ABS+ (Blue)
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                         | Purchased From                                | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Blue).ini>) | [3D Jake](https://www.3djake.uk/esun/absblue) | £16.74   | 1             | ![#11378D](https://via.placeholder.com/13/11378D/11378D.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Blue).ini>) | [3D Jake](https://www.3djake.uk/esun/absblue) | £16.74   | 1             | ![#11378D](https://via.placeholder.com/13/11378D/11378D.png) |
 
 ### eSun ABS+ (Brown)
 
@@ -211,7 +211,7 @@ This filament was originally brought to print the interior parts for a [3D Sets 
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                          | Purchased From | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Brown).ini>) | Wedge3D        | £16.20   | 1             | ![#7B503B](https://via.placeholder.com/13/7B503B/7B503B.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Brown).ini>) | Wedge3D        | £16.20   | 1             | ![#7B503B](https://via.placeholder.com/13/7B503B/7B503B.png) |
 
 ### eSun ABS+ (Cold White)
 
@@ -219,7 +219,7 @@ This filament was originally brought to print the roof for a [3D Sets Landy](3d-
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Cold%20White).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ93Y6N) | £16.99   | 1             | ![#FEFEFE](https://via.placeholder.com/13/FEFEFE/FEFEFE.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Cold%20White).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ93Y6N) | £16.99   | 1             | ![#FEFEFE](https://via.placeholder.com/13/FEFEFE/FEFEFE.png) |
 
 ### eSun ABS+ (Fire Engine Red)
 
@@ -227,7 +227,7 @@ This filament was originally brought to print the accent parts for my [Voron 1.8
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                        | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Fire%20Engine%20Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07RT35GSF) | £16.03   | 3             | ![#C60018](https://via.placeholder.com/13/C60018/C60018.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Fire%20Engine%20Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07RT35GSF) | £16.03   | 3             | ![#C60018](https://via.placeholder.com/13/C60018/C60018.png) |
 
 ### eSun ABS+ (Grey)
 
@@ -235,7 +235,7 @@ This filament was originally brought to print the wheels for a [3D Sets Landy](3
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                         | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQHW1NW) | £16.99   | 1             | ![#717B95](https://via.placeholder.com/13/717B95/717B95.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQHW1NW) | £16.99   | 1             | ![#717B95](https://via.placeholder.com/13/717B95/717B95.png) |
 
 ### eSun ABS+ (Light Blue)
 
@@ -243,13 +243,13 @@ This filament will be used to print the main parts for the [Rook MK1](printer-ro
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Light%20Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ1VKXX) | £18.99   | 1             | ![#42C2F4](https://via.placeholder.com/13/42C2F4/42C2F4.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Light%20Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ1VKXX) | £18.99   | 1             | ![#42C2F4](https://via.placeholder.com/13/42C2F4/42C2F4.png) |
 
 ### eSun ABS+ (Magenta)
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Magenta).ini>) | Wedge3D        | £16.20   | 1             | ![#D61549](https://via.placeholder.com/13/D61549/D61549.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Magenta).ini>) | Wedge3D        | £16.20   | 1             | ![#D61549](https://via.placeholder.com/13/D61549/D61549.png) |
 
 ### eSun ABS+ (Orange)
 
@@ -257,7 +257,7 @@ This filament will be used to print some of the accent parts for the [Voron 0.2]
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                     | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Orange).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-orange-3) | £18.59   | 1             | ![#FA4919](https://via.placeholder.com/13/FA4919/FA4919.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Orange).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-orange-3) | £18.59   | 1             | ![#FA4919](https://via.placeholder.com/13/FA4919/FA4919.png) |
 
 ### eSun ABS+ (Peak Green)
 
@@ -265,7 +265,7 @@ This filament will be used to print the parts for the [Rook 2020](printer-rook.m
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Peak%20Green).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQCQ17Y) | £16.99   | 1             | ![#29B94C](https://via.placeholder.com/13/29B94C/29B94C.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Peak%20Green).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQCQ17Y) | £16.99   | 1             | ![#29B94C](https://via.placeholder.com/13/29B94C/29B94C.png) |
 
 ### eSun ABS+ (Pine Green)
 
@@ -273,7 +273,7 @@ This filament was originally brought to print the body panels for a [3D Sets Lan
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                               | Purchased From | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Pine Green).ini>) | Wedge3D        | £16.20   | 1             | ![#2A6F47](https://via.placeholder.com/13/2A6F47/2A6F47.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Pine Green).ini>) | Wedge3D        | £16.20   | 1             | ![#2A6F47](https://via.placeholder.com/13/2A6F47/2A6F47.png) |
 
 ### eSun ABS+ (Pink)
 
@@ -281,7 +281,7 @@ This filament will be used to print the accent parts for the [Rook MK1](printer-
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                         | Purchased From | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Pink).ini>) | Wedge3D        | £16.20   | 1             | ![#F8467A](https://via.placeholder.com/13/F8467A/F8467A.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Pink).ini>) | Wedge3D        | £16.20   | 1             | ![#F8467A](https://via.placeholder.com/13/F8467A/F8467A.png) |
 
 ### eSun ABS+ (Purple)
 
@@ -289,13 +289,13 @@ This filament will be used to print some of the accent parts for the [Voron 0.2]
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Purple).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ2JLJG) | £19.99   | 1             | ![#411482](https://via.placeholder.com/13/411482/411482.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Purple).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ2JLJG) | £19.99   | 1             | ![#411482](https://via.placeholder.com/13/411482/411482.png) |
 
 ### eSun ABS+ (Red)
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                        | Purchased From                                  | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Red).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-red-6) | £16.74   | 1             | ![#F41524](https://via.placeholder.com/13/F41524/F41524.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Red).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-red-6) | £16.74   | 1             | ![#F41524](https://via.placeholder.com/13/F41524/F41524.png) |
 
 ### eSun ABS+ (Silver)
 
@@ -303,7 +303,7 @@ This filament was originally brought to print the frame on a [3D Sets Car Hauler
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                     | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Silver).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-silver-2) | £16.74   | 1             | ![#9D9DAB](https://via.placeholder.com/13/9D9DAB/9D9DAB.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Silver).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-silver-2) | £16.74   | 1             | ![#9D9DAB](https://via.placeholder.com/13/9D9DAB/9D9DAB.png) |
 
 ### eSun ABS+ (Yellow)
 
@@ -311,7 +311,7 @@ This filament was originally brought to print the [3D LabPrint Piper Cub](3d-lab
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                  | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Yellow).ini>) | [3D Jake](https://www.3djake.uk/esun/absyellow) | £16.74   | 1             | ![#F9BE19](https://via.placeholder.com/13/F9BE19/F9BE19.png) |
+| 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Yellow).ini>) | [3D Jake](https://www.3djake.uk/esun/absyellow) | £16.74   | 1             | ![#F9BE19](https://via.placeholder.com/13/F9BE19/F9BE19.png) |
 
 ### eSun PLA (Wood)
 

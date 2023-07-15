@@ -319,7 +319,7 @@ This filament was originally brought to print the wood panels on a [3D Sets Car 
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                       | Purchased From                               | Avg Cost | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%PLA%2B%20(Wood).ini>) | [3D Jake](https://www.3djake.uk/esun/wood-2) | £27.98   | 0.5           | ![#D7AE74](https://via.placeholder.com/13/D7AE74/D7AE74.png) |
+| 215 (1st Layer) 210 (Others) | 60       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%PLA%2B%20(Wood).ini>) | [3D Jake](https://www.3djake.uk/esun/wood-2) | £27.98   | 0.5           | ![#D7AE74](https://via.placeholder.com/13/D7AE74/D7AE74.png) |
 
 ## In Summary
 

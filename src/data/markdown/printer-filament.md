@@ -1,7 +1,7 @@
 # 3D Printer Filament list
 
 January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated June 30, 2023
+Updated July 15, 2023
 
 This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
@@ -53,7 +53,7 @@ This filament was originally brought to upgrade my printer to a Core XY style Hy
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 240         | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Amazon%20Basics%20PETG%20(Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07T2QZYS5) | £19.19   | 1             | ![#EA000B](https://via.placeholder.com/13/EA000B/EA000B.png) |
+| 240         | 70       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Amazon%20Basics%20PETG%20(Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07T2QZYS5) | £19.19   | 1             | ![#EA000B](https://via.placeholder.com/13/EA000B/EA000B.png) |
 
 ### Amazon Basics PLA (Blue)
 
@@ -61,7 +61,7 @@ This filament was originally brought to print Fallout: Wasteland Warfare [Vault]
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Amazon%20Basics%20PLA%20(Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07T2R1BQJ) | £14.88   | 1             | ![#42D1FF](https://via.placeholder.com/13/42D1FF/42D1FF.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Amazon%20Basics%20PLA%20(Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07T2R1BQJ) | £14.88   | 1             | ![#42D1FF](https://via.placeholder.com/13/42D1FF/42D1FF.png) |
 
 ### BasicFil PETG (Clear)
 
@@ -69,7 +69,7 @@ This filament was originally brought to print the [StealthBurner](https://vorond
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 240         | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/BasicFil%20PETG%20(Clear).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07CTLV4W5) | £19.90   | 0.5           | ![#FFFFFC](https://via.placeholder.com/13/FFFFFC/FFFFFC.png) |
+| 240         | 70       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/BasicFil%20PETG%20(Clear).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07CTLV4W5) | £19.90   | 0.5           | ![#FFFFFC](https://via.placeholder.com/13/FFFFFC/FFFFFC.png) |
 
 ### PolyLite LW-PLA (Yellow)
 
@@ -77,7 +77,7 @@ I received this filament from a giveaway on [one of Steve Builds' live streams](
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                               | Purchased From                                                                        | Cost  | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PolyLite%20LW-PLA%20(Yellow).ini>) | [Polymaker](https://us.polymaker.com/products/polylite-lw-pla?variant=40603758559289) | £0.00 | 0.8           | ![#FAD61B](https://via.placeholder.com/13/FAD61B/FAD61B.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/PolyLite%20LW-PLA%20(Yellow).ini>) | [Polymaker](https://us.polymaker.com/products/polylite-lw-pla?variant=40603758559289) | £0.00 | 0.8           | ![#FAD61B](https://via.placeholder.com/13/FAD61B/FAD61B.png) |
 
 ### PolyLite PLA Pro (Black)
 
@@ -85,7 +85,7 @@ I received this filament from a giveaway on [one of Nero 3D's live streams](http
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                                                         | Cost  | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ----- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PolyLite%20PLA%20Pro%20(Black).ini>) | [Polymaker](https://us.polymaker.com/products/polylite-pla-pro?variant=39574346334265) | £0.00 | 1             | ![#101820](https://via.placeholder.com/13/101820/101820.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/PolyLite%20PLA%20Pro%20(Black).ini>) | [Polymaker](https://us.polymaker.com/products/polylite-pla-pro?variant=39574346334265) | £0.00 | 1             | ![#101820](https://via.placeholder.com/13/101820/101820.png) |
 
 ### PrimaValue ABS (Dark Grey)
 
@@ -93,7 +93,7 @@ This filament was brought to print the parts close to the hotend of [my printer]
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                   | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PrimaValue%20ABS%20(Dark%20Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01DWTSEIK) | £15.90   | 1             | ![#535353](https://via.placeholder.com/13/535353/535353.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/PrimaValue%20ABS%20(Dark%20Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01DWTSEIK) | £15.90   | 1             | ![#535353](https://via.placeholder.com/13/535353/535353.png) |
 
 ### PrimaValue PLA (Black)
 
@@ -101,7 +101,7 @@ This filament was originally brought to print an [Out of Marbles Marble Machine]
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                             | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PrimaValue%20PLA%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B013IHX9EA) | £24.80   | 1             | ![#060005](https://via.placeholder.com/13/060005/060005.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/PrimaValue%20PLA%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B013IHX9EA) | £24.80   | 1             | ![#060005](https://via.placeholder.com/13/060005/060005.png) |
 
 ### PrimaValue PLA (Blue)
 
@@ -109,7 +109,7 @@ This filament was originally brought to print the body of the [OpenRC F1 Car pro
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PrimaValue%20PLA%20(Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01AMLMSGU) | £17.90   | 1             | ![#0B007E](https://via.placeholder.com/13/0B007E/0B007E.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/PrimaValue%20PLA%20(Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01AMLMSGU) | £17.90   | 1             | ![#0B007E](https://via.placeholder.com/13/0B007E/0B007E.png) |
 
 ### PrimaValue PLA (Dark Grey)
 
@@ -117,7 +117,7 @@ This filament was the first type I originally brought, it was used to print the 
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                   | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PrimaValue%20PLA%20(Dark%20Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01DWTS7KA) | £19.80   | 5             | ![#535353](https://via.placeholder.com/13/535353/535353.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/PrimaValue%20PLA%20(Dark%20Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01DWTS7KA) | £19.80   | 5             | ![#535353](https://via.placeholder.com/13/535353/535353.png) |
 
 ### PrimaValue PLA (Red)
 
@@ -125,7 +125,7 @@ This filament was originally brought to print the body of the [Guitar project](g
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/PrimaValue%20PLA%20(Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01AMLMTX2) | £24.09   | 3             | ![#D60907](https://via.placeholder.com/13/D60907/D60907.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/PrimaValue%20PLA%20(Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01AMLMTX2) | £24.09   | 3             | ![#D60907](https://via.placeholder.com/13/D60907/D60907.png) |
 
 ### Tinmorry PETG (Black)
 
@@ -133,7 +133,7 @@ This filament was originally brought to upgrade my printer to a Core XY style Hy
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 240         | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PETG%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B087TFZR9K) | £19.99   | 1             | ![#040404](https://via.placeholder.com/13/040404/040404.png) |
+| 240         | 70       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Tinmorry%20PETG%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B087TFZR9K) | £19.99   | 1             | ![#040404](https://via.placeholder.com/13/040404/040404.png) |
 
 ### Tinmorry PETG (White)
 
@@ -141,7 +141,7 @@ This filament was originally brought to upgrade the parts near the hotend and be
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 240         | 70       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PETG%20(White).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B083Z69XKM) | £19.99   | 1             | ![#F7F7F7](https://via.placeholder.com/13/F7F7F7/F7F7F7.png) |
+| 240         | 70       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Tinmorry%20PETG%20(White).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B083Z69XKM) | £19.99   | 1             | ![#F7F7F7](https://via.placeholder.com/13/F7F7F7/F7F7F7.png) |
 
 ### Tinmorry PLA (Black)
 
@@ -149,7 +149,7 @@ This filament was originally brought to print a [box insert](https://www.thingiv
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PLA%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B083Y5G2GJ) | £16.99   | 1             | ![#0E0E0E](https://via.placeholder.com/13/0E0E0E/0E0E0E.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Tinmorry%20PLA%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B083Y5G2GJ) | £16.99   | 1             | ![#0E0E0E](https://via.placeholder.com/13/0E0E0E/0E0E0E.png) |
 
 ### Tinmorry PLA (Grey)
 
@@ -157,7 +157,7 @@ This filament was originally brought to print the floor of the [Red Rocket](red-
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                          | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PLA%20(Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B089YX78N5) | £22.99   | 1             | ![#8D8F8B](https://via.placeholder.com/13/8D8F8B/8D8F8B.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Tinmorry%20PLA%20(Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B089YX78N5) | £22.99   | 1             | ![#8D8F8B](https://via.placeholder.com/13/8D8F8B/8D8F8B.png) |
 
 ### Tinmorry PLA (Matte Brick Red)
 
@@ -165,7 +165,7 @@ This filament was originally brought to print the walls of the [Red Rocket](red-
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                         | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Tinmorry%20PLA%20(Matte%20Brick%20Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | £25.99   | 1             | ![#D8665D](https://via.placeholder.com/13/D8665D/D8665D.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Tinmorry%20PLA%20(Matte%20Brick%20Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B08PKMRVCS) | £25.99   | 1             | ![#D8665D](https://via.placeholder.com/13/D8665D/D8665D.png) |
 
 ### Ziro PLA (Black)
 
@@ -173,7 +173,7 @@ This filament was originally brought to print the barge boards and turning vanes
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                       | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Ziro%20PLA%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B073WX3T91) | £15.99   | 1             | ![#0E0F12](https://via.placeholder.com/13/0E0F12/0E0F12.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Ziro%20PLA%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B073WX3T91) | £15.99   | 1             | ![#0E0F12](https://via.placeholder.com/13/0E0F12/0E0F12.png) |
 
 ### Ziro PLA (Yellow)
 
@@ -181,7 +181,7 @@ This filament was originally brought to print an [Out of Marbles Marble Machine]
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                        | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Ziro%20PLA%20(Yellow).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B075M5KQ6D) | £17.99   | 1             | ![#EFC509](https://via.placeholder.com/13/EFC509/EFC509.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Ziro%20PLA%20(Yellow).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B075M5KQ6D) | £17.99   | 1             | ![#EFC509](https://via.placeholder.com/13/EFC509/EFC509.png) |
 
 ### Ziro TPU (Black)
 
@@ -189,7 +189,7 @@ This filament was originally brought to print the tyres and front and rear wings
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                       | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/Ziro%20TPU%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01INRE4X0) | £21.99   | 1             | ![#0A0A0D](https://via.placeholder.com/13/0A0A0D/0A0A0D.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Ziro%20TPU%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B01INRE4X0) | £21.99   | 1             | ![#0A0A0D](https://via.placeholder.com/13/0A0A0D/0A0A0D.png) |
 
 ### eSun ABS+ (Black)
 
@@ -197,13 +197,13 @@ This filament was originally brought to print the main parts for my [Voron 1.8](
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                          | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ5MC78) | £17.02   | 4             | ![#0E0F12](https://via.placeholder.com/13/0E0F12/0E0F12.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ5MC78) | £17.02   | 4             | ![#0E0F12](https://via.placeholder.com/13/0E0F12/0E0F12.png) |
 
 ### eSun ABS+ (Blue)
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                         | Purchased From                                | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Blue).ini>) | [3D Jake](https://www.3djake.uk/esun/absblue) | £16.74   | 1             | ![#11378D](https://via.placeholder.com/13/11378D/11378D.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Blue).ini>) | [3D Jake](https://www.3djake.uk/esun/absblue) | £16.74   | 1             | ![#11378D](https://via.placeholder.com/13/11378D/11378D.png) |
 
 ### eSun ABS+ (Brown)
 
@@ -211,7 +211,7 @@ This filament was originally brought to print the interior parts for a [3D Sets 
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                          | Purchased From | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Brown).ini>) | Wedge3D        | £16.20   | 1             | ![#7B503B](https://via.placeholder.com/13/7B503B/7B503B.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Brown).ini>) | Wedge3D        | £16.20   | 1             | ![#7B503B](https://via.placeholder.com/13/7B503B/7B503B.png) |
 
 ### eSun ABS+ (Cold White)
 
@@ -219,7 +219,7 @@ This filament was originally brought to print the roof for a [3D Sets Landy](3d-
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Cold%20White).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ93Y6N) | £16.99   | 1             | ![#FEFEFE](https://via.placeholder.com/13/FEFEFE/FEFEFE.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Cold%20White).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ93Y6N) | £16.99   | 1             | ![#FEFEFE](https://via.placeholder.com/13/FEFEFE/FEFEFE.png) |
 
 ### eSun ABS+ (Fire Engine Red)
 
@@ -227,7 +227,7 @@ This filament was originally brought to print the accent parts for my [Voron 1.8
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                        | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Fire%20Engine%20Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07RT35GSF) | £16.03   | 3             | ![#C60018](https://via.placeholder.com/13/C60018/C60018.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Fire%20Engine%20Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07RT35GSF) | £16.03   | 3             | ![#C60018](https://via.placeholder.com/13/C60018/C60018.png) |
 
 ### eSun ABS+ (Grey)
 
@@ -235,7 +235,7 @@ This filament was originally brought to print the wheels for a [3D Sets Landy](3
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                         | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQHW1NW) | £16.99   | 1             | ![#717B95](https://via.placeholder.com/13/717B95/717B95.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Grey).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQHW1NW) | £16.99   | 1             | ![#717B95](https://via.placeholder.com/13/717B95/717B95.png) |
 
 ### eSun ABS+ (Light Blue)
 
@@ -243,13 +243,13 @@ This filament will be used to print the main parts for the [Rook MK1](printer-ro
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Light%20Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ1VKXX) | £18.99   | 1             | ![#42C2F4](https://via.placeholder.com/13/42C2F4/42C2F4.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Light%20Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ1VKXX) | £18.99   | 1             | ![#42C2F4](https://via.placeholder.com/13/42C2F4/42C2F4.png) |
 
 ### eSun ABS+ (Magenta)
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Magenta).ini>) | Wedge3D        | £16.20   | 1             | ![#D61549](https://via.placeholder.com/13/D61549/D61549.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Magenta).ini>) | Wedge3D        | £16.20   | 1             | ![#D61549](https://via.placeholder.com/13/D61549/D61549.png) |
 
 ### eSun ABS+ (Orange)
 
@@ -257,7 +257,7 @@ This filament will be used to print some of the accent parts for the [Voron 0.2]
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                     | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Orange).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-orange-3) | £18.59   | 1             | ![#FA4919](https://via.placeholder.com/13/FA4919/FA4919.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Orange).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-orange-3) | £18.59   | 1             | ![#FA4919](https://via.placeholder.com/13/FA4919/FA4919.png) |
 
 ### eSun ABS+ (Peak Green)
 
@@ -265,7 +265,7 @@ This filament will be used to print the parts for the [Rook 2020](printer-rook.m
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Peak%20Green).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQCQ17Y) | £16.99   | 1             | ![#29B94C](https://via.placeholder.com/13/29B94C/29B94C.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Peak%20Green).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQCQ17Y) | £16.99   | 1             | ![#29B94C](https://via.placeholder.com/13/29B94C/29B94C.png) |
 
 ### eSun ABS+ (Pine Green)
 
@@ -273,7 +273,7 @@ This filament was originally brought to print the body panels for a [3D Sets Lan
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                               | Purchased From | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Pine Green).ini>) | Wedge3D        | £16.20   | 1             | ![#2A6F47](https://via.placeholder.com/13/2A6F47/2A6F47.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Pine Green).ini>) | Wedge3D        | £16.20   | 1             | ![#2A6F47](https://via.placeholder.com/13/2A6F47/2A6F47.png) |
 
 ### eSun ABS+ (Pink)
 
@@ -281,7 +281,7 @@ This filament will be used to print the accent parts for the [Rook MK1](printer-
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                         | Purchased From | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Pink).ini>) | Wedge3D        | £16.20   | 1             | ![#F8467A](https://via.placeholder.com/13/F8467A/F8467A.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Pink).ini>) | Wedge3D        | £16.20   | 1             | ![#F8467A](https://via.placeholder.com/13/F8467A/F8467A.png) |
 
 ### eSun ABS+ (Purple)
 
@@ -289,13 +289,13 @@ This filament will be used to print some of the accent parts for the [Voron 0.2]
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                           | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Purple).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ2JLJG) | £19.99   | 1             | ![#411482](https://via.placeholder.com/13/411482/411482.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Purple).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ2JLJG) | £19.99   | 1             | ![#411482](https://via.placeholder.com/13/411482/411482.png) |
 
 ### eSun ABS+ (Red)
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                        | Purchased From                                  | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Red).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-red-6) | £16.74   | 1             | ![#F41524](https://via.placeholder.com/13/F41524/F41524.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Red).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-red-6) | £16.74   | 1             | ![#F41524](https://via.placeholder.com/13/F41524/F41524.png) |
 
 ### eSun ABS+ (Silver)
 
@@ -303,7 +303,7 @@ This filament was originally brought to print the frame on a [3D Sets Car Hauler
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                     | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Silver).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-silver-2) | £16.74   | 1             | ![#9D9DAB](https://via.placeholder.com/13/9D9DAB/9D9DAB.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Silver).ini>) | [3D Jake](https://www.3djake.uk/esun/abs-silver-2) | £16.74   | 1             | ![#9D9DAB](https://via.placeholder.com/13/9D9DAB/9D9DAB.png) |
 
 ### eSun ABS+ (Yellow)
 
@@ -311,7 +311,7 @@ This filament was originally brought to print the [3D LabPrint Piper Cub](3d-lab
 
 | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                  | Avg Cost | KGs Purchased |                            Color                             |
 | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 250         | 100      | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%20ABS%2B%20(Yellow).ini>) | [3D Jake](https://www.3djake.uk/esun/absyellow) | £16.74   | 1             | ![#F9BE19](https://via.placeholder.com/13/F9BE19/F9BE19.png) |
+| 250         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Yellow).ini>) | [3D Jake](https://www.3djake.uk/esun/absyellow) | £16.74   | 1             | ![#F9BE19](https://via.placeholder.com/13/F9BE19/F9BE19.png) |
 
 ### eSun PLA (Wood)
 
@@ -319,7 +319,7 @@ This filament was originally brought to print the wood panels on a [3D Sets Car 
 
 | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                       | Purchased From                               | Avg Cost | KGs Purchased |                            Color                             |
 | ---------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------- | -------- | ------------- | :----------------------------------------------------------: |
-| 215 (1st Layer) 205 (Others) | 55       | [SuperSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/SuperSlicer/filament/eSun%PLA%2B%20(Wood).ini>) | [3D Jake](https://www.3djake.uk/esun/wood-2) | £27.98   | 0.5           | ![#D7AE74](https://via.placeholder.com/13/D7AE74/D7AE74.png) |
+| 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%PLA%2B%20(Wood).ini>) | [3D Jake](https://www.3djake.uk/esun/wood-2) | £27.98   | 0.5           | ![#D7AE74](https://via.placeholder.com/13/D7AE74/D7AE74.png) |
 
 ## In Summary
 

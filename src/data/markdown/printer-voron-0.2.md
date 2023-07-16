@@ -1,7 +1,7 @@
 # Assembling the smallest Voron printer
 
 Created April 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated June 30, 2023
+Updated July 16, 2023
 
 Building the smallest of the Voron printers, the Voron Zero.
 
@@ -253,13 +253,13 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 #### :negative_squared_cross_mark: A Drive
 
-| Item                                                                                                              | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes |
-| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----- |
-| [A_Drive_Frame_Lower](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/A_Drive_Frame_Lower_x1.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   |       |
-| [A_Drive_Frame_Upper](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/A_Drive_Frame_Upper_x1.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   |       |
-| [9mm_Spacer](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_9mm_Spacer_x6.stl)               | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |       |
-| [A_Drive_Tensioner](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_A_Drive_Tensioner_x1.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |       |
-| [Tensioner_Knob](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_Tensioner_Knob_x2.stl)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
+| Item                                                                                                              | Quantity | Material                                                  | Size  | Weight | Cost  |      Printed       | Notes |
+| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----- |
+| [A_Drive_Frame_Lower](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/A_Drive_Frame_Lower_x1.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 9.61m | 24.51g | £0.42 | :heavy_check_mark: |       |
+| [A_Drive_Frame_Upper](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/A_Drive_Frame_Upper_x1.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 5.91m | 15.07g | £0.26 | :heavy_check_mark: |       |
+| [9mm_Spacer](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_9mm_Spacer_x6.stl)               | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |       |        |       |        :x:         |       |
+| [A_Drive_Tensioner](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_A_Drive_Tensioner_x1.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |       |        |       |        :x:         |       |
+| [Tensioner_Knob](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_Tensioner_Knob_x2.stl)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |       |        |       |        :x:         |       |
 
 #### :negative_squared_cross_mark: B Drive
 

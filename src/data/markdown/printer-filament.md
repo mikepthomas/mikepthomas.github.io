@@ -51,9 +51,9 @@ This is a list of 3D printer filament I have purchased over the years and how I 
 
 This filament was originally brought to upgrade my printer to a Core XY style Hypercube the [Anet Evolution](https://www.thingiverse.com/thing:2786292).
 
-|                            Color                             | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased | Notes |
-| :----------------------------------------------------------: | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | ----- |
-| ![#EA000B](https://via.placeholder.com/13/EA000B/EA000B.png) | 240         | 70       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Amazon%20Basics%20PETG%20(Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07T2QZYS5) | £19.19   | 1             |       |
+|                            Color                             | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased | Notes |
+| :----------------------------------------------------------: | ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | ----- |
+| ![#EA000B](https://via.placeholder.com/13/EA000B/EA000B.png) | 240 (1st Layer) 245 (Others) | 70       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Amazon%20Basics%20PETG%20(Red).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07T2QZYS5) | £19.19   | 1             |       |
 
 ### Amazon Basics PLA (Blue)
 
@@ -61,7 +61,7 @@ This filament was originally brought to print Fallout: Wasteland Warfare [Vault]
 
 |                            Color                             | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased | Notes |
 | :----------------------------------------------------------: | ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | ----- |
-| ![#42D1FF](https://via.placeholder.com/13/42D1FF/42D1FF.png) | 215 (1st Layer) 205 (Others) | 55       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Amazon%20Basics%20PLA%20(Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07T2R1BQJ) | £14.88   | 1             |       |
+| ![#42D1FF](https://via.placeholder.com/13/42D1FF/42D1FF.png) | 215 (1st Layer) 210 (Others) | 60       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/Amazon%20Basics%20PLA%20(Blue).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07T2R1BQJ) | £14.88   | 1             |       |
 
 ### BasicFil PETG (Clear)
 

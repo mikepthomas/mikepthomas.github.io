@@ -68,8 +68,8 @@ This filament was originally brought to print Fallout: Wasteland Warfare [Vault]
 This filament was originally brought to print the [StealthBurner](https://vorondesign.com/voron_stealthburner) LED Diffuser.
 
 |                            Color                             | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Avg Cost | KGs Purchased | Notes |
-| :----------------------------------------------------------: | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | ----- |
-| ![#FFFFFC](https://via.placeholder.com/13/FFFFFC/FFFFFC.png) | 240         | 70       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/BasicFil%20PETG%20(Clear).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07CTLV4W5) | £19.90   | 0.5           |       |
+| :----------------------------------------------------------: | ---------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | ----- |
+| ![#FFFFFC](https://via.placeholder.com/13/FFFFFC/FFFFFC.png) | 240 (1st Layer) 245 (Others) | 70       | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/BasicFil%20PETG%20(Clear).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07CTLV4W5) | £19.90   | 0.5           |       |
 
 ### PolyLite LW-PLA (Yellow)
 

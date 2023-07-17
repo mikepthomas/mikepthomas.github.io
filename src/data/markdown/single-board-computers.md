@@ -1,7 +1,7 @@
 # Single Board Computers and Microcontrollers
 
 June 26, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 12, 2023
+Updated July 17, 2023
 
 This page lists all of the single board computers I own and is mainly for me to keep track of what I have and what I am currently using it for.
 
@@ -117,7 +117,7 @@ I plan on replacing all the Raspberry Pi Zeros in the cluster with Raspberry Pi 
 | Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `node4`         |                          |             | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 | Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `node5`         |                          |             | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 | Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB |                                    |                             |                          |             | Broken SD Slot                                                               |
-| Raspberry Pi Model A+ V1.1 | 0015     | BCM2835 | 256MB | ModMyPi VESA-Pi+ Model A+ Case     |                             |                          |             |                                                                              |
+| Raspberry Pi Model A+ V1.1 | 0015     | BCM2835 | 256MB | ModMyPi VESA-Pi+ Model A+ Case     |                             |                          |             | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 | Raspberry Pi Model B+ V1.2 | 0010     | BCM2835 | 512MB | CanaKit Raspberry Pi Case (Clear)  | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | orange      | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 | Raspberry Pi Model B+ V1.2 | 0013     | BCM2835 | 512MB | CanaKit Raspberry Pi Case (Clear)  | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy) | purple      | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 

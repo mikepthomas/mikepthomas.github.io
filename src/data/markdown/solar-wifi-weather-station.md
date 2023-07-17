@@ -1,6 +1,7 @@
 # Creating a solar powered weather station
 
-June 27, 2023 by [Mike Thomas](https://github.com/mikepthomas)
+June 27, 2023 by [Mike Thomas](https://github.com/mikepthomas),
+Updated July 17, 2023
 
 I won an auction titled "`Box of bits inc Arduinos, Pi's, Odroid, various sensors etc`" on ebay there were 3 PCBs and a few other required components included in the lot, let's order the rest of the parts and assemble them.
 
@@ -26,20 +27,31 @@ The PCB was designed by [Open Green Energy](https://www.instructables.com/member
 
 Quantities are for 1 PCB.
 
-| Item                       | Quantity | Received | Notes                                |
-| -------------------------- | -------- | -------- | ------------------------------------ |
-| Wemos D1 Mini Pro          | 1        |          | 1 on order                           |
-| TP4056 Charging Board      | 1        |          | 5 on order                           |
-| BMP280 Sensor              | 1        |          | 3 on order                           |
-| DS18B20 Sensor             | 1        | 3        |                                      |
-| Switch                     | 1        | 19       |                                      |
-| Screw Terminals            | 1        | 15       |                                      |
-| Brass PCB standoffs        | 4        | 10       |                                      |
-| 18650 Battery              | 1        | 6        |                                      |
-| 18650 Battery Holder       | 1        | 3        |                                      |
-| Solar Panel                | 1        |          | 3 on order                           |
-| Straight Headers Pin       | 46 pins  | 400 pins |                                      |
-| 22 AWG wire                | ~500mm   | 2m       |                                      |
-| Weather Station V2.0 PCB   | 1        | 3        |                                      |
-| Super Glue                 | 1        | 1        |                                      |
-| 3D printing filament (PLA) | 1        | 1        | I haven't decided on a colour yet... |
+| Item                     | Quantity | Received | Notes |
+| ------------------------ | -------- | -------- | ----- |
+| Wemos D1 Mini Pro        | 1        | 1        |       |
+| TP4056 Charging Board    | 1        | 5        |       |
+| BMP280 Sensor            | 1        | 3        |       |
+| DS18B20 Sensor           | 1        | 3        |       |
+| Switch                   | 1        | 19       |       |
+| Screw Terminals          | 1        | 15       |       |
+| Brass PCB standoffs      | 4        | 10       |       |
+| 18650 Battery            | 1        | 6        |       |
+| 18650 Battery Holder     | 1        | 3        |       |
+| Solar Panel              | 1        | 3        |       |
+| Straight Headers Pin     | 46 pins  | 400 pins |       |
+| 22 AWG wire              | ~500mm   | 2m       |       |
+| Weather Station V2.0 PCB | 1        | 3        |       |
+| Super Glue               | 1        | 1        |       |
+
+## Printing Parts
+
+| Item                                                                                                 | Quantity | Material                                                          | Printed | Notes                                                      |
+| ---------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ---------------------------------------------------------- |
+| [Stevenson_Screen_Screen_Top_Cover_for_Solar_Panel](https://www.thingiverse.com/thing:3615016/files) | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   | May need to be modified to fit different sized solar panel |
+| [Stevenson_Screen_Bottom_Mount](https://www.thingiverse.com/thing:3615016/files)                     | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |                                                            |
+| [Stevenson_Screen_PCB_Mount_Frame](https://www.thingiverse.com/thing:3615016/files)                  | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |                                                            |
+| [Stevenson_Screen_Middle_Rings_x_9](https://www.thingiverse.com/thing:3615016/files)                 | 9        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |                                                            |
+| [Stevenson_Screen_Bottom_Plate](https://www.thingiverse.com/thing:3615016/files)                     | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |                                                            |
+| [Stevenson_Screen_Top_Cover](https://www.thingiverse.com/thing:3615016/files)                        | 1        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |                                                            |
+| [M6_PLA_Rod_for_Weather_Station](https://www.thingiverse.com/thing:3615016/files)                    | 4        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |                                                            |

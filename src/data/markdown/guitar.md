@@ -1,9 +1,9 @@
 # 3D Printing an electric guitar
 
 August 2, 2018 by [Mike Thomas](https://github.com/mikepthomas),
-Updated June 17, 2023
+Updated July 17, 2023
 
-How I built a 3D printed Electric Guitar from scratch.
+How I built a [3D printed Electric Guitar](https://www.thingiverse.com/thing:1241278) from scratch.
 
 ![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/guitar-hero.jpg)
 

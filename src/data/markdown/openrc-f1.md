@@ -20,7 +20,8 @@ Assembly of the car is split into the following parts:
 5. [Chassis Assembly](#chassis-assembly)
 6. [Body](#body)
 7. [Accessories](#accessories)
-8. [Electronics Box](#electronics-box)
+8. [Tamiya F104 Tyres](#tamiya-f104-tyres)
+9. [Electronics Box](#electronics-box)
 
 ### Front Wheel Assembly
 
@@ -30,16 +31,18 @@ Assembly of the car is split into the following parts:
 
 **_NOTE:_** Quantities are for 1 Wheel, 2 front wheel assemblies are required
 
-| Item | Quantity | Description                                                                            | Material                                                                   | Time  | Size       | Weight | Cost                    |      Printed       | Notes                                                                                         |
-| ---- | -------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----- | ---------- | ------ | ----------------------- | :----------------: | --------------------------------------------------------------------------------------------- |
-| 1    | 1        | [Front Rim for F104 Tyres](https://www.thingiverse.com/thing:2876251)                  | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 4h 1m | 7.47m      | 22.28g | £0.44                   | :heavy_check_mark: |                                                                                               |
-| 2    | 2        | [TOOGOO Sealed Metal Bearing MR128-ZZ](https://www.amazon.co.uk/gp/product/B074364291) | Stainless Steel                                                            |       | 8x12x3.5mm |        | £2.06 (Pack of 10)      |                    |                                                                                               |
-| 3    | 1        | [Front Wheel Axle](https://www.thingiverse.com/thing:1193309)                          | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 26m   | 0.76m      | 2.26g  | £0.04                   | :heavy_check_mark: | Replaced with [one piece front axle with endstops](https://www.thingiverse.com/thing:2886038) |
-| 4    | 1        | [Front Wheel Hub](https://www.thingiverse.com/thing:1193309)                           | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 28m   | 1.22m      | 3.65g  | £0.07                   | :heavy_check_mark: | Replaced with [one piece front axle with endstops](https://www.thingiverse.com/thing:2886038) |
-| 5    | 1        | [AHC Countersunk Allen Key Bolts](https://www.amazon.co.uk/gp/product/B00WMNMOLG)      | Stainless Steel                                                            |       | M3x12mm    |        | £16.86 (1020 Piece set) |                    |                                                                                               |
-| 6    | 1        | [Wheel Lock Nut](https://www.thingiverse.com/thing:1193309)                            | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 6m    | 0.16m      | 0.48g  | £0.01                   | :heavy_check_mark: |                                                                                               |
-| 7    | 1        | [AHC Countersunk Allen Key Bolts](https://www.amazon.co.uk/gp/product/B00GR404L8)      | Stainless Steel                                                            |       | M3x8mm     |        | £4.39 (Pack of 500)     |                    |                                                                                               |
-| 8    | 1        | [Tamiya F104 Hollow, Front Hard Tyre](https://www.amazon.co.uk/gp/product/B0035WV8AQ)  | Rubber                                                                     |       |            |        | £13.27 (Set of 2)       |                    |                                                                                               |
+| Item | Quantity | Description                                                                            | Material                                                                   | Time   | Size       | Weight | Cost                    |      Printed       | Notes                                                                                         |
+| ---- | -------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------ | ---------- | ------ | ----------------------- | :----------------: | --------------------------------------------------------------------------------------------- |
+| 1    | 1        | [Front Rim](https://www.thingiverse.com/thing:1193309)                                 | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 5h 56m | 3.35m      | 10g    | £0.20                   | :heavy_check_mark: | Replaced with [Tamiya F104 Tyres](#tamiya-f104-tyres)                                         |
+| 2    | 2        | [TOOGOO Sealed Metal Bearing MR128-ZZ](https://www.amazon.co.uk/gp/product/B074364291) | Stainless Steel                                                            |        | 8x12x3.5mm |        | £2.06 (Pack of 10)      |                    |                                                                                               |
+| 3    | 1        | [Front Wheel Axle](https://www.thingiverse.com/thing:1193309)                          | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 26m    | 0.76m      | 2.26g  | £0.04                   | :heavy_check_mark: | Replaced with [one piece front axle with endstops](https://www.thingiverse.com/thing:2886038) |
+| 4    | 1        | [Front Wheel Hub](https://www.thingiverse.com/thing:1193309)                           | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 28m    | 1.22m      | 3.65g  | £0.07                   | :heavy_check_mark: | Replaced with [one piece front axle with endstops](https://www.thingiverse.com/thing:2886038) |
+| 5    | 1        | [AHC Countersunk Allen Key Bolts](https://www.amazon.co.uk/gp/product/B00WMNMOLG)      | Stainless Steel                                                            |        | M3x12mm    |        | £16.86 (1020 Piece set) |                    |                                                                                               |
+| 6    | 1        | [Wheel Lock Nut](https://www.thingiverse.com/thing:1193309)                            | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 6m     | 0.16m      | 0.48g  | £0.01                   | :heavy_check_mark: |                                                                                               |
+| 7    | 1        | [AHC Countersunk Allen Key Bolts](https://www.amazon.co.uk/gp/product/B00GR404L8)      | Stainless Steel                                                            |        | M3x8mm     |        | £4.39 (Pack of 500)     |                    |                                                                                               |
+| 8    | 1        | [OPENRC F1 Rain Tires](https://www.thingiverse.com/thing:999257)                       | [Ziro TPU (Black)](printer-filament.md#ziro-tpu-black)                     | 2h 16m | 8.72m      | 26.02g | £0.57                   | :heavy_check_mark: | Replaced with [Tamiya F104 Tyres](#tamiya-f104-tyres)                                         |
+
+![Front Tyres](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/front-tyres.jpg)
 
 ### Front BOM Assembly
 
@@ -69,10 +72,10 @@ Assembly of the car is split into the following parts:
 
 **_NOTE:_** Quantities are for 1 Wheel, 2 front wheel assemblies are required
 
-| Item | Quantity | Description                                                                          | Material                                                                   | Time   | Size   | Weight | Cost              |      Printed       | Notes |
-| ---- | -------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- | ------ | ------ | ------ | ----------------- | :----------------: | ----- |
-| 1    | 1        | [Rear rim for F104 Tires](https://www.thingiverse.com/thing:3351007)                 | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 4h 58m | 10.55m | 31.47g | £0.62             | :heavy_check_mark: |       |
-| 2    | 1        | [Tamiya F104 Hollow, Back Soft Tyre](https://www.amazon.co.uk/gp/product/B0035WV8B0) | Rubber                                                                     |        |        |        | £15.49 (Set of 2) |                    |       |
+| Item | Quantity | Description                                                      | Material                                                                   | Time   | Size  | Weight | Cost  |      Printed       | Notes                                                 |
+| ---- | -------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------- | ------ | ----- | ------ | ----- | :----------------: | ----------------------------------------------------- |
+| 1    | 1        | [Rear Rim](https://www.thingiverse.com/thing:1193309)            | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 2h 8m  | 3.95m | 11.77g | £0.23 | :heavy_check_mark: | Replaced with [Tamiya F104 Tyres](#tamiya-f104-tyres) |
+| 2    | 1        | [OPENRC F1 Rain Tires](https://www.thingiverse.com/thing:999257) | [Ziro TPU (Black)](printer-filament.md#ziro-tpu-black)                     | 2h 16m | 8.72m | 26.02g | £0.57 | :heavy_check_mark: | Replaced with [Tamiya F104 Tyres](#tamiya-f104-tyres) |
 
 ![Rear Wheel Assembly](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/rear-wheel-assembly.jpg)
 
@@ -150,6 +153,23 @@ Assembly of the car is split into the following parts:
 | [Shark Fin 2018](https://danielnoree.com/openrc-f1-2018/)                          | 1        | [Ziro TPU (Black)](printer-filament.md#ziro-tpu-black) | 50m  | 1.51m | 4.51g  | £0.10 | :heavy_check_mark: |       |
 | [Halo 2018](https://danielnoree.com/openrc-f1-2018/)                               | 1        | [Ziro TPU (Black)](printer-filament.md#ziro-tpu-black) | 29m  | 1.48m | 4.41g  | £0.10 | :heavy_check_mark: |       |
 | [Cockpit](https://www.thingiverse.com/thing:4935156)                               | 1        | [Ziro PLA (Black)](printer-filament.md#ziro-pla-black) |      |       |        |       |        :x:         |       |
+
+### Tamiya F104 Tyres
+
+![Tamiya F104 Tyres](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/tamiya-f104-tyres.jpg)
+
+| Item                                                                                  | Quantity | Material                                                                   | Time   | Size   | Weight | Cost              |      Printed       | Notes |
+| ------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | ------ | ------ | ------ | ----------------- | :----------------: | ----- |
+| [Front Rim for F104 Tyres](https://www.thingiverse.com/thing:2876251)                 | 2        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 4h 1m  | 7.47m  | 22.28g | £0.44             | :heavy_check_mark: |       |
+| [Rear Rim for F104 Tyres](https://www.thingiverse.com/thing:3351007)                  | 2        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) | 4h 58m | 10.55m | 31.47g | £0.62             | :heavy_check_mark: |       |
+| [Tamiya F104 Hollow, Back Soft Tyre](https://www.amazon.co.uk/gp/product/B0035WV8B0)  | 2        | Rubber                                                                     |        |        |        | £15.49 (Set of 2) |                    |       |
+| [Tamiya F104 Hollow, Front Hard Tyre](https://www.amazon.co.uk/gp/product/B0035WV8AQ) | 2        | Rubber                                                                     |        |        |        | £13.27 (Set of 2) |                    |       |
+
+To make the tyres soft enough to be usable, they need to have a very low percentage of infil, therefore they are quite fragile and can be easily split.
+
+![Tyres Split](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/openrc-f1/tyres-split.jpg)
+
+To get better grip and have harder wearing tyres, it's recommended to use off-the-shelf rubber tyres specifically desgned for radio controlled cars.
 
 ### Electronics Box
 

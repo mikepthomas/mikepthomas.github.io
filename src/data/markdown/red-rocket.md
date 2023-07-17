@@ -18,6 +18,7 @@ Assembly of the building is split into the following parts:
 3. [Canopy](#canopy)
 4. [Rocket](#rocket)
 5. [Floor](#floor)
+6. [Accessories](#accessories)
 
 ### Walls
 
@@ -25,22 +26,22 @@ Assembly of the building is split into the following parts:
 
 > Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)
 
-| Item           | Quantity | Material                                                                           | Size   | Weight | Cost  |      Printed       | Notes |
-| -------------- | -------- | ---------------------------------------------------------------------------------- | ------ | ------ | ----- | :----------------: | ----- |
-| Back Wall A    | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 13.29m | 40g    | £1.03 | :heavy_check_mark: |       |
-| Back Wall B    | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 23.05m | 69g    | £1.79 | :heavy_check_mark: |       |
-| Door Canopy    | 3        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)                     | 1.42m  | 4g     | £0.10 | :heavy_check_mark: |       |
-| Front Window A | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey)         | 12.19m | 36g    | £0.58 | :heavy_check_mark: |       |
-| Front Window B | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey)         | 13.79m | 41g    | £0.65 | :heavy_check_mark: |       |
-| Inner Corner A | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 11.25m | 34g    | £0.87 | :heavy_check_mark: |       |
-| Inner Corner B | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 11.99m | 36g    | £0.93 | :heavy_check_mark: |       |
-| Inner Wall A   | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 14.38m | 43g    | £1.11 | :heavy_check_mark: |       |
-| Inner Wall B   | 2        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 12.12m | 36g    | £0.94 | :heavy_check_mark: |       |
-| Left Wall A    | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 7.34m  | 22g    | £0.57 | :heavy_check_mark: |       |
-| Left Wall B    | 2        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 20.93m | 62g    | £1.62 | :heavy_check_mark: |       |
-| Outer Corner   | 4        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 9.58m  | 29g    | £0.74 | :heavy_check_mark: |       |
-| Right Wall A   | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 10.60m | 32g    | £0.82 | :heavy_check_mark: |       |
-| Right Wall B   | 2        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 9.74m  | 29g    | £0.76 | :heavy_check_mark: |       |
+| Item           | Quantity | Material                                                                           | Time   | Size   | Weight | Cost  |      Printed       | Notes |
+| -------------- | -------- | ---------------------------------------------------------------------------------- | ------ | ------ | ------ | ----- | :----------------: | ----- |
+| Back Wall A    | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 4h 9m  | 13.76m | 41.05g | £0.94 | :heavy_check_mark: |       |
+| Back Wall B    | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 7h 26m | 24.27m | 72.40g | £1.66 | :heavy_check_mark: |       |
+| Door Canopy    | 3        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)                     | 52m    | 1.67m  | 4.97g  | £0.12 | :heavy_check_mark: |       |
+| Front Window A | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey)         | 4h 37m | 14.80m | 44.14g | £0.87 | :heavy_check_mark: |       |
+| Front Window B | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey)         | 5h 56m | 17.01m | 50.75g | £1.00 | :heavy_check_mark: |       |
+| Inner Corner A | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 2h 45m | 10.03m | 29.91g | £0.69 | :heavy_check_mark: |       |
+| Inner Corner B | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 2h 55m | 10.66m | 31.79g | £0.73 | :heavy_check_mark: |       |
+| Inner Wall A   | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 3h 35m | 12.75m | 28.02g | £0.87 | :heavy_check_mark: |       |
+| Inner Wall B   | 2        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 3h 22m | 10.95m | 32.67g | £0.75 | :heavy_check_mark: |       |
+| Left Wall A    | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 2h 25m | 6.57m  | 19.58g | £0.45 | :heavy_check_mark: |       |
+| Left Wall B    | 2        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 7h 32m | 23.29m | 69.48g | £1.60 | :heavy_check_mark: |       |
+| Outer Corner   | 4        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 2h 41m | 8.80m  | 26.25g | £0.60 | :heavy_check_mark: |       |
+| Right Wall A   | 1        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 4h 17m | 12.32m | 36.75g | £0.84 | :heavy_check_mark: |       |
+| Right Wall B   | 2        | [Tinmorry PLA (Matte Brick Red)](printer-filament.md#tinmorry-pla-matte-brick-red) | 4h 44m | 14.75m | 43.99g | £1.01 | :heavy_check_mark: |       |
 
 ![Red Rocket Walls](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/red-rocket/walls.jpg)
 
@@ -109,6 +110,29 @@ Assembly of the building is split into the following parts:
 | Scattered Tiles #5   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
 
 ![Red Rocket Floor](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/red-rocket/floor.jpg)
+
+### Accessories
+
+![Red Rocket Accessories](https://www.modiphius.net/cdn/shop/products/FO_PAH_Preserved_Red_Rocket_Image1_700x.jpg)
+
+> Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)
+
+| Item               | Quantity | Material                                                                   | Size | Weight | Cost |      Printed       | Notes |
+| ------------------ | -------- | -------------------------------------------------------------------------- | ---- | ------ | ---- | :----------------: | ----- |
+| Cart               | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |        |      |        :x:         |       |
+| Diagnostic Cart    | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |        |      |        :x:         |       |
+| Gas Pump           | 2        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      | :heavy_check_mark: |       |
+| Nuka Cola Machine  | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      | :heavy_check_mark: |       |
+| Signage A1         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      | :heavy_check_mark: |       |
+| Signage A2         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      | :heavy_check_mark: |       |
+| Signage B1         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      |        :x:         |       |
+| Signage B2         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      |        :x:         |       |
+| Tool Chest         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      | :heavy_check_mark: |       |
+| Tool Rack          | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |        |      |        :x:         |       |
+| Workshop Cabinet 1 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue)     |      |        |      |        :x:         |       |
+| Workshop Cabinet 2 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue)     |      |        |      |        :x:         |       |
+| Workshop Cabinet 3 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue)     |      |        |      |        :x:         |       |
+| Workshop Cabinet 4 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue)     |      |        |      |        :x:         |       |
 
 ## What is it for?
 

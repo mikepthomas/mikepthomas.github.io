@@ -1,7 +1,7 @@
 # 3D Printer Filament list
 
 January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 16, 2023
+Updated July 17, 2023
 
 This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
@@ -18,7 +18,7 @@ This is a list of 3D printer filament I have purchased over the years and how I 
 5. [PolyLite PLA Pro (Black)](#polylite-pla-pro-black)
 6. [PrimaValue ABS (Dark Grey)](#primavalue-abs-dark-grey)
 7. [PrimaValue PLA (Black)](#primavalue-pla-black)
-8. [PrimaValue PLA (Blue)](#primavalue-pla-Blue)
+8. [PrimaValue PLA (Blue)](#primavalue-pla-blue)
 9. [PrimaValue PLA (Dark Grey)](#primavalue-pla-dark-grey)
 10. [PrimaValue PLA (Red)](#primavalue-pla-red)
 11. [Tinmorry PETG (Black)](#tinmorry-petg-black)

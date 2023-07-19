@@ -1,7 +1,7 @@
 # 3D Printing the Red Rocket Truck Stop
 
 April 20, 2021 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 17, 2023
+Updated July 19, 2023
 
 How I built the Red Rocket Truck Stop from Fallout 4.
 
@@ -67,22 +67,22 @@ Assembly of the building is split into the following parts:
 
 > Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)
 
-| Item    | Quantity | Material                                                                   | Size | Weight | Cost | Printed | Notes |
-| ------- | -------- | -------------------------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----- |
-| Roof Ea | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |        |      |   :x:   |       |
-| Roof Eb | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |        |      |   :x:   |       |
-| Roof Fa | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |        |      |   :x:   |       |
-| Roof Fb | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |        |      |   :x:   |       |
-| Roof G  | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |        |      |   :x:   |       |
-| Roof H  | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |        |      |   :x:   |       |
+| Item    | Quantity | Material                                                                   | Time | Size | Weight | Cost | Printed | Notes |
+| ------- | -------- | -------------------------------------------------------------------------- | ---- | ---- | ------ | ---- | :-----: | ----- |
+| Roof Ea | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |   :x:   |       |
+| Roof Eb | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |   :x:   |       |
+| Roof Fa | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |   :x:   |       |
+| Roof Fb | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |   :x:   |       |
+| Roof G  | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |   :x:   |       |
+| Roof H  | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |   :x:   |       |
 
 ### Rocket
 
-| Item            | Quantity | Material                                                                | Size | Weight | Cost | Printed | Notes |
-| --------------- | -------- | ----------------------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----- |
-| Rocket          | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)          |      |        |      |   :x:   |       |
-| Rocket Girder A | 1        | [Tinmorry PLA Filament (Black)](printer-filament.md#tinmorry-pla-black) |      |        |      |   :x:   |       |
-| Rocket Girder B | 1        | [Tinmorry PLA Filament (Black)](printer-filament.md#tinmorry-pla-black) |      |        |      |   :x:   |       |
+| Item            | Quantity | Material                                                                | Time | Size | Weight | Cost | Printed | Notes |
+| --------------- | -------- | ----------------------------------------------------------------------- | ---- | ---- | ------ | ---- | :-----: | ----- |
+| Rocket          | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)          |      |      |        |      |   :x:   |       |
+| Rocket Girder A | 1        | [Tinmorry PLA Filament (Black)](printer-filament.md#tinmorry-pla-black) |      |      |        |      |   :x:   |       |
+| Rocket Girder B | 1        | [Tinmorry PLA Filament (Black)](printer-filament.md#tinmorry-pla-black) |      |      |        |      |   :x:   |       |
 
 ### Floor
 
@@ -90,24 +90,25 @@ Assembly of the building is split into the following parts:
 
 > Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)
 
-| Item                 | Quantity | Material                                                              | Size | Weight | Cost |      Printed       | Notes |
-| -------------------- | -------- | --------------------------------------------------------------------- | ---- | ------ | ---- | :----------------: | ----- |
-| Concrete Flooring #1 | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Concrete Flooring #2 | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Concrete Flooring #3 | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Outer Paving #1      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Outer Paving #2      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Outer Paving #3      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Outer Paving #4      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Outer Paving #5      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Outer Paving #6      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Outer Paving #7      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Outer Paving #8      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Scattered Tiles #1   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Scattered Tiles #2   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Scattered Tiles #3   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Scattered Tiles #4   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
-| Scattered Tiles #5   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) |      |        |      | :heavy_check_mark: |       |
+| Item                 | Quantity | Material                                                              | Time   | Size   | Weight | Cost  |      Printed       | Notes |
+| -------------------- | -------- | --------------------------------------------------------------------- | ------ | ------ | ------ | ----- | :----------------: | ----- |
+| Concrete Flooring #1 | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 2h 50m | 8.71m  | 25.98g | £0.60 | :heavy_check_mark: |       |
+| Concrete Flooring #2 | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 2h 43m | 8.35m  | 24.91g | £0.57 | :heavy_check_mark: |       |
+| Concrete Flooring #3 | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 2h 43m | 8.28m  | 24.69g | £0.57 | :heavy_check_mark: |       |
+| Outer Paving #1      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 2h 20m | 7.60m  | 22.66g | £0.52 | :heavy_check_mark: |       |
+| Outer Paving #2      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 2h 16m | 7.44m  | 22.20g | £0.51 | :heavy_check_mark: |       |
+| Outer Paving #3      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 3h 39m | 12.14m | 36.22g | £0.83 | :heavy_check_mark: |       |
+| Outer Paving #4      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 3h 57m | 12.31m | 36.71g | £0.84 | :heavy_check_mark: |       |
+| Outer Paving #5      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 1h 57m | 6.18m  | 18.42g | £0.42 | :heavy_check_mark: |       |
+| Outer Paving #6      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 3h 33m | 11.66m | 34.79g | £0.80 | :heavy_check_mark: |       |
+| Outer Paving #7      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 2h 35m | 8.48m  | 25.29g | £0.58 | :heavy_check_mark: |       |
+| Outer Paving #8      | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 2h 18m | 7.57m  | 22.58g | £0.52 | :heavy_check_mark: |       |
+| Scattered Tiles #1   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 3h 47m | 9.94m  | 29.64g | £0.68 | :heavy_check_mark: |       |
+| Scattered Tiles #2   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 2h 56m | 7.65m  | 22.81g | £0.52 | :heavy_check_mark: |       |
+| Scattered Tiles #3   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 3h 6m  | 8.24m  | 24.58g | £0.57 | :heavy_check_mark: |       |
+| Scattered Tiles #4   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 4h 33m | 12.06m | 35.98g | £0.83 | :heavy_check_mark: |       |
+| Scattered Tiles #5   | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 4h 6m  | 10.68m | 31.86g | £0.73 | :heavy_check_mark: |       |
+| Pump Paving          | 1        | [Tinmorry PLA Filament (Grey)](printer-filament.md#tinmorry-pla-grey) | 4h 3m  | 13.23m | 39.46g | £0.91 | :heavy_check_mark: |       |
 
 ![Red Rocket Floor](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/red-rocket/floor.jpg)
 
@@ -117,22 +118,22 @@ Assembly of the building is split into the following parts:
 
 > Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)
 
-| Item               | Quantity | Material                                                                   | Size | Weight | Cost |      Printed       | Notes |
-| ------------------ | -------- | -------------------------------------------------------------------------- | ---- | ------ | ---- | :----------------: | ----- |
-| Cart               | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |        |      |        :x:         |       |
-| Diagnostic Cart    | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |        |      |        :x:         |       |
-| Gas Pump           | 2        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      | :heavy_check_mark: |       |
-| Nuka Cola Machine  | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      | :heavy_check_mark: |       |
-| Signage A1         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      | :heavy_check_mark: |       |
-| Signage A2         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      | :heavy_check_mark: |       |
-| Signage B1         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      |        :x:         |       |
-| Signage B2         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      |        :x:         |       |
-| Tool Chest         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |        |      | :heavy_check_mark: |       |
-| Tool Rack          | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |        |      |        :x:         |       |
-| Workshop Cabinet 1 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue)     |      |        |      |        :x:         |       |
-| Workshop Cabinet 2 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue)     |      |        |      |        :x:         |       |
-| Workshop Cabinet 3 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue)     |      |        |      |        :x:         |       |
-| Workshop Cabinet 4 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue)     |      |        |      |        :x:         |       |
+| Item               | Quantity | Material                                                                   | Time | Size | Weight | Cost |      Printed       | Notes |
+| ------------------ | -------- | -------------------------------------------------------------------------- | ---- | ---- | ------ | ---- | :----------------: | ----- |
+| Cart               | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |        :x:         |       |
+| Diagnostic Cart    | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |        :x:         |       |
+| Gas Pump           | 2        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |      |        |      | :heavy_check_mark: |       |
+| Nuka Cola Machine  | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |      |        |      | :heavy_check_mark: |       |
+| Signage A1         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |      |        |      | :heavy_check_mark: |       |
+| Signage A2         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |      |        |      | :heavy_check_mark: |       |
+| Signage B1         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |      |        |      |        :x:         |       |
+| Signage B2         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |      |        |      |        :x:         |       |
+| Tool Chest         | 1        | [PrimaValue PLA (Red)](printer-filament.md#primavalue-pla-red)             |      |      |        |      | :heavy_check_mark: |       |
+| Tool Rack          | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |        :x:         |       |
+| Workshop Cabinet 1 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue)     |      |      |        |      |        :x:         |       |
+| Workshop Cabinet 2 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue)     |      |      |        |      |        :x:         |       |
+| Workshop Cabinet 3 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue)     |      |      |        |      |        :x:         |       |
+| Workshop Cabinet 4 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue)     |      |      |        |      |        :x:         |       |
 
 ## What is it for?
 

@@ -1,7 +1,7 @@
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 28, 2023
+Updated July 21, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
@@ -119,7 +119,9 @@ I have yet to test the Serial port; it just passes the connections directly to t
 
 Now to the major design flaw - I neglected to check if the Raspberry Pi is capable of analog input (spoiler - it's not) I have looked into adding an Analog to Digital Converter (ADC), however it will take up quite a bit of space on the board and I am unsure if I could get it to work with Klipper. I have therefore opted to remove the thermistor ports in favour of 2 General Purpose Input/Output connectors for connecting items such as Filament Runout Sensors instead.
 
-If a temperature sensor is required, I have purchased a couple of different DS18B20 temperature sensors to test, they connect to the 1-wire port and should be [compatable with Klipper](https://www.klipper3d.org/Config_Reference.html#ds18b20-temperature-sensor). It is also possible to connect a HTU21D Temperature and Humidity sensor to the I2C port that is also [compatible with Klipper](https://www.klipper3d.org/Config_Reference.html#htu21d-sensor).
+![1 Wire Temperature Sensor](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/1-wire-temp-sensor.jpg)
+
+If a temperature sensor is required, I have tested a couple of different DS18B20 temperature sensors, they connect to the 1-wire port and are be [compatable with Klipper](https://www.klipper3d.org/Config_Reference.html#ds18b20-temperature-sensor). It is also possible to connect a HTU21D Temperature and Humidity sensor to the I2C port that is also [compatible with Klipper](https://www.klipper3d.org/Config_Reference.html#htu21d-sensor).
 
 I also have a DHT11 temperature sensor to test on the 1-Wire port. This is not currently compatible with Klipper, but could be used with a [Python script running directly on the Pi](https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/).
 

@@ -79,8 +79,8 @@ The reference numbers in the notes field refer to the parts required marked on t
 | 100nF Capacitor (1206 Package)          | 1        | 20       | C1                     |
 | 100Ω Resistor (1206 Package)            | 5        | 123      | R7, R9, R11, R13, R15  |
 | 1kΩ Resistor (1206 Package)             | 1        | 127      | R1                     |
-| 3.9kΩ Resistor (1206 Package)           | 5        | 112      | R2-R6                  |
-| 4.7kΩ Resistor (1206 Package)           | 6        | 103      | R17-R22                |
+| 3.9kΩ Resistor (1206 Package)           | 2        | 112      | R2-R3                  |
+| 4.7kΩ Resistor (1206 Package)           | 9        | 103      | R4-R6, R17-R22         |
 | 10kΩ Resistor (1206 Package)            | 5        | 111      | R8, R10, R12, R14, R16 |
 | LED Red (1206 Package)                  | 7        | 105      | D1-D7                  |
 | IRLML6344-TRPBF Mosfet (SOT-23 Package) | 5        | 50       | Q1-Q5                  |

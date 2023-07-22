@@ -1,7 +1,7 @@
 # Assembling the smallest Voron printer
 
 Created April 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 21, 2023
+Updated July 22, 2023
 
 Building the smallest of the Voron printers, the Voron Zero.
 
@@ -287,11 +287,11 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 #### :negative_squared_cross_mark: B Idler
 
-| Item                                                                                                        | Quantity | Material                                                  | Size  | Weight | Cost  | Printed | Notes |
-| ----------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ----- | ------ | ----- | :-----: | ----- |
-| [B_Idler_Lower](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/B_Idler_Lower_x1.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 2.47m | 6.31g  | £0.11 |   :x:   |       |
-| [B_Idler_Upper](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/B_Idler_Upper_x1.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 1.74m | 4.43g  | £0.08 |   :x:   |       |
-| [Idler_Cam_Lock](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_Idler_Cam_Lock_x2.STL) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |       |        |       |   :x:   |       |
+| Item                                                                                                        | Quantity | Material                                                  | Size  | Weight | Cost  |      Printed       | Notes |
+| ----------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----- |
+| [B_Idler_Lower](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/B_Idler_Lower_x1.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 2.47m | 6.31g  | £0.11 | :heavy_check_mark: |       |
+| [B_Idler_Upper](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/B_Idler_Upper_x1.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 1.74m | 4.43g  | £0.08 | :heavy_check_mark: |       |
+| [Idler_Cam_Lock](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_Idler_Cam_Lock_x2.STL) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |       |        |       |        :x:         |       |
 
 ### Z Axis
 

@@ -24,9 +24,24 @@ Assembly of the guitar is split into the following parts:
 
 ![Sourcing Main Components](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/01-sourcing-parts.jpg)
 
-All the parts required to assemble the guitar have been purchased from Amazon. They were the cheapest parts I could find that fit the aesthetic I was going for.
+| Item                                                                            | Quantity    | Received    | Notes |
+| ------------------------------------------------------------------------------- | ----------- | ----------- | ----- |
+| [18 Gauge wire](https://www.amazon.co.uk/gp/product/B01G50DHFS)                 | ~1ft        | 40ft        |       |
+| [Various Bolts](https://www.amazon.co.uk/gp/product/B00B22VHPC)                 | 1 kit       | 1 kit       |       |
+| [Araldite Epoxy](https://www.amazon.co.uk/gp/product/B00AU0MW1K)                | 1           | 1           |       |
+| [Tuning Machine Head Tuners](https://www.amazon.co.uk/gp/product/B01JUMZ5J4)    | 6           | 6           |       |
+| [Tremolo Bridge](https://www.amazon.co.uk/gp/product/B00BQUZXI2)                | 1           | 1           |       |
+| [Neck Plate](https://www.amazon.co.uk/gp/product/B0191AGUIU)                    | 1           | 1           |       |
+| [Guitar Strap Buttons](https://www.amazon.co.uk/gp/product/B01LWI4Q4Q)          | 2           | 2           |       |
+| [Scratchplate Pickguard Screws](https://www.amazon.co.uk/gp/product/B00HS52RZG) | 12          | 20          |       |
+| [Maple Guitar Neck](https://www.amazon.co.uk/gp/product/B01ID9F25W)             | 1           | 1           |       |
+| [Input Jack Plug](https://www.amazon.co.uk/gp/product/B01ABU19OO)               | 1           | 1           |       |
+| [Pick Guard](https://www.amazon.co.uk/gp/product/B00APB3FFQ)                    | 1           | 1           |       |
+| [Guitar Strings](https://www.amazon.co.uk/gp/product/B0002PBS6I)                | 1 pack of 6 | 1 pack of 6 |       |
 
 ![Sourcing Smaller Parts](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/guitar/02-finished-sourcing.jpg)
+
+All the parts required to assemble the guitar have been purchased from Amazon. They were the cheapest parts I could find that fit the aesthetic I was going for.
 
 ## Printing Parts
 

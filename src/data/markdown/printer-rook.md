@@ -1,9 +1,11 @@
 # 3D Printing a cheap CoreXY 3D Printer
 
 Febuary 2, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 24, 2023
+Updated July 23, 2023
 
 Sourcing and printing parts to assemble a [Rook 2020 3D Printer](https://www.printables.com/model/447255).
+
+![Rook Hero](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-rook/rook-2020-frame.jpg)
 
 ---
 

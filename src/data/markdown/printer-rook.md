@@ -129,11 +129,10 @@ Sourcing and printing parts to assemble a [Rook 2020 3D Printer](https://www.pri
 
 ### Side-mounted spool and Extruder
 
-| Item                                                                     | Quantity | Material                                                          | Printed | Notes                                                         |
-| ------------------------------------------------------------------------ | -------- | ----------------------------------------------------------------- | :-----: | ------------------------------------------------------------- |
-| [motor-mount short V2](https://www.printables.com/model/349249/files)    | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
-| [Front Vertical Spool V4](https://www.printables.com/model/349249/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
-| [Spool-hanger V4](https://www.printables.com/model/349249/files)         | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
+| Item                                                            | Quantity | Material                                                          | Printed | Notes                                                         |
+| --------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ------------------------------------------------------------- |
+| [Extruder-Mount](https://www.printables.com/model/510328/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
+| [Spool-holder](https://www.printables.com/model/488474/files)   | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
 
 ### Skirts
 

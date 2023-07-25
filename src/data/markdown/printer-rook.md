@@ -1,7 +1,7 @@
 # 3D Printing a cheap CoreXY 3D Printer
 
 Febuary 2, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 23, 2023
+Updated July 25, 2023
 
 Sourcing and printing parts to assemble a [Rook 2020 3D Printer](https://www.printables.com/model/447255).
 
@@ -80,30 +80,36 @@ Sourcing and printing parts to assemble a [Rook 2020 3D Printer](https://www.pri
 
 ### Bed
 
-| Item                                                                | Quantity | Material                                                          | Printed | Notes                                                         |
-| ------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ------------------------------------------------------------- |
-| [modified-bed-front](https://www.printables.com/model/454912/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [human](https://www.printables.com/@human)   |
-| [modified-bed-left](https://www.printables.com/model/454912/files)  | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [human](https://www.printables.com/@human)   |
-| [modified-bed-right](https://www.printables.com/model/454912/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [human](https://www.printables.com/@human)   |
-| [Rook Bed Frame 150](https://www.printables.com/model/381943/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog) |
+| Item                                                                | Quantity | Material                                                          | Printed | Notes                                                                   |
+| ------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----------------------------------------------------------------------- |
+| [modified-bed-front](https://www.printables.com/model/454912/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [human](https://www.printables.com/@human)             |
+| [modified-bed-left](https://www.printables.com/model/454912/files)  | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [human](https://www.printables.com/@human)             |
+| [modified-bed-right](https://www.printables.com/model/454912/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [human](https://www.printables.com/@human)             |
+| [Rook Bed Frame 150](https://www.printables.com/model/381943/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Kanrog](https://www.printables.com/@Kanrog)           |
+| [Chain Clamp Top](https://www.printables.com/model/520929/files)    | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [JagdNutCrkr](https://www.printables.com/@JagdNutCrkr) |
+| [Chain Clamp Bottom](https://www.printables.com/model/520929/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [JagdNutCrkr](https://www.printables.com/@JagdNutCrkr) |
+| [Chain Frame Mount](https://www.printables.com/model/520929/files)  | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [JagdNutCrkr](https://www.printables.com/@JagdNutCrkr) |
 
 ### Frame
 
-| Item                                                               | Quantity | Material                                                          | Printed | Notes                                                               |
-| ------------------------------------------------------------------ | -------- | ----------------------------------------------------------------- | :-----: | ------------------------------------------------------------------- |
-| [foot](https://www.printables.com/model/447255/files)              | 4        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |                                                                     |
-| [Motor Mount Left](https://www.printables.com/model/449950/files)  | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Will D](https://www.printables.com/@WillD_323883) |
-| [Motor Mount Right](https://www.printables.com/model/449950/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Will D](https://www.printables.com/@WillD_323883) |
-| [Rook boot](https://www.printables.com/model/371470/files)         | 4        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [FabienT](https://www.printables.com/@FabienT)     |
+| Item                                                               | Quantity | Material                                                          | Printed | Notes                                                                   |
+| ------------------------------------------------------------------ | -------- | ----------------------------------------------------------------- | :-----: | ----------------------------------------------------------------------- |
+| [LeftFrontFoot](https://www.printables.com/model/513180/files)     | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [JagdNutCrkr](https://www.printables.com/@JagdNutCrkr) |
+| [RightFrontFoot](https://www.printables.com/model/513180/files)    | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [JagdNutCrkr](https://www.printables.com/@JagdNutCrkr) |
+| [LeftRearFoot](https://www.printables.com/model/513180/files)      | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [JagdNutCrkr](https://www.printables.com/@JagdNutCrkr) |
+| [RightRearFoot](https://www.printables.com/model/513180/files)     | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [JagdNutCrkr](https://www.printables.com/@JagdNutCrkr) |
+| [Motor Mount Left](https://www.printables.com/model/449950/files)  | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Will D](https://www.printables.com/@WillD_323883)     |
+| [Motor Mount Right](https://www.printables.com/model/449950/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [Will D](https://www.printables.com/@WillD_323883)     |
+| [Rook boot](https://www.printables.com/model/371470/files)         | 4        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [FabienT](https://www.printables.com/@FabienT)         |
 
 ### Z Axis
 
-| Item                                                                | Quantity | Material                                                          | Printed | Notes |
-| ------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----- |
-| [Z_Idler_Mount](https://www.printables.com/model/447255/files)      | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |       |
-| [Z_Motor_Mount](https://www.printables.com/model/447255/files)      | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |       |
-| [Z_Rod_Mount_Bottom](https://www.printables.com/model/447255/files) | 2        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |       |
-| [Z_Rod_Mount_Top](https://www.printables.com/model/447255/files)    | 2        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |       |
+| Item                                                                | Quantity | Material                                                          | Printed | Notes                                                                   |
+| ------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----------------------------------------------------------------------- |
+| [Z_Idler_Mount](https://www.printables.com/model/447255/files)      | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |                                                                         |
+| [SkirtRear](https://www.printables.com/model/513180/files)          | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [JagdNutCrkr](https://www.printables.com/@JagdNutCrkr) |
+| [Z_Rod_Mount_Bottom](https://www.printables.com/model/447255/files) | 2        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |                                                                         |
+| [Z_Rod_Mount_Top](https://www.printables.com/model/447255/files)    | 2        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   |                                                                         |
 
 ### Gantry
 
@@ -131,8 +137,17 @@ Sourcing and printing parts to assemble a [Rook 2020 3D Printer](https://www.pri
 
 ### Skirts
 
-| Item                                                                          | Quantity | Material                                                          | Printed | Notes                                                       |
-| ----------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----------------------------------------------------------- |
-| [Rook_skirt_front_OLED_Screen](https://www.printables.com/model/419088/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [HK721](https://www.printables.com/@HK721) |
-| [Rook_skirt_side_left](https://www.printables.com/model/419088/files)         | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [HK721](https://www.printables.com/@HK721) |
-| [Rook_skirt_side_right](https://www.printables.com/model/419088/files)        | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [HK721](https://www.printables.com/@HK721) |
+| Item                                                                          | Quantity | Material                                                          | Printed | Notes                                                                   |
+| ----------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----------------------------------------------------------------------- |
+| [Rook_skirt_front_OLED_Screen](https://www.printables.com/model/419088/files) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [HK721](https://www.printables.com/@HK721)             |
+| [SkirtLeft](https://www.printables.com/model/513180/files)                    | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [JagdNutCrkr](https://www.printables.com/@JagdNutCrkr) |
+| [SkirtRight](https://www.printables.com/model/513180/files)                   | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [JagdNutCrkr](https://www.printables.com/@JagdNutCrkr) |
+
+### Panels
+
+| Item                                                                 | Quantity | Material                                                          | Printed | Notes                                                             |
+| -------------------------------------------------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----------------------------------------------------------------- |
+| [Single piece max coverup](https://www.printables.com/model/469992)  | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [tcbp](https://www.printables.com/@tcbp)         |
+| [Rook2020-BackPanel](https://www.printables.com/model/501946)        | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [ImSteffe](https://www.printables.com/@ImSteffe) |
+| [LRS-150-Case-Lid](https://www.printables.com/model/397744)          | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [ImSteffe](https://www.printables.com/@ImSteffe) |
+| [LRS-150-Case-Heat-Inserts](https://www.printables.com/model/397744) | 1        | [eSun ABS+ (Peak Green)](printer-filament.md#esun-abs-peak-green) |   :x:   | This is a mod by [ImSteffe](https://www.printables.com/@ImSteffe) |

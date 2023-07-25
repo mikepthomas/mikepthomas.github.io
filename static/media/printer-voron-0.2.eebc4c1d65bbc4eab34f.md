@@ -1,7 +1,7 @@
 # Assembling the smallest Voron printer
 
 Created April 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated June 30, 2023
+Updated July 23, 2023
 
 Building the smallest of the Voron printers, the Voron Zero.
 
@@ -228,7 +228,7 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 | Item                                                                                                                                                           | Quantity | Material                                                         | Size | Weight | Cost | Printed | Notes                                 |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------------------- |
 | [Kirigami_Bed_Spacer](https://github.com/stvptrsn/Voron_Stuff/blob/main/Voron_0/Kirigami/Kirigami_Bed_Spacer.stl)                                              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          |      |        |      |   :x:   | This is a Voron Users Mod by stvptrsn |
-| [kirigami_wago_mount](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/master/STL/kirigami_wago_mount.stl)                                     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          |      |        |      |   :x:   | This is a Kirigami Bed Part           |
+| [kirigami_wago_mount](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/master/STL/kirigami_wago_mount.stl)                                     | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)          |      |        |      |   :x:   | This is a Kirigami Bed Part           |
 | [logo_insert](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/logo_insert.stl)                                                              | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple)        |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
 | [main_body_kirigami](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/%5Ba%5D_main_body_kirigami.stl)                                        | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange)        |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
 | [rainbow_barf_diffuser](https://github.com/MapleLeafMakers/Stealth_Bed_Front/blob/main/STL/%5Bc%5D_rainbow_barf_diffuser.stl)                                  | 1        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear) |      |        |      |   :x:   | This is a Maple Leaf Makers Part      |
@@ -253,23 +253,23 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 #### :negative_squared_cross_mark: A Drive
 
-| Item                                                                                                              | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes |
-| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----- |
-| [A_Drive_Frame_Lower](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/A_Drive_Frame_Lower_x1.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   |       |
-| [A_Drive_Frame_Upper](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/A_Drive_Frame_Upper_x1.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   |       |
-| [9mm_Spacer](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_9mm_Spacer_x6.stl)               | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |       |
-| [A_Drive_Tensioner](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_A_Drive_Tensioner_x1.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |       |
-| [Tensioner_Knob](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_Tensioner_Knob_x2.stl)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
+| Item                                                                                                              | Quantity | Material                                                  | Size  | Weight | Cost  |      Printed       | Notes |
+| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----- |
+| [A_Drive_Frame_Lower](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/A_Drive_Frame_Lower_x1.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 9.61m | 24.51g | £0.42 | :heavy_check_mark: |       |
+| [A_Drive_Frame_Upper](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/A_Drive_Frame_Upper_x1.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 5.91m | 15.07g | £0.26 | :heavy_check_mark: |       |
+| [9mm_Spacer](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_9mm_Spacer_x6.stl)               | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |       |        |       |        :x:         |       |
+| [A_Drive_Tensioner](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_A_Drive_Tensioner_x1.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |       |        |       |        :x:         |       |
+| [Tensioner_Knob](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_Tensioner_Knob_x2.stl)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |       |        |       |        :x:         |       |
 
 #### :negative_squared_cross_mark: B Drive
 
-| Item                                                                                                              | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes |
-| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----- |
-| [B_Drive_Frame_Lower](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/B_Drive_Frame_Lower_x1.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   |       |
-| [B_Drive_Frame_Upper](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/B_Drive_Frame_Upper_x1.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   |       |
-| [9mm_Spacer](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_9mm_Spacer_x6.stl)               | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |       |
-| [B_Drive_Tensioner](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_B_Drive_Tensioner_x1.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |       |
-| [Tensioner_Knob](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_Tensioner_Knob_x2.stl)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |      |        |      |   :x:   |       |
+| Item                                                                                                              | Quantity | Material                                                  | Size  | Weight | Cost  |      Printed       | Notes |
+| ----------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----- |
+| [B_Drive_Frame_Lower](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/B_Drive_Frame_Lower_x1.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 9.62m | 24.52g | £0.42 | :heavy_check_mark: |       |
+| [B_Drive_Frame_Upper](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/B_Drive_Frame_Upper_x1.stl)     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 5.91m | 15.07g | £0.26 | :heavy_check_mark: |       |
+| [9mm_Spacer](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_9mm_Spacer_x6.stl)               | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |       |        |       |        :x:         |       |
+| [B_Drive_Tensioner](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_B_Drive_Tensioner_x1.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |       |        |       |        :x:         |       |
+| [Tensioner_Knob](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_Tensioner_Knob_x2.stl)       | 1        | [eSun ABS+ (Purple)](printer-filament.md#esun-abs-purple) |       |        |       |        :x:         |       |
 
 ### A/B Idlers
 
@@ -279,19 +279,19 @@ After having to source my own parts for the [Voron 1.8](printer-voron-1.8.md) as
 
 #### :negative_squared_cross_mark: A Idler
 
-| Item                                                                                                        | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes |
-| ----------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----- |
-| [A_Idler_Lower](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/A_Idler_Lower_x1.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   |       |
-| [A_Idler_Upper](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/A_Idler_Upper_x1.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   |       |
-| [Idler_Cam_Lock](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_Idler_Cam_Lock_x2.STL) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |       |
+| Item                                                                                                        | Quantity | Material                                                  | Size  | Weight | Cost  |      Printed       | Notes |
+| ----------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----- |
+| [A_Idler_Lower](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/A_Idler_Lower_x1.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 1.45m | 3.70g  | £0.06 | :heavy_check_mark: |       |
+| [A_Idler_Upper](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/A_Idler_Upper_x1.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 2.76m | 7.04g  | £0.12 | :heavy_check_mark: |       |
+| [Idler_Cam_Lock](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_Idler_Cam_Lock_x2.STL) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |       |        |       |        :x:         |       |
 
 #### :negative_squared_cross_mark: B Idler
 
-| Item                                                                                                        | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes |
-| ----------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ----- |
-| [B_Idler_Lower](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/B_Idler_Lower_x1.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   |       |
-| [B_Idler_Upper](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/B_Idler_Upper_x1.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |      |        |      |   :x:   |       |
-| [Idler_Cam_Lock](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_Idler_Cam_Lock_x2.STL) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   |       |
+| Item                                                                                                        | Quantity | Material                                                  | Size  | Weight | Cost  |      Printed       | Notes |
+| ----------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ----- |
+| [B_Idler_Lower](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/B_Idler_Lower_x1.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 2.47m | 6.31g  | £0.11 | :heavy_check_mark: |       |
+| [B_Idler_Upper](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/B_Idler_Upper_x1.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   | 1.74m | 4.43g  | £0.08 | :heavy_check_mark: |       |
+| [Idler_Cam_Lock](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/%5Ba%5D_Idler_Cam_Lock_x2.STL) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |       |        |       |        :x:         |       |
 
 ### Z Axis
 

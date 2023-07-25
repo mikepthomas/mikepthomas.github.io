@@ -1,7 +1,7 @@
 # Extruders and Toolheads
 
 Created March 7, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated April 24, 2023
+Updated July 19, 2023
 
 Extruders and Toolheads that I have used or are going to use on my 3D Printer.
 
@@ -120,12 +120,12 @@ I will print two M4 Extruders, 1 standard and 1 mirrored to mount to the back of
 
 ### Printed Parts
 
-| Item                                                                                                                                     | Quantity | Material                                                | Printed | Notes                                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | --------------------------------------- |
-| [bowden_dual_front_a](https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Gantry/X_Axis/X_Carriage/Bowden/bowden_dual_front_a.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                         |
-| [bowden_dual_front_b](https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Gantry/X_Axis/X_Carriage/Bowden/bowden_dual_front_b.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                         |
-| [bowden_rear](https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Gantry/X_Axis/X_Carriage/Bowden/bowden_rear.stl)                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                         |
-| [chain_anchor](https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Gantry/X_Axis/X_Carriage/Direct_Feed/chain_anchor_3hole.stl)    | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is the Generic Cable Chain Version |
+| Item                                                                                                                         | Quantity | Material                                                | Printed | Notes                                   |
+| ---------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | --------------------------------------- |
+| [bowden_dual_front_a](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/Bowden/bowden_dual_front_a.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                         |
+| [bowden_dual_front_b](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/Bowden/bowden_dual_front_b.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                         |
+| [bowden_rear](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/Bowden/bowden_rear.stl)                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                                         |
+| [chain_anchor](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/Direct_Feed/chain_anchor_3hole.stl)    | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is the Generic Cable Chain Version |
 
 ## Voron Afterburner/Stealthburner
 
@@ -237,10 +237,10 @@ There is also an adapter plate, [Hypercube Afterburner adapter intergration remi
 
 #### V6 Toolhead
 
-| Item                                                                                                                                                                              | Quantity | Material                                                | Printed | Notes               |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ------------------- |
-| [printhead_v6_r6_front](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/Printheads/revo_six_and_v6/stealthburner_printhead_v6_r6_front.stl)       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                     |
-| [printhead_v6_r6_rear_cw1](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/Printheads/revo_six_and_v6/stealthburner_printhead_v6_r6_rear_cw1.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Clockwork 1 version |
+| Item                                                                                                                                                                                                                  | Quantity | Material                                                | Printed | Notes               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ------------------- |
+| [printhead_v6_r6_front](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Stealthburner/Printheads/revo_six_and_v6/stealthburner_printhead_v6_r6_front.stl)                                           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                     |
+| [printhead_v6_r6_rear_cw1](https://github.com/VoronDesign/Voron-Stealthburner/blob/66831c984ab8d9dfe8dfd114ca31e2aa4bee8c35/STLs/Stealthburner/Printheads/revo_six_and_v6/stealthburner_printhead_v6_r6_rear_cw1.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Clockwork 1 version |
 
 ## Rook Fan Rookery
 
@@ -258,5 +258,5 @@ The [Rook](printer-rook.md) printer's stock part cooling uses a large 120mm blow
 | Item                                                                                                                                   | Quantity | Material | Printed | Notes |
 | -------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------- | :-----: | ----- |
 | [Belt Cradle](https://github.com/Gulsifer/Rook-Fan-Rookery/blob/main/Fan%20Rookery%20_%20Belt%20Cradle.STL)                            | 1        |          |   :x:   |       |
-| [Fan Shroud 4010 Short](https://github.com/Gulsifer/Rook-Fan-Rookery/blob/main/Fan%20Shroud%204010%20Short.STL)                        | 1        |          |   :x:   |       |
+| [Rookery_4010_Short](https://github.com/Gulsifer/Rook-Fan-Rookery/blob/main/Rookery_4010_Short.STL)                                    | 1        |          |   :x:   |       |
 | [Hot End Cradle 4010](https://github.com/Gulsifer/Rook-Fan-Rookery/blob/main/4010%20Fan%20Rookery%20_%20Hot%20End%20Cradle%204010.STL) | 1        |          |   :x:   |       |

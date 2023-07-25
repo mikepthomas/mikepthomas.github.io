@@ -80,14 +80,14 @@ const Projects = (props: Props) => {
   return (
     <Container className="nav-padding projects-page">
       <Row>
-        <Col className="markdown" md="8">
+        <Col className="markdown" lg="8">
           <Markdown
             children={markdown}
             components={getComponents()}
             remarkPlugins={[remarkEmoji, remarkGfm]}
           />
         </Col>
-        <Col md={{ size: 4 }}>
+        <Col lg="4">
           <div className="position-sticky">
             <div className="p-4 mb-3 bg-light rounded">
               <p>

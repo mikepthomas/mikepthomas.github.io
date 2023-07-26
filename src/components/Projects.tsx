@@ -91,9 +91,8 @@ const Projects = (props: Props) => {
           <div className="position-sticky">
             <div className="p-4 mb-3 bg-light rounded">
               <p>
-                Some information about projects I am working on and I have
-                planned over the next few <del>months</del> <del>years</del>{' '}
-                decades...
+                Some projects I am working on and I have planned over the next
+                few <s>months</s> <s>years</s> decades...
               </p>
               <ul>
                 <li>
@@ -124,7 +123,7 @@ const Projects = (props: Props) => {
                 </li>
                 <li>
                   <Link to="/projects/printer-hypercube">
-                    Hypercube CoreXY Upgrade Abandoned⁉️
+                    <s>Hypercube CoreXY Upgrade</s>
                   </Link>
                 </li>
                 <li>
@@ -178,6 +177,11 @@ const Projects = (props: Props) => {
                 </li>
                 <li>
                   <Link to="/projects/red-rocket">Red Rocket Truck Stop</Link>
+                </li>
+                <li>
+                  <Link to="/projects/sanctuary-hills">
+                    Sanctuary Hills House
+                  </Link>
                 </li>
                 <li>
                   <Link to="/projects/printer-filament">

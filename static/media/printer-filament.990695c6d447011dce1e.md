@@ -1,7 +1,7 @@
 # 3D Printer Filament list
 
 January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 17, 2023
+Updated July 26, 2023
 
 This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
@@ -307,7 +307,7 @@ This filament was originally brought to print the frame on a [3D Sets Car Hauler
 
 ### eSun ABS+ (Yellow)
 
-This filament was originally brought to print the [3D LabPrint Piper Cub](3d-lab-print-piper-cub.md) however I won some [Polylite LW-PLA](#polylite-lw-pla-yellow) that I will now ue instead.
+This filament was originally brought to print the [3D LabPrint Piper Cub](3d-lab-print-piper-cub.md) however I won some [Polylite LW-PLA](#polylite-lw-pla-yellow) that I will now use instead.
 
 |                            Color                             | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                           | Purchased From                                  | Avg Cost | KGs Purchased | Notes                                                                       |
 | :----------------------------------------------------------: | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | -------- | ------------- | --------------------------------------------------------------------------- |

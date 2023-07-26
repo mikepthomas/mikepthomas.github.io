@@ -314,3 +314,22 @@ Quantities are for 1 Unit
 ## Printing Parts
 
 I have seen a 3D Printed Eurorack case that I would like to make called [The SP1 by Spillerphoto.com on Printables](https://www.printables.com/model/203562)
+
+### Eurorack Case
+
+| Item                                                       | Quantity | Material                                                               | Time | Size | Weight | Cost | Printed | Notes |
+| ---------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ---- | ---- | ------ | ---- | :-----: | ----- |
+| [SP110HPRC](https://www.printables.com/model/203562/files) | 1        | [PolyLite PLA Pro (Black)](printer-filament.md#polylite-pla-pro-black) |      |      |        |      |   :x:   |       |
+| [SP1H25GM](https://www.printables.com/model/203562/files)  | 1        | [PolyLite PLA Pro (Black)](printer-filament.md#polylite-pla-pro-black) |      |      |        |      |   :x:   |       |
+| [SP110HPLC](https://www.printables.com/model/203562/files) | 1        | [PolyLite PLA Pro (Black)](printer-filament.md#polylite-pla-pro-black) |      |      |        |      |   :x:   |       |
+| [SP1H10C](https://www.printables.com/model/203562/files)   | 2        | [PolyLite PLA Pro (Black)](printer-filament.md#polylite-pla-pro-black) |      |      |        |      |   :x:   |       |
+| [SP1H10 v6](https://www.printables.com/model/203562/files) | 2        | [PolyLite PLA Pro (Black)](printer-filament.md#polylite-pla-pro-black) |      |      |        |      |   :x:   |       |
+
+### Dust Cover
+
+| Item                                                                                                       | Quantity | Material                                                               | Time | Size | Weight | Cost | Printed | Notes                                                                                 |
+| ---------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ---- | ---- | ------ | ---- | :-----: | ------------------------------------------------------------------------------------- |
+| [SP1CapRC](https://www.printables.com/model/203562/files)                                                  | 1        | [PolyLite PLA Pro (Black)](printer-filament.md#polylite-pla-pro-black) |      |      |        |      |   :x:   |                                                                                       |
+| [SP1CapLC](https://www.printables.com/model/203562/files)                                                  | 1        | [PolyLite PLA Pro (Black)](printer-filament.md#polylite-pla-pro-black) |      |      |        |      |   :x:   |                                                                                       |
+| [SP1Cap10](https://www.printables.com/model/203562/files)                                                  | 4        | [PolyLite PLA Pro (Black)](printer-filament.md#polylite-pla-pro-black) |      |      |        |      |   :x:   |                                                                                       |
+| [SP1Cap25](https://github.com/mikepthomas/3dprinting/blob/main/Designs/SP1%20Eurorack%20Case/SP1Cap25.stl) | 1        | [PolyLite PLA Pro (Black)](printer-filament.md#polylite-pla-pro-black) |      |      |        |      |   :x:   | This part doesn't exist on printables, I have created it myself by extending SP1Cap10 |

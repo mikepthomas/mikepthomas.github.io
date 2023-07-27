@@ -1,7 +1,7 @@
 # Building a DIY Eurorack Modular Synth
 
 June 29, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 26, 2023
+Updated July 27, 2023
 
 I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER), In one of his videos he mentioned about the website [Music From Outer Space](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&VPW=1430&VPH=660) and the book `Make: Analog Synthesizers` which I have brought and I am currently reading through.
 
@@ -24,16 +24,15 @@ I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER)
 
 ### Eurorack Parts
 
-| Item                          | Quantity                   | Received | Notes                                                                                                                                                                                                    |
-| ----------------------------- | -------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 6HP Eurorack Prototype Kit    | 5                          | 5        | Available on [N8Synth](https://www.n8synth.co.uk/shop/eurorack-prototype-kits/6hp-eurorack-prototype-kit/)                                                                                               |
-| Behringer CP1A Power Supply   | 1                          |          | Available on [thomann](https://www.thomann.de/gb/behringer_cp1a.htm)                                                                                                                                     |
-| 16-16 pin Power Cable         | 5                          |          | Available on [thomann](https://www.thomann.de/gb/make_noise_power_cable_16pin_16pin.htm)                                                                                                                 |
-| Mean Well RT65B Power Supply  | 1                          |          | If not using Behringer CP1A. Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-power-supply-mean-well-rt65b/)                                                                |
-| Flying Bus Board Cable        | 1                          |          | If not using Behringer CP1A. Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-flying-bus-board-cable-8x-or-10x-16pin-connectors/?attribute_length=50cm+%2810x+connector%29) |
-| Eurorack Blind Panels         | 7                          |          | Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-blind-panels-3u-complete-set-7-sizes-in-one-package-black-20hp-panel-gratis/)                                              |
-| M3 Threaded Strip Insert 84HP | 4 (6 including dust cover) |          | Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-rails-m3-threaded-inserts/?attribute_size=84HP)                                                                            |
-| M3 Nylon Screws               | 50                         | 50       | Nylon can prevent [Rack Rash](https://learningmodular.com/glossary/rack-rash/)                                                                                                                           |
+| Item                          | Quantity                   | Received | Notes                                                                                                                                                                                   |
+| ----------------------------- | -------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 6HP Eurorack Prototype Kit    | 5                          | 5        | Available on [N8Synth](https://www.n8synth.co.uk/shop/eurorack-prototype-kits/6hp-eurorack-prototype-kit/)                                                                              |
+| Eurorack Blind Panels         | Set of 7                   |          | Set of 7 on order. Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-blind-panels-3u-complete-set-7-sizes-in-one-package-black-20hp-panel-gratis/)          |
+| M3 Threaded Strip Insert 84HP | 4 (6 including dust cover) |          | 6 on order. Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-rails-m3-threaded-inserts/?attribute_size=84HP)                                               |
+| Mean Well RT65B Power Supply  | 1                          |          | 1 on order. Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-power-supply-mean-well-rt65b/)                                                                |
+| Flying Bus Board Cable        | 1                          |          | 1 on order. Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-flying-bus-board-cable-8x-or-10x-16pin-connectors/?attribute_length=50cm+%2810x+connector%29) |
+| 16-16 pin Power Cable         | 5                          |          | 10 on order                                                                                                                                                                             |
+| M3 Nylon Screws               | 40                         | 43       | Nylon can prevent [Rack Rash](https://learningmodular.com/glossary/rack-rash/)                                                                                                          |
 
 ## Envelope Generator (EG)
 

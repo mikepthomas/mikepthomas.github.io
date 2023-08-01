@@ -1,13 +1,17 @@
 # 3D Sets Landy 4x4 Pickup
 
 June 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 28, 2022
+Updated Aug 1, 2023
 
 Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy](https://3dsets.com/product/model-3-landy-4x4-pickup/)!
 
+![3D Sets Landy Pickup](https://3dsets.com/wp-content/uploads/2021/12/P8140019-3.jpg)
+
+> Image &copy; 2022 [3D Sets](https://3dsets.com/)
+
 ---
 
-## Assembly
+## Table of contents
 
 1. [Sourcing Parts](#sourcing-parts)
 2. [Printing Parts](#printing-parts)
@@ -28,13 +32,10 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
    15. [Doors](#doors)
    16. [Axles](#axles)
    17. [Wheels](#wheels)
-   18. [Storage Box](#storage-box)
 
 ## Sourcing Parts
 
-### Model 3: Landy 4×4 Pickup
-
-#### Electronics
+### Electronics
 
 | Item                   | Quantity | Received | Notes                          |
 | ---------------------- | -------- | -------- | ------------------------------ |
@@ -44,7 +45,7 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | Steering servo         | 1        | 1        |                                |
 | Speed Controller (ESC) | 1        | 1        |                                |
 
-#### Motion
+### Motion
 
 | Item                                     | Quantity | Received | Notes                          |
 | ---------------------------------------- | -------- | -------- | ------------------------------ |
@@ -53,7 +54,7 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | Rubber tires - OD: 90-100mm, ID: 46-48mm | 5        | 5        | 1 extra for spare tyre         |
 | Shock/Coil springs - 75-90mm             | 4        | 4        |                                |
 
-#### Misc
+### Misc
 
 | Item                 | Quantity | Received | Notes |
 | -------------------- | -------- | -------- | ----- |
@@ -61,7 +62,7 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | Grease               | 1        | 1        |       |
 | Thread Locker        | 1        | 1        |       |
 
-#### Fasteners
+### Fasteners
 
 | Item           | Quantity | Received | Notes |
 | -------------- | -------- | -------- | ----- |
@@ -83,52 +84,6 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | M3x6 Set Screw | 2        | 52       |       |
 | M3 nuts        | 42       | 42       |       |
 | M3 locknuts    | 22       | 22       |       |
-
-### Car Hauler
-
-#### Motion
-
-| Item                                     | Quantity | Received | Notes |
-| ---------------------------------------- | -------- | -------- | ----- |
-| Ball Bearing 10x15x4 mm - 6700RS         | 8        | 100      |       |
-| Rubber tires - OD: 90-100mm, ID: 46-48mm | 4        | 4        |       |
-| Shock/Coil springs - 55-75mm             | 4        | 4        |       |
-
-#### Fasteners
-
-| Item       | Quantity | Received | Notes |
-| ---------- | -------- | -------- | ----- |
-| M2x6 SHCS  | 80       | 200      |       |
-| M2x8 SHCS  | 4        | 50       |       |
-| M2x10 SHCS | 5        | 100      |       |
-| M2x12 SHCS | 24       | 50       |       |
-| M3x6 BHCS  | 4        | 39       |       |
-| M3x8 BHCS  | 16       | 91       |       |
-| M3x10 BHCS | 40       | 100      |       |
-| M3x12 BHCS | 18       | 147      |       |
-| M3x16 BHCS | 26       | 135      |       |
-| M3x20 BHCS | 1        | 25       |       |
-| M3x6 SHCS  | 4        | 10       |       |
-| M3 nuts    | 13       | 42       |       |
-| M5x12 SHCS | 1        | 10       |       |
-
-### Storage System
-
-#### Misc
-
-| Item                                         | Quantity | Received | Notes                                        |
-| -------------------------------------------- | -------- | -------- | -------------------------------------------- |
-| 3mm Hardboard 600x320                        | 2        | 4        |                                              |
-| 3mm Hardboard 600x270                        | 2        | 4        |                                              |
-| 3mm Hardboard 284x320                        | 2        | 4        |                                              |
-| Textile strap 40-45 mm wide, 125-130 cm long | 1        | 2        | Have 50mm wide, will modify the mount to fit |
-
-#### Fasteners
-
-| Item       | Quantity | Received | Notes |
-| ---------- | -------- | -------- | ----- |
-| M3x8 BHCS  | 4        | 91       |       |
-| M3x12 BHCS | 58       | 147      |       |
 
 ## Printing Parts
 
@@ -276,17 +231,17 @@ I am not sure which gearbox I am going to use. I may start with the geared gearb
 
 ### Bumpers & Rear Door
 
-| Item             | Quantity | Material                                                          | Printed | Notes |
-| ---------------- | -------- | ----------------------------------------------------------------- | :-----: | ----- |
-| Front Bumper     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
-| Front frame end  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
-| Hinge A - pickup | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
-| Hinge B - pickup | 2        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
-| Rear Door        | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
-| Rear Door Sill   | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
-| Rear Bumper      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
-| Rear frame end   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
-| Servo Guard      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
+| Item             | Quantity | Material                                                          | Printed | Notes                                                                            |
+| ---------------- | -------- | ----------------------------------------------------------------- | :-----: | -------------------------------------------------------------------------------- |
+| Front Bumper     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |                                                                                  |
+| Front frame end  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |                                                                                  |
+| Hinge A - pickup | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |                                                                                  |
+| Hinge B - pickup | 2        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |                                                                                  |
+| Rear Door        | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |                                                                                  |
+| Rear Door Sill   | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |                                                                                  |
+| Rear Bumper      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Print the [Car Hauler](3d-sets-accessories.md#landy-rear-bumper) version instead |
+| Rear frame end   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Print the [Car Hauler](3d-sets-accessories.md#landy-rear-bumper) version instead |
+| Servo Guard      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |                                                                                  |
 
 ### Doors
 
@@ -325,24 +280,3 @@ There is a choice of 2 different wheel styles.
 | Wheel D - outer Rim | 4        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)             |   :x:   |       |
 | Wheel D - wheel Hub | 4        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)             |   :x:   |       |
 | Winker - side       | 2        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)  |   :x:   |       |
-
-### Storage Box
-
-| Item                          | Quantity | Material                                                  | Printed | Notes |
-| ----------------------------- | -------- | --------------------------------------------------------- | :-----: | ----- |
-| Click-On Corner top left 4 A  | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-| Click-On Corner top right 4 A | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-| Click-On Corner top left 4 B  | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-| Click-On Corner top right 4 B | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-| Corner top right 3            | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-| Connector                     | 2        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-| Corner bottom left 1          | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-| Corner bottom right 1         | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-| Corner bottom left 2          | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-| Corner bottom right 2         | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-| Corner top left 3             | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-| Corner top right 3            | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-| Side Handle                   | 2        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-| Tyre Support                  | 4        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |   :x:   |       |
-
-**_NOTE:_** I have [modified the 3D Sets Side Handle](https://github.com/mikepthomas/3dprinting/blob/main/Designs/3D%20Sets%20Storage%20System%20Handle/3mm%20Side%20Handle%202pcs.stl) to accept a wider strap as I already have a 50mm strap that is wider than the one in the BOM. Shared with permission.

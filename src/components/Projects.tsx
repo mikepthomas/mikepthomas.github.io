@@ -164,6 +164,11 @@ const Projects = (props: Props) => {
                   <Link to="/projects/3d-sets-landy">3D Sets Landy</Link>
                 </li>
                 <li>
+                  <Link to="/projects/3d-sets-accessories">
+                    3D Sets Accessories
+                  </Link>
+                </li>
+                <li>
                   <Link to="/projects/openrc-f1">OpenRC F1</Link>
                 </li>
                 <li>

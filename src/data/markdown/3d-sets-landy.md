@@ -211,12 +211,12 @@ I am not sure which gearbox I am going to use. I may start with the geared gearb
 
 ### Grill
 
-| Item           | Quantity | Material                                                          | Printed | Notes |
-| -------------- | -------- | ----------------------------------------------------------------- | :-----: | ----- |
-| Front light    | 2        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)  |   :x:   |       |
-| Grill          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
-| Hinge A        | 2        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
-| Winker - front | 4        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)  |   :x:   |       |
+| Item           | Quantity | Material                                                          | Printed | Notes                                                                                                 |
+| -------------- | -------- | ----------------------------------------------------------------- | :-----: | ----------------------------------------------------------------------------------------------------- |
+| Front light    | 2        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)  |   :x:   |                                                                                                       |
+| Grill          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Print the [Grill with headlamp guards](3d-sets-accessories.md#rock-sliders-and-grill) version instead |
+| Hinge A        | 2        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |                                                                                                       |
+| Winker - front | 4        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)  |   :x:   |                                                                                                       |
 
 ### Fender & Hood
 

@@ -8,9 +8,23 @@ Printing Upgrades and Accessories for the [3D Sets Landy](https://3dsets.com/pro
 
 ## Table of contents
 
+1. [Rock Sliders and Grill](#rock-sliders-and-grill)
 1. [Car Hauler](#car-hauler)
-2. [Street Accessory](#street-accessory)
-3. [Storage Box](#storage-box)
+1. [Street Accessory](#street-accessory)
+1. [Storage Box](#storage-box)
+
+## Rock Sliders and Grill
+
+![3D Sets Landy Rock Sliders and Grill](https://3dsets.com/wp-content/uploads/2021/12/PB170056-1-scaled-1-3-900x675.jpg)
+
+> Image &copy; 2022 [3D Sets](https://3dsets.com/)
+
+| Item                        | Quantity | Material                                                  | Printed | Notes |
+| --------------------------- | -------- | --------------------------------------------------------- | :-----: | ----- |
+| Fan                         | 1        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver) |   :x:   |       |
+| Grill with light protection | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
+| Rock Slider A - left        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
+| Rock Slider A - right       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
 
 ## Car Hauler
 
@@ -246,7 +260,7 @@ There is a choice of 2 different wheel styles.
 
 ## Storage System
 
-![3D Sets Storage System](https://3dsets.com/wp-content/uploads/2021/12/IMG_4507-3-1024x768.jpg)
+![3D Sets Storage System](https://3dsets.com/wp-content/uploads/2021/12/image-2-3-900x600.jpeg)
 
 > Image &copy; 2022 [3D Sets](https://3dsets.com/)
 

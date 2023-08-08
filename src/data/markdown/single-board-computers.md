@@ -1,7 +1,7 @@
 # Single Board Computers and Microcontrollers
 
 June 26, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 17, 2023
+Updated August 8, 2023
 
 This page lists all of the single board computers I own and is mainly for me to keep track of what I have and what I am currently using it for.
 
@@ -23,6 +23,7 @@ This page lists all of the single board computers I own and is mainly for me to 
 10. [Raspberry Pi 4](#raspberry-pi-4)
 11. [Raspberry Pi Pico](#raspberry-pi-pico)
 12. [Teensy](#teensy)
+13. [Wemos](#wemos)
 
 ## Arduino
 
@@ -54,13 +55,13 @@ The micro:bit is an inexpensive board designed to teach children how to code.
 
 BigTreeTech make mainboards to control 3D printers. :duck:
 
-| Item                                                                                                                                                                                                      | Case                              | Flashed with                                  | Notes                                        |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | --------------------------------------------- | -------------------------------------------- |
-| [BigTreeTech Pi V1.2](https://biqu.equipment/products/bigtreetech-btt-pi-v1-2)                                                                                                                            |                                   |                                               | Designed as a replacement for a Raspberry Pi |
-| [BigTreeTech SKR V1.4](https://biqu.equipment/collections/control-board/products/bigtreetech-skr-v1-4-skr-v1-4-turbo-control-board-tmc2209-tmc2208-eeprom-v1-0-exp-mot-v1-0-3d-printer-parts-for-ender-3) | [Anet A8](printer.md)             | [Marlin Firmware](https://marlinfw.org/)      | 3D printer Mainboard based on LPC1768        |
-| [BigTreeTech SKR V1.4 Turbo](https://biqu.equipment/collections/control-board/products/bigtreetech-skr-v1-4-skr-v1-4-turbo-control-board)                                                                 | [Voron 1.8](printer-voron-1.8.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on LPC1769        |
-| [BigTreeTech SKR Pico](https://biqu.equipment/collections/control-board/products/btt-skr-pico-v1-0)                                                                                                       | [Voron 0.2](printer-voron-0.2.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040         |
-| [BigTreeTech SKR Pico](https://biqu.equipment/collections/control-board/products/btt-skr-pico-v1-0)                                                                                                       | [Rook 2020](printer-rook.md)      | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040         |
+| Item                                                                                                                                                                                                      | Case                              | Flashed with                                  | Notes                                                               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | --------------------------------------------- | ------------------------------------------------------------------- |
+| [BigTreeTech Pi V1.2](https://biqu.equipment/products/bigtreetech-btt-pi-v1-2)                                                                                                                            |                                   |                                               | With [U2C CAN Adapter Module](https://docs.meteyou.wtf/btt-pi-u2c/) |
+| [BigTreeTech SKR V1.4](https://biqu.equipment/collections/control-board/products/bigtreetech-skr-v1-4-skr-v1-4-turbo-control-board-tmc2209-tmc2208-eeprom-v1-0-exp-mot-v1-0-3d-printer-parts-for-ender-3) | [Anet A8](printer.md)             | [Marlin Firmware](https://marlinfw.org/)      | 3D printer Mainboard based on LPC1768                               |
+| [BigTreeTech SKR V1.4 Turbo](https://biqu.equipment/collections/control-board/products/bigtreetech-skr-v1-4-skr-v1-4-turbo-control-board)                                                                 | [Voron 1.8](printer-voron-1.8.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on LPC1769                               |
+| [BigTreeTech SKR Pico](https://biqu.equipment/collections/control-board/products/btt-skr-pico-v1-0)                                                                                                       | [Voron 0.2](printer-voron-0.2.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040                                |
+| [BigTreeTech SKR Pico](https://biqu.equipment/collections/control-board/products/btt-skr-pico-v1-0)                                                                                                       | [Rook 2020](printer-rook.md)      | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040                                |
 
 ## Hardkernel
 
@@ -194,3 +195,11 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 | Item       | Case            | Flashed with                                                            | Notes                         |
 | ---------- | --------------- | ----------------------------------------------------------------------- | ----------------------------- |
 | Teensy 4.0 | Retro Telephone | [Audio Guestbook](https://github.com/playfultechnology/audio-guestbook) | With Audio Board for Teensy 4 |
+
+## Wemos
+
+| Item              | Case                                                        | Flashed with                   | Notes    |
+| ----------------- | ----------------------------------------------------------- | ------------------------------ | -------- |
+| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) |          |
+| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) | On Order |
+| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) | On Order |

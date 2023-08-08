@@ -1,7 +1,7 @@
 # Building a DIY Eurorack Modular Synth
 
 June 29, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 27, 2023
+Updated August 8, 2023
 
 I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER), In one of his videos he mentioned about the website [Music From Outer Space](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&VPW=1430&VPH=660) and the book `Make: Analog Synthesizers` which I have brought and I am currently reading through.
 
@@ -31,7 +31,7 @@ I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER)
 | M3 Threaded Strip Insert 84HP | 4 (6 including dust cover) |          | 6 on order. Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-rails-m3-threaded-inserts/?attribute_size=84HP)                                               |
 | Mean Well RT65B Power Supply  | 1                          |          | 1 on order. Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-power-supply-mean-well-rt65b/)                                                                |
 | Flying Bus Board Cable        | 1                          |          | 1 on order. Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-flying-bus-board-cable-8x-or-10x-16pin-connectors/?attribute_length=50cm+%2810x+connector%29) |
-| 16-16 pin Power Cable         | 5                          |          | 10 on order                                                                                                                                                                             |
+| 16-16 pin Power Cable         | 5                          | 10       | 30cm length                                                                                                                                                                             |
 | M3 Nylon Screws               | 40                         | 43       | Nylon can prevent [Rack Rash](https://learningmodular.com/glossary/rack-rash/)                                                                                                          |
 
 ## Envelope Generator (EG)

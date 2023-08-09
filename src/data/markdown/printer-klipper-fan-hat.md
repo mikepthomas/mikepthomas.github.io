@@ -1,7 +1,7 @@
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 21, 2023
+Updated August 9, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
@@ -60,17 +60,17 @@ The reference numbers in the notes field refer to the parts required marked on t
 
 ### Connectors
 
-| Item                              | Quantity | Received          | Notes            |
-| --------------------------------- | -------- | ----------------- | ---------------- |
-| 2 Pin JST-XH Header               | 5        | 20                | FAN1-FAN5        |
-| 3 Pin JST-XH Header               | 3        | 20                | J4-J6            |
-| 4 Pin JST-XH Header               | 1        | 20                | J3               |
-| 5 Pin JST-XH Header               | 1        | 20                | J2               |
-| 40 Pin Raspberry Pi Header        | 1        | 2                 | J8               |
-| Dupont Pin Headers                | 23 Pins  | 2 x 30 pin strips | J7, JP1-JP5, WP1 |
-| Jumper Cap 2.54mm                 | 6        | 109               | JP1-JP5, WP1     |
-| KF301 Screw Terminal (5mm pitch)  | 1        | 10                | J1               |
-| PCB Panel Mount Blade Fuse Holder | 1        | 5                 | F1               |
+| Item                              | Quantity | Received           | Notes                           |
+| --------------------------------- | -------- | ------------------ | ------------------------------- |
+| 2 Pin JST-XH Header               | 5        | 20                 | FAN1-FAN5                       |
+| 3 Pin JST-XH Header               | 1        | 20                 | J4                              |
+| 4 Pin JST-XH Header               | 1        | 20                 | J3                              |
+| 5 Pin JST-XH Header               | 1        | 20                 | J2                              |
+| 40 Pin Raspberry Pi Header        | 1        | 2                  | J8                              |
+| Dupont Pin Headers                | 41 Pins  | 10 x 40 pin strips | J7, JP1-JP5, WP1, GPIO20-GPIO25 |
+| Jumper Cap 2.54mm                 | 6        | 109                | JP1-JP5, WP1                    |
+| KF301 Screw Terminal (5mm pitch)  | 1        | 10                 | J1                              |
+| PCB Panel Mount Blade Fuse Holder | 1        | 5                  | F1                              |
 
 ### SMD Components
 
@@ -87,11 +87,12 @@ The reference numbers in the notes field refer to the parts required marked on t
 
 ### Misc
 
-| Item            | Quantity | Received | Notes                                                                   |
-| --------------- | -------- | -------- | ----------------------------------------------------------------------- |
-| 2510 Axial Fan  | 1        | 2        |                                                                         |
-| CAT24C32 EEPROM | 1        | 10       | U1                                                                      |
-| DIP-8 Socket    | 1        | 10       | Not required, but makes switching EEPROM modules out easier for testing |
+| Item                       | Quantity | Received | Notes                                                                   |
+| -------------------------- | -------- | -------- | ----------------------------------------------------------------------- |
+| 2510 Axial Fan             | 1        | 2        |                                                                         |
+| CAT24C32 EEPROM            | 1        | 10       | U1                                                                      |
+| DIP-8 Socket               | 1        | 10       | Not required, but makes switching EEPROM modules out easier for testing |
+| DS18B20 Temperature Sensor | 1        | 5        |                                                                         |
 
 ![Klipper Fan Hat In Hand](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-in-hand.jpg)
 
@@ -147,6 +148,7 @@ After my testing I identified a few improvements that I have now made and are av
 - Replace non-working thermistor inputs with GPIO connectors
 - Switch orientation of Fan 1-4 resistors so that it does't matter if they are bridged when soldering
 - Added a status LED that can be controlled by the Klipper host
+- on Board DS18B20 Temperature Sensor
 
 ## Flash Hat EEPROM
 

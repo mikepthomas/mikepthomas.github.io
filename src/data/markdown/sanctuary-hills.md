@@ -1,7 +1,7 @@
 # 3D Printing a Sanctuary Hills House from Fallout 4
 
 July 26, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 27, 2023
+Updated August 10, 2023
 
 Building a House in Sanctuary Hills for the Sole Survivor.
 
@@ -23,53 +23,53 @@ Assembly of the building is split into the following parts:
 
 > Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)
 
-| Item               | Quantity | Material                                                               | Time | Size | Weight | Cost | Printed | Notes |
-| ------------------ | -------- | ---------------------------------------------------------------------- | ---- | ---- | ------ | ---- | :-----: | ----- |
-| Door 1             | 2        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Elbow Pylon 1      | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Elbow Pylon 2      | 2        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Elbow Pylon 3      | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Elbow Pylon 4      | 4        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Elbow Pylon 5      | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Half Wall 1        | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Half Wall 2        |          | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Half Wall 3        |          | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Half Wall 4        |          | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Half Wall 5        | 2        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Half Wall Female   |          | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Half Wall M+F      | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Internal Door      | 2        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Internal Pylon 1   | 2        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Internal Pylon 2   | 2        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Internal Wall 1    | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Internal Wall 2    | 3        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Internal Wall 3    |          | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Internal Wall 4    | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Internal Wall 5    | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Pylon 1            | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Pylon 2            | 2        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Pylon 3            | 2        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| T-Junction Pylon 1 | 3        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| T-Junction Pylon 2 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| T-Junction Pylon 3 | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Wall 1             | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Wall 2             | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Wall 3             | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Wall 4             | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Wall 5             | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Wall 6             | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Wall 7             | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Wall 8             | 2        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Wall 9             | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Wall 10            | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Window 1           | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Window 2           | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Window 3           | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Window 4           |          | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| Window 5           | 1        | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| X-Junction Pylon 1 |          | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| X-Junction Pylon 2 |          | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
-| X-Junction Pylon 3 |          | [Amazon Basics PLA (Blue)](printer-filament.md#amazon-basics-pla-blue) |      |      |        |      |   :x:   |       |
+| Item               | Quantity | Material                                                          | Time | Size | Weight | Cost | Printed | Notes |
+| ------------------ | -------- | ----------------------------------------------------------------- | ---- | ---- | ------ | ---- | :-----: | ----- |
+| Door 1             | 2        | [eSun ABS+ (Natural)](printer-filament.md#esun-abs-natural)       |      |      |        |      |   :x:   |       |
+| Elbow Pylon 1      | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Elbow Pylon 2      | 2        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Elbow Pylon 3      | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Elbow Pylon 4      | 4        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Elbow Pylon 5      | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Half Wall 1        | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Half Wall 2        |          | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Half Wall 3        |          | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Half Wall 4        |          | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Half Wall 5        | 2        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Half Wall Female   |          | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Half Wall M+F      | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Internal Door      | 2        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Internal Pylon 1   | 2        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Internal Pylon 2   | 2        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Internal Wall 1    | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Internal Wall 2    | 3        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Internal Wall 3    |          | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Internal Wall 4    | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Internal Wall 5    | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Pylon 1            | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Pylon 2            | 2        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Pylon 3            | 2        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| T-Junction Pylon 1 | 3        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| T-Junction Pylon 2 | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| T-Junction Pylon 3 | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Wall 1             | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Wall 2             | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Wall 3             | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Wall 4             | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Wall 5             | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Wall 6             | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Wall 7             | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Wall 8             | 2        | [eSun ABS+ (Natural)](printer-filament.md#esun-abs-natural)       |      |      |        |      |   :x:   |       |
+| Wall 9             | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Wall 10            | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Window 1           | 1        | [eSun ABS+ (Natural)](printer-filament.md#esun-abs-natural)       |      |      |        |      |   :x:   |       |
+| Window 2           | 1        | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Window 3           | 1        | [eSun ABS+ (Natural)](printer-filament.md#esun-abs-natural)       |      |      |        |      |   :x:   |       |
+| Window 4           |          | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| Window 5           | 1        | [eSun ABS+ (Natural)](printer-filament.md#esun-abs-natural)       |      |      |        |      |   :x:   |       |
+| X-Junction Pylon 1 |          | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| X-Junction Pylon 2 |          | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
+| X-Junction Pylon 3 |          | [eSun ABS+ (Light Blue)](printer-filament.md#esun-abs-light-blue) |      |      |        |      |   :x:   |       |
 
 ### Roof
 

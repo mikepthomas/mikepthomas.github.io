@@ -1,7 +1,7 @@
 # 3D Printer Filament list
 
 January 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 26, 2023
+Updated August 10, 2023
 
 This is a list of 3D printer filament I have purchased over the years and how I have printed with it.
 
@@ -37,15 +37,16 @@ This is a list of 3D printer filament I have purchased over the years and how I 
 24. [eSun ABS+ (Grey)](#esun-abs-grey)
 25. [eSun ABS+ (Light Blue)](#esun-abs-light-blue)
 26. [eSun ABS+ (Magenta)](#esun-abs-magenta)
-27. [eSun ABS+ (Orange)](#esun-abs-orange)
-28. [eSun ABS+ (Peak Green)](#esun-abs-peak-green)
-29. [eSun ABS+ (Pine Green)](#esun-abs-pine-green)
-30. [eSun ABS+ (Pink)](#esun-abs-pink)
-31. [eSun ABS+ (Purple)](#esun-abs-purple)
-32. [eSun ABS+ (Red)](#esun-abs-red)
-33. [eSun ABS+ (Silver)](#esun-abs-silver)
-34. [eSun ABS+ (Yellow)](#esun-abs-yellow)
-35. [eSun PLA (Wood)](#esun-pla-wood)
+27. [eSun ABS+ (Natural)](#esun-abs-natural)
+28. [eSun ABS+ (Orange)](#esun-abs-orange)
+29. [eSun ABS+ (Peak Green)](#esun-abs-peak-green)
+30. [eSun ABS+ (Pine Green)](#esun-abs-pine-green)
+31. [eSun ABS+ (Pink)](#esun-abs-pink)
+32. [eSun ABS+ (Purple)](#esun-abs-purple)
+33. [eSun ABS+ (Red)](#esun-abs-red)
+34. [eSun ABS+ (Silver)](#esun-abs-silver)
+35. [eSun ABS+ (Yellow)](#esun-abs-yellow)
+36. [eSun PLA (Wood)](#esun-pla-wood)
 
 ### Amazon Basics PETG (Red)
 
@@ -57,7 +58,7 @@ This filament was originally brought to upgrade my printer to a Core XY style Hy
 
 ### Amazon Basics PLA (Blue)
 
-This filament was originally brought to print Fallout: Wasteland Warfare [Vault](https://www.modiphius.net/products/fallout-wasteland-warfare-terrain-expansion-3d-vault-stl-bundle) or [Sanctuary Hill House](https://www.modiphius.net/products/fallout-wasteland-warfare-terrain-expansion-sanctuary-house-stl).
+This filament was originally brought to print Fallout: Wasteland Warfare [Vault](https://www.modiphius.net/products/fallout-wasteland-warfare-terrain-expansion-3d-vault-stl-bundle).
 
 |                            Color                             | Hotend Temp                  | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased | Notes |
 | :----------------------------------------------------------: | ---------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | ----- |
@@ -197,7 +198,7 @@ This filament was originally brought to print the main parts for my [Voron 1.8](
 
 |                            Color                             | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                          | Purchased From                                           | Avg Cost | KGs Purchased | Notes                                                                       |
 | :----------------------------------------------------------: | ----------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | --------------------------------------------------------------------------- |
-| ![#0E0F12](https://via.placeholder.com/13/0E0F12/0E0F12.png) | 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ5MC78) | £17.02   | 4             | [Datasheet](https://www.esun3d.com/uploads/eSUN_ABS+-Filament_TDS_V4.0.pdf) |
+| ![#0E0F12](https://via.placeholder.com/13/0E0F12/0E0F12.png) | 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Black).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ5MC78) | £16.33   | 5             | [Datasheet](https://www.esun3d.com/uploads/eSUN_ABS+-Filament_TDS_V4.0.pdf) |
 
 ### eSun ABS+ (Blue)
 
@@ -239,7 +240,7 @@ This filament was originally brought to print the wheels for a [3D Sets Landy](3
 
 ### eSun ABS+ (Light Blue)
 
-This filament will be used to print the main parts for the [Rook MK1](printer-rook.md).
+This filament will be used to print the walls of the [Sanctuary Hills House](sanctuary-hills.md).
 
 |                            Color                             | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                                 | Purchased From                                           | Avg Cost | KGs Purchased | Notes                                                                       |
 | :----------------------------------------------------------: | ----------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | --------------------------------------------------------------------------- |
@@ -250,6 +251,14 @@ This filament will be used to print the main parts for the [Rook MK1](printer-ro
 |                            Color                             | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From | Avg Cost | KGs Purchased | Notes                                                                       |
 | :----------------------------------------------------------: | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------- | ------------- | --------------------------------------------------------------------------- |
 | ![#D61549](https://via.placeholder.com/13/D61549/D61549.png) | 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Magenta).ini>) | Wedge3D        | £16.20   | 1             | [Datasheet](https://www.esun3d.com/uploads/eSUN_ABS+-Filament_TDS_V4.0.pdf) |
+
+### eSun ABS+ (Natural)
+
+This filament will be used to print the window frames of the [Sanctuary Hills House](sanctuary-hills.md).
+
+|                            Color                             | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                            | Purchased From                                           | Avg Cost | KGs Purchased | Notes                                                                       |
+| :----------------------------------------------------------: | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------- | --------------------------------------------------------------------------- |
+| ![#E7E1D8](https://via.placeholder.com/13/E7E1D8/E7E1D8.png) | 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Natural).ini>) | [Amazon](https://www.amazon.co.uk/gp/product/B07FQ6CFD5) | £15.99   | 1             | [Datasheet](https://www.esun3d.com/uploads/eSUN_ABS+-Filament_TDS_V4.0.pdf) |
 
 ### eSun ABS+ (Orange)
 
@@ -276,8 +285,6 @@ This filament was originally brought to print the body panels for a [3D Sets Lan
 | ![#2A6F47](https://via.placeholder.com/13/2A6F47/2A6F47.png) | 255         | 100      | [PrusaSlicer](<https://github.com/mikepthomas/3dprinting/blob/main/Slicer%20Profiles/PrusaSlicer/filament/eSun%20ABS%2B%20(Pine Green).ini>) | Wedge3D        | £16.20   | 1             | [Datasheet](https://www.esun3d.com/uploads/eSUN_ABS+-Filament_TDS_V4.0.pdf) |
 
 ### eSun ABS+ (Pink)
-
-This filament will be used to print the accent parts for the [Rook MK1](printer-rook.md).
 
 |                            Color                             | Hotend Temp | Bed Temp | Slicer Profile                                                                                                                         | Purchased From | Avg Cost | KGs Purchased | Notes                                                                       |
 | :----------------------------------------------------------: | ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------- | ------------- | --------------------------------------------------------------------------- |

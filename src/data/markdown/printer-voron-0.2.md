@@ -1,7 +1,7 @@
 # Assembling the smallest Voron printer
 
 Created April 3, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 23, 2023
+Updated August 10, 2023
 
 Building the smallest of the Voron printers, the Voron Zero.
 
@@ -422,9 +422,9 @@ I will print this using the [Multi-Colour Prints with a Single Nozzle](https://d
 
 #### :negative_squared_cross_mark: Hotend Mount
 
-| Item                                                                                                                                                       | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                     |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | ------------------------- |
-| [FS_Hotend_Mount_Dragon](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/Toolheads/Hotend_Mounts/Fan_Saver/%5Ba%5D_FS_Hotend_Mount_Dragon.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | Dragon, Fan Saver Version |
+| Item                                                                                                                                                         | Quantity | Material                                                  | Size | Weight | Cost | Printed | Notes                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------------- | ---- | ------ | ---- | :-----: | -------------------------- |
+| [FS_Hotend_Mount_Formbot](https://github.com/VoronDesign/Voron-0/blob/Voron0.2r1/STLs/Toolheads/Hotend_Mounts/Fan_Saver/%5Ba%5D_FS_Hotend_Mount_Formbot.stl) | 1        | [eSun ABS+ (Orange)](printer-filament.md#esun-abs-orange) |      |        |      |   :x:   | Formbot, Fan Saver Version |
 
 #### :negative_squared_cross_mark: AXDL345 Mount
 

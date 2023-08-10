@@ -1,6 +1,7 @@
 # Accessories for the 3D Sets Landy
 
-Aug 1, 2023 by [Mike Thomas](https://github.com/mikepthomas)
+Aug 1, 2023 by [Mike Thomas](https://github.com/mikepthomas),
+Updated August 10, 2023
 
 Printing Upgrades and Accessories for the [3D Sets Landy](https://3dsets.com/product/model-3-landy-4x4-pickup/)
 
@@ -198,8 +199,8 @@ There is a choice of 2 different wheel styles.
 | Wheel I - Inner     | 4        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
 | Wheel I - Outer     | 4        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
 | Wheel I - wheel Hub | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
-| Wheel G - inner Rim | 4        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)             |   :x:   |       |
-| Wheel G - outer Rim | 4        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)             |   :x:   |       |
+| Wheel G - inner Rim | 4        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver)         |   :x:   |       |
+| Wheel G - outer Rim | 4        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver)         |   :x:   |       |
 
 ### Hitch
 

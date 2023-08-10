@@ -1,7 +1,7 @@
 # 3D Sets Landy 4x4 Pickup
 
 June 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated Aug 4, 2023
+Updated Aug 10, 2023
 
 Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy](https://3dsets.com/product/model-3-landy-4x4-pickup/)!
 
@@ -146,7 +146,7 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | Front Body                | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
 | Front Fender - left       | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
 | Front Fender - right      | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
-| Gas Tank Cap              | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)             |   :x:   |       |
+| Gas Tank Cap              | 1        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver)         |   :x:   |       |
 | Hinge A - door left       | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
 | Hinge A - door right      | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
 | Rear Fender - left        | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
@@ -208,15 +208,15 @@ I am not sure which gearbox I am going to use. I may start with the geared gearb
 
 ### Dashboard
 
-| Item               | Quantity | Material                                                | Printed | Notes |
-| ------------------ | -------- | ------------------------------------------------------- | :-----: | ----- |
-| Dashboard - bottom | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-| Dashboard - top    | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown) |   :x:   |       |
-| Steering wheel A   | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown) |   :x:   |       |
-| Steering wheel B   | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown) |   :x:   |       |
-| Stickshift base    | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown) |   :x:   |       |
-| Stickshift head A  | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)   |   :x:   |       |
-| Stickshift head B  | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)   |   :x:   |       |
+| Item               | Quantity | Material                                                  | Printed | Notes |
+| ------------------ | -------- | --------------------------------------------------------- | :-----: | ----- |
+| Dashboard - bottom | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
+| Dashboard - top    | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown)   |   :x:   |       |
+| Steering wheel A   | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown)   |   :x:   |       |
+| Steering wheel B   | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown)   |   :x:   |       |
+| Stickshift base    | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown)   |   :x:   |       |
+| Stickshift head A  | 1        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver) |   :x:   |       |
+| Stickshift head B  | 1        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver) |   :x:   |       |
 
 ### Roof
 
@@ -294,9 +294,9 @@ There is a choice of 2 different wheel styles.
 | Wheel C - Inner     | 4        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
 | Wheel C - Outer     | 4        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
 | Wheel C - wheel Hub | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
-| Wheel D - inner Rim | 4        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)             |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
-| Wheel D - outer Rim | 4        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)             |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
-| Wheel D - wheel Hub | 4        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)             |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
+| Wheel D - inner Rim | 4        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver)         |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
+| Wheel D - outer Rim | 4        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver)         |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
+| Wheel D - wheel Hub | 4        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver)         |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
 | Winker - side       | 2        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)  |   :x:   |                                                                                        |
 
 ## Offroad Accessory Kit
@@ -366,8 +366,8 @@ There is a choice of 2 different wheel styles.
 
 ### Wheel E
 
-| Item                | Quantity | Material                                                | Printed | Notes |
-| ------------------- | -------- | ------------------------------------------------------- | :-----: | ----- |
-| Wheel E - hub       | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-| Wheel E - inner Rim | 4        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)   |   :x:   |       |
-| Wheel E - outer Rim | 4        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)   |   :x:   |       |
+| Item                | Quantity | Material                                                  | Printed | Notes |
+| ------------------- | -------- | --------------------------------------------------------- | :-----: | ----- |
+| Wheel E - hub       | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
+| Wheel E - inner Rim | 4        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver) |   :x:   |       |
+| Wheel E - outer Rim | 4        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver) |   :x:   |       |

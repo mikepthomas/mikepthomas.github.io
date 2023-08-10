@@ -77,15 +77,15 @@ Assembly of the building is split into the following parts:
 
 > Image &copy; 2020 [Modiphius Entertainment](https://www.modiphius.net/)
 
-| Item   | Quantity | Material                                                                   | Time | Size | Weight | Cost | Printed | Notes |
-| ------ | -------- | -------------------------------------------------------------------------- | ---- | ---- | ------ | ---- | :-----: | ----- |
-| Roof 1 | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |   :x:   |       |
-| Roof 2 | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |   :x:   |       |
-| Roof 3 | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |   :x:   |       |
-| Roof 4 | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |   :x:   |       |
-| Roof 5 | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |   :x:   |       |
-| Roof 6 | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |   :x:   |       |
-| Roof 7 | 1        | [PrimaValue PLA (Dark Grey)](printer-filament.md#primavalue-pla-dark-grey) |      |      |        |      |   :x:   |       |
+| Item   | Quantity | Material                                              | Time | Size | Weight | Cost | Printed | Notes |
+| ------ | -------- | ----------------------------------------------------- | ---- | ---- | ------ | ---- | :-----: | ----- |
+| Roof 1 | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey) |      |      |        |      |   :x:   |       |
+| Roof 2 | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey) |      |      |        |      |   :x:   |       |
+| Roof 3 | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey) |      |      |        |      |   :x:   |       |
+| Roof 4 | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey) |      |      |        |      |   :x:   |       |
+| Roof 5 | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey) |      |      |        |      |   :x:   |       |
+| Roof 6 | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey) |      |      |        |      |   :x:   |       |
+| Roof 7 | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey) |      |      |        |      |   :x:   |       |
 
 ### Attic
 

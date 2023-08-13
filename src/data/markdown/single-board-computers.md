@@ -1,7 +1,7 @@
 # Single Board Computers and Microcontrollers
 
 June 26, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated August 8, 2023
+Updated August 13, 2023
 
 This page lists all of the single board computers I own and is mainly for me to keep track of what I have and what I am currently using it for.
 
@@ -161,18 +161,19 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 | Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag MegaPi Case             | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | megapi     |                                                                   |
 | Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag NESPi Case+             | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | nespi      |                                                                   |
 | Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag SuperPi Case            | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)        | superpi    |                                                                   |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | [Voron 0.2](printer-voron-0.2.md) | 64GB MicroSD (Integral)      | [MainsailOS](https://docs-os.mainsail.xyz) | voron0     |                                                                   |
 
 ## Raspberry Pi 4
 
 ![Raspberry Pi 400](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/pi400.jpg)
 
-| Item                        | Revision | SoC     | RAM | Case                                                                    | Storage                     | OS                                                                        | Hostname   | Notes                                                                   |
-| --------------------------- | -------- | ------- | --- | ----------------------------------------------------------------------- | --------------------------- | ------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------------- |
-| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | [Voron 0.2](printer-voron-0.2.md)                                       | 64GB MicroSD (Integral)     | [MainsailOS](https://docs-os.mainsail.xyz)                                | voron0     | Boxed (Unopened)                                                        |
-| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | [Voron 1.8](printer-voron-1.8.md)                                       | 64GB MicroSD (Integral)     | [MainsailOS](https://docs-os.mainsail.xyz)                                | voron1     | Boxed (Unopened)                                                        |
-| Raspberry Pi 4 Model B V1.4 | c03114   | BCM2711 | 4GB | Official Raspberry Pi 4 Case                                            | 16GB MicroSD (Sandisk Edge) | Raspberry Pi OS                                                           | pi4desktop | Boxed Desktop Kit                                                       |
-| Raspberry Pi 4 Model B V1.5 | c03115   | BCM2711 | 4GB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) | 128GB MicroSD (Integral)    | [Raspberry Pi OS ClusterCTRL](https://github.com/burtyb/clusterhat-image) | cnat       | With [Cluster Hat v2.5](https://thepihut.com/products/cluster-hat-v2-0) |
-| Raspberry Pi 400 V1.0       | c03130   | BCM2711 | 4GB |                                                                         | 128GB MicroSD (Integral)    | Ubuntu Desktop 22.04.2 LTS                                                | pi400      | Boxed                                                                   |
+| Item                        | Revision | SoC     | RAM | Case                                                                    | Storage                     | OS                                                                        | Hostname | Notes                                                                         |
+| --------------------------- | -------- | ------- | --- | ----------------------------------------------------------------------- | --------------------------- | ------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------------- |
+| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | Official Raspberry Pi 4 Case (Red)                                      | 16GB MicroSD (Sandisk Edge) | Raspberry Pi OS                                                           |          | Boxed Desktop Kit (Unopened) with official Case Fan                           |
+| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | Official Raspberry Pi 4 Case (Red)                                      | 16GB MicroSD (Sandisk Edge) | Raspberry Pi OS                                                           |          | Boxed Desktop Kit (Unopened) with official Case Fan                           |
+| Raspberry Pi 4 Model B V1.4 | c03114   | BCM2711 | 4GB | [Voron 1.8](printer-voron-1.8.md)                                       | 64GB MicroSD (Integral)     | [MainsailOS](https://docs-os.mainsail.xyz)                                | voron1   | Boxed                                                                         |
+| Raspberry Pi 4 Model B V1.5 | c03115   | BCM2711 | 4GB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) | 128GB MicroSD (Integral)    | [Raspberry Pi OS ClusterCTRL](https://github.com/burtyb/clusterhat-image) | cnat     | Boxed with [Cluster Hat v2.5](https://thepihut.com/products/cluster-hat-v2-0) |
+| Raspberry Pi 400 V1.0       | c03130   | BCM2711 | 4GB |                                                                         | 128GB MicroSD (Integral)    | Ubuntu Desktop 22.04.2 LTS                                                | pi400    | Boxed                                                                         |
 
 ## Raspberry Pi Pico
 

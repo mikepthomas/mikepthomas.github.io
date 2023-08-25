@@ -1,7 +1,7 @@
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated August 9, 2023
+Updated August 25, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
@@ -35,13 +35,18 @@ Klipper Fan Hat features:
 
 ## Printed Circuit Board
 
-The PCB was designed in [KiCad 7](https://www.kicad.org/).
+The PCB (printed circuit board) was designed in [KiCad 7](https://www.kicad.org/) and I have created a [repository on my GitHub](https://github.com/mikepthomas/Klipper-Fan-Hat) with the design files and Gerber files.
 
-I have created a [repository on my GitHub](https://github.com/mikepthomas/Klipper-Fan-Hat) with the design files and Gerber files that I used to produce [Version 1](https://github.com/mikepthomas/Klipper-Fan-Hat/releases/tag/v1.0) of the board.
+Two versions of the board have been produced:
+
+- [Pre-release Version 1](https://github.com/mikepthomas/Klipper-Fan-Hat/releases/tag/v1.0)
+- [Release Version 2](https://github.com/mikepthomas/Klipper-Fan-Hat/releases/tag/v2.0)
+
+I used [PCBWay](https://pcbway.com/) to produce the PCBs.
 
 ![Klipper Fan Hat Front](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-front.jpg)
 
-Although currently unproduced and untested, the main branch contains an updated version of the board, with a few revisions to fix some bugs that were found when testing the first version of the board.
+Although currently untested, the main branch contains the updated version of the board, V2, with a few revisions to fix some bugs that were found when testing the first version of the board.
 
 ![Klipper Fan Hat Back](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-back.jpg)
 
@@ -96,9 +101,11 @@ The reference numbers in the notes field refer to the parts required marked on t
 
 ![Klipper Fan Hat In Hand](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-in-hand.jpg)
 
-**_NOTE:_** This image shows Version 1 of the PCB, It has been subsequently renamed from `Klipper Expander Hat` to `Klipper Fan Hat` as it was decided on the [Voron Discord](https://discord.com/channels/460117602945990666/540528535262068739/1090833386421112933) that it may have been confused with the `Klipper Expander`.
+**_NOTE:_** Some of the images on this page show Version 1 of the PCB, It was originally called the `Klipper Expander Hat` however I have subsequently renamed it to `Klipper Fan Hat` as decided on the [Voron Discord](https://discord.com/channels/460117602945990666/540528535262068739/1090833386421112933) this was so that should not be confused with the `Klipper Expander`.
 
 ## Assembly and Testing
+
+At present assembly testing has only been done with Version 1 of the Klipper Fan hat.
 
 ### Assembly
 
@@ -134,6 +141,8 @@ These have been tested by connecting the 1-wire and the two GPIO pins to a [rota
 
 ### The Road to V2
 
+![Klipper Fan Hat Version 2](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-version-2.jpg)
+
 After my testing I identified a few improvements that I have now made and are available in the master branch:
 
 - Rename to Klipper Fan Hat
@@ -149,6 +158,8 @@ After my testing I identified a few improvements that I have now made and are av
 - Switch orientation of Fan 1-4 resistors so that it does't matter if they are bridged when soldering
 - Added a status LED that can be controlled by the Klipper host
 - On Board DS18B20 Temperature Sensor
+
+I have received the printed circuit boards for Version 2 of the fan hat however I have not yet assembled one. I have however, purchased a cheap [Hot Air Soldering station](https://www.amazon.co.uk/dp/B0C5M9Q86V) to hopefully put some together a little more professionally with the aim to eventually sell on the [pcb_party channel on the Voron Discord](https://discord.com/channels/460117602945990666/981274124850724965) so watch this space if you would like to puchase one.
 
 ## Flash Hat EEPROM
 

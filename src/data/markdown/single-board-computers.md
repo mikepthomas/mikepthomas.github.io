@@ -139,6 +139,10 @@ The cluster was set up to learn [Ansible](https://www.ansible.com) as the Raspbe
 | Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case         | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS (Legacy)                             | node5    |                                       |
 | Raspberry Pi 2 Model B V1.2 | a02042   | BCM2837 | 1GB | Flirc Aluminium Case | 8GB MicroSD (Generic)        | [PiAware 8.1](https://flightaware.com/adsb/piaware/) | piaware  | Boxed With FlightAware Pro Stick Plus |
 
+![Flight Tracker](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/flight-tracker.jpg)
+
+As I live fairly close to Cardiff International Airport and notice many aircraft flying over my house I have set up a flight tracker find out some more information about the planes and contribute the flight tracking information to [FlightAware](https://flightaware.com/adsb/stats/user/mikepthomas) for others to benefit from the information too.
+
 ## Raspberry Pi 3
 
 ![Raspberry Pi 3 Cluster](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/raspberry-pi-3-cluster.jpg)

@@ -16,8 +16,8 @@ Creating a 3D printer enclosure using 2 Ikea Lack tables.
 3. [Enclosing the Printer](#enclosing-the-printer)
 4. [Ongoing Upgrades](#ongoing-upgrades)
 5. [Filament Storage](#filament-storage)
-5. [Handle and Hinges](#handle-and-hinges)
-5. [Carbon Filter Exhaust](#carbon-filter-exhaust)
+6. [Handle and Hinges](#handle-and-hinges)
+7. [Carbon Filter Exhaust](#carbon-filter-exhaust)
 
 ## Assembling Tables
 

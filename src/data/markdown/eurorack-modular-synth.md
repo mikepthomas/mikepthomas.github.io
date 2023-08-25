@@ -1,7 +1,7 @@
 # Building a DIY Eurorack Modular Synth
 
 June 29, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated August 8, 2023
+Updated August 25, 2023
 
 I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER), In one of his videos he mentioned about the website [Music From Outer Space](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&VPW=1430&VPH=660) and the book `Make: Analog Synthesizers` which I have brought and I am currently reading through.
 
@@ -24,17 +24,19 @@ I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER)
 
 ### Eurorack Parts
 
-| Item                          | Quantity                   | Received | Notes                                                                                                                                                                                   |
-| ----------------------------- | -------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 6HP Eurorack Prototype Kit    | 5                          | 5        | Available on [N8Synth](https://www.n8synth.co.uk/shop/eurorack-prototype-kits/6hp-eurorack-prototype-kit/)                                                                              |
-| Eurorack Blind Panels         | Set of 7                   |          | Set of 7 on order. Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-blind-panels-3u-complete-set-7-sizes-in-one-package-black-20hp-panel-gratis/)          |
-| M3 Threaded Strip Insert 84HP | 4 (6 including dust cover) |          | 6 on order. Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-rails-m3-threaded-inserts/?attribute_size=84HP)                                               |
-| Mean Well RT65B Power Supply  | 1                          |          | 1 on order. Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-power-supply-mean-well-rt65b/)                                                                |
-| Flying Bus Board Cable        | 1                          |          | 1 on order. Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-flying-bus-board-cable-8x-or-10x-16pin-connectors/?attribute_length=50cm+%2810x+connector%29) |
-| 16-16 pin Power Cable         | 5                          | 10       | 30cm length                                                                                                                                                                             |
-| M3 Nylon Screws               | 40                         | 43       | Nylon can prevent [Rack Rash](https://learningmodular.com/glossary/rack-rash/)                                                                                                          |
+| Item                          | Quantity                   | Received | Notes                                                                                                                                                                       |
+| ----------------------------- | -------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 6HP Eurorack Prototype Kit    | 5                          | 5        | Available on [N8Synth](https://www.n8synth.co.uk/shop/eurorack-prototype-kits/6hp-eurorack-prototype-kit/)                                                                  |
+| Eurorack Blind Panels         | Set of 7                   | Set of 7 | Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-blind-panels-3u-complete-set-7-sizes-in-one-package-black-20hp-panel-gratis/)                 |
+| M3 Threaded Strip Insert 84HP | 4 (6 including dust cover) | 6        | Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-rails-m3-threaded-inserts/?attribute_size=84HP)                                               |
+| Mean Well RT65B Power Supply  | 1                          | 1        | Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-power-supply-mean-well-rt65b/)                                                                |
+| Flying Bus Board Cable        | 1                          | 1        | Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-flying-bus-board-cable-8x-or-10x-16pin-connectors/?attribute_length=50cm+%2810x+connector%29) |
+| 16-16 pin Power Cable         | 5                          | 10       | 30cm length                                                                                                                                                                 |
+| M3 Nylon Screws               | 40                         | 43       | Nylon can prevent [Rack Rash](https://learningmodular.com/glossary/rack-rash/)                                                                                              |
 
 ## Envelope Generator (EG)
+
+[Moritz Klein's Envelope Generator Video](https://www.youtube.com/watch?v=aGFb7JbTdNU)
 
 Quantities are for 1 Unit
 
@@ -91,6 +93,8 @@ Quantities are for 1 Unit
 
 ### Mixer
 
+[Moritz Klein's Mixer Video Series](https://www.youtube.com/watch?v=q8tmUgaXrEQ&list=PLHeL0JWdJLvQUWK_poeQVAd3mvSTiE0uV)
+
 Quantities are for 1 Unit
 
 #### Capacitors
@@ -138,6 +142,8 @@ Quantities are for 1 Unit
 | Mono Audio Jack | 6        | 30       |       |
 
 ## Voltage Controlled Amplifier (VCA)
+
+[Moritz Klein's VCA Video Series](https://www.youtube.com/watch?v=yMrCCx6uqcE&list=PLHeL0JWdJLvRVZeniuulktYO_OQs0UNkY)
 
 Quantities are for 1 Unit
 
@@ -189,6 +195,8 @@ Quantities are for 1 Unit
 | Mono Audio Jack | 6        | 30       |       |
 
 ## Voltage Controlled Filter (VCF)
+
+[Moritz Klein's VCF Video Series](https://www.youtube.com/watch?v=3tMGNI--ofU&list=PLHeL0JWdJLvT1PAqW4TtvxtRoXyk741WM)
 
 Quantities are for 1 Unit
 
@@ -243,6 +251,8 @@ Quantities are for 1 Unit
 | Mono Audio Jack | 4        | 30       |       |
 
 ### Voltage Controlled Oscillator (VCO)
+
+[Moritz Klein's VCO Video Series](https://www.youtube.com/watch?v=QBatvo8bCa4&list=PLHeL0JWdJLvTuGCyC3qvx0RM39YvopVQN)
 
 Quantities are for 1 Unit
 

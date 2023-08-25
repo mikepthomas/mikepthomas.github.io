@@ -1,7 +1,7 @@
 # Single Board Computers and Microcontrollers
 
 June 26, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated August 13, 2023
+Updated August 25, 2023
 
 This page lists all of the single board computers I own and is mainly for me to keep track of what I have and what I am currently using it for.
 
@@ -199,8 +199,8 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 
 ## Wemos
 
-| Item              | Case                                                        | Flashed with                   | Notes    |
-| ----------------- | ----------------------------------------------------------- | ------------------------------ | -------- |
-| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) |          |
-| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) | On Order |
-| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) | On Order |
+| Item              | Case                                                        | Flashed with                   | Notes |
+| ----------------- | ----------------------------------------------------------- | ------------------------------ | ----- |
+| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) |       |
+| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) |       |
+| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) |       |

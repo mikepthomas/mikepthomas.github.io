@@ -1,7 +1,7 @@
 # Building an Enraged Rabbit Carrot Feeder
 
 Febuary 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 26, 2023
+Updated October 5, 2023
 
 Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRabbitProject) to print using multiple colours of filament on the Voron.
 
@@ -35,58 +35,58 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 #### Hardware
 
-| Item                      | Quantity | Received | Notes |
-| ------------------------- | -------- | -------- | ----- |
-| 7 sets of bondtechs gears | 7        | 7        |       |
-| Drylin RJ4JP-01-08        | 2        | 2        |       |
-| M5 threaded rods          | 2        | 2        |       |
-| 8mm smooth rods           | 2        | 2        |       |
-| D-cut 5mm shaft           | 1        | 1        |       |
-| MR623ZZ bearing           | 1        | 1        |       |
-| MR85ZZ bearings           | 5        | 5        |       |
+| Item                       | Quantity | Received | Notes               |
+| -------------------------- | -------- | -------- | ------------------- |
+| 10 sets of bondtechs gears | 10       | 7        |                     |
+| Drylin RJ4JP-01-08         | 2        | 2        |                     |
+| M5 threaded rods           | 2        | 2        | 224mm for 9 channel |
+| 8mm smooth rods            | 2        | 2        | 239mm for 9 channel |
+| D-cut 5mm shaft            | 1        | 1        | 269mm for 9 channel |
+| MR623ZZ bearing            | 1        | 1        |                     |
+| MR85ZZ bearings            | 6        | 6        |                     |
 
 #### Fasteners
 
 | Item                   | Quantity | Received | Notes |
 | ---------------------- | -------- | -------- | ----- |
-| M3 threaded inserts    | 26       | 32       |       |
+| M3 threaded inserts    | 28       | 32       |       |
 | M5x30 BHCS             | 2        | 2        |       |
 | M5x16 BHCS             | 1        | 1        |       |
 | M5 nuts                | 4        | 5        |       |
 | M5 nylock nuts         | 5        | 6        |       |
 | M5 washers             | 2        | 3        |       |
-| M3x8 SHCS              | 20       | 20       |       |
+| M3x8 SHCS              | 22       | 20       |       |
 | M3x8 BHCS              | 5        | 5        |       |
 | M3x12 SHCS             | 3        | 3        |       |
-| M3x16 SHCS             | 10       | 10       |       |
+| M3x16 SHCS             | 13       | 10       |       |
 | M3x20 SHCS             | 7        | 7        |       |
 | M3x40 SHCS             | 2        | 2        |       |
-| M3 DIN125 Steel Washer | 8        | 13       |       |
+| M3 DIN125 Steel Washer | 11       | 13       |       |
 | M2x10 SHCS             | 2        | 2        |       |
 
 #### Motion
 
-| Item                                 | Quantity | Received | Notes |
-| ------------------------------------ | -------- | -------- | ----- |
-| GT2 belt 6mm (open)                  | 1        | 1        |       |
-| GT2 20T Pulley 6 mm, 5mm bore        | 3        | 3        |       |
-| GT2 20T Toothed Idler 6 mm, 5mm bore | 1        | 1        |       |
-| GT2 188m Belt loop 6mm               | 1        | 1        |       |
+| Item                                 | Quantity | Received | Notes               |
+| ------------------------------------ | -------- | -------- | ------------------- |
+| GT2 belt 6mm (open)                  | 1        | 1        | 548mm for 9 channel |
+| GT2 20T Pulley 6 mm, 5mm bore        | 3        | 3        |                     |
+| GT2 20T Toothed Idler 6 mm, 5mm bore | 1        | 1        |                     |
+| GT2 188m Belt loop 6mm               | 1        | 1        |                     |
 
 #### Misc
 
-| Item                              | Quantity | Received | Notes |
-| --------------------------------- | -------- | -------- | ----- |
-| 6mm x 3mm Round Neodymium Magnets | 22       | 23       |       |
-| Bowden Clip                       | 7        | 7        |       |
-| Bowden Fitting                    | 7        | 7        |       |
-| 7X7 Drag chain                    | 1        | 1        |       |
+| Item                              | Quantity | Received | Notes             |
+| --------------------------------- | -------- | -------- | ----------------- |
+| 6mm x 3mm Round Neodymium Magnets | 31       | 23       | 50 on order       |
+| Bowden Clip                       | 10       | 7        | 10 on order (Red) |
+| Bowden Fitting                    | 10       | 7        | 10 on order       |
+| 7X7 Drag chain                    | 1        | 1        |                   |
 
 #### Toolhead Sensor
 
 | Item                                 | Quantity | Received | Notes |
 | ------------------------------------ | -------- | -------- | ----- |
-| AH3364Q-P-B Hall Effect sensor (SIP) | 1        | 1        |       |
+| AH3364Q-P-B Hall Effect sensor (SIP) | 1        | 2        |       |
 | M3 DIN125 Steel Washer               | 1        | 2        |       |
 | 6mm x 3mm Round Neodymium Magnets    | 1        | 2        |       |
 | M3x8 SHCS                            | 1        | 2        |       |
@@ -96,32 +96,32 @@ I have some of the parts required left over from the build of the [Voron](printe
 ### Enraged Rabbit Carrot Patch
 
 The [Enraged Rabbit Carrot Patch](https://github.com/EtteGit/EnragedRabbitProject) manages filament reels being used by the Enraged Rabbit Carrot Feeder.
-Quantities are for 1 Patch. I should have enough parts for 6 patches.
+Quantities are for 1 Patch. I should have enough parts for 8 patches.
 
 #### Fasteners
 
 | Item                | Quantity | Received | Notes |
 | ------------------- | -------- | -------- | ----- |
-| M3 threaded inserts | 4        | 24       |       |
-| M3x8 SHCS           | 2        | 12       |       |
-| M3x16 SHCS          | 1        | 6        |       |
-| M3x20 SHCS          | 1        | 6        |       |
-| M5 nylock nuts      | 1        | 6        |       |
-| M5x30 BHCS          | 1        | 6        |       |
+| M3 threaded inserts | 4        | 32       |       |
+| M3x8 SHCS           | 2        | 16       |       |
+| M3x16 SHCS          | 1        | 8        |       |
+| M3x20 SHCS          | 1        | 8        |       |
+| M5 nylock nuts      | 1        | 8        |       |
+| M5x30 BHCS          | 1        | 8        |       |
 
 #### Misc
 
 | Item                             | Quantity | Received | Notes |
 | -------------------------------- | -------- | -------- | ----- |
-| Bowden Clip                      | 2        | 12       |       |
-| Bowden Fitting                   | 2        | 12       |       |
-| PTFE Tube (4mm OD 3mm ID) - 30cm | 1        | 2m       |       |
+| Bowden Clip                      | 2        | 16       |       |
+| Bowden Fitting                   | 2        | 16       |       |
+| PTFE Tube (4mm OD 3mm ID) - 30cm | 1        | 6m       |       |
 
 #### Motion
 
 | Item          | Quantity | Received | Notes |
 | ------------- | -------- | -------- | ----- |
-| 608ZZ Bearing | 1        | 6        |       |
+| 608ZZ Bearing | 1        | 8        |       |
 
 ## Printing Parts
 
@@ -131,13 +131,13 @@ Quantities are for 1 Patch. I should have enough parts for 6 patches.
 
 | Item                                                                                                                                                     | Quantity | Material                                                                    | Printed | Notes |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------- | :-----: | ----- |
-| [Filament_Block](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Filament_Block_xN.stl)                   | 6        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
+| [Filament_Block](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Filament_Block_xN.stl)                   | 9        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
 | [Filament_Blocks_End](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Filament_Blocks_End.stl)            | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   |       |
 | [Bearing_Insert_Feet](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/%5Ba%5D_Bearing_Insert_Feet_x2.stl) | 2        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
 | [Bearing_Insert](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/%5Ba%5D_Bearing_Insert_x2.stl)           | 2        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
 | [Blocks_End_Feet](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/%5Ba%5D_Blocks_End_Feet.stl)            | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
-| [Latch](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/%5Ba%5D_Latch_xN.stl)                             | 6        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
-| [Top_Hat](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/%5Ba%5D_Top_Hat_xN.stl)                         | 6        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
+| [Latch](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/%5Ba%5D_Latch_xN.stl)                             | 9        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
+| [Top_Hat](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/%5Ba%5D_Top_Hat_xN.stl)                         | 9        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
 
 ##### Magnetic Gates
 
@@ -149,6 +149,9 @@ Quantities are for 1 Patch. I should have enough parts for 6 patches.
 | [Magnetic_Gate_3](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Magnetic%20Gates/%5Ba%5D_Magnetic_Gate_3.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
 | [Magnetic_Gate_4](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Magnetic%20Gates/%5Ba%5D_Magnetic_Gate_4.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
 | [Magnetic_Gate_5](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Magnetic%20Gates/%5Ba%5D_Magnetic_Gate_5.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
+| [Magnetic_Gate_6](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Magnetic%20Gates/%5Ba%5D_Magnetic_Gate_6.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
+| [Magnetic_Gate_7](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Magnetic%20Gates/%5Ba%5D_Magnetic_Gate_7.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
+| [Magnetic_Gate_8](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Magnetic%20Gates/%5Ba%5D_Magnetic_Gate_8.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   |       |
 
 ##### Tag Plates
 
@@ -160,12 +163,15 @@ Quantities are for 1 Patch. I should have enough parts for 6 patches.
 | [Tag_Plate_3](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Tag%20Plates/%5Ba%5D_Tag_Plate_3.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   | Will reprint the Multi colour version when the ERCF is completed |
 | [Tag_Plate_4](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Tag%20Plates/%5Ba%5D_Tag_Plate_4.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   | Will reprint the Multi colour version when the ERCF is completed |
 | [Tag_Plate_5](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Tag%20Plates/%5Ba%5D_Tag_Plate_5.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   | Will reprint the Multi colour version when the ERCF is completed |
+| [Tag_Plate_6](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Tag%20Plates/%5Ba%5D_Tag_Plate_6.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   | Will reprint the Multi colour version when the ERCF is completed |
+| [Tag_Plate_7](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Tag%20Plates/%5Ba%5D_Tag_Plate_7.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   | Will reprint the Multi colour version when the ERCF is completed |
+| [Tag_Plate_8](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Tag%20Plates/%5Ba%5D_Tag_Plate_8.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   | Will reprint the Multi colour version when the ERCF is completed |
 
 ##### Tag Plates
 
 | Item                                                                                                                                                           | Quantity | Material                                                | Printed | Notes                                    |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ---------------------------------------- |
-| [Top_Hat_Locker_1](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Top%20Hat%20Lockers/Top_Hat_Locker_1_xN.stl) | 6        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Manual says to start with all tools at 1 |
+| [Top_Hat_Locker_1](https://github.com/EtteGit/EnragedRabbitProject/blob/main/Carrot_Feeder/Stls/Filament%20blocks/Top%20Hat%20Lockers/Top_Hat_Locker_1_xN.stl) | 9        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | Manual says to start with all tools at 1 |
 
 #### Gearbox
 

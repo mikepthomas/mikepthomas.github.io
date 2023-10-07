@@ -1,7 +1,7 @@
 # Single Board Computers and Microcontrollers
 
 June 26, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated August 25, 2023
+Updated October 7, 2023
 
 This page lists all of the single board computers I own and is mainly for me to keep track of what I have and what I am currently using it for.
 
@@ -21,9 +21,10 @@ This page lists all of the single board computers I own and is mainly for me to 
 8. [Raspberry Pi 2](#raspberry-pi-2)
 9. [Raspberry Pi 3](#raspberry-pi-3)
 10. [Raspberry Pi 4](#raspberry-pi-4)
-11. [Raspberry Pi Pico](#raspberry-pi-pico)
-12. [Teensy](#teensy)
-13. [Wemos](#wemos)
+11. [Raspberry Pi 5](#raspberry-pi-5)
+12. [Raspberry Pi Pico](#raspberry-pi-pico)
+13. [Teensy](#teensy)
+14. [Wemos](#wemos)
 
 ## Arduino
 
@@ -179,17 +180,24 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 | Raspberry Pi 4 Model B V1.5 | c03115   | BCM2711 | 4GB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) | 128GB MicroSD (Integral)    | [Raspberry Pi OS ClusterCTRL](https://github.com/burtyb/clusterhat-image) | cnat     | Boxed with [Cluster Hat v2.5](https://thepihut.com/products/cluster-hat-v2-0) |
 | Raspberry Pi 400 V1.0       | c03130   | BCM2711 | 4GB |                                                                         | 128GB MicroSD (Integral)    | Ubuntu Desktop 22.04.2 LTS                                                | pi400    | Boxed                                                                         |
 
+## Raspberry Pi 5
+
+| Item                   | Revision | SoC     | RAM | Case                               | Storage | OS  | Hostname | Notes                                 |
+| ---------------------- | -------- | ------- | --- | ---------------------------------- | ------- | --- | -------- | ------------------------------------- |
+| Raspberry Pi 5 Model B |          | BCM2712 | 4GB | Official Raspberry Pi 5 Case (Red) |         |     |          | On Order. With official Active Cooler |
+
 ## Raspberry Pi Pico
 
 ![Maker Pi Pico](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/maker-pi-pico.jpg)
 
-| Item                                | Case                                                                                                        | Flashed with                                                     | Notes                           |
-| ----------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------- |
-| Raspberry Pi Pico                   | [Macro Pi](https://www.thingiverse.com/thing:5817044)                                                       | [PiPicoMacroKeys](https://github.com/novaspirit/PiPicoMacroKeys) | In original packaging           |
-| Raspberry Pi Pico H                 | [Maker Pi Pico](https://www.cytron.io/p-maker-pi-pico-simplifying-raspberry-pi-pico-for-beginners-and-kits) | [MicroPython](https://micropython.org)                           |                                 |
-| Raspberry Pi Pico W                 |                                                                                                             |                                                                  | In original packaging           |
-| Raspberry Pi Pico WH                |                                                                                                             |                                                                  | Boxed                           |
-| Raspberry Pi RP2040 Microcontroller |                                                                                                             |                                                                  | Bare Chip in original packaging |
+| Item                                | Case                                                                                                        | Flashed with                                                                 | Notes                           |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------- |
+| Datanoise Pico ADK                  | Eurorack Module                                                                                             | [PicoADK Firmware](https://github.com/DatanoiseTV/PicoADK-Firmware-Template) |                                 |
+| Raspberry Pi Pico                   | [Macro Pi](https://www.thingiverse.com/thing:5817044)                                                       | [PiPicoMacroKeys](https://github.com/novaspirit/PiPicoMacroKeys)             | In original packaging           |
+| Raspberry Pi Pico H                 | [Maker Pi Pico](https://www.cytron.io/p-maker-pi-pico-simplifying-raspberry-pi-pico-for-beginners-and-kits) | [MicroPython](https://micropython.org)                                       |                                 |
+| Raspberry Pi Pico W                 |                                                                                                             |                                                                              | In original packaging           |
+| Raspberry Pi Pico WH                |                                                                                                             |                                                                              | Boxed                           |
+| Raspberry Pi RP2040 Microcontroller |                                                                                                             |                                                                              | Bare Chip in original packaging |
 
 ![Macro Pi](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/macro-pi.jpg)
 

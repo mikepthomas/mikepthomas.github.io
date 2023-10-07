@@ -15,16 +15,17 @@ This page lists all of the single board computers I own and is mainly for me to 
 2. [BBC](#bbc)
 3. [BigTreeTech](#bigtreetech)
 4. [Hardkernel](#hardkernel)
-5. [Next Thing Co](#next-thing-co)
-6. [Raspberry Pi Zero](#raspberry-pi-zero)
-7. [Raspberry Pi 1](#raspberry-pi-1)
-8. [Raspberry Pi 2](#raspberry-pi-2)
-9. [Raspberry Pi 3](#raspberry-pi-3)
-10. [Raspberry Pi 4](#raspberry-pi-4)
-11. [Raspberry Pi 5](#raspberry-pi-5)
-12. [Raspberry Pi Pico](#raspberry-pi-pico)
-13. [Teensy](#teensy)
-14. [Wemos](#wemos)
+5. [Mellow](#mellow)
+6. [Next Thing Co](#next-thing-co)
+7. [Raspberry Pi Zero](#raspberry-pi-zero)
+8. [Raspberry Pi 1](#raspberry-pi-1)
+9. [Raspberry Pi 2](#raspberry-pi-2)
+10. [Raspberry Pi 3](#raspberry-pi-3)
+11. [Raspberry Pi 4](#raspberry-pi-4)
+12. [Raspberry Pi 5](#raspberry-pi-5)
+13. [Raspberry Pi Pico](#raspberry-pi-pico)
+14. [Teensy](#teensy)
+15. [Wemos](#wemos)
 
 ## Arduino
 
@@ -75,6 +76,15 @@ I purchased the Odroid XU4 and CloudShell enclosure to use as a Network Attached
 | [Odroid C2](https://wiki.odroid.com/odroid-c2/odroid-c2)    |                                                                                                 |           | Ubuntu 20.04 | odroid     | With [Odroid UPS3](https://wiki.odroid.com/accessory/power_supply_battery/odroid-ups3) + [Odroid USB Wifi adapter](https://www.hardkernel.com/shop/wifi-module-5bk/) |
 | [Odroid Go](https://wiki.odroid.com/odroid_go/odroid_go)    | [Odroid Go QWERTY](https://wiki.odroid.com/odroid_go/qwerty)                                    |           |              |            | Boxed                                                                                                                                                                |
 | [Odroid XU4](https://wiki.odroid.com/odroid-xu4/odroid-xu4) | [CloudShell 2](https://wiki.odroid.com/accessory/add-on_boards/xu4_cloudshell2/xu4_cloudshell2) | 32GB eMMC | Ubuntu 22.04 | cloudshell | With 2 x 3TB Hard Drives in RAID 1                                                                                                                                   |
+
+## Mellow
+
+Mellow make mainboards to control 3D printers.
+
+| Item                                                       | Case | Flashed with                                    | Notes                                     |
+| ---------------------------------------------------------- | ---- | ----------------------------------------------- | ----------------------------------------- |
+| [Fly RRF E3](https://github.com/Mellow-3D/FLY-RRF-E3)      |      | [RepRapFirmware](https://teamgloomy.github.io/) | With 4 Mellow Fly TMC2225 stepper drivers |
+| [Fly Super 8](https://mellow-3d.github.io/fly_super8.html) |      | [Klipper Firmware](https://www.klipper3d.org)   | With 8 Mellow Fly TMC2130 stepper drivers |
 
 ## Next Thing Co
 
@@ -172,13 +182,13 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 
 ![Raspberry Pi 400](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/pi400.jpg)
 
-| Item                        | Revision | SoC     | RAM | Case                                                                    | Storage                     | OS                                                                        | Hostname | Notes                                                                         |
-| --------------------------- | -------- | ------- | --- | ----------------------------------------------------------------------- | --------------------------- | ------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------------- |
-| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | Official Raspberry Pi 4 Case (Red)                                      | 16GB MicroSD (Sandisk Edge) | Raspberry Pi OS                                                           |          | Boxed Desktop Kit (Unopened) with official Case Fan                           |
-| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | Official Raspberry Pi 4 Case (Red)                                      | 16GB MicroSD (Sandisk Edge) | Raspberry Pi OS                                                           |          | Boxed Desktop Kit (Unopened) with official Case Fan                           |
-| Raspberry Pi 4 Model B V1.4 | c03114   | BCM2711 | 4GB | [Voron 1.8](printer-voron-1.8.md)                                       | 64GB MicroSD (Integral)     | [MainsailOS](https://docs-os.mainsail.xyz)                                | voron1   | Boxed                                                                         |
-| Raspberry Pi 4 Model B V1.5 | c03115   | BCM2711 | 4GB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) | 128GB MicroSD (Integral)    | [Raspberry Pi OS ClusterCTRL](https://github.com/burtyb/clusterhat-image) | cnat     | Boxed with [Cluster Hat v2.5](https://thepihut.com/products/cluster-hat-v2-0) |
-| Raspberry Pi 400 V1.0       | c03130   | BCM2711 | 4GB |                                                                         | 128GB MicroSD (Integral)    | Ubuntu Desktop 22.04.2 LTS                                                | pi400    | Boxed                                                                         |
+| Item                        | Revision | SoC     | RAM | Case                                                                    | Storage                     | OS                                                                        | Hostname | Notes                                                                                                              |
+| --------------------------- | -------- | ------- | --- | ----------------------------------------------------------------------- | --------------------------- | ------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------ |
+| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | Official Raspberry Pi 4 Case (Red)                                      | 16GB MicroSD (Sandisk Edge) | Raspberry Pi OS                                                           |          | Boxed Desktop Kit (Unopened) with official Case Fan                                                                |
+| Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | Official Raspberry Pi 4 Case (Red)                                      | 16GB MicroSD (Sandisk Edge) | Raspberry Pi OS                                                           |          | Boxed Desktop Kit (Unopened) with official Case Fan                                                                |
+| Raspberry Pi 4 Model B V1.4 | c03114   | BCM2711 | 4GB | [Voron 1.8](printer-voron-1.8.md)                                       | 64GB MicroSD (Integral)     | [MainsailOS](https://docs-os.mainsail.xyz)                                | voron1   | Boxed                                                                                                              |
+| Raspberry Pi 4 Model B V1.5 | c03115   | BCM2711 | 4GB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) | 128GB MicroSD (Integral)    | [Raspberry Pi OS ClusterCTRL](https://github.com/burtyb/clusterhat-image) | cnat     | Boxed with [Cluster Hat v2.5](https://thepihut.com/products/cluster-hat-v2-0)                                      |
+| Raspberry Pi 400 V1.0       | c03130   | BCM2711 | 4GB |                                                                         | 128GB MicroSD (Integral)    | Ubuntu Desktop 22.04.2 LTS                                                | pi400    | Boxed with [DACBerry 400 S](https://www.osaelectronics.com/learn/tutorials/dacberry-400-series-quick-start-guide/) |
 
 ## Raspberry Pi 5
 

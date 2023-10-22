@@ -1,7 +1,7 @@
 # Building an Enraged Rabbit Carrot Feeder
 
 Febuary 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated October 5, 2023
+Updated October 22, 2023
 
 Building an [Enraged Rabbit Carrot Feeder](https://github.com/EtteGit/EnragedRabbitProject) to print using multiple colours of filament on the Voron.
 
@@ -55,10 +55,10 @@ I have some of the parts required left over from the build of the [Voron](printe
 | M5 nuts                | 4        | 5        |       |
 | M5 nylock nuts         | 5        | 6        |       |
 | M5 washers             | 2        | 3        |       |
-| M3x8 SHCS              | 22       | 20       |       |
+| M3x8 SHCS              | 22       | 22       |       |
 | M3x8 BHCS              | 5        | 5        |       |
 | M3x12 SHCS             | 3        | 3        |       |
-| M3x16 SHCS             | 13       | 10       |       |
+| M3x16 SHCS             | 13       | 13       |       |
 | M3x20 SHCS             | 7        | 7        |       |
 | M3x40 SHCS             | 2        | 2        |       |
 | M3 DIN125 Steel Washer | 11       | 13       |       |
@@ -75,12 +75,12 @@ I have some of the parts required left over from the build of the [Voron](printe
 
 #### Misc
 
-| Item                              | Quantity | Received | Notes             |
-| --------------------------------- | -------- | -------- | ----------------- |
-| 6mm x 3mm Round Neodymium Magnets | 31       | 23       | 50 on order       |
-| Bowden Clip                       | 10       | 7        | 10 on order (Red) |
-| Bowden Fitting                    | 10       | 7        | 10 on order       |
-| 7X7 Drag chain                    | 1        | 1        |                   |
+| Item                              | Quantity | Received | Notes |
+| --------------------------------- | -------- | -------- | ----- |
+| 6mm x 3mm Round Neodymium Magnets | 31       | 23       |       |
+| Bowden Clip                       | 10       | 10       | Red   |
+| Bowden Fitting                    | 10       | 10       |       |
+| 7X7 Drag chain                    | 1        | 1        |       |
 
 #### Toolhead Sensor
 

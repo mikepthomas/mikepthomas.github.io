@@ -240,8 +240,6 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 | Raspberry Pi Pico WH                |                                                                                                             | [ESPHome](https://esphome.io/)                                               | Boxed                           |
 | Raspberry Pi RP2040 Microcontroller |                                                                                                             |                                                                              | Bare Chip in original packaging |
 
-![Macro Pi](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/macro-pi.jpg)
-
 ## STMicroelectronics
 
 | Item          | Case | Flashed with | Hostname | Notes |

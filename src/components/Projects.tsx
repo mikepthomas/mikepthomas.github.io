@@ -199,6 +199,9 @@ const Projects = (props: Props) => {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/projects/macro-pi">Macro Pi</Link>
+                </li>
+                <li>
                   <Link to="/projects/solar-wifi-weather-station">
                     Solar Wifi Weather Station
                   </Link>

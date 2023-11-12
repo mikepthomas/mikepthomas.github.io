@@ -142,7 +142,7 @@ More modern printers have moved over to using magnetic PEI Flex plates. The PEI 
 
 ## BMG Direct Drive
 
-I have purchased parts to install the [ANET A8 E3DV6 BMG Direct Drive X Carriage](https://www.thingiverse.com/thing:3807114), the adapter plate should be a direct bolt on to the X Carriage of the Anet A8. This was chosen as the parts that are required for this are the exact same parts that are required to build the [Voron Afterburner](printer-voron-1.8.md#voron-afterburner-stealthburner).
+I have purchased parts to install the [ANET A8 E3DV6 BMG Direct Drive X Carriage](https://www.thingiverse.com/thing:3807114), the adapter plate should be a direct bolt on to the X Carriage of the Anet A8. This was chosen as the parts that are required for this are the exact same parts that are required to build the [Voron Afterburner](printer-voron-1.8.md#afterburner).
 
 ### Motion
 

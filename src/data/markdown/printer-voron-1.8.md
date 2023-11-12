@@ -560,7 +560,44 @@ I built the Afterburner toolhead but will upgrade to the [Stealthburner](https:/
 | M3x30 SHCS                           | 4        |
 | NEMA17 Motor 17HS08-1004S            | 1        |
 
+#### :white_check_mark: Blower Housing
+
+| Item                                                                                                                            | Quantity | Material                                                                    |      Printed       | Notes |
+| ------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------- | :----------------: | ----- |
+| [blower_housing_front](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/%5Ba%5D_blower_housing_front.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | :heavy_check_mark: |       |
+| [blower_housing_rear](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/blower_housing_rear.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | :heavy_check_mark: |       |
+| [hotend_fan_mount](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/hotend_fan_mount.stl)                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | :heavy_check_mark: |       |
+
+##### Assembly
+
+###### Parts Used
+
+| Item                           | Quantity |
+| ------------------------------ | -------- |
+| M3x16 SHCS                     | 2        |
+| M3x30 SHCS                     | 2        |
+| 40x40x20 Centrifugal Fan (24V) | 1        |
+| 40x40x10 Axial Fan (24V)       | 1        |
+
+#### :white_check_mark: V6 Printhead
+
+| Item                                                                                                                                        | Quantity | Material                                                |      Printed       | Notes |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ----- |
+| [printhead_front_e3dv6](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/Printheads/E3D_V6/printhead_front_e3dv6.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |       |
+| [printhead_rear_e3dv6](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/Printheads/E3D_V6/printhead_rear_e3dv6.stl)   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |       |
+
+##### Assembly
+
 ![Afterburner Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-1.8/afterburner-assembled.jpg)
+
+###### Parts Used
+
+| Item                           | Quantity |
+| ------------------------------ | -------- |
+| M3x12 SHCS                     | 2        |
+| M3x16 SHCS                     | 2        |
+| M3x40 SHCS                     | 2        |
+| E3D V6 Bowden Hotend Kit (24V) | 1        |
 
 #### :negative_squared_cross_mark: Stealthburner
 

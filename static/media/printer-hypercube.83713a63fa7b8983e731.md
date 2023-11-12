@@ -77,13 +77,15 @@ The kit I purchased also comes with the extrusions to build the electronics case
 
 ## X Axis
 
-To start off with I will not be deviating too far from the Anet Evolution. I will be printing the Belt clamp with belt tensioners from that and [eventually plan to upgrade the toolhead in the future](printer-extruders-and-toolheads.md#anet-a8-bmg-direct-drive).
+To start off with I will not be deviating too far from the Anet Evolution. I will be printing the Belt clamp with belt tensioners from that and [eventually plan to upgrade the toolhead in the future](printer-hardware-upgrades.md#bmg-direct-drive).
 
 | Item                                                                       | Quantity | Material                                                               | Size  | Weight | Cost  |      Printed       |
 | -------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ----- | ------ | ----- | :----------------: |
 | [1_Carriage_X_NewVersion](https://www.thingiverse.com/thing:2786292/files) | 1        | [Tinmorry PETG (Black)](printer-filament.md#tinmorry-petg-black)       | 8.82m | 30.77g | £0.62 | :heavy_check_mark: |
 | [2_Belt_Clamp.stl](https://www.thingiverse.com/thing:2786292/files)        | 2        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | 0.59m | 2.05g  | £0.04 | :heavy_check_mark: |
 | [4_Belt_Tensioner](https://www.thingiverse.com/thing:2786292/files)        | 4        | [Amazon Basics PETG (Red)](printer-filament.md#amazon-basics-petg-red) | 0.08m | 0.29g  | £0.01 | :heavy_check_mark: |
+
+There is also an adapter plate, [Hypercube Afterburner adapter intergration remix](https://www.thingiverse.com/thing:5156654) that may work to mount an Afterburner on the guide rails.
 
 ## Y Axis
 

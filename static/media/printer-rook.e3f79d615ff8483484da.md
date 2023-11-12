@@ -64,17 +64,17 @@ Sourcing and printing parts to assemble a [Rook 2020 MK1 3D Printer](https://www
 
 ### Electronics
 
-| Item                         | Quantity | Received | Notes                                                                                                                           |
-| ---------------------------- | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Nema 17 Stepper Motors       | 4        | 4        | Using original Anet A8 X/Y/Z1/Z2 Stepper Motors                                                                                 |
-| CR10 Style Hotend            | 1        | 1        |                                                                                                                                 |
-| Power Supply                 | 1        | 1        | Using original Anet A8 Power Supply                                                                                             |
-| Raspberry Pi Zero            | 1        | 1        | Using Zero 2W                                                                                                                   |
-| SKR Pico                     | 1        | 1        |                                                                                                                                 |
-| SPDT KW10 Limit Micro Switch | 1        | 1        |                                                                                                                                 |
-| V0 Simple Display            | 1        | 1        |                                                                                                                                 |
-| 30x30x10 Axial Fan           | 1        | 1        |                                                                                                                                 |
-| 40x40x10 Centrifugal Fan     | 2        | 2        | Using instead of 120x120x32 Centrifugal Fan for the the [Rook Fan Rookery](printer-extruders-and-toolheads.md#rook-fan-rookery) |
+| Item                         | Quantity | Received | Notes                                                                    |
+| ---------------------------- | -------- | -------- | ------------------------------------------------------------------------ |
+| Nema 17 Stepper Motors       | 4        | 4        | Using original Anet A8 X/Y/Z1/Z2 Stepper Motors                          |
+| CR10 Style Hotend            | 1        | 1        |                                                                          |
+| Power Supply                 | 1        | 1        | Using original Anet A8 Power Supply                                      |
+| Raspberry Pi Zero            | 1        | 1        | Using Zero 2W                                                            |
+| SKR Pico                     | 1        | 1        |                                                                          |
+| SPDT KW10 Limit Micro Switch | 1        | 1        |                                                                          |
+| V0 Simple Display            | 1        | 1        |                                                                          |
+| 30x30x10 Axial Fan           | 1        | 1        |                                                                          |
+| 40x40x10 Centrifugal Fan     | 2        | 2        | Using instead of 120x120x32 Centrifugal Fan for the the Rookery Toolhead |
 
 ## Printing Parts
 

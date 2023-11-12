@@ -560,7 +560,44 @@ I built the Afterburner toolhead but will upgrade to the [Stealthburner](https:/
 | M3x30 SHCS                           | 4        |
 | NEMA17 Motor 17HS08-1004S            | 1        |
 
+#### :white_check_mark: Blower Housing
+
+| Item                                                                                                                            | Quantity | Material                                                                    |      Printed       | Notes |
+| ------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------- | :----------------: | ----- |
+| [blower_housing_front](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/%5Ba%5D_blower_housing_front.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | :heavy_check_mark: |       |
+| [blower_housing_rear](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/blower_housing_rear.stl)           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | :heavy_check_mark: |       |
+| [hotend_fan_mount](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/hotend_fan_mount.stl)                 | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | :heavy_check_mark: |       |
+
+##### Assembly
+
+###### Parts Used
+
+| Item                           | Quantity |
+| ------------------------------ | -------- |
+| M3x16 SHCS                     | 2        |
+| M3x30 SHCS                     | 2        |
+| 40x40x20 Centrifugal Fan (24V) | 1        |
+| 40x40x10 Axial Fan (24V)       | 1        |
+
+#### :white_check_mark: V6 Printhead
+
+| Item                                                                                                                                        | Quantity | Material                                                |      Printed       | Notes |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :----------------: | ----- |
+| [printhead_front_e3dv6](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/Printheads/E3D_V6/printhead_front_e3dv6.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |       |
+| [printhead_rear_e3dv6](https://github.com/VoronDesign/Voron-Afterburner/blob/afterburner/STLs/Printheads/E3D_V6/printhead_rear_e3dv6.stl)   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) | :heavy_check_mark: |       |
+
+##### Assembly
+
 ![Afterburner Assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-1.8/afterburner-assembled.jpg)
+
+###### Parts Used
+
+| Item                           | Quantity |
+| ------------------------------ | -------- |
+| M3x12 SHCS                     | 2        |
+| M3x16 SHCS                     | 2        |
+| M3x40 SHCS                     | 2        |
+| E3D V6 Bowden Hotend Kit (24V) | 1        |
 
 #### :negative_squared_cross_mark: Stealthburner
 
@@ -850,17 +887,23 @@ I have also purchased an additional DIN rail than what was specified on the BOM 
 
 #### :wrench: Rear Electronics Brackets
 
-I managed purchase a SKR 1.4 (the non Turbo verion) cheaply to replace the [SKR 1.4 Turbo I have in my Anet A8](printer-hardware-upgrades.md) and plan to install the SKR 1.4 Turbo here. I chose this to enable me to swap the boards with minimal re-wiring, and without the need to re-print a new case.
+I managed purchase a SKR 1.4 (the non Turbo verion) cheaply to replace the [SKR 1.4 Turbo I have in my Anet A8](printer-hardware-upgrades.md) and planed to install the SKR 1.4 Turbo here. I chose this to enable me to swap the boards with minimal re-wiring, and without the need to re-print a new case for my Anet A8.
 I have also purchased the [BTT EXP-MOT motor expansion module](https://github.com/bigtreetech/BTT-Expansion-module/tree/master/BTT%20EXP-MOT) to allow me to install additional stepper motor drivers to run the [Enraged Rabbit Carrot Feeder](printer-enraged-rabbit-carrot-feeder.md) and potentially add a [3rd Z Stepper Motor](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/yeri/V1_3Z).
+
+However, I have recently purchased a Mellow Fly Super 8 V1.0 from the Voron Discord Garage Sale channel. This will allow me to run 8 Stepper Motors from a single board, simplifying the setup.
 
 | Item                                                                                                                                                               | Quantity | Material                                                                    | Size  | Weight | Cost  |      Printed       | Notes                                                                                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------- | ----- | ------ | ----- | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [controller_fan_guard](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/%5Ba%5D_controller_fan_guard.stl) | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | 1.80m | 4.59g  | £0.09 | :heavy_check_mark: |                                                                                                                                          |
 | [controller_fan_mount](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Electronics_Brackets/Rear_Electronics_Enclosure/controller_fan_mount.stl)         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | 5.44m | 13.88g | £0.26 | :heavy_check_mark: |                                                                                                                                          |
-| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)                                                     | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | 1.51m | 3.84g  | £0.07 |         3          | This is a Trident r1 Part. 2 for SKR, 1 for BTT MOT Expansion and 1 for Raspberry Pi                                                     |
+| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)                                                     | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | 1.51m | 3.84g  | £0.07 |         3          | This is a Trident r1 Part. 2 for Super 8, 1 for BTT U2C and 1 for Raspberry Pi                                                           |
 | [raspberrypi_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/raspberrypi_bracket.stl)                                          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | 1.77m | 4.51g  | £0.09 | :heavy_check_mark: | This is a Trident Part. Going to replace with [LDO Beefy Raspberry Pi Bracket](printer-voron-1.8-mods.md#ldo-beefy-raspberry-pi-bracket) |
-| [BTT_MOT_EXP_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/BTT_MOT_EXP_bracket.stl)                        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | 1.76m | 4.48g  | £0.09 | :heavy_check_mark: | This is a Trident Part                                                                                                                   |
-| [SKR_bracket_inline_set](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/SKR_bracket_inline_set.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | 2.55m | 6.49g  | £0.12 | :heavy_check_mark: | This is a Trident Part                                                                                                                   |
+| [BTT_MOT_EXP_bracket](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/BTT_MOT_EXP_bracket.stl)                        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | 1.76m | 4.48g  | £0.09 | :heavy_check_mark: | This is a Trident Part, Not Required as I am going to use the Super 8.                                                                   |
+| [SKR_bracket_inline_set](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/Controller_Mounts/SKR_bracket_inline_set.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | 2.55m | 6.49g  | £0.12 | :heavy_check_mark: | This is a Trident Part, Not Required as I am going to use the Super 8.                                                                   |
+| [Fly_Super8_2pc](https://github.com/VoronDesign/Voron-Parts/blob/main/DIN_Mounts/Controllers/Mellow/Fly_Super8_2pc.stl)                                            | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |       |        |       |        :x:         | From the Voron Parts Repository                                                                                                          |
+| [Raspberry_Pi](https://github.com/VoronDesign/Voron-Parts/blob/main/DIN_Mounts/Misc/Raspberry_Pi.stl)                                                              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |       |        |       |        :x:         | From the Voron Parts Repository                                                                                                          |
+| [U2C](https://github.com/VoronDesign/Voron-Parts/blob/main/DIN_Mounts/Misc/U2C.stl)                                                                                | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |       |        |       |        :x:         | From the Voron Parts Repository, To add CAN Support to communicate with [Fysetc PITB](single-board-computers.md#fysetc)                  |
+| [din_clip](https://github.com/VoronDesign/Voron-Parts/blob/main/DIN_Mounts/din_clip.stl)                                                                           | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |       |        |       |        :x:         | From the Voron Parts Repository                                                                                                          |
 
 ##### Assembly
 

@@ -229,7 +229,7 @@ Quantities are for 1 Patch. I should have enough parts for 8 patches.
 
 ![ERCF Clockwork Extruder with Toolhead PCB](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-enraged-rabbit-carrot-feeder/clockwork-assembled.jpg)
 
-I have printed the [Filament Sensor](https://github.com/EtteGit/EnragedRabbitProject/tree/main/Filament_Sensor) for the [Afterburner toolhead documented here](printer-voron-1.8.md#gantry).
+I have printed the [Filament Sensor](https://github.com/EtteGit/EnragedRabbitProject/tree/main/Filament_Sensor) for the [Afterburner toolhead documented here](printer-voron-1.8.md#afterburner).
 
 ### Enraged Rabbit Carrot Patch
 

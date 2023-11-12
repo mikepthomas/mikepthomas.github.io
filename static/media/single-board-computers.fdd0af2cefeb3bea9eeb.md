@@ -15,19 +15,20 @@ This page lists all of the single board computers I own and is mainly for me to 
 2. [BBC](#bbc)
 3. [BigTreeTech](#bigtreetech)
 4. [Espressif](#espressif)
-5. [Hardkernel](#hardkernel)
-6. [Mellow](#mellow)
-7. [Next Thing Co](#next-thing-co)
-8. [Raspberry Pi Zero](#raspberry-pi-zero)
-9. [Raspberry Pi 1](#raspberry-pi-1)
-10. [Raspberry Pi 2](#raspberry-pi-2)
-11. [Raspberry Pi 3](#raspberry-pi-3)
-12. [Raspberry Pi 4](#raspberry-pi-4)
-13. [Raspberry Pi 5](#raspberry-pi-5)
-14. [Raspberry Pi Pico](#raspberry-pi-pico)
-15. [STMicroelectronics](#stmicroelectronics)
-16. [Teensy](#teensy)
-17. [Wemos](#wemos)
+5. [Fysetc](#fysetc)
+6. [Hardkernel](#hardkernel)
+7. [Mellow](#mellow)
+8. [Next Thing Co](#next-thing-co)
+9. [Raspberry Pi Zero](#raspberry-pi-zero)
+10. [Raspberry Pi 1](#raspberry-pi-1)
+11. [Raspberry Pi 2](#raspberry-pi-2)
+12. [Raspberry Pi 3](#raspberry-pi-3)
+13. [Raspberry Pi 4](#raspberry-pi-4)
+14. [Raspberry Pi 5](#raspberry-pi-5)
+15. [Raspberry Pi Pico](#raspberry-pi-pico)
+16. [STMicroelectronics](#stmicroelectronics)
+17. [Teensy](#teensy)
+18. [Wemos](#wemos)
 
 ## Arduino
 
@@ -84,6 +85,12 @@ BigTreeTech make mainboards to control 3D printers. :duck:
 | ESP-01s      | [Maker Pi Pico](https://www.cytron.io/p-maker-pi-pico-simplifying-raspberry-pi-pico-for-beginners-and-kits) | [Cytron ESP-01S AT Firmware](https://github.com/CytronTechnologies/esp-at-binaries) |          | On order                                         |
 | ESP-32 Cam   |                                                                                                             | [ESPHome](https://esphome.io/)                                                      |          | On order                                         |
 | ESP-WROOM-32 | ESP32 Expansion Board                                                                                       |                                                                                     |          | On order                                         |
+
+## Fysetc
+
+| Item                                          | Case                              | Flashed with                                  | Notes                                                                   |
+| --------------------------------------------- | --------------------------------- | --------------------------------------------- | ----------------------------------------------------------------------- |
+| [PITB](https://github.com/FYSETC/FYSETC-PITB) | [Voron 1.8](printer-voron-1.8.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Expansion board based on RP2040 with 2 large TMC5160 Drivers |
 
 ## Hardkernel
 
@@ -232,8 +239,6 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 | Raspberry Pi Pico W                 |                                                                                                             |                                                                              | In original packaging           |
 | Raspberry Pi Pico WH                |                                                                                                             | [ESPHome](https://esphome.io/)                                               | Boxed                           |
 | Raspberry Pi RP2040 Microcontroller |                                                                                                             |                                                                              | Bare Chip in original packaging |
-
-![Macro Pi](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/macro-pi.jpg)
 
 ## STMicroelectronics
 

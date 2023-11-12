@@ -1,7 +1,7 @@
 # Printer Hardware Upgrades
 
 May 12, 2021 by [Mike Thomas](https://github.com/mikepthomas),
-Updated June 29, 2023
+Updated November 12, 2023
 
 This page contains information about how I upgraded my stock Anet A8 to add various hardware mods including swapping out the control board to a BigTreeTech SKR 1.4.
 
@@ -23,6 +23,7 @@ This page contains information about how I upgraded my stock Anet A8 to add vari
 10. [0.9 Degree Motors](#0-9-degree-motors)
 11. [Aluminium Bed Support Plate](#aluminium-bed-support-plate)
 12. [PEI Flex Plate](#pei-flex-plate)
+13. [BMG Direct Drive](#bmg-direct-drive)
 
 ## Wiring
 
@@ -138,3 +139,34 @@ After having to replace the tape after pretty much every print I purchased a [pi
 I really liked the glossy look of printing on the glass so after I added a [3D Touch](printer-hardware-upgrades.md#3d-touch) sensor I moved back to printing on the glass build surface. To get the prints to adhere to the glass, I had to use glue stick or [Magigoo](https://www.amazon.co.uk/gp/product/B01N2JGTWJ) and wash the glass clean after a few prints.
 
 More modern printers have moved over to using magnetic PEI Flex plates. The PEI has excellent print adhesion without adding anything extra and as the flex plate is removable, once the bed has cooled you can easilly pop off the print by slightly flexing the plate.
+
+## BMG Direct Drive
+
+I have purchased parts to install the [ANET A8 E3DV6 BMG Direct Drive X Carriage](https://www.thingiverse.com/thing:3807114), the adapter plate should be a direct bolt on to the X Carriage of the Anet A8. This was chosen as the parts that are required for this are the exact same parts that are required to build the [Voron Afterburner](printer-voron-1.8.md#voron-afterburner-stealthburner).
+
+### Motion
+
+| Item             | Quantity | Received | Notes |
+| ---------------- | -------- | -------- | ----- |
+| BMG Extruder Kit | 1        | 1        |       |
+
+#### Electronics
+
+| Item                           | Quantity | Received | Notes                              |
+| ------------------------------ | -------- | -------- | ---------------------------------- |
+| 3D Touch                       | 1        | 1        |                                    |
+| 50x50x15 Centrifugal Fan (12V) | 1        | 1        |                                    |
+| 40x40x10 Axial Fan (12V)       | 1        | 1        |                                    |
+| E3D V6 Bowden Hotend Kit (12V) | 1        | 1        |                                    |
+| NEMA17 Motor                   | 1        | 1        | Using stock Anet A8 Extruder Motor |
+
+### Printed Parts
+
+| Item                                                                   | Quantity | Material                                                                   | Printed | Notes                          |
+| ---------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- | :-----: | ------------------------------ |
+| [StepperBMG_holder](https://www.thingiverse.com/thing:4271258/files)   | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   | Version with Cable Chain Mount |
+| [BLtouch_support](https://www.thingiverse.com/thing:3807114/files)     | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                |
+| [Fan_holder](https://www.thingiverse.com/thing:3807114/files)          | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                |
+| [Baseplate_BMG](https://www.thingiverse.com/thing:3807114/files)       | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                |
+| [Mistral_V2.1a_Leo_N](https://www.thingiverse.com/thing:2121279/files) | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                |
+| [E3D_Fan_Duct](https://www.thingiverse.com/thing:929326/files)         | 1        | [PrimaValue ABS (Dark Grey)](printer-filament.md#primavalue-abs-dark-grey) |   :x:   |                                |

@@ -148,11 +148,6 @@ const Projects = (props: Props) => {
                   </ul>
                 </li>
                 <li>
-                  <Link to="/projects/printer-extruders-and-toolheads">
-                    Extruders &amp; Toolheads
-                  </Link>
-                </li>
-                <li>
                   <Link to="/projects/printer-polyformer">Polyformer</Link>
                 </li>
                 <li>

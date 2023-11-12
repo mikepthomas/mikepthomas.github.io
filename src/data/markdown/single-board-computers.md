@@ -1,7 +1,7 @@
 # Single Board Computers and Microcontrollers
 
 June 26, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated October 22, 2023
+Updated November 12, 2023
 
 This page lists all of the single board computers I own and is mainly for me to keep track of what I have and what I am currently using it for.
 
@@ -14,18 +14,20 @@ This page lists all of the single board computers I own and is mainly for me to 
 1. [Arduino](#arduino)
 2. [BBC](#bbc)
 3. [BigTreeTech](#bigtreetech)
-4. [Hardkernel](#hardkernel)
-5. [Mellow](#mellow)
-6. [Next Thing Co](#next-thing-co)
-7. [Raspberry Pi Zero](#raspberry-pi-zero)
-8. [Raspberry Pi 1](#raspberry-pi-1)
-9. [Raspberry Pi 2](#raspberry-pi-2)
-10. [Raspberry Pi 3](#raspberry-pi-3)
-11. [Raspberry Pi 4](#raspberry-pi-4)
-12. [Raspberry Pi 5](#raspberry-pi-5)
-13. [Raspberry Pi Pico](#raspberry-pi-pico)
-14. [Teensy](#teensy)
-15. [Wemos](#wemos)
+4. [Espressif](#espressif)
+5. [Hardkernel](#hardkernel)
+6. [Mellow](#mellow)
+7. [Next Thing Co](#next-thing-co)
+8. [Raspberry Pi Zero](#raspberry-pi-zero)
+9. [Raspberry Pi 1](#raspberry-pi-1)
+10. [Raspberry Pi 2](#raspberry-pi-2)
+11. [Raspberry Pi 3](#raspberry-pi-3)
+12. [Raspberry Pi 4](#raspberry-pi-4)
+13. [Raspberry Pi 5](#raspberry-pi-5)
+14. [Raspberry Pi Pico](#raspberry-pi-pico)
+15. [STMicroelectronics](#stmicroelectronics)
+16. [Teensy](#teensy)
+17. [Wemos](#wemos)
 
 ## Arduino
 
@@ -38,8 +40,8 @@ This page lists all of the single board computers I own and is mainly for me to 
 | Arduino Uno Clone                                                                 | Breadboard Case | Blink Sketch                                  |                                                                                         |
 | Arduino Uno                                                                       |                 | Blink Sketch                                  |                                                                                         |
 | Arduino Uno R2                                                                    |                 | Blink Sketch                                  |                                                                                         |
-| [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       |                 | Blink Sketch                                  | Boxed                                                                                   |
-| [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       |                 | Blink Sketch                                  | Boxed                                                                                   |
+| [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       | Clear Case      | Blink Sketch                                  | Boxed                                                                                   |
+| [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       | Clear Case      | Blink Sketch                                  | Boxed                                                                                   |
 
 ## BBC
 
@@ -57,13 +59,31 @@ The micro:bit is an inexpensive board designed to teach children how to code.
 
 BigTreeTech make mainboards to control 3D printers. :duck:
 
-| Item                                                                                                                                                                                                      | Case                              | Flashed with                                  | Notes                                                               |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | --------------------------------------------- | ------------------------------------------------------------------- |
-| [BigTreeTech Pi V1.2](https://biqu.equipment/products/bigtreetech-btt-pi-v1-2)                                                                                                                            |                                   | [CB1](https://github.com/bigtreetech/CB1)     | With [U2C CAN Adapter Module](https://docs.meteyou.wtf/btt-pi-u2c/) |
-| [BigTreeTech SKR V1.4](https://biqu.equipment/collections/control-board/products/bigtreetech-skr-v1-4-skr-v1-4-turbo-control-board-tmc2209-tmc2208-eeprom-v1-0-exp-mot-v1-0-3d-printer-parts-for-ender-3) | [Anet A8](printer.md)             | [Marlin Firmware](https://marlinfw.org/)      | 3D printer Mainboard based on LPC1768                               |
-| [BigTreeTech SKR V1.4 Turbo](https://biqu.equipment/collections/control-board/products/bigtreetech-skr-v1-4-skr-v1-4-turbo-control-board)                                                                 | [Voron 1.8](printer-voron-1.8.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on LPC1769                               |
-| [BigTreeTech SKR Pico](https://biqu.equipment/collections/control-board/products/btt-skr-pico-v1-0)                                                                                                       | [Voron 0.2](printer-voron-0.2.md) | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040                                |
-| [BigTreeTech SKR Pico](https://biqu.equipment/collections/control-board/products/btt-skr-pico-v1-0)                                                                                                       | [Rook 2020](printer-rook.md)      | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040                                |
+| Item                                                                                                                                                                                                      | Case                              | Storage               | Flashed with                                  | Notes                                                               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | --------------------- | --------------------------------------------- | ------------------------------------------------------------------- |
+| [BigTreeTech Pi V1.2](https://biqu.equipment/products/bigtreetech-btt-pi-v1-2)                                                                                                                            |                                   |                       | [CB1](https://github.com/bigtreetech/CB1)     | With [U2C CAN Adapter Module](https://docs.meteyou.wtf/btt-pi-u2c/) |
+| [BigTreeTech SKR V1.4](https://biqu.equipment/collections/control-board/products/bigtreetech-skr-v1-4-skr-v1-4-turbo-control-board-tmc2209-tmc2208-eeprom-v1-0-exp-mot-v1-0-3d-printer-parts-for-ender-3) | [Anet A8](printer.md)             | 8GB MicroSD (Sandisk) | [Marlin Firmware](https://marlinfw.org/)      | 3D printer Mainboard based on LPC1768                               |
+| [BigTreeTech SKR V1.4 Turbo](https://biqu.equipment/collections/control-board/products/bigtreetech-skr-v1-4-skr-v1-4-turbo-control-board)                                                                 |                                   |                       | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on LPC1769                               |
+| [BigTreeTech SKR Pico](https://biqu.equipment/collections/control-board/products/btt-skr-pico-v1-0)                                                                                                       | [Voron 0.2](printer-voron-0.2.md) |                       | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040                                |
+| [BigTreeTech SKR Pico](https://biqu.equipment/collections/control-board/products/btt-skr-pico-v1-0)                                                                                                       |                                   |                       | [Klipper Firmware](https://www.klipper3d.org) | 3D printer Mainboard based on RP2040                                |
+
+## Espressif
+
+| Item         | Case                                                                                                        | Flashed with                                                                        | Hostname | Notes                                            |
+| ------------ | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | -------- | ------------------------------------------------ |
+| ESP-01       | [Wifi Arduino 85](https://github.com/armtronix/Wifi-Arduino-85)                                             | Ai-Thinker AT Firmware 00200.9.5(b1)                                                |          |                                                  |
+| ESP-01       | [Wifi Arduino 85](https://github.com/armtronix/Wifi-Arduino-85)                                             | Ai-Thinker AT Firmware 00200.9.5(b1)                                                |          |                                                  |
+| ESP-01       | [Wifi Arduino 85](https://github.com/armtronix/Wifi-Arduino-85)                                             | Ai-Thinker AT Firmware 00200.9.5(b1)                                                |          |                                                  |
+| ESP-01       | [Wifi Arduino 85](https://github.com/armtronix/Wifi-Arduino-85)                                             | Ai-Thinker AT Firmware 00200.9.5(b1)                                                |          |                                                  |
+| ESP-01s      | BigTreeTech SKR V1.4 Turbo                                                                                  | [ESP3D](https://github.com/luc-github/ESP3D)                                        |          |                                                  |
+| ESP-01s      | BigTreeTech SKR V1.4                                                                                        | [ESPHome](https://esphome.io/)                                                      | anet-a8  |                                                  |
+| ESP-01s      |                                                                                                             | [ESPHome](https://esphome.io/)                                                      | relay-1  | On order. Will replace ESP-01 in Wifi Arduino 85 |
+| ESP-01s      |                                                                                                             | [ESPHome](https://esphome.io/)                                                      | relay-2  | On order. Will replace ESP-01 in Wifi Arduino 85 |
+| ESP-01s      |                                                                                                             | [ESPHome](https://esphome.io/)                                                      | relay-3  | On order. Will replace ESP-01 in Wifi Arduino 85 |
+| ESP-01s      |                                                                                                             | [ESPHome](https://esphome.io/)                                                      | relay-4  | On order. Will replace ESP-01 in Wifi Arduino 85 |
+| ESP-01s      | [Maker Pi Pico](https://www.cytron.io/p-maker-pi-pico-simplifying-raspberry-pi-pico-for-beginners-and-kits) | [Cytron ESP-01S AT Firmware](https://github.com/CytronTechnologies/esp-at-binaries) |          | On order                                         |
+| ESP-32 Cam   |                                                                                                             | [ESPHome](https://esphome.io/)                                                      |          | On order                                         |
+| ESP-WROOM-32 | ESP32 Expansion Board                                                                                       |                                                                                     |          | On order                                         |
 
 ## Hardkernel
 
@@ -71,20 +91,20 @@ BigTreeTech make mainboards to control 3D printers. :duck:
 
 I purchased the Odroid XU4 and CloudShell enclosure to use as a Network Attached Storage (NAS) server to replace an old outdated and failing 1TB Western Digital MyBook World edition NAS.
 
-| Item                                                        | Case                                                                                            | Storage   | OS           | Hostname   | Notes                                                                                                                                                                |
-| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --------- | ------------ | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Odroid C2](https://wiki.odroid.com/odroid-c2/odroid-c2)    |                                                                                                 |           | Ubuntu 20.04 | odroid     | With [Odroid UPS3](https://wiki.odroid.com/accessory/power_supply_battery/odroid-ups3) + [Odroid USB Wifi adapter](https://www.hardkernel.com/shop/wifi-module-5bk/) |
-| [Odroid Go](https://wiki.odroid.com/odroid_go/odroid_go)    | [Odroid Go QWERTY](https://wiki.odroid.com/odroid_go/qwerty)                                    |           |              |            | Boxed                                                                                                                                                                |
-| [Odroid XU4](https://wiki.odroid.com/odroid-xu4/odroid-xu4) | [CloudShell 2](https://wiki.odroid.com/accessory/add-on_boards/xu4_cloudshell2/xu4_cloudshell2) | 32GB eMMC | Ubuntu 22.04 | cloudshell | With 2 x 3TB Hard Drives in RAID 1                                                                                                                                   |
+| Item                                                        | Case                                                                                            | Storage               | OS                                                            | Hostname   | Notes                                                                                                                                                                |
+| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------- | ------------------------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Odroid C2](https://wiki.odroid.com/odroid-c2/odroid-c2)    |                                                                                                 |                       |                                                               |            | With [Odroid UPS3](https://wiki.odroid.com/accessory/power_supply_battery/odroid-ups3) + [Odroid USB Wifi adapter](https://www.hardkernel.com/shop/wifi-module-5bk/) |
+| [Odroid Go](https://wiki.odroid.com/odroid_go/odroid_go)    | [Odroid Go QWERTY](https://wiki.odroid.com/odroid_go/qwerty)                                    | 4GB MicroSD (Sandisk) | [Go-Play](https://wiki.odroid.com/odroid_go/emulator/go_play) |            | Boxed                                                                                                                                                                |
+| [Odroid XU4](https://wiki.odroid.com/odroid-xu4/odroid-xu4) | [CloudShell 2](https://wiki.odroid.com/accessory/add-on_boards/xu4_cloudshell2/xu4_cloudshell2) | 32GB eMMC             | Ubuntu 22.04                                                  | cloudshell | With 2 x 3TB Hard Drives in RAID 1                                                                                                                                   |
 
 ## Mellow
 
 Mellow make mainboards to control 3D printers.
 
-| Item                                                       | Case | Flashed with                                    | Notes                                     |
-| ---------------------------------------------------------- | ---- | ----------------------------------------------- | ----------------------------------------- |
-| [Fly RRF E3](https://github.com/Mellow-3D/FLY-RRF-E3)      |      | [RepRapFirmware](https://teamgloomy.github.io/) | With 4 Mellow Fly TMC2225 stepper drivers |
-| [Fly Super 8](https://mellow-3d.github.io/fly_super8.html) |      | [Klipper Firmware](https://www.klipper3d.org)   | With 8 Mellow Fly TMC2130 stepper drivers |
+| Item                                                       | Case                              | Storage                | Flashed with                                    | Notes                                      |
+| ---------------------------------------------------------- | --------------------------------- | ---------------------- | ----------------------------------------------- | ------------------------------------------ |
+| [Fly RRF E3](https://github.com/Mellow-3D/FLY-RRF-E3)      | [Rook 2020](printer-rook.md)      | 8GB MicroSD (Generic)  | [RepRapFirmware](https://teamgloomy.github.io/) | With 4 Mellow Fly TMC2225 stepper drivers  |
+| [Fly Super 8](https://mellow-3d.github.io/fly_super8.html) | [Voron 1.8](printer-voron-1.8.md) | 8GB MicroSD (Kingston) | [Klipper Firmware](https://www.klipper3d.org)   | With 12 Mellow Fly TMC2130 stepper drivers |
 
 ## Next Thing Co
 
@@ -106,17 +126,17 @@ My Raspberry Pi Zero cluster was assembled using a 8086 Cluster Hat that is quit
 
 I plan on replacing all the Raspberry Pi Zeros in the cluster with Raspberry Pi Zero 2Ws, which I ordered on Oct 15, 2022... but due to the current Raspberry Pi shortage they have yet to arrive.
 
-| Item                       | Revision | SoC     | RAM   | Case                                                                    | Storage                 | OS                                                                                                       | hostname | Notes                                                        |
-| -------------------------- | -------- | ------- | ----- | ----------------------------------------------------------------------- | ----------------------- | -------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------ |
-| Raspberry Pi Zero V1.2     | 900092   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | [Raspberry Pi OS Lite (Legacy, 32-bit) - Buster ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p1       | No Storage as it boots via USBBoot from `cnat`               |
-| Raspberry Pi Zero V1.3     | 900093   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | [Raspberry Pi OS Lite (Legacy, 32-bit) - Buster ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p2       | No Storage as it boots via USBBoot from `cnat`               |
-| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | [Raspberry Pi OS Lite (Legacy, 32-bit) - Buster ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p3       | No Storage as it boots via USBBoot from `cnat`               |
-| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) |                         | [Raspberry Pi OS Lite (Legacy, 32-bit) - Buster ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p4       | No Storage as it boots via USBBoot from `cnat`               |
-| Raspberry Pi Zero 2 W V1.0 | 902120   | BCM2837 | 512MB | Voron DIN Clip                                                          | 32GB MicroSD (Integral) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye                                                         | rook     | Klipper installed via [Kiauh](https://github.com/dw-0/kiauh) |
-| Raspberry Pi Zero 2 W      |          | BCM2837 | 512MB |                                                                         |                         |                                                                                                          |          | On Order                                                     |
-| Raspberry Pi Zero 2 W      |          | BCM2837 | 512MB |                                                                         |                         |                                                                                                          |          | On Order                                                     |
-| Raspberry Pi Zero 2 W      |          | BCM2837 | 512MB |                                                                         |                         |                                                                                                          |          | On Order                                                     |
-| Raspberry Pi Zero 2 W      |          | BCM2837 | 512MB |                                                                         |                         |                                                                                                          |          | On Order                                                     |
+| Item                       | Revision | SoC     | RAM   | Case                                                                                                                                | Storage                 | OS                                                                                                       | hostname | Notes                                          |
+| -------------------------- | -------- | ------- | ----- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | -------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------- |
+| Raspberry Pi Zero V1.2     | 900092   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case)                                                             |                         | [Raspberry Pi OS Lite (Legacy, 32-bit) - Buster ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p1       | No Storage as it boots via USBBoot from `cnat` |
+| Raspberry Pi Zero V1.3     | 900093   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case)                                                             |                         | [Raspberry Pi OS Lite (Legacy, 32-bit) - Buster ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p2       | No Storage as it boots via USBBoot from `cnat` |
+| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case)                                                             |                         | [Raspberry Pi OS Lite (Legacy, 32-bit) - Buster ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p3       | No Storage as it boots via USBBoot from `cnat` |
+| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case)                                                             |                         | [Raspberry Pi OS Lite (Legacy, 32-bit) - Buster ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p4       | No Storage as it boots via USBBoot from `cnat` |
+| Raspberry Pi Zero 2 W V1.0 | 902120   | BCM2837 | 512MB | [LDO Raspberry Pi Zero USB Expander PCB](https://docs.ldomotors.com/en/voron/voron01/wiring_guide_rev_e#preparing-the-raspberry-pi) | 64GB MicroSD (Integral) | [MainsailOS](https://docs-os.mainsail.xyz)                                                               | voron0   |                                                |
+| Raspberry Pi Zero 2 W      |          | BCM2837 | 512MB |                                                                                                                                     |                         |                                                                                                          |          | On Order                                       |
+| Raspberry Pi Zero 2 W      |          | BCM2837 | 512MB |                                                                                                                                     |                         |                                                                                                          |          | On Order                                       |
+| Raspberry Pi Zero 2 W      |          | BCM2837 | 512MB |                                                                                                                                     |                         |                                                                                                          |          | On Order                                       |
+| Raspberry Pi Zero 2 W      |          | BCM2837 | 512MB |                                                                                                                                     |                         |                                                                                                          |          | On Order                                       |
 
 ## Raspberry Pi 1
 
@@ -133,7 +153,7 @@ I plan on replacing all the Raspberry Pi Zeros in the cluster with Raspberry Pi 
 | Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `node4`         |                                                |             | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 | Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB | Official Raspberry Pi Case (Clear) | Shared with `node5`         |                                                |             | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 | Raspberry Pi Model B Rev 2 | 000f     | BCM2835 | 512MB |                                    |                             |                                                |             | Broken SD Slot                                                               |
-| Raspberry Pi Model A+ V1.1 | 0015     | BCM2835 | 256MB | ModMyPi VESA-Pi+ Model A+ Case     |                             |                                                |             | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
+| Raspberry Pi Model A+ V1.1 | 0015     | BCM2835 | 256MB | ModMyPi VESA-Pi+ Model A+ Case     | 8GB MicroSD (Generic)       |                                                |             | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 | Raspberry Pi Model B+ V1.2 | 0010     | BCM2835 | 512MB | CanaKit Raspberry Pi Case (Clear)  | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Buster | orange      | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 | Raspberry Pi Model B+ V1.2 | 0013     | BCM2835 | 512MB | CanaKit Raspberry Pi Case (Clear)  | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Buster | purple      | With [Pimoroni PiGlow](https://shop.pimoroni.com/products/piglow)            |
 
@@ -147,12 +167,12 @@ The cluster was set up to learn [Ansible](https://www.ansible.com) as the Raspbe
 
 | Item                        | Revision | SoC     | RAM | Case                 | Storage                      | OS                                               | Hostname | Notes                                                                                                          |
 | --------------------------- | -------- | ------- | --- | -------------------- | ---------------------------- | ------------------------------------------------ | -------- | -------------------------------------------------------------------------------------------------------------- |
-| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case         | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Buster   | node1    |                                                                                                                |
+| Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case         | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Buster   | node1    | SD Card On Order                                                                                               |
 | Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case         | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Buster   | node2    |                                                                                                                |
 | Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case         | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Buster   | node3    |                                                                                                                |
 | Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case         | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Buster   | node4    |                                                                                                                |
 | Raspberry Pi 2 Model B V1.1 | a01041   | BCM2836 | 1GB | Cluster Case         | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Buster   | node5    |                                                                                                                |
-| Raspberry Pi 2 Model B V1.2 | a02042   | BCM2837 | 1GB | Flirc Aluminium Case | 64GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye | piaware  | Boxed With FlightAware Pro Stick Plus, ADS-B installed via [Docker](https://sdr-enthusiasts.gitbook.io/ads-b/) |
+| Raspberry Pi 2 Model B V1.2 | a02042   | BCM2837 | 1GB | Flirc Aluminium Case | 16GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye | piaware  | Boxed With FlightAware Pro Stick Plus, ADS-B installed via [Docker](https://sdr-enthusiasts.gitbook.io/ads-b/) |
 
 ![Flight Tracker](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/flight-tracker.jpg)
 
@@ -168,19 +188,19 @@ I cleaned it up with some isopropyl alcohol and re-assembled it with some new sc
 
 I assembled this cluster to learn all about Containerization using [Docker Swarm mode](https://docs.docker.com/engine/swarm) and eventually, Kubernetes using [MicroK8s](https://microk8s.io/), however the Raspberry Pi 3s are a little too slow to fully run a K8s cluster with more than a handful of containers.
 
-| Item                         | Revision | SoC     | RAM   | Case                              | Storage                      | OS                                                       | Hostname   | Notes                                                             |
-| ---------------------------- | -------- | ------- | ----- | --------------------------------- | ---------------------------- | -------------------------------------------------------- | ---------- | ----------------------------------------------------------------- |
-| Raspberry Pi 3 Model A+ V1.0 | 9020e0   | BCM2837 | 512MB | Official Raspberry Pi 3 A+ Case   | 32GB MicroSD (Integral)      | [MainsailOS](https://docs-os.mainsail.xyz)               | am8        | Boxed                                                             |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | CanaKit Raspberry Pi Case (Black) | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS with desktop (Legacy, 32-bit) - Bullseye | white      | Broken Wifi and Bluetooth with camera                             |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye         | red        | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye         | green      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye         | blue       | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 3 Model B V1.2  | a22082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye         | black      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt) |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Waveshare Touch Screen Case       | 64GB MicroSD (Sandisk Ultra) | Raspberry Pi OS with desktop (Legacy, 32-bit) - Bullseye | controller |                                                                   |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag MegaPi Case             | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)                      | megapi     |                                                                   |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag NESPi Case+             | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)                      | nespi      |                                                                   |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag SuperPi Case            | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)                      | superpi    |                                                                   |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | [Voron 0.2](printer-voron-0.2.md) | 64GB MicroSD (Integral)      | [MainsailOS](https://docs-os.mainsail.xyz)               | voron0     |                                                                   |
+| Item                         | Revision | SoC     | RAM   | Case                              | Storage                      | OS                                                       | Hostname   | Notes                                                               |
+| ---------------------------- | -------- | ------- | ----- | --------------------------------- | ---------------------------- | -------------------------------------------------------- | ---------- | ------------------------------------------------------------------- |
+| Raspberry Pi 3 Model A+ V1.0 | 9020e0   | BCM2837 | 512MB | [AM8 Switchwire](printer-am8.md)  | 32GB MicroSD (Integral)      | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye         | am8        | Boxed. Klipper installed via [Kiauh](https://github.com/dw-0/kiauh) |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | CanaKit Raspberry Pi Case (Black) | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS with desktop (Legacy, 32-bit) - Bullseye | white      | Broken Wifi and Bluetooth with camera                               |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye         | red        | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt)   |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye         | green      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt)   |
+| Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye         | blue       | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt)   |
+| Raspberry Pi 3 Model B V1.2  | a22082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye         | black      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt)   |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Official Raspberry Pi 3 B+ Case   | 64GB MicroSD (Sandisk Ultra) |                                                          |            |                                                                     |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Waveshare Touch Screen Case       | 64GB MicroSD (Sandisk Ultra) | Raspberry Pi OS with desktop (Legacy, 32-bit) - Bullseye | controller |                                                                     |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag MegaPi Case             | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)                      | megapi     |                                                                     |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag NESPi Case+             | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)                      | nespi      |                                                                     |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag SuperPi Case            | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)                      | superpi    |                                                                     |
 
 ## Raspberry Pi 4
 
@@ -196,9 +216,9 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 
 ## Raspberry Pi 5
 
-| Item                   | Revision | SoC     | RAM | Case                               | Storage | OS  | Hostname | Notes                                 |
-| ---------------------- | -------- | ------- | --- | ---------------------------------- | ------- | --- | -------- | ------------------------------------- |
-| Raspberry Pi 5 Model B |          | BCM2712 | 4GB | Official Raspberry Pi 5 Case (Red) |         |     |          | On Order. With official Active Cooler |
+| Item                        | Revision | SoC     | RAM | Case                               | Storage             | OS  | Hostname | Notes                             |
+| --------------------------- | -------- | ------- | --- | ---------------------------------- | ------------------- | --- | -------- | --------------------------------- |
+| Raspberry Pi 5 Model B V1.0 | c04170   | BCM2712 | 4GB | Official Raspberry Pi 5 Case (Red) | Shared with `pi400` |     |          | Boxed with official Active Cooler |
 
 ## Raspberry Pi Pico
 
@@ -206,7 +226,7 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 
 | Item                                | Case                                                                                                        | Flashed with                                                                 | Notes                           |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------- |
-| Datanoise Pico ADK                  | Eurorack Module                                                                                             | [PicoADK Firmware](https://github.com/DatanoiseTV/PicoADK-Firmware-Template) |                                 |
+| Datanoise Pico ADK                  | Eurorack Module                                                                                             | [PicoADK Firmware](https://github.com/DatanoiseTV/PicoADK-Firmware-Template) | In original packaging           |
 | Raspberry Pi Pico                   | [Macro Pi](https://www.thingiverse.com/thing:5817044)                                                       | [PiPicoMacroKeys](https://github.com/novaspirit/PiPicoMacroKeys)             | In original packaging           |
 | Raspberry Pi Pico H                 | [Maker Pi Pico](https://www.cytron.io/p-maker-pi-pico-simplifying-raspberry-pi-pico-for-beginners-and-kits) | [MicroPython](https://micropython.org)                                       |                                 |
 | Raspberry Pi Pico W                 |                                                                                                             |                                                                              | In original packaging           |
@@ -214,6 +234,12 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 | Raspberry Pi RP2040 Microcontroller |                                                                                                             |                                                                              | Bare Chip in original packaging |
 
 ![Macro Pi](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/macro-pi.jpg)
+
+## STMicroelectronics
+
+| Item          | Case | Flashed with | Hostname | Notes |
+| ------------- | ---- | ------------ | -------- | ----- |
+| STM32F103C8T6 |      |              |          |       |
 
 ## Teensy
 
@@ -225,8 +251,8 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 
 ## Wemos
 
-| Item              | Case                                                        | Flashed with                   | Notes |
-| ----------------- | ----------------------------------------------------------- | ------------------------------ | ----- |
-| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) |       |
-| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) |       |
-| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) |       |
+| Item              | Case                                                        | Flashed with                   | Hostname          | Notes |
+| ----------------- | ----------------------------------------------------------- | ------------------------------ | ----------------- | ----- |
+| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) | weather-station-1 |       |
+| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) | weather-station-2 |       |
+| Wemos D1 Mini Pro | [Solar Wifi Weather Station](solar-wifi-weather-station.md) | [ESPHome](https://esphome.io/) | weather-station-3 |       |

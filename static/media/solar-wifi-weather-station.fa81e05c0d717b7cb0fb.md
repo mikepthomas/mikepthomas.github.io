@@ -1,7 +1,7 @@
 # Creating a solar powered weather station
 
 June 27, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated July 17, 2023
+Updated August 25, 2023
 
 I won an auction titled "`Box of bits inc Arduinos, Pi's, Odroid, various sensors etc`" on ebay there were 3 PCBs and a few other required components included in the lot, let's order the rest of the parts and assemble them.
 
@@ -27,22 +27,24 @@ The PCB was designed by [Open Green Energy](https://www.instructables.com/member
 
 Quantities are for 1 PCB.
 
-| Item                     | Quantity | Received | Notes |
-| ------------------------ | -------- | -------- | ----- |
-| Wemos D1 Mini Pro        | 1        | 1        |       |
-| TP4056 Charging Board    | 1        | 5        |       |
-| BMP280 Sensor            | 1        | 3        |       |
-| DS18B20 Sensor           | 1        | 3        |       |
-| Switch                   | 1        | 19       |       |
-| Screw Terminals          | 1        | 15       |       |
-| Brass PCB standoffs      | 4        | 10       |       |
-| 18650 Battery            | 1        | 6        |       |
-| 18650 Battery Holder     | 1        | 3        |       |
-| Solar Panel              | 1        | 3        |       |
-| Straight Headers Pin     | 46 pins  | 400 pins |       |
-| 22 AWG wire              | ~500mm   | 2m       |       |
-| Weather Station V2.0 PCB | 1        | 3        |       |
-| Super Glue               | 1        | 1        |       |
+| Item                              | Quantity | Received | Notes |
+| --------------------------------- | -------- | -------- | ----- |
+| Wemos D1 Mini Pro                 | 1        | 3        |       |
+| TP4056 Charging Board             | 1        | 5        |       |
+| BMP280 Sensor                     | 1        | 3        |       |
+| DS18B20 Sensor                    | 1        | 3        |       |
+| Capacitive Soil Moisture Sensor   | 1        | 3        |       |
+| Raindrops Detection Sensor Module | 1        | 3        |       |
+| Switch                            | 1        | 19       |       |
+| Screw Terminals                   | 1        | 15       |       |
+| Brass PCB standoffs               | 4        | 10       |       |
+| 18650 Battery                     | 1        | 6        |       |
+| 18650 Battery Holder              | 1        | 3        |       |
+| Solar Panel                       | 1        | 3        |       |
+| Straight Headers Pin              | 46 pins  | 400 pins |       |
+| 22 AWG wire                       | ~500mm   | 2m       |       |
+| Weather Station V2.0 PCB          | 1        | 3        |       |
+| Super Glue                        | 1        | 1        |       |
 
 ## Printing Parts
 

@@ -1,7 +1,7 @@
 # 3D Sets Landy 4x4 Pickup
 
 June 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated Aug 1, 2023
+Updated Aug 10, 2023
 
 Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy](https://3dsets.com/product/model-3-landy-4x4-pickup/)!
 
@@ -14,7 +14,7 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 ## Table of contents
 
 1. [Sourcing Parts](#sourcing-parts)
-2. [Printing Parts](#printing-parts)
+2. [Landy 4x4 Pickup](#landy-4x4-pickup)
    1. [Chassis 1](#chassis-1)
    2. [Chassis 2](#chassis-2)
    3. [Chassis 3](#chassis-3)
@@ -32,6 +32,15 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
    15. [Doors](#doors)
    16. [Axles](#axles)
    17. [Wheels](#wheels)
+3. [Offroad Accessory Kit](#offroad-accessory-kit)
+   1. [Fender Flare](#fender-flare)
+   2. [Tube Frame 1](#tube-frame-1)
+   3. [Tube Frame 2](#tube-frame-2)
+   4. [Tube Frame 3](#tube-frame-3)
+   5. [Fender Air Intake](#fender-air-intake)
+   6. [Snorkel](#snorkel)
+   7. [Fog Lights](#fog-lights)
+   8. [Wheel E](#wheel-e)
 
 ## Sourcing Parts
 
@@ -85,7 +94,16 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | M3 nuts        | 42       | 42       |       |
 | M3 locknuts    | 22       | 22       |       |
 
-## Printing Parts
+### Offroad Accessory Kit Fasteners
+
+| Item       | Quantity | Received | Notes |
+| ---------- | -------- | -------- | ----- |
+| M2x6 SHCS  | 40       | 200      |       |
+| M2x8 SHCS  | 1        | 50       |       |
+| M2x10 SHCS | 8        | 100      |       |
+| M3x10 BHCS | 4        | 100      |       |
+
+## Landy 4x4 Pickup
 
 ### Chassis 1
 
@@ -128,7 +146,7 @@ Sourcing parts for a Land Rover inspired remote control car, the [3D Sets Landy]
 | Front Body                | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
 | Front Fender - left       | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
 | Front Fender - right      | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
-| Gas Tank Cap              | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)             |   :x:   |       |
+| Gas Tank Cap              | 1        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver)         |   :x:   |       |
 | Hinge A - door left       | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
 | Hinge A - door right      | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
 | Rear Fender - left        | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
@@ -190,15 +208,15 @@ I am not sure which gearbox I am going to use. I may start with the geared gearb
 
 ### Dashboard
 
-| Item               | Quantity | Material                                                | Printed | Notes |
-| ------------------ | -------- | ------------------------------------------------------- | :-----: | ----- |
-| Dashboard - bottom | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
-| Dashboard - top    | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown) |   :x:   |       |
-| Steering wheel A   | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown) |   :x:   |       |
-| Steering wheel B   | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown) |   :x:   |       |
-| Stickshift base    | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown) |   :x:   |       |
-| Stickshift head A  | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)   |   :x:   |       |
-| Stickshift head B  | 1        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)   |   :x:   |       |
+| Item               | Quantity | Material                                                  | Printed | Notes |
+| ------------------ | -------- | --------------------------------------------------------- | :-----: | ----- |
+| Dashboard - bottom | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
+| Dashboard - top    | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown)   |   :x:   |       |
+| Steering wheel A   | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown)   |   :x:   |       |
+| Steering wheel B   | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown)   |   :x:   |       |
+| Stickshift base    | 1        | [eSun ABS+ (Brown)](printer-filament.md#esun-abs-brown)   |   :x:   |       |
+| Stickshift head A  | 1        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver) |   :x:   |       |
+| Stickshift head B  | 1        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver) |   :x:   |       |
 
 ### Roof
 
@@ -211,37 +229,37 @@ I am not sure which gearbox I am going to use. I may start with the geared gearb
 
 ### Grill
 
-| Item           | Quantity | Material                                                          | Printed | Notes |
-| -------------- | -------- | ----------------------------------------------------------------- | :-----: | ----- |
-| Front light    | 2        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)  |   :x:   |       |
-| Grill          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
-| Hinge A        | 2        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
-| Winker - front | 4        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)  |   :x:   |       |
+| Item           | Quantity | Material                                                          | Printed | Notes                                                                                                 |
+| -------------- | -------- | ----------------------------------------------------------------- | :-----: | ----------------------------------------------------------------------------------------------------- |
+| Front light    | 2        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)  |   :x:   |                                                                                                       |
+| Grill          | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Print the [Grill with headlamp guards](3d-sets-accessories.md#rock-sliders-and-grill) version instead |
+| Hinge A        | 2        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |                                                                                                       |
+| Winker - front | 4        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)  |   :x:   |                                                                                                       |
 
 ### Fender & Hood
 
-| Item                       | Quantity | Material                                                          | Printed | Notes |
-| -------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----- |
-| Front Fender Flare - left  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
-| Front Fender Flare - right | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
-| Hinge B                    | 2        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
-| Hood                       | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |       |
-| Rear Fender Flare - left   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
-| Rear Fender Flare - right  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
+| Item                       | Quantity | Material                                                          | Printed | Notes                                                                                       |
+| -------------------------- | -------- | ----------------------------------------------------------------- | :-----: | ------------------------------------------------------------------------------------------- |
+| Front Fender Flare - left  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#fender-flare) version |
+| Front Fender Flare - right | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#fender-flare) version |
+| Hinge B                    | 2        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |                                                                                             |
+| Hood                       | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |                                                                                             |
+| Rear Fender Flare - left   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#fender-flare) version |
+| Rear Fender Flare - right  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#fender-flare) version |
 
 ### Bumpers & Rear Door
 
-| Item             | Quantity | Material                                                          | Printed | Notes                                                                            |
-| ---------------- | -------- | ----------------------------------------------------------------- | :-----: | -------------------------------------------------------------------------------- |
-| Front Bumper     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |                                                                                  |
-| Front frame end  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |                                                                                  |
-| Hinge A - pickup | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |                                                                                  |
-| Hinge B - pickup | 2        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |                                                                                  |
-| Rear Door        | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |                                                                                  |
-| Rear Door Sill   | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |                                                                                  |
-| Rear Bumper      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Print the [Car Hauler](3d-sets-accessories.md#landy-rear-bumper) version instead |
-| Rear frame end   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Print the [Car Hauler](3d-sets-accessories.md#landy-rear-bumper) version instead |
-| Servo Guard      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |                                                                                  |
+| Item             | Quantity | Material                                                          | Printed | Notes                                                                                                       |
+| ---------------- | -------- | ----------------------------------------------------------------- | :-----: | ----------------------------------------------------------------------------------------------------------- |
+| Front Bumper     | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |                                                                                                             |
+| Front frame end  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |                                                                                                             |
+| Hinge A - pickup | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |                                                                                                             |
+| Hinge B - pickup | 2        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |                                                                                                             |
+| Rear Door        | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |                                                                                                             |
+| Rear Door Sill   | 1        | [eSun ABS+ (Pine Green)](printer-filament.md#esun-abs-pine-green) |   :x:   |                                                                                                             |
+| Rear Bumper      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Not Required as this will be replaced by the [Car Hauler](3d-sets-accessories.md#landy-rear-bumper) version |
+| Rear frame end   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Not Required as this will be replaced by the [Car Hauler](3d-sets-accessories.md#landy-rear-bumper) version |
+| Servo Guard      | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |                                                                                                             |
 
 ### Doors
 
@@ -270,13 +288,86 @@ I am not sure which axels I am going to use. It will depend on the type of gearb
 
 There is a choice of 2 different wheel styles.
 
-| Item                | Quantity | Material                                                          | Printed | Notes |
-| ------------------- | -------- | ----------------------------------------------------------------- | :-----: | ----- |
-| Licence Plate       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
-| Wheel C - Inner     | 4        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
-| Wheel C - Outer     | 4        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   |       |
-| Wheel C - wheel Hub | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |       |
-| Wheel D - inner Rim | 4        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)             |   :x:   |       |
-| Wheel D - outer Rim | 4        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)             |   :x:   |       |
-| Wheel D - wheel Hub | 4        | [eSun ABS+ (Grey)](printer-filament.md#esun-abs-grey)             |   :x:   |       |
-| Winker - side       | 2        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)  |   :x:   |       |
+| Item                | Quantity | Material                                                          | Printed | Notes                                                                                  |
+| ------------------- | -------- | ----------------------------------------------------------------- | :-----: | -------------------------------------------------------------------------------------- |
+| Licence Plate       | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   |                                                                                        |
+| Wheel C - Inner     | 4        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
+| Wheel C - Outer     | 4        | [eSun ABS+ (Cold White)](printer-filament.md#esun-abs-cold-white) |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
+| Wheel C - wheel Hub | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)           |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
+| Wheel D - inner Rim | 4        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver)         |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
+| Wheel D - outer Rim | 4        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver)         |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
+| Wheel D - wheel Hub | 4        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver)         |   :x:   | Not Required as this will be replaced by the [Offroad Accessory Kit](#wheel-e) version |
+| Winker - side       | 2        | [BasicFil PETG (Clear)](printer-filament.md#basicfil-petg-clear)  |   :x:   |                                                                                        |
+
+## Offroad Accessory Kit
+
+![3D Sets Offroad Accessory Kit](https://3dsets.com/wp-content/uploads/2021/12/PA130091-1-3-900x675.jpg)
+
+> Image &copy; 2022 [3D Sets](https://3dsets.com/)
+
+### Fender Flare
+
+| Item                 | Quantity | Material                                               | Printed | Notes |
+| -------------------- | -------- | ------------------------------------------------------ | :-----: | ----- |
+| Offroad Fender Flare | 4        | [Ziro TPU (Black)](printer-filament.md#ziro-tpu-black) |   :x:   |       |
+
+### Tube Frame 1
+
+| Item                     | Quantity | Material                                                | Printed | Notes |
+| ------------------------ | -------- | ------------------------------------------------------- | :-----: | ----- |
+| Tube Frame - mount left  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Tube Frame - mount right | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Tube Frame - rear        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+
+### Tube Frame 2
+
+| Item                      | Quantity | Material                                                | Printed | Notes |
+| ------------------------- | -------- | ------------------------------------------------------- | :-----: | ----- |
+| Tube Frame - brace left   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Tube Frame - brace right  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Tube Frame - insert left  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Tube Frame - insert right | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+
+### Tube Frame 3
+
+| Item                                | Quantity | Material                                                | Printed | Notes |
+| ----------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----- |
+| Tube Frame - front                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Tube Frame - mount windscreen left  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Tube Frame - mount windscreen right | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Tube Frame - top left               | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Tube Frame - top right              | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+
+### Fender Air Intake
+
+| Item                            | Quantity | Material                                                | Printed | Notes |
+| ------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----- |
+| Air Intake - frame left         | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Air Intake - frame right        | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Fender Air Intake - scoop left  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Fender Air Intake - scoop right | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+
+### Snorkel
+
+| Item                       | Quantity | Material                                                | Printed | Notes |
+| -------------------------- | -------- | ------------------------------------------------------- | :-----: | ----- |
+| Snorkel Air Intake - box   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Snorkel Air Intake - outer | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| Snorkel Air Intake - top   | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+
+### Fog Lights
+
+| Item                     | Quantity | Material                                                  | Printed | Notes |
+| ------------------------ | -------- | --------------------------------------------------------- | :-----: | ----- |
+| Fog Light - body         | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
+| Fog Light - bumper mount | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
+| Fog Light - cover        | 2        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
+| Fog Light - insert       | 2        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver) |   :x:   |       |
+
+### Wheel E
+
+| Item                | Quantity | Material                                                  | Printed | Notes |
+| ------------------- | -------- | --------------------------------------------------------- | :-----: | ----- |
+| Wheel E - hub       | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)   |   :x:   |       |
+| Wheel E - inner Rim | 4        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver) |   :x:   |       |
+| Wheel E - outer Rim | 4        | [eSun ABS+ (Silver)](printer-filament.md#esun-abs-silver) |   :x:   |       |

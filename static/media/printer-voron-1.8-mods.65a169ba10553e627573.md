@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated March 26, 2023
+Updated August 25, 2023
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -589,10 +589,10 @@ This replaces the stock [Raspberry Pi Bracket](printer-voron-1.8.md#electronics-
 
 A bracket to hold the LDO Breakout PCB, the PCB converts the 14 pin connector from the toolhead to separate connectors making it a little easier to connect to the MCU.
 
-| Item                                                                                                                      | Quantity | Material                                                | Printed | Notes                   |
-| ------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----------------------- |
-| [beefy_raspberry_bracket](https://github.com/MotorDynamicsLab/LDOVoron2/blob/main/STLs/toolhead_breakout_pcb_bracket.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                         |
-| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)            | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part. |
+| Item                                                                                                                            | Quantity | Material                                                | Printed | Notes                   |
+| ------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----------------------- |
+| [toolhead_breakout_pcb_bracket](https://github.com/MotorDynamicsLab/LDOVoron2/blob/main/STLs/toolhead_breakout_pcb_bracket.stl) | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |                         |
+| [pcb_din_clip](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/ElectronicsBay/pcb_din_clip_x3.stl)                  | 1        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Trident Part. |
 
 #### :negative_squared_cross_mark: Assembly
 

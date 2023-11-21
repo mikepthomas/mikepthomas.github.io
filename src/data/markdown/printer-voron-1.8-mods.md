@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated November 12, 2023
+Updated November 21, 2023
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -32,10 +32,11 @@ List of upgrades that I plan on adding from the printer mods directory of the Vo
 21. [Deck Panel Support Clips](#deck-panel-support-clips)
 22. [Klipper Expander](#klipper-expander)
 23. [BTT 5" Screen case](#btt-5--screen-case)
-24. [LDO Beefy Raspberry Pi Bracket](#ldo-beefy-raspberry-pi-bracket)
-25. [LDO Toolhead Breakout PCB Bracket](#ldo-toolhead-breakout-pcb-bracket)
-26. [Voron M4](#voron-m4)
-27. [Voron Dual Bowden](#voron-dual-bowden)
+24. [Tophat](#tophat)
+25. [LDO Beefy Raspberry Pi Bracket](#ldo-beefy-raspberry-pi-bracket)
+26. [LDO Toolhead Breakout PCB Bracket](#ldo-toolhead-breakout-pcb-bracket)
+27. [Voron M4](#voron-m4)
+28. [Voron Dual Bowden](#voron-dual-bowden)
 
 ## Mods
 
@@ -569,6 +570,31 @@ This replaces the [Display Mount](#display-mount) to fit a BigTreeTech PITFT50 t
 | ---------------------------------------- | -------- |
 | BigTreeTech PITFT50 V2.0                 | 1        |
 | 15 pin Raspberry Pi Display Ribbon Cable | 1m       |
+
+### Tophat
+
+The bowden is very close to the top panel, this raises the top panel up by 35mm to stop the bowden scratching the acrylic.
+
+| Item                                                                                                                                              | Quantity | Material                                                | Printed | Notes                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ------------------------- |
+| [MagTopPanel-Base_300_35](https://github.com/jakub874/Jakub3DPrinterMods/blob/main/Tophat/Voron/300/MagTopPanel-Base_300_35.stl)                  | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Mod by jakub874 |
+| [MagTopPanel-Corner_300_35](https://github.com/jakub874/Jakub3DPrinterMods/blob/main/Tophat/Voron/300/MagTopPanel-Corner_300_35.stl)              | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Mod by jakub874 |
+| [MagTopPanel-Edge_300_35](https://github.com/jakub874/Jakub3DPrinterMods/blob/main/Tophat/Voron/300/MagTopPanel-Edge_300_35.stl)                  | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Mod by jakub874 |
+| [dowel](https://github.com/Annex-Engineering/Gasherbrum-K3/blob/main/Release_1_1/STLs/Summit_Enclosure/Tophat/tophat_lid_structure_c_x8_rev3.STL) | 8        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is an Annex K3 part  |
+
+#### :negative_squared_cross_mark: Assembly
+
+##### Parts Used
+
+| Item            | Quantity |
+| --------------- | -------- |
+| 6x3 Magnet      | 56       |
+| M3x8 SHCS       | 24       |
+| M3 Roll-in Nut  | 24       |
+| M3x30 SHCS      | 8        |
+| 1x5mm Foam Tape | 1-2m     |
+| 1x5mm VHB Tape  | 1-2m     |
+| Super Glue      | 1        |
 
 ### LDO Beefy Raspberry Pi Bracket
 

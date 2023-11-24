@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac35942a.css",
-    "main.js": "/static/js/main.40cf6995.js",
-    "static/js/444.8aa8e223.chunk.js": "/static/js/444.8aa8e223.chunk.js",
+    "main.css": "/static/css/main.08b5c199.css",
+    "main.js": "/static/js/main.c7145e55.js",
+    "static/js/444.d1cd03c5.chunk.js": "/static/js/444.d1cd03c5.chunk.js",
     "static/css/573.94c97534.chunk.css": "/static/css/573.94c97534.chunk.css",
-    "static/js/573.baf057de.chunk.js": "/static/js/573.baf057de.chunk.js",
-    "static/js/872.ad8a6045.chunk.js": "/static/js/872.ad8a6045.chunk.js",
+    "static/js/573.1e528036.chunk.js": "/static/js/573.1e528036.chunk.js",
+    "static/js/832.44e1ce65.chunk.js": "/static/js/832.44e1ce65.chunk.js",
     "static/media/banner.jpg": "/static/media/banner.9cbc9ef686c75e84369f.jpg",
     "static/media/macro-pi-hero.jpg": "/static/media/macro-pi-hero.818289c9c757060ce04d.jpg",
     "static/media/maker-pi-pico.jpg": "/static/media/maker-pi-pico.23ecd190e182918174a8.jpg",
@@ -246,7 +246,7 @@
     "static/media/front-c-hub-assembly.png": "/static/media/front-c-hub-assembly.c6b001742c46cf9d220d.png",
     "static/media/worn-belt.jpg": "/static/media/worn-belt.f14952564c8b208fbb6f.jpg",
     "static/media/first-print.jpg": "/static/media/first-print.d555bb24addc9e69d4cc.jpg",
-    "static/media/printer-voron-1.8-mods.md": "/static/media/printer-voron-1.8-mods.9bb6669c3b88847f804f.md",
+    "static/media/printer-voron-1.8-mods.md": "/static/media/printer-voron-1.8-mods.15ce2c6cb8868ea516f3.md",
     "static/media/enable-spi.jpg": "/static/media/enable-spi.26bec449da614cbdad8c.jpg",
     "static/media/enable-i2c.jpg": "/static/media/enable-i2c.e3dc3c6ff0e034f0e090.jpg",
     "static/media/enable-1-wire.jpg": "/static/media/enable-1-wire.c8897da1b70702b54b27.jpg",
@@ -266,7 +266,7 @@
     "static/media/z-axis.jpg": "/static/media/z-axis.5df7fb106d0116499a34.jpg",
     "static/media/printer-filament.md": "/static/media/printer-filament.b7344b7c3b97f764e7fb.md",
     "static/media/print-bed-and-wire-path.jpg": "/static/media/print-bed-and-wire-path.d0ad217438e1e1a99ceb.jpg",
-    "static/media/single-board-computers.md": "/static/media/single-board-computers.fdd0af2cefeb3bea9eeb.md",
+    "static/media/single-board-computers.md": "/static/media/single-board-computers.6b8882a3020140d1a381.md",
     "static/media/klipper-config.jpg": "/static/media/klipper-config.c8602521723a439f14c9.jpg",
     "static/media/rear-panel-and-exhaust.jpg": "/static/media/rear-panel-and-exhaust.107e4861c9037eca3a96.jpg",
     "static/media/skirts-and-bottom-compartment.jpg": "/static/media/skirts-and-bottom-compartment.d02272e1153ed9d24e42.jpg",
@@ -302,15 +302,15 @@
     "static/media/solar-wifi-weather-station.md": "/static/media/solar-wifi-weather-station.fa81e05c0d717b7cb0fb.md",
     "static/media/macro-pi.md": "/static/media/macro-pi.2cd21c4d6d914df6d93d.md",
     "index.html": "/index.html",
-    "main.ac35942a.css.map": "/static/css/main.ac35942a.css.map",
-    "main.40cf6995.js.map": "/static/js/main.40cf6995.js.map",
-    "444.8aa8e223.chunk.js.map": "/static/js/444.8aa8e223.chunk.js.map",
+    "main.08b5c199.css.map": "/static/css/main.08b5c199.css.map",
+    "main.c7145e55.js.map": "/static/js/main.c7145e55.js.map",
+    "444.d1cd03c5.chunk.js.map": "/static/js/444.d1cd03c5.chunk.js.map",
     "573.94c97534.chunk.css.map": "/static/css/573.94c97534.chunk.css.map",
-    "573.baf057de.chunk.js.map": "/static/js/573.baf057de.chunk.js.map",
-    "872.ad8a6045.chunk.js.map": "/static/js/872.ad8a6045.chunk.js.map"
+    "573.1e528036.chunk.js.map": "/static/js/573.1e528036.chunk.js.map",
+    "832.44e1ce65.chunk.js.map": "/static/js/832.44e1ce65.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac35942a.css",
-    "static/js/main.40cf6995.js"
+    "static/css/main.08b5c199.css",
+    "static/js/main.c7145e55.js"
   ]
 }

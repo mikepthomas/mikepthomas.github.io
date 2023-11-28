@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.08b5c199.css",
-    "main.js": "/static/js/main.c7145e55.js",
+    "main.js": "/static/js/main.cdf5ac05.js",
     "static/js/444.d1cd03c5.chunk.js": "/static/js/444.d1cd03c5.chunk.js",
     "static/css/573.94c97534.chunk.css": "/static/css/573.94c97534.chunk.css",
-    "static/js/573.1e528036.chunk.js": "/static/js/573.1e528036.chunk.js",
+    "static/js/573.ff6a0799.chunk.js": "/static/js/573.ff6a0799.chunk.js",
     "static/js/832.44e1ce65.chunk.js": "/static/js/832.44e1ce65.chunk.js",
     "static/media/banner.jpg": "/static/media/banner.9cbc9ef686c75e84369f.jpg",
     "static/media/macro-pi-hero.jpg": "/static/media/macro-pi-hero.818289c9c757060ce04d.jpg",
@@ -266,7 +266,7 @@
     "static/media/z-axis.jpg": "/static/media/z-axis.5df7fb106d0116499a34.jpg",
     "static/media/printer-filament.md": "/static/media/printer-filament.b7344b7c3b97f764e7fb.md",
     "static/media/print-bed-and-wire-path.jpg": "/static/media/print-bed-and-wire-path.d0ad217438e1e1a99ceb.jpg",
-    "static/media/single-board-computers.md": "/static/media/single-board-computers.6b8882a3020140d1a381.md",
+    "static/media/single-board-computers.md": "/static/media/single-board-computers.cfba8192234890f18a41.md",
     "static/media/klipper-config.jpg": "/static/media/klipper-config.c8602521723a439f14c9.jpg",
     "static/media/rear-panel-and-exhaust.jpg": "/static/media/rear-panel-and-exhaust.107e4861c9037eca3a96.jpg",
     "static/media/skirts-and-bottom-compartment.jpg": "/static/media/skirts-and-bottom-compartment.d02272e1153ed9d24e42.jpg",
@@ -303,14 +303,14 @@
     "static/media/macro-pi.md": "/static/media/macro-pi.2cd21c4d6d914df6d93d.md",
     "index.html": "/index.html",
     "main.08b5c199.css.map": "/static/css/main.08b5c199.css.map",
-    "main.c7145e55.js.map": "/static/js/main.c7145e55.js.map",
+    "main.cdf5ac05.js.map": "/static/js/main.cdf5ac05.js.map",
     "444.d1cd03c5.chunk.js.map": "/static/js/444.d1cd03c5.chunk.js.map",
     "573.94c97534.chunk.css.map": "/static/css/573.94c97534.chunk.css.map",
-    "573.1e528036.chunk.js.map": "/static/js/573.1e528036.chunk.js.map",
+    "573.ff6a0799.chunk.js.map": "/static/js/573.ff6a0799.chunk.js.map",
     "832.44e1ce65.chunk.js.map": "/static/js/832.44e1ce65.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08b5c199.css",
-    "static/js/main.c7145e55.js"
+    "static/js/main.cdf5ac05.js"
   ]
 }

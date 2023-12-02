@@ -1,7 +1,7 @@
 # Assembling my first Voron printer
 
 Created Febuary 17, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated November 12, 2023
+Updated December 2, 2023
 
 The steps I have taken to print and source parts to assemble a Voron 1.8.
 
@@ -754,10 +754,10 @@ The bottom compartment is designed to hold the high voltage components such as t
 | Item                                                                                                                            | Quantity | Material                                                                    | Size   | Weight | Cost  |      Printed       | Notes                                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------- | ------ | ------ | ----- | :----------------: | ---------------------------------------------------------------------------------------------------------------------------------- |
 | [keystone_blank_insert](https://github.com/VoronDesign/Voron-Trident/blob/main/STLs/Skirt/%5Ba%5D_keystone_blank_insert_x2.stl) | 2        |                                                                             |        |        |       |        :x:         | This is a Trident Part. Not required as I am using both keystone spaces                                                            |
-| [skirt_300_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_left_x3.stl)                 | 3        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | 12.90m | 32.89g | £0.62 | :heavy_check_mark: |                                                                                                                                    |
+| [skirt_300_left](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_left_x3.stl)                 | 3        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | 12.90m | 32.89g | £0.62 | :heavy_check_mark: | Will be replaced by [Mesh Skirts](printer-voron-1.8-mods.md#mesh-skirts)                                                           |
 | [skirt_300_power](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_power.stl)                  | 1        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | 12.23m | 31.19g | £0.59 | :heavy_check_mark: |                                                                                                                                    |
-| [skirt_300_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_right_x4.stl)               | 4        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | 12.92m | 32.95g | £0.63 | :heavy_check_mark: |                                                                                                                                    |
-| [skirt_middle](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_middle_x3.stl)                     | 3        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | 7.49m  | 19.11g | £0.36 | :heavy_check_mark: |                                                                                                                                    |
+| [skirt_300_right](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_300_right_x4.stl)               | 4        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | 12.92m | 32.95g | £0.63 | :heavy_check_mark: | Will be replaced by [Mesh Skirts](printer-voron-1.8-mods.md#mesh-skirts)                                                           |
+| [skirt_middle](https://github.com/VoronDesign/Voron-1/blob/Voron1.8/STLs/Bottom_Skirts/skirt_middle_x3.stl)                     | 3        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) | 7.49m  | 19.11g | £0.36 | :heavy_check_mark: | Will be replaced by [Mesh Skirts](printer-voron-1.8-mods.md#mesh-skirts)                                                           |
 | [foot_spacer](https://github.com/VoronDesign/Voron-1/blob/Voron1.6/STLs/Bottom_Skirts/foot_spacer_x4.stl)                       | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     | 2.28m  | 5.82g  | £0.11 | :heavy_check_mark: | This is a 1.6 Part. Required to raise the printer up and allow [Display Mount](printer-voron-1.8-mods.md#display-mount) to swivel. |
 
 ##### Assembly
@@ -767,8 +767,6 @@ The bottom compartment is designed to hold the high voltage components such as t
 Before attaching the power skirt to the printer the power socket and Keystone inserts are installed into the part.
 
 ![Skirts Installed](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-voron-1.8/skirts-installed.jpg)
-
-I will eventually reprint the skirts in black with a red accent mesh using the mod from [Eddie the Engineer's Youtube Video](https://www.youtube.com/watch?v=K6sHfXldK4k).
 
 ###### Parts Used
 

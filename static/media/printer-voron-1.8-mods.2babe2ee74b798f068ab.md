@@ -1,7 +1,7 @@
 # Voron Modifications and Upgrades
 
 Created April 27, 2022 by [Mike Thomas](https://github.com/mikepthomas),
-Updated November 21, 2023
+Updated December 2, 2023
 
 List of upgrades that I plan on adding from the printer mods directory of the Voron Users repository.
 
@@ -32,11 +32,12 @@ List of upgrades that I plan on adding from the printer mods directory of the Vo
 21. [Deck Panel Support Clips](#deck-panel-support-clips)
 22. [Klipper Expander](#klipper-expander)
 23. [BTT 5" Screen case](#btt-5--screen-case)
-24. [Tophat](#tophat)
-25. [LDO Beefy Raspberry Pi Bracket](#ldo-beefy-raspberry-pi-bracket)
-26. [LDO Toolhead Breakout PCB Bracket](#ldo-toolhead-breakout-pcb-bracket)
-27. [Voron M4](#voron-m4)
-28. [Voron Dual Bowden](#voron-dual-bowden)
+24. [Mesh Skirts](#mesh-skirts)
+25. [Tophat](#tophat)
+26. [LDO Beefy Raspberry Pi Bracket](#ldo-beefy-raspberry-pi-bracket)
+27. [LDO Toolhead Breakout PCB Bracket](#ldo-toolhead-breakout-pcb-bracket)
+28. [Voron M4](#voron-m4)
+29. [Voron Dual Bowden](#voron-dual-bowden)
 
 ## Mods
 
@@ -571,30 +572,59 @@ This replaces the [Display Mount](#display-mount) to fit a BigTreeTech PITFT50 t
 | BigTreeTech PITFT50 V2.0                 | 1        |
 | 15 pin Raspberry Pi Display Ribbon Cable | 1m       |
 
+### Mesh Skirts
+
+These mesh skirts were made using the method decribed in [Eddie the Engineer's Youtube Video](https://www.youtube.com/watch?v=K6sHfXldK4k).
+
+| Item                                                                                                                             | Quantity | Material                                                | Printed | Notes |
+| -------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ----- |
+| [skirt_300_left](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Voron%201.8%20Skirt%20Mesh/skirt_300_left_x3.3mf)   | 3        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| [skirt_300_right](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Voron%201.8%20Skirt%20Mesh/skirt_300_right_x4.3mf) | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+| [skirt_middle](https://github.com/mikepthomas/3dprinting/blob/main/Designs/Voron%201.8%20Skirt%20Mesh/skirt_middle_x3.3mf)       | 3        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   |       |
+
+#### :negative_squared_cross_mark: Assembly
+
+![Slicer Preview](https://github.com/mikepthomas/3dprinting/raw/main/Designs/Voron%201.8%20Skirt%20Mesh/slicer-preview.png)
+
+##### Parts Used
+
+###### Parts Used
+
+| Item               | Quantity |
+| ------------------ | -------- |
+| M3 T-nut           | 22       |
+| M3x8 SHCS          | 22       |
+| M3 Threaded Insert | 8        |
+
 ### Tophat
 
 The bowden is very close to the top panel, this raises the top panel up by 35mm to stop the bowden scratching the acrylic.
 
-| Item                                                                                                                                              | Quantity | Material                                                | Printed | Notes                     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------- | :-----: | ------------------------- |
-| [MagTopPanel-Base_300_35](https://github.com/jakub874/Jakub3DPrinterMods/blob/main/Tophat/Voron/300/MagTopPanel-Base_300_35.stl)                  | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Mod by jakub874 |
-| [MagTopPanel-Corner_300_35](https://github.com/jakub874/Jakub3DPrinterMods/blob/main/Tophat/Voron/300/MagTopPanel-Corner_300_35.stl)              | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Mod by jakub874 |
-| [MagTopPanel-Edge_300_35](https://github.com/jakub874/Jakub3DPrinterMods/blob/main/Tophat/Voron/300/MagTopPanel-Edge_300_35.stl)                  | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is a Mod by jakub874 |
-| [dowel](https://github.com/Annex-Engineering/Gasherbrum-K3/blob/main/Release_1_1/STLs/Summit_Enclosure/Tophat/tophat_lid_structure_c_x8_rev3.STL) | 8        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black) |   :x:   | This is an Annex K3 part  |
+| Item                                                                                         | Quantity | Material                                                                    | Printed | Notes                                                                  |
+| -------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------- | :-----: | ---------------------------------------------------------------------- |
+| [V2_Trident_300_Tophat_35mm_Side_left](https://www.printables.com/model/571759/files)        | 2        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   | This is a Mod by [Luc1luc](https://www.printables.com/@Luc1luc_279134) |
+| [V2_Trident_300_Tophat_35mm_Front_Back_left](https://www.printables.com/model/571759/files)  | 2        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   | This is a Mod by [Luc1luc](https://www.printables.com/@Luc1luc_279134) |
+| [V2_Trident_300_Tophat_35mm_Front_Back_right](https://www.printables.com/model/571759/files) | 2        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   | This is a Mod by [Luc1luc](https://www.printables.com/@Luc1luc_279134) |
+| [V2_Trident_300_Tophat_35mm_Side_right](https://www.printables.com/model/571759/files)       | 2        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   | This is a Mod by [Luc1luc](https://www.printables.com/@Luc1luc_279134) |
+| [V2_Trident_Tophat_Connector_Cover](https://www.printables.com/model/571759/files)           | 4        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   | This is a Mod by [Luc1luc](https://www.printables.com/@Luc1luc_279134) |
+| [V2_Trident_Tophat_Connector](https://www.printables.com/model/571759/files)                 | 4        | [eSun ABS+ (Fire Engine Red)](printer-filament.md#esun-abs-fire-engine-red) |   :x:   | This is a Mod by [Luc1luc](https://www.printables.com/@Luc1luc_279134) |
+| [Voron_Logo_Stripes_Connector_Cover_Inserts](https://www.printables.com/model/571759/files)  | 4        | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   | This is a Mod by [Luc1luc](https://www.printables.com/@Luc1luc_279134) |
+| [Magnet-Insert](https://www.printables.com/model/571759/files)                               | 12       | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   | This is a Mod by [Luc1luc](https://www.printables.com/@Luc1luc_279134) |
+| [Unhammer-v2-Hex-Head](https://www.printables.com/model/571759/files)                        | 12       | [eSun ABS+ (Black)](printer-filament.md#esun-abs-black)                     |   :x:   | This is a Mod by [Luc1luc](https://www.printables.com/@Luc1luc_279134) |
 
 #### :negative_squared_cross_mark: Assembly
 
 ##### Parts Used
 
-| Item            | Quantity |
-| --------------- | -------- |
-| 6x3 Magnet      | 56       |
-| M3x8 SHCS       | 24       |
-| M3 Roll-in Nut  | 24       |
-| M3x30 SHCS      | 8        |
-| 1x5mm Foam Tape | 1-2m     |
-| 1x5mm VHB Tape  | 1-2m     |
-| Super Glue      | 1        |
+| Item               | Quantity |
+| ------------------ | -------- |
+| 6x3 Magnet         | 48       |
+| M3x6 SHCS          | 4        |
+| M3x8 SHCS          | 8        |
+| M3 Threaded Insert | 20       |
+| 1x5mm Foam Tape    | 1-2m     |
+| 1x5mm VHB Tape     | 1-2m     |
+| Super Glue         | 1        |
 
 ### LDO Beefy Raspberry Pi Bracket
 

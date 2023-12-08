@@ -52,7 +52,7 @@ Although currently untested, the main branch contains the updated version of the
 
 ## Parts Required
 
-The reference numbers in the notes field refer to the parts required marked on the silkscreen and [can be seen in the interactive BOM](https://www.mikethomas.info/Klipper-Fan-Hat).
+The reference numbers in the notes field refer to the parts required marked on the silkscreen and [can be seen in the interactive BOM](https://klipper-fan-hat.mikethomas.info/).
 
 ### Fasteners
 

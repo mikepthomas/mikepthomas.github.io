@@ -1,7 +1,7 @@
 # Building a DIY Eurorack Modular Synth
 
 June 29, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated October 22, 2023
+Updated December 8, 2023
 
 I am a fan of [Look Mum No Computer](https://www.youtube.com/@LOOKMUMNOCOMPUTER), In one of his videos he mentioned about the website [Music From Outer Space](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&VPW=1430&VPH=660) and the book `Make: Analog Synthesizers` which I have brought and I am currently reading through.
 
@@ -34,14 +34,19 @@ I have seen a 3D Printed Eurorack case that I would like to make called [The SP1
 
 ### Sourcing Parts
 
-| Item                          | Quantity                   | Received | Notes                                                                                                                                                                       |
-| ----------------------------- | -------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Eurorack Blind Panels         | Set of 7                   | Set of 7 | Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-blind-panels-3u-complete-set-7-sizes-in-one-package-black-20hp-panel-gratis/)                 |
-| M3 Threaded Strip Insert 84HP | 4 (6 including dust cover) | 6        | Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-rails-m3-threaded-inserts/?attribute_size=84HP)                                               |
-| Mean Well RT65B Power Supply  | 1                          | 1        | Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-power-supply-mean-well-rt65b/)                                                                |
-| Flying Bus Board Cable        | 1                          | 1        | Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-flying-bus-board-cable-8x-or-10x-16pin-connectors/?attribute_length=50cm+%2810x+connector%29) |
-| 16-16 pin Power Cable         | 5                          | 10       | 30cm length                                                                                                                                                                 |
-| M3 Nylon Screws               | 40                         | 43       | Nylon can prevent [Rack Rash](https://learningmodular.com/glossary/rack-rash/)                                                                                              |
+| Item                                   | Quantity                   | Received | Notes                                                                                                                                                       |
+| -------------------------------------- | -------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Befaco Bananuts (Black)                | 25                         |          | 25 on order                                                                                                                                                 |
+| Befaco Bananuts (Red)                  | 25                         |          | 25 on order                                                                                                                                                 |
+| Befaco Bananuts Wrench Tool            | 1                          | 1        |                                                                                                                                                             |
+| Befaco Passive Bus                     | 1                          |          | 1 on order                                                                                                                                                  |
+| Befaco Squid Cable                     | 1                          |          | 1 on order                                                                                                                                                  |
+| Eurorack Blank Panels (Thonk Logo)     | 1 x 2HP                    |          | 1 on order                                                                                                                                                  |
+| Eurorack Blank Panels (Circuit Design) | Set of 7                   | Set of 7 | Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-blind-panels-3u-complete-set-7-sizes-in-one-package-black-20hp-panel-gratis/) |
+| M3 Threaded Strip Insert 84HP          | 4 (6 including dust cover) | 6        | Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-rails-m3-threaded-inserts/?attribute_size=84HP)                               |
+| Mean Well RT65B Power Supply           | 1                          | 1        | Available on [Modular Synth Lab](https://modularsynthlab.com/product/eurorack-power-supply-mean-well-rt65b/)                                                |
+| 16-16 pin Power Cable                  | 5                          | 10       | 30cm length                                                                                                                                                 |
+| M3 Nylon Screws                        | 40                         | 43       | Nylon can prevent [Rack Rash](https://learningmodular.com/glossary/rack-rash/)                                                                              |
 
 ### Printing Parts
 

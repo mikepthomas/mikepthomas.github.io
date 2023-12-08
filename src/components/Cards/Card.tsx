@@ -42,6 +42,7 @@ interface Props {
   children: string;
   image?: string;
   link: string;
+  target?: string;
   name: string;
 }
 
@@ -50,7 +51,11 @@ export default function Link(props: Props) {
     <Card className="h-100" color="light">
       <CardHeader tag="h3">{props.name}</CardHeader>
       {props.image ? (
-        <CardLink href={props.link} className={styles['zoom']}>
+        <CardLink
+          href={props.link}
+          target={props.target}
+          className={styles['zoom']}
+        >
           <CardImg src={props.image} />
         </CardLink>
       ) : null}
@@ -63,7 +68,11 @@ export default function Link(props: Props) {
         <CardText>{props.children}</CardText>
       </CardBody>
       <CardFooter className="text-end">
-        <CardLink className="btn btn-outline-primary" href={props.link}>
+        <CardLink
+          className="btn btn-outline-primary"
+          href={props.link}
+          target={props.target}
+        >
           View details »
         </CardLink>
       </CardFooter>

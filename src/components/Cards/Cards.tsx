@@ -41,25 +41,43 @@ export default function Links() {
         </h2>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
           <Col>
-            <Card name="FAHView" link="/fahview" archived={true}>
+            <Card
+              name="FAHView"
+              link="https://fahview.mikethomas.info/"
+              target="_blank"
+              archived={true}
+            >
               Final year University project. Viewer application to display
               information from a Folding@Home client.
             </Card>
           </Col>
           <Col>
-            <Card name="FAHWeb" link="/fahweb" archived={true}>
+            <Card
+              name="FAHWeb"
+              link="https://fahweb.mikethomas.info/"
+              target="_blank"
+              archived={true}
+            >
               Extension of work on FAHView. To create a web front end to control
               Folding@Home v7 clients.
             </Card>
           </Col>
           <Col>
-            <Card name="FAHServices" link="/fahservices">
+            <Card
+              name="FAHServices"
+              link="https://fahservices.mikethomas.info/"
+              target="_blank"
+            >
               Extension of work on FAHWeb. To create a REST API to be used by a
               web front end to control Folding@Home v7 clients.
             </Card>
           </Col>
           <Col>
-            <Card name="jFold" link="/jfold">
+            <Card
+              name="jFold"
+              link="https://jfold.mikethomas.info/"
+              target="_blank"
+            >
               Java 11 Library to connect and call functions of the Client Remote
               Interface in a Folding@Home v7 Client.
             </Card>
@@ -73,28 +91,28 @@ export default function Links() {
         </h2>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
           <Col>
-            <Card name="OpenRC F1" link="/#/projects/openrc-f1" image={F1}>
+            <Card name="OpenRC F1" link="/projects/openrc-f1" image={F1}>
               Printing a Formula 1 style remote control car.
             </Card>
           </Col>
           <Col>
             <Card
               name="OpenRC Truggy"
-              link="/#/projects/openrc-truggy"
+              link="/projects/openrc-truggy"
               image={Truggy}
             >
               Logical advancement from the OpenRC F1.
             </Card>
           </Col>
           <Col>
-            <Card name="Guitar" link="/#/projects/guitar" image={Guitar}>
+            <Card name="Guitar" link="/projects/guitar" image={Guitar}>
               Building a guitar with a 3D printed body.
             </Card>
           </Col>
           <Col>
             <Card
               name="Red Rocket"
-              link="/#/projects/red-rocket"
+              link="/projects/red-rocket"
               image={RedRocket}
             >
               3D Printing the Red Rocket Truck Stop from Fallout 4.
@@ -109,22 +127,22 @@ export default function Links() {
         </h2>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
           <Col>
-            <Card name="Anet A8" link="/#/projects/printer">
+            <Card name="Anet A8" link="/projects/printer">
               My first 3D printer.
             </Card>
           </Col>
           <Col>
-            <Card name="Rook 2020" link="/#/projects/printer-rook">
+            <Card name="Rook 2020" link="/projects/printer-rook">
               3D Printing a cheap CoreXY 3D Printer.
             </Card>
           </Col>
           <Col>
-            <Card name="Voron 0.2" link="/#/projects/printer-voron-0.2">
+            <Card name="Voron 0.2" link="/projects/printer-voron-0.2">
               Printing parts to assemble a Voron 0.2 3D printer.
             </Card>
           </Col>
           <Col>
-            <Card name="Voron 1.8" link="/#/projects/printer-voron-1.8">
+            <Card name="Voron 1.8" link="/projects/printer-voron-1.8">
               Printing parts to assemble a Voron 1.8 3D printer.
             </Card>
           </Col>

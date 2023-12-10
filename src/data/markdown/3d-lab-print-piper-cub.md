@@ -1,3 +1,7 @@
+---
+title: 3D LabPrint Piper Cub
+---
+
 # 3D LabPrint Piper Cub
 
 July 22, 2022 by [Mike Thomas](https://github.com/mikepthomas),

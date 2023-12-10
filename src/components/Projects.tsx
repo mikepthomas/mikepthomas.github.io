@@ -29,6 +29,7 @@ import { match } from 'react-router';
 import { Link, useLocation } from 'react-router-dom';
 import { Col, Container, Row } from 'reactstrap';
 import remarkEmoji from 'remark-emoji';
+import remarkFrontmatter from 'remark-frontmatter';
 import remarkGfm from 'remark-gfm';
 
 import { getComponents } from '../js/markdownComponents';
@@ -84,7 +85,7 @@ const Projects = (props: Props) => {
           <Markdown
             children={markdown}
             components={getComponents()}
-            remarkPlugins={[remarkEmoji, remarkGfm]}
+            remarkPlugins={[remarkEmoji, remarkFrontmatter, remarkGfm]}
           />
         </Col>
         <Col lg="4">

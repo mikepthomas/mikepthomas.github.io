@@ -1,3 +1,20 @@
+---
+title: Building a DIY Eurorack Modular Synth
+date: 2023-06-29
+lastmod: 2023-12-08
+author: Mike Thomas
+description: Building a Eurorack Modular Synthesizer from scratch.
+preview: /src/img/eurorack-modular-synth/keystep-pro.jpg
+slug: /#/projects/eurorack-modular-synth
+draft: false
+tags:
+  - synthesizer
+categories:
+  - electronics
+keywords:
+  - eurorack
+---
+
 # Building a DIY Eurorack Modular Synth
 
 June 29, 2023 by [Mike Thomas](https://github.com/mikepthomas),

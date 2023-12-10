@@ -1,7 +1,24 @@
+---
+title: Single Board Computers and Microcontrollers
+date: 2023-06-26
+lastmod: 2023-12-08
+author: Mike Thomas
+description: This page lists all of the single board computers I own and is mainly for me to keep track of what I have and what I am currently using it for.
+preview: /src/img/single-board-computers/raspberry-pi-hero.jpg
+slug: /#/projects/single-board-computers
+draft: false
+tags:
+  - raspberry-pi
+categories:
+  - electronics
+keywords:
+  - computers
+---
+
 # Single Board Computers and Microcontrollers
 
 June 26, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated December 6, 2023
+Updated December 8, 2023
 
 This page lists all of the single board computers I own and is mainly for me to keep track of what I have and what I am currently using it for.
 
@@ -34,15 +51,15 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 ![Arduino Robot](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/single-board-computers/arduino-robot.jpg)
 
-| Item                                                                              | Case            | Flashed with                                  | Notes                                                                                   |
-| --------------------------------------------------------------------------------- | --------------- | --------------------------------------------- | --------------------------------------------------------------------------------------- |
-| [Arduino Duemilanove](https://docs.arduino.cc/retired/boards/arduino-duemilanove) | Tracked Robot   | Blink Sketch                                  | With [Arduino XBee Shield](https://docs.arduino.cc/retired/shields/arduino-xbee-shield) |
-| Arduino Mega 2560 Clone                                                           |                 | [Klipper Firmware](https://www.klipper3d.org) | With [RAMPS 1.6](https://reprap.org/wiki/RAMPS_1.6) + DRV8825 x 5                       |
-| Arduino Uno Clone                                                                 | Breadboard Case | Blink Sketch                                  |                                                                                         |
-| Arduino Uno                                                                       |                 | Blink Sketch                                  |                                                                                         |
-| Arduino Uno R2                                                                    |                 | Blink Sketch                                  |                                                                                         |
-| [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       | Clear Case      | Blink Sketch                                  | Boxed                                                                                   |
-| [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       | Clear Case      | Blink Sketch                                  | Boxed                                                                                   |
+| Item                                                                              | Case            | Flashed with                                                                   | Notes                                                                                     |
+| --------------------------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| [Arduino Duemilanove](https://docs.arduino.cc/retired/boards/arduino-duemilanove) | Tracked Robot   | Blink Sketch                                                                   | With [Arduino XBee Shield](https://docs.arduino.cc/retired/shields/arduino-xbee-shield)   |
+| Arduino Mega 2560 Clone                                                           |                 | [Klipper Firmware](https://www.klipper3d.org)                                  | With [RAMPS 1.6](https://reprap.org/wiki/RAMPS_1.6) + DRV8825 x 5                         |
+| Arduino Uno Clone                                                                 | Breadboard Case | [ArduinoISP](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP) |                                                                                           |
+| Arduino Uno                                                                       |                 | Blink Sketch                                                                   |                                                                                           |
+| Arduino Uno R2                                                                    |                 | Blink Sketch                                                                   |                                                                                           |
+| [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       | Clear Case      | Blink Sketch                                                                   | Boxed with [DFRobot I/O Expansion Shield V7.0](https://www.dfrobot.com/product-1009.html) |
+| [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3)                       | Clear Case      | Blink Sketch                                                                   | Boxed with [DFRobot I/O Expansion Shield V7.0](https://www.dfrobot.com/product-1009.html) |
 
 ## BBC
 
@@ -50,9 +67,9 @@ This page lists all of the single board computers I own and is mainly for me to 
 
 The micro:bit is an inexpensive board designed to teach children how to code.
 
-| Item                                                    | Case                                                                                                                                         | Flashed with | Notes |
-| ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----- |
-| [BBC micro:bit V1](https://archive.microbit.org/guide/) | [Kitronic Inventor's Kit](https://kitronik.co.uk/collections/accessories-for-the-bbc-micro-bit/products/inventors-kit-for-the-bbc-micro-bit) |              |       |
+| Item                                                    | Case                                                                                                                                         | Flashed with | Notes                                                                                                                                                          |
+| ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [BBC micro:bit V1](https://archive.microbit.org/guide/) | [Kitronic Inventor's Kit](https://kitronik.co.uk/collections/accessories-for-the-bbc-micro-bit/products/inventors-kit-for-the-bbc-micro-bit) |              | With [Digital Logic Pack](https://kitronik.co.uk/products/5653-digital-logic-pack-for-kitronik-inventors-kit-for-the-bbc-microbit?_pos=3&_sid=110ef4242&_ss=r) |
 
 ## BigTreeTech
 
@@ -81,9 +98,9 @@ BigTreeTech make mainboards to control 3D printers. :duck:
 | [BigTreeTech ESP-01s](https://biqu.equipment/collections/expansion-board/products/esp-01s-wifi-module-esp8266-for-skr-pro) | BigTreeTech SKR V1.4 Turbo                                                                                  | [ESP3D](https://github.com/luc-github/ESP3D)                                                                       |                   |                                       |
 | [Cytron ESP-01s](https://www.cytron.io/p-esp-01-wifi-serial-transceiver-module-esp8266)                                    | [Maker Pi Pico](https://www.cytron.io/p-maker-pi-pico-simplifying-raspberry-pi-pico-for-beginners-and-kits) | [Cytron ESP-01S AT Firmware](https://github.com/CytronTechnologies/esp-at-binaries)                                |                   |                                       |
 | Generic ESP-01s                                                                                                            | ESP-01 Adapter                                                                                              | [ESPHome](https://esphome.io/)                                                                                     |                   |                                       |
-| Generic ESP-01s                                                                                                            | DHT22 Module                                                                                                | [ESPHome](https://esphome.io/)                                                                                     |                   |                                       |
-| Generic ESP-01s                                                                                                            | DS18B20 Module                                                                                              | [ESPHome](https://esphome.io/)                                                                                     |                   |                                       |
-| Generic ESP-01s                                                                                                            | Relay Module                                                                                                | [ESPHome](https://esphome.io/)                                                                                     |                   |                                       |
+| Generic ESP-01s                                                                                                            | DHT22 Module                                                                                                | [ESPHome](https://esphome.io/)                                                                                     | dht22             |                                       |
+| Generic ESP-01s                                                                                                            | DS18B20 Module                                                                                              | [ESPHome](https://esphome.io/)                                                                                     | ds18b20           |                                       |
+| Generic ESP-01s                                                                                                            | Relay Module                                                                                                | [ESPHome](https://esphome.io/)                                                                                     | relay             |                                       |
 | Generic ESP-01s                                                                                                            | RGB LED Module                                                                                              | [WLED](https://install.wled.me/)                                                                                   |                   |                                       |
 | Generic ESP-32 Cam                                                                                                         | ESP32 CAM MB                                                                                                | [ESPHome](https://esphome.io/)                                                                                     | camera            |                                       |
 | Generic ESP-32 Dev Kit C V4                                                                                                | ESP32 Expansion Board                                                                                       |                                                                                                                    |                   |                                       |
@@ -137,8 +154,8 @@ My Raspberry Pi Zero cluster was assembled using a 8086 Cluster Hat that is quit
 | -------------------------- | -------- | ------- | ----- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | -------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------- |
 | Raspberry Pi Zero V1.2     | 900092   | BCM2835 | 512MB | [8086.net ZeroMicroDongle](https://8086.net/products#80860008)                                                                      |                             |                                                                                                    |          |                                                |
 | Raspberry Pi Zero V1.3     | 900093   | BCM2835 | 512MB | [8086.net ZeroDongle](https://8086.net/products#80860007)                                                                           |                             |                                                                                                    |          |                                                |
-| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | Official Raspberry Pi Zero Case (Camera Lid)                                                                                        | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Buster                                                     | camera1  | With Generic Raspberry Pi Camera Rev 1.3       |
-| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | Official Raspberry Pi Zero Case (Camera Lid)                                                                                        | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Buster                                                     | camera2  | With Generic Raspberry Pi Camera Rev 1.3       |
+| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | Official Raspberry Pi Zero Case (Camera Lid)                                                                                        | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye                                                   | camera1  | With Generic Raspberry Pi Camera Rev 1.3       |
+| Raspberry Pi Zero W V1.1   | 9000c1   | BCM2835 | 512MB | Official Raspberry Pi Zero Case (Camera Lid)                                                                                        | 8GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye                                                   | camera2  | With Generic Raspberry Pi Camera Rev 1.3       |
 | Raspberry Pi Zero 2 W V1.0 | 902120   | BCM2837 | 512MB | [LDO Raspberry Pi Zero USB Expander PCB](https://docs.ldomotors.com/en/voron/voron01/wiring_guide_rev_e#preparing-the-raspberry-pi) | 32GB MicroSD (Integral)     | [MainsailOS](https://docs-os.mainsail.xyz)                                                         | voron0   |                                                |
 | Raspberry Pi Zero 2 W V1.0 | 902120   | BCM2837 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case)                                                             |                             | [Raspberry Pi OS Lite (64-bit) - Bookworm ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p1       | No Storage as it boots via USBBoot from `cnat` |
 | Raspberry Pi Zero 2 W V1.0 | 902120   | BCM2837 | 512MB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case)                                                             |                             | [Raspberry Pi OS Lite (64-bit) - Bookworm ClusterCTRL](https://github.com/burtyb/clusterhat-image) | p2       | No Storage as it boots via USBBoot from `cnat` |
@@ -203,7 +220,7 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 | Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye         | green      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt)   |
 | Raspberry Pi 3 Model B V1.2  | a02082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye         | blue       | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt)   |
 | Raspberry Pi 3 Model B V1.2  | a22082   | BCM2837 | 1GB   | Cluster Case                      | 32GB MicroSD (Sandisk Ultra) | Raspberry Pi OS Lite (Legacy, 32-bit) - Bullseye         | black      | With [Pimoroni Blinkt](https://shop.pimoroni.com/products/blinkt)   |
-| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Official Raspberry Pi 3 B+ Case   | 128GB MicroSD (Integral)     | Raspberry Pi OS Lite (64-bit) - Bookworm                 | nexus      |                                                                     |
+| Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Official Raspberry Pi 3 B+ Case   | 64GB MicroSD (Sandisk Ultra) |                                                          |            |                                                                     |
 | Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Waveshare Touch Screen Case       | 64GB MicroSD (Sandisk Ultra) | Raspberry Pi OS with desktop (Legacy, 32-bit) - Bullseye | controller |                                                                     |
 | Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag MegaPi Case             | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)                      | megapi     |                                                                     |
 | Raspberry Pi 3 Model B+ V1.3 | a020d3   | BCM2837 | 1GB   | Retroflag NESPi Case+             | 16GB MicroSD (Integral)      | [RetroPie](https://retropie.org.uk)                      | nespi      |                                                                     |
@@ -219,13 +236,13 @@ I assembled this cluster to learn all about Containerization using [Docker Swarm
 | Raspberry Pi 4 Model B      |          | BCM2711 | 4GB | Official Raspberry Pi 4 Case (Red)                                      | 16GB MicroSD (Sandisk Edge) | Raspberry Pi OS Full (Legacy, 32-bit) - Bullseye                                                   |          | Boxed Desktop Kit (Unopened) with official Case Fan                                                                |
 | Raspberry Pi 4 Model B V1.4 | c03114   | BCM2711 | 4GB | [Voron 1.8](printer-voron-1.8.md)                                       | 64GB MicroSD (Integral)     | [MainsailOS](https://docs-os.mainsail.xyz)                                                         | voron1   | Boxed                                                                                                              |
 | Raspberry Pi 4 Model B V1.5 | c03115   | BCM2711 | 4GB | [Cluster HAT Case v3.0](https://thepihut.com/products/cluster-hat-case) | 128GB MicroSD (Integral)    | [Raspberry Pi OS Lite (64-bit) - Bookworm ClusterCTRL](https://github.com/burtyb/clusterhat-image) | cnat     | Boxed with [Cluster Hat v2.5](https://thepihut.com/products/cluster-hat-v2-0)                                      |
-| Raspberry Pi 400 V1.0       | c03130   | BCM2711 | 4GB |                                                                         | 16GB MicroSD (Raspberry Pi) | Raspberry Pi OS Full (Legacy, 32-bit) - Bullseye                                                   | pi400    | Boxed with [DACBerry 400 S](https://www.osaelectronics.com/learn/tutorials/dacberry-400-series-quick-start-guide/) |
+| Raspberry Pi 400 V1.0       | c03130   | BCM2711 | 4GB |                                                                         | 128GB MicroSD (Integral)    | Raspberry Pi OS Lite (64-bit) - Bookworm                                                           | nexus    | Boxed with [DACBerry 400 S](https://www.osaelectronics.com/learn/tutorials/dacberry-400-series-quick-start-guide/) |
 
 ## Raspberry Pi 5
 
 | Item                        | Revision | SoC     | RAM | Case                               | Storage                  | OS                                                           | Hostname    | Notes                             |
 | --------------------------- | -------- | ------- | --- | ---------------------------------- | ------------------------ | ------------------------------------------------------------ | ----------- | --------------------------------- |
-| Raspberry Pi 5 Model B V1.0 | c04170   | BCM2712 | 4GB | Official Raspberry Pi 5 Case (Red) | 256GB MicroSD (Integral) | Raspberry Pi OS Full (64-bit), Manually Installed KDE Plasma | raspberrypi | Boxed with official Active Cooler |
+| Raspberry Pi 5 Model B V1.0 | c04170   | BCM2712 | 4GB | Official Raspberry Pi 5 Case (Red) | 256GB MicroSD (Integral) | Raspberry Pi OS Lite (64-bit), Manually Installed KDE Plasma | raspberrypi | Boxed with official Active Cooler |
 
 ## Raspberry Pi Pico
 

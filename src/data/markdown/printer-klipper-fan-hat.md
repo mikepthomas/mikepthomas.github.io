@@ -5,7 +5,17 @@ lastmod: 2023-08-25
 author: Mike Thomas
 description: Creating a Raspberry Pi Hat to control additional fans using the Raspberry Pi as a Secondary MCU in Klipper Firmware.
 preview: /src/img/printer-klipper-fan-hat/klipper-fan-hat-hero.jpg
+slug: /#/projects/printer-klipper-fan-hat
+draft: false
+tags:
+  - Raspberry Pi
+categories:
+  - Electronics
+  - 3D Printing
+keywords:
+  - Klipper
 ---
+
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),

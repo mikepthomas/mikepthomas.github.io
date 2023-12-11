@@ -8,11 +8,11 @@ preview: /src/img/eurorack-modular-synth/keystep-pro.jpg
 slug: /#/projects/eurorack-modular-synth
 draft: false
 tags:
-  - synthesizer
+  - Synthesizer
 categories:
-  - electronics
+  - Electronics
 keywords:
-  - eurorack
+  - Eurorack
 ---
 
 # Building a DIY Eurorack Modular Synth

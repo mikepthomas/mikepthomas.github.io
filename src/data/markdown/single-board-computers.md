@@ -8,11 +8,11 @@ preview: /src/img/single-board-computers/raspberry-pi-hero.jpg
 slug: /#/projects/single-board-computers
 draft: false
 tags:
-  - raspberry-pi
+  - Raspberry Pi
 categories:
-  - electronics
+  - Electronics
 keywords:
-  - computers
+  - Computers
 ---
 
 # Single Board Computers and Microcontrollers

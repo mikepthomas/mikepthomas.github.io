@@ -1,1 +1,6 @@
-{ "taxonomy": { "tags": [], "categories": ["3d-printing", "electronics"] } }
+{
+  "taxonomy": {
+    "tags": ["Raspberry Pi", "Remote Control"],
+    "categories": ["3D Printing", "Electronics"]
+  }
+}

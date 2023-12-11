@@ -1,10 +1,10 @@
 ---
-title: 
-date: {{now}}
-lastmod: {{now}}
+title:
+date: { { now } }
+lastmod: { { now } }
 author: Mike Thomas
-description: 
-preview: 
+description:
+preview:
 slug: /#/projects/
 draft: true
 tags:

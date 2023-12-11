@@ -25,31 +25,24 @@
  */
 import React from 'react';
 import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler } from 'reactstrap';
-import { IconName } from '@fortawesome/free-brands-svg-icons';
 
 import SocialLink, { SocialData } from './SocialLink';
 
-import socialJson from '../../data/Social.json';
 import logo from '../../img/logo-blue.png';
 import styles from './Navigation.module.scss';
 
-interface SocialItem {
-  project?: string;
-  user: string;
-}
-
 interface Props {
-  [key: string]: SocialItem;
+  social: SocialData[];
 }
 
 export default function Navigation(props: Props) {
   const [isOpen, setIsOpen] = React.useState(false);
-  const social = socialJson as SocialData;
+  const github = props.social.filter((item) => item.name === 'GitHub')[0];
   return (
     <div className="Navigation">
       <a
         className={styles['github-banner'] + ' d-none d-md-block'}
-        href={`${social.github.url}${props.github.user}/${props.github.project}`}
+        href={`${github.url}${github.user}/${github.project}`}
       >
         <img
           src="https://raw.githubusercontent.com/aral/fork-me-on-github-retina-ribbons/master/images-uncompressed/fork-me-right-orange.png"
@@ -63,9 +56,11 @@ export default function Navigation(props: Props) {
         <NavbarToggler onClick={() => setIsOpen(!isOpen)} />
         <Collapse isOpen={isOpen} navbar={true}>
           <Nav className="mr-auto" navbar={true}>
-            {Object.keys(props).map((type, key) => (
-              <SocialLink key={key} type={type as IconName} {...props[type]} />
-            ))}
+            {props.social
+              .filter((item) => item.showInNav === true)
+              .map((item) => (
+                <SocialLink key={item.name} {...item} />
+              ))}
           </Nav>
         </Collapse>
       </Navbar>

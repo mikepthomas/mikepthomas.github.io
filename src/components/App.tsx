@@ -31,13 +31,13 @@ import { Footer, Navigation } from '.';
 
 import './App.scss';
 
-import navigationProps from '../data/Navigation.json';
+import social from '../data/Social.json';
 
 export default function App() {
   return (
     <Router>
       <div className="App">
-        <Navigation {...navigationProps} />
+        <Navigation social={social} />
         <Switch>
           <Route
             exact={true}

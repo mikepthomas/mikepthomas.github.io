@@ -28,28 +28,22 @@ import { NavItem, NavLink } from 'reactstrap';
 import { IconName } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import socialJson from '../../data/Social.json';
-
 export interface SocialData {
-  [key: string]: {
-    name: string;
-    url: string;
-  };
-}
-
-interface Props {
-  type: IconName;
+  name: string;
+  icon: string;
+  url: string;
   user: string;
+  project?: string;
+  showInNav: boolean;
 }
 
-export default function SocialLink(props: Props) {
-  const social = socialJson as SocialData;
+export default function SocialLink(props: SocialData) {
   return (
     <NavItem>
-      <NavLink href={social[props.type].url + props.user} target="_blank">
-        <FontAwesomeIcon icon={['fab', props.type]} />
+      <NavLink href={props.url + props.user} target="_blank">
+        <FontAwesomeIcon icon={['fab', props.icon as IconName]} />
         &nbsp;
-        {social[props.type].name} Profile
+        {props.name} Profile
       </NavLink>
     </NavItem>
   );

@@ -1,22 +1,38 @@
-{
-  "facebook": {
-    "name": "Facebook",
-    "url": "https://facebook.com/"
-  },
-  "github": {
+[
+  {
     "name": "GitHub",
-    "url": "https://github.com/"
+    "icon": "github",
+    "url": "https://github.com/",
+    "user": "mikepthomas",
+    "project": "mikepthomas.github.io",
+    "showInNav": true
   },
-  "instagram": {
-    "name": "Instagram",
-    "url": "https://instagram.com/"
-  },
-  "linkedin": {
+  {
     "name": "LinkedIn",
-    "url": "https://www.linkedin.com/in/"
+    "icon": "linkedin",
+    "url": "https://www.linkedin.com/in/",
+    "user": "mikepaulthomas",
+    "showInNav": true
   },
-  "twitter": {
+  {
+    "name": "Instagram",
+    "icon": "instagram",
+    "url": "https://instagram.com/",
+    "user": "montycrabapple",
+    "showInNav": true
+  },
+  {
+    "name": "Facebook",
+    "icon": "facebook",
+    "url": "https://facebook.com/",
+    "user": "montycrabapple",
+    "showInNav": false
+  },
+  {
     "name": "Twitter",
-    "url": "https://www.twitter.com/"
+    "icon": "twitter",
+    "url": "https://www.twitter.com/",
+    "user": "montycrabapple",
+    "showInNav": false
   }
-}
+]

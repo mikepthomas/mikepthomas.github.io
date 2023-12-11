@@ -83,13 +83,7 @@
       "schema": {
         "title": "ExperienceItem",
         "type": "object",
-        "required": [
-          "title",
-          "startDate",
-          "city",
-          "location",
-          "icon"
-        ],
+        "required": ["title", "startDate", "city", "location", "icon"],
         "properties": {
           "title": {
             "type": "string",
@@ -131,6 +125,45 @@
           "inverted": {
             "type": "boolean",
             "title": "Inverted"
+          }
+        }
+      }
+    },
+    {
+      "id": "social",
+      "title": "Social",
+      "file": "[[workspace]]/src/data/Social.json",
+      "fileType": "json",
+      "labelField": "name",
+      "singleEntry": false,
+      "schema": {
+        "title": "SocialItem",
+        "type": "object",
+        "required": ["name", "icon", "url", "user", "showInNav"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "icon": {
+            "type": "string",
+            "title": "Icon Name"
+          },
+          "url": {
+            "type": "string",
+            "title": "url"
+          },
+          "user": {
+            "type": "string",
+            "title": "Username"
+          },
+          "project": {
+            "type": "string",
+            "title": "Project"
+          },
+          "showInNav": {
+            "type": "boolean",
+            "title": "Show in navigation"
           }
         }
       }

@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.08b5c199.css",
-    "main.js": "/static/js/main.22bb6fae.js",
+    "main.js": "/static/js/main.c4e8c0fc.js",
     "static/js/444.4cef4e23.chunk.js": "/static/js/444.4cef4e23.chunk.js",
     "static/css/573.94c97534.chunk.css": "/static/css/573.94c97534.chunk.css",
-    "static/js/573.30d246ba.chunk.js": "/static/js/573.30d246ba.chunk.js",
+    "static/js/573.ca8372df.chunk.js": "/static/js/573.ca8372df.chunk.js",
     "static/js/516.842b15e3.chunk.js": "/static/js/516.842b15e3.chunk.js",
     "static/media/banner.jpg": "/static/media/banner.9cbc9ef686c75e84369f.jpg",
     "static/media/macro-pi-hero.jpg": "/static/media/macro-pi-hero.818289c9c757060ce04d.jpg",
@@ -303,14 +303,14 @@
     "static/media/macro-pi.md": "/static/media/macro-pi.2cd21c4d6d914df6d93d.md",
     "index.html": "/index.html",
     "main.08b5c199.css.map": "/static/css/main.08b5c199.css.map",
-    "main.22bb6fae.js.map": "/static/js/main.22bb6fae.js.map",
+    "main.c4e8c0fc.js.map": "/static/js/main.c4e8c0fc.js.map",
     "444.4cef4e23.chunk.js.map": "/static/js/444.4cef4e23.chunk.js.map",
     "573.94c97534.chunk.css.map": "/static/css/573.94c97534.chunk.css.map",
-    "573.30d246ba.chunk.js.map": "/static/js/573.30d246ba.chunk.js.map",
+    "573.ca8372df.chunk.js.map": "/static/js/573.ca8372df.chunk.js.map",
     "516.842b15e3.chunk.js.map": "/static/js/516.842b15e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08b5c199.css",
-    "static/js/main.22bb6fae.js"
+    "static/js/main.c4e8c0fc.js"
   ]
 }

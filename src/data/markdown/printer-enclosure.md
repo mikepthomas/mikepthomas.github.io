@@ -1,3 +1,20 @@
+---
+title: 3D Printer Enclosure
+date: 2018-07-05
+lastmod: 2023-08-25
+author: Mike Thomas
+description: Creating a 3D printer enclosure using 2 Ikea Lack tables.
+preview: /src/img/printer-enclosure/enclosure-hero.jpg
+slug: /#/projects/printer-enclosure
+draft: false
+tags:
+  - Anet A8
+categories:
+  - 3D Printing
+keywords:
+  - Enclosure
+---
+
 # 3D Printer Enclosure
 
 Created July 5, 2018 by [Mike Thomas](https://github.com/mikepthomas),

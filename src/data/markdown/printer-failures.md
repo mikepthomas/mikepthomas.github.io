@@ -1,11 +1,28 @@
+---
+title: 3D Printer Failures
+date: 2018-05-21
+lastmod: 2022-04-01
+author: Mike Thomas
+description: 3D printing is not all plain sailing, sometimes things go wrong. The best thing about building a printer from scratch, is that you also know how to repair it.
+preview: /src/img/printer-failures/printer-failures-hero.jpg
+slug: /#/projects/printer-failures
+draft: false
+tags:
+  - Anet A8
+categories:
+  - 3D Printing
+keywords:
+  - Failures
+---
+
 # 3D Printer Failures
 
 May 21, 2018 by [Mike Thomas](https://github.com/mikepthomas),
 Updated April 1, 2022
 
-3D printing is not all plain sailing... sometimes things go wrong, the good thing about building your printer from scratch, is that you also know how to repair it.
+3D printing is not all plain sailing, sometimes things go wrong. The best thing about building a printer from scratch, is that you also know how to repair it.
 
-![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-failures/printer-failures-hero.jpg)
+![Broken cable chain held together with cable ties](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-failures/printer-failures-hero.jpg)
 
 ---
 

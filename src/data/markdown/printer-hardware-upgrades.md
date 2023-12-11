@@ -1,11 +1,28 @@
+---
+title: Printer Hardware Upgrades
+date: 2021-05-12
+lastmod: 2023-11-12
+author: Mike Thomas
+description: This page contains information about how I upgraded my Anet A8 to add various hardware mods including swapping out the control board to a BigTreeTech SKR 1.4.
+preview: /src/img/printer-hardware-upgrades/skr-upgrade-hero.jpg
+slug: /#/projects/printer-hardware-upgrades
+draft: false
+tags:
+  - Anet A8
+categories:
+  - 3D Printing
+keywords:
+  - Upgrades
+---
+
 # Printer Hardware Upgrades
 
 May 12, 2021 by [Mike Thomas](https://github.com/mikepthomas),
 Updated November 12, 2023
 
-This page contains information about how I upgraded my stock Anet A8 to add various hardware mods including swapping out the control board to a BigTreeTech SKR 1.4.
+This page contains information about how I upgraded my Anet A8 to add various hardware mods including swapping out the control board to a BigTreeTech SKR 1.4.
 
-![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/skr-upgrade-hero.jpg)
+![Designing a case for the new control board](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-hardware-upgrades/skr-upgrade-hero.jpg)
 
 ---
 

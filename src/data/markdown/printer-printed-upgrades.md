@@ -1,12 +1,28 @@
+---
+title: 3D Printing upgrades for a 3D printer
+date: 2018-05-26
+lastmod: 2022-04-19
+author: Mike Thomas
+description: This project was to take a cheap 3D printer and make it better by upgrading components and 3D printing improved parts.
+preview: /src/img/printer-printed-upgrades/printed-items.jpg
+slug: /#/projects/printer-printed-upgrades
+draft: false
+tags:
+  - Anet A8
+categories:
+  - 3D Printing
+keywords:
+  - Upgrades
+---
+
 # 3D Printing upgrades for a 3D printer
 
 May 26, 2018 by [Mike Thomas](https://github.com/mikepthomas),
 Updated April 19, 2022
 
-This project was to take a cheap 3D printer and make it better by upgrading components and 3D printing
-improved parts.
+This project was to take a cheap 3D printer and make it better by upgrading components and 3D printing improved parts.
 
-![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-printed-upgrades/printed-items.jpg)
+![All the upgrades from one spool of filament](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-printed-upgrades/printed-items.jpg)
 
 ---
 

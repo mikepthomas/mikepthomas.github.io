@@ -1,9 +1,28 @@
+---
+title: Upgrading the Anet A8 to an AM8 Switchwire
+date: 2022-05-28
+lastmod: 2023-11-12
+author: Mike Thomas
+description: The AM8 is a drop in replacement for the frame on the Anet A8. However I will be upgrading to a metal frame with CoreXZ kinematics using the AM8 Switchwire Mod.
+preview: /src/img/printer-am8/printer-am8-hero.jpg
+slug: /#/projects/printer-am8
+draft: false
+tags:
+  - Anet A8
+categories:
+  - 3D Printing
+keywords:
+  - AM8
+---
+
 # Upgrading the Anet A8 to an AM8 Switchwire
 
 May 28, 2022 by [Mike Thomas](https://github.com/mikepthomas),
 Updated November 12, 2023
 
-The [AM8](https://www.thingiverse.com/thing:2263216) is a direct drop in replacement for the acrylic frame on the Anet A8. However I will be upgrading the Anet A8 to a metal frame with CoreXZ kinematics with the [AM8 Switchwire Mod](https://github.com/maximilian-foerg/AM8-Switchwire-Mod).
+The [AM8](https://www.thingiverse.com/thing:2263216) is a drop in replacement for the frame on the Anet A8. However I will be upgrading to a metal frame with CoreXZ kinematics using the [AM8 Switchwire Mod](https://github.com/maximilian-foerg/AM8-Switchwire-Mod).
+
+![3D Printer frame in a bashed up box](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-am8/printer-am8-hero.jpg)
 
 ---
 

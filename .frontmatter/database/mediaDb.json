@@ -6,6 +6,42 @@
           "alt": "A KeyStep Pro in its original box",
           "title": "KeyStep Pro"
         }
+      },
+      "printer-am8": {
+        "printer-am8-hero.jpg": {
+          "alt": "3D Printer frame in a bashed up box",
+          "title": "AM8 Printer Hero Image"
+        }
+      },
+      "printer-enclosure": {
+        "enclosure-hero.jpg": {
+          "alt": "Lack Table 3D Printer Enclosure",
+          "title": "3D Printer Enclosure Hero"
+        }
+      },
+      "printer-failures": {
+        "printer-failures-hero.jpg": {
+          "alt": "Broken cable chain held together with cable ties",
+          "title": "3D Printer Failures Hero"
+        }
+      },
+      "printer": {
+        "printer-hero.jpg": {
+          "alt": "Stock Anet A8, fully assembled",
+          "title": "3D Printer Hero"
+        }
+      },
+      "printer-printed-upgrades": {
+        "printed-items.jpg": {
+          "alt": "All the upgrades from one spool of filament",
+          "title": "3D Printed Upgrades"
+        }
+      },
+      "printer-hardware-upgrades": {
+        "skr-upgrade-hero.jpg": {
+          "alt": "Designing a case for the new control board",
+          "title": "Hardware Upgrades Hero"
+        }
       }
     }
   }

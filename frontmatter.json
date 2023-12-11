@@ -16,14 +16,15 @@
           "title": "Created date",
           "name": "date",
           "type": "datetime",
-          "default": "{{now}}"
+          "default": "{{now}}",
+          "isPublishDate": true
         },
         {
           "title": "Last Modified date",
           "name": "lastmod",
           "type": "datetime",
           "default": "{{now}}",
-          "isPublishDate": true
+          "isModifiedDate": true
         },
         {
           "title": "author",

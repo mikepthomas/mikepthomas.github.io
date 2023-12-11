@@ -1,7 +1,7 @@
 ---
 title: Creating a Printed Circuit Board to control fans in Klipper
 date: 2023-03-21
-lastmod: 2023-08-25
+lastmod: 2023-12-11
 author: Mike Thomas
 description: Creating a Raspberry Pi Hat to control additional fans using the Raspberry Pi as a Secondary MCU in Klipper Firmware.
 preview: /src/img/printer-klipper-fan-hat/klipper-fan-hat-hero.jpg
@@ -19,7 +19,7 @@ keywords:
 # Creating a Printed Circuit Board to control fans in Klipper
 
 March 21, 2023 by [Mike Thomas](https://github.com/mikepthomas),
-Updated August 25, 2023
+Updated December 11, 2023
 
 Creating a Raspberry Pi Hat based on [timmit99's Klipper Expander](https://github.com/timmit99/Klipper-Expander) to control additional fans using the [Raspberry Pi as a Secondary MCU in Klipper Firmware](https://www.klipper3d.org/RPi_microcontroller.html).
 
@@ -89,11 +89,11 @@ The reference numbers in the notes field refer to the parts required marked on t
 | 3 Pin JST-XH Header               | 1        | 20                 | J4                              |
 | 4 Pin JST-XH Header               | 1        | 20                 | J3                              |
 | 5 Pin JST-XH Header               | 1        | 20                 | J2                              |
-| 40 Pin Raspberry Pi Header        | 1        | 2                  | J8                              |
+| 40 Pin Raspberry Pi Header        | 1        | 5                  | J8                              |
 | Dupont Pin Headers                | 41 Pins  | 10 x 40 pin strips | J7, JP1-JP5, WP1, GPIO20-GPIO25 |
 | Jumper Cap 2.54mm                 | 6        | 109                | JP1-JP5, WP1                    |
 | KF301 Screw Terminal (5mm pitch)  | 1        | 10                 | J1                              |
-| PCB Panel Mount Blade Fuse Holder | 1        | 5                  | F1                              |
+| PCB Panel Mount Blade Fuse Holder | 1        | 10                 | F1                              |
 
 ### SMD Components
 
@@ -113,8 +113,8 @@ The reference numbers in the notes field refer to the parts required marked on t
 | Item                       | Quantity | Received | Notes                                                                   |
 | -------------------------- | -------- | -------- | ----------------------------------------------------------------------- |
 | 2510 Axial Fan             | 1        | 2        |                                                                         |
-| CAT24C32 EEPROM            | 1        | 10       | U1                                                                      |
-| DIP-8 Socket               | 1        | 10       | Not required, but makes switching EEPROM modules out easier for testing |
+| CAT24C32 EEPROM            | 1        | 15       | U1                                                                      |
+| DIP-8 Socket               | 1        | 20       | Not required, but makes switching EEPROM modules out easier for testing |
 | DS18B20 Temperature Sensor | 1        | 5        |                                                                         |
 
 ![Klipper Fan Hat In Hand](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer-klipper-fan-hat/klipper-fan-hat-in-hand.jpg)

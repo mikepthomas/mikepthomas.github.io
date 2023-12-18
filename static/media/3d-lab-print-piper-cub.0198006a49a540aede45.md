@@ -1,5 +1,18 @@
 ---
 title: 3D LabPrint Piper Cub
+date: 2022-07-22
+lastmod: 2023-06-30
+author: Mike Thomas
+description: Sourcing parts for a 3D Lab Print Piper Cub remote control airplane!
+preview: /src/img/3d-lab-print-piper-cub/piper-cub-hero.png
+slug: /#/projects/3d-lab-print-piper-cub
+draft: false
+tags:
+  - Remote Control
+categories:
+  - 3D Printing
+keywords:
+  - Piper Cub
 ---
 
 # 3D LabPrint Piper Cub

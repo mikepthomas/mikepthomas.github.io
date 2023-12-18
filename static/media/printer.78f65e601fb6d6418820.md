@@ -1,10 +1,27 @@
+---
+title: Assembly of an Anet A8 3D printer
+date: 2018-05-19
+lastmod: 2018-05-19
+author: Mike Thomas
+description: This project was to assemble a cheap 3D printer with the premise to eventually make it better by upgrading components and 3D printing improved parts.
+preview: /src/img/printer/printer-hero.jpg
+slug: /#/projects/printer
+draft: false
+tags:
+  - Anet A8
+categories:
+  - 3D Printing
+keywords:
+  - Printer
+---
+
 # Assembly of an Anet A8 3D printer
 
 May 19, 2018 by [Mike Thomas](https://github.com/mikepthomas)
 
 This project was to assemble a cheap 3D printer with the premise to eventually make it better by upgrading components and 3D printing improved parts.
 
-![](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/printer-hero.jpg)
+![Stock Anet A8, fully assembled](https://github.com/mikepthomas/mikepthomas.github.io/raw/develop/src/img/printer/printer-hero.jpg)
 
 ---
 

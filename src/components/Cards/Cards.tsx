@@ -91,28 +91,36 @@ export default function Links() {
         </h2>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
           <Col>
-            <Card name="OpenRC F1" link="/#/projects/openrc-f1" image={F1}>
+            <Card
+              name="OpenRC F1"
+              link="https://www.mikethomas.info/projects/openrc-f1"
+              image={F1}
+            >
               Printing a Formula 1 style remote control car.
             </Card>
           </Col>
           <Col>
             <Card
               name="OpenRC Truggy"
-              link="/#/projects/openrc-truggy"
+              link="https://www.mikethomas.info/projects/openrc-truggy"
               image={Truggy}
             >
               Logical advancement from the OpenRC F1.
             </Card>
           </Col>
           <Col>
-            <Card name="Guitar" link="/#/projects/guitar" image={Guitar}>
+            <Card
+              name="Guitar"
+              link="https://www.mikethomas.info/projects/guitar"
+              image={Guitar}
+            >
               Building a guitar with a 3D printed body.
             </Card>
           </Col>
           <Col>
             <Card
               name="Red Rocket"
-              link="/#/projects/red-rocket"
+              link="https://www.mikethomas.info/projects/red-rocket"
               image={RedRocket}
             >
               3D Printing the Red Rocket Truck Stop from Fallout 4.
@@ -127,22 +135,34 @@ export default function Links() {
         </h2>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
           <Col>
-            <Card name="Anet A8" link="/#/projects/printer">
+            <Card
+              name="Anet A8"
+              link="https://www.mikethomas.info/projects/printer"
+            >
               My first 3D printer.
             </Card>
           </Col>
           <Col>
-            <Card name="Rook 2020" link="/#/projects/printer-rook">
+            <Card
+              name="Rook 2020"
+              link="https://www.mikethomas.info/projects/printer-rook"
+            >
               3D Printing a cheap CoreXY 3D Printer.
             </Card>
           </Col>
           <Col>
-            <Card name="Voron 0.2" link="/#/projects/printer-voron-0.2">
+            <Card
+              name="Voron 0.2"
+              link="https://www.mikethomas.info/projects/printer-voron-0.2"
+            >
               Printing parts to assemble a Voron 0.2 3D printer.
             </Card>
           </Col>
           <Col>
-            <Card name="Voron 1.8" link="/#/projects/printer-voron-1.8">
+            <Card
+              name="Voron 1.8"
+              link="https://www.mikethomas.info/projects/printer-voron-1.8"
+            >
               Printing parts to assemble a Voron 1.8 3D printer.
             </Card>
           </Col>

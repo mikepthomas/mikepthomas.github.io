@@ -26,7 +26,7 @@
 import React, { useState } from 'react';
 import Markdown from 'react-markdown';
 import { match } from 'react-router';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { Col, Container, Row } from 'reactstrap';
 import remarkEmoji from 'remark-emoji';
 import remarkFrontmatter from 'remark-frontmatter';
@@ -97,120 +97,148 @@ const Projects = (props: Props) => {
               </p>
               <ul>
                 <li>
-                  <Link to="/projects/printer">Anet A8</Link>
+                  <a href="https://www.mikethomas.info/projects/printer">
+                    Anet A8
+                  </a>
                   <ul>
                     <li>
-                      <Link to="/projects/printer-failures">Failures</Link>
+                      <a href="https://www.mikethomas.info/projects/printer-failures">
+                        Failures
+                      </a>
                     </li>
                     <li>
-                      <Link to="/projects/printer-printed-upgrades">
+                      <a href="https://www.mikethomas.info/projects/printer-printed-upgrades">
                         3D Printed Upgrades
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="/projects/printer-enclosure">
+                      <a href="https://www.mikethomas.info/projects/printer-enclosure">
                         3D Printer Enclosure
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="/projects/printer-hardware-upgrades">
+                      <a href="https://www.mikethomas.info/projects/printer-hardware-upgrades">
                         Hardware Upgrades
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="/projects/printer-am8">AM8 Switchwire</Link>
+                      <a href="https://www.mikethomas.info/projects/printer-am8">
+                        AM8 Switchwire
+                      </a>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link to="/projects/printer-hypercube">
+                  <a href="/projects/printer-hypercube">
                     <s>Hypercube CoreXY Upgrade</s>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/printer-rook">Rook 2020</Link>
+                  <a href="https://www.mikethomas.info/projects/printer-rook">
+                    Rook 2020
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/printer-voron-0.2">Voron 0.2</Link>
+                  <a href="https://www.mikethomas.info/projects/printer-voron-0.2">
+                    Voron 0.2
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/printer-voron-1.8">Voron 1.8</Link>
+                  <a href="https://www.mikethomas.info/projects/printer-voron-1.8">
+                    Voron 1.8
+                  </a>
                   <ul>
                     <li>
-                      <Link to="/projects/printer-voron-1.8-mods">
+                      <a href="https://www.mikethomas.info/projects/printer-voron-1.8-mods">
                         Voron 1.8 Mods
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link to="/projects/printer-enraged-rabbit-carrot-feeder">
+                      <a href="https://www.mikethomas.info/projects/printer-enraged-rabbit-carrot-feeder">
                         Enraged Rabbit Carrot Feeder
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link to="/projects/printer-polyformer">Polyformer</Link>
+                  <a href="https://www.mikethomas.info/projects/printer-polyformer">
+                    Polyformer
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/3d-lab-print-piper-cub">
+                  <a href="https://www.mikethomas.info/projects/3d-lab-print-piper-cub">
                     3D LabPrint Piper Cub
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/3d-sets-landy">3D Sets Landy</Link>
+                  <a href="https://www.mikethomas.info/projects/3d-sets-landy">
+                    3D Sets Landy
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/3d-sets-accessories">
+                  <a href="https://www.mikethomas.info/projects/3d-sets-accessories">
                     3D Sets Accessories
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/openrc-f1">OpenRC F1</Link>
+                  <a href="https://www.mikethomas.info/projects/openrc-f1">
+                    OpenRC F1
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/openrc-truggy">OpenRC Truggy</Link>
+                  <a href="https://www.mikethomas.info/projects/openrc-truggy">
+                    OpenRC Truggy
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/openrc-mini-quad">OpenRC Mini Quad</Link>
+                  <a href="https://www.mikethomas.info/projects/openrc-mini-quad">
+                    OpenRC Mini Quad
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/guitar">Guitar</Link>
+                  <a href="https://www.mikethomas.info/projects/guitar">
+                    Guitar
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/red-rocket">Red Rocket Truck Stop</Link>
+                  <a href="https://www.mikethomas.info/projects/red-rocket">
+                    Red Rocket Truck Stop
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/sanctuary-hills">
+                  <a href="https://www.mikethomas.info/projects/sanctuary-hills">
                     Sanctuary Hills House
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/printer-filament">
+                  <a href="https://www.mikethomas.info/projects/printer-filament">
                     3D Printer Filament
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/eurorack-modular-synth">
+                  <a href="https://www.mikethomas.info/projects/eurorack-modular-synth">
                     Eurorack Modular Synth
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/printer-klipper-fan-hat">
+                  <a href="https://www.mikethomas.info/projects/printer-klipper-fan-hat">
                     Klipper Fan Hat
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/macro-pi">Macro Pi</Link>
+                  <a href="https://www.mikethomas.info/projects/macro-pi">
+                    Macro Pi
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/solar-wifi-weather-station">
+                  <a href="https://www.mikethomas.info/projects/solar-wifi-weather-station">
                     Solar Wifi Weather Station
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/projects/single-board-computers">
+                  <a href="https://www.mikethomas.info/projects/single-board-computers">
                     Single Board Computers
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

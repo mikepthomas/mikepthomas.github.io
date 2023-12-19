@@ -39,7 +39,7 @@ export interface ExperienceItem {
   url?: string;
   description?: string;
   color?: string;
-  icon: string | string[];
+  icon: string;
   inverted?: boolean;
 }
 

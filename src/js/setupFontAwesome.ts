@@ -24,7 +24,12 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import {
+  faApple,
+  faGithub,
+  faInstagram,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
 import {
   faAnchor,
   faBuildingShield,
@@ -38,12 +43,15 @@ import {
 export default function register() {
   library.add(
     faAnchor,
+    faApple,
     faBuildingShield,
     faCalendarAlt,
     faChalkboardTeacher,
+    faGithub,
+    faInstagram,
     faLaptopCode,
+    faLinkedin,
     faUserGraduate,
     faWarehouse,
-    fab,
   );
 }

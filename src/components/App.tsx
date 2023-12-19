@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016-2022, Mike Thomas
+ * Copyright (c) 2016-2023, Mike Thomas
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -23,34 +23,27 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import loadable from '@loadable/component';
+import React, { Fragment } from 'react';
+import { About, Cards, Intro, Timeline } from '.';
 
 import { Footer, Navigation } from '.';
 
 import './App.scss';
 
+import experienceData from '../data/Experience.json';
 import social from '../data/Social.json';
 
 export default function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navigation social={social} />
-        <Switch>
-          <Route
-            exact={true}
-            path="/"
-            component={loadable(() => import(`./Home`))}
-          />
-          <Route
-            path="/projects/:project"
-            component={loadable(() => import(`./Projects`))}
-          />
-        </Switch>
-        <Footer />
-      </div>
-    </Router>
+    <div className="App">
+      <Navigation social={social} />
+      <Fragment>
+        <Intro />
+        <About />
+        <Cards />
+        <Timeline experience={experienceData} />
+      </Fragment>
+      <Footer />
+    </div>
   );
 }

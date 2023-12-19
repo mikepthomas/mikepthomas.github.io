@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016-2022, Mike Thomas
+ * Copyright (c) 2016-2023, Mike Thomas
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -24,7 +24,6 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import { Col, Container, Row } from 'reactstrap';
 
 export default function Footer() {
@@ -33,9 +32,7 @@ export default function Footer() {
       <Container className="mb-4">
         <Row>
           <Col className="col-3 order-last text-end">
-            <Link smooth={true} to="#root">
-              Back to top
-            </Link>
+            <a href="#root">Back to top</a>
           </Col>
           <Col>
             &copy; 2016-{new Date().getFullYear()} Mike Thomas, All rights

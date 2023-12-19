@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.08b5c199.css",
+    "main.css": "/static/css/main.323f99ca.css",
     "main.js": "/static/js/main.b834d362.js",
     "static/media/banner.jpg": "/static/media/banner.9cbc9ef686c75e84369f.jpg",
     "static/media/openrc-hero.jpg": "/static/media/openrc-hero.d77adf6b8fd691b843eb.jpg",
@@ -11,11 +11,11 @@
     "static/media/red-rocket-hero.jpg": "/static/media/red-rocket-hero.daac5c5ea4dfb55706d1.jpg",
     "static/media/logo-blue.png": "/static/media/logo-blue.f5633bfc1da761f20269.png",
     "index.html": "/index.html",
-    "main.08b5c199.css.map": "/static/css/main.08b5c199.css.map",
+    "main.323f99ca.css.map": "/static/css/main.323f99ca.css.map",
     "main.b834d362.js.map": "/static/js/main.b834d362.js.map"
   },
   "entrypoints": [
-    "static/css/main.08b5c199.css",
+    "static/css/main.323f99ca.css",
     "static/js/main.b834d362.js"
   ]
 }

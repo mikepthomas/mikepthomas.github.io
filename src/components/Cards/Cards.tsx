@@ -28,7 +28,7 @@ import { Col, Container, Row } from 'reactstrap';
 
 import Card from './Card';
 import F1 from '../../img/openrc-f1/openrc-hero.jpg';
-import Guitar from '../../img/guitar/12-almost-there.jpg';
+import Guitar from '../../img/guitar/guitar-hero.jpg';
 import RedRocket from '../../img/red-rocket/red-rocket-hero.jpg';
 import Truggy from '../../img/openrc-truggy/truggy-hero.jpg';
 

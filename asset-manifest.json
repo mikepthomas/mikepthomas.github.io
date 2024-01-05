@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.323f99ca.css",
-    "main.js": "/static/js/main.17de97ee.js",
+    "main.js": "/static/js/main.bd233639.js",
     "static/media/banner.jpg": "/static/media/banner.9cbc9ef686c75e84369f.jpg",
     "static/media/openrc-hero.jpg": "/static/media/openrc-hero.d77adf6b8fd691b843eb.jpg",
     "static/media/banner-md.jpg": "/static/media/banner-md.2831e80bf8d1f2805ccd.jpg",
     "static/media/guitar-hero.jpg": "/static/media/guitar-hero.f4820af68a52858dcd45.jpg",
     "static/media/banner-sm.jpg": "/static/media/banner-sm.9bf12fe66ef0184db4b7.jpg",
     "static/media/truggy-hero.jpg": "/static/media/truggy-hero.45c85caf350487c3a228.jpg",
-    "static/media/red-rocket-hero.jpg": "/static/media/red-rocket-hero.daac5c5ea4dfb55706d1.jpg",
+    "static/media/red-rocket-hero.jpg": "/static/media/red-rocket-hero.1b244698c805b633444d.jpg",
     "static/media/logo-blue.png": "/static/media/logo-blue.f5633bfc1da761f20269.png",
     "index.html": "/index.html",
     "main.323f99ca.css.map": "/static/css/main.323f99ca.css.map",
-    "main.17de97ee.js.map": "/static/js/main.17de97ee.js.map"
+    "main.bd233639.js.map": "/static/js/main.bd233639.js.map"
   },
   "entrypoints": [
     "static/css/main.323f99ca.css",
-    "static/js/main.17de97ee.js"
+    "static/js/main.bd233639.js"
   ]
 }

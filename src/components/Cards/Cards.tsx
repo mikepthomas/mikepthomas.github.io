@@ -27,10 +27,10 @@ import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 
 import Card from './Card';
-import F1 from '../../img/openrc-f1/openrc-hero.jpg';
-import Guitar from '../../img/guitar/guitar-hero.jpg';
-import RedRocket from '../../img/red-rocket/red-rocket-hero.jpg';
-import Truggy from '../../img/openrc-truggy/truggy-hero.jpg';
+import F1 from '../../img/cards/openrc-hero.jpg';
+import Guitar from '../../img/cards/guitar-hero.jpg';
+import RedRocket from '../../img/cards/red-rocket-hero.jpg';
+import Truggy from '../../img/cards/truggy-hero.jpg';
 
 export default function Links() {
   return (
